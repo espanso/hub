@@ -17,6 +17,7 @@ UploadedPackage = namedtuple('UploadedPackage', 'name version')
 
 RELEASES_VERSION = "v1.0.0"
 
+# Get the packages that have been published on the Github Releases section
 def get_released_packages() -> list[UploadedPackage]:
   result = subprocess.run(['gh', 'release', 'view', "--json", "assets"], stdout=subprocess.PIPE)
   json_assets = result.stdout.decode('utf-8')
@@ -34,6 +35,7 @@ def get_released_packages() -> list[UploadedPackage]:
 
   return packages 
 
+# Get the packages defined in the hub repository
 def get_repository_packages() -> list[Package]:
   packages = []
   for path in glob.glob("packages/*/*/_manifest.yml"):
@@ -52,6 +54,8 @@ def get_repository_packages() -> list[Package]:
         print("Exception parsing YAML ", exc)
   return packages
 
+# Calculate which packages have NOT been published yet on Releases, 
+# the ones that will need to be published during this run
 def calculate_missing_packages(released: list[Package], repository: list[Package]) -> list[Package]:
   published_packages: set[str] = set()
   for package in released:
@@ -65,6 +69,7 @@ def calculate_missing_packages(released: list[Package], repository: list[Package
   
   return missing_packages
 
+# Calculate SHA256 of the given file 
 def calculate_sha256(filename) -> str:
   sha256_hash = hashlib.sha256()
   with open(filename,"rb") as f:
@@ -72,6 +77,7 @@ def calculate_sha256(filename) -> str:
       sha256_hash.update(byte_block)
     return sha256_hash.hexdigest()
 
+# Archive the given package, calculating its hash
 def create_archive(package: Package)-> tuple[str, str, str]: 
   temp_dir = tempfile.gettempdir()
   target_name = os.path.join(temp_dir, f"{package.name}-{package.version}")
@@ -86,21 +92,14 @@ def create_archive(package: Package)-> tuple[str, str, str]:
   
   return (target_file, target_sha_file, hash)
 
+
+# Upload the package files (archive + SHA256 sum) on GH Releases
 def upload_to_releases(archive_path, archive_hash_path):
   subprocess.run(["gh", "release", "upload", RELEASES_VERSION, archive_hash_path, archive_path, "--clobber" ])
 
-class IndexPackageEntry(TypedDict):
-  name: str
-  author: str
-  description: str
-  version: str
-  title: str
-  archive_url: str
-  archive_sha256_url: str
-
-
+# Generate the updated index and upload it to GH Releases
 def update_index(repository: list[Package]):
-  packages: list[IndexPackageEntry] = []
+  packages = []
 
   for package in repository:
     packages.append({

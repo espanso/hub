@@ -9,8 +9,8 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: '3.9'
-      - run: "pip install pyyaml"
-        name: "Install python dependencies"
+      - name: "Install python dependencies"
+        run: "pip install pyyaml"
       - name: "Publish packages"
         run: "python .github/scripts/publish_packages.py"
         env:
