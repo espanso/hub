@@ -113,7 +113,7 @@ def update_index(repository: list[Package]):
     })
   
   index = {
-    "lastUpdate": round(time.time()),
+    "last_update": round(time.time()),
     "packages": packages,
   }
 
