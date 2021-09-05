@@ -1,0 +1,15 @@
+name: publish-packages
+on: [push, workflow_dispatch]
+jobs:
+  check-bats-version:
+    concurrency: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+      - run: "pip install pyyaml"
+        name: "Install python dependencies"
+      - name: "Publish packages"
+        run: "python .github/scripts/publish_packages.py"
