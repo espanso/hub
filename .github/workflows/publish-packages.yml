@@ -1,7 +1,7 @@
 name: publish-packages
 on: [push, workflow_dispatch]
 jobs:
-  check-bats-version:
+  publish-packages:
     concurrency: deploy
     runs-on: ubuntu-latest
     steps:
@@ -11,5 +11,6 @@ jobs:
           python-version: '3.9'
       - run: "pip install pyyaml"
         name: "Install python dependencies"
+      - run: "gh auth login"
       - name: "Publish packages"
         run: "python .github/scripts/publish_packages.py"
