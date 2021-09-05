@@ -109,8 +109,8 @@ def update_index(repository: list[Package]):
       "description": package.description,
       "title": package.title,
       "version": package.version,
-      "archive_url": f"https://github.com/espanso/hub/releases/download/latest/{package.name}-{package.version}.zip",
-      "archive_sha256_url": f"https://github.com/espanso/hub/releases/download/latest/{package.name}-{package.version}-sha256.txt",
+      "archive_url": f"https://github.com/espanso/hub/releases/latest/download/{package.name}-{package.version}.zip",
+      "archive_sha256_url": f"https://github.com/espanso/hub/releases/latest/download/{package.name}-{package.version}-sha256.txt",
     })
   
   index = {
