@@ -11,6 +11,7 @@ jobs:
           python-version: '3.9'
       - run: "pip install pyyaml"
         name: "Install python dependencies"
-      - run: "gh auth login"
       - name: "Publish packages"
         run: "python .github/scripts/publish_packages.py"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
