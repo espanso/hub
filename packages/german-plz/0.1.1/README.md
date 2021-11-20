@@ -1,0 +1,1 @@
+All german Postleitzahlen - streamlined to single entries
