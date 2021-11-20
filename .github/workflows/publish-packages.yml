@@ -1,5 +1,10 @@
 name: publish-packages
-on: [push, workflow_dispatch]
+
+on:
+  push:
+    branches:
+      - main
+
 jobs:
   publish-packages:
     concurrency: deploy
