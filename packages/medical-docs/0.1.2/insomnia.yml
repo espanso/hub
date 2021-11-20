@@ -1,0 +1,67 @@
+matches:
+  # sleep hygiene
+  - trigger: ":sleephy"
+    word: true
+    replace:  |
+      {{pp}} remove the TV and computer from the bedroom.
+      {{pp}} avoid a bedroom that is too hot or too cold.
+      {{pp}} maintain a quiet, dark, safe, and comfortable sleep environment. Minimize noise and light
+      {{pp}} use the bed and bedroom only for sleep and sex.
+      {{pp}} avoid caffeine after lunch and alcohol within 6 hours of bedtime
+      {{pp}} avoid nicotine close to bedtime or during the night
+      {{pp}} engage in moderate physical activity but avoid heavy exercise within 3 hours of bedtime
+      {{pp}} avoid consuming excessive liquids or a heavy evening meal before bedtime
+      {{pp}} use an alarm clock to get up at the same time every day
+      {{pp}} go to bed only when sleepy, even if later than prescribed sleep schedule.
+      {{pp}} get out of bed if not able to sleep within 20 minutes - go to another room and relax. Return to bed only when sleepy.
+      {{pp}} avoid watching/checking the clock
+      {{pp}} avoid excessive napping during the day - a brief nap (15-30 minutes) during the mid-afternoon can be refreshing and is okay.
+
+  # difficulty sleeping
+  - trigger: ":insomnia"
+    word: true
+    replace:  |
+      Subjective: 
+       {{cc}} difficulty sleeping for DURATION
+       {{sp}} no difficulty falling asleep
+       {{sp}} no difficulty staying asleep
+       {{sp}} no impact on function throughout the day
+       {{sp}} no concerns regarding driving or operating heavy machinery
+       {{sp}} no prior treatments to help sleep
+       {{sp}} no identified trigger (such as stress, travel, shift work, depression, anxiety, pain)
+       {{sp}} no nighttime cough
+       {{sp}} no difficulty breathing
+       {{sp}} no waking to urinate
+       {{sp}} no noise in bedroom (such as partner snoring)
+       {{sp}} no sleep disturbance due to children or pets
+       {{sp}} no uncomfortable temperature in bedroom
+       {{sp}} no lights in bedroom
+       {{sp}} no screens in bedroom
+       {{sp}} no nicotine late in day
+       {{sp}} no caffeine late in day
+       {{sp}} no alcohol late in day
+       {{sp}} last meal of the day at XX pm
+       {{sp}} consistent time to bed XX pm (even on weekends)
+       {{sp}} consistent time to wake XX am (even on weekends)
+       {{sp}} total time in bed of XX hours
+       {{sp}} total sleep time of XX hours
+
+      Assessment:
+       {{ap}}  Primary insomnia
+       {{ap}}  Secondary insomnia due to XXXX
+
+      Plan:
+        {{pp}} start a sleep diary
+        {{pp}} refer to mysleepwell.ca for strategies to improve sleep
+        {{pp}} consider reading Say Good Night to Insomnia for strategies to improve sleep
+        {{pp}} follow recommendations for sleep hygiene:
+        {{sleephy}}
+        A referral has been made for obstructive sleep apnea.
+        {{pp}} consider short term intermittent use of pharmacologic sleeping aid
+        {{pp}} follow-up in 4 weeks
+
+    vars:
+      - name: sleephy
+        type: match
+        params:
+          trigger: ":sleephy"

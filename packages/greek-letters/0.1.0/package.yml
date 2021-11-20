@@ -1,0 +1,195 @@
+# Greek Letters
+
+matches:
+  # GREEK CAPITAL LETTER ALPHA
+  - trigger: ":gA"
+    replace: "Α"
+
+  # GREEK SMALL LETTER ALPHA
+  - trigger: ":ga"
+    replace: "α"
+
+  # GREEK CAPITAL LETTER BETA
+  - trigger: ":gB"
+    replace: "Β"
+
+  # GREEK SMALL LETTER BETA
+  - trigger: ":gb"
+    replace: "β"
+
+  # GREEK CAPITAL LETTER DELTA
+  - trigger: ":gD"
+    replace: "Δ"
+
+  # GREEK SMALL LETTER DELTA
+  - trigger: ":gd"
+    replace: "δ"
+
+  # GREEK CAPITAL LETTER EPSILON
+  - trigger: ":gE"
+    replace: "Ε"
+
+  # GREEK SMALL LETTER EPSILON
+  - trigger: ":ge"
+    replace: "ε"
+
+  # GREEK CAPITAL LETTER PHI
+  - trigger: ":gF"
+    replace: "Φ"
+
+  # GREEK SMALL LETTER PHI
+  - trigger: ":gf"
+    replace: "φ"
+
+  # GREEK CAPITAL LETTER GAMMA
+  - trigger: ":gG"
+    replace: "Γ"
+
+  # GREEK SMALL LETTER GAMMA
+  - trigger: ":gg"
+    replace: "γ"
+
+  # GREEK CAPITAL LETTER ETA
+  - trigger: ":gH"
+    replace: "Η"
+
+  # GREEK SMALL LETTER ETA
+  - trigger: ":gh"
+    replace: "η"
+
+  # GREEK CAPITAL LETTER IOTA
+  - trigger: ":gI"
+    replace: "Ι"
+
+  # GREEK SMALL LETTER IOTA
+  - trigger: ":gi"
+    replace: "ι"
+
+  # GREEK CAPITAL LETTER THETA
+  - trigger: ":gJ"
+    replace: "Θ"
+
+  # GREEK SMALL LETTER THETA
+  - trigger: ":gj"
+    replace: "θ"
+
+  # GREEK CAPITAL LETTER KAPPA
+  - trigger: ":gK"
+    replace: "Κ"
+
+  # GREEK SMALL LETTER KAPPA
+  - trigger: ":gk"
+    replace: "κ"
+
+  # GREEK CAPITAL LETTER LAMDA
+  - trigger: ":gL"
+    replace: "Λ"
+
+  # GREEK SMALL LETTER LAMDA
+  - trigger: ":gl"
+    replace: "λ"
+
+  # GREEK CAPITAL LETTER MU
+  - trigger: ":gM"
+    replace: "Μ"
+
+  # GREEK SMALL LETTER MU
+  - trigger: ":gm"
+    replace: "μ"
+
+  # GREEK CAPITAL LETTER NU
+  - trigger: ":gN"
+    replace: "Ν"
+
+  # GREEK SMALL LETTER NU
+  - trigger: ":gn"
+    replace: "ν"
+
+  # GREEK CAPITAL LETTER OMICRON
+  - trigger: ":gO"
+    replace: "Ο"
+
+  # GREEK SMALL LETTER OMICRON
+  - trigger: ":go"
+    replace: "ο"
+
+  # GREEK CAPITAL LETTER PI
+  - trigger: ":gP"
+    replace: "Π"
+
+  # GREEK SMALL LETTER PI
+  - trigger: ":gp"
+    replace: "π"
+
+  # GREEK CAPITAL LETTER CHI
+  - trigger: ":gQ"
+    replace: "Χ"
+
+  # GREEK SMALL LETTER CHI
+  - trigger: ":gq"
+    replace: "χ"
+
+  # GREEK CAPITAL LETTER RHO
+  - trigger: ":gR"
+    replace: "Ρ"
+
+  # GREEK SMALL LETTER RHO
+  - trigger: ":gr"
+    replace: "ρ"
+
+  # GREEK CAPITAL LETTER SIGMA
+  - trigger: ":gS"
+    replace: "Σ"
+
+  # GREEK SMALL LETTER SIGMA
+  - trigger: ":gs"
+    replace: "σ"
+
+  # GREEK CAPITAL LETTER TAU
+  - trigger: ":gT"
+    replace: "Τ"
+
+  # GREEK SMALL LETTER TAU
+  - trigger: ":gt"
+    replace: "τ"
+
+  # GREEK CAPITAL LETTER UPSILON
+  - trigger: ":gU"
+    replace: "Υ"
+
+  # GREEK SMALL LETTER UPSILON
+  - trigger: ":gu"
+    replace: "υ"
+
+  # GREEK CAPITAL LETTER OMEGA
+  - trigger: ":gW"
+    replace: "Ω"
+
+  # GREEK SMALL LETTER OMEGA
+  - trigger: ":gw"
+    replace: "ω"
+
+  # GREEK CAPITAL LETTER XI
+  - trigger: ":gX"
+    replace: "Ξ"
+
+  # GREEK SMALL LETTER XI
+  - trigger: ":gx"
+    replace: "ξ"
+
+  # GREEK CAPITAL LETTER PSI
+  - trigger: ":gY"
+    replace: "Ψ"
+
+  # GREEK SMALL LETTER PSI
+  - trigger: ":gy"
+    replace: "ψ"
+
+  # GREEK CAPITAL LETTER ZETA
+  - trigger: ":gZ"
+    replace: "Ζ"
+
+  # GREEK SMALL LETTER ZETA
+  - trigger: ":gz"
+    replace: "ζ"
+

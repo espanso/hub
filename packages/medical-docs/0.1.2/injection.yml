@@ -1,0 +1,36 @@
+matches:
+  - trigger: ":injcort"
+    word: true
+    replace: |
+      Subjective: 
+        {{cc}} cortisone injection of LOCATION
+
+        Risks and possible complications including
+        lack of benefit or only very short term relief,
+        bleeding, and infection
+        Specifically discussed possible increased
+        pain in the first three days after injection
+        ("steroid flare")
+
+        Consent obtained.
+
+      Objective:
+        Area located and marked.
+        Sterilized with chlorhexidine multiple times.
+        Injection with 25 gauge 1.5 inch sterile needle
+        Medication injected:
+          Kenalog 40mg/ml (Lot:  Expiry: ) x 1 ml
+          and Lidocaine 2% with no epinephrine x 3 ml
+
+        Injection well tolerated
+        Injection site covered with bandaid
+        No immediate complication.
+
+      Assessment:
+        {{ap}} subacromial bursitis
+        {{ap}} osteoarthritis of the left knee
+
+      Plan:
+        {{pp}} follow-up immediately if concerns for infection
+         (increased redness, pain, swelling, warmth after 3 days)
+

@@ -1,0 +1,199 @@
+matches:
+  - trigger: ":delayedejac"
+    replace:  |
+     Subjective:
+       {{cc}} delayed ejaculation for the past DURATION
+       {{sp}} no difficulty with ejaculation with masturbation
+       {{sp}} no difficulty with ejaculation with partner
+       {{sp}} no history of anxiety
+       {{sp}} no seratonin enhancing drugs
+         Examples: 
+           SSRI, SNRI, Bupropion, TCAs, MAOIs
+           Anti-psychotics,
+           triptans, Carbamazepine, Valproic acid, Lithium
+           Opioids,
+           Metoclopramide, Ondansetron
+           Cyclobenzaprine, Dextromethorphan
+           LSD, ecstasy, cocaine, amphetamines       
+
+     Assessment:
+       {{ap}} Primary Delayed Ejaculation (likely at least partly secondary to serotonergic medication]
+       Primary delayed ejaculation is difficult to treat unless directly related to a medication.
+       If a medication cause is suspected, strategies include:
+       1) Switching SSRI to vilazodone (Viibryd) or low dose vortioxetine (Trintellix)
+       2) Switching SSRI to SNRI - duloxetine (cymbalta) or levomilnacipran (Fetzima) likely best
+       3) Adding mirtazapine (Remeron) or bupropion (Wellbutrin) to an SSRI
+
+       If not medication related, it is usually related to anxiety, and overcontrolling or obsessive personality traits.
+       Intensive counselling may be helpful.
+
+       Most men are able to find specific stimuli when alone that help them reach their particularly high ejaculation threshold.
+       Having their partner mimic these techniques may allow them to ejaculate with their partner. 
+
+       Finally, a stimulant  (eg Dexedrine 5-10mg) 1 hour before sexual activity may help. 
+       If this approach is effective, one should consider screening for ADHD.
+
+     Plan:
+       {{pp}} self refer to counselling
+       {{pp}} trial a medication switch to vilazodone (Viibryd) vortioxetine (Trintellix)  duloxetine (Cymbalta) levominacipran (Fetzima)]
+       {{pp}} trial adding mirtazapine (Remeron) bupropion (Wellbutrin)
+       {{pp}} trial dexedrine 5mg, taken one hour before sexual activity
+       {{pp}} follow-up within 1 month regarding effectiveness of treatment, sooner if concerns
+
+
+  - trigger: ":lowtest"
+    word: true
+    replace:  |
+      Subjective:
+        {{cc}} possible low testosterone
+
+        Sexual Symptoms:
+        {{sp}} no decreased libido
+        {{sp}} no erectile dysfunction
+        {{sp}} no decreased frequency of morning erections
+        {{sp}} no decreased performance
+
+        Somatic Symptoms:
+        {{sp}} no increased visceral body fat/obesity,
+        {{sp}} no decreased lean muscle mass,
+        {{sp}} no decreased strength,
+        {{sp}} no fatigue/loss of energy,
+        {{sp}} no decreased physical activity/ vitality,
+        {{sp}} no low bone mineral density,
+        {{sp}} no anemia,
+        {{sp}} no flushes,
+        {{sp}} no loss of facial, axillary and pubic hair/slow beard growth
+        {{sp}} no decline in general feeling of well-being
+
+        Psychological Symptoms:
+        {{sp}} no depression/depressed mood,
+        {{sp}} no mood changes,
+        {{sp}} no irritability,
+        {{sp}} no inability to concentrate
+        {{sp}} no insomnia/sleep disturbances
+
+      Objective: 
+        {{op}} no gonadal atrophy,
+        {{op}} no decrease in pubic and facial hair, 
+        {{op}} no decrease in muscle mass, 
+        {{op}} no increase in visceral fat
+
+      Assessment:
+        {{ap}} Testosterone Deficiency Syndrome
+
+      Plan:
+        {{pp}} complete testing for testosterone level (recommended 7 - 11am or within 3 hours of waking if shift work)
+        and related levels to confirm diagnosis and allow monitoring during treatment
+        (FSH, LH, Prolactin, SHBG, Albumin (cFT or cBAT), TSH, Ferritin (or % iron saturation), CBC, PSA)
+
+  # This is a general discussion of testosterone deficiency syndrome for reference
+  # This information is not necessarily up to date or compliant with any guidelines 
+  - trigger: ":lowtestinfo"
+    word: true
+    replace:  |
+        Testing:
+        Testosterone 7am-11am or within 3 h of rising for shift workers
+        If borderline, use bioavailable testosterone - user pay or calculate with testosterone, SHBG, albumin
+        www.issam.ch/freetesto.htm
+        Bioavailable testosterone normal range (4.0 - 16.0)
+        If normal, do not replace as may suppress natural production and pt feels worse!
+
+        Additional testing FSH, LH, Prolactin, SHBG, Albumin (cFT or cBAT), TSH, Ferritin (or % iron
+        saturation), CBC, PSA
+
+        FSH, LH low indicates secondary hypogonadism
+
+        Secondary hypogonadism causes:
+        Kallmann syndrome - associated with color blindness, anosmia
+        Pituitary disorders - pituitary tumor, or treatment for tumor
+        Inflammatory disease - sarcoidosis, histiocytosis, tuberculosis
+        HIV/AIDS
+        Medications - opiates, hormones, glucocorticoids, ketoconazole
+        Substances - etoh, heroin
+        Obesity
+        Normal aging
+        Concurrent illness - severe OSA, liver disease, hemochromatosis, severe illness, surgery, emotional stress
+
+        Treatment:
+        Lifestyle: aerobic exercise and resistance training, healthy diet, sleep, stress mgt
+        Huge overlap of pre-diabetes/diabetes/metbolic syndrome, erectile dysfunction, low testosterone
+        Treatment should improve sexual function, reduce need for PDE-5 inhibitors
+
+        TRT:
+        Contraindications:   Metastatic Prostate CA, Hx of Breast Ca
+        Side effects:
+        Fertility: TRT suppresses sperm counts but fully reversible.  Either withdraw or use clomid
+        CV risk: no convincing evidence of increased risk, but conflicting studies. Some suggest protection for pts with low T to start.
+        Prostate CA: Does not cause but could enhance growth if already present
+
+        Delatestryl:    1ml (200mg) q2week   0.5ml (100mg) q1week
+        Testosterone Cypionate: 2ml (200mg) q2week  1ml (100mg) q1week
+        Oral has poor absorption:  Andriol 80mg bid with fatty meals, fist oil supplement, olive oil
+        Topical: Androgel/Testim starting 5g/day,  Axiron 3-6g/day (axillary application),
+                     Androderm patch 5g/qhs)
+        Intranasal: Natesto (testosterone nasal gel 4.5%) 1 actuation (5.5mg) per nostril or 2 actuations total bid (22mg/day) to start
+
+        Monitoring
+        Prior to treatment:  Baseline DRE, 6 mo, 12mo, then annual
+        Bloodwork (CBC, LFTs, Creatinine, BG/A1C, Lipids, PSA) prior to, 3,6,12mo, then annual
+
+        If PSA rising to greater than age cutoff or >0.75/year, stop testosterone,
+             recheck PSA and if still elevated, refer to urology (Rapid Access PSA Clinic in Calgary)
+
+        Test level for Oral/transdermal - ideally 2 hours after dose (relative peak)
+        Injectable - day prior or day of injection (trough)
+        Goal of mid range (normal is 10-29) without s/e, improved general wellbeing, and sexual health
+
+        Organ system                     Benefits                     Harms
+        Erectile function/libido         Improvement                  None
+        Depression/mood/fatigue          Improvement                  Aggressive behaviour
+        Erythropoiesis                   Increase in hematocrit       Increased risk of polycythemia,
+                                                                                              embolism
+        Skeletal muscle                  Increase in fat-free mass    None
+        Bone metabolism                  Prevention of osteoporosis   None
+        Cardiovascular system            Improvement in congestive    Increased risk of thromboembolic
+                                         heart failure,               cardiovascular events
+                                         exercise capacity
+
+        Prostate
+        Benign prostatic hyperplasia   None beyond manifestations       Marginal increase in volume and
+                                       of testosterone deficiency       prostate-specific antigen level
+                                       syndrome
+        Cancer (metastatic or high risk of recurrence) Absolute contraindication
+                                                       Recurrence and rapid progression
+
+
+        Cancer (localized and treated)   None beyond manifestations   Potential exacerbation of subclinical
+                                                                      of testosterone deficiency syndrome
+                                                                      residual cancer
+
+        Testicle                        None beyond manifestations            Atrophy or impairment of 
+                                        of testosterone deficiency syndrome   spermatogenesis
+
+        Also see: CMAJ Guidelines 2015
+
+  - trigger: ":cialis"
+    word: true
+    replace: |
+       You are advised to trial the prescribed Cialis (Tadalafil) starting with 10mg (1/2 tablet)
+       as needed at least 30 minutes before sexual activity.  This medication is expected to
+       improve function for up to 36 hours after a single dose.
+       If 10 mg works well, you may try reducing the dose to 5 mg (1/4 tablet) to reduce cost
+       and any possible side-effects.
+       If 10 mg provides only a partial response, you can increase to 20 mg (full tablet).
+       If 20 mg is not effective, please follow-up for further discussion of alternative treatments.
+       Do not exceed 20mg.
+
+       If you find it more convenient to take daily, rather than as needed,
+       the recommended daily dose is 2.5mg (1/8 tablet) up to 5 mg (1/4 tablet).
+       A pill splitter may help to cut to 1/8 tablet, and usually we prescribe the 20mg
+       tablets since they are the most cost effective, but there are smaller
+       dose tablets (2.5mg, 5mg, 10mg) available if needed.
+
+       Since this is your first time using this medication, you are recommended to only pick-up
+       a minimum amount (4 tablets) to start to ensure it is working well before obtaining more,
+       although your prescription is for more tablets so you can continue if it is working well.
+
+       Please follow-up with your regular family physician to ensure you have appropriate monitoring
+       of vascular risk factors, to determine if you may be a candidate for hormonal supplementation,
+       and to help with smoking cessation. 

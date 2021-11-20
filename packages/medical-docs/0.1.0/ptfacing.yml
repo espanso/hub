@@ -1,0 +1,16 @@
+matches:
+  - trigger: "ya"
+    replace: "You are at home in"
+    word: true
+
+  - trigger: "ym"
+    replace: "Your main concern today is"
+    word: true
+
+  - trigger: "yh"
+    replace: "You have had"
+    word: true
+
+  - trigger: "yn"
+    replace: "You have had no"
+    word: true

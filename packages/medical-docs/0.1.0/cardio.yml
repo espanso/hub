@@ -1,0 +1,5 @@
+matches:
+  - trigger: "cp"
+    replace: "chest pain"
+    propagate_case: true
+    word: true

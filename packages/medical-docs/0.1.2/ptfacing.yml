@@ -1,0 +1,145 @@
+matches:
+  - trigger: "ya"
+    replace: "You are at home in"
+    word: true
+
+  - trigger: "yaa"
+    word: true
+    replace: |
+       You are at home in XXXX accompanied by your mother (XXX).
+
+  - trigger: "yar"
+    word: true
+    replace: "You are advised to"
+
+  - trigger: "ym"
+    replace: "Your main concern today is"
+    word: true
+
+  - trigger: "yfut"
+    replace: "Your main concern today is to follow-up on test results"
+    word: true
+
+  - trigger: "yh"
+    replace: "You have had"
+    word: true
+
+  - trigger: "yn"
+    replace: "You have had no"
+    word: true
+
+  - trigger: "yrx"
+    replace: "You are requesting a prescription for"
+    word: true
+
+  - trigger: "yw"
+    replace: "You appear well, with no apparent distress"
+    word: true
+
+  - trigger: "trx"
+    replace: "Please take medication(s) prescribed as directed"
+    word: true
+
+  - trigger: "ymhx"
+    replace: "Your medical history significantly includes"
+    word: true
+
+  - trigger: "yfhx"
+    replace: "Your family history significantly includes"
+    word: true
+
+  - trigger: "ymed"
+    replace: "Your current medications include"
+    word: true
+
+  - trigger: "ynhx"
+    replace: "You have no previous significant medical history, no prescription medications and no relevant family history"
+    word: true
+
+  - trigger: "ymnd"
+    replace: "You were accompanied by your mom and dad."
+    word: true
+
+  - trigger: "vutd"
+    replace: "vaccinations are up to date"
+    word: true
+
+  - trigger: "cpl"
+    replace: "Please copy the following link into your browser:"
+    word: true
+
+  - trigger: ":results"
+    word: true
+    replace: |
+      Once your tests are completed and results are available,
+      you will hear from us.
+      For some tests, this will be within 2-3 DAYS of completing the tests,
+      but for other tests it will be longer.  Some blood tests take up to
+      7 WORKING DAYS and MRIs can take up to 10 WORKING DAYS.
+
+      You will be contacted regardless of whether or not the results
+      require follow up. Please wait to be contacted about the results
+      before booking a follow up appointment.
+
+      If you have not received notification of your results from us
+      WITHIN 5 DAYS of completing your tests, please contact us:
+        Email: {{myemail}}
+        Phone: {{myphone}}
+
+      If there is a significant change in your symptoms, or decline
+      in your health while waiting for the results, please do not wait
+      for the results before being reassessed. Please seek out medical care
+      as soon as possible if there is a significant worsening of your condition.
+
+  - trigger: ":findfp"
+    word: true
+    replace: |
+             You are recommended to find a regular family physician. This website should be helpful:
+             {{findfpwebsite}}
+
+  - trigger: ":refer"
+    word: true
+    replace: |
+       A referral to SPECIALITY has been sent today.
+       You should hear back within two weeks regarding the status of your
+       referral and possible wait time.
+
+       If you have not heard an update within 2 weeks, please contact us:
+        Email: {{myemail}}
+        Phone: {{myphone}}
+
+       {{findfp}}
+       {{covidremind}}
+
+       If there is a significant change in your symptoms, or decline
+       in your health while waiting for the results, please do not wait
+       before being reassessed. Please seek out medical care as
+       soon as possible if there is a significant worsening of your condition.
+    vars:
+      - name: findfp
+        type: match
+        params:
+          trigger: ":findfp"
+      - name: covidremind
+        type: match
+        params:
+          trigger: ":covidremind"
+
+  - trigger: ":noshow"
+    word: true
+    replace: |
+       Unfortunately we were not able to complete today's consult
+       because I was unable to contact you.
+       I attempted to contact you for video conference through the app
+       and waited over 60 seconds twice.
+       I then attempted to contact you by cell phone but
+       you did not answer.
+       I then once again attempted to contact you for video conference
+       through the app and waited over 60 seconds.
+
+       If you have not already addressed your concern in another way,
+       please rebook your appointment.
+
+
+
+

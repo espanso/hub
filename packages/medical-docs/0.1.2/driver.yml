@@ -1,0 +1,41 @@
+matches:
+  - trigger: ":driver"
+    word: true
+    replace: |
+      Subjective:
+        {{cc}} Medical Examination for Driver's License
+        Class of driver license required:
+          Class 1 : Professional license to drive any vehicle
+          Class 2 : Professional license for buses
+          Class 3 : Vehicles with 3 axles plus - trucks
+          Class 4 : Professional license for taxi, ambulance, small bus
+          Class 5 : Standard driver’s license for cars, light trucks, motorhomes
+          Class 6 : Motorcycles and mopeds
+
+        {{sp}} no concerns with driving
+        {{sp}} no difficulty with vision
+        {{sp}} no difficulty with hearing the TV, telephone, or understanding speech in crowded room.
+        {{sp}} no difficulty moving neck, shoulders, elbows, wrists, or ankles
+        {{sp}} no history of ischemic heart disease (angina, heart attack)
+        {{sp}} no history of diabetes mellitus
+        {{sp}} no history of low blood sugar (hypoglycemia)
+        {{sp}} no history of  ministroke or blacking out.
+        {{sp}} no history of seizures in the past year.
+        {{sp}} no traffic violations, accidents, or close calls within the past year
+
+      Objective:
+        {{op}} normal range of motion of neck, shoulders, elbows, wrists, fingers, and ankles.
+        {{op}} normal strength (5/5) throughout including hand grip strength
+        {{op}} no abdominal pulsations
+        {{op}} normal heart sounds (S1/S2)
+        {{op}} no extra heart sounds (EHS)
+        {{op}} no heart murmurs
+        {{op}} good air entry to both lungs (GAEB)
+        {{op}} no abnormal lung sounds (adventitia)
+
+      Assessment:
+        {{ap}} no concerns regarding medical fitness to drive
+
+      Plan:
+        Form filled and given
+        {{pp}} follow-up as needed

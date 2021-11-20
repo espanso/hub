@@ -1,0 +1,9 @@
+matches:
+  - trigger: ":tableflip:"
+    replace: "(╯°□°）╯︵ ┻━┻"
+  - trigger: ":fliptable:"
+    replace: "(╯°□°）╯︵ ┻━┻"
+  - trigger: ":fixtable:"
+    replace: "┬─┬ノ( º _ ºノ)"
+  - trigger: ":angry table flip:"
+    replace: "‎(ﾉಥ益ಥ）ﾉ﻿ ┻━┻"

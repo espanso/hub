@@ -1,0 +1,95 @@
+matches:
+  - trigger: ":headachefu"
+    word: true
+    replace:  |
+     {{pp}} immediately seek medical attention if:
+       Your headache comes on suddenly, quickly becomes severe,
+            or could be described as "the worst headache of your life"
+       Your headache is severe and you also have a fever or stiff neck
+       You have a seizure, personality changes or confusion, or you pass out
+       Your headache began right after you exercised or had a minor injury
+       You have weakness, numbness, or trouble seeing
+
+  - trigger: ":headacheredflag"
+    word: true
+    replace:  |
+     {{sp}} no thunderclap onset
+       {{sp}} no fever
+       {{sp}} no rash
+       {{sp}} no neck stiffness
+       {{sp}} no focal weakness
+       {{sp}} no numbness
+       {{sp}} no speech difficulties
+       {{sp}} no imbalance
+       {{sp}} no eye pain
+       {{sp}} no night sweats
+       {{sp}} no unintentional weight loss
+
+  - trigger: ":headache"
+    word: true
+    replace:  |
+      Subjective:
+        {{cc}} headache for the past DURATION
+
+        Red Flags:
+        {{redflags}}
+
+        {{pain}}
+
+        {{sp}} no aura (neurological symptoms before headache starts)
+        {{sp}} no previous head injury
+        {{sp}} no previous medical history (eg high blood pressure, diabetes, insomnia)
+        {{sp}} no analgesia overuse (>14 days/month for plain acetaminophen or NSAID,
+               >9 days/month for triptans, opioids, or combinations)
+        {{sp}} no excess alcohol consumption
+
+      Objective:
+        {{op}} normal blood pressure
+        {{op}} no fever
+        {{op}} no scalp tenderness
+        {{op}} no neck tenderness
+        {{op}} no sinus tenderness
+        {{op}} no temporomandibular joint (TMJ) clicking or tenderness
+        {{op}} normal painless range of motion of the neck
+
+        {{neuroexam}}
+
+      Assessment:
+        {{ap}} Cervicogenic Headache
+        {{ap}} Migraine Headache without Aura
+        There are NO red flags
+
+      Plan:
+        {{pp}} start a headache diary
+        {{pp}} decrease caffeine
+        {{pp}} increase regular exercise
+        {{pp}} maintain regular sleep and regular meals
+        {{pp}} use over the counter medication for mild attacks:
+          Tylenol 1 g PRN,  Advil 400 mg PRN, or Naproxen 550 mg PRN
+        {{pp}} use prescription medication for severe attacks:  Zolmitriptan
+        {{pp}} avoid overuse of medication: (>14 days/month for
+               acetaminophen or ibuprofen, >9 days/month for triptans)
+        {{pp}} start daily migraine prophylaxis medication: Propranolol
+        {{pp}} trial saline nasal rinse with distilled water
+               and intra-nasal corticosteroid spray
+        {{pp}} follow-up in 2 weeks to review effectiveness of treatment
+
+        {{followup}}
+
+    vars:
+      - name: redflags
+        type: match
+        params:
+          trigger: ":headacheredflag"
+      - name: followup
+        type: match
+        params:
+          trigger: ":headachefu"
+      - name: neuroexam
+        type: match
+        params:
+          trigger: ":neuroexam"
+      - name: pain
+        type: match
+        params:
+          trigger: ":pain"

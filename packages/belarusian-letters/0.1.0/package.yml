@@ -1,0 +1,22 @@
+# Belarusian traditional cyrillic letters
+
+matches:
+  # Ŭ/ŭ https://be-tarask.wikipedia.org/wiki/%D0%8E
+  - trigger: "У_"
+    replace: "Ў"
+  - trigger: "у_"
+    replace: "ў"
+
+  # I/i
+  - trigger: "И_"
+    replace: "І"
+  - trigger: "и_"
+    replace: "і"
+  
+  # G/g https://be-tarask.wikipedia.org/wiki/%D2%90
+  - trigger: "Г_"
+    replace: "Ґ"
+  - trigger: "г_"
+    replace: "ґ"
+  
+  

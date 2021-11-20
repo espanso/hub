@@ -1,0 +1,50 @@
+matches:
+  - trigger: ":nosebleed"
+    word: true
+    replace: |
+      Subjective: 
+        {{cc}} nose bleed from RIGHT side for past DURATION
+        {{sp}} recurrent bleeds about every INTERVAL
+        lasting about DURATION
+        {{sp}} no identified triggers
+                 (trauma, nasal surgery, nasal picking, foreign body,
+                  upper respiratory tract infection, allergic rhinitis)
+
+        Red Flags:
+        {{sp}} no chest pain
+        {{sp}} no shortness of breath
+        {{sp}} no dizziness
+
+        {{sp}} no bleeding disorder
+        {{sp}} no high blood pressure
+        {{sp}} no liver cirrhosis
+        {{sp}} no coronary artery disease
+        {{sp}} no use of intranasal corticosteroid
+        {{sp}} no use of anti-platelet drugs such as
+              aspirin, clopidigrel, or ticagrelor
+        {{sp}} no use of anti-coagulants such as heparin, warfarin,
+               rivaroxaban, apixaban, edoxaban, or dabigatran
+
+      Objective: 
+        {{op}} generally well appearance
+        {{op}} no bruising (ecchymosis)
+        {{op}} no rash suggestive of platelet dysfunction (petechiae)
+        {{op}} no abnormal blood vessel growth (telangiectasia)
+        {{op}} no active bleeding
+        {{op}} no evidence of recent bleeding in nose (at Kiesselbachs plexus)
+        {{op}} no blood in the mouth or throat (oropharynx)
+
+        cotton soaked in lidocaine 2% with epi applied
+        followed by cautery using silver nitrate
+
+      Assessment:
+        {{ap}} anterior nasal bleeding with no red flags
+
+      Plan:
+        {{pp}} lean forward and clamp nose if active bleeding
+        {{pp}} seek medical attention if bleeding doesn't stop in 10 minutes
+        {{pp}} stop intranasal corticosteroid spray
+        {{pp}} direct nasal spray away from septum
+        {{pp}} sleep in a humidified environment
+        {{pp}} apply topical antibiotic (bactroban) in nostril using cotton swab
+        {{pp}} follow-up if symptoms worsening or other concerns

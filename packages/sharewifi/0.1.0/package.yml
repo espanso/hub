@@ -1,0 +1,26 @@
+# sharewifi package
+
+matches:
+  - trigger: ":qrsharewifi"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "sharewifi -q"
+
+  - trigger: ":vsharewifi"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "sharewifi -v"
+
+  - trigger: ":sharewifi"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "sharewifi"

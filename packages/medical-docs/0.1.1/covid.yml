@@ -1,0 +1,129 @@
+matches:
+  - trigger: "cv"
+    replace: "COVID-19"
+    word: true
+
+  - trigger: ":covidphone"
+    replace: |
+      COVID PHONE COMMUNICATION
+
+      Start Time: {{mytime}}
+
+      Reason for call:  In lieu of office visit due to COVID-19 concerns
+
+      Notes:
+      {{sp}} no travel
+      {{sp}} no contact with recent travellers or suspected COVID-19 cases.
+      {{sp}} no symptoms of COVID (cough, fever, shortness of breath, runny nose, or sore throat)
+      that is not related to a pre-existing illness or health condition
+
+      Recommended to continue social distancing.
+
+      End Time:
+    vars:
+    - name: mytime
+      type: match
+      params:
+        trigger: ":time"
+
+  - trigger: ":covidsig"
+    replace: |
+      Please remember to practise social distancing.
+
+
+# This COVID risk assessement and monitoring is based on the
+# COVID-19 Positive Primary Care Pathway
+# Posted on www.specialistlink.ca
+  - trigger: ":covidrisk"
+    replace: |
+      COVID PHONE RISK ASSESSMENT
+
+      Start Time: {{mytime}}
+
+      Reason for call:  Risk stratification for presumed or confirmed COVID case
+
+      Safety Net Check:
+        {{sp}} no social isolation
+        {{sp}} no lack of caregiver support
+        {{sp}} no inability to maintain hydration
+        {{sp}} no food/financial insecurity
+        {{sp}} no homecare
+        {{sp}} no challenges with health literacy or concerns with ability to self-manage
+
+      High Risk Features:
+        {{sp}} no recent discharge from tertiary care (hospital, complex care hub)
+        {{sp}} no lack of safety net
+        {{sp}} no age >70
+        {{sp}} no age >60 with medical comorbitities
+        {{sp}} no symptom deterioration
+
+      Average Risk Features:
+        {{sp}} no age <18
+        {{sp}} no pregnancy
+        {{sp}} no absence of symptoms (but swab positive)
+
+      If above all negative, considered Lower Risk
+
+      Overall Risk Assessment:
+         High Risk - requires daily monitoring for 14 days
+         Average Risk - requires monitoring every 2 days for 7 days
+         Lower Risk - consider self monitoring only - handout provided
+
+      End Time:
+    vars:
+    - name: mytime
+      type: match
+      params:
+        trigger: ":time"
+
+  - trigger: ":covidredflags"
+    replace: |
+      {{sp}} no severe shortness of breath at rest
+      {{sp}} no difficulty breathing
+      {{sp}} no pain or pressure in chest
+      {{sp}} no cold, clammy or pale molted skin
+      {{sp}} no new confusion
+      {{sp}} no blue lips or face
+      {{sp}} no becoming difficult to rouse
+      {{sp}} no coughing up blood
+      {{sp}} no reduced urine output
+      {{sp}} no return of cough after period of improvement (may signal development of COVID pneumonia)
+      {{sp}} no return of fever after afebrile period (may signal development of COVID pneumonia)
+      {{sp}} no low oxygen saturation (<92% if prev healthly, <90% if underlying lung condition)
+      {{sp}} no increased O2 requirements on home O2
+
+  - trigger: ":covidmonitor"
+    replace: |
+     COVID PHONE MONITORING
+
+      Start Time: {{mytime}}
+
+      Reason for call:  Monitoring for presumed or confirmed COVID case
+
+      Previous Risk Stratification:  High  Average  Lower
+
+      {{sp}} overall been feeling  worse  unchanged  better
+
+      If not worse, breathing assessment questionnaire was completed:
+        How is your breathing?
+        Is it worse today than yesterday?
+        What does your breathing prevent you from doing?
+
+      Overall worse or breathing questions positive, so red flags were checked:
+
+      {{sp}} red flags, and need urgent or emergent referral
+      {{sp}} no red flags, but since symptoms are worsening, now considered High Risk
+      Overall not worse and breathing questions negative, so will continue to monitor
+      High Risk      - every 24h for total of 14 days
+      Average Risk   - every 48h for total of  7 days
+      Lower Risk     - consider self monitoring, using self-monitoring checklist
+
+      Must isolate for a minimum of 10 days from symptom onset
+      or when symptoms are gone, whichever is longer.
+
+      End Time:
+    vars:
+    - name: mytime
+      type: match
+      params:
+        trigger: ":time"
