@@ -1,0 +1,5 @@
+author: Bryan Mosher
+description: A package implementing the digraphs of vim.
+name: vim-digraphs
+title: Vim Digraphs
+version: 0.1.0

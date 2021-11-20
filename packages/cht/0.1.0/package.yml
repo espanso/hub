@@ -1,0 +1,18 @@
+# cht package
+
+matches:
+  - trigger: ":cht/(?P<command>.*)/"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: 'curl "https://cht.sh/{{command}}?QT&style=bw"'
+
+  - trigger: ":vcht/(?P<command>.*)/"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: 'curl "https://cht.sh/{{command}}?qT&style=bw"'

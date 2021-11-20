@@ -1,0 +1,95 @@
+matches:
+  - trigger: ":ocp"
+    word: true
+    replace: |
+      Subjective:
+        {{cc}} Prescription for Oral Contraceptive Medication
+
+        {{sp}} no current contraception
+
+        {{sp}} no liver disease
+        {{sp}} no migraines
+        {{sp}} no previous cancer diagnosis
+        {{sp}} no breast abnormalities
+        {{sp}} no clotting disorders
+        {{sp}} no tobacco use
+
+        {{sp}} had last menstrual period on DATE
+        {{sp}} regular menstruation
+        {{sp}} no increased risk for sexually transmitted infection (STI)
+        {{sp}} had last STI screen DURATION prior
+        {{sp}} no need for pregnancy test at this time
+
+      Objective:
+        {{op}} current blood pressure of SBP/DBP
+
+      Assessment:
+        {{ap}} need for ongoing contraceptive medication
+        with no contraindications
+
+      Plan:
+        {{pp}} continue with previously prescribed oral contraceptive medication
+        Prescription provided for XXX
+
+        {{pp}} reference the following links for more information:
+        https://www.sexandu.ca/
+        https://www.plannedparenthood.org/learn/birth-control
+
+        {{pp}} reference the following links in case of missed doses:
+        https://www.sexandu.ca/sos/
+        https://www.plannedparenthood.org/online-tools/missed-birth-control-pill
+
+        {{pp}} follow-up if further concerns or questions
+
+
+  - trigger: ":ffertility"
+    word: true
+    replace: |
+      Subjective:
+        {{cc}} failure to conceive after DURATION
+
+        Menstrual History:
+          {{sp}} menstruation starting at age XX
+          {{sp}} irregular menstrual periods ranging from XX to YY days
+          {{sp}} regular menstrual periods every XX days
+          {{sp}} menstrual bleeding lasting XX days
+
+        Pregnancy History:
+          {{sp}} no previous pregnancies
+          {{sp}} no previous pregnancies with current partner
+
+        {{sp}} vaginal intercourse every second day
+        around the time of ovulation
+        {{sp}} verified time of ovulation with ovulation kits
+
+        {{sp}} no lactation
+        {{sp}} no nipple discharge
+        {{sp}} symptoms of PCOS (abnormal hair growth, deep voice,
+               acne, irregular menstruation)
+        {{sp}} symptoms of endometriosis (severe menstrual cramps,
+               pain with intercourse, excessive or irregular bleeding)
+        {{sp}} no hypothyroidism symptoms:
+          {{hitsh}}
+
+        {{sp}} no history of pelvic inflammatory disease (PID)
+        {{sp}} no history of polycystic ovarian syndrome (PCOS)
+        {{sp}} no history of pelvic surgery
+        {{sp}} no history of pelvic radiation
+        {{sp}} no history of dilitation and curretage (D&C)
+
+        {{sp}} no previous investigations or treatments
+
+      Assessment:
+        {{ap}} primary female infertility
+
+      Plan:
+        {{pp}} complete investigations including:
+          CBC, TSH, Prolactin, FSH, LH, Progesterone, Testosterone, DHEA
+        {{pp}} follow-up when results are available
+        Referral sent to fertility clinic for further assessment
+    vars:
+      - name: hitsh
+        type: match
+        params:
+          trigger: ":hitsh"
+

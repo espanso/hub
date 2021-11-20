@@ -1,0 +1,157 @@
+matches:
+    - trigger: "ruq"
+      replace: "right upper abdomen"
+      propagate_case: true
+      word: true
+
+    - trigger: "rlq"
+      replace: "right lower abdomen"
+      propagate_case: true
+      word: true
+
+    - trigger: "llq"
+      replace: "left lower abdomen"
+      propagate_case: true
+      word: true
+
+    - trigger: "luq"
+      replace: "left upper abdomen"
+      propagate_case: true
+      word: true
+
+    - trigger: ":giredflag"
+      word: true
+      replace: |
+        Gastrointestinal Red Flags:
+          {{sp}} no family history of colon cancer
+          {{sp}} no family history of inflammatory bowel disease
+          {{sp}} no blood in stool, or black, tarry stools (melena)
+          {{sp}} no blood or "coffee grounds" in vomit
+          {{sp}} no difficulty swallowing (dysphagia)
+          {{sp}} no nocturnal symptoms
+          {{sp}} no progressive symptoms
+          {{sp}} no onset after age 50
+          {{sp}} no anemia
+          {{sp}} no weight loss
+
+          Any of the above features requires a referral to gastroenterology
+
+    - trigger: ":ibs"
+      word: true
+      replace: |
+        Subjective:
+          {{cc}} recurrent abdominal pain for the past DURATION
+          {{sp}} no change in frequency of stool
+          {{sp}} no change in form of stool
+          {{sp}} no relief of pain by defecation
+
+          {{redflags}}
+
+          {{sp}} no bloating
+          {{sp}} no flatulence
+          {{sp}} no nausea
+          {{sp}} no burping
+          {{sp}} no early satiety
+          {{sp}} no gastroesophageal reflux
+          {{sp}} no dyspepsia
+
+          {{sp}} no dysuria
+          {{sp}} no frequent/urgent urination
+          {{sp}} no widespread musculoskeletal pain
+          {{sp}} no dysmenorrhea
+          {{sp}} no dyspareunia
+          {{sp}} no fatigue
+          {{sp}} no anxiety
+          {{sp}} no depression
+
+          Medications that may be worsening symptoms:
+          no laxatives/antacids
+          no PPI (proton pump inhibitors)
+          no ASA/NSAIDs
+          no iron/calcium/magnesium supplements
+          no calcium channel blockers
+          no antidepressants
+          no opioids
+          no diuretics,
+          no herbal products
+
+        Objective:
+          {{op}} no abdominal masses
+          {{op}} no abdominal tenderness
+          {{op}} no abdominal guarding (tensing with pain)
+          {{op}} normal bowel sounds
+
+        Assessment:
+          {{ap}} Irritable Bowel Syndrome (IBS), diarrhea predominant, constipation predominant, mixed
+
+          ROME IV Criteria for Irritable Bowel Syndrome (IBS):
+            1. Recurrent abdo pain >=3 months >=1 day per week
+            2. Associated with change in frequency and/or form of stool
+            3. AND pain relieved by defecation.
+
+          However, additional testing is required to ensure other possible causes are not missed.
+
+        Plan:
+          {{pp}} complete further investigations according to the Laboratory Requistion provided
+            CBC, ferritin, celiac screen
+
+            Diarrhea predominant:
+              CRP, albumin, electrolytes
+              Stool: C.diff, O&P, leuks, pH, fat globules, elastase
+
+            Constipation predominant:
+              TSH, electrolytes, ionized calcium
+
+            Mixed:  no additional investigations
+
+          {{fu}}
+          {{snet}}
+
+      vars:
+      - name: redflags
+        type: match
+        params:
+          trigger: ":giredflag"
+
+      - name: fu
+        type: match
+        params:
+          trigger: ":fuwr"
+
+      - name: snet
+        type: match
+        params:
+          trigger: ":snet"
+
+    - trigger: ":ibsmgt"
+      word: true
+      replace: |
+        General management of IBS:
+        {{pp}} reduce stress
+        {{pp}} engage in regular exercise
+        {{pp}} treat sleep issues
+        {{pp}} treat psychological issues
+        {{pp}} stop offending medications
+        {{pp}} trial probiotics
+
+        Diarrhea predominant:
+        {{pp}} trial a FODMAPs diet
+        {{pp}} consider loperamide
+        {{pp}} consider Amitriptyline (Elavil) or Nortriptyline (Avantyl)
+        {{pp}} consider a bile acid sequestrants
+        {{pp}} consider Rifaximin
+
+        Constipation predominant:
+        {{pp}} increase daily fluid intake
+        {{pp}} use a PEG-based laxative
+        {{pp}} consider Linaclotide
+        {{pp}} consider Prucalopride
+
+        Mixed:
+        {{pp}} trial a FODMAPs diet
+        {{pp}} consider loperamide as needed
+        {{pp}} consider PEG-based laxative as needed
+
+
+
+

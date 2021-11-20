@@ -1,0 +1,210 @@
+matches:
+  - trigger: ":cthead"
+    word: true
+    replace:  |
+      Canadian Head CT Rule
+        (not for age <16, anticoag or bleeding disorder, pregnancy)
+      CT if any present:
+        Basal Skull Fracture
+        Emesis twice or more
+        Age of 65 or over
+        GCS score <15 at 2 hours after injury
+        Suspected open or depressed skull fracture
+        Signs of basal skull fracture
+           (hemotympanum, 'racoon' eyes, CSR otorrhea/rhinorrhea, Battle's sign)
+        Amnesia before impact of 30 minutes or more
+        Dangerous mechanism (pedestrian, ejected from vehicle, fall from elevation >=3 feet or 5 stairs)
+
+  - trigger: ":gcs"
+    word: true
+    replace:  |
+      Glasgow Coma Scale
+      Eyes:
+        4: Open spontaneously
+        3: Open to speech
+        2: Open to pain
+        1: No response
+      Verbal:
+        5: Alert and oriented
+        4: Disoriented
+        3: Inappropriate words
+        2: Unintelligible (moans)
+        1: No response
+      Motor:
+        6: Follows commands
+        5: Localizes to pain
+        4: Withdraws from pain
+        3: Decorticate
+           (stiff with bent arms, clenched fists, and legs held out straight)
+        2: Decerebrate
+           (arms and legs held straight out, toes pointed downward, and the head and neck arched backward)
+        1: No response
+
+  - trigger: ":neuroexam"
+    word: true
+    replace:  |
+      {{op}} normal level of conciousness
+        {{op}} normal exam of head, eyes, ears, nose and throat
+        {{op}} normal cranial nerve exam
+        {{op}} normal strength in upper and lower limbs
+        {{op}} normal deep tendon reflexes in upper and lower limbs
+        {{op}} normal cerebellar exam (including finger to nose, and alternating movements)
+        {{op}} normal gait, including heel to toe
+        {{op}} normal ability to retain balance with eyes closed (negative Rhomberg)
+
+  - trigger: ":neuroredflag"
+    word: true
+    replace:  |
+      {{sp}} no difficulty speaking (dysarthria)
+        {{sp}} no double vision (diplopia)
+        {{sp}} no difficulty swallowing (dysphagia)
+        {{sp}} no difficulty with precise movements like finger to nose (dysmetria)
+        {{sp}} no inability to perform rapid alternating movements (dysdiadochokinesia)
+
+
+  - trigger: ":vertigo"
+    word: true
+    replace:  |
+      Subjective:
+        {{cc}} dizziness for the past DURATION
+        {{sp}} a feeling like the room is spinning
+        The sensation is intermittent, lasting for XX seconds
+        {{sp}} no identified triggers - no recent sickness or cold and no trauma.
+        It is associated with nausea
+        {{sp}} no other symptoms.
+
+        Red Flags:
+        {{neuroredflag}}
+
+      Objective:
+        {{neuroexam}}
+        {{op}} symptoms provoked by laying down quickly with head turned to one side (Dix hallpike)
+               Worse when turning to RIGHT, including dizziness, nausea, involuntary eye movements (nystagmus)
+
+      Assessment:
+        {{ap}} Benign Paroxysmal Peripheral Vertigo (BPPV)
+
+      Plan:
+        {{pp}} review the educational materials provided
+        {{pp}} attempt self-treatment according to hand out provided
+        {{pp}} consider physiotherapy if ineffective.
+        {{pp}} maintain adequate hydration.
+        {{pp}} use provided prescription (betahistine) to help with symptoms as needed
+
+    vars:
+      - name: neuroexam
+        type: match
+        params:
+          trigger: ":neuroexam"
+      - name: neuroredflag
+        type: match
+        params:
+          trigger: ":neuroredflag"
+
+  - trigger: ":tremor"
+    word: true
+    replace:  |
+      Subjective:
+        {{cc}} tremor in LEFT HAND for DURATION
+        {{sp}} no tremor at rest
+        {{sp}} no difficulty with activities of daily living
+        {{sp}} no progressively worsening symptoms
+        {{sp}} no improvement with drinking alcohol
+        {{sp}} no previous treatment
+        {{sp}} no family history of tremor
+
+      Objective:
+        Psychogenic Tremor:
+        With rapid alternating movements of the contralateral limb, the tremor is
+        BETTER WORSE UNCHANGED with fist open/close
+        BETTER WORSE UNCHANGED with forearm pronation/supination
+        BETTER WORSE UNCHANGED with foot tap on the floor
+
+        Note: Typically parkinson disease resting tremor becomes more obvious
+         psychogenic tremor disappears, or takes on rhythm of voluntary limb (entrainment).
+
+        Action Tremor:
+        The tremor is:
+        BETTER WORSE UNCHANGED when drawing a spiral inside another spiral,
+        BETTER WORSE UNCHANGED when joining 2 points between closely spaced straight lines
+        BETTER WORSE UNCHANGED when pouring water from one glass to another
+
+        Postural Tremor:
+        The tremor is:
+        BETTER WORSE UNCHANGED when arms are outstretched for 10-15s, with a loose sheet of paper on the hand(s)
+
+        Kinetic Tremor
+        The tremor is:
+        BETTER WORSE UNCHANGED with nose-finger-nose movement
+        BETTER WORSE UNCHANGED with knee-heel-shin movement
+
+        Intention Tremor
+        The tremor is NOT present during target-directed movements.
+        Tremor amplitude is INCREASED DECREASED UNCHANGED as the hand approaches the target.
+
+        Simple Kinetic Tremor
+        The tremor is NOT present during all non-targeted movements
+        such as repeated flexion-extension of the elbow or pronation-supination
+        of the forearm.
+        There is NO increase in amplitude in the terminal phase.
+
+        Task Specific Tremor
+        The tremor APPEARS WORSENS IMPROVES IS UNCHANGED with writing.
+        The tremor APPEARS WORSENS IMPROVES IS UNCHANGED with playing a musical instrument
+        The tremor APPEARS WORSENS IMPROVES IS UNCHANGED with holding a note.
+
+        Isometric Tremor
+        The tremor does NOT appear as a result of contraction of muscles
+        against a rigid stationary object. 
+
+      Assessment:
+        There is a rhythmic, involuntary oscillation of the LEFT RIGHT UPPER LOWER limb,
+        predominantly involving the WRIST AND DISTAL PORTION OF THEN FINGERS, NOT present at rest,
+        INCREASED DECREASED UNCHANGED during activities, SLOW MODERATE FAST in frequency, 
+        MILD MODERATE SEVERE in amplitude, INCREASED DECREASED UNCHANGED by distracting movements
+        of other limbs and having NO entrainment.
+
+        In summary, this appears to be a RESTING ACTION tremor.
+        The tremor characteristics are most consistent with a POSTURAL KINETIC PSYCHOGENIC tremor.
+        The kinetic tremor appears to be a SIMPLE KINETIC  INTENTION  TASK SPECIFIC  ISOMETRIC tremor.
+
+        {{ap}} Benign Essential Tremor
+
+      Plan:
+        {{pp}} start a trial of propranolol 
+        {{pp}} avoid using alcohol to treat
+        {{pp}} follow-up within one month to review effectiveness of treatment
+
+  - trigger: ":tremorinfo"
+    word: true
+    replace:  |
+        DDx:
+        Tremor: rhythmic, involuntary oscillations of a body part
+          Resting tremor: present in body part not voluntarily activated, completely
+               supported against gravity (supported on armrest of chair)
+          Action tremor: seen during voluntary activity of muscles.
+             Postural tremor: with voluntary maintenance of antigravity position
+             Kinetic tremor: present during voluntary movements
+                 Simple kinetic tremor: present during all voluntary movements
+                       that are not targeted
+                 Intention tremor: present during target-directed movements
+                       Worse as target is approached.
+                 Task-specific tremor: exacerbated by specific activity
+                 Isometric: with muscle contraction against rigid stationary object.
+
+        Myoclonus: nonrhythmic, rapid, jerky, shocklike
+        Steriotypy: repeated and continuous complex motor acts
+        Epilepsia partialis continua: can be rhythmic, but movements
+               do NOT change with alteration in position or activity.
+        Clonus: rhythmic oscillations around a joint in response to
+                sudden passive contraction.
+                Increases in amplitude and force with passive stretching of muscles
+        Dystonia: sustained muscular contractions frequently causing
+                  twisting and abnormal posturing of a body part
+        Tic: brief, nonrhythmic, rapid movements, usually orofacial, can be suppressed
+             voluntarily with rebound increase afterward.
+        Chorea: Non-rhythmic, nonstereotyped,semipurposive,relatively slow movements
+               that flow from one part of the body to another.
+
+
+

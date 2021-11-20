@@ -1,0 +1,48 @@
+matches:
+  - trigger: ":depain"
+    word: true
+    replace: |
+      {{op}} no distressed appearance
+      {{op}} normal level of alertness
+      {{op}} normal ability to mobilize
+      {{op}} normal ability to mobilize to toilet
+
+  - trigger: ":demental"
+    word: true
+    replace: |
+      {{op}} normal eye contact
+      {{op}} normal behavior
+      {{op}} normal expression of emotion (affect)
+      {{op}} normal appearance and grooming
+      {{op}} normal appearance of surroundings
+      {{op}} normal interactions with others 
+
+  - trigger: ":depeds"
+    word: true
+    replace: |
+      {{op}} normal alertness
+      {{op}} normal level of play
+      {{op}} normal level of interest in surroundings
+      {{op}} no apparent discomfort looking at lights
+      {{op}} normal breathing rate
+      {{op}} no increased work of breathing
+      {{op}} normal skin color
+      {{op}} no trouble looking up (no neck stiffness)
+
+  - trigger: ":deresp"
+    word: true
+    replace: |
+      {{op}} normal ability to speak in full sentences
+      {{op}} normal rate of breathing
+      {{op}} normal rhythm of breathing
+      {{op}} normal color
+      {{op}} no increased work of breathing
+             (no accessory muscle use, no tracheal tug,
+             no subcostal/intercostal retractions)
+
+  - trigger: ":deabdo"
+    word: true
+    replace: |
+      {{op}} normal ability to jump up and down
+      {{op}} no apparent pain with cough or sneeze
+      {{op}} normal ability to press own abdomen

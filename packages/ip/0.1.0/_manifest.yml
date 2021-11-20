@@ -1,0 +1,5 @@
+author: Aurelien Bras
+description: Display your public IP with :ip ( Linux only )
+name: ip
+title: Public IP
+version: 0.1.0

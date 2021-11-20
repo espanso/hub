@@ -1,0 +1,80 @@
+matches:
+  - trigger: ":hairloss"
+    word: true
+    replace: |
+     Subjective:
+      {{cc}} hair loss at [location] for the past DURATION
+
+     Objective:
+      {{op}} smooth localized area of complete hair loss at [location]
+      {{op}} negative hair pull test.
+      {{op}} no inflammation or scarring.
+
+     Assessment:
+      {{ap}} Alopecia Areata.
+
+     Plan:
+      A referral has been sent to dermatology
+
+  - trigger: ":skininfection"
+    word: true
+    replace: |
+      Subjective:
+        {{cc}} possible skin infection for DURATION
+        The location is
+        Symptoms started after
+        {{sp}} no fever (temperature measured at home XXC)
+        {{sp}} no nausea or emesis
+        {{sp}} no diarrhea
+        {{sp}} no pain
+        {{sp}} no purulence
+        {{sp}} no swelling
+        {{sp}} no redness
+        {{sp}} no heat
+        {{sp}} no treatment to date
+        {{sp}} no progression over the past 48 hours
+        {{sp}} no proximal prosthetic joint or vascular graft
+        {{sp}} no previous skin infections
+        {{sp}} no diabetes
+        {{sp}} no immunocompromised state
+        {{sp}} no risks for MRSA (eg previous MRSA, recent hospitalization,
+               long-term care facility, hemodialysis, HIV infection,
+               lack of response to treatment without MRSA coverage)
+        {{sp}} no allergies to antibiotics
+
+      Objective: 
+        {{op}} temperature of XXC
+        {{op}} blood pressure of XXX/YY and heart rate of XXX
+        The affected area is located at XXXX
+        and extends XXXXXXX
+        {{op}} no purulence
+        {{op}} no ulceration
+        {{op}} no abscess
+        {{op}} no erythema
+        {{op}} no warmth
+        {{op}} no tenderness
+        {{op}} no swelling
+        {{op}} no induration
+        {{op}} no clear demarcation of infection
+        {{op}} no raised erythema
+
+      Assessment:
+        {{ap}} Non-purulent cellulitis
+        {{ap}} Erysipelas
+        {{ap}} Skin abscess
+        {{ap}} Inflammed intradermal cyst
+        {{ap}} Paronychia
+        with NO systemic features requiring hospitalization or parenteral
+        antibiotics, and NO indication for MRSA coverage.
+
+      Plan:
+        Wound culture has been sent to guide antibiotic therapy,
+        if not improving with initial treatment.
+        {{pp}} start oral antibiotics today as prescribed
+        {{pp}} book for incision and drainage of abscess
+        {{pp}} proceed to ER for parenteral antibiotics and possible admission
+        {{pp}} keep affected area elevated
+        {{pp}} seek reassessment if no improvement after 72h,
+               worsening despite 48h antibiotics, or new systemic symptoms (fever, nausea)
+        {{pp}} go to ER if rapid progression of redness, severe nausea or high fever
+

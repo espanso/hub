@@ -1,0 +1,64 @@
+matches:
+  - trigger: ":strep"
+    word: true
+    replace: |
+     Subjective:
+        {{cc}} sore throat for XX days
+        {{sp}} no cough
+        {{sp}} no previous strep
+        {{sp}} no known strep contact
+        Strep throat is most common in ages less than 15, and least common over 45.
+
+     Objective:
+        {{op}} temperature today of
+        {{op}} no tender swollen lymph nodes in the neck (anterior cervical lymphadenopathy)
+        {{op}} no tonsillar swelling
+        {{op}} no tonsillar white spots (exudates)
+
+     Assessment:
+        {{ap}} Acute Streptococcal Pharyngitis (Strep Throat)
+        {{ap}} Acute Viral Pharyngitis
+        Approximately 80% of sore throats are viral in origin and do not improve
+        with antibiotics, since antibiotics do not kill viruses
+
+     Plan:
+        A throat swab was sent to check for a bacterial infection (strep throat)
+        {{pp}}wait until infection is confirmed before taking prescribed antibiotics
+        {{pp}}start taking prescribed antibiotics immediately
+        {{pp}}continue supportive management (hydrate with gatorade and salty soups,
+              tylenol and/or advil for pain, salt gargles for throat, and rest)
+        {{pp}}seek reassessment if worsening symptoms in 48 hours despite treatment
+        {{pp}}call 911 or go to ED if trouble breathing
+
+  - trigger: ":strepphone"
+    word: true
+    replace: |
+      PHONE COMMUNICATION
+
+      Reason for call: Strep swab positive
+
+      Notes:
+        Informed strep swab positive and should start prescription given last visit.
+        Patient understands and agreeable.  Grateful for call.
+        Will contact clinic if further concerns, not improving despite treatment.
+
+  - trigger: ":strepscore"
+    word: true
+    replace: |
+      {{sp}} fever  (temperature >38C)            (1 point)
+      {{sp}} tonsillar exudates (white spots)     (1 point)
+      {{sp}} no cough                             (1 point)
+      {{sp}} swollen glands in neck               (1 point)
+             (anterior cervical lymphadenopathy)
+      {{sp}} age of 3-14 years                    (1 point)
+      {{sp}} age of 15-44 years                   (0 point)
+      {{sp}} age of over 44 years                 (-1 point)
+
+      Interpretation:
+        -1, 0, 1 points - risk of strep infection <10%
+            no antibiotic or throat culture necessary
+        2 or 3 points - risk of strep 15% - 32%
+            throat culture and antibiotics if culture is positive
+        4 or 5 points - risk of strep 56%
+            consider strep testing and/or culture
+

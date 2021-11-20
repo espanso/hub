@@ -1,0 +1,342 @@
+matches:
+  - trigger: ":hairloss"
+    word: true
+    replace: |
+     Subjective:
+      {{cc}} hair loss at [location] for the past DURATION
+
+     Objective:
+      {{op}} smooth localized area of complete hair loss at [location]
+      {{op}} negative hair pull test.
+      {{op}} no inflammation or scarring.
+
+     Assessment:
+      {{ap}} Alopecia Areata.
+
+     Plan:
+      A referral has been sent to dermatology
+
+  - trigger: ":rxkeflex"
+    word: true
+    replace: |
+       You are advised to take the medication as prescribed:
+       Cephalexin (Keflex) 500mg one tablet every 6 hours for up to 7 days
+       If you are completely better in 3 days, you can stop after 5 days.
+
+       If there is no improvement after 48 hours, please arrange for
+       reassessment in person.
+
+  - trigger: ":skininfection"
+    word: true
+    replace: |
+      Subjective:
+        {{cc}} possible skin infection for DURATION
+        The location is
+        Symptoms started after
+        {{sp}} no fever (temperature measured at home XXC)
+        {{sp}} no nausea or emesis
+        {{sp}} no diarrhea
+        {{sp}} no pain
+        {{sp}} no purulence
+        {{sp}} no swelling
+        {{sp}} no redness
+        {{sp}} no heat
+        {{sp}} no treatment to date
+        {{sp}} no progression over the past 48 hours
+        {{sp}} no proximal prosthetic joint or vascular graft
+        {{sp}} no previous skin infections
+        {{sp}} no diabetes
+        {{sp}} no immunocompromised state
+        {{sp}} no risks for MRSA (eg previous MRSA, recent hospitalization,
+               long-term care facility, hemodialysis, HIV infection,
+               lack of response to treatment without MRSA coverage)
+        {{sp}} no allergies to antibiotics
+
+      Objective: 
+        {{op}} temperature of XXC
+        {{op}} blood pressure of XXX/YY and heart rate of XXX
+        The affected area is located at XXXX
+        and extends XXXXXXX
+        {{op}} no purulence
+        {{op}} no ulceration
+        {{op}} no abscess
+        {{op}} no erythema
+        {{op}} no warmth
+        {{op}} no tenderness
+        {{op}} no swelling
+        {{op}} no induration
+        {{op}} no clear demarcation of infection
+        {{op}} no raised erythema
+
+      Assessment:
+        {{ap}} Non-purulent cellulitis
+        {{ap}} Erysipelas
+        {{ap}} Skin abscess
+        {{ap}} Inflammed intradermal cyst
+        {{ap}} Paronychia
+        with NO systemic features requiring hospitalization or parenteral
+        antibiotics, and NO indication for MRSA coverage.
+
+      Plan:
+        Wound culture has been sent to guide antibiotic therapy,
+        if not improving with initial treatment.
+        {{pp}} start oral antibiotics today as prescribed
+        {{pp}} book for incision and drainage of abscess
+        {{pp}} proceed to ER for parenteral antibiotics and possible admission
+        {{pp}} keep affected area elevated
+        {{pp}} seek reassessment if no improvement after 72h,
+               worsening despite 48h antibiotics, or new systemic symptoms (fever, nausea)
+        {{pp}} go to ER if rapid progression of redness, severe nausea or high fever
+
+  - trigger: ":eczemamgt"
+    word: true
+    replace: |
+      Eczema Care Instructions:
+      1. Bathing
+        a. Not about frequency but duration. Must be between 5-15 minutes.
+        b. Warm – lukewarm/moderate warm
+        c. Do not wipe dry – Pat dry only. Leave some moisture on skin
+
+      2. Do not use soap – use hypoallergenic baby wash once a week only (e.g. Cetaphil, Cerave, Avene, Aveeno)
+
+      3. If needs medicated cream (Steroid (Betamethasone, Hydrocortisone, Mometasone etc.) or Tacrolimus base Cream(Protopic/Elidel) ) – apply as first layer.
+        a. Steroid must be used consecutively daily, then stop when controlled
+           (do not use intermittently).
+        b. Maximum daily use is 2 weeks
+        c. After 2 weeks use of steroids must have 1-2 weeks of break
+           then can resume using this again.
+        d. Tacrolimus based meds can be used indefinitely until complete control.
+        e. Minimize direct sun exposure when on medicated creams.
+
+      4. Apply moisturizing creams (Cerave Cream, Vaseline Creamy, Avene Cream) – avoid lotions (has alcohol usually which dries the skin more)
+
+      5. Add extra layer of Petroleum Jelly (Vaseline). Must be used at flare up and may be used in maintenance phase well.
+
+      6. Maintenance – once Eczema is controlled NEVER STOP using moisturizer (e.g. Cerave) that works best for you.
+
+      7. RELAPSE IS VERY HIGH IF YOU STOP MAINTENANCE!
+
+      8. Improve moisture with use of humidifier, increase fluids, healthy diet (more fruits and veggies).
+
+
+  - trigger: ":shingles"
+    word: true
+    replace: |
+      Subjective:
+        {{cc}} rash concerning for possible shingles for the past DURATION
+        The rash location is LOCATION
+        {{sp}} no pain
+        {{sp}} no blisters
+        {{sp}} no previous similar rash
+        {{sp}} no previous diagnosed shingles
+        {{sp}} no previous shingles vaccine (Shingrix or Zostavax)
+        {{sp}} no previous chicken pox
+
+      Objective:
+        {{op}} unilateral (on one side of body) multiple vesicles on erythematous base at LOCATION
+
+      Assessment:
+        {{ap}} Shingles (Herpes Zoster)
+
+      Plan:
+        {{pp}} take valacyclovir for 7 days (1g three times daily)
+        {{pp}} take acetaminophen (Tylenol) as needed for pain
+        {{pp}} follow-up if not responding to treatment or other concerns
+
+  - trigger: ":rxmastitis"
+    word: true
+    replace: |
+      Compound prescription: Mupirocin ointment 2% (15g)
+                             + Betamethasone ointment 0.1% (15g)
+                             + Miconazole powder to 2%
+      Apply to to affected areas twice daily
+      Wrap with saran wrap for maximum absorption if possible
+
+  - trigger: ":nailfungus"
+    word: true
+    replace: |
+       Your main concern today is possible toe nail fungus.
+       Your LEFT RIGHT toenail has been discolored and thicker for the past XX
+       You have no other nail involvement or previous nail fungus infections.
+       You have no pain or itch or bleeding.
+       You have had no previous trauma to the nails involved.
+
+       You have tried some over the counter treatments with limited improvement.
+       You have not had any previous prescription treatments.
+
+       You have previous bloodwork showing normal liver enzyme levels.
+
+       {{noother}}
+
+       Your nail appears thickened with a yellowish discoloration.
+
+       Given your history and nail appearance it is very likely there is a nail
+       fungus present.
+
+       Nail fungus can be uncomfortable and certainly affects appearance
+       but if left untreated we do not expect it to lead to any serious
+       health issue.
+       Some patients may decide not to treat, given their other priorities.
+       Treatment of nail fungus can be topical or oral.
+       For infections involving only a few nails and less than half of each nail
+       a topical treatment can be effective but must be continued until the nail
+       grows out fully.  For toenails this is generally about 48 weeks.
+       Oral treatment is considered the most effective treatment, especially if
+       there are many nails involved or over half of the nail area is involved.
+       Oral treatment is also shorter: 6 weeks for fingernails
+       and 12 weeks for toenails
+       Oral treatment is also generally lower cost than topical treatment.
+       The potential drawback of oral treatment is that it does expose
+       your entire body to a medication that may rarely cause side effects.
+       In particular, there is some concern of potential effects on the liver
+       so may not be recommended in individuals with prior liver disease.
+
+       In your case, you have no previous medical issues and no excessive
+       alcohol intake, so we believe you are at low risk for these side effects.
+
+       After discussing the above, your preference is for oral treatment.
+       After discussing the above, your preference is for topical treatment.
+
+       To confirm the diagnosis, you are recommended to submit nail clipping for
+       fungal culture.  You will be contacted to arrange this test.
+       Preliminary results are usually available with 3 days, but final results
+       for this test take up to 6 weeks.
+
+       You are advised to complete a baseline check of your liver enzymes
+       (ALT and AST).  You will be contacted to arrange this blood work.
+
+       You are advised to take the prescribed medication,
+       Terbinafine (Lamisil) 250mg once daily for 12 weeks as prescribed.
+       Efinaconazole (Jublia) applied once daily for 48 weeks as prescribed.
+
+       {{finish}}
+
+       If you feel unwell and feel you may be having side-effects of the
+       medication, stop the medication immediately and seek reassessment
+       by a physician.
+       In particular you should monitor for persistent nausea, anorexia
+       (low appetite), fatigue, vomiting, right upper abdominal pain,
+       jaundice (yellowish tinge to whites of eyes or skin), dark urine,
+       or pale stools.
+    vars:
+      - name: noother
+        type: match
+        params:
+          trigger: ":noother"
+      - name: finish
+        type: match
+        params:
+          trigger: ":finish"
+
+  - trigger: ":canker"
+    word: true
+    replace: |
+       Your main concern today is white spots in your mouth.
+       These are located
+       and have been present for
+       They are not painful.
+       They have not been bleeding.
+       They may have been triggered by
+       You cannot think of anything they may have been triggered by.
+       You do not have a habit of biting your lip and cannot remember biting your lip.
+       You do not have braces, mouthguards or dental appliances.
+       You have never had anything similar in the past.
+       You have no other rashes or spots anywhere else on your skin or eyes.
+       You do not have any known sensitivity to gluten, or other gastrointestinal issues.
+
+       {{noother}}
+
+       The photo you attached shows some irregularly shaped white spots on the inside
+       (mucosal) surface of your upper lip. It is a little difficult to see due to
+       the focus but it appears there is some small amount of ulceration.
+       These spots are most likely aphthous ulcers.
+       This is a benign condition usually triggered by stress or trauma (biting),
+       or possibly acidic foods and usually heals on its own in 7-14 days.
+       However we can use treatments to help minimize the symptoms and help healing.
+
+
+       You are advised to avoid any trauma inside the mouth,
+       avoid biting cheeks or lips, and avoid foods that exacerbate the symptoms
+       (typically very acidic or spicey foods).
+
+       You are advised to use the prescribed topical medications to help reduce symptoms:
+       lidocaine viscous 2% 15 ml swish and spit (do not swallow) no more than every 3 hours
+       before meals to relieve discomfort.  (150ml dispense with one refill)
+
+       Oracort (triamcinolone 0.1%) paste applied to the lesions after meals to improve healing.
+       Do not eat or drink for at least 30 minutes afterward. (7.5g dispense with no refills)
+
+       {{finish}}
+    vars:
+      - name: noother
+        type: match
+        params:
+          trigger: ":noother"
+      - name: finish
+        type: match
+        params:
+          trigger: ":finish"
+
+
+  - trigger: ":stye"
+    word: true
+    replace: |
+       Your main concern today is redness and swelling in your RIGHT TOP eyelid
+       This developed about  XXXX days ago
+
+       You have had no foreign object enter your eye.
+       You have had no affect on your vision.
+       You have had no discharge or drainage.
+       The eyeball itself does not appear red.
+       Moving your eye is not painful
+       The eyelid is not painful at rest but is tender when pressed.
+
+       You do not wear contact lenses.
+       You have had no previous similar symptoms.
+       You have had no treatment so far.
+
+       {{noother}}
+
+       Your eyelid appears somewhat red.
+       There is a larger bulge near the lid margin and
+       a whitehead of purulence visible.
+
+       Your symptoms are consistent with a hordeolum or stye.
+       These can almost always be treated successfully without antibiotics.
+
+       You are advised to apply warm compresses several times a day:
+       Use a clean washcloth and wet with warm water, placing over the stye.
+       Once the cloth cools, reheat it and repeat for a total of 15 minutes,
+       repeating this process at least 4 times daily.
+
+       You are advised to avoid squeezing or popping the stye, and also avoid using
+       contact lens or any cosmetic products around the eye until your symptoms are
+       completely gone.
+
+       {{findfp}}
+       {{covidremind}}
+
+       Please book for follow-up if:
+       Your symptoms do not resolve within 2 weeks of using warm compresses
+       Your vision is affected.
+       Your stye is getting very big or bleeding.
+       The redness spreads from your eyelid into your eye
+       or into other parts of your face
+    vars:
+      - name: noother
+        type: match
+        params:
+          trigger: ":noother"
+      - name: findfp
+        type: match
+        params:
+          trigger: ":findfp"
+      - name: covidremind
+        type: match
+        params:
+          trigger: ":covidremind"
+
+
+
+
+

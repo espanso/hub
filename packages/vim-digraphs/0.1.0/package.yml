@@ -1,0 +1,3724 @@
+matches:
+
+  - trigger: ",SP"
+    replace: " "
+
+  - trigger: ",Nb"
+    replace: "#"
+
+  - trigger: ",DO"
+    replace: "$"
+
+  - trigger: ",At"
+    replace: "@"
+
+  - trigger: ",<("
+    replace: "["
+
+  - trigger: ",//"
+    replace: "\""
+
+  - trigger: ",)>"
+    replace: "]"
+
+  - trigger: ",'>"
+    replace: "^"
+
+  - trigger: ",'!"
+    replace: "`"
+
+  - trigger: ",(!"
+    replace: "{"
+
+  - trigger: ",!!"
+    replace: "|"
+
+  - trigger: ",!)"
+    replace: "}"
+
+  - trigger: ",'?"
+    replace: "~"
+
+  - trigger: ",NS"
+    replace: " "
+
+  - trigger: ",!I"
+    replace: "¡"
+
+  - trigger: ",Ct"
+    replace: "¢"
+
+  - trigger: ",Pd"
+    replace: "£"
+
+  - trigger: ",Cu"
+    replace: "¤"
+
+  - trigger: ",Ye"
+    replace: "¥"
+
+  - trigger: ",BB"
+    replace: "¦"
+
+  - trigger: ",SE"
+    replace: "§"
+
+  - trigger: ",':"
+    replace: "¨"
+
+  - trigger: ",Co"
+    replace: "©"
+
+  - trigger: ",-a"
+    replace: "ª"
+
+  - trigger: ",<<"
+    replace: "«"
+
+  - trigger: ",NO"
+    replace: "¬"
+
+  - trigger: ",Rg"
+    replace: "®"
+
+  - trigger: ",'m"
+    replace: "¯"
+
+  - trigger: ",DG"
+    replace: "°"
+
+  - trigger: ",+-"
+    replace: "±"
+
+  - trigger: ",2S"
+    replace: "²"
+
+  - trigger: ",3S"
+    replace: "³"
+
+  - trigger: ",''"
+    replace: "´"
+
+  - trigger: ",My"
+    replace: "µ"
+
+  - trigger: ",PI"
+    replace: "¶"
+
+  - trigger: ",.M"
+    replace: "·"
+
+  - trigger: ",',"
+    replace: "¸"
+
+  - trigger: ",1S"
+    replace: "¹"
+
+  - trigger: ",-o"
+    replace: "º"
+
+  - trigger: ",>>"
+    replace: "»"
+
+  - trigger: ",14"
+    replace: "¼"
+
+  - trigger: ",12"
+    replace: "½"
+
+  - trigger: ",34"
+    replace: "¾"
+
+  - trigger: ",?I"
+    replace: "¿"
+
+  - trigger: ",A!"
+    replace: "À"
+
+  - trigger: ",A'"
+    replace: "Á"
+
+  - trigger: ",A>"
+    replace: "Â"
+
+  - trigger: ",A?"
+    replace: "Ã"
+
+  - trigger: ",A:"
+    replace: "Ä"
+
+  - trigger: ",AA"
+    replace: "Å"
+
+  - trigger: ",AE"
+    replace: "Æ"
+
+  - trigger: ",C,"
+    replace: "Ç"
+
+  - trigger: ",E!"
+    replace: "È"
+
+  - trigger: ",E'"
+    replace: "É"
+
+  - trigger: ",E>"
+    replace: "Ê"
+
+  - trigger: ",E:"
+    replace: "Ë"
+
+  - trigger: ",I!"
+    replace: "Ì"
+
+  - trigger: ",I'"
+    replace: "Í"
+
+  - trigger: ",I>"
+    replace: "Î"
+
+  - trigger: ",I:"
+    replace: "Ï"
+
+  - trigger: ",D-"
+    replace: "Ð"
+
+  - trigger: ",N?"
+    replace: "Ñ"
+
+  - trigger: ",O!"
+    replace: "Ò"
+
+  - trigger: ",O'"
+    replace: "Ó"
+
+  - trigger: ",O>"
+    replace: "Ô"
+
+  - trigger: ",O?"
+    replace: "Õ"
+
+  - trigger: ",O:"
+    replace: "Ö"
+
+  - trigger: ",*X"
+    replace: "×"
+
+  - trigger: ",O/"
+    replace: "Ø"
+
+  - trigger: ",U!"
+    replace: "Ù"
+
+  - trigger: ",U'"
+    replace: "Ú"
+
+  - trigger: ",U>"
+    replace: "Û"
+
+  - trigger: ",U:"
+    replace: "Ü"
+
+  - trigger: ",Y'"
+    replace: "Ý"
+
+  - trigger: ",TH"
+    replace: "Þ"
+
+  - trigger: ",ss"
+    replace: "ß"
+
+  - trigger: ",a!"
+    replace: "à"
+
+  - trigger: ",a'"
+    replace: "á"
+
+  - trigger: ",a>"
+    replace: "â"
+
+  - trigger: ",a?"
+    replace: "ã"
+
+  - trigger: ",a:"
+    replace: "ä"
+
+  - trigger: ",aa"
+    replace: "å"
+
+  - trigger: ",ae"
+    replace: "æ"
+
+  - trigger: ",c,"
+    replace: "ç"
+
+  - trigger: ",e!"
+    replace: "è"
+
+  - trigger: ",e'"
+    replace: "é"
+
+  - trigger: ",e>"
+    replace: "ê"
+
+  - trigger: ",e:"
+    replace: "ë"
+
+  - trigger: ",i!"
+    replace: "ì"
+
+  - trigger: ",i'"
+    replace: "í"
+
+  - trigger: ",i>"
+    replace: "î"
+
+  - trigger: ",i:"
+    replace: "ï"
+
+  - trigger: ",d-"
+    replace: "ð"
+
+  - trigger: ",n?"
+    replace: "ñ"
+
+  - trigger: ",o!"
+    replace: "ò"
+
+  - trigger: ",o'"
+    replace: "ó"
+
+  - trigger: ",o>"
+    replace: "ô"
+
+  - trigger: ",o?"
+    replace: "õ"
+
+  - trigger: ",o:"
+    replace: "ö"
+
+  - trigger: ",-:"
+    replace: "÷"
+
+  - trigger: ",o/"
+    replace: "ø"
+
+  - trigger: ",u!"
+    replace: "ù"
+
+  - trigger: ",u'"
+    replace: "ú"
+
+  - trigger: ",u>"
+    replace: "û"
+
+  - trigger: ",u:"
+    replace: "ü"
+
+  - trigger: ",y'"
+    replace: "ý"
+
+  - trigger: ",th"
+    replace: "þ"
+
+  - trigger: ",y:"
+    replace: "ÿ"
+
+  - trigger: ",A-"
+    replace: "Ā"
+
+  - trigger: ",a-"
+    replace: "ā"
+
+  - trigger: ",A("
+    replace: "Ă"
+
+  - trigger: ",a("
+    replace: "ă"
+
+  - trigger: ",A;"
+    replace: "Ą"
+
+  - trigger: ",a;"
+    replace: "ą"
+
+  - trigger: ",C'"
+    replace: "Ć"
+
+  - trigger: ",c'"
+    replace: "ć"
+
+  - trigger: ",C>"
+    replace: "Ĉ"
+
+  - trigger: ",c>"
+    replace: "ĉ"
+
+  - trigger: ",C."
+    replace: "Ċ"
+
+  - trigger: ",c."
+    replace: "ċ"
+
+  - trigger: ",C<"
+    replace: "Č"
+
+  - trigger: ",c<"
+    replace: "č"
+
+  - trigger: ",D<"
+    replace: "Ď"
+
+  - trigger: ",d<"
+    replace: "ď"
+
+  - trigger: ",D/"
+    replace: "Đ"
+
+  - trigger: ",d/"
+    replace: "đ"
+
+  - trigger: ",E-"
+    replace: "Ē"
+
+  - trigger: ",e-"
+    replace: "ē"
+
+  - trigger: ",E("
+    replace: "Ĕ"
+
+  - trigger: ",e("
+    replace: "ĕ"
+
+  - trigger: ",E."
+    replace: "Ė"
+
+  - trigger: ",e."
+    replace: "ė"
+
+  - trigger: ",E;"
+    replace: "Ę"
+
+  - trigger: ",e;"
+    replace: "ę"
+
+  - trigger: ",E<"
+    replace: "Ě"
+
+  - trigger: ",e<"
+    replace: "ě"
+
+  - trigger: ",G>"
+    replace: "Ĝ"
+
+  - trigger: ",g>"
+    replace: "ĝ"
+
+  - trigger: ",G("
+    replace: "Ğ"
+
+  - trigger: ",g("
+    replace: "ğ"
+
+  - trigger: ",G."
+    replace: "Ġ"
+
+  - trigger: ",g."
+    replace: "ġ"
+
+  - trigger: ",G,"
+    replace: "Ģ"
+
+  - trigger: ",g,"
+    replace: "ģ"
+
+  - trigger: ",H>"
+    replace: "Ĥ"
+
+  - trigger: ",h>"
+    replace: "ĥ"
+
+  - trigger: ",H/"
+    replace: "Ħ"
+
+  - trigger: ",h/"
+    replace: "ħ"
+
+  - trigger: ",I?"
+    replace: "Ĩ"
+
+  - trigger: ",i?"
+    replace: "ĩ"
+
+  - trigger: ",I-"
+    replace: "Ī"
+
+  - trigger: ",i-"
+    replace: "ī"
+
+  - trigger: ",I("
+    replace: "Ĭ"
+
+  - trigger: ",i("
+    replace: "ĭ"
+
+  - trigger: ",I;"
+    replace: "Į"
+
+  - trigger: ",i;"
+    replace: "į"
+
+  - trigger: ",I."
+    replace: "İ"
+
+  - trigger: ",i."
+    replace: "ı"
+
+  - trigger: ",IJ"
+    replace: "Ĳ"
+
+  - trigger: ",ij"
+    replace: "ĳ"
+
+  - trigger: ",J>"
+    replace: "Ĵ"
+
+  - trigger: ",j>"
+    replace: "ĵ"
+
+  - trigger: ",K,"
+    replace: "Ķ"
+
+  - trigger: ",k,"
+    replace: "ķ"
+
+  - trigger: ",kk"
+    replace: "ĸ"
+
+  - trigger: ",L'"
+    replace: "Ĺ"
+
+  - trigger: ",l'"
+    replace: "ĺ"
+
+  - trigger: ",L,"
+    replace: "Ļ"
+
+  - trigger: ",l,"
+    replace: "ļ"
+
+  - trigger: ",L<"
+    replace: "Ľ"
+
+  - trigger: ",l<"
+    replace: "ľ"
+
+  - trigger: ",L."
+    replace: "Ŀ"
+
+  - trigger: ",l."
+    replace: "ŀ"
+
+  - trigger: ",L/"
+    replace: "Ł"
+
+  - trigger: ",l/"
+    replace: "ł"
+
+  - trigger: ",N'"
+    replace: "Ń"
+
+  - trigger: ",n'"
+    replace: "ń"
+
+  - trigger: ",N,"
+    replace: "Ņ"
+
+  - trigger: ",n,"
+    replace: "ņ"
+
+  - trigger: ",N<"
+    replace: "Ň"
+
+  - trigger: ",n<"
+    replace: "ň"
+
+  - trigger: ",'n"
+    replace: "ŉ"
+
+  - trigger: ",NG"
+    replace: "Ŋ"
+
+  - trigger: ",ng"
+    replace: "ŋ"
+
+  - trigger: ",O-"
+    replace: "Ō"
+
+  - trigger: ",o-"
+    replace: "ō"
+
+  - trigger: ",O("
+    replace: "Ŏ"
+
+  - trigger: ",o("
+    replace: "ŏ"
+
+  - trigger: ",O\""
+    replace: "Ő"
+
+  - trigger: ",o\""
+    replace: "ő"
+
+  - trigger: ",OE"
+    replace: "Œ"
+
+  - trigger: ",oe"
+    replace: "œ"
+
+  - trigger: ",R'"
+    replace: "Ŕ"
+
+  - trigger: ",r'"
+    replace: "ŕ"
+
+  - trigger: ",R,"
+    replace: "Ŗ"
+
+  - trigger: ",r,"
+    replace: "ŗ"
+
+  - trigger: ",R<"
+    replace: "Ř"
+
+  - trigger: ",r<"
+    replace: "ř"
+
+  - trigger: ",S'"
+    replace: "Ś"
+
+  - trigger: ",s'"
+    replace: "ś"
+
+  - trigger: ",S>"
+    replace: "Ŝ"
+
+  - trigger: ",s>"
+    replace: "ŝ"
+
+  - trigger: ",S,"
+    replace: "Ş"
+
+  - trigger: ",s,"
+    replace: "ş"
+
+  - trigger: ",S<"
+    replace: "Š"
+
+  - trigger: ",s<"
+    replace: "š"
+
+  - trigger: ",T,"
+    replace: "Ţ"
+
+  - trigger: ",t,"
+    replace: "ţ"
+
+  - trigger: ",T<"
+    replace: "Ť"
+
+  - trigger: ",t<"
+    replace: "ť"
+
+  - trigger: ",T/"
+    replace: "Ŧ"
+
+  - trigger: ",t/"
+    replace: "ŧ"
+
+  - trigger: ",U?"
+    replace: "Ũ"
+
+  - trigger: ",u?"
+    replace: "ũ"
+
+  - trigger: ",U-"
+    replace: "Ū"
+
+  - trigger: ",u-"
+    replace: "ū"
+
+  - trigger: ",U("
+    replace: "Ŭ"
+
+  - trigger: ",u("
+    replace: "ŭ"
+
+  - trigger: ",U0"
+    replace: "Ů"
+
+  - trigger: ",u0"
+    replace: "ů"
+
+  - trigger: ",U\""
+    replace: "Ű"
+
+  - trigger: ",u\""
+    replace: "ű"
+
+  - trigger: ",U;"
+    replace: "Ų"
+
+  - trigger: ",u;"
+    replace: "ų"
+
+  - trigger: ",W>"
+    replace: "Ŵ"
+
+  - trigger: ",w>"
+    replace: "ŵ"
+
+  - trigger: ",Y>"
+    replace: "Ŷ"
+
+  - trigger: ",y>"
+    replace: "ŷ"
+
+  - trigger: ",Y:"
+    replace: "Ÿ"
+
+  - trigger: ",Z'"
+    replace: "Ź"
+
+  - trigger: ",z'"
+    replace: "ź"
+
+  - trigger: ",Z."
+    replace: "Ż"
+
+  - trigger: ",z."
+    replace: "ż"
+
+  - trigger: ",Z<"
+    replace: "Ž"
+
+  - trigger: ",z<"
+    replace: "ž"
+
+  - trigger: ",O9"
+    replace: "Ơ"
+
+  - trigger: ",o9"
+    replace: "ơ"
+
+  - trigger: ",OI"
+    replace: "Ƣ"
+
+  - trigger: ",oi"
+    replace: "ƣ"
+
+  - trigger: ",yr"
+    replace: "Ʀ"
+
+  - trigger: ",U9"
+    replace: "Ư"
+
+  - trigger: ",u9"
+    replace: "ư"
+
+  - trigger: ",Z/"
+    replace: "Ƶ"
+
+  - trigger: ",z/"
+    replace: "ƶ"
+
+  - trigger: ",ED"
+    replace: "Ʒ"
+
+  - trigger: ",A<"
+    replace: "Ǎ"
+
+  - trigger: ",a<"
+    replace: "ǎ"
+
+  - trigger: ",I<"
+    replace: "Ǐ"
+
+  - trigger: ",i<"
+    replace: "ǐ"
+
+  - trigger: ",O<"
+    replace: "Ǒ"
+
+  - trigger: ",o<"
+    replace: "ǒ"
+
+  - trigger: ",U<"
+    replace: "Ǔ"
+
+  - trigger: ",u<"
+    replace: "ǔ"
+
+  - trigger: ",A1"
+    replace: "Ǟ"
+
+  - trigger: ",a1"
+    replace: "ǟ"
+
+  - trigger: ",A7"
+    replace: "Ǡ"
+
+  - trigger: ",a7"
+    replace: "ǡ"
+
+  - trigger: ",A3"
+    replace: "Ǣ"
+
+  - trigger: ",a3"
+    replace: "ǣ"
+
+  - trigger: ",G/"
+    replace: "Ǥ"
+
+  - trigger: ",g/"
+    replace: "ǥ"
+
+  - trigger: ",G<"
+    replace: "Ǧ"
+
+  - trigger: ",g<"
+    replace: "ǧ"
+
+  - trigger: ",K<"
+    replace: "Ǩ"
+
+  - trigger: ",k<"
+    replace: "ǩ"
+
+  - trigger: ",O;"
+    replace: "Ǫ"
+
+  - trigger: ",o;"
+    replace: "ǫ"
+
+  - trigger: ",O1"
+    replace: "Ǭ"
+
+  - trigger: ",o1"
+    replace: "ǭ"
+
+  - trigger: ",EZ"
+    replace: "Ǯ"
+
+  - trigger: ",ez"
+    replace: "ǯ"
+
+  - trigger: ",j<"
+    replace: "ǰ"
+
+  - trigger: ",G'"
+    replace: "Ǵ"
+
+  - trigger: ",g'"
+    replace: "ǵ"
+
+  - trigger: ",;S"
+    replace: "ʿ"
+
+  - trigger: ",'<"
+    replace: "ˇ"
+
+  - trigger: ",'("
+    replace: "˘"
+
+  - trigger: ",'."
+    replace: "˙"
+
+  - trigger: ",'0"
+    replace: "˚"
+
+  - trigger: ",';"
+    replace: "˛"
+
+  - trigger: ",'\""
+    replace: "˝"
+
+  - trigger: ",A%"
+    replace: "Ά"
+
+  - trigger: ",E%"
+    replace: "Έ"
+
+  - trigger: ",Y%"
+    replace: "Ή"
+
+  - trigger: ",I%"
+    replace: "Ί"
+
+  - trigger: ",O%"
+    replace: "Ό"
+
+  - trigger: ",U%"
+    replace: "Ύ"
+
+  - trigger: ",W%"
+    replace: "Ώ"
+
+  - trigger: ",i3"
+    replace: "ΐ"
+
+  - trigger: ",A*"
+    replace: "Α"
+
+  - trigger: ",B*"
+    replace: "Β"
+
+  - trigger: ",G*"
+    replace: "Γ"
+
+  - trigger: ",D*"
+    replace: "Δ"
+
+  - trigger: ",E*"
+    replace: "Ε"
+
+  - trigger: ",Z*"
+    replace: "Ζ"
+
+  - trigger: ",Y*"
+    replace: "Η"
+
+  - trigger: ",H*"
+    replace: "Θ"
+
+  - trigger: ",I*"
+    replace: "Ι"
+
+  - trigger: ",K*"
+    replace: "Κ"
+
+  - trigger: ",L*"
+    replace: "Λ"
+
+  - trigger: ",M*"
+    replace: "Μ"
+
+  - trigger: ",N*"
+    replace: "Ν"
+
+  - trigger: ",C*"
+    replace: "Ξ"
+
+  - trigger: ",O*"
+    replace: "Ο"
+
+  - trigger: ",P*"
+    replace: "Π"
+
+  - trigger: ",R*"
+    replace: "Ρ"
+
+  - trigger: ",S*"
+    replace: "Σ"
+
+  - trigger: ",T*"
+    replace: "Τ"
+
+  - trigger: ",U*"
+    replace: "Υ"
+
+  - trigger: ",F*"
+    replace: "Φ"
+
+  - trigger: ",X*"
+    replace: "Χ"
+
+  - trigger: ",Q*"
+    replace: "Ψ"
+
+  - trigger: ",W*"
+    replace: "Ω"
+
+  - trigger: ",J*"
+    replace: "Ϊ"
+
+  - trigger: ",V*"
+    replace: "Ϋ"
+
+  - trigger: ",a%"
+    replace: "ά"
+
+  - trigger: ",e%"
+    replace: "έ"
+
+  - trigger: ",y%"
+    replace: "ή"
+
+  - trigger: ",i%"
+    replace: "ί"
+
+  - trigger: ",u3"
+    replace: "ΰ"
+
+  - trigger: ",a*"
+    replace: "α"
+
+  - trigger: ",b*"
+    replace: "β"
+
+  - trigger: ",g*"
+    replace: "γ"
+
+  - trigger: ",d*"
+    replace: "δ"
+
+  - trigger: ",e*"
+    replace: "ε"
+
+  - trigger: ",z*"
+    replace: "ζ"
+
+  - trigger: ",y*"
+    replace: "η"
+
+  - trigger: ",h*"
+    replace: "θ"
+
+  - trigger: ",i*"
+    replace: "ι"
+
+  - trigger: ",k*"
+    replace: "κ"
+
+  - trigger: ",l*"
+    replace: "λ"
+
+  - trigger: ",m*"
+    replace: "μ"
+
+  - trigger: ",n*"
+    replace: "ν"
+
+  - trigger: ",c*"
+    replace: "ξ"
+
+  - trigger: ",o*"
+    replace: "ο"
+
+  - trigger: ",p*"
+    replace: "π"
+
+  - trigger: ",r*"
+    replace: "ρ"
+
+  - trigger: ",*s"
+    replace: "ς"
+
+  - trigger: ",s*"
+    replace: "σ"
+
+  - trigger: ",t*"
+    replace: "τ"
+
+  - trigger: ",u*"
+    replace: "υ"
+
+  - trigger: ",f*"
+    replace: "φ"
+
+  - trigger: ",x*"
+    replace: "χ"
+
+  - trigger: ",q*"
+    replace: "ψ"
+
+  - trigger: ",w*"
+    replace: "ω"
+
+  - trigger: ",j*"
+    replace: "ϊ"
+
+  - trigger: ",v*"
+    replace: "ϋ"
+
+  - trigger: ",o%"
+    replace: "ό"
+
+  - trigger: ",u%"
+    replace: "ύ"
+
+  - trigger: ",w%"
+    replace: "ώ"
+
+  - trigger: ",'G"
+    replace: "Ϙ"
+
+  - trigger: ",,G"
+    replace: "ϙ"
+
+  - trigger: ",T3"
+    replace: "Ϛ"
+
+  - trigger: ",t3"
+    replace: "ϛ"
+
+  - trigger: ",M3"
+    replace: "Ϝ"
+
+  - trigger: ",m3"
+    replace: "ϝ"
+
+  - trigger: ",K3"
+    replace: "Ϟ"
+
+  - trigger: ",k3"
+    replace: "ϟ"
+
+  - trigger: ",P3"
+    replace: "Ϡ"
+
+  - trigger: ",p3"
+    replace: "ϡ"
+
+  - trigger: ",'%"
+    replace: "ϴ"
+
+  - trigger: ",j3"
+    replace: "ϵ"
+
+  - trigger: ",IO"
+    replace: "Ё"
+
+  - trigger: ",D%"
+    replace: "Ђ"
+
+  - trigger: ",G%"
+    replace: "Ѓ"
+
+  - trigger: ",IE"
+    replace: "Є"
+
+  - trigger: ",DS"
+    replace: "Ѕ"
+
+  - trigger: ",II"
+    replace: "І"
+
+  - trigger: ",YI"
+    replace: "Ї"
+
+  - trigger: ",J%"
+    replace: "Ј"
+
+  - trigger: ",LJ"
+    replace: "Љ"
+
+  - trigger: ",NJ"
+    replace: "Њ"
+
+  - trigger: ",Ts"
+    replace: "Ћ"
+
+  - trigger: ",KJ"
+    replace: "Ќ"
+
+  - trigger: ",V%"
+    replace: "Ў"
+
+  - trigger: ",DZ"
+    replace: "Џ"
+
+  - trigger: ",A="
+    replace: "А"
+
+  - trigger: ",B="
+    replace: "Б"
+
+  - trigger: ",V="
+    replace: "В"
+
+  - trigger: ",G="
+    replace: "Г"
+
+  - trigger: ",D="
+    replace: "Д"
+
+  - trigger: ",E="
+    replace: "Е"
+
+  - trigger: ",Z%"
+    replace: "Ж"
+
+  - trigger: ",Z="
+    replace: "З"
+
+  - trigger: ",I="
+    replace: "И"
+
+  - trigger: ",J="
+    replace: "Й"
+
+  - trigger: ",K="
+    replace: "К"
+
+  - trigger: ",L="
+    replace: "Л"
+
+  - trigger: ",M="
+    replace: "М"
+
+  - trigger: ",N="
+    replace: "Н"
+
+  - trigger: ",O="
+    replace: "О"
+
+  - trigger: ",P="
+    replace: "П"
+
+  - trigger: ",R="
+    replace: "Р"
+
+  - trigger: ",S="
+    replace: "С"
+
+  - trigger: ",T="
+    replace: "Т"
+
+  - trigger: ",U="
+    replace: "У"
+
+  - trigger: ",F="
+    replace: "Ф"
+
+  - trigger: ",H="
+    replace: "Х"
+
+  - trigger: ",C="
+    replace: "Ц"
+
+  - trigger: ",C%"
+    replace: "Ч"
+
+  - trigger: ",S%"
+    replace: "Ш"
+
+  - trigger: ",Sc"
+    replace: "Щ"
+
+  - trigger: ",=\""
+    replace: "Ъ"
+
+  - trigger: ",Y="
+    replace: "Ы"
+
+  - trigger: ",%\""
+    replace: "Ь"
+
+  - trigger: ",JE"
+    replace: "Э"
+
+  - trigger: ",JU"
+    replace: "Ю"
+
+  - trigger: ",JA"
+    replace: "Я"
+
+  - trigger: ",a="
+    replace: "а"
+
+  - trigger: ",b="
+    replace: "б"
+
+  - trigger: ",v="
+    replace: "в"
+
+  - trigger: ",g="
+    replace: "г"
+
+  - trigger: ",d="
+    replace: "д"
+
+  - trigger: ",e="
+    replace: "е"
+
+  - trigger: ",z%"
+    replace: "ж"
+
+  - trigger: ",z="
+    replace: "з"
+
+  - trigger: ",i="
+    replace: "и"
+
+  - trigger: ",j="
+    replace: "й"
+
+  - trigger: ",k="
+    replace: "к"
+
+  - trigger: ",l="
+    replace: "л"
+
+  - trigger: ",m="
+    replace: "м"
+
+  - trigger: ",n="
+    replace: "н"
+
+  - trigger: ",o="
+    replace: "о"
+
+  - trigger: ",p="
+    replace: "п"
+
+  - trigger: ",r="
+    replace: "р"
+
+  - trigger: ",s="
+    replace: "с"
+
+  - trigger: ",t="
+    replace: "т"
+
+  - trigger: ",u="
+    replace: "у"
+
+  - trigger: ",f="
+    replace: "ф"
+
+  - trigger: ",h="
+    replace: "х"
+
+  - trigger: ",c="
+    replace: "ц"
+
+  - trigger: ",c%"
+    replace: "ч"
+
+  - trigger: ",s%"
+    replace: "ш"
+
+  - trigger: ",sc"
+    replace: "щ"
+
+  - trigger: ",='"
+    replace: "ъ"
+
+  - trigger: ",y="
+    replace: "ы"
+
+  - trigger: ",%'"
+    replace: "ь"
+
+  - trigger: ",je"
+    replace: "э"
+
+  - trigger: ",ju"
+    replace: "ю"
+
+  - trigger: ",ja"
+    replace: "я"
+
+  - trigger: ",io"
+    replace: "ё"
+
+  - trigger: ",d%"
+    replace: "ђ"
+
+  - trigger: ",g%"
+    replace: "ѓ"
+
+  - trigger: ",ie"
+    replace: "є"
+
+  - trigger: ",ds"
+    replace: "ѕ"
+
+  - trigger: ",ii"
+    replace: "і"
+
+  - trigger: ",yi"
+    replace: "ї"
+
+  - trigger: ",j%"
+    replace: "ј"
+
+  - trigger: ",lj"
+    replace: "љ"
+
+  - trigger: ",nj"
+    replace: "њ"
+
+  - trigger: ",ts"
+    replace: "ћ"
+
+  - trigger: ",kj"
+    replace: "ќ"
+
+  - trigger: ",v%"
+    replace: "ў"
+
+  - trigger: ",dz"
+    replace: "џ"
+
+  - trigger: ",Y3"
+    replace: "Ѣ"
+
+  - trigger: ",y3"
+    replace: "ѣ"
+
+  - trigger: ",O3"
+    replace: "Ѫ"
+
+  - trigger: ",o3"
+    replace: "ѫ"
+
+  - trigger: ",F3"
+    replace: "Ѳ"
+
+  - trigger: ",f3"
+    replace: "ѳ"
+
+  - trigger: ",V3"
+    replace: "Ѵ"
+
+  - trigger: ",v3"
+    replace: "ѵ"
+
+  - trigger: ",C3"
+    replace: "Ҁ"
+
+  - trigger: ",c3"
+    replace: "ҁ"
+
+  - trigger: ",G3"
+    replace: "Ґ"
+
+  - trigger: ",g3"
+    replace: "ґ"
+
+  - trigger: ",A+"
+    replace: "א"
+
+  - trigger: ",B+"
+    replace: "ב"
+
+  - trigger: ",G+"
+    replace: "ג"
+
+  - trigger: ",D+"
+    replace: "ד"
+
+  - trigger: ",H+"
+    replace: "ה"
+
+  - trigger: ",W+"
+    replace: "ו"
+
+  - trigger: ",Z+"
+    replace: "ז"
+
+  - trigger: ",X+"
+    replace: "ח"
+
+  - trigger: ",Tj"
+    replace: "ט"
+
+  - trigger: ",J+"
+    replace: "י"
+
+  - trigger: ",K%"
+    replace: "ך"
+
+  - trigger: ",K+"
+    replace: "כ"
+
+  - trigger: ",L+"
+    replace: "ל"
+
+  - trigger: ",M%"
+    replace: "ם"
+
+  - trigger: ",M+"
+    replace: "מ"
+
+  - trigger: ",N%"
+    replace: "ן"
+
+  - trigger: ",N+"
+    replace: "נ"
+
+  - trigger: ",S+"
+    replace: "ס"
+
+  - trigger: ",E+"
+    replace: "ע"
+
+  - trigger: ",P%"
+    replace: "ף"
+
+  - trigger: ",P+"
+    replace: "פ"
+
+  - trigger: ",Zj"
+    replace: "ץ"
+
+  - trigger: ",ZJ"
+    replace: "צ"
+
+  - trigger: ",Q+"
+    replace: "ק"
+
+  - trigger: ",R+"
+    replace: "ר"
+
+  - trigger: ",Sh"
+    replace: "ש"
+
+  - trigger: ",T+"
+    replace: "ת"
+
+  - trigger: ",,+"
+    replace: "،"
+
+  - trigger: ",;+"
+    replace: "؛"
+
+  - trigger: ",?+"
+    replace: "؟"
+
+  - trigger: ",H'"
+    replace: "ء"
+
+  - trigger: ",aM"
+    replace: "آ"
+
+  - trigger: ",aH"
+    replace: "أ"
+
+  - trigger: ",wH"
+    replace: "ؤ"
+
+  - trigger: ",ah"
+    replace: "إ"
+
+  - trigger: ",yH"
+    replace: "ئ"
+
+  - trigger: ",a+"
+    replace: "ا"
+
+  - trigger: ",b+"
+    replace: "ب"
+
+  - trigger: ",tm"
+    replace: "ة"
+
+  - trigger: ",t+"
+    replace: "ت"
+
+  - trigger: ",tk"
+    replace: "ث"
+
+  - trigger: ",g+"
+    replace: "ج"
+
+  - trigger: ",hk"
+    replace: "ح"
+
+  - trigger: ",x+"
+    replace: "خ"
+
+  - trigger: ",d+"
+    replace: "د"
+
+  - trigger: ",dk"
+    replace: "ذ"
+
+  - trigger: ",r+"
+    replace: "ر"
+
+  - trigger: ",z+"
+    replace: "ز"
+
+  - trigger: ",s+"
+    replace: "س"
+
+  - trigger: ",sn"
+    replace: "ش"
+
+  - trigger: ",c+"
+    replace: "ص"
+
+  - trigger: ",dd"
+    replace: "ض"
+
+  - trigger: ",tj"
+    replace: "ط"
+
+  - trigger: ",zH"
+    replace: "ظ"
+
+  - trigger: ",e+"
+    replace: "ع"
+
+  - trigger: ",i+"
+    replace: "غ"
+
+  - trigger: ",++"
+    replace: "ـ"
+
+  - trigger: ",f+"
+    replace: "ف"
+
+  - trigger: ",q+"
+    replace: "ق"
+
+  - trigger: ",k+"
+    replace: "ك"
+
+  - trigger: ",l+"
+    replace: "ل"
+
+  - trigger: ",m+"
+    replace: "م"
+
+  - trigger: ",n+"
+    replace: "ن"
+
+  - trigger: ",h+"
+    replace: "ه"
+
+  - trigger: ",w+"
+    replace: "و"
+
+  - trigger: ",j+"
+    replace: "ى"
+
+  - trigger: ",y+"
+    replace: "ي"
+
+  - trigger: ",:+"
+    replace: >
+      ً
+
+  - trigger: ",\"+"
+    replace: >
+      ٌ
+
+  - trigger: ",=+"
+    replace: >
+      ٍ
+
+  - trigger: ",/+"
+    replace: >
+      َ
+
+  - trigger: ",'+"
+    replace: >
+      ُ
+
+  - trigger: ",1+"
+    replace: >
+      ِ
+
+  - trigger: ",3+"
+    replace: >
+      ّ
+
+  - trigger: ",0+"
+    replace: >
+      ْ
+
+  - trigger: ",aS"
+    replace: >
+      ٰ
+
+  - trigger: ",p+"
+    replace: "پ"
+
+  - trigger: ",v+"
+    replace: "ڤ"
+
+  - trigger: ",gf"
+    replace: "گ"
+
+  - trigger: ",0a"
+    replace: "۰"
+
+  - trigger: ",1a"
+    replace: "۱"
+
+  - trigger: ",2a"
+    replace: "۲"
+
+  - trigger: ",3a"
+    replace: "۳"
+
+  - trigger: ",4a"
+    replace: "۴"
+
+  - trigger: ",5a"
+    replace: "۵"
+
+  - trigger: ",6a"
+    replace: "۶"
+
+  - trigger: ",7a"
+    replace: "۷"
+
+  - trigger: ",8a"
+    replace: "۸"
+
+  - trigger: ",9a"
+    replace: "۹"
+
+  - trigger: ",B."
+    replace: "Ḃ"
+
+  - trigger: ",b."
+    replace: "ḃ"
+
+  - trigger: ",B_"
+    replace: "Ḇ"
+
+  - trigger: ",b_"
+    replace: "ḇ"
+
+  - trigger: ",D."
+    replace: "Ḋ"
+
+  - trigger: ",d."
+    replace: "ḋ"
+
+  - trigger: ",D_"
+    replace: "Ḏ"
+
+  - trigger: ",d_"
+    replace: "ḏ"
+
+  - trigger: ",D,"
+    replace: "Ḑ"
+
+  - trigger: ",d,"
+    replace: "ḑ"
+
+  - trigger: ",F."
+    replace: "Ḟ"
+
+  - trigger: ",f."
+    replace: "ḟ"
+
+  - trigger: ",G-"
+    replace: "Ḡ"
+
+  - trigger: ",g-"
+    replace: "ḡ"
+
+  - trigger: ",H."
+    replace: "Ḣ"
+
+  - trigger: ",h."
+    replace: "ḣ"
+
+  - trigger: ",H:"
+    replace: "Ḧ"
+
+  - trigger: ",h:"
+    replace: "ḧ"
+
+  - trigger: ",H,"
+    replace: "Ḩ"
+
+  - trigger: ",h,"
+    replace: "ḩ"
+
+  - trigger: ",K'"
+    replace: "Ḱ"
+
+  - trigger: ",k'"
+    replace: "ḱ"
+
+  - trigger: ",K_"
+    replace: "Ḵ"
+
+  - trigger: ",k_"
+    replace: "ḵ"
+
+  - trigger: ",L_"
+    replace: "Ḻ"
+
+  - trigger: ",l_"
+    replace: "ḻ"
+
+  - trigger: ",M'"
+    replace: "Ḿ"
+
+  - trigger: ",m'"
+    replace: "ḿ"
+
+  - trigger: ",M."
+    replace: "Ṁ"
+
+  - trigger: ",m."
+    replace: "ṁ"
+
+  - trigger: ",N."
+    replace: "Ṅ"
+
+  - trigger: ",n."
+    replace: "ṅ"
+
+  - trigger: ",N_"
+    replace: "Ṉ"
+
+  - trigger: ",n_"
+    replace: "ṉ"
+
+  - trigger: ",P'"
+    replace: "Ṕ"
+
+  - trigger: ",p'"
+    replace: "ṕ"
+
+  - trigger: ",P."
+    replace: "Ṗ"
+
+  - trigger: ",p."
+    replace: "ṗ"
+
+  - trigger: ",R."
+    replace: "Ṙ"
+
+  - trigger: ",r."
+    replace: "ṙ"
+
+  - trigger: ",R_"
+    replace: "Ṟ"
+
+  - trigger: ",r_"
+    replace: "ṟ"
+
+  - trigger: ",S."
+    replace: "Ṡ"
+
+  - trigger: ",s."
+    replace: "ṡ"
+
+  - trigger: ",T."
+    replace: "Ṫ"
+
+  - trigger: ",t."
+    replace: "ṫ"
+
+  - trigger: ",T_"
+    replace: "Ṯ"
+
+  - trigger: ",t_"
+    replace: "ṯ"
+
+  - trigger: ",V?"
+    replace: "Ṽ"
+
+  - trigger: ",v?"
+    replace: "ṽ"
+
+  - trigger: ",W!"
+    replace: "Ẁ"
+
+  - trigger: ",w!"
+    replace: "ẁ"
+
+  - trigger: ",W'"
+    replace: "Ẃ"
+
+  - trigger: ",w'"
+    replace: "ẃ"
+
+  - trigger: ",W:"
+    replace: "Ẅ"
+
+  - trigger: ",w:"
+    replace: "ẅ"
+
+  - trigger: ",W."
+    replace: "Ẇ"
+
+  - trigger: ",w."
+    replace: "ẇ"
+
+  - trigger: ",X."
+    replace: "Ẋ"
+
+  - trigger: ",x."
+    replace: "ẋ"
+
+  - trigger: ",X:"
+    replace: "Ẍ"
+
+  - trigger: ",x:"
+    replace: "ẍ"
+
+  - trigger: ",Y."
+    replace: "Ẏ"
+
+  - trigger: ",y."
+    replace: "ẏ"
+
+  - trigger: ",Z>"
+    replace: "Ẑ"
+
+  - trigger: ",z>"
+    replace: "ẑ"
+
+  - trigger: ",Z_"
+    replace: "Ẕ"
+
+  - trigger: ",z_"
+    replace: "ẕ"
+
+  - trigger: ",h_"
+    replace: "ẖ"
+
+  - trigger: ",t:"
+    replace: "ẗ"
+
+  - trigger: ",w0"
+    replace: "ẘ"
+
+  - trigger: ",y0"
+    replace: "ẙ"
+
+  - trigger: ",A2"
+    replace: "Ả"
+
+  - trigger: ",a2"
+    replace: "ả"
+
+  - trigger: ",E2"
+    replace: "Ẻ"
+
+  - trigger: ",e2"
+    replace: "ẻ"
+
+  - trigger: ",E?"
+    replace: "Ẽ"
+
+  - trigger: ",e?"
+    replace: "ẽ"
+
+  - trigger: ",I2"
+    replace: "Ỉ"
+
+  - trigger: ",i2"
+    replace: "ỉ"
+
+  - trigger: ",O2"
+    replace: "Ỏ"
+
+  - trigger: ",o2"
+    replace: "ỏ"
+
+  - trigger: ",U2"
+    replace: "Ủ"
+
+  - trigger: ",u2"
+    replace: "ủ"
+
+  - trigger: ",Y!"
+    replace: "Ỳ"
+
+  - trigger: ",y!"
+    replace: "ỳ"
+
+  - trigger: ",Y2"
+    replace: "Ỷ"
+
+  - trigger: ",y2"
+    replace: "ỷ"
+
+  - trigger: ",Y?"
+    replace: "Ỹ"
+
+  - trigger: ",y?"
+    replace: "ỹ"
+
+  - trigger: ",;'"
+    replace: "ἀ"
+
+  - trigger: ",,'"
+    replace: "ἁ"
+
+  - trigger: ",;!"
+    replace: "ἂ"
+
+  - trigger: ",,!"
+    replace: "ἃ"
+
+  - trigger: ",?;"
+    replace: "ἄ"
+
+  - trigger: ",?,"
+    replace: "ἅ"
+
+  - trigger: ",!:"
+    replace: "ἆ"
+
+  - trigger: ",?:"
+    replace: "ἇ"
+
+  - trigger: ",1N"
+    replace: " "
+
+  - trigger: ",1M"
+    replace: " "
+
+  - trigger: ",3M"
+    replace: " "
+
+  - trigger: ",4M"
+    replace: " "
+
+  - trigger: ",6M"
+    replace: " "
+
+  - trigger: ",1T"
+    replace: " "
+
+  - trigger: ",1H"
+    replace: " "
+
+  - trigger: ",-1"
+    replace: "‐"
+
+  - trigger: ",-N"
+    replace: "–"
+
+  - trigger: ",-M"
+    replace: "—"
+
+  - trigger: ",-3"
+    replace: "―"
+
+  - trigger: ",!2"
+    replace: "‖"
+
+  - trigger: ",=2"
+    replace: "‗"
+
+  - trigger: ",'6"
+    replace: "‘"
+
+  - trigger: ",'9"
+    replace: "’"
+
+  - trigger: ",.9"
+    replace: "‚"
+
+  - trigger: ",9'"
+    replace: "‛"
+
+  - trigger: ",\"6"
+    replace: "“"
+
+  - trigger: ",\"9"
+    replace: "”"
+
+  - trigger: ",:9"
+    replace: "„"
+
+  - trigger: ",9\""
+    replace: "‟"
+
+  - trigger: ",/-"
+    replace: "†"
+
+  - trigger: ",/="
+    replace: "‡"
+
+  - trigger: ",.."
+    replace: "‥"
+
+  - trigger: ",,."
+    replace: "…"
+
+  - trigger: ",%0"
+    replace: "‰"
+
+  - trigger: ",1'"
+    replace: "′"
+
+  - trigger: ",2'"
+    replace: "″"
+
+  - trigger: ",3'"
+    replace: "‴"
+
+  - trigger: ",1\""
+    replace: "‵"
+
+  - trigger: ",2\""
+    replace: "‶"
+
+  - trigger: ",3\""
+    replace: "‷"
+
+  - trigger: ",Ca"
+    replace: "‸"
+
+  - trigger: ",<1"
+    replace: "‹"
+
+  - trigger: ",>1"
+    replace: "›"
+
+  - trigger: ",:X"
+    replace: "※"
+
+  - trigger: ",'-"
+    replace: "‾"
+
+  - trigger: ",/f"
+    replace: "⁄"
+
+  - trigger: ",0S"
+    replace: "⁰"
+
+  - trigger: ",4S"
+    replace: "⁴"
+
+  - trigger: ",5S"
+    replace: "⁵"
+
+  - trigger: ",6S"
+    replace: "⁶"
+
+  - trigger: ",7S"
+    replace: "⁷"
+
+  - trigger: ",8S"
+    replace: "⁸"
+
+  - trigger: ",9S"
+    replace: "⁹"
+
+  - trigger: ",+S"
+    replace: "⁺"
+
+  - trigger: ",-S"
+    replace: "⁻"
+
+  - trigger: ",=S"
+    replace: "⁼"
+
+  - trigger: ",(S"
+    replace: "⁽"
+
+  - trigger: ",)S"
+    replace: "⁾"
+
+  - trigger: ",nS"
+    replace: "ⁿ"
+
+  - trigger: ",0s"
+    replace: "₀"
+
+  - trigger: ",1s"
+    replace: "₁"
+
+  - trigger: ",2s"
+    replace: "₂"
+
+  - trigger: ",3s"
+    replace: "₃"
+
+  - trigger: ",4s"
+    replace: "₄"
+
+  - trigger: ",5s"
+    replace: "₅"
+
+  - trigger: ",6s"
+    replace: "₆"
+
+  - trigger: ",7s"
+    replace: "₇"
+
+  - trigger: ",8s"
+    replace: "₈"
+
+  - trigger: ",9s"
+    replace: "₉"
+
+  - trigger: ",+s"
+    replace: "₊"
+
+  - trigger: ",-s"
+    replace: "₋"
+
+  - trigger: ",=s"
+    replace: "₌"
+
+  - trigger: ",(s"
+    replace: "₍"
+
+  - trigger: ",)s"
+    replace: "₎"
+
+  - trigger: ",Li"
+    replace: "₤"
+
+  - trigger: ",Pt"
+    replace: "₧"
+
+  - trigger: ",W="
+    replace: "₩"
+
+  - trigger: ",Eu"
+    replace: "€"
+
+  - trigger: ",=R"
+    replace: "₽"
+
+  - trigger: ",=P"
+    replace: "₽"
+
+  - trigger: ",oC"
+    replace: "℃"
+
+  - trigger: ",co"
+    replace: "℅"
+
+  - trigger: ",oF"
+    replace: "℉"
+
+  - trigger: ",N0"
+    replace: "№"
+
+  - trigger: ",PO"
+    replace: "℗"
+
+  - trigger: ",Rx"
+    replace: "℞"
+
+  - trigger: ",SM"
+    replace: "℠"
+
+  - trigger: ",TM"
+    replace: "™"
+
+  - trigger: ",Om"
+    replace: "Ω"
+
+  - trigger: ",AO"
+    replace: "Å"
+
+  - trigger: ",13"
+    replace: "⅓"
+
+  - trigger: ",23"
+    replace: "⅔"
+
+  - trigger: ",15"
+    replace: "⅕"
+
+  - trigger: ",25"
+    replace: "⅖"
+
+  - trigger: ",35"
+    replace: "⅗"
+
+  - trigger: ",45"
+    replace: "⅘"
+
+  - trigger: ",16"
+    replace: "⅙"
+
+  - trigger: ",56"
+    replace: "⅚"
+
+  - trigger: ",18"
+    replace: "⅛"
+
+  - trigger: ",38"
+    replace: "⅜"
+
+  - trigger: ",58"
+    replace: "⅝"
+
+  - trigger: ",78"
+    replace: "⅞"
+
+  - trigger: ",1R"
+    replace: "Ⅰ"
+
+  - trigger: ",2R"
+    replace: "Ⅱ"
+
+  - trigger: ",3R"
+    replace: "Ⅲ"
+
+  - trigger: ",4R"
+    replace: "Ⅳ"
+
+  - trigger: ",5R"
+    replace: "Ⅴ"
+
+  - trigger: ",6R"
+    replace: "Ⅵ"
+
+  - trigger: ",7R"
+    replace: "Ⅶ"
+
+  - trigger: ",8R"
+    replace: "Ⅷ"
+
+  - trigger: ",9R"
+    replace: "Ⅸ"
+
+  - trigger: ",aR"
+    replace: "Ⅹ"
+
+  - trigger: ",bR"
+    replace: "Ⅺ"
+
+  - trigger: ",cR"
+    replace: "Ⅻ"
+
+  - trigger: ",1r"
+    replace: "ⅰ"
+
+  - trigger: ",2r"
+    replace: "ⅱ"
+
+  - trigger: ",3r"
+    replace: "ⅲ"
+
+  - trigger: ",4r"
+    replace: "ⅳ"
+
+  - trigger: ",5r"
+    replace: "ⅴ"
+
+  - trigger: ",6r"
+    replace: "ⅵ"
+
+  - trigger: ",7r"
+    replace: "ⅶ"
+
+  - trigger: ",8r"
+    replace: "ⅷ"
+
+  - trigger: ",9r"
+    replace: "ⅸ"
+
+  - trigger: ",ar"
+    replace: "ⅹ"
+
+  - trigger: ",br"
+    replace: "ⅺ"
+
+  - trigger: ",cr"
+    replace: "ⅻ"
+
+  - trigger: ",<-"
+    replace: "←"
+
+  - trigger: ",-!"
+    replace: "↑"
+
+  - trigger: ",->"
+    replace: "→"
+
+  - trigger: ",-v"
+    replace: "↓"
+
+  - trigger: ",<>"
+    replace: "↔"
+
+  - trigger: ",UD"
+    replace: "↕"
+
+  - trigger: ",<="
+    replace: "⇐"
+
+  - trigger: ",=>"
+    replace: "⇒"
+
+  - trigger: ",=="
+    replace: "⇔"
+
+  - trigger: ",FA"
+    replace: "∀"
+
+  - trigger: ",dP"
+    replace: "∂"
+
+  - trigger: ",TE"
+    replace: "∃"
+
+  - trigger: ",/0"
+    replace: "∅"
+
+  - trigger: ",DE"
+    replace: "∆"
+
+  - trigger: ",NB"
+    replace: "∇"
+
+  - trigger: ",(-"
+    replace: "∈"
+
+  - trigger: ",-)"
+    replace: "∋"
+
+  - trigger: ",*P"
+    replace: "∏"
+
+  - trigger: ",+Z"
+    replace: "∑"
+
+  - trigger: ",-2"
+    replace: "−"
+
+  - trigger: ",-+"
+    replace: "∓"
+
+  - trigger: ",*-"
+    replace: "∗"
+
+  - trigger: ",Ob"
+    replace: "∘"
+
+  - trigger: ",Sb"
+    replace: "∙"
+
+  - trigger: ",RT"
+    replace: "√"
+
+  - trigger: ",0("
+    replace: "∝"
+
+  - trigger: ",00"
+    replace: "∞"
+
+  - trigger: ",-L"
+    replace: "∟"
+
+  - trigger: ",-V"
+    replace: "∠"
+
+  - trigger: ",PP"
+    replace: "∥"
+
+  - trigger: ",AN"
+    replace: "∧"
+
+  - trigger: ",OR"
+    replace: "∨"
+
+  - trigger: ",(U"
+    replace: "∩"
+
+  - trigger: ",)U"
+    replace: "∪"
+
+  - trigger: ",In"
+    replace: "∫"
+
+  - trigger: ",DI"
+    replace: "∬"
+
+  - trigger: ",Io"
+    replace: "∮"
+
+  - trigger: ",.:"
+    replace: "∴"
+
+  - trigger: ",:."
+    replace: "∵"
+
+  - trigger: ",:R"
+    replace: "∶"
+
+  - trigger: ",::"
+    replace: "∷"
+
+  - trigger: ",?1"
+    replace: "∼"
+
+  - trigger: ",CG"
+    replace: "∾"
+
+  - trigger: ",?-"
+    replace: "≃"
+
+  - trigger: ",?="
+    replace: "≅"
+
+  - trigger: ",?2"
+    replace: "≈"
+
+  - trigger: ",=?"
+    replace: "≌"
+
+  - trigger: ",HI"
+    replace: "≓"
+
+  - trigger: ",!="
+    replace: "≠"
+
+  - trigger: ",=3"
+    replace: "≡"
+
+  - trigger: ",=<"
+    replace: "≤"
+
+  - trigger: ",>="
+    replace: "≥"
+
+  - trigger: ",<*"
+    replace: "≪"
+
+  - trigger: ",*>"
+    replace: "≫"
+
+  - trigger: ",!<"
+    replace: "≮"
+
+  - trigger: ",!>"
+    replace: "≯"
+
+  - trigger: ",(C"
+    replace: "⊂"
+
+  - trigger: ",)C"
+    replace: "⊃"
+
+  - trigger: ",(_"
+    replace: "⊆"
+
+  - trigger: ",)_"
+    replace: "⊇"
+
+  - trigger: ",0."
+    replace: "⊙"
+
+  - trigger: ",02"
+    replace: "⊚"
+
+  - trigger: ",-T"
+    replace: "⊥"
+
+  - trigger: ",.P"
+    replace: "⋅"
+
+  - trigger: ",:3"
+    replace: "⋮"
+
+  - trigger: ",0.3"
+    replace: "⋯"
+
+  - trigger: ",Eh"
+    replace: "⌂"
+
+  - trigger: ",<7"
+    replace: "⌈"
+
+  - trigger: ",>7"
+    replace: "⌉"
+
+  - trigger: ",7<"
+    replace: "⌊"
+
+  - trigger: ",7>"
+    replace: "⌋"
+
+  - trigger: ",NI"
+    replace: "⌐"
+
+  - trigger: ",(A"
+    replace: "⌒"
+
+  - trigger: ",TR"
+    replace: "⌕"
+
+  - trigger: ",Iu"
+    replace: "⌠"
+
+  - trigger: ",Il"
+    replace: "⌡"
+
+  - trigger: ",</"
+    replace: "〈"
+
+  - trigger: ",/>"
+    replace: "〉"
+
+  - trigger: ",Vs"
+    replace: "␣"
+
+  - trigger: ",1h"
+    replace: "⑀"
+
+  - trigger: ",3h"
+    replace: "⑁"
+
+  - trigger: ",2h"
+    replace: "⑂"
+
+  - trigger: ",4h"
+    replace: "⑃"
+
+  - trigger: ",1j"
+    replace: "⑆"
+
+  - trigger: ",2j"
+    replace: "⑇"
+
+  - trigger: ",3j"
+    replace: "⑈"
+
+  - trigger: ",4j"
+    replace: "⑉"
+
+  - trigger: ",1."
+    replace: "⒈"
+
+  - trigger: ",2."
+    replace: "⒉"
+
+  - trigger: ",3."
+    replace: "⒊"
+
+  - trigger: ",4."
+    replace: "⒋"
+
+  - trigger: ",5."
+    replace: "⒌"
+
+  - trigger: ",6."
+    replace: "⒍"
+
+  - trigger: ",7."
+    replace: "⒎"
+
+  - trigger: ",8."
+    replace: "⒏"
+
+  - trigger: ",9."
+    replace: "⒐"
+
+  - trigger: ",hh"
+    replace: "─"
+
+  - trigger: ",HH"
+    replace: "━"
+
+  - trigger: ",vv"
+    replace: "│"
+
+  - trigger: ",VV"
+    replace: "┃"
+
+  - trigger: ",3-"
+    replace: "┄"
+
+  - trigger: ",3_"
+    replace: "┅"
+
+  - trigger: ",3!"
+    replace: "┆"
+
+  - trigger: ",3/"
+    replace: "┇"
+
+  - trigger: ",4-"
+    replace: "┈"
+
+  - trigger: ",4_"
+    replace: "┉"
+
+  - trigger: ",4!"
+    replace: "┊"
+
+  - trigger: ",4/"
+    replace: "┋"
+
+  - trigger: ",dr"
+    replace: "┌"
+
+  - trigger: ",dR"
+    replace: "┍"
+
+  - trigger: ",Dr"
+    replace: "┎"
+
+  - trigger: ",DR"
+    replace: "┏"
+
+  - trigger: ",dl"
+    replace: "┐"
+
+  - trigger: ",dL"
+    replace: "┑"
+
+  - trigger: ",Dl"
+    replace: "┒"
+
+  - trigger: ",LD"
+    replace: "┓"
+
+  - trigger: ",ur"
+    replace: "└"
+
+  - trigger: ",uR"
+    replace: "┕"
+
+  - trigger: ",Ur"
+    replace: "┖"
+
+  - trigger: ",UR"
+    replace: "┗"
+
+  - trigger: ",ul"
+    replace: "┘"
+
+  - trigger: ",uL"
+    replace: "┙"
+
+  - trigger: ",Ul"
+    replace: "┚"
+
+  - trigger: ",UL"
+    replace: "┛"
+
+  - trigger: ",vr"
+    replace: "├"
+
+  - trigger: ",vR"
+    replace: "┝"
+
+  - trigger: ",Vr"
+    replace: "┠"
+
+  - trigger: ",VR"
+    replace: "┣"
+
+  - trigger: ",vl"
+    replace: "┤"
+
+  - trigger: ",vL"
+    replace: "┥"
+
+  - trigger: ",Vl"
+    replace: "┨"
+
+  - trigger: ",VL"
+    replace: "┫"
+
+  - trigger: ",dh"
+    replace: "┬"
+
+  - trigger: ",dH"
+    replace: "┯"
+
+  - trigger: ",Dh"
+    replace: "┰"
+
+  - trigger: ",DH"
+    replace: "┳"
+
+  - trigger: ",uh"
+    replace: "┴"
+
+  - trigger: ",uH"
+    replace: "┷"
+
+  - trigger: ",Uh"
+    replace: "┸"
+
+  - trigger: ",UH"
+    replace: "┻"
+
+  - trigger: ",vh"
+    replace: "┼"
+
+  - trigger: ",vH"
+    replace: "┿"
+
+  - trigger: ",Vh"
+    replace: "╂"
+
+  - trigger: ",VH"
+    replace: "╋"
+
+  - trigger: ",FD"
+    replace: "╱"
+
+  - trigger: ",BD"
+    replace: "╲"
+
+  - trigger: ",TB"
+    replace: "▀"
+
+  - trigger: ",LB"
+    replace: "▄"
+
+  - trigger: ",FB"
+    replace: "█"
+
+  - trigger: ",lB"
+    replace: "▌"
+
+  - trigger: ",RB"
+    replace: "▐"
+
+  - trigger: ",.S"
+    replace: "░"
+
+  - trigger: ",:S"
+    replace: "▒"
+
+  - trigger: ",?S"
+    replace: "▓"
+
+  - trigger: ",fS"
+    replace: "■"
+
+  - trigger: ",OS"
+    replace: "□"
+
+  - trigger: ",RO"
+    replace: "▢"
+
+  - trigger: ",Rr"
+    replace: "▣"
+
+  - trigger: ",RF"
+    replace: "▤"
+
+  - trigger: ",RY"
+    replace: "▥"
+
+  - trigger: ",RH"
+    replace: "▦"
+
+  - trigger: ",RZ"
+    replace: "▧"
+
+  - trigger: ",RK"
+    replace: "▨"
+
+  - trigger: ",RX"
+    replace: "▩"
+
+  - trigger: ",sB"
+    replace: "▪"
+
+  - trigger: ",SR"
+    replace: "▬"
+
+  - trigger: ",Or"
+    replace: "▭"
+
+  - trigger: ",UT"
+    replace: "▲"
+
+  - trigger: ",uT"
+    replace: "△"
+
+  - trigger: ",PR"
+    replace: "▶"
+
+  - trigger: ",Tr"
+    replace: "▷"
+
+  - trigger: ",Dt"
+    replace: "▼"
+
+  - trigger: ",dT"
+    replace: "▽"
+
+  - trigger: ",PL"
+    replace: "◀"
+
+  - trigger: ",Tl"
+    replace: "◁"
+
+  - trigger: ",Db"
+    replace: "◆"
+
+  - trigger: ",Dw"
+    replace: "◇"
+
+  - trigger: ",LZ"
+    replace: "◊"
+
+  - trigger: ",0m"
+    replace: "○"
+
+  - trigger: ",0o"
+    replace: "◎"
+
+  - trigger: ",0M"
+    replace: "●"
+
+  - trigger: ",0L"
+    replace: "◐"
+
+  - trigger: ",0R"
+    replace: "◑"
+
+  - trigger: ",Sn"
+    replace: "◘"
+
+  - trigger: ",Ic"
+    replace: "◙"
+
+  - trigger: ",Fd"
+    replace: "◢"
+
+  - trigger: ",Bd"
+    replace: "◣"
+
+  - trigger: ",*2"
+    replace: "★"
+
+  - trigger: ",*1"
+    replace: "☆"
+
+  - trigger: ",<H"
+    replace: "☜"
+
+  - trigger: ",>H"
+    replace: "☞"
+
+  - trigger: ",0u"
+    replace: "☺"
+
+  - trigger: ",0U"
+    replace: "☻"
+
+  - trigger: ",SU"
+    replace: "☼"
+
+  - trigger: ",Fm"
+    replace: "♀"
+
+  - trigger: ",Ml"
+    replace: "♂"
+
+  - trigger: ",cS"
+    replace: "♠"
+
+  - trigger: ",cH"
+    replace: "♡"
+
+  - trigger: ",cD"
+    replace: "♢"
+
+  - trigger: ",cC"
+    replace: "♣"
+
+  - trigger: ",Md"
+    replace: "♩"
+
+  - trigger: ",M8"
+    replace: "♪"
+
+  - trigger: ",M2"
+    replace: "♫"
+
+  - trigger: ",Mb"
+    replace: "♭"
+
+  - trigger: ",Mx"
+    replace: "♮"
+
+  - trigger: ",MX"
+    replace: "♯"
+
+  - trigger: ",OK"
+    replace: "✓"
+
+  - trigger: ",XX"
+    replace: "✗"
+
+  - trigger: ",-X"
+    replace: "✠"
+
+  - trigger: ",IS"
+    replace: "　"
+
+  - trigger: ",,_"
+    replace: "、"
+
+  - trigger: ",._"
+    replace: "。"
+
+  - trigger: ",+\""
+    replace: "〃"
+
+  - trigger: ",+_"
+    replace: "〄"
+
+  - trigger: ",*_"
+    replace: "々"
+
+  - trigger: ",;_"
+    replace: "〆"
+
+  - trigger: ",0_"
+    replace: "〇"
+
+  - trigger: ",<+"
+    replace: "《"
+
+  - trigger: ",>+"
+    replace: "》"
+
+  - trigger: ",<'"
+    replace: "「"
+
+  - trigger: ",>'"
+    replace: "」"
+
+  - trigger: ",<\""
+    replace: "『"
+
+  - trigger: ",>\""
+    replace: "』"
+
+  - trigger: ",(\""
+    replace: "【"
+
+  - trigger: ",)\""
+    replace: "】"
+
+  - trigger: ",=T"
+    replace: "〒"
+
+  - trigger: ",=_"
+    replace: "〓"
+
+  - trigger: ",('"
+    replace: "〔"
+
+  - trigger: ",)'"
+    replace: "〕"
+
+  - trigger: ",(I"
+    replace: "〖"
+
+  - trigger: ",)I"
+    replace: "〗"
+
+  - trigger: ",-?"
+    replace: "〜"
+
+  - trigger: ",A5"
+    replace: "ぁ"
+
+  - trigger: ",a5"
+    replace: "あ"
+
+  - trigger: ",I5"
+    replace: "ぃ"
+
+  - trigger: ",i5"
+    replace: "い"
+
+  - trigger: ",U5"
+    replace: "ぅ"
+
+  - trigger: ",u5"
+    replace: "う"
+
+  - trigger: ",E5"
+    replace: "ぇ"
+
+  - trigger: ",e5"
+    replace: "え"
+
+  - trigger: ",O5"
+    replace: "ぉ"
+
+  - trigger: ",o5"
+    replace: "お"
+
+  - trigger: ",ka"
+    replace: "か"
+
+  - trigger: ",ga"
+    replace: "が"
+
+  - trigger: ",ki"
+    replace: "き"
+
+  - trigger: ",gi"
+    replace: "ぎ"
+
+  - trigger: ",ku"
+    replace: "く"
+
+  - trigger: ",gu"
+    replace: "ぐ"
+
+  - trigger: ",ke"
+    replace: "け"
+
+  - trigger: ",ge"
+    replace: "げ"
+
+  - trigger: ",ko"
+    replace: "こ"
+
+  - trigger: ",go"
+    replace: "ご"
+
+  - trigger: ",sa"
+    replace: "さ"
+
+  - trigger: ",za"
+    replace: "ざ"
+
+  - trigger: ",si"
+    replace: "し"
+
+  - trigger: ",zi"
+    replace: "じ"
+
+  - trigger: ",su"
+    replace: "す"
+
+  - trigger: ",zu"
+    replace: "ず"
+
+  - trigger: ",se"
+    replace: "せ"
+
+  - trigger: ",ze"
+    replace: "ぜ"
+
+  - trigger: ",so"
+    replace: "そ"
+
+  - trigger: ",zo"
+    replace: "ぞ"
+
+  - trigger: ",ta"
+    replace: "た"
+
+  - trigger: ",da"
+    replace: "だ"
+
+  - trigger: ",ti"
+    replace: "ち"
+
+  - trigger: ",di"
+    replace: "ぢ"
+
+  - trigger: ",tU"
+    replace: "っ"
+
+  - trigger: ",tu"
+    replace: "つ"
+
+  - trigger: ",du"
+    replace: "づ"
+
+  - trigger: ",te"
+    replace: "て"
+
+  - trigger: ",de"
+    replace: "で"
+
+  - trigger: ",to"
+    replace: "と"
+
+  - trigger: ",do"
+    replace: "ど"
+
+  - trigger: ",na"
+    replace: "な"
+
+  - trigger: ",ni"
+    replace: "に"
+
+  - trigger: ",nu"
+    replace: "ぬ"
+
+  - trigger: ",ne"
+    replace: "ね"
+
+  - trigger: ",no"
+    replace: "の"
+
+  - trigger: ",ha"
+    replace: "は"
+
+  - trigger: ",ba"
+    replace: "ば"
+
+  - trigger: ",pa"
+    replace: "ぱ"
+
+  - trigger: ",hi"
+    replace: "ひ"
+
+  - trigger: ",bi"
+    replace: "び"
+
+  - trigger: ",pi"
+    replace: "ぴ"
+
+  - trigger: ",hu"
+    replace: "ふ"
+
+  - trigger: ",bu"
+    replace: "ぶ"
+
+  - trigger: ",pu"
+    replace: "ぷ"
+
+  - trigger: ",he"
+    replace: "へ"
+
+  - trigger: ",be"
+    replace: "べ"
+
+  - trigger: ",pe"
+    replace: "ぺ"
+
+  - trigger: ",ho"
+    replace: "ほ"
+
+  - trigger: ",bo"
+    replace: "ぼ"
+
+  - trigger: ",po"
+    replace: "ぽ"
+
+  - trigger: ",ma"
+    replace: "ま"
+
+  - trigger: ",mi"
+    replace: "み"
+
+  - trigger: ",mu"
+    replace: "む"
+
+  - trigger: ",me"
+    replace: "め"
+
+  - trigger: ",mo"
+    replace: "も"
+
+  - trigger: ",yA"
+    replace: "ゃ"
+
+  - trigger: ",ya"
+    replace: "や"
+
+  - trigger: ",yU"
+    replace: "ゅ"
+
+  - trigger: ",yu"
+    replace: "ゆ"
+
+  - trigger: ",yO"
+    replace: "ょ"
+
+  - trigger: ",yo"
+    replace: "よ"
+
+  - trigger: ",ra"
+    replace: "ら"
+
+  - trigger: ",ri"
+    replace: "り"
+
+  - trigger: ",ru"
+    replace: "る"
+
+  - trigger: ",re"
+    replace: "れ"
+
+  - trigger: ",ro"
+    replace: "ろ"
+
+  - trigger: ",wA"
+    replace: "ゎ"
+
+  - trigger: ",wa"
+    replace: "わ"
+
+  - trigger: ",wi"
+    replace: "ゐ"
+
+  - trigger: ",we"
+    replace: "ゑ"
+
+  - trigger: ",wo"
+    replace: "を"
+
+  - trigger: ",n5"
+    replace: "ん"
+
+  - trigger: ",vu"
+    replace: "ゔ"
+
+  - trigger: ",\"5"
+    replace: "゛"
+
+  - trigger: ",05"
+    replace: "゜"
+
+  - trigger: ",*5"
+    replace: "ゝ"
+
+  - trigger: ",+5"
+    replace: "ゞ"
+
+  - trigger: ",a6"
+    replace: "ァ"
+
+  - trigger: ",A6"
+    replace: "ア"
+
+  - trigger: ",i6"
+    replace: "ィ"
+
+  - trigger: ",I6"
+    replace: "イ"
+
+  - trigger: ",u6"
+    replace: "ゥ"
+
+  - trigger: ",U6"
+    replace: "ウ"
+
+  - trigger: ",e6"
+    replace: "ェ"
+
+  - trigger: ",E6"
+    replace: "エ"
+
+  - trigger: ",o6"
+    replace: "ォ"
+
+  - trigger: ",O6"
+    replace: "オ"
+
+  - trigger: ",Ka"
+    replace: "カ"
+
+  - trigger: ",Ga"
+    replace: "ガ"
+
+  - trigger: ",Ki"
+    replace: "キ"
+
+  - trigger: ",Gi"
+    replace: "ギ"
+
+  - trigger: ",Ku"
+    replace: "ク"
+
+  - trigger: ",Gu"
+    replace: "グ"
+
+  - trigger: ",Ke"
+    replace: "ケ"
+
+  - trigger: ",Ge"
+    replace: "ゲ"
+
+  - trigger: ",Ko"
+    replace: "コ"
+
+  - trigger: ",Go"
+    replace: "ゴ"
+
+  - trigger: ",Sa"
+    replace: "サ"
+
+  - trigger: ",Za"
+    replace: "ザ"
+
+  - trigger: ",Si"
+    replace: "シ"
+
+  - trigger: ",Zi"
+    replace: "ジ"
+
+  - trigger: ",Su"
+    replace: "ス"
+
+  - trigger: ",Zu"
+    replace: "ズ"
+
+  - trigger: ",Se"
+    replace: "セ"
+
+  - trigger: ",Ze"
+    replace: "ゼ"
+
+  - trigger: ",So"
+    replace: "ソ"
+
+  - trigger: ",Zo"
+    replace: "ゾ"
+
+  - trigger: ",Ta"
+    replace: "タ"
+
+  - trigger: ",Da"
+    replace: "ダ"
+
+  - trigger: ",Ti"
+    replace: "チ"
+
+  - trigger: ",Di"
+    replace: "ヂ"
+
+  - trigger: ",TU"
+    replace: "ッ"
+
+  - trigger: ",Tu"
+    replace: "ツ"
+
+  - trigger: ",Du"
+    replace: "ヅ"
+
+  - trigger: ",Te"
+    replace: "テ"
+
+  - trigger: ",De"
+    replace: "デ"
+
+  - trigger: ",To"
+    replace: "ト"
+
+  - trigger: ",Do"
+    replace: "ド"
+
+  - trigger: ",Na"
+    replace: "ナ"
+
+  - trigger: ",Ni"
+    replace: "ニ"
+
+  - trigger: ",Nu"
+    replace: "ヌ"
+
+  - trigger: ",Ne"
+    replace: "ネ"
+
+  - trigger: ",No"
+    replace: "ノ"
+
+  - trigger: ",Ha"
+    replace: "ハ"
+
+  - trigger: ",Ba"
+    replace: "バ"
+
+  - trigger: ",Pa"
+    replace: "パ"
+
+  - trigger: ",Hi"
+    replace: "ヒ"
+
+  - trigger: ",Bi"
+    replace: "ビ"
+
+  - trigger: ",Pi"
+    replace: "ピ"
+
+  - trigger: ",Hu"
+    replace: "フ"
+
+  - trigger: ",Bu"
+    replace: "ブ"
+
+  - trigger: ",Pu"
+    replace: "プ"
+
+  - trigger: ",He"
+    replace: "ヘ"
+
+  - trigger: ",Be"
+    replace: "ベ"
+
+  - trigger: ",Pe"
+    replace: "ペ"
+
+  - trigger: ",Ho"
+    replace: "ホ"
+
+  - trigger: ",Bo"
+    replace: "ボ"
+
+  - trigger: ",Po"
+    replace: "ポ"
+
+  - trigger: ",Ma"
+    replace: "マ"
+
+  - trigger: ",Mi"
+    replace: "ミ"
+
+  - trigger: ",Mu"
+    replace: "ム"
+
+  - trigger: ",Me"
+    replace: "メ"
+
+  - trigger: ",Mo"
+    replace: "モ"
+
+  - trigger: ",YA"
+    replace: "ャ"
+
+  - trigger: ",Ya"
+    replace: "ヤ"
+
+  - trigger: ",YU"
+    replace: "ュ"
+
+  - trigger: ",Yu"
+    replace: "ユ"
+
+  - trigger: ",YO"
+    replace: "ョ"
+
+  - trigger: ",Yo"
+    replace: "ヨ"
+
+  - trigger: ",Ra"
+    replace: "ラ"
+
+  - trigger: ",Ri"
+    replace: "リ"
+
+  - trigger: ",Ru"
+    replace: "ル"
+
+  - trigger: ",Re"
+    replace: "レ"
+
+  - trigger: ",Ro"
+    replace: "ロ"
+
+  - trigger: ",WA"
+    replace: "ヮ"
+
+  - trigger: ",Wa"
+    replace: "ワ"
+
+  - trigger: ",Wi"
+    replace: "ヰ"
+
+  - trigger: ",We"
+    replace: "ヱ"
+
+  - trigger: ",Wo"
+    replace: "ヲ"
+
+  - trigger: ",N6"
+    replace: "ン"
+
+  - trigger: ",Vu"
+    replace: "ヴ"
+
+  - trigger: ",KA"
+    replace: "ヵ"
+
+  - trigger: ",KE"
+    replace: "ヶ"
+
+  - trigger: ",Va"
+    replace: "ヷ"
+
+  - trigger: ",Vi"
+    replace: "ヸ"
+
+  - trigger: ",Ve"
+    replace: "ヹ"
+
+  - trigger: ",Vo"
+    replace: "ヺ"
+
+  - trigger: ",.6"
+    replace: "・"
+
+  - trigger: ",-6"
+    replace: "ー"
+
+  - trigger: ",*6"
+    replace: "ヽ"
+
+  - trigger: ",+6"
+    replace: "ヾ"
+
+  - trigger: ",b4"
+    replace: "ㄅ"
+
+  - trigger: ",p4"
+    replace: "ㄆ"
+
+  - trigger: ",m4"
+    replace: "ㄇ"
+
+  - trigger: ",f4"
+    replace: "ㄈ"
+
+  - trigger: ",d4"
+    replace: "ㄉ"
+
+  - trigger: ",t4"
+    replace: "ㄊ"
+
+  - trigger: ",n4"
+    replace: "ㄋ"
+
+  - trigger: ",l4"
+    replace: "ㄌ"
+
+  - trigger: ",g4"
+    replace: "ㄍ"
+
+  - trigger: ",k4"
+    replace: "ㄎ"
+
+  - trigger: ",h4"
+    replace: "ㄏ"
+
+  - trigger: ",j4"
+    replace: "ㄐ"
+
+  - trigger: ",q4"
+    replace: "ㄑ"
+
+  - trigger: ",x4"
+    replace: "ㄒ"
+
+  - trigger: ",zh"
+    replace: "ㄓ"
+
+  - trigger: ",ch"
+    replace: "ㄔ"
+
+  - trigger: ",sh"
+    replace: "ㄕ"
+
+  - trigger: ",r4"
+    replace: "ㄖ"
+
+  - trigger: ",z4"
+    replace: "ㄗ"
+
+  - trigger: ",c4"
+    replace: "ㄘ"
+
+  - trigger: ",s4"
+    replace: "ㄙ"
+
+  - trigger: ",a4"
+    replace: "ㄚ"
+
+  - trigger: ",o4"
+    replace: "ㄛ"
+
+  - trigger: ",e4"
+    replace: "ㄜ"
+
+  - trigger: ",ai"
+    replace: "ㄞ"
+
+  - trigger: ",ei"
+    replace: "ㄟ"
+
+  - trigger: ",au"
+    replace: "ㄠ"
+
+  - trigger: ",ou"
+    replace: "ㄡ"
+
+  - trigger: ",an"
+    replace: "ㄢ"
+
+  - trigger: ",en"
+    replace: "ㄣ"
+
+  - trigger: ",aN"
+    replace: "ㄤ"
+
+  - trigger: ",eN"
+    replace: "ㄥ"
+
+  - trigger: ",er"
+    replace: "ㄦ"
+
+  - trigger: ",i4"
+    replace: "ㄧ"
+
+  - trigger: ",u4"
+    replace: "ㄨ"
+
+  - trigger: ",iu"
+    replace: "ㄩ"
+
+  - trigger: ",v4"
+    replace: "ㄪ"
+
+  - trigger: ",nG"
+    replace: "ㄫ"
+
+  - trigger: ",gn"
+    replace: "ㄬ"
+
+  - trigger: ",1c"
+    replace: "㈠"
+
+  - trigger: ",2c"
+    replace: "㈡"
+
+  - trigger: ",3c"
+    replace: "㈢"
+
+  - trigger: ",4c"
+    replace: "㈣"
+
+  - trigger: ",5c"
+    replace: "㈤"
+
+  - trigger: ",6c"
+    replace: "㈥"
+
+  - trigger: ",7c"
+    replace: "㈦"
+
+  - trigger: ",8c"
+    replace: "㈧"
+
+  - trigger: ",9c"
+    replace: "㈨"
+
+  - trigger: ",ff"
+    replace: "ﬀ"
+
+  - trigger: ",fi"
+    replace: "ﬁ"
+
+  - trigger: ",fl"
+    replace: "ﬂ"
+
+  - trigger: ",ft"
+    replace: "ﬅ"
+
+  - trigger: ",st"
+    replace: "ﬆ"

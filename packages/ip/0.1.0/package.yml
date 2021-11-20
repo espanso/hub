@@ -1,0 +1,10 @@
+# ip package
+
+matches:
+  - trigger: ":ip"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "echo -n $(dig @resolver1.opendns.com ANY myip.opendns.com +short)"
