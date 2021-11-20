@@ -3,3 +3,4 @@ description: A simple way to type Greek upper and lowercase letters
 name: greek-letters
 title: 'Greek Letters: Upper and Lower'
 version: 0.1.0
+homepage: "https://github.com/exergonic/espanso-package-greek-letters"
