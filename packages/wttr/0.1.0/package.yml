@@ -17,7 +17,7 @@ matches:
         params:
           cmd: 'curl https://wttr.in?format="%m\n"'
 
-  - trigger: ":wttrat/(?P<location>.*)/"
+  - regex: ":wttrat/(?P<location>.*)/"
     replace: "{{output}}"
     vars:
       - name: output
