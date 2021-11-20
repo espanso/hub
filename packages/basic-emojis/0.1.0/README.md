@@ -7,7 +7,6 @@ Install the package with:
 
 ```
 espanso install basic-emojis
-espanso restart
 ```
 
 ### Usage

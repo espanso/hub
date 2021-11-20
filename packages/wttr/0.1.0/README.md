@@ -25,3 +25,5 @@ Requires `curl`.
 ## Package Details
 
 Repository: [https://github.com/bradyjoslin/espanso-package-wttr/](https://github.com/bradyjoslin/espanso-package-wttr/)
+
+This package has been edited by the Espanso Team to port it to the new v2 format.
