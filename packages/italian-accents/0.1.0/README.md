@@ -11,8 +11,7 @@ espanso install italian-accents
 
 ### Usage
 
-This package replaces the following keywords with the associated accent while 
-you're typing:
+This package replaces the following keywords with the associated accent while you're typing:
 
 #### Lowercase Accents
 
