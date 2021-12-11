@@ -1,0 +1,210 @@
+# Espanso Dice
+
+matches:
+  - triggers: [".roll d2", ".r d2"]
+    word: true
+    replace: "d2: {{output}}"
+    vars:
+      - name: output
+        type: random
+        params:
+          choices:
+            - "1"
+            - "2"
+  - triggers: [".roll d3", ".r d3"]
+    word: true
+    replace: "d3: {{output}}"
+    vars:
+      - name: output
+        type: random
+        params:
+          choices:
+            - "1"
+            - "2"
+            - "3"
+  - triggers: [".roll d4", ".r d4"]
+    word: true
+    replace: "d4: {{output}}"
+    vars:
+      - name: output
+        type: random
+        params:
+          choices:
+            - "1"
+            - "2"
+            - "3"
+            - "4"
+  - triggers: [".roll d6", ".r d6"]
+    word: true
+    replace: "d6: {{output}}"
+    vars:
+      - name: output
+        type: random
+        params:
+          choices:
+            - "1"
+            - "2"
+            - "3"
+            - "4"
+            - "5"
+            - "6"
+  - triggers: [".roll d8", ".r d8"]
+    word: true
+    replace: "d8: {{output}}"
+    vars:
+      - name: output
+        type: random
+        params:
+          choices:
+            - "1"
+            - "2"
+            - "3"
+            - "4"
+            - "5"
+            - "6"
+            - "7"
+            - "8"
+  - triggers: [".roll d10", ".r d10"]
+    word: true
+    replace: "d10: {{output}}"
+    vars:
+      - name: output
+        type: random
+        params:
+          choices:
+            - "1"
+            - "2"
+            - "3"
+            - "4"
+            - "5"
+            - "6"
+            - "7"
+            - "8"
+            - "9"
+            - "10"
+  - triggers: [".roll d12", ".r d12"]
+    word: true
+    replace: "d12: {{output}}"
+    vars:
+      - name: output
+        type: random
+        params:
+          choices:
+            - "1"
+            - "2"
+            - "3"
+            - "4"
+            - "5"
+            - "6"
+            - "7"
+            - "8"
+            - "9"
+            - "10"
+            - "11"
+            - "12"
+  - triggers: [".roll d20", ".r d20"]
+    word: true
+    replace: "d20: {{output}}"
+    vars:
+      - name: output
+        type: random
+        params:
+          choices:
+            - "1"
+            - "2"
+            - "3"
+            - "4"
+            - "5"
+            - "6"
+            - "7"
+            - "8"
+            - "9"
+            - "10"
+            - "11"
+            - "12"
+            - "13"
+            - "14"
+            - "15"
+            - "16"
+            - "17"
+            - "18"
+            - "19"
+            - "20"
+  - triggers: [".roll d100", ".roll d00", ".r d100", ".r d00"]
+    word: true
+    replace: "d100: {{output1}}{{output2}}"
+    vars:
+      - name: output1
+        type: random
+        params:
+          choices:
+            - "1"
+            - "2"
+            - "3"
+            - "4"
+            - "5"
+            - "6"
+            - "7"
+            - "8"
+            - "9"
+            - "10"
+      - name: output2
+        type: random
+        params:
+          choices:
+            - "1"
+            - "2"
+            - "3"
+            - "4"
+            - "5"
+            - "6"
+            - "7"
+            - "8"
+            - "9"
+            - "0"
+  - triggers: [".roll d1000", ".roll d000",  ".r d1000", ".r d000"]
+    word: true
+    replace: "d1000: {{output1}}{{output2}}{{output3}}"
+    vars:
+      - name: output1
+        type: random
+        params:
+          choices:
+            - "1"
+            - "2"
+            - "3"
+            - "4"
+            - "5"
+            - "6"
+            - "7"
+            - "8"
+            - "9"
+            - "10"
+      - name: output2
+        type: random
+        params:
+          choices:
+            - "1"
+            - "2"
+            - "3"
+            - "4"
+            - "5"
+            - "6"
+            - "7"
+            - "8"
+            - "9"
+            - "0"
+      - name: output3
+        type: random
+        params:
+          choices:
+            - "1"
+            - "2"
+            - "3"
+            - "4"
+            - "5"
+            - "6"
+            - "7"
+            - "8"
+            - "9"
+            - "0"
