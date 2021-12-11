@@ -8,7 +8,7 @@
 
 <h1 align="center">
 
-![demo](./assets/demo.gif)
+![demo](https://github.com/kopach/espanso-package-encircled-numbers/raw/main/assets/demo.gif)
 
 </h1>
 
