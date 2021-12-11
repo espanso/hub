@@ -1,0 +1,25 @@
+
+matches:
+  # {{{ Double Stroke Numbers
+  # https://www.webnots.com/alt-code-shortcuts-for-double-stroke-letters-and-numbers/
+  - trigger: ';//0'
+    replace: '𝟘'
+  - trigger: ';//1'
+    replace: '𝟙'
+  - trigger: ';//2'
+    replace: '𝟚'
+  - trigger: ';//3'
+    replace: '𝟛'
+  - trigger: ';//4'
+    replace: '𝟜'
+  - trigger: ';//5'
+    replace: '𝟝'
+  - trigger: ';//6'
+    replace: '𝟞'
+  - trigger: ';//7'
+    replace: '𝟟'
+  - trigger: ';//8'
+    replace: '𝟠'
+  - trigger: ';//9'
+    replace: '𝟡'
+  # }}}
