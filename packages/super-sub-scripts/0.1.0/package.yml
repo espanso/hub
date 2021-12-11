@@ -1,0 +1,328 @@
+matches:
+  # Math superscripts
+  - trigger: ":uint:"
+    replace: "ᶴ"
+
+  - trigger: ":u1/4:"
+    replace: "¼"
+
+  - trigger: ":u1/2:"
+    replace: "½"
+
+  - trigger: ":u3/4:"
+    replace: "¾"
+
+  - trigger: ":u1/7:"
+    replace: "⅐"
+
+  - trigger: ":u1/9:"
+    replace: "⅑"
+
+  - trigger: ":u1/10:"
+    replace: "⅒"
+
+  - trigger: ":u1/3:"
+    replace: "⅓"
+
+  - trigger: ":u2/3:"
+    replace: "⅔"
+
+  - trigger: ":u1/5:"
+    replace: "⅕"
+
+  - trigger: ":u2/5:"
+    replace: "⅖"
+
+  - trigger: ":u3/5:"
+    replace: "⅗"
+
+  - trigger: ":u4/5:"
+    replace: "⅘"
+
+  - trigger: ":u1/6:"
+    replace: "⅙"
+
+  - trigger: ":u5/6:"
+    replace: "⅚"
+
+  - trigger: ":u1/8:"
+    replace: "⅛"
+
+  - trigger: ":u3/8:"
+    replace: "⅜"
+
+  - trigger: ":u5/8:"
+    replace: "⅝"
+
+  - trigger: ":u7/8:"
+    replace: "⅞"
+
+  # Math subscripts
+  - trigger: ":_0:"
+    replace: "₀"
+
+  - trigger: ":_1:"
+    replace: "₁"
+
+  - trigger: ":_2:"
+    replace: "₂"
+
+  - trigger: ":_3:"
+    replace: "₃"
+
+  - trigger: ":_4:"
+    replace: "₄"
+
+  - trigger: ":_5:"
+    replace: "₅"
+
+  - trigger: ":_6:"
+    replace: "₆"
+
+  - trigger: ":_7:"
+    replace: "₇"
+
+  - trigger: ":_8:"
+    replace: "₈"
+
+  - trigger: ":_9:"
+    replace: "₉"
+
+  - trigger: ":_+:"
+    replace: "₊"
+
+  - trigger: ":_-:"
+    replace: "₋"
+
+  - trigger: ":_=:"
+    replace: "₌"
+
+  - trigger: ":_(:"
+    replace: "₍"
+
+  - trigger: ":_):"
+    replace: "₎"
+
+  # Latin lowercase superscripts
+  - trigger: ":ua:"
+    replace: "ᵃ"
+
+  - trigger: ":ub:"
+    replace: "ᵇ"
+
+  - trigger: ":uc:"
+    replace: "ᶜ"
+
+  - trigger: ":ud:"
+    replace: "ᵈ"
+
+  - trigger: ":ue:"
+    replace: "ᵉ"
+
+  - trigger: ":uf:"
+    replace: "ᶠ"
+
+  - trigger: ":ug:"
+    replace: "ᵍ"
+
+  - trigger: ":uh:"
+    replace: "ʰ"
+
+  - trigger: ":ui:"
+    replace: "ⁱ"
+
+  - trigger: ":uj:"
+    replace: "ʲ"
+
+  - trigger: ":uk:"
+    replace: "ᵏ"
+
+  - trigger: ":ul:"
+    replace: "ˡ"
+
+  - trigger: ":um:"
+    replace: "ᵐ"
+
+  - trigger: ":un:"
+    replace: "ⁿ"
+
+  - trigger: ":uo:"
+    replace: "ᵒ"
+
+  - trigger: ":up:"
+    replace: "ᵖ"
+
+  - trigger: ":ur:"
+    replace: "ʳ"
+
+  - trigger: ":us:"
+    replace: "ˢ"
+
+  - trigger: ":ut:"
+    replace: "ᵗ"
+
+  - trigger: ":uu:"
+    replace: "ᵘ"
+
+  - trigger: ":uv:"
+    replace: "ᵛ"
+
+  - trigger: ":uw:"
+    replace: "ʷ"
+
+  - trigger: ":ux:"
+    replace: "ˣ"
+
+  - trigger: ":uy:"
+    replace: "ʸ"
+
+  - trigger: ":uz:"
+    replace: "ᶻ"
+
+  # Latin lowercase subscripts
+  - trigger: ":_a:"
+    replace: "ₐ"
+
+  - trigger: ":_e:"
+    replace: "ₑ"
+
+  - trigger: ":_h:"
+    replace: "ₕ"
+
+  - trigger: ":_i:"
+    replace: "ᵢ"
+
+  - trigger: ":_j:"
+    replace: "ⱼ"
+
+  - trigger: ":_k:"
+    replace: "ₖ"
+
+  - trigger: ":_l:"
+    replace: "ₗ"
+
+  - trigger: ":_m:"
+    replace: "ₘ"
+
+  - trigger: ":_n:"
+    replace: "ₙ"
+
+  - trigger: ":_o:"
+    replace: "ₒ"
+
+  - trigger: ":_p:"
+    replace: "ₚ"
+
+  - trigger: ":_r:"
+    replace: "ᵣ"
+
+  - trigger: ":_s:"
+    replace: "ₛ"
+
+  - trigger: ":_t:"
+    replace: "ₜ"
+
+  - trigger: ":_u:"
+    replace: "ᵤ"
+
+  - trigger: ":_v:"
+    replace: "ᵥ"
+
+  - trigger: ":_x:"
+    replace: "ₓ"
+
+  # Latin uppercase superscripts
+  - trigger: ":uA:"
+    replace: "ᴬ"
+
+  - trigger: ":uB:"
+    replace: "ᴮ"
+
+  - trigger: ":uD:"
+    replace: "ᴰ"
+
+  - trigger: ":uE:"
+    replace: "ᴱ"
+
+  - trigger: ":uG:"
+    replace: "ᴳ"
+
+  - trigger: ":uH:"
+    replace: "ᴴ"
+
+  - trigger: ":uI:"
+    replace: "ᴵ"
+
+  - trigger: ":uJ:"
+    replace: "ᴶ"
+
+  - trigger: ":uK:"
+    replace: "ᴷ"
+
+  - trigger: ":uL:"
+    replace: "ᴸ"
+
+  - trigger: ":uM:"
+    replace: "ᴹ"
+
+  - trigger: ":uN:"
+    replace: "ᴺ"
+
+  - trigger: ":uO:"
+    replace: "ᴼ"
+
+  - trigger: ":uP:"
+    replace: "ᴾ"
+
+  - trigger: ":uR:"
+    replace: "ᴿ"
+
+  - trigger: ":uT:"
+    replace: "ᵀ"
+
+  - trigger: ":uU:"
+    replace: "ᵁ"
+
+  - trigger: ":uV:"
+    replace: "ⱽ"
+
+  - trigger: ":uW:"
+    replace: "ᵂ"
+
+  # Greek superscripts
+  - trigger: ":ualpha:"
+    replace: "ᵅ"
+
+  - trigger: ":ubeta:"
+    replace: "ᵝ"
+
+  - trigger: ":ugamma:"
+    replace: "ᵞ"
+
+  - trigger: ":udelta:"
+    replace: "ᵟ"
+
+  - trigger: ":uepsilon:"
+    replace: "ᵋ"
+
+  - trigger: ":utheta:"
+    replace: "ᶿ"
+
+  - trigger: ":uiota:"
+    replace: "ᶥ"
+
+  - trigger: ":uphi:"
+    replace: "ᶲ"
+
+  - trigger: ":uchi:"
+    replace: "ᵡ"
+
+  # Greek subscripts
+  - trigger: ":_beta:"
+    replace: "ᵦ"
+
+  - trigger: ":_gamma:"
+    replace: "ᵧ"
+
+  - trigger: ":_chi:"
+    replace: "ᵪ"

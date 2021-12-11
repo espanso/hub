@@ -1,0 +1,326 @@
+# Superscripts and subscripts package
+
+matches:
+
+  # superscripts
+
+  - trigger: ":hi0:"
+    replace: "⁰"
+
+  - trigger: ":hi1:"
+    replace: "¹"
+
+  - trigger: ":hi2:"
+    replace: "²"
+
+  - trigger: ":hi3:"
+    replace: "³"
+
+  - trigger: ":hi4:"
+    replace: "⁴"
+
+  - trigger: ":hi5:"
+    replace: "⁵"
+
+  - trigger: ":hi6:"
+    replace: "⁶"
+
+  - trigger: ":hi7:"
+    replace: "⁷"
+
+  - trigger: ":hi8:"
+    replace: "⁸"
+
+  - trigger: ":hi9:"
+    replace: "⁹"
+
+  - trigger: ":hi+:"
+    replace: "⁺"
+
+  - trigger: ":hi-:"
+    replace: "⁻"
+    
+  - trigger: ":hi=:"
+    replace: "⁼"
+
+  - trigger: ":hi(:"
+    replace: "⁽"
+
+  - trigger: ":hi):"
+    replace: "⁾"
+
+  - trigger: ":hiA:"
+    replace: "ᴬ"
+
+  - trigger: ":hiAE:"
+    replace: "ᴭ"
+
+  - trigger: ":hiB:"
+    replace: "ᴮ"
+
+  - trigger: ":hiD:"
+    replace: "ᴰ"
+
+  - trigger: ":hiE:"
+    replace: "ᴱ"
+
+  - trigger: ":hi_reverseE:"
+    replace: "ᴲ"
+
+  - trigger: ":hiG:"
+    replace: "ᴳ"
+
+  - trigger: ":hiH:"
+    replace: "ᴴ"
+
+  - trigger: ":hiI:"
+    replace: "ᴵ"
+
+  - trigger: ":hiJ:"
+    replace: "ᴶ"
+
+  - trigger: ":hiK:"
+    replace: "ᴷ"
+
+  - trigger: ":hiL:"
+    replace: "ᴸ"
+
+  - trigger: ":hiM:"
+    replace: "ᴹ"
+
+  - trigger: ":hiN:"
+    replace: "ᴺ"
+
+  - trigger: ":hi_reverseN:"
+    replace: "ᴻ"
+
+  - trigger: ":hiO:"
+    replace: "ᴼ"
+
+  - trigger: ":hiOu:"
+    replace: "ᴽ"
+
+  - trigger: ":hiP:"
+    replace: "ᴾ"
+
+  - trigger: ":hiR:"
+    replace: "ᴿ"
+
+  - trigger: ":hiT:"
+    replace: "ᵀ"
+
+  - trigger: ":hiU:"
+    replace: "ᵁ"
+
+  - trigger: ":hiW:"
+    replace: "ᵂ"
+
+  - trigger: ":hia:"
+    replace: "ᵃ"
+
+  - trigger: ":hi_turneda:"
+    replace: "ᵄ"
+
+  - trigger: ":hiAlpha:"
+    replace: "ᵅ"
+
+  - trigger: ":hi_turnedae:"
+    replace: "ᵆ"
+
+  - trigger: ":hib:"
+    replace: "ᵇ"
+
+  - trigger: ":hid:"
+    replace: "ᵈ"
+
+  - trigger: ":hie:"
+    replace: "ᵉ"
+
+  - trigger: ":hiSchwa:"
+    replace: "ᵊ"
+
+  - trigger: ":hi_opene:"
+    replace: "ᵋ"
+
+  - trigger: ":hi_turnedopene:"
+    replace: "ᵌ"
+
+  - trigger: ":hig:"
+    replace: "ᵍ"
+
+  - trigger: ":hii:"
+    replace: "ⁱ"
+
+  - trigger: ":hi_turnedi:"
+    replace: "ᵎ"
+
+  - trigger: ":hik:"
+    replace: "ᵏ"
+
+  - trigger: ":him:"
+    replace: "ᵐ"
+
+  - trigger: ":hi_turnedm:"
+    replace: "ᵚ"
+
+  - trigger: ":hin:"
+    replace: "ⁿ"
+
+  - trigger: ":hiEng:"
+    replace: "ᵑ"
+
+  - trigger: ":hio:"
+    replace: "ᵒ"
+
+  - trigger: ":hi_turnedc:"
+    replace: "ᵓ"
+
+  - trigger: ":hi_topo:"
+    replace: "ᵔ"
+
+  - trigger: ":hi_bottomo:"
+    replace: "ᵕ"
+
+  - trigger: ":hip:"
+    replace: "ᵖ"
+
+  - trigger: ":hit:"
+    replace: "ᵗ"
+
+  - trigger: ":hiu:"
+    replace: "ᵘ"
+
+  - trigger: ":hi_sidewaysu:"
+    replace: "ᵙ"
+
+  - trigger: ":hiv:"
+    replace: "ᵛ"
+
+  - trigger: ":hiAin:"
+    replace: "ᵜ"
+
+  - trigger: ":hiBeta:"
+    replace: "ᵝ"
+
+  - trigger: ":hiDelta:"
+    replace: "ᵟ"
+
+  - trigger: ":hiPhi:"
+    replace: "ᵠ"
+
+  - trigger: ":hiChi:"
+    replace: "ᵡ"
+
+
+  # subscripts
+
+  - trigger: ":lo0:"
+    replace: "₀"
+
+  - trigger: ":lo1:"
+    replace: "₁"
+
+  - trigger: ":lo2:"
+    replace: "₂"
+
+  - trigger: ":lo3:"
+    replace: "₃"
+
+  - trigger: ":lo4:"
+    replace: "₄"
+
+  - trigger: ":lo5:"
+    replace: "₅"
+
+  - trigger: ":lo6:"
+    replace: "₆"
+
+  - trigger: ":lo7:"
+    replace: "₇"
+
+  - trigger: ":lo8:"
+    replace: "₈"
+
+  - trigger: ":lo9:"
+    replace: "₉"
+
+  - trigger: ":lo+:"
+    replace: "₊"
+
+  - trigger: ":lo-:"
+    replace: "₋"
+
+  - trigger: ":lo=:"
+    replace: "₌"
+
+  - trigger: ":lo(:"
+    replace: "₍"
+
+  - trigger: ":lo):"
+    replace: "₎"
+
+  - trigger: ":loa:"
+    replace: "ₐ"
+
+  - trigger: ":loe:"
+    replace: "ₑ"
+
+  - trigger: ":loh:"
+    replace: "ₕ"
+
+  - trigger: ":loi:"
+    replace: "ᵢ"
+
+  - trigger: ":lok:"
+    replace: "ₖ"
+
+  - trigger: ":lo_l:"
+    replace: "ₗ"
+
+  - trigger: ":lom:"
+    replace: "ₘ"
+
+  - trigger: ":lon:"
+    replace: "ₙ"
+
+  - trigger: ":loo:"
+    replace: "ₒ"
+
+  - trigger: ":lop:"
+    replace: "ₚ"
+
+  - trigger: ":lor:"
+    replace: "ᵣ"
+
+  - trigger: ":los:"
+    replace: "ₛ"
+
+  - trigger: ":lot:"
+    replace: "ₜ"
+
+  - trigger: ":lou:"
+    replace: "ᵤ"
+
+  - trigger: ":lov:"
+    replace: "ᵥ"
+
+  - trigger: ":lox:"
+    replace: "ₓ"
+
+  - trigger: ":loSchwa:"
+    replace: "ₔ"
+
+  - trigger: ":loBeta:"
+    replace: "ᵦ"
+
+  - trigger: ":loChi:"
+    replace: "ᵪ"
+
+  - trigger: ":loGamma:"
+    replace: "ᵧ"
+
+  - trigger: ":loPhi:"
+    replace: "ᵩ"
+
+  - trigger: ":loRho:"
+    replace: "ᵨ"
