@@ -1,0 +1,5 @@
+author: "Jos\xE9 Ferreira"
+description: Displays math symbols using Latex based naming scheme
+name: math-symbols
+title: Math symbols based on Latex
+version: 0.1.0

@@ -1,0 +1,65 @@
+name: markdown-shortcuts
+parent: default
+
+matches:
+  - triggers: [":block:", ":mb:"]
+    replace: |-
+        ```$|$
+        ```
+    force_clipboard: true
+
+  - triggers: [":code:", ":mc:"]
+    replace: |-
+        `$|$`
+    force_clipboard: true
+
+  - trigger: ":h1:"
+    replace: "#"
+
+  - trigger: ":h2:"
+    replace: "##"
+
+  - trigger: ":h3:"
+    replace: "###"
+
+  - trigger: ":h4:"
+    replace: "####"
+
+  - trigger: ":h5:"
+    replace: "#####"
+
+  - trigger: ":h6:"
+    replace: "######"
+
+  - trigger: ":bold:"
+    replace: "**$|$**"
+
+  - trigger: ":italic:"
+    replace: "*$|$*"
+
+  - trigger: ":strike:"
+    replace: "~~$|$~~"
+
+  - trigger: ":url:"
+    replace: "[$|$]()"
+
+  - triggers: [":image:", ":img:"]
+    replace: "![]($|$)"
+
+  - triggers: [":horizontal:", ":mh:"]
+    replace: "___"
+
+  - triggers: [":task:", ":mt:"]
+    replace: "- [ ] "
+
+  - triggers: [":taskdone:", ":mtd:"]
+    replace: "- [x] "
+
+  - triggers: [":collapse:", ":mcol:"]
+    replace: |-
+        <details>
+        <summary></summary>
+
+        $|$
+        </details>
+    force_clipboard: true
