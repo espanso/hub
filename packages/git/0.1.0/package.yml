@@ -1,0 +1,212 @@
+matches:
+
+  ### ----------------
+  ### Configurations
+  ### ----------------
+
+  # Git Init
+  - trigger: "giti."
+    replace: "git init"  
+
+  # Git Clone
+  - trigger: "gitcl."
+    replace: "git clone "
+
+  # Git Config Line 1
+  - trigger: "gitconfigline1."
+    replace: "git config --global core.autocrlf true"
+
+  # Git Config Line 2
+  - trigger: "gitconfigline2."
+    replace: "git config --global core.safecrlf warn"
+
+  # Git Config Email Global
+  - trigger: "gitemailg."
+    replace: "git config --global user.email \"$|$\""
+
+  # Git Config Email Local
+  - trigger: "gitemaill."
+    replace: "git config --local user.email \"$|$\""
+
+  # Git Config User Global
+  - trigger: "gituserg."
+    replace: "git config --global user.name \"$|$\""
+
+  # Git Config User Local
+  - trigger: "gituserl."
+    replace: "git config --local user.name \"$|$\""
+
+  
+  ### -------------
+  ### Push | Pull 
+  ### -------------
+
+  # Git Status
+  - trigger: "gits."
+    replace: "git status"
+
+
+  # Git Add
+  - trigger: "gita."
+    replace: "git add ."
+
+  # Commit
+  - trigger: "gitc."
+    replace: "git commit -m \"$|$\""
+
+  # Amend Commit
+  - trigger: "gitamc."
+    replace: "git commit --amend -m \"$|$\""
+
+  # Amend Author
+  - trigger: "gitama."
+    replace: "git commit --amend --author=\"$|$User Name <email@email.com>\""
+
+
+  # Git Push
+  - trigger: "gitp."
+    replace: "git push origin "
+
+  # Git Push Force
+  - trigger: "gitpf."
+    replace: "git push origin --force "
+
+  # Git Pull 
+  - trigger: "gitu."
+    replace: "git pull origin "
+
+
+  # Remote Update
+  - trigger: "gitru."
+    replace: "git remote update"
+    
+  # Remote Update
+  - trigger: "gitfa."
+    replace: "git fetch --all"        
+
+
+  ### Stash
+
+  # Stash
+  - trigger: "gitst."
+    replace: "git stash"
+
+  - trigger: "gitstl."
+    replace: "git stash list"
+
+  - trigger: "gitsts."
+    replace: "git stash show"
+
+  - trigger: "gitstp."
+    replace: "git stash pop"
+
+  - trigger: "gitstd."
+    replace: "git stash drop"
+
+  ### Branch
+
+  # Git Merge
+  - trigger: "gitm."
+    replace: "git merge "
+
+  # Git Merge Branch
+  - trigger: "gitmb."
+    replace: "git merge "
+
+  # Git Checkout
+  - trigger: "gitchk."
+    replace: "git checkout "
+  
+  # New Branch
+  - trigger: "gitchkb."
+    replace: "git checkout -b "
+
+  # New Branch
+  - trigger: "gitnb."
+    replace: "git checkout -b "
+
+  # Lista Branchs
+  - trigger: "gitb."
+    replace: "git branch"
+
+  # Lista Branchs Remote
+  - trigger: "gitba."
+    replace: "git branch -a"
+    
+  # Delete Local Branch
+  - trigger: "gitbd."
+    replace: "git branch -d "
+
+  # Delete Remote Branch
+  - trigger: "gitbdr."
+    replace: "git push origin --delete "
+
+
+  ###-------
+  ### Log
+  ###-------
+
+
+  # Log
+  - trigger: "gitl."
+    replace: "git log"
+
+  # Log Pretty
+  - trigger: "gitlp."
+    replace: "git log --pretty=oneline"
+
+  # Log One Line
+  - trigger: "gitlo."
+    replace: "git log --oneline"
+
+  # Log Graph Oneline 
+  - trigger: "gitlgo."
+    replace: "git log --graph --oneline"
+
+  # Log Log Pretty Formated
+  - trigger: "gitlpf."
+    replace: "git log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short"
+
+
+  ###--------------------------
+  ### Revert | Rebase | Reset
+  ###--------------------------
+
+
+  # Git Rebase
+  - trigger: "gitrb."
+    replace: "git rebase master"
+
+
+  # Git Reset
+  - trigger: "gitrs."
+    replace: "git reset"
+
+  # Git Reset Hard
+  - trigger: "gitrsh."
+    replace: "git reset --hard "
+
+
+
+  # Git Revert
+  - trigger: "gitrv."
+    replace: "git revert HEAD"
+
+  # Git Revert - No Edit
+  - trigger: "gitrvne."
+    replace: "git revert HEAD --no-edit"
+
+
+
+  # Git Tag
+  - trigger: "gittg."
+    replace: "git tag "
+
+  # Git Tag Delete
+  - trigger: "gittgd."
+    replace: "git tag -d "
+
+
+  # Git Move
+  - trigger: "gitmv."
+    replace: "git mv file.ext dir_name"
