@@ -1,0 +1,14 @@
+matches:
+  - { trigger: ":a11y", replace: "accessibility", propagate_case: true }
+  - { trigger: ":g11n", replace: "globalisation", propagate_case: true }
+  - { trigger: ":i14y", replace: "interoperability", propagate_case: true }
+  - { trigger: ":i18n", replace: "internationalization", propagate_case: true }
+  - { trigger: ":k8s", replace: "Kubernetes" }
+  - { trigger: ":l10n", replace: "localisation", propagate_case: true }
+  - { trigger: ":m12n", replace: "modularisation", propagate_case: true }
+  - { trigger: ":o11y", replace: "observability", propagate_case: true }
+  - { trigger: ":p13n", replace: "personalization", propagate_case: true }
+  - { trigger: ":p8s", replace: "Prometheus" }
+  - { trigger: ":s5n", replace: "shorten", propagate_case: true }
+  - { trigger: ":tr8n", replace: "translation", propagate_case: true }
+  - { trigger: ":v11n", replace: "versification", propagate_case: true }

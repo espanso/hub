@@ -1,0 +1,43 @@
+# https://github.com/katrinleinweber/espanso-greetings-english
+
+matches:
+
+  - trigger: ",dt"
+    replace: "Dear {{clipboard}} team,\n\n\n"
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+
+  - trigger: ",dms"
+    replace: "Dear Madam or Sir,\n\n\n"
+
+  - trigger: ",kr"
+    replace: "Kind regards,"
+
+  - trigger: "!gw"
+    replace: "and have a good week!"
+
+  - trigger: "!sw"
+    replace: "and have a good start into the new week!"
+
+  - trigger: "!we"
+    replace: "and have a nice weekend!"
+
+  - trigger: "!rw"
+    replace: "and have a nice rest of the week!"
+
+  - trigger: ",tk"
+    replace: "Thank you & kind regards,"
+
+  - trigger: "!ty"
+    replace: "Thank you$|$!"
+
+  - trigger: ":yw"
+    replace: "You're welcome $|$:-)"
+
+  - trigger: "&tf"
+    replace: "& thanks for the feedback "
+
+  - trigger: "&tm"
+    replace: "& thanks for merging "
+

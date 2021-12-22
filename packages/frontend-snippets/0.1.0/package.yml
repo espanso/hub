@@ -1,0 +1,169 @@
+
+matches:
+  # HTML
+  - trigger: "::doctype"
+    replace: >-
+      <!DOCTYPE html>
+
+  - trigger: "::charset"
+    replace: >-
+      <meta charset="$|$">
+
+  - trigger: "::utf-8"
+    replace: >-
+      <meta charset="UTF-8">
+
+  - trigger: "::viewport"
+    replace: >-
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  - trigger: "::meta-author"
+    replace: >-
+      <meta name="author" content="$|$">
+
+  - trigger: "::meta-desc"
+    replace: >-
+      <meta name="description" content="$|$">
+
+  - trigger: "::meta-keywords"
+    replace: >-
+      <meta name="keywords" content="$|$">
+
+  - trigger: "::title"
+    replace: >-
+      <title>$|$</title>
+
+  - trigger: "::div"
+    replace: >-
+      <div>$|$</div>
+
+  - trigger: "::html"
+    replace: >-
+      <html>$|$</html>
+
+  - trigger: "::head"
+    replace: >-
+      <head>$|$</head>
+
+  - trigger: "::body"
+    replace: >-
+      <body>$|$</body>
+
+  - trigger: "::a"
+    replace: >-
+      <a href="">$|$</a>
+
+  - trigger: "::br"
+    replace: >-
+      <br>
+
+  - trigger: "::button"
+    replace: >-
+      <button type="button">$|$</button>
+
+  - trigger: "::style"
+    replace: >-
+      <style>$|$</style>
+
+  - trigger: "::css"
+    replace: >-
+      <link rel="stylesheet" type="text/css" href="$|$">
+
+  - trigger: "::script"
+    replace: >-
+      <script>$|$</script>
+
+  - trigger: "::js"
+    replace: >-
+      <script type="text/javascript" src="$|$"></script>
+
+  - trigger: "::form"
+    replace: >-
+      <form action="" method="">$|$</form>
+
+  - trigger: "::label"
+    replace: >-
+      <label for="">$|$</label>
+
+  - trigger: "::submit"
+    replace: >-
+      <input type="submit" value="$|$">
+
+  - trigger: "::img"
+    replace: >-
+      <img src="$|$" alt="" />
+
+  - trigger: "::input-text"
+    replace: >-
+      <input type="text" name="" id="">
+
+  - trigger: "::input-password"
+    replace: >-
+      <input type="password" name="" id="">
+
+  - trigger: "::input-radio"
+    replace: >-
+      <input type="radio" name="" id="" value="$|$">
+
+  - trigger: "::input-checkbox"
+    replace: >-
+      <input type="checkbox" name="" id="" value="$|$">
+
+  - trigger: "::input-file"
+    replace: >-
+      <input type="file" name="" id="">
+
+  - trigger: "::docskel"
+    replace: |
+      <!DOCTYPE html>
+      <html>
+
+      <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>$|$</title>
+      </head>
+
+      <body>
+      </body>
+
+      </html>
+
+  # REACT
+  - trigger: "::rfcep"
+    replace: |
+      import React from 'react';
+      import PropTypes from 'prop-types';
+
+      const ComponentName = (props) => {
+        const {} = props;
+
+        return (
+          <div></div>
+        )
+      }
+
+      ComponentName.defaultProps = {}
+
+      ComponentName.propTypes = {}
+
+      export default ComponentName;
+
+  # JAVASCRIPT
+  - trigger: "::while"
+    replace: |
+      while ($|$){
+
+      }
+
+  - trigger: "::forup"
+    replace: |
+      for (let i = 0; i < $|$; i++){
+
+      }
+
+  - trigger: "::fordown"
+    replace: |
+      for (let i = $|$ ; i >= 0 ; i--){
+
+      }

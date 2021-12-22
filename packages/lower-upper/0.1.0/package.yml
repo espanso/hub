@@ -1,0 +1,19 @@
+matches:
+  - trigger: "::low"
+    replace: "{{output}}"
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+      - name: output
+        type: shell
+        params:
+          cmd: "echo $ESPANSO_CLIPBOARD | tr '[:upper:]' '[:lower:]'"
+  - trigger: "::up"
+    replace: "{{output}}"
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+      - name: output
+        type: shell
+        params:
+          cmd: "echo $ESPANSO_CLIPBOARD | tr '[:lower:]' '[:upper:]'"

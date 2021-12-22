@@ -1,0 +1,63 @@
+matches:
+  - trigger: ":vec:"
+    replace: "\u20d7"
+
+  - trigger: ":underrightarrow:"
+    replace: "\u20ef"
+
+  - trigger: ":underleftarrow:"
+    replace: "\u20ee"
+
+  - trigger: ":overleftarrow:"
+    replace: "\u20e1"
+
+  - trigger: ":underline:"
+    replace: "\u0332"
+
+  - trigger: ":bar:"
+    replace: "\u0305"
+
+  - trigger: ":acute:"
+    replace: "\u0301"
+
+  - trigger: ":macron:"
+    replace: "\u0304"
+
+  - trigger: ":breve:"
+    replace: "\u0306"
+
+  - trigger: ":caron:"
+    replace: "\u030c"
+
+  - trigger: ":ddddot:"
+    replace: "\u20dc"
+
+  - trigger: ":dddot:"
+    replace: "\u20db"
+
+  - trigger: ":ddot:"
+    replace: "\u0308"
+
+  - trigger: ":dot:"
+    replace: "\u0307"
+
+  - trigger: ":grave:"
+    replace: "\u0300"
+
+  - trigger: ":hat:"
+    replace: "\u0302"
+
+  - trigger: ":widehat:"
+    replace: "\u0302"
+
+  - trigger: ":tilde:"
+    replace: "\u0303"
+
+  - trigger: ":widetilde:"
+    replace: "\u0303"
+
+  - trigger: ":ring:"
+    replace: "\u030a"
+
+  - trigger: ":not:"
+    replace: "\u0338"

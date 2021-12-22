@@ -1,0 +1,18 @@
+# ip64 package
+
+matches:
+  - trigger: ":ip4"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "echo $(curl https://api.ipify.org)"
+
+  - trigger: ":ip6"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "echo $(curl https://api64.ipify.org)"
