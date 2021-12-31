@@ -10,15 +10,19 @@ import time
 import json
 import re
 from typing import TypedDict
+from typing import List
+from typing import Tuple 
 
 
-Package = namedtuple('Package', 'name version location title description author')
+Package = namedtuple('Package', 'name version location title description author tags')
 UploadedPackage = namedtuple('UploadedPackage', 'name version')
+
+should_publish = os.getenv("PUBLISH", "false") == "true"
 
 RELEASES_VERSION = "v1.0.0"
 
 # Get the packages that have been published on the Github Releases section
-def get_released_packages() -> list[UploadedPackage]:
+def get_released_packages() -> List[UploadedPackage]:
   result = subprocess.run(['gh', 'release', 'view', "--json", "assets"], stdout=subprocess.PIPE)
   json_assets = result.stdout.decode('utf-8')
   assets = json.loads(json_assets)["assets"]
@@ -36,7 +40,7 @@ def get_released_packages() -> list[UploadedPackage]:
   return packages 
 
 # Get the packages defined in the hub repository
-def get_repository_packages() -> list[Package]:
+def get_repository_packages() -> List[Package]:
   packages = []
   for path in glob.glob("packages/*/*/_manifest.yml"):
     package_dir = os.path.dirname(path)
@@ -48,7 +52,8 @@ def get_repository_packages() -> list[Package]:
         title = manifest["title"]
         description = manifest["description"]
         author = manifest["author"]
-        package = Package(name, version, package_dir, title, description, author)
+        tags = manifest["tags"]
+        package = Package(name, version, package_dir, title, description, author, tags)
         packages.append(package)
       except yaml.YAMLError as exc:
         print("Exception parsing YAML ", exc)
@@ -56,7 +61,7 @@ def get_repository_packages() -> list[Package]:
 
 # Calculate which packages have NOT been published yet on Releases, 
 # the ones that will need to be published during this run
-def calculate_missing_packages(released: list[Package], repository: list[Package]) -> list[Package]:
+def calculate_missing_packages(released: List[Package], repository: List[Package]) -> List[Package]:
   published_packages: set[str] = set()
   for package in released:
     published_packages.add(f"{package.name}@{package.version}")
@@ -78,7 +83,7 @@ def calculate_sha256(filename) -> str:
     return sha256_hash.hexdigest()
 
 # Archive the given package, calculating its hash
-def create_archive(package: Package)-> tuple[str, str, str]: 
+def create_archive(package: Package)-> Tuple[str, str, str]: 
   temp_dir = tempfile.gettempdir()
   target_name = os.path.join(temp_dir, f"{package.name}-{package.version}")
   shutil.make_archive(target_name, 'zip', package.location)
@@ -95,10 +100,11 @@ def create_archive(package: Package)-> tuple[str, str, str]:
 
 # Upload the package files (archive + SHA256 sum) on GH Releases
 def upload_to_releases(archive_path, archive_hash_path):
-  subprocess.run(["gh", "release", "upload", RELEASES_VERSION, archive_hash_path, archive_path, "--clobber" ])
+  if should_publish:
+    subprocess.run(["gh", "release", "upload", RELEASES_VERSION, archive_hash_path, archive_path, "--clobber" ])
 
 # Generate the updated index and upload it to GH Releases
-def update_index(repository: list[Package]):
+def update_index(repository: List[Package]):
   packages = []
 
   for package in repository:
@@ -108,6 +114,7 @@ def update_index(repository: list[Package]):
       "description": package.description,
       "title": package.title,
       "version": package.version,
+      "tags": package.tags,
       "archive_url": f"https://github.com/espanso/hub/releases/latest/download/{package.name}-{package.version}.zip",
       "archive_sha256_url": f"https://github.com/espanso/hub/releases/latest/download/{package.name}-{package.version}-sha256.txt",
     })
@@ -125,7 +132,8 @@ def update_index(repository: list[Package]):
   with open(target_file, "w") as file:
     file.write(json_index)
 
-  subprocess.run(["gh", "release", "upload", RELEASES_VERSION, target_file, "--clobber"])
+  if should_publish:
+    subprocess.run(["gh", "release", "upload", RELEASES_VERSION, target_file, "--clobber"])
 
 
 print("Reading packages from repository...")

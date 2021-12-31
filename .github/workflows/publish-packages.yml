@@ -20,3 +20,4 @@ jobs:
         run: "python .github/scripts/publish_packages.py"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLISH: "true"
