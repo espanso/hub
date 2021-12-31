@@ -4,3 +4,4 @@ name: greek-letters
 title: 'Greek Letters: Upper and Lower'
 version: 0.1.0
 homepage: "https://github.com/exergonic/espanso-package-greek-letters"
+tags: ["greek", "languages"]

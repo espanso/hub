@@ -5,3 +5,4 @@ homepage: https://github.com/anthonygraignic/espanso-package-lower-upper
 name: lower-upper
 title: Lower and UPPER case
 version: 0.1.0
+tags: ["utility", "shell"]

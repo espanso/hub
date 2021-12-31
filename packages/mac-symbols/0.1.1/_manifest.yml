@@ -4,3 +4,4 @@ name: mac-symbols
 title: Mac Symbols
 version: 0.1.1
 homepage: "https://github.com/lifesign/espanso-mac-symbols"
+tags: ["symbols", "mac"]

@@ -4,3 +4,4 @@ homepage: https://github.com/meggynw/espanso-package-supersubscript
 name: supersubscript
 title: Superscripts and subscripts
 version: 0.1.0
+tags: ["symbols", "math"]

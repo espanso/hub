@@ -4,3 +4,4 @@ name: misspell-en-us
 title: Misspell en_US
 version: 0.1.2
 homepage: "https://github.com/timorunge/espanso-misspell-en"
+tags: ["spell-correction", "english", "us"]

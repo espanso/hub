@@ -4,3 +4,4 @@ homepage: https://github.com/enderahmetyurt/espanso-package-example
 name: turkish-accent
 title: Turkish Accent Package
 version: 0.1.0
+tags: ["turkish", "languages"]
