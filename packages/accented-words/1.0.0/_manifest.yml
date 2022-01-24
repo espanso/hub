@@ -1,0 +1,7 @@
+name: accented-words
+title: Accented Words
+description: Automatically accent commonly accented words and proper nouns in English.
+version: 1.0.0
+author: Joshua Hall
+homepage: "https://github.com/joshjhall/espanso-accented-words"
+tags: ["english", "languages", "accents"]
