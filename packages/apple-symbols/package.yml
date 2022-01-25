@@ -1,7 +1,7 @@
 # Apple Symbols
 
 matches:
-  - trigger: ":alt"
+  - triggers: [":alt", ":opt"]
     replace: "⌥"
 
   - trigger: ":bs"
