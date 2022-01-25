@@ -1,0 +1,239 @@
+matches:
+  - trigger: "::doctype"
+    label: "HTML - doctype"
+    replace: >-
+      <!DOCTYPE html>
+
+  - trigger: "::meta-charset"
+    label: "HTML - meta-charset"
+    replace: >-
+      <meta charset="$|$">
+  
+  - trigger: "::meta-utf-8"
+    label: "HTML - meta-utf-8"
+    replace: >-
+      <meta charset="UTF-8">
+  
+  - trigger: "::meta-viewport"
+    label: "HTML - meta-viewport"
+    replace: >-
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  - trigger: "::meta-author"
+    label: "HTML - meta-autor"
+    replace: >-
+      <meta name="author" content="$|$">
+
+  - trigger: "::meta-desc"
+    label: "HTML - meta-desc"
+    replace: >-
+      <meta name="description" content="$|$">
+
+  - trigger: "::meta-keywords"
+    label: "HTML - meta-keywords"
+    replace: >-
+      <meta name="keywords" content="$|$">
+
+  - trigger: "::title"
+    label: "HTML - title"
+    replace: >-
+      <title>$|$</title>
+
+  - trigger: "::div"
+    label: "HTML - div"
+    replace: >-
+      <div>$|$</div>
+
+  - trigger: "::html"
+    label: "HTML - html"
+    replace: >-
+      <html>$|$</html>
+
+  - trigger: "::head"
+    label: "HTML - head"
+    replace: >-
+      <head>$|$</head>
+
+  - trigger: "::body"
+    label: "HTML - body"
+    replace: >-
+      <body>$|$</body>
+  
+  - trigger: "::inline-css"
+    label: "HTML - inline-css"
+    replace: style="{{element}}:$|$;"
+    vars:
+      - name: element
+        type: choice
+        params:
+          values:
+              - "color"
+              - "background-color"
+              - "padding"
+              - "font-family"
+              - "font-size"
+              - "font-weight"
+              - "border"
+              - "padding"
+              - "margin"
+
+  - trigger: "::a"
+    label: "HTML - a"
+    replace: >-
+      <a href="$|$"></a>
+
+  - trigger: "::2a"
+    label: "HTML - 2a"
+    replace: <a href="{{clipboard}}" target="_blank" rel="noopener noreferrer">$|$</a>
+    vars:
+    - name: "clipboard"
+      type: "clipboard"
+
+  - trigger: "::br"
+    label: "HTML - br"
+    replace: >-
+      <br>
+
+  - trigger: "::p"
+    label: "HTML - p"
+    replace: >-
+      <p>$|$</p>
+
+  - trigger: "::block"
+    label: "HTML - block"
+    replace: >-
+      <blockquote>$|$</blockquote>
+
+  - trigger: "::button"
+    label: "HTML - button"
+    replace: >-
+       <button type="button">$|$</button> 
+  
+  - trigger: "::style"
+    label: "HTML - style"
+    replace: >-
+      <style>$|$</style>
+  
+  - trigger: "::css"
+    label: "HTML - css"
+    replace: >-
+      <link rel="stylesheet" type="text/css" href="$|$">
+  
+  - trigger: "::ul"
+    label: "HTML - ul"
+    replace: |
+      <ul>
+         <li>$|$</li>
+      </ul>
+  
+  - trigger: "::li"
+    label: "HTML - li"
+    replace: >-
+      <li>$|$</li>
+  
+  - trigger: "::table"
+    label: "HTML - table"
+    replace: |
+      <table width="$|$" border="" align="">
+         <tr>
+            <td width=""></td>
+         </tr>
+      </table>
+
+  - trigger: "::td"
+    label: "HTML - td"
+    replace: >-
+      <td>$|$</td>
+  
+  - trigger: "::select"
+    label: "HTML - select"
+    replace: |
+      <select name="$|$" id="">
+         <option value=""></option>
+      </select>
+
+  - trigger: "::optgroup"
+    label: "HTML - optgroup"
+    replace: |
+      <select name="$|$" id="">
+         <optgroup label="">
+            <option value=""></option>
+         </optgroup>
+      </select>
+
+  - trigger: "::option"
+    label: "HTML - option"
+    replace: >-
+      <option value="$|$"></option>
+  
+  - trigger: "::script"
+    label: "HTML - script"
+    replace: >-
+      <script>$|$</script>
+  
+  - trigger: "::js"
+    label: "HTML - js"
+    replace: >-
+      <script type="text/javascript" src="$|$"></script>
+
+  - trigger: "::form"
+    label: "HTML - form"
+    replace: >-
+      <form action="$|$" method=""></form>
+  
+  - trigger: "::label"
+    label: "HTML - label"
+    replace: >-
+      <label for="$|$"></label>
+  
+  - trigger: "::img"
+    label: "HTML - img"
+    replace: >-
+      <img src="$|$" alt="">
+
+  - trigger: "::input-submit"
+    label: "HTML - input-submit"
+    replace: >-
+      <input type="submit" value="$|$">
+
+  - trigger: "::input-text"
+    label: "HTML - input-text"
+    replace: >-
+      <input type="text" name="$|$" id="">
+
+  - trigger: "::input-password"
+    label: "HTML - input-password"
+    replace: >-
+      <input type="password" name="$|$" id="">
+
+  - trigger: "::input-radio"
+    label: "HTML - input-radio"
+    replace: >-
+      <input type="radio" name="$|$" id="" value="">
+
+  - trigger: "::input-checkbox"
+    label: "HTML - input-checkbox"
+    replace: >-
+      <input type="checkbox" name="$|$" id="" value="">
+
+  - trigger: "::input-file"
+    label: "HTML - input-file"
+    replace: >-
+      <input type="file" name="$|$" id="">
+
+  - trigger: "::docskel"
+    label: "HTML - docskel"
+    replace: |
+      <!DOCTYPE html>
+      <html>
+      
+         <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>$|$</title>
+         </head>
+      
+         <body>
+         </body>
+      
+      </html>
