@@ -1,0 +1,307 @@
+# Brand Names
+
+matches:
+  - trigger: "1password"
+    replace: "1Password"
+    propagate_case: true
+    word: true
+
+  - trigger: "autocad"
+    replace: "AutoCAD"
+    propagate_case: true
+    word: true
+
+  - trigger: "autodesk"
+    replace: "Autodesk"
+    propagate_case: true
+    word: true
+
+  - trigger: "backblaze"
+    replace: "Backblaze"
+    propagate_case: true
+    word: true
+
+  - trigger: "betalist"
+    replace: "BetaList"
+    propagate_case: true
+    word: true
+
+  - trigger: "bitcan"
+    replace: "BitCan"
+    propagate_case: true
+    word: true
+
+  - trigger: "cafepress"
+    replace: "CafePress"
+    propagate_case: true
+    word: true
+
+  - trigger: "chromebook"
+    replace: "Chromebook"
+    propagate_case: true
+    word: true
+
+  - trigger: "citroen"
+    replace: "Citroën"
+    propagate_case: true
+    word: true
+
+  - trigger: "clearbit"
+    replace: "Clearbit"
+    propagate_case: true
+    word: true
+
+  - trigger: "codeship"
+    replace: "Codeship"
+    propagate_case: true
+    word: true
+
+  - trigger: "crowdin"
+    replace: "Crowdin"
+    propagate_case: true
+    word: true
+
+  - trigger: "devmate"
+    replace: "DevMate"
+    propagate_case: true
+    word: true
+
+  - trigger: "dropbox"
+    replace: "Dropbox"
+    propagate_case: true
+    word: true
+
+  - trigger: "ebay"
+    replace: "eBay"
+    propagate_case: true
+    word: true
+
+  - trigger: "eventbrite"
+    replace: "Eventbrite"
+    propagate_case: true
+    word: true
+
+  - trigger: "evernote"
+    replace: "Evernote"
+    propagate_case: true
+    word: true
+
+  - trigger: "expandrive"
+    replace: "ExpanDrive"
+    propagate_case: true
+    word: true
+
+  - trigger: "facebook"
+    replace: "Facebook"
+    propagate_case: true
+    word: true
+
+  - trigger: "fastspring"
+    replace: "FastSpring"
+    propagate_case: true
+    word: true
+
+  - trigger: "freshbooks"
+    replace: "FreshBooks"
+    propagate_case: true
+    word: true
+
+  - trigger: "freshdesk"
+    replace: "Freshdesk"
+    propagate_case: true
+    word: true
+
+  - trigger: "github"
+    replace: "GitHub"
+    propagate_case: true
+    word: true
+
+  - trigger: "goodreads"
+    replace: "Goodreads"
+    propagate_case: true
+    word: true
+
+  - trigger: "greenfax"
+    replace: "GreenFax"
+    propagate_case: true
+    word: true
+
+  - trigger: "hootsuite"
+    replace: "Hootsuite"
+    propagate_case: true
+    word: true
+
+  - trigger: "hubspot"
+    replace: "HubSpot"
+    propagate_case: true
+    word: true
+
+  - trigger: "indiegogo"
+    replace: "Indiegogo"
+    propagate_case: true
+    word: true
+
+  - trigger: "iret"
+    replace: "IRET"
+    propagate_case: true
+    word: true
+
+  - trigger: "kickstarter"
+    replace: "Kickstarter"
+    propagate_case: true
+    word: true
+
+  - trigger: "kno"
+    replace: "Kno"
+    propagate_case: true
+    word: true
+
+  - trigger: "lastpass"
+    replace: "LastPass"
+    propagate_case: true
+    word: true
+
+  - trigger: "linkedin"
+    replace: "LinkedIn"
+    propagate_case: true
+    word: true
+
+  - trigger: "macphun"
+    replace: "Macphun"
+    propagate_case: true
+    word: true
+
+  - trigger: "macupdate"
+    replace: "MacUpdate"
+    propagate_case: true
+    word: true
+
+  - trigger: "mailchimp"
+    replace: "MailChimp"
+    propagate_case: true
+    word: true
+
+  - trigger: "maximus"
+    replace: "Maximus"
+    propagate_case: true
+    word: true
+
+  - trigger: "microsoft"
+    replace: "Microsoft"
+    propagate_case: true
+    word: true
+
+  - trigger: "monoprice"
+    replace: "Monoprice"
+    propagate_case: true
+    word: true
+
+  - trigger: "newsblur"
+    replace: "NewsBlur"
+    propagate_case: true
+    word: true
+
+  - trigger: "papertrail"
+    replace: "Papertrail"
+    propagate_case: true
+    word: true
+
+  - trigger: "parkmerced"
+    replace: "Parkmerced"
+    propagate_case: true
+    word: true
+
+  - trigger: "rackspace"
+    replace: "Rackspace"
+    propagate_case: true
+    word: true
+
+  - trigger: "rapidweaver"
+    replace: "RapidWeaver"
+    propagate_case: true
+    word: true
+
+  - trigger: "reva"
+    replace: "Reva"
+    propagate_case: true
+    word: true
+
+  - trigger: "salesforce"
+    replace: "Salesforce"
+    propagate_case: true
+    word: true
+
+  - trigger: "sanebox"
+    replace: "SaneBox"
+    propagate_case: true
+    word: true
+
+  - trigger: "smartlink"
+    replace: "SmartLink"
+    propagate_case: true
+    word: true
+
+  - trigger: "smartsearch"
+    replace: "SmartSearch"
+    propagate_case: true
+    word: true
+
+  - trigger: "snapchat"
+    replace: "Snapchat"
+    propagate_case: true
+    word: true
+
+  - trigger: "ssnif"
+    replace: "SSNiF"
+    propagate_case: true
+    word: true
+
+  - trigger: "testrail"
+    replace: "TestRail"
+    propagate_case: true
+    word: true
+
+  - trigger: "touchbar"
+    replace: "Touch Bar"
+    propagate_case: true
+    word: true
+
+  - trigger: "transferwise"
+    replace: "TransferWise"
+    propagate_case: true
+    word: true
+
+  - trigger: "wikipedia"
+    replace: "Wikipedia"
+    propagate_case: true
+    word: true
+
+  - trigger: "wordpress"
+    replace: "WordPress"
+    propagate_case: true
+    word: true
+
+  - trigger: "wufoo"
+    replace: "Wufoo"
+    propagate_case: true
+    word: true
+
+  - trigger: "xing"
+    replace: "XING"
+    propagate_case: true
+    word: true
+
+  - trigger: "youtube"
+    replace: "YouTube"
+    propagate_case: true
+    word: true
+
+  - trigger: "zendesk"
+    replace: "Zendesk"
+    propagate_case: true
+    word: true
+
+  - trigger: "zoom"
+    replace: "Zoom"
+    propagate_case: true
+    word: true

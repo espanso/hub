@@ -1,0 +1,7 @@
+name: brand-names
+title: Brand Names
+description: Automatically capitalize common brand and product names.
+version: 1.0.0
+author: Joshua Hall
+homepage: "https://github.com/joshjhall/espanso-brand-names"
+tags: ["brands", "products"]
