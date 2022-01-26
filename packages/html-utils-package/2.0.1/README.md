@@ -15,6 +15,7 @@ That's all. You can start using the package. Open your favorite editor and type 
 # Preview
 
 You can choose between all of them from the Search-bar:
+
 ![Search-bar](images/search-bar.png)
 
 # Triggers
