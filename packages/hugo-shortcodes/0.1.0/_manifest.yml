@@ -1,0 +1,6 @@
+name: "hugo-shortcodes"
+title: "Hugo Shortcodes"
+description: A selection of shortcodes for the Hugo static site generator. platform.
+version: 0.1.0
+author: Stephen Yearl
+tags: ["blogging", "Hugo"]
