@@ -1,6 +1,6 @@
 matches:
   # æøå
-  - trigger:":ae"
+  - trigger: ":ae"
     label: "æÆ"
     replace: "æ"
     propagate_case: true 
@@ -36,4 +36,3 @@ matches:
   - trigger: ":'"
     label: "» (close quote)"
     replace: "»"
-    
