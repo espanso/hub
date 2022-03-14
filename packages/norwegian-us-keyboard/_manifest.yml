@@ -1,0 +1,6 @@
+name: "norwegian-us-keyboard"
+title: "Norwegian characters for US Keyboard users"
+description: A simpler way to enter Norwegian characters (æøå, àéò and «») on US keyboards.
+version: 0.1.0
+author: Oskar Austegard
+tags: ["norwegian", "characters", "us", "keyboard", "æøå"]
