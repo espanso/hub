@@ -1,0 +1,7 @@
+name: espanso-latex
+title: Espanso LaTeX Symbols
+description: An espanso package to convert LaTeX symbol commands to Unicode symbols.
+version: 0.2.1
+author: Zoeng Linghou
+homepage: "https://github.com/zoenglinghou/espanso-latex"
+tags: ["math", "latex", "symbols"]
