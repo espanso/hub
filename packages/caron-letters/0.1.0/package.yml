@@ -1,0 +1,13 @@
+matches:
+  - trigger: "c^"
+    replace: "č"
+  - trigger: "C^"
+    replace: "Č"
+  - trigger: "s^"
+    replace: "š"
+  - trigger: "S^"
+    replace: "Š"
+  - trigger: "z^"
+    replace: "ž"
+  - trigger: "Z^"
+    replace: "Ž"
