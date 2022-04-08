@@ -11,5 +11,4 @@ A full list of emojis and their CLDR Short Names can be found [here](https://uni
 **Note**: There are two options for this package. One with spaces between words, and one with underscores. This version uses _underscores_
 
 For example `:kissing_face:`
-
 To install the version with spaces use `actually-all-emojis-spaces`
