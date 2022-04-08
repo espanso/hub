@@ -1,7 +1,0 @@
-author: Jobie Wong
-description: An updated package providing all v.14 emojis - fetched from unicode.org
-name: actually-all-emojis
-title: Actually All Emojis
-version: 0.1.0
-homepage: "https://github.com/jobiewong/espanso-emojis"
-tags: ["emoji", "chat"]
