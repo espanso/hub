@@ -1,4 +1,4 @@
-# A simple package for some commonly used flutter code snippets
+# A package for some commonly used flutter code snippets
 
 Code snippets taken from [awesome-flutter-snippets](https://github.com/Nash0x7E2/awesome-flutter-snippets).
 
