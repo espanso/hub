@@ -7,17 +7,21 @@ matches:
     replace: "∨"
   - trigger: ":xor"
     replace: "⊕"
-  - trigger: ":imp"
+  - triggers: [":imp", ":if"]
     replace: "→"
-  - trigger: ":biimp"
-    replace: "⟷"
-  - trigger: ":eq"
+  - triggers: [":bimp", ":iff"]
+    replace: "↔"
+  - triggers: [":eq", ":def"]
     replace: "≡"
-  - trigger: ":true"
+  - triggers: [":true", ":top"]
     replace: "⊤"
-  - trigger: ":false"
+  - triggers: [":false", ":bot"]
     replace: "⊥"
-  - trigger: ":all"
+  - trigger: ":forall"
     replace: "∀"
   - trigger: ":exists"
     replace: "∃"
+  - trigger: ":proves"
+    replace: "⊢"
+  - trigger: ":models"
+    replace: "⊨"
