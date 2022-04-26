@@ -176,6 +176,13 @@ matches:
     propagate_case: true
     word: true
 
+  - triggers:
+    - "macos"
+    - "osx"
+    replace: "macOS"
+    propagate_case: true
+    word: true
+
   - trigger: "mailchimp"
     replace: "MailChimp"
     propagate_case: true
