@@ -1,0 +1,19 @@
+matches:
+
+  - triggers: ["ae\"", "ae&"]
+    replace: "æ"
+
+  - triggers: ["AE\"", "Ae\"", "AE&", "Ae&"]
+    replace: "Æ"
+
+  - triggers: ["o\"", "o&"]
+    replace: "ø"
+
+  - triggers: ["O\"", "O&"]
+    replace: "Ø"
+
+  - triggers: ["a\"", "a&"]
+    replace: "å"
+
+  - triggers: ["A\"", "A&"]
+    replace: "Å"
