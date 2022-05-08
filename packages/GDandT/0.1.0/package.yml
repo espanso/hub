@@ -28,6 +28,7 @@ matches:
   - trigger: ":csink"
     replace: "⌵"
     
+    #spotty results with cylindricity
     #place cylindricity symbol
   - trigger: ":cyl"
     replace: "⌭"
