@@ -35,7 +35,7 @@ with open("validation_report.md", "w", encoding="utf-8") as f:
     f.write("All checks passed ✅ Great job!\n\n")
     f.write("![Great Job](https://raw.githubusercontent.com/espanso/hub/main/.github/scripts/validate/great-job-image.jpg)")
   else:
-    f.write("Oh snap! Our advanced robots detected some errors 🤖 We need to solve them before merging the package:\n\n")
+    f.write("Oh snap! Our robots detected some errors 🤖 We need to solve them before merging the package:\n\n")
     for package in report_errors:
       package_name = package["package"]
       package_errors = package["errors"]
@@ -45,6 +45,7 @@ with open("validation_report.md", "w", encoding="utf-8") as f:
         error_message = error.error
         f.write(f"#### Check: **{error_name}** ❌\n\n")
         f.write(f"```\n{error_message}\n```\n\n")
+    f.write("After you fixed the problems, please create another commit and push it to re-run the checks 🚀")
 
 if len(report_errors) == 0:
   print("All ok!")
