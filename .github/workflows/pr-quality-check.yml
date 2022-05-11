@@ -29,4 +29,6 @@ jobs:
           curl -sL  -X POST -d @body.json \
             -H "Content-Type: application/json" \
             -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-            "https://api.github.com/repos/$GITHUB_REPOSITORY/commits/$GITHUB_SHA/comments"
+            $GITHUB_COMMENT_URL
+        env:
+          GITHUB_COMMENT_URL: ${{ github.event.issue.comments_url }}
