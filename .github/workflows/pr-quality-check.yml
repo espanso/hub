@@ -17,3 +17,16 @@ jobs:
         run: "python .github/scripts/validate/main.py"
       - name: "Publish report"
         run: cat validation_report.md >> $GITHUB_STEP_SUMMARY
+      - name: "Create Github comment body"
+        run: |
+          import json
+          with open("validation_report.md", "r", encoding="utf-8") as input:
+            with open("body.json", "w", encoding="utf-8") as output:
+              output.write(json.dumps({"body": input.read()}))
+        shell: python
+      - name: Post report as Comment
+        run: |
+          curl -sL  -X POST -d @body.json \
+            -H "Content-Type: application/json" \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/repos/$GITHUB_REPOSITORY/commits/$GITHUB_SHA/comments"
