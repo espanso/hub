@@ -307,8 +307,3 @@ matches:
     replace: "Zendesk"
     propagate_case: true
     word: true
-
-  - trigger: "zoom"
-    replace: "Zoom"
-    propagate_case: true
-    word: true
