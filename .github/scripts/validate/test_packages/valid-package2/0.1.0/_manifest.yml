@@ -1,0 +1,6 @@
+name: "valid-package2"
+title: "Dummy package"
+description: A dummy package for testing
+version: 0.1.0
+author: Federico Terzi
+tags: ["example"]
