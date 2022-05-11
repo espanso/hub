@@ -16,8 +16,10 @@ jobs:
       - name: "Quality check"
         run: "python .github/scripts/validate/main.py"
       - name: "Publish report"
+        if: always()
         run: cat validation_report.md >> $GITHUB_STEP_SUMMARY
       - name: "Create Github comment body"
+        if: always()
         run: |
           import json
           with open("validation_report.md", "r", encoding="utf-8") as input:
@@ -25,6 +27,7 @@ jobs:
               output.write(json.dumps({"body": input.read()}))
         shell: python
       - name: Post report as Comment
+        if: always()
         run: |
           curl -sL  -X POST -d @body.json \
             -H "Content-Type: application/json" \
