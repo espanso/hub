@@ -1,0 +1,19 @@
+name: pr-quality-check
+
+on:
+  pull_request:
+
+jobs:
+  quality-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+      - name: "Install python dependencies"
+        run: "pip install pyyaml"
+      - name: "Quality check"
+        run: "python .github/scripts/validate/main.py"
+      - name: "Publish report"
+        run: cat validation_report.md >> $GITHUB_STEP_SUMMARY
