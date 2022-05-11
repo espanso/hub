@@ -1,0 +1,6 @@
+name: "mismatch-version"
+title: "Dummy package"
+description: A dummy package for testing
+version: 1.0.0 # invalid version
+author: Federico Terzi
+tags: ["example"]
