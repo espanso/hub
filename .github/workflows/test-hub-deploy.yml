@@ -22,5 +22,6 @@ jobs:
           cd hub-frontend
 
           git rev-parse --verify HEAD > current_hub_sha.txt
+          git add current_hub_sha.txt
           git commit -m "chore(misc): auto deploy from HUB CI"
           git push
