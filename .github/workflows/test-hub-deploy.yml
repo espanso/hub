@@ -16,6 +16,8 @@ jobs:
           ssh-private-key: ${{ secrets.HUB_FRONTEND_DEPLOY_KEY }}
       - name: "Push update on hub-frontend"
         run: |
+          git config --global user.name "Espanso Hub Bot"
+
           git clone git@github.com:espanso/hub-frontend.git
           cd hub-frontend
 
