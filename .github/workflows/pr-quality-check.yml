@@ -29,6 +29,12 @@ jobs:
       - name: Post report as Comment
         if: always()
         run: |
+          BRANCH=$(git branch --show-current)
+          if [ "$BRANCH" = "main" ]; then
+            echo "Skipping on main branch"
+            exit 0
+          fi
+
           curl -sL  -X POST -d @body.json \
             -H "Content-Type: application/json" \
             -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
