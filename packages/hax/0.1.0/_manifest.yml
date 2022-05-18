@@ -1,0 +1,6 @@
+name: "hax"
+title: "Hax"
+description: Penetration testing utilities and replacements
+version: 0.1.0
+author: Nick Aliferopoulos
+tags: ["hax", "hack", "hacking", "penetration", "sqli", "xss", "shell", "ssti", "xxe"]
