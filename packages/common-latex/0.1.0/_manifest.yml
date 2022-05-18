@@ -1,0 +1,6 @@
+name: "common-latex"
+title: "common-latex"
+description: A simple Latex snippets for basic math
+version: 0.1.0
+author: Ivan Bue @soulllink
+tags: ["math"]

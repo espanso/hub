@@ -1,0 +1,47 @@
+name: pr-quality-check
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  quality-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+      - name: "Install python dependencies"
+        run: "pip install pyyaml"
+      - name: "Quality check"
+        run: "python .github/scripts/validate/main.py"
+      - name: "Publish report"
+        if: always()
+        run: cat validation_report.md >> $GITHUB_STEP_SUMMARY
+      - name: "Create Github comment body"
+        if: always()
+        run: |
+          import json
+          with open("validation_report.md", "r", encoding="utf-8") as input:
+            with open("body.json", "w", encoding="utf-8") as output:
+              output.write(json.dumps({"body": input.read()}))
+        shell: python
+      - name: Post report as Comment
+        if: always()
+        run: |
+          BRANCH=$(git branch --show-current)
+          if [ "$BRANCH" = "main" ]; then
+            echo "Skipping on main branch"
+            exit 0
+          fi
+
+          curl -sL  -X POST -d @body.json \
+            -H "Content-Type: application/json" \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            "$GITHUB_COMMENT_URL"
+        env:
+          GITHUB_COMMENT_URL: ${{ github.event.pull_request.comments_url }}
