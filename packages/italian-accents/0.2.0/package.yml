@@ -1,0 +1,39 @@
+# Italian Accents package
+
+matches:
+  - trigger: "e'"
+    replace: "è"
+
+  - trigger: "e//"
+    replace: "é"
+
+  - trigger: "a'"
+    replace: "à"
+
+  - trigger: "i'"
+    replace: "ì"
+
+  - trigger: "o'"
+    replace: "ò"
+
+  - trigger: "u'"
+    replace: "ù"
+
+  # Capital accented letters
+  - trigger: "E'"
+    replace: "È"
+
+  - trigger: "E//"
+    replace: "É"
+
+  - trigger: "A'"
+    replace: "À"
+
+  - trigger: "U'"
+    replace: "Ù"
+
+  - trigger: "O'"
+    replace: "Ò"
+
+  - trigger: "I'"
+    replace: "Ì"
