@@ -2,6 +2,8 @@ This is a translation package.
 
 It is for bidirectional translation between **English** and **French**.
 
+Please note that it will use 10MB of disk storage, and 350MB of RAM when loaded into Espanso.
+
 # Example matches
 | Trigger    | Replace                |
 |------------|------------------------|
