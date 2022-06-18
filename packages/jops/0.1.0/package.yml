@@ -125,7 +125,7 @@ matches:
       type: shell
       params:
         cmd: cat ~/.config/joplin/.auth  
-        
+# Requests a master token from Joplin and parses the output        
     - name: masterToken
       type: shell
       params:
@@ -167,22 +167,22 @@ matches:
         type: shell
         params:
           cmd: cat ~/.config/joplin/.auth
-          
+# Requests a master token from Joplin and parses the output 
       - name: masterToken
         type: shell
         params:
           cmd: curl -X GET http://localhost:41184/auth/check?auth_token={{authRead}} | sed "s/{.*\"token\":\"\([^\"]*\).*}/\1/g"
-        
+# Gets JSON of notebook titles and parses it to be a list
       - name: notebooktitles
         type: shell
         params:
           cmd: for ((i=1;i<=5;i++)); do curl -XGET "http://localhost:41184/folders?page=$i&token={{masterToken}}"; done | grep -o '"title":"[^"]*' | grep -o '[^"]*$' | sed G
-
+# Gets JSON of notebook ids and parses it to be a list
       - name: notebookid
         type: shell
         params:
           cmd: for ((i=1;i<=5;i++)); do curl -XGET "http://localhost:41184/folders?page=$i&token={{masterToken}}"; done | grep -o '"id":"[^"]*' | grep -o '[^"]*$' | sed G
-
+# Displays the choice of notebook to user
       - name: notebook
         type: choice
         params:
