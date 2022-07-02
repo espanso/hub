@@ -1,26 +1,9 @@
-# calc-macos
-Basic calculation pacakge for epanso that works in MacOS.
-
-## Example
-![Screen Recording 2022-06-23 at 10 13 21](https://user-images.githubusercontent.com/23709916/175312182-e6372ce2-b296-4d5b-bdc0-a9d8543ab85e.gif)
-
-
-## Usage
-1. Type `:calc`
-2. You'll see a form, type the calculation
-  <img width="185" alt="image" src="https://user-images.githubusercontent.com/23709916/175305102-2453d39b-b7d8-45f2-8a42-9286a2ab2d25.png">
-3. The text will be replaced with the result
-
-## Commands
-
-| Command                    | Match  | Example       | Result     |
-|----------------------------|--------|---------------|------------|
-| Calculate                  | :calc  | Input: 10 - 3 | 7          |
-| Calculate and show account | :ecalc | Input: 10 - 3 | 10 - 3 = 7 |
-
-## Implementation
-
-This package uses `bc` to do the calculations
-```
-echo '10 * 4' | bc
-```
+---
+package_name: "calc-macos"
+package_title: "Calc MacOS"
+package_desc: "Matches to do basic arithmetic using your shell."
+package_version: "0.1.0"
+package_author: "Tashima42"
+package_repo: "https://github.com/Tashima42/espanso-calc-macos"
+---
+Matches to do basic arithmetic using your shell.
