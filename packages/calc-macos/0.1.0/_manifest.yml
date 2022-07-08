@@ -1,0 +1,5 @@
+name: "calc-macos"
+title: "Calc Macos"
+description: Espanso package for doing basic arithmetic in the shell.
+version: 0.1.0
+author: Tashima42
