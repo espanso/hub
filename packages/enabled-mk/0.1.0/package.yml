@@ -1,0 +1,19 @@
+matches:
+  - regex: (;|:)mk
+  replace: '{{empty}}'
+  vars:
+  - name: nix
+    type: form
+    params:
+      layout: New keybinding [[key]] -> [[value]]
+  - name: empty
+    type: shell
+    params:
+      cmd: 'KEY=''{{nix.key}}'' VALUE=''{{nix.value}}'' python3 -c ''import os; import
+        yaml; HOME=os.environ.get("HOME"); FOUT=f"{HOME}/.config/espanso/match/base.yml";
+        FIN=FOUT; KEY,VALUE=(os.environ.get("KEY"),os.environ.get("VALUE")); assert
+        KEY and VALUE, "Both KEY and VALUE must be supplied from stdin"; handle=open(FIN,
+        "r+"); raw=handle.read(); handle.close(); espanso=yaml.load(raw, Loader=yaml.loader.SafeLoader);
+        espanso["matches"].append({"trigger": KEY, "replace": VALUE}) ; handle=open(FOUT,
+        "w+"); yaml.dump(espanso, stream=handle, sort_keys=False) ; handle.close();'';
+        printf '''''
