@@ -1,5 +1,5 @@
 # espanso-calc-macos
-Basic calculation pacakge for epanso that works in MacOS.
+Basic calculation package for espanso that works in macOS.
 
 ## Example
 
