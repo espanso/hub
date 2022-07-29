@@ -1,0 +1,237 @@
+matches:
+
+# LEFTWARDS ARROW
+  - triggers: [":<-", ":lef", ":lf", ":wes", ":wst"]
+    replace: "←"
+    replace: "↢"
+    replace: "⇽"
+    replace: "☜"
+    replace: "↤"
+    replace: "⇤"
+    replace: "↼"
+    replace: "↽"
+    replace: "↞"
+    replace: "↜"
+    replace: "⇜"
+    replace: "↩"
+    replace: "↫"
+    replace: "⇐"
+    replace: "⇚"
+    replace: "⇇"
+    replace: "⇠"
+    replace: "⇷"
+    replace: "⇺"
+    replace: "↚"
+    replace: "⤺"
+    replace: "⇦"
+    replace: "⬅"
+    replace: "⇷"
+    replace: "⇺"
+    replace: "⯇"
+    replace: "⮘"
+    replace: "⮜"
+    
+# RIGHTWARDS ARROW
+  - triggers: [":->", ":rig", ":rt", ":eas", ":est"]
+    replace: "→"
+    replace: "↣"
+    replace: "⇾"
+    replace: "☞"
+    replace: "⇨"
+    replace: "⮕"
+    replace: "⇢"
+    replace: "↦"
+    replace: "⇰"
+    replace: "⇥"
+    replace: "⇀"
+    replace: "⇁"
+    replace: "↠"
+    replace: "↝"
+    replace: "↪"
+    replace: "⤻"
+    replace: "↬"
+    replace: "⇉"
+    replace: "⇒"
+    replace: "⇛"
+    replace: "⇝"
+    replace: "⇶"
+    replace: "⇶"
+    replace: "⇸"
+    replace: "⇴"
+    replace: "⇻"
+    replace: "↛"
+    replace: "⯈"
+    replace: "⮚"
+    replace: "⮞"
+
+# UPWARDS ARROW
+  - triggers: [":|^:", ":^|:", ":up", ":nor", ":nth"]
+    replace: "↑"
+    replace: "☝"
+    replace: "⇧"
+    replace: "⬆"
+    replace: "↟"
+    replace: "↥"
+    replace: "⇫"
+    replace: "⇬"
+    replace: "⇭"
+    replace: "↾"
+    replace: "↿"
+    replace: "⇮"
+    replace: "⇯"
+    replace: "⇈"
+    replace: "⇑"
+    replace: "⇡"
+    replace: "⇪"
+    replace: "⯅"
+    replace: "⮙"
+    replace: "⮝"
+
+# DOWNWARDS ARROW
+  - triggers: [":v|:", ":|v:", ":sou", ":sth"]
+    replace: "↓"
+    replace: "☟"
+    replace: "⬇"
+    replace: "⇩"
+    replace: "↡"
+    replace: "↧"
+    replace: "↯"
+    replace: "⇂"
+    replace: "⇃"
+    replace: "⇊"
+    replace: "⇓"
+    replace: "⇣"
+    replace: "⤸"
+    replace: "⤹"
+    replace: "⯆"
+    replace: "⮛"
+    replace: "⮟"
+
+# NORTH WEST ARROW
+  - trigger: [":<\\:", ":^\\:", ":nw", ":NW"]
+    replace: "↖"
+    replace: "⇖"
+    replace: "⬉"
+    replace: "⇱"
+    replace: "↰"
+    replace: "⮢"
+    replace: "⮤"
+
+# NORTH EAST ARROW
+  - triggers: [":/>:", ":/^:",":ne", ":NE"]
+    replace: "↗"
+    replace: "⇗"
+    replace: "⬈"
+    replace: "⤴"
+    replace: "↱"
+    replace: "⮣"
+    replace: "⮥"
+
+# SOUTH EAST ARROW
+  - triggers: [":\\>:", ":\\v:", ":se", ":SE"]
+    replace: "↘"
+    replace: "⇘"
+    replace: "⬊"
+    replace: "⇲"
+    replace: "⤵"
+    replace: "⤷"
+    replace: "↳"
+    replace: "⮡"
+    replace: "↴"
+    replace: "⮧"
+
+# SOUTH WEST ARROW
+  - triggers: [":</:", ":v/:", ":sw", ":SW"]
+    replace: "↙"
+    replace: "⇙"
+    replace: "⬋"
+    replace: "↲"
+    replace: "↵"
+    replace: "⮠"
+    replace: "⮦"
+    replace: "⤶"
+    
+# LEFT RIGHT ARROW
+  - triggers: [":<>:", ":<->"]
+    replace: "↔"
+    replace: "↭"
+    replace: "↮"
+    replace: "⇔"
+    replace: "⬌"
+    replace: "⇋"
+    replace: "⇌"
+    replace: "↹"
+    replace: "⇆"
+    replace: "⇄"
+    replace: "⇿"
+    replace: "⥊"
+    replace: "⥋"
+    replace: "⥎"
+    replace: "⥐"
+    replace: "⇹"
+    replace: "⇼"
+        
+# UP DOWN ARROW
+  - triggers: [":^v", ":v^", ":^|v", ":v|^"]
+    replace: "↕"
+    replace: "⇕"
+    replace: "⇳"
+    replace: "⬍"
+    replace: "⇅"
+    replace: "⇵"
+    replace: "↨"
+    replace: "⥌"
+    replace: "⥍"
+    replace: "⥏"
+    replace: "⥑"
+
+# CROSS ARROWS
+  - triggers: [":<X>", ":^Xv"]
+    replace: "⤧"
+    replace: "⤩"
+    replace: "⤪"
+    replace: "⤨"
+
+
+# CLOCKWISE 
+  - triggers: [":cloc", ":O>", ":>O"]
+    replace: "⥁"
+    replace: "↻"
+    replace: "↷"
+    replace: "⤸"
+    
+# ANTI CLOCKWISE
+  - triggers: [":anti", ":O<", ":<O"]
+    replace: "⥀"
+    replace: "↺"
+    replace: "↶"
+    replace: "⤹"
+    replace: "⮌"
+    replace: "⮍"
+    replace: "⮎"
+    replace: "⮏"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
