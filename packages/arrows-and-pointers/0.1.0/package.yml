@@ -151,6 +151,7 @@ matches:
     replace: "⮦"
     replace: "⤶"
     
+
 # LEFT RIGHT ARROW
   - triggers: [":<>:", ":<->"]
     replace: "↔"
@@ -199,6 +200,16 @@ matches:
     replace: "↻"
     replace: "↷"
     replace: "⤸"
+    replace: "⤵"
+    replace: "⤶"
+    replace: "↴"
+    replace: "⮧"
+    replace: "⮤"
+    replace: "↱"
+    replace: "⮣"
+    replace: "↲"
+    replace: "↵"
+    replace: "⮠"
     
 # ANTI CLOCKWISE
   - triggers: [":anti", ":O<", ":<O"]
@@ -210,6 +221,14 @@ matches:
     replace: "⮍"
     replace: "⮎"
     replace: "⮏"
+    replace: "⤴"
+    replace: "⤷"
+    replace: "↰"
+    replace: "⮢"
+    replace: "⮥"
+    replace: "↳"
+    replace: "⮡"
+    replace: "⮦"
 
 
 
