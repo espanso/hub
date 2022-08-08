@@ -85,3 +85,69 @@ Here's an exhaustive list of symbols that are currently supported together with 
 |:prod:|∏|
 |:coprod:|∐|
 |:sum:|∑|
+
+### Set Theory
+| Trigger | Replace |
+| ------- | ------- |
+|:cap:|∩|
+|:cup:|∪|
+|:empty:|∅|
+|:in:|∈|
+|:not_in:|∉|
+|:ni:|∋|
+|:not_ni:|∌|
+|:subset:|⊂|
+|:superset:|⊃|
+
+### Greek
+| Trigger | Replace |
+| ------- | ------- |
+|:alpha:|α|
+|:Alpha:|Α|
+|:beta:|β|
+|:Beta:|Β|
+|:gamma:|γ|
+|:Gamma:|Γ|
+|:delta:|δ|
+|:Delta:|Δ|
+|:epsilon:|ε|
+|:Epsilon:|Ε|
+|:zeta:|ζ|
+|:Zeta:|Ζ|
+|:eta:|η|
+|:Eta:|Η|
+|:theta:|θ|
+|:Theta:|Θ|
+|:iota:|ι|
+|:Iota:|Ι|
+|:kappa:|κ|
+|:Iota:|Κ|
+|:lambda:|λ|
+|:Lambda:|Λ|
+|:mu:|μ|
+|:Mu:|Μ|
+|:nu:|ν|
+|:Nu:|Ν|
+|:xi:|ξ|
+|:Xi:|Ξ|
+|:omicron:|ο|
+|:Omicron:|Ο|
+|:pi:|π|
+|:Pi:|Π|
+|:rho:|ρ|
+|:Rho:|Ρ|
+|:sigma:|σ|
+|:Sigma:|Σ|
+|:tau:|τ|
+|:Tau:|Τ|
+|:upsilon:|υ|
+|:Upsilon:|Υ|
+|:phi:|φ|
+|:varphi:|ϕ|
+|:Phi:|Φ|
+|:chi:|χ|
+|:Chi:|Χ|
+|:psi:|ψ|
+|:Psi:|Ψ|
+|:omega:|ω|
+|:Omega:|Ω|
