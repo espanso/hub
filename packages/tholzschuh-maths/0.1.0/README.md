@@ -14,6 +14,7 @@ compared to the currently widely adopted
 
 The basic syntax for maths symbols is ```:trigger:```, where 'trigger' is the maths command in question.
 For example:
+
     - ```:to:```     ⟶ ```⟶```
     - ```:epi:```    ⟶ ```↠```
     - ```:mono:```   ⟶ ```⮩``` 
@@ -24,7 +25,7 @@ For example:
 
 Here's an exhaustive list of symbols that are currently supported together with their ```trigger```.
 
-# Available matches
+### Arrows 
 | Trigger      | Replace   |
 |--------------|-----------|
 | :ket:        | ⟩         |
