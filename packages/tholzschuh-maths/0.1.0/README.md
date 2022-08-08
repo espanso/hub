@@ -25,7 +25,40 @@ For example:
 
 Here's an exhaustive list of symbols that are currently supported together with their ```trigger```.
 
-### Arrows 
+### Arrows
+| Trigger | Replace |
+| ------- | ------- |
+|:to:|⟶|
+|:arrow_right:|⟶|
+|:ot:|⟵|
+|:arrow_left:|⟵|
+|:arrow_up:|↑|
+|:arrow_down:|↓|
+|:arrow_left_and_right:|⇄|
+|:arrow_leftright:|⟷|
+|:to_short:|→|
+|:epi:|↠|
+|:epi_left:|↞|
+|:mono:|⮩|
+|:mono_left:|⮨|
+|:acts:|↷|
+|:acts_left:|↶|
+|:auto:|⟲|
+|:simto:|⭇|
+|:simot:|⭁|
+|:emb_open:|⇴|
+|:emb_closed:|↛|
+|:mapsto:|⟼|
+|:mapsto_short:|↦|
+|:rrarrow:|⇉|
+|:rrrarrow:|⇶|
+|:arroww:|⟹|
+|:arrowww:|⇛|
+|:arrow_squiggly:|⇝|
+|:arrow_squiggly_left:|⇜|
+|:arrow_squiggly_long:|⟿|
+
+
 | Trigger      | Replace   |
 |--------------|-----------|
 | :ket:        | ⟩         |
@@ -73,4 +106,3 @@ Here's an exhaustive list of symbols that are currently supported together with 
 | :propto:     | ∝         |
 | :neg:        | ¬         |
 | :times:      | ×         |
-
