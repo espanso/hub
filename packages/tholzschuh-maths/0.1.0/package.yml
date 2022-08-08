@@ -474,8 +474,8 @@ matches:
   - trigger: ":_2:"
     replace: "₂"
             
-   - trigger: ":_3:"
-     replace: "₃"
+  - trigger: ":_3:"
+    replace: "₃"
             
   - trigger: ":_4:"
     replace: "₄"
