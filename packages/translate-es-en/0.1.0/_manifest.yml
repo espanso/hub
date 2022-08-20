@@ -1,0 +1,6 @@
+name: "translate-es-en"
+title: "Bidirectional Spanish-English translation"
+description: A proof-of-concept package for bidirectional Spanish-English translation
+version: 0.1.0
+author: James Clark
+tags: ["languages", "spanish", "english", "translation", "dictionary"]

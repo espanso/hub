@@ -16,4 +16,4 @@ Please note that it will use 10MB of disk storage, and 350MB of RAM when loaded 
 
 A simple Go script turns an MIT-licensed French-English dictionary into Espanso trigger/replacement pairs.
 
-The code is in the repository [espanso-translate-fr-en-generator](https://github.com/IdiosApps/espanso-translate-fr-en-generator)
+The code is in the repository [espanso-translate-generator](https://github.com/IdiosApps/espanso-translate-generator)
