@@ -27,6 +27,7 @@ This is an Espanso package to help with converting quotes into smart quotes. I c
 The first regex match is for typing fractions. It uses the Unicode fraction slash `⁄⁄` U+2044. It is written to allow any digits as the numerator or denominator. Although there is a space in the denominator regex, this prevents the match from triggering after a single digit. The other regex matches are for superscript and subscript, respectively.
 
 *NOTE:* Whole numbers must be used. Decimals are currently unsupported.
+
 *NOTE:* The superscript and subscript work only if the editor allows HTML markup.
 
 | Regex                                  | Replacement                         |
