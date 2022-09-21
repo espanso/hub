@@ -1,0 +1,11 @@
+author: Ihor Kopach (https://kopach.dev)
+description: 🌐 Espanso package to easy say Thanks in different languages
+homepage: https://github.com/kopach/espanso-package-foreign-thanks#readme
+name: foreign-thanks
+tags:
+  - greetings
+  - languages
+  - phrases
+  - communication
+title: Foreign Thanks
+version: 1.1.0
