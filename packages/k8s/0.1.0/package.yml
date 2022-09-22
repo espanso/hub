@@ -8,6 +8,7 @@ matches:
         inject_vars: false
         params:
           echo: "{{ range $k, $val := .data}}{{$k}}={{ $val | base64decode }}{{\"\\n\"}}{{end}}"
+
   - trigger: "k8salpi"
     replace: "kubectl run -i --tty --rm debug --image=alpine --restart=Never -- sh"
 
@@ -37,3 +38,6 @@ matches:
 
   - trigger: "k8smf"
     replace: "-o json | jq 'del(.metadata.managedFields)'"
+
+  - trigger: "k8sdrain"
+    replace: "kubectl drain --delete-emptydir-data --ignore-daemonsets"

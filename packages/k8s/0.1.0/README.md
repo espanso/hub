@@ -13,4 +13,5 @@ A package for k8s shortcodes
 | k8snp     | get all pods running on node                             |
 | k8smf     | -o json \| jq 'del(.metadata.managedFields)'             |
 | k8scurl   | start a curl pod                                         |
+| k8sdrain  | drain node                                               |
 
