@@ -1,0 +1,6 @@
+name: "currency-symbols"
+title: "Currency Symbols"
+description: All the unicode currency symbols I could find
+version: 0.1.0
+author: stib
+tags: ["currency", "money", "business"]
