@@ -1,0 +1,124 @@
+# ECG-related terminology
+matches:
+  - trigger: ":rr"
+    replace: "RR-interval"
+    propagate_case: true
+    word: true
+
+  - trigger: ":pr"
+    replace: "PR-interval"
+    propagate_case: true
+    word: true
+
+  - trigger: ":p"
+    replace: "P-wave$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: ":QRS"
+    replace: "QRS complex$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: ":u"
+    replace: "U-wave$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: ":st"
+    replace: "ST segment$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: ":qt"
+    replace: "QT-interval$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: ":q|"
+    replace: "Q-wave$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: "!:t"
+    replace: "inverted T-wave$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: "rbbb"
+    replace: "right bundle-branch block"
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+    word: true
+
+  - trigger: "lbbb"
+    replace: "left bundle-branch block"
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+    word: true
+
+  - trigger: ":s"
+    replace: "S-wave$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: "juncr"
+    replace: "junctional rhythm$|$"
+    propagate_case: true
+    word: true
+    uppercase_style: "capitalize_words"
+
+  - trigger: ":j"
+    replace: "J-point$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: ":s"
+    replace: "S-wave$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: ":r"
+    replace: "R-wave$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: ":t"
+    replace: "T-wave$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: "prec"
+    replace: "precordial"
+    propagate_case: true
+    word: true
+
+  - trigger: "precl"
+    replace: "precordial leads"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "antl"
+    replace: "anterior leads"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "latl"
+    replace: "lateral leads"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "postl"
+    replace: "posterior lead$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: ":eind"
+    replace: "Eindhoven's triangle"
+    propagate_case: true
+    uppercase_style: "capitalize_words"

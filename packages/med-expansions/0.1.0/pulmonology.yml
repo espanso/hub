@@ -1,0 +1,66 @@
+matches:
+
+  - trigger: "lrti"
+    replace: "lower respiratory tract infection"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "rti"
+    replace: "respiratory tract infection"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "urti"
+    replace: "upper respiratory tract infection"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "vuri"
+    replace: "viral upper respiratory tract infection"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "respalk"
+    replace: "respiratory alkalosis"
+    propagate_case: true
+    word: true
+    uppercase_style: "capitalize_words"
+
+  - trigger: "respac"
+    replace: "respiratory acidosis"
+    propagate_case: true
+    word: true
+    uppercase_style: "capitalize_words"
+
+  - trigger: "alko"
+    replace: "alkalosis"
+    propagate_case: true
+    word: true
+    uppercase_style: "capitalize_words"
+
+  - trigger: "acicdo"
+    replace: "acidosis"
+    propagate_case: true
+    word: true
+    uppercase_style: "capitalize_words"
+
+  - trigger: "eff"
+    replace: "effusion$|$"
+    propagate_case: true
+    word: true
+    uppercase_style: "capitalize_words"
+
+  - trigger: ":copd"
+    replace: "chronic obstructive pulmonary disease"
+    propagate_case: true
+
+  - trigger: "plef"
+    replace: "pleural effusion"
+    propagate_case: true
+    word: true
+    uppercase_style: "capitalize_words"
+
