@@ -38,12 +38,3 @@ matches:
 
   - trigger: '/='
     replace: '≠'
-
-  - regex: '(?P<num1>\d+)/(?P<num2>\d+ )'
-    replace: '{{num1}}⁄{{num2}}'
-
-  - regex: '(?P<letter1>\w+)](?P<letter2>\w+ )'
-    replace: '{{letter1}}<sup>{{letter2}}</sup>'
-
-  - regex: '(?P<letter1>\w+)}(?P<letter2>\w+ )'
-    replace: '{{letter1}}<sub>{{letter2}}</sub>'
