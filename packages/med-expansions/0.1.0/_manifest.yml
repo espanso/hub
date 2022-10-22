@@ -1,6 +1,6 @@
 name: "med-expansions"
 title: "Med-Expansions"
-description: A Medical expansions list designed for medical writing and medical students
+description: Systematically formatted triggers for medical writing and notetaking
 version: 0.1.0
 author: Cillian Scott
-tags: ["medical", "writing"]
+tags: ["Medical", "Writing", "Notetaking"]

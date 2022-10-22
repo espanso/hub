@@ -175,12 +175,12 @@ matches:
     propagate_case: true
     word: true
 
-  - trigger: "spneu"
+  - triggers: ["spneu", "spne"]
     replace: "Streptococcus pneumoniae"
     propagate_case: true
     word: true
 
-  - trigger: "s.pneu"
+  - triggers: ["s.pneu", "s.pne"]
     replace: "S. pneumoniae"
     propagate_case: true
     word: true

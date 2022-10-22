@@ -8,9 +8,10 @@
 matches:
 #Arteries
   
-  - trigger: ":cad"
+  - trigger: "cad."
     replace: "Coronary Artery Disease"
     propagate_case: true
+    word: true
 
   - trigger: "as."
     replace: "arteries"
@@ -22,33 +23,32 @@ matches:
     propagate_case: true
     word: true
 
-  - trigger: ":cabg"
+  - trigger: "cabg."
     replace: "coronary artery bypass graft"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":map"
+  - trigger: "map."
     replace: "mean arterial pressure"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":cca"
+  - trigger: "cca."
     replace: "common carotid artery"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":lsa"
+  - trigger: "lsa."
     replace: "left subclavian artery"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":rsa"
+  - trigger: "rsa."
     replace: "right subclavian artery"
-    propagate_case: true
-    uppercase_style: "capitalize_words"
-
-  - trigger: "as."
-    replace: "arteries"
     propagate_case: true
     uppercase_style: "capitalize_words"
     word: true
@@ -58,59 +58,76 @@ matches:
     propagate_case: true
     word: true
 
-  - trigger: ":eca"
+  - trigger: "eca."
     replace: "external carotid artery"
     propagate_case: true
+    word: true
 
-  - trigger: ":ica"
+  - trigger: "ica."
     replace: "internal carotid artery"
     propagate_case: true
+    word: true
 
-  - trigger: ":lcx"
+  - trigger: "lcx."
     replace: "left circumflex artery"
-    propagate_case: true
-    uppercase_style: "capitalize_words"
-
-  - trigger: ":lad"
-    replace: "left anterior descending artery"
-    propagate_case: true
-    uppercase_style: "capitalize_words"
-
-  - trigger: ":mma"
-    replace: "middle meningeal artery"
-    propagate_case: true
-    uppercase_style: "capitalize_words"
-
-  - trigger: ":rma"
-    replace: "right marginal artery "
-    propagate_case: true
-    uppercase_style: "capitalize_words"
-
-  - trigger: ":lma"
-    replace: "left marginal artery"
-    propagate_case: true
-    uppercase_style: "capitalize_words"
-
-  - trigger: "pcomm"
-    replace: "posterior communicating artery"
-    propagate_case: true
-    uppercase_style: "capitalize_words"
-
-  - trigger: "pcomms"
-    replace: "posterior communicating arteries"
-    propagate_case: true
-    uppercase_style: "capitalize_words"
-
-  - trigger: "acomm"
-    replace: "anterior communicating artery"
     propagate_case: true
     uppercase_style: "capitalize_words"
     word: true
 
-  - trigger: ":cad"
+  - trigger: "lad."
+    replace: "left anterior descending artery"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "mma."
+    replace: "middle meningeal artery"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "rma."
+    replace: "right marginal artery "
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "lma."
+    replace: "left marginal artery"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "pcom."
+    replace: "posterior communicating artery"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+
+  - trigger: "pcoms."
+    replace: "posterior communicating arteries"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+
+  - trigger: "acom."
+    replace: "anterior communicating artery"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+      #
+      # NOTICE: THERE IS ONLY ONE ANTERIOR COMM. ARTERY.
+      # THIS IS PURELY FOR DISCUSSION OF MULTIPLE ACOMMs IN MULTIPLE PEOPLE
+      # Also remember, there ARE two PComms!
+  - trigger: "acoms."
+    replace: "anterior communicating arteries"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "cad."
     replace: "coronary artery disease"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
   - trigger: "cora"
     replace: "coronary artery"
@@ -122,22 +139,23 @@ matches:
     propagate_case: true
     word: true
 
-  - trigger: ":dtga"
+  - trigger: "dtga."
     replace: "dextr-transposition of the great arteries"
     propagate_case: true
     word: true
     uppercase_style: "capitalize_words"
 
-  - trigger: ":ltga"
+  - trigger: "ltga."
     replace: "levo-transposition of the great arteries"
     propagate_case: true
-    word: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":pad"
+  - trigger: "pad."
     replace: "peripheral artery disease"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
 # Veins and Venous Pathology
 
@@ -151,36 +169,41 @@ matches:
     propagate_case: true
     word: true
 
-  - trigger: ":gcv"
+  - trigger: "gcv."
     replace: "great cardiac vein"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":ijv"
+  - trigger: "ijv."
     replace: "internal jugular vein"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":ejv"
+  - trigger: "ejv."
     replace: "external jugular vein"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":dvt"
+  - trigger: "dvt."
     replace: "deep vein thrombosis"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":vte"
+  - trigger: "vte."
     replace: "venous thromboembolic event"
     propagate_case: true
       
 # Nerves
 
-  - trigger: ":sns"
+  - trigger: "sns."
     replace: "sympathetic nervous system"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
   - trigger: "ston"
     replace: "sympathetic tone"
@@ -194,7 +217,7 @@ matches:
     uppercase_style: "capitalize_words"
     word: true
 
-  - trigger: ":psns"
+  - trigger: "psns."
     replace: "parasympathetic nervous system"
     propagate_case: true
     uppercase_style: "capitalize_words"
@@ -211,19 +234,16 @@ matches:
     uppercase_style: "capitalize_words"
     word: true
 
-  - trigger: ":pns"
+  - trigger: "pns."
     replace: "peripheral nervous system"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":cns"
+  - trigger: "cns."
     replace: "central nervous system"
     propagate_case: true
     uppercase_style: "capitalize_words"
-
-  - trigger: "ns."
-    replace: "nerves"
-    propagate_case: true
     word: true
 
   - trigger: "n."
@@ -241,39 +261,46 @@ matches:
     propagate_case: true
     word: true
 
-  - trigger: ":vacn"
+  - trigger: "vacn."
     replace: "ophthalmic nerve"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":vbcn"
+  - trigger: "vbcn."
     replace: "maxillary nerve"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":vccn"
+  - trigger: "vccn."
     replace: "mandibular nerve"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":vicn"
+  - trigger: "vicn."
     replace: "ophthalmic division of the trigeminal nerve"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":viicn"
+  - trigger: "viicn."
     replace: "maxillary division of the trigeminal nerve"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":viiicn"
+  - trigger: "viiicn."
     replace: "mandibular division of the trigeminal nerve"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":lpn"
+  - trigger: "lpn."
     replace: "lateral pectoral nerve"
     propagate_case: true
+    word: true
 
       # General
       
@@ -282,9 +309,10 @@ matches:
     propagate_case: true
     word: true
 
-  - trigger: ":epo"
+  - trigger: "epo."
     replace: "erythropoietin"
     propagate_case: true
+    word: true
 
   - trigger: "tx"
     replace: "treatment"
@@ -346,7 +374,7 @@ matches:
     propagate_case: true
     word: true
 
-  - triggers: [":sx", ":sx.", "surg"] 
+  - triggers: ["sx.", "surg"] 
     replace: "surgery"
     propagate_case: true
     word: true
@@ -387,17 +415,17 @@ matches:
     propagate_case: true
     word: true
 
-  - triggers: ["pdyn", ":pd:"]
+  - triggers: ["pdyn", "pd:."]
     replace: "pharmacodynamics"
     propagate_case: true
     word: true
 
-  - triggers: ["pkin", ":pk:"]
+  - triggers: ["pkin", "pk:."]
     replace: "pharmacokinetics"
     propagate_case: true
     word: true
 
-  - trigger: ":gi"
+  - trigger: "gi."
     replace: "gastrointestin$|$"
     propagate_case: true
     word: true
@@ -407,43 +435,50 @@ matches:
     propagate_case: true
     word: true
 
-  - trigger: ":gut"
+  - trigger: "gut."
     replace: "genitourinary tract"
     propagate_case: true
     word: true
 
-  - trigger: ":gu"
+  - trigger: "gu."
     replace: "genitourinary"
     propagate_case: true
     word: true
 
-  - triggers: [":hb", "hglob"]
+  - triggers: ["hb.", "hglob"]
     replace: "haemoglobin"
     propagate_case: true
+    word: true
 
-  - trigger: ":g6p"
+  - trigger: "g6p."
     replace: "glucose-6-phosphate"
     propagate_case: true
+    word: true
 
-  - trigger: ":f6p"
+  - trigger: "f6p."
     replace: "fructose-6-phosphate"
     propagate_case: true
+    word: true
 
-  - trigger: ":f16bp"
+  - trigger: "f16bp."
     replace: "fructose-1,6-bisphosphate"
     propagate_case: true
+    word: true
 
-  - trigger: ":ecf"
+  - trigger: "ecf."
     replace: "extracellular fluid"
     propagate_case: true
+    word: true
 
-  - trigger: ":isf"
+  - trigger: "isf."
     replace: "interstitial fluid"
     propagate_case: true
+    word: true
 
-  - trigger: ":f26bp"
+  - trigger: "f26bp."
     replace: "fructose-2,6-bisphosphate"
     propagate_case: true
+    word: true
 
   - trigger: "nphil"
     replace: "neutrophil"
@@ -463,17 +498,20 @@ matches:
     word: true
     uppercase_style: "capitalize_words"
 
-  - trigger: ":13bpg"
+  - trigger: "13bpg."
     replace: "1,3-bisphosphoglycerate"
     propagate_case: true
+    word: true
 
-  - trigger: ":g3p"
+  - trigger: "g3p."
     replace: "glyceraldehyde-3-phosphate"
     propagate_case: true
+    word: true
 
-  - trigger: ":csf"
+  - trigger: "csf."
     replace: "cerebrospinal fluid"
     propagate_case: true
+    word: true
 
   - trigger: "ipsl"
     replace: "ipsalater$|$"
@@ -491,25 +529,30 @@ matches:
     replace: "proximal$|$"
     propagate_case: true
 
-  - trigger: ":+ve"
+  - trigger: "+ve."
     replace: "positive"
     propagate_case: true
+    word: true
 
-  - trigger: ":-ve"
+  - trigger: "-ve."
     replace: "negative"
     propagate_case: true
+    word: true
 
-  - trigger: ":nad"
+  - trigger: "nad."
     replace: "no abnormalities detected"
     propagate_case: true
+    word: true
 
-  - trigger: ":cv"
+  - trigger: "cv."
     replace: "cardiovascular"
     propagate_case: true
+    word: true
 
-  - trigger: ":s2"
+  - trigger: "s2."
     replace: "secondary to"
     propagate_case: true
+    word: true
 
 
   - trigger: "abd"
@@ -517,22 +560,25 @@ matches:
     propagate_case: true
     word: true
 
-  - trigger: ":npo"
+  - trigger: "npo."
     replace: "nil per oral"
     propagate_case: true
+    word: true
 
-  - trigger: ":ka"
+  - trigger: "ka."
     replace: "ketoacidosis"
     propagate_case: true
+    word: true
 
-  - trigger: ":egen"
+  - trigger: "egen."
     replace: "embryogenesis"
     propagate_case: true
+    word: true
 
   # Anki expansions — Useful for writing cloze tags in Anki. Note you might have to configure the Espanso "Injection method" because Anki does not play nicely with Espanso by default. See Espanso Docs for info
-  # These are prepended with ":" to prevent accidental expansion when referencing cervical spine
+  # These are prepended with "" to prevent accidental expansion when referencing cervical spine
 # Unfinished WIP
-#  - regex: ":c(?P<num>)\."
+#  - regex: ."c(?P<num>)\."
 #    replace:  "C{{num}}:$|$"
 
   - trigger: "ng"
@@ -545,17 +591,17 @@ matches:
     propagate_case: true
     word: true
 
-  - trigger: ":im"
+  - trigger: "im."
     replace: "intramuscular|$|$"
     propagate_case: true
     word: true
 
-  - trigger: ":iv"
+  - trigger: "iv."
     replace: "intravascular|$|$"
     propagate_case: true
     word: true
 
-  - trigger: ":sq"
+  - trigger: "sq."
     replace: "sub-cutaneous|$|$"
     propagate_case: true
     word: true
@@ -581,75 +627,87 @@ matches:
     word: true
 
 
-  - trigger: ":equilib"
+  - trigger: "equilib."
     replace: "⇋$|$"
     propagate_case: true
+    word: true
 
-  - trigger: ":e2"
+  - trigger: "e2."
     replace: "estradiol"
     propagate_case: true
+    word: true
 
-  - triggers: [":p4","p4"]
+  - triggers: ["p4.","p4"]
     replace: "progesterone"
     propagate_case: true
     word: true
 
-  - trigger: ":gag"
+  - trigger: "gag."
     replace: "glycosaminoglycan"
     propagate_case: true
+    word: true
 
-  - trigger: ":vwf"
+  - trigger: "vwf."
     replace: "von-willebrand factor"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":fII"
+  - trigger: "fII."
     replace: "prothrombin"
     propagate_case: true
+    word: true
 
-  - trigger: ":fIIa"
+  - trigger: "fIIa."
     replace: "thrombin"
     propagate_case: true
+    word: true
 
   - triggers: ["prosg", "pglan", "pgland"]
     replace: "prostaglandin"
     propagate_case: true
     word: true
 
-  - trigger: ":pgf"
+  - trigger: "pgf."
     replace: "platelet-growth factor"
     propagate_case: true
+    word: true
 
-  - trigger: ":txa"
+  - trigger: "txa."
     replace: "thromboxane"
     propagate_case: true
+    word: true
 
-  - trigger: ":oxa"
+  - trigger: "oxa."
     replace: "oxaloacetate"
     propagate_case: true
+    word: true
 
-  - trigger: ":succoa"
+  - trigger: "succoa."
     replace: "succinyl-CoA"
     propagate_case: true
+    word: true
 
-  - trigger: ":cox"
+  - trigger: "cox."
     replace: "cyclooxygenase"
     propagate_case: true
+    word: true
 
   - trigger: "lox"
     replace: "lipoxygenase"
     propagate_case: true
     word: true
 
-  - trigger: ":asa"
+  - trigger: "asa."
     replace: "acetylsalicylic acid"
     propagate_case: true
     word: true
 
-  - trigger: ":pamp"
+  - trigger: "pamp."
     replace: "pathogen associated molecular pattern|$|$"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
   - trigger: "psac"
     replace: "polysaccharide|$|$"
@@ -661,14 +719,16 @@ matches:
     propagate_case: true
     word: true
 
-  - trigger: ":mhc"
+  - trigger: "mhc."
     replace: "major histocompatibility complex"
     propagate_case: true
+    word: true
 
-  - trigger: ":malt"
+  - trigger: "malt."
     replace: "myeloid associated lymphoid tissue"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
   - trigger: "mb"
     replace: "myoglobin|$|$"
@@ -680,18 +740,20 @@ matches:
     propagate_case: true
     word: true
 
-  - trigger: ":ret"
+  - trigger: "ret."
     replace: "reticulocyte|$|$"
     propagate_case: true
     word: true
 
-  - trigger: ":t2dm"
+  - trigger: "t2dm."
     replace: "type II diabetes mellitus"
     propagate_case: true
+    word: true
 
-  - trigger: ":t1dm"
+  - trigger: "t1dm."
     replace: "type I diabetes mellitus"
     propagate_case: true
+    word: true
 
   - trigger: "ms"
     replace: "multiple sclerosis"
@@ -734,21 +796,22 @@ matches:
     replace: "cardiovascular system"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
       # Arrhythmias
-  - triggers: ["afib", ":af:"]
+  - triggers: ["afib", "af:."]
     replace: "atrial fibrillation"
     propagate_case: true
     uppercase_style: "capitalize_words"
     word: true
 
-  - triggers: ["vfib", ":vf:"]
+  - triggers: ["vfib", "vf:."]
     replace: "ventricular fibrillation"
     propagate_case: true
     uppercase_style: "capitalize_words"
     word: true
 
-  - trigger: ":svt"
+  - trigger: "svt."
     replace: "supra-ventricular tachycardia"
     propagate_case: true
     uppercase_style: "capitalize_words"
@@ -764,15 +827,17 @@ matches:
     propagate_case: true
     word: true
 
-  - trigger: ":pea"
+  - trigger: "pea."
     replace: "pulseless electrical activity"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":aed"
+  - trigger: "aed."
     replace: "anti-epileptic drug$|$"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
       # ARRHYTHMIAS */
 
@@ -782,22 +847,22 @@ matches:
     propagate_case: true
     word: true
 
-  - triggers: [":5ht", "ston"]
+  - triggers: ["5ht.", "ston"]
     replace: "seroton$|$"
     propagate_case: true
     word: true
 
-  - triggers: ["dop", ":da:", "damin"]
+  - triggers: ["dop", "da:.", "damin"]
     replace: "dopamine$|$"
     propagate_case: true
     word: true
 
-  - triggers: ["noraderg", ":naerg"]
+  - triggers: ["noraderg", "naerg."]
     replace: "noradrenergic"
     propagate_case: true
     word: true
 
-  - triggers: ["norad", ":na:", "nadr"]
+  - triggers: ["norad", "na:.", "nadr"]
     replace: "noradrenaline"
     propagate_case: true
     word: true
@@ -806,38 +871,45 @@ matches:
     replace: "norepinephrine"
     propagate_case: true
 
-  - trigger: ":pci"
+  - trigger: "pci."
     replace: "percutaneous coronary intervention"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":msk"
+  - trigger: "msk."
     replace: "muskuloskeletal"
     propagate_case: true
+    word: true
 
-  - trigger: ":wnwd"
+  - trigger: "wnwd."
     replace: "well nourished, well developed"
     propagate_case: true
+    word: true
 
-  - trigger: ":medrec"
+  - trigger: "medrec."
     replace: "medicine reconciliation"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":nkda"
+  - trigger: "nkda."
     replace: "no known drug allergies"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":korc"
+  - trigger: "korc."
     replace: "keep out of reach of children"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":pvd"
+  - trigger: "pvd."
     replace: "peripheral vascular disease"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
   - trigger: "abi"
     replace: "ankle-brachial index"
@@ -894,21 +966,22 @@ matches:
     uppercase_style: "capitalize_words"
     word: true
 
-  - triggers: [":bp", "bpres", "bpress"]
+  - triggers: ["bp.", "bpres", "bpress"]
     replace: "blood pressure"
     propagate_case: true
     uppercase_style: "capitalize_words"
     word: true
 
-  - trigger: ":cc"
+  - trigger: "cc."
     replace: "chief complaint"
     propagate_case: true
-    word: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":dx"
+  - trigger: "dx."
     replace: "diagnosis"
     propagate_case: true
+    word: true
 
   - trigger: "px"
     replace: "prognos$|$"
@@ -916,34 +989,40 @@ matches:
     uppercase_style: "capitalize_words"
     word: true
 
-  - trigger: ":ddx"
+  - trigger: "ddx."
     replace: "differential diagnosis"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":dnr"
+  - trigger: "dnr."
     replace: "do not resuscitate"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":etoh"
+  - trigger: "etoh."
     replace: "alcohol"
     propagate_case: true
+    word: true
 
-  - trigger: ":ect"
+  - trigger: "ect."
     replace: "electroconvulsive therapy"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":h&h"
+  - trigger: "h&h."
     replace: "haemoglobin and haematocrit"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":icd"
+  - trigger: "icd."
     replace: "implantable cardiac device"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
   - trigger: "j."
     replace: "joint$|$"
@@ -956,111 +1035,125 @@ matches:
     uppercase_style: "capitalize_words"
     word: true
 
-  - trigger: ":vert"
+  - trigger: "vert."
     replace: "vertebrae"
     propagate_case: true
+    word: true
 
-  - trigger: ":ibp"
+  - trigger: "ibp."
     replace: "inflammatory back pain"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":lbp"
+  - trigger: "lbp."
     replace: "lower back pain"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":luq"
+  - trigger: "luq."
     replace: "left-upper quadrant"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":ruq"
+  - trigger: "ruq."
     replace: "right-upper quadrant"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":llq"
+  - trigger: "llq."
     replace: "left-lower quadrant"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":rlq"
+  - trigger: "rlq."
     replace: "right-lower quadrant"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":mcl"
+  - trigger: "mcl."
     replace: "medial collateral ligament"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":lcl"
+  - trigger: "lcl."
     replace: "lateral collateral ligament"
     propagate_case: true
+    word: true
 
   - trigger: "lig."
     replace: "ligament$|$"
     propagate_case: true
     word: true
 
-  - trigger: ":n/v"
+  - trigger: "n/v."
     replace: "nausea and vomiting"
     propagate_case: true
+    word: true
 
   - trigger: "na."
     replace: "sodium"
     propagate_case: true
     word: true
 
-  - trigger: "nsr"
+  - trigger: "nsr."
     replace: "normal sinus rhythm"
     propagate_case: true
     word: true
 
-  - trigger: ":prn"
+  - trigger: "prn."
     replace: "as needed"
     propagate_case: true
+    word: true
 
-  - trigger: ":mdu"
+  - trigger: "mdu."
     replace: "as directed"
     propagate_case: true
+    word: true
 
-  - trigger: ":perrla"
+  - trigger: "perrla."
     replace: "pupils equal, round and reactive to light and accommodation"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":ie."
+  - trigger: "ie."
     replace: "🇮🇪"
     propagate_case: true
+    word: true
 
   - trigger: "\\neq\\"
     replace: "≠"
     propagate_case: true
 
-  - trigger: ":txa2"
+  - trigger: "txa2."
     replace: "thromboxane A2"
     propagate_case: true
+    word: true
 
-  - trigger: ":sle"
+  - trigger: "sle."
     replace: "systemic lupus erythematosus"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":lenny."
-    replace: "( ͡° ͜ʖ ͡°)"
-    propagate_case: true
-
-  - trigger: ":anca"
+  - trigger: "anca."
     replace: "anti nuclear citrullinated antibodies"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":acpa"
+  - trigger: "acpa."
     replace: "anti citrullinated protein antibodies"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
   - trigger: "ab"
     replace: "antibody"
@@ -1085,45 +1178,50 @@ matches:
     propagate_case: true
     word: true
 
-  - trigger: ":c"
+  - trigger: "c."
     replace: "cervical"
-    word: true
     propagate_case: true
+    word: true
 
-  - trigger: ":t"
+  - trigger: "t."
     replace: "thoracic"
-    word: true
     propagate_case: true
+    word: true
 
-  - trigger: ":l"
+  - trigger: "l."
     replace: "lumbar"
-    word: true
     propagate_case: true
+    word: true
 
-  - trigger: ":s"
+  - trigger: "s."
     replace: "sacral"
-    word: true
     propagate_case: true
+    word: true
 
-  - trigger: ":3pg"
+  - trigger: "3pg."
     replace: "3-phosphoglycerate"
     propagate_case: true
+    word: true
 
-  - trigger: ":2pg"
+  - trigger: "2pg."
     replace: "2-phosphoglycerate"
     propagate_case: true
+    word: true
 
-  - trigger: ":pep."
+  - trigger: "pep."
     replace: "phosphoenolpyruvate"
     propagate_case: true
+    word: true
 
-  - trigger: ":ophar"
+  - trigger: "ophar."
     replace: "oropharyn"
     propagate_case: true
+    word: true
 
-  - trigger: ":pc"
+  - trigger: "pc."
     replace: "presenting complaint"
     propagate_case: true
+    word: true
 
   - trigger: "hpc"
     replace: "history of presenting complaint"
@@ -1131,236 +1229,288 @@ matches:
     word: true
     uppercase_style: "capitalize_words"
 
-  - trigger: ":adl"
+  - trigger: "adl."
     replace: "activities of daily living"
     propagate_case: true
+    word: true
 
-  - trigger: ":sse"
+  - trigger: "sse."
     replace: "stratified squamous epithelium"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":g."
+  - trigger: "g."
     replace: "glucose"
     propagate_case: true
+    word: true
 
-  - trigger: ":ggen"
+  - trigger: "ggen."
     replace: "gluconeogenesis"
     propagate_case: true
+    word: true
 
-  - trigger: ":pi."
+  - trigger: "phos."
     replace: "phosphate"
     propagate_case: true
+    word: true
 
-  - trigger: ":r5p"
+  - trigger: "r5p."
     replace: "ribose-5-phosphate"
     propagate_case: true
+    word: true
 
-  - trigger: ":dic."
+  - trigger: "dic."
     replace: "disseminated intravascular coagulation"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":car."
+  - triggers: ["ccin", "cnom", "cnoma", "cacin"]
     replace: "carcinoma"
     propagate_case: true
+    word: true
 
-  - trigger: ":ad."
+  - trigger: "ad."
     replace: "adenoma"
     propagate_case: true
+    word: true
 
-  - trigger: ":hemo."
+  - trigger: "hemo."
     replace: "hemangioma"
     propagate_case: true
+    word: true
 
-  - trigger: ":ep."
+  - trigger: "ep."
     replace: "epithelial"
     propagate_case: true
-  - trigger: ":h."
+
+  - trigger: "h."
     replace: "histamine"
     propagate_case: true
+    word: true
 
-  - trigger: ":e."
+  - trigger: "e."
     replace: "estrogen"
     propagate_case: true
+    word: true
 
-  - trigger: ":p."
+  - trigger: "p."
     replace: "progesterone"
     propagate_case: true
+    word: true
 
-  - trigger: ":ul."
+  - trigger: "ul."
     replace: "upper limb"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":ue."
+  - trigger: "ue."
     replace: "upper extremity"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":ll."
+  - trigger: "ll."
     replace: "lower limb"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":le."
+  - trigger: "le."
     replace: "lower extremity"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":shbg"
+  - trigger: "shbg."
     replace: "sex-hormone binding globulin"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":trh"
+  - trigger: "trh."
     replace: "thyrotropin-releasing hormone"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":gnrh"
+  - trigger: "gnrh."
     replace: "gonadotrophin-releasing hormone"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":ev."
+  - trigger: "ev."
     replace: "extracellular vesicles"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":mra"
+  - trigger: "mra."
     replace: "mineralocorticoid receptor antagonist"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":rona."
+  - trigger: "rona."
     replace: "SARS-nCoV-2"
     propagate_case: true
+    word: true
 
-  - trigger: ":hiv"
+  - trigger: "hiv."
     replace: "human immunodeficiency virus"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":aids"
+  - trigger: "aids."
     replace: "acquired immunodeficiency syndrome"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":myag"
+  - trigger: "myag."
     replace: "myasthenia gravis"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":_mg"
+  - trigger: "_mg."
     replace: "magnesium"
     propagate_case: true
+    word: true
 
-  - trigger: ":hpa"
+  - trigger: "hpa."
     replace: "hypothalamic-pituitary-adrenal axis"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":hpo"
+  - trigger: "hpo."
     replace: "hypothalamic-pituitary-ovarian axis"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":bv."
+  - trigger: "bv."
     replace: "bacterial vaginosis"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":cyp."
+  - trigger: "cyp."
     replace: "cytochrome-P450"
     propagate_case: true
+    word: true
 
-  - trigger: ":il."
+  - trigger: "il."
     replace: "interleukin"
     propagate_case: true
+    word: true
 
-  - trigger: ":tnfa"
+  - trigger: "tnfa."
     replace: "tumour necrosis factor α"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":tgfb"
+  - trigger: "tgfb."
     replace: "transforming growth factor β"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":rtk"
+  - trigger: "rtk."
     replace: "receptor tyrosine kinase"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":gpcr"
+  - trigger: "gpcr."
     replace: "G-protein coupled receptor"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":ac."
+  - trigger: "ac."
     replace: "adenylate cyclase"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":camp."
+  - trigger: "camp."
     replace: "cyclic adenosine monophosphate"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":amp."
+  - trigger: "amp."
     replace: "adenosine monophosphate"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":tyr."
+  - trigger: "tyr."
     replace: "tyrosine"
     propagate_case: true
+    word: true
 
-  - trigger: ":ifn."
+  - trigger: "ifn."
     replace: "interferon"
     propagate_case: true
+    word: true
 
-  - trigger: ":ifng"
+  - trigger: "ifng."
     replace: "interferon γ"
     propagate_case: true
+    word: true
 
-  - trigger: ":pec."
+  - trigger: "pec."
     replace: "pectoralis"
     propagate_case: true
+    word: true
 
-  - trigger: ":maj."
+  - trigger: "maj."
     replace: "major"
     propagate_case: true
+    word: true
 
-  - trigger: ":min."
+  - trigger: "min."
     replace: "minor"
     propagate_case: true
+    word: true
 
-  - trigger: ":pfk"
+  - trigger: "pfk."
     replace: "phosphofructokinase"
     propagate_case: true
+    word: true
 
-  - trigger: ":pde."
+  - trigger: "pde."
     replace: "patient denies"
     propagate_case: true
+    word: true
 
-  - trigger: ":+ft"
+  - trigger: "+ft."
     replace: "$|$'s history was positive for recent foreign travel"
     propagate_case: true
+    word: true
 
-  - trigger: ":-ft"
+  - trigger: "-ft."
     replace: "$|$'s history was negative for recent foreign travel"
     propagate_case: true
+    word: true
 
-  - trigger: ":ach"
+  - trigger: "ach."
     replace: "acetylcholine"
     propagate_case: true
+    word: true
 
-  - trigger: ":ache"
+  - trigger: "ache."
     replace: "acetylcholinesterase"
     propagate_case: true
+    word: true
 
   - trigger: "scid"
     replace: "severe combined immunodeficiency"
@@ -1374,43 +1524,52 @@ matches:
     propagate_case: true
     word: true
 
-  - trigger: ":gbm"
+  - trigger: "gbm."
     replace: "glioblastoma multiforme"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - regex: ":o2(?P<name>.*)/(?P<sat>.*)/(?P<air>.*\\d)\\."
+  - regex: "o2(?P<name>.*)/(?P<sat>.*)/(?P<air>.*\\d)\\."
     replace: "{{name}}'s SpO2 is {{sat}}% on {{air}}% Oxygen"
     propagate_case: true
+    word: true
 
-  - regex: ":o2(?P<name>.*)/(?P<sat>.*)/(?P<air>.*\\d)/hfnc"
+  - regex: "o2(?P<name>.*)/(?P<sat>.*)/(?P<air>.*\\d)/hfnc."
     replace: "{{name}}'s SpO2 is {{sat}}% on {{air}}% Oxygen delivered via high-flow nasal cannula"
     propagate_case: true
+    word: true
 
-  - regex: ":o2/(?P<name>.*)/(?P<sat>.*)/ra"
+  - regex: "o2/(?P<name>.*)/(?P<sat>.*)/ra."
     replace: "{{name}}'s SpO2 is {{sat}}% on room air"
     propagate_case: true
+    word: true
 
-  - regex: ":hr(?P<rate>.*)\\."
+  - regex: "hr(?P<rate>.*)\\."
     replace: "heart rate is {{rate}} beats per minute"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":1o"
+  - trigger: "1o."
     replace: "primary"
     propagate_case: true
+    word: true
 
-  - trigger: ":2o"
+  - trigger: "2o."
     replace: "secondary"
     propagate_case: true
+    word: true
 
-  - trigger: ":3o"
+  - trigger: "3o."
     replace: "tertiary"
     propagate_case: true
+    word: true
 
-  - trigger: ":4o"
+  - trigger: "4o."
     replace: "quaternary"
     propagate_case: true
+    word: true
 
   - trigger: "\\geq\\"
     replace: "≥"
@@ -1420,62 +1579,73 @@ matches:
     replace: "≤"
     propagate_case: true
 
-  - trigger: ":txn"
+  - trigger: "txn."
     replace: "transcription"
     propagate_case: true
+    word: true
 
   - trigger: "tln"
     replace: "translation"
     propagate_case: true
 
-  - trigger: ":tf"
+  - trigger: "tf."
     replace: "transcription factor"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":ptm"
+  - trigger: "ptm."
     replace: "post-translational modification"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":scm"
+  - trigger: "scm."
     replace: "sternocleidomastoid"
     propagate_case: true
+    word: true
 
-  - trigger: ":gfr"
+  - trigger: "gfr."
     replace: "glomerular filtration rate"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":egfr"
+  - trigger: "egfr."
     replace: "estimated glomerular filtration rate"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":rbf"
+  - trigger: "rbf."
     replace: "renal blood flow"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":cc."
+  - trigger: "cc."
     replace: "costal cartilage"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":pct"
+  - trigger: "pct."
     replace: "proximal convoluted tubule"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":ccd"
+  - trigger: "ccd."
     replace: "common collecting duct"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":dct"
+  - trigger: "dct."
     replace: "distal convoluted tubule"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
   - trigger: "asd"
     replace: "autism spectrum disorder"
@@ -1483,14 +1653,16 @@ matches:
     uppercase_style: "capitalize_words"
     word: true
 
-  - trigger: ":cetp"
+  - trigger: "cetp."
     replace: "Cholesteryl ester transfer protein"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":tri."
+  - trigger: "tri."
     replace: "∴"
     propagate_case: true
+    word: true
 
   - trigger: "idiopatho"
     replace: "idiopathological"
@@ -1498,30 +1670,36 @@ matches:
     uppercase_style: "capitalize_words"
     word: true
 
-  - trigger: ":sn."
+  - trigger: "sn."
     replace: "substantia nigra"
     propagate_case: true
+    word: true
 
-  - trigger: ":snpc"
+  - trigger: "snpc."
     replace: "substantia nigra pars compacta"
     propagate_case: true
+    word: true
 
-  - trigger: ":bdz"
+  - trigger: "bdz."
     replace: "benzodiazepine"
     propagate_case: true
+    word: true
 
-  - trigger: ":da."
+  - trigger: "da."
     replace: "dopamine"
     propagate_case: true
+    word: true
 
-  - trigger: ":mao"
+  - trigger: "mao."
     replace: "monoamine oxidase"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":a1at"
+  - trigger: "a1at."
     replace: "α1-antitrypsin"
     propagate_case: true
+    word: true
 
   - trigger: "--"
     replace: "—"
@@ -1545,13 +1723,15 @@ matches:
     word: true
     uppercase_style: "capitalize_words"
 
-  - trigger: ":ner"
+  - trigger: "ner."
     replace: "nucleotide excision repair"
     propagate_case: true
+    word: true
 
-  - trigger: ":ber"
+  - trigger: "ber."
     replace: "base excision repair"
     propagate_case: true
+    word: true
 
   - trigger: "dpol"
     replace: "DNA polymerase"
@@ -1561,23 +1741,27 @@ matches:
     replace: "RNA polymerase"
     propagate_case: true
 
-  - trigger: ":ssdna"
+  - trigger: "ssdna."
     replace: "single-strand DNA"
     propagate_case: true
+    word: true
 
-  - trigger: ":ssrna"
+  - trigger: "ssrna."
     replace: "single-strand RNA"
     propagate_case: true
+    word: true
 
-  - trigger: ":mmr"
+  - trigger: "mmr."
     replace: "mismatch repair"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":hnpcc"
+  - trigger: "hnpcc."
     replace: "hereditary nonpolyposis colorectal cancer syndrome"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
   - trigger: "dysf"
     replace: "dysfunction"
@@ -1600,15 +1784,17 @@ matches:
     propagate_case: true
     word: true
 
-  - trigger: ":dntp"
+  - trigger: "dntp."
     replace: "dinucleotide phosphate"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":ddntp"
+  - trigger: "ddntp."
     replace: "deoxydinucleotide phosphate"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
   - trigger: "mutxn"
     replace: "mutation"
@@ -1630,91 +1816,108 @@ matches:
     propagate_case: true
     wrod: true
 
-  - trigger: ":hst"
+  - trigger: "hst."
     replace: "histone"
     propagate_case: true
+    word: true
 
-  - trigger: ":homr"
+  - trigger: "homr."
     replace: "homologous recombination"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":reco"
+  - trigger: "reco."
     replace: "recombination"
     propagate_case: true
+    word: true
 
-  - trigger: ":nhom"
+  - trigger: "nhom."
     replace: "nonhomologous"
     propagate_case: true
+    word: true
 
-  - trigger: ":nhej"
+  - trigger: "nhej."
     replace: "non-homologous end joining"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":1/2"
+  - trigger: "1/2."
     replace: "½"
     propagate_case: true
+    word: true
 
-  - trigger: ":1/4"
+  - trigger: "1/4."
     replace: "¼"
     propagate_case: true
+    word: true
 
-  - trigger: ":copy"
+  - trigger: "copy."
     replace: "©"
     propagate_case: true
+    word: true
 
-  - trigger: ":3/4"
+  - trigger: "3/4."
     replace: "¾"
     propagate_case: true
+    word: true
 
-  - trigger: ":boxUL"
+  - trigger: "boxUL."
     replace: "┌"
     propagate_case: true
+    word: true
 
-  - trigger: ":boxLR"
+  - trigger: "boxLR."
     replace: "┘"
     propagate_case: true
+    word: true
 
-  - trigger: ":boxLL"
+  - trigger: "boxLL."
     replace: "└"
     propagate_case: true
+    word: true
 
-  - trigger: ":boxUR"
+  - trigger: "boxUR."
     replace: "┐"
     propagate_case: true
+    word: true
 
-  - trigger: ":dmy"
+  - trigger: "dmy."
     replace: "{{dmy}}"
     vars:
       - name: dmy
         type: date
         params:
           format: "%d/%m/%Y"
+          word: true
 
-  - trigger: ":dmony"
+  - trigger: "dmony."
     replace: "{{dmony}}"
     vars:
       - name: dmony
         type: date
         params:
           format: "%d/%b/%Y"
+          word: true
 
-  - trigger: ":time"
+  - trigger: "time."
     replace: "{{time}}"
     vars:
       - name: time
         type: date
         params:
           format: "%H:%M"
+          word: true
 
-  - trigger: ":d&t"
+  - trigger: "d&t."
     replace: "{{dateandtime}}"
     vars:
       - name: dateandtime
         type: date
         params:
           format: "%d/%m/%Y (%H:%M)"
+          word: true
 
   - trigger: "dis"
     replace: "disease$|$"
@@ -1724,11 +1927,12 @@ matches:
 
 
 
-  - trigger: ":todo"
+  - trigger: "todo."
     replace: "== TODO From This Lecture =="
     propagate_case: true
+    word: true
 
-  - trigger: ":mbi"
+  - trigger: "mbi."
     replace: "microbiome"
     propagate_case: true
     word: true
@@ -1943,6 +2147,11 @@ matches:
     propagate_case: true
     word: true
 
+  - trigger: "mstin"
+    replace: "mediastin"
+    propagate_case: true
+    word: true
+
   - trigger: "lymphad"
     replace: "lymphadenopathy"
     propagate_case: true
@@ -2025,12 +2234,6 @@ matches:
     uppercase_style: "capitalize_words"
     propagate_case: true
     word: true
-
-  - trigger: "u/s"
-    replace: "ultrasound"
-    propagate_case: true
-    word: true
-    uppercase_style: "capitalize_words"
 
   - trigger: "syst"
     replace: "systolic"
@@ -2426,149 +2629,179 @@ matches:
     uppercase_style: "capitalize_words"
 
         # Days, Weeks, Months shorthand.
-  - trigger: ":1/12"
+  - trigger: "1/12."
     replace: "one month$|$"
     propagate_case: true
+    word: true
 
-  - trigger: ":2/12"
+  - trigger: "2/12."
     replace: "two month$|$"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":3/12"
+  - trigger: "3/12."
     replace: "three month$|$"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":4/12$|$"
+  - trigger: "4/12$|$."
     replace: "four month$|$"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":5/12"
+  - trigger: "5/12."
     replace: "five month$|$"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":6/12"
+  - trigger: "6/12."
     replace: "six month$|$"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":7/12"
+  - trigger: "7/12."
     replace: "seven month$|$"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":8/12"
+  - trigger: "8/12."
     replace: "eight month$|$"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":9/12"
+  - trigger: "9/12."
     replace: "nine month$|$"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":10/12"
+  - trigger: "10/12."
     replace: "ten month$|$"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":11/12"
+  - trigger: "11/12."
     replace: "11 month$|$"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":12/12"
+  - trigger: "12/12."
     replace: "12 month$|$"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":1/52"
+  - trigger: "1/52."
     replace: "one week$|$"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":2/52"
+  - trigger: "2/52."
     replace: "two week$|$"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":3/52"
+  - trigger: "3/52."
     replace: "three week$|$"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":4/52"
+  - trigger: "4/52."
     replace: "four week$|$"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":5/52"
+  - trigger: "5/52."
     replace: "five week$|$"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":6/52"
+  - trigger: "6/52."
     replace: "six week$|$"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":7/52"
+  - trigger: "7/52."
     replace: "seven week$|$"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":8/52"
+  - trigger: "8/52."
     replace: "eight week$|$"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":9/52"
+  - trigger: "9/52."
     replace: "nine week$|$"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":10/52"
+  - trigger: "10/52."
     replace: "10 week$|$"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":11/52"
+  - trigger: "11/52."
     replace: "12 week$|$"
     propagate_case: true
     uppercase_style: "capitalize_words"
+    word: true
 
-  - trigger: ":1/7"
+  - trigger: "1/7."
     replace: "one day"
     propagate_case: true
+    word: true
 
-  - trigger: ":2/7"
+  - trigger: "2/7."
     replace: "two day"
     propagate_case: true
+    word: true
 
-  - trigger: ":3/7"
+  - trigger: "3/7."
     replace: "three day"
     propagate_case: true
+    word: true
 
-  - trigger: ":4/7"
+  - trigger: "4/7."
     replace: "four day"
     propagate_case: true
+    word: true
 
-  - trigger: ":5/7"
+  - trigger: "5/7."
     replace: "five day"
     propagate_case: true
+    word: true
 
-  - trigger: ":6/7"
+  - trigger: "6/7."
     replace: "six day"
     propagate_case: true
+    word: true
 
-  - trigger: ":7/7"
+  - trigger: "7/7."
     replace: "seven day"
     propagate_case: true
       
     # General / Clinical high-yield
+    word: true
 
   - trigger: "laden"
     replace: "lymphadenopathy"
