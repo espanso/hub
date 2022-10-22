@@ -1,4 +1,4 @@
-This package provides a very large number of expansions written by someone taking notes as a medical student. The content included in the expansions from this package are generally more academic and less clinical than the (Medical Documentation)[EspansoHubLink] package which is written for use in facilitating clinical practice. 
+This package provides a very large number of expansions written by someone taking notes as a medical student. The content included in the expansions from this package are generally more academic and less clinical than the Medical-Docs package which is written for use in facilitating clinical practice. 
 
 Legend:
 - \<SPC\> — Spacebar
