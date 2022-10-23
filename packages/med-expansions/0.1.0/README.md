@@ -43,7 +43,7 @@ Legend:
 
 
 ##### RULE #1
-######*If the expansion is a common acronym*, the trigger **is the acronym** *followed by a trailing* `.`
+###### If the expansion is a common acronym*, the trigger **is the acronym** *followed by a trailing* `.`
 
 e.g — (ACS, BP, HTN), triggers are:
 * `acs. → acute coronary syndrome`
@@ -54,7 +54,7 @@ e.g — (ACS, BP, HTN), triggers are:
     * Press `SPC` after typing the `.` and the trigger will expand.
 
 ##### RULE #2 
-######*If the expansion is a medical term with **multiple syllables*** , the trigger is the **first LETTER** *followed by* the **first THREE letters** of the ***first* distinguishing syllable**.
+###### If the expansion is a medical term with **multiple syllables*** , the trigger is the **first LETTER** *followed by* the **first THREE letters** of the ***first* distinguishing syllable**.
 
 e.g — (pneumothorax, cardiomegaly, pleural effusion), triggers are:
 * `ptho → pneuomothorax`
@@ -72,7 +72,9 @@ e.g — (pneumothorax, cardiomegaly, pleural effusion), triggers are:
 ##### RULE #3
 > For bacteria / fungi, the following is always a valid trigger (except in salmonella enteritidis and Bacillus anthracis)
 
-######First letter of genus followed by first three letters of species followed by `SPC`
+###### First letter of genus followed by first three letters of species followed by `SPC`
+
+
 * Where an intuitive expansion exists that does not follow the above, both are valid triggers
 	* e.g — While the rule for Haemophilus influenzae is hinf (first letter of Haemophilus is H, first three letters of influenza is inf). But "hflu" is the most reasonable trigger here
 	* So, in this case (and in similar cases), both "hflu" and "hinf" are both valid triggers
@@ -80,10 +82,10 @@ e.g — (pneumothorax, cardiomegaly, pleural effusion), triggers are:
 	Exceptions are the following working triggers `Senter → Salmonella enteritidis` and `banth → Bacillus anthracis`  
 	
 #####RULE #4a
-######For Viruses, *if the virus is one or two short syllables* followed by `virus` (e.g `togavirus`), the trigger is simply the first syllable followed by `v`ᵃ
+###### For Viruses, *if the virus is one or two short syllables* followed by `virus` (e.g `togavirus`), the trigger is simply the first syllable followed by `v`ᵃ
 
 ##### RULE #4b 
-######For viruses with *multiple syllables*, the trigger is the **first letter**, followed by the **first two letters from the next distinguishing syllable** followed by `v`
+###### For viruses with *multiple syllables*, the trigger is the **first letter**, followed by the **first two letters from the next distinguishing syllable** followed by `v`
 
    * `omyv → Orthomyxovirus`
 	* `crov → Coronaviridae` 
@@ -93,19 +95,19 @@ e.g — (pneumothorax, cardiomegaly, pleural effusion), triggers are:
 		
 ᵃ — * For short viruses obeying **rule #4a**, which are on the border between 4a and 4b, both triggers will be valid.
 		
-####Some notable exceptions:
-#####EXCEPTION #1
-######Common shorthand follows a simple rule, take the common shorthand and append a trailing "." and press `SPC`
- * E.g
-* tx. → Treatment.  hx. → history.
-	* etc.
-* qds. → four times daily  
-* 4/12. → four month
-* hb. → haemoglobin
-	* etc.
-* a. → artery
-* as. → arteries
-	* etc.
+#### Some notable exceptions:
+##### Exception #1
+###### Common shorthand follows a simple rule, take the common shorthand and append a trailing "." and press `SPC`
+* E.g:
+	* tx. → Treatment.  hx. → history.
+		* etc.
+	* qds. → four times daily  
+	* 4/12. → four month
+	* hb. → haemoglobin
+		* etc.
+	* a. → artery
+	* as. → arteries
+		* etc.
 
 ## Credits
 
