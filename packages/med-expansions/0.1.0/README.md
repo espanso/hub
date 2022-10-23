@@ -5,15 +5,15 @@ Med-Expansions <br></br>
 </h1>
 
 
-<h4 align="center">A comprehensive and systematic set of keyboard expansions for medical note-taking using [Espanso](http://espanso.org "Espanso")</h4>
+<h4 align="center">A comprehensive and systematic set of keyboard expansions for medical note-taking using Espanso</h4>
+
 <p align="center">
-<a href="#download">Install</a> 
-<a href="#demo">Demo</a> 
-  <a href="#key-features">Key Features</a>
-  <a href="#how-to-use">How To Use</a>
-  <a href="#credits">Credits</a>
-  <a href="#related">Related</a>
-  <a href="#license">License</a>
+<a href="#install">Install</a> •
+<a href="#demo">Demo</a> •
+  <a href="#key-features">Key Features</a> •
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#credits">Credits</a> •
+  <a href="#license">License</a> •
 </p>
 
 # Install
