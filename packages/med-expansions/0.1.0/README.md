@@ -81,7 +81,7 @@ e.g — (pneumothorax, cardiomegaly, pleural effusion), triggers are:
 	
 	Exceptions are the following working triggers `Senter → Salmonella enteritidis` and `banth → Bacillus anthracis`  
 	
-#####RULE #4a
+##### RULE #4a
 ###### For Viruses, *if the virus is one or two short syllables* followed by `virus` (e.g `togavirus`), the trigger is simply the first syllable followed by `v`ᵃ
 
 ##### RULE #4b 
