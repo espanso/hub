@@ -99,14 +99,14 @@ e.g — (pneumothorax, cardiomegaly, pleural effusion), triggers are:
 ##### Exception #1
 ###### Common shorthand follows a simple rule, take the common shorthand and append a trailing "." and press `SPC`
 * E.g:
-	* tx. → Treatment.  hx. → history.
+	* `tx. → treatment`.  `hx. → history`.
 		* etc.
-	* qds. → four times daily  
-	* 4/12. → four month
-	* hb. → haemoglobin
+	* `qds. → four times daily`  
+	* `4/12. → four month`
+	* `hb. → haemoglobin`
 		* etc.
-	* a. → artery
-	* as. → arteries
+	* `a. → artery`
+	* `as. → arteries`
 		* etc.
 
 ## Credits
