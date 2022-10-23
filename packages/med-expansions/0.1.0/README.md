@@ -13,7 +13,7 @@ Med-Expansions <br></br>
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
   <a href="#credits">Credits</a> •
-  <a href="#license">License</a> •
+  <a href="#license">License</a> 
 </p>
 
 # Install
@@ -121,6 +121,6 @@ GNU GPLv3
 
 ---
 
-> Cillian Scott
-> GitHub [@CillySu](https://github.com/CillySu)
+> Cillian Scott •
+> GitHub [@CillySu](https://github.com/CillySu) •
 > E-mail: scottci@tcd.ie
