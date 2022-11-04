@@ -17,8 +17,9 @@ Med-Expansions <br></br>
 </p>
 
 # Install
-    `espanso install med-expansions`
-    
+```sh
+    espanso install med-expansions
+```
 
 ## Demo
 ![screenshot](/demo.gif)
