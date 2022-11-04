@@ -1,6 +1,0 @@
-name: "chemical-elements"
-title: "Chemical Elements"
-description: A package containing all chemical elements and abreviations.
-version: 0.1.0
-author: Cobblestone
-tags: ["chemical", "elements", "symbol", "chemistry"]

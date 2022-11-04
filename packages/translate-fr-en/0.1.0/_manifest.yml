@@ -1,6 +1,0 @@
-name: "translate-fr-en"
-title: "Bidirectional French-English translation"
-description: A proof-of-concept package for bidirectional French-English translation
-version: 0.1.0
-author: James Clark
-tags: ["languages", "french", "english", "translation", "dictionary"]

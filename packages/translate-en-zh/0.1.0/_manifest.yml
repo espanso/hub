@@ -1,6 +1,0 @@
-name: "translate-en-zh"
-title: "English-Chinese translation"
-description: A proof-of-concept package for English-Chinese translation.
-version: 0.1.0
-author: James Clark
-tags: ["languages", "chinese", "mandarin", "english", "translation", "dictionary"]

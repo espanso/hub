@@ -1,7 +1,0 @@
-author: Yordan Ivanov
-description: A random dad joke every time
-name: dadjoke
-title: Dadjoke
-version: 0.1.0
-homepage: "https://github.com/ivanovyordan/espanso-package-dadjoke"
-tags: ["fun", "jokes"]

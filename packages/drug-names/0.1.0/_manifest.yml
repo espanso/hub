@@ -1,6 +1,0 @@
-name: "drug-names"
-title: "US Drug Names"
-description: A quick autocompleteion which contains all US brand and generic drug names as of July 2022. Sourced from RxTerms202207
-version: 0.1.0
-author: Nick Weatherton
-tags: ["drugs", "medications", "medical"]

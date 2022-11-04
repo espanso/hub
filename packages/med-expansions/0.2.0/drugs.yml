@@ -1,0 +1,121 @@
+matches:
+  
+      # Rx Abbreviations
+      # Remember that to expand triggers which are normally or commonly written as their abbreviated form (i.e — MTX), append a "." and hit <SPC> to expand
+      # i.e — mtx.<SPACE> → methotrexate$|$ // Where $|$ is the position of the cursor after expanding.
+      # None of the prescription instructions require a trailing "."
+
+  - trigger: "bd."
+    replace: "twice daily"
+    propagate_case: true
+    word: true
+
+  - trigger: "tds."
+    replace: "three times daily"
+    propagate_case: true
+    word: true
+
+  - trigger: "qds."
+    replace: "four times daily"
+    propagate_case: true
+    word: true
+
+  - trigger: "od."
+    replace: "once daily"
+    propagate_case: true
+    word: true
+
+  - trigger: "qod."
+    replace: "every second day"
+    propagate_case: true
+    word: true
+
+  - trigger: "apap."
+    replace: "paracetamol"
+    propagate_case: true
+    word: true
+
+      # Drugs
+  - trigger: "ppi."
+    replace: "proton-pump inhibitor"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "nsaid."
+    replace: "non-steroidal anti-inflammatory drug"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "otc."
+    replace: "over-the-counter"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "mtx."
+    replace: "methotrexate"
+    propagate_case: true
+    word: true
+
+  - trigger: "5fu."
+    replace: "5-fluorouracil"
+    propagate_case: true
+    word: true
+
+  - trigger: "acei."
+    replace: "ACE Inhibitor"
+    propagate_case: true
+    word: true
+
+  - trigger: "ace."
+    replace: "angiotensin converting enzyme"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+
+  - trigger: "arb."
+    replace: "angiotensin receptor blocker"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "laba."
+    replace: "long-acting β-agonist"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "lama."
+    replace: "long-acting muscarinic antagonist"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "saba."
+    replace: "short-acting β-agonist"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "bdp."
+    replace: "beclometasone dipropionate"
+    propagate_case: true
+    word: true
+
+  - trigger: "sglt2."
+    replace: "sodium-glucose co-transporter-2"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "sglt2i."
+    replace: "sodium-glucose co-transporter-2 inhibitor"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "ccb."
+    replace: "calcium channel blocker"
+    propagate_case: true
+    uppercase_style: "capitalize_words"

@@ -1,7 +1,0 @@
-author: Dian M Fay
-description: Mathematical symbols such as for Boolean and set operations
-name: math
-title: Math
-version: 0.1.0
-homepage: "https://github.com/dmfay/espanso-math"
-tags: ["math", "symbols"]

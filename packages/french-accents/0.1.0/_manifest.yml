@@ -1,7 +1,0 @@
-author: Otto Piramuthu
-description: "A package to type French with a non-French keyboard layout. It works by replacing keywords like e' with é."
-name: french-accents
-title: French Accents
-version: 0.1.0
-homepage: "https://github.com/ottopiramuthu/espanso-package-example"
-tags: ["french", "languages", "accents"]

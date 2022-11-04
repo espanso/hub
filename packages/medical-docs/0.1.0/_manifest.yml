@@ -1,7 +1,0 @@
-author: Bill Ressl
-description: A package to assist in medical Documentation
-name: medical-docs
-title: Medical Documentation
-version: 0.1.0
-homepage: "https://github.com/wressl/medical-docs"
-tags: ["medical"]

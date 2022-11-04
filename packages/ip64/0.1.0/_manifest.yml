@@ -1,8 +1,0 @@
-author: Thor Weinreich
-description: Replace :ipv4 with your external IPv4 and :ip6 with your IPv6 (Linux
-  and MacOS)
-name: ip64
-title: IPv4 and IPv6
-version: 0.1.0
-homepage: "https://github.com/tweinreich/espanso-package-ip64"
-tags: ["ip", "shell", "development"]

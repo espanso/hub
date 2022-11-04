@@ -1,6 +1,0 @@
-author: Federico Terzi
-description: A package to include some basic emojis in espanso.
-name: basic-emojis
-title: Basic Emojis
-version: 0.1.0
-tags: ["emoji", "chat"]

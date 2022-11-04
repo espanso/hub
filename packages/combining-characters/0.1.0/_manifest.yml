@@ -1,8 +1,0 @@
-author: "Jos\xE9 Ferreira"
-description: "Modifies characters with a collection of symbols e.g.: \xE0, \xE2, a\u20D7\
-  , a\u0305, a\u20DC"
-name: combining-characters
-title: Letter modifiers
-version: 0.1.0
-homepage: https://github.com/jpmvferreira/espanso-mega-pack
-tags: ["symbols", "math"]

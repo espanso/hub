@@ -1,0 +1,582 @@
+matches:
+    # /* BACTERIA FILLS START
+    #/Users/cillianscott/Library/Preferences/espanso/match/packages/contractions-en/package.yml  HOW-TO USE:
+    # For the full name of the bacteria (ie — Staphylococcus aureus as opposed to the shortened S. aureus) use the FIRST LETTER of the GENUS followed by the first syllable of the species.
+        # e.g —  Spneu → Streptococcus pneumoniae 
+    # For the SHORTENED name (ie —  B. pertussis as opposed to Bordetella pertussis) use the FIRST LETTER of the GENUS followed by "." followed by the first syllable of the species
+        # e.g —  c.tet → C. tetani
+    # THERE IS ONE EXCEPTION — Salmonella enteritidis can, for obvious reasons not be triggered by "sent", and so "senter", "salment" and "salme" all work.
+
+  - trigger: "pplo"
+    replace: "Pleuro Pneumonia Like Organism"
+    propagate_case: true
+    word: true
+
+  - triggers: ["mcata", "mcatar", "morc"]
+    replace: "Moraxella catarrhalis"
+    propagate_case: true
+    word: true
+
+  - triggers: ["cbur", "coxb"]
+    replace: "Coxiella burnetii"
+    propagate_case: true
+    word: true
+
+  - triggers: ["lpne", "lpneu", "legp"]
+    replace: "Legionella pneumoniae"
+    propagate_case: true
+    word: true
+
+  - triggers: ["paer", "paer", "pseuda"]
+    replace: "Pseudomonas aeruginosa"
+    propagate_case: true
+    word: true
+
+  - trigger: "amyc"
+    replace: "Actinomyces"
+    propagate_case: true
+    word: true
+
+  - trigger: "amyc"
+    replace: "Actinomyces"
+    propagate_case: true
+    word: true
+
+  - trigger: "cdif"
+    replace: "Clostridium difficile"
+    propagate_case: true
+    word: true
+
+  - trigger: "c.tet"
+    replace: "C. tetani"
+    propagate_case: true
+    word: true
+
+  - trigger: "c.dif"
+    replace: "C. difficile"
+    propagate_case: true
+    word: true
+
+  - trigger: "noc"
+    replace: "Nocardia"
+    propagate_case: true
+    word: true
+
+  - trigger: "ecoc"
+    replace: "Enterococcus"
+    propagate_case: true
+    word: true
+
+  - trigger: "efaeci"
+    replace: "Enterococcus faecium"
+    propagate_case: true
+    word: true
+
+  - trigger: "efaeca"
+    replace: "Enterococcus"
+    propagate_case: true
+    word: true
+
+  - trigger: "ftul"
+    replace: "Francisella tularensis"
+    propagate_case: true
+    word: true
+      
+      #Add
+  - trigger: "s.mal"
+    replace: "S. maltophilia"
+    propagate_case: true
+    word: true
+
+      #Add
+  - trigger: "smal"
+    replace: "Stenotrophomonas maltophilia"
+    propagate_case: true
+    word: true
+
+      #Add
+  - trigger: "sangi"
+    replace: "Streptococcus anginosus"
+    propagate_case: true
+    word: true
+
+      #Add
+  - trigger: "s.angi"
+    replace: "S. anginosus"
+    propagate_case: true
+    word: true
+
+      #Add
+  - trigger: "scon"
+    replace: "Streptococcus constellatus"
+    propagate_case: true
+    word: true
+
+      #Add
+  - trigger: "s.con"
+    replace: "S. constellatus"
+    propagate_case: true
+    word: true
+
+      #Add
+  - trigger: "sint"
+    replace: "Streptococcus intermedius"
+    propagate_case: true
+    word: true
+
+      #Add
+  - trigger: "s.int"
+    replace: "S. intermedius"
+    propagate_case: true
+    word: true
+
+      #Add
+  - trigger: "smil"
+    replace: "Streptococcus milleri"
+    propagate_case: true
+    word: true
+
+      #Add
+  - trigger: "s.mil"
+    replace: "S. milleri"
+    propagate_case: true
+    word: true
+
+  - trigger: "spyo"
+    replace: "Streptococcus pyogenes"
+    propagate_case: true
+    word: true
+
+  - trigger: "s.pyo"
+    replace: "S. pyogenes"
+    propagate_case: true
+    word: true
+
+  - trigger: "ngon"
+    replace: "Neisseria gonorrhoaea"
+    propagate_case: true
+    word: true
+
+  - trigger: "n.gon"
+    replace: "N. gonorrhoaea"
+    propagate_case: true
+    word: true
+
+  - trigger: "nmen"
+    replace: "Neisseria meningitidis"
+    propagate_case: true
+    word: true
+
+  - trigger: "n.men"
+    replace: "N. meningitidis"
+    propagate_case: true
+    word: true
+
+  - triggers: ["senter", "salme", "salment"]
+    replace: "Salmonella enteritidis"
+    propagate_case: true
+    word: true
+
+  - triggers: ["s.enter", "s.alme", "s.alment"]
+    replace: "S. enteritidis"
+    propagate_case: true
+    word: true
+
+  - trigger: "strep"
+    replace: "Streptococcus"
+    propagate_case: true
+    word: true
+
+  - triggers: ["spneu", "spne"]
+    replace: "Streptococcus pneumoniae"
+    propagate_case: true
+    word: true
+
+  - triggers: ["s.pneu", "s.pne"]
+    replace: "S. pneumoniae"
+    propagate_case: true
+    word: true
+
+      # add
+     
+      
+  - trigger: "bcep"
+    replace: "Burkholderia cepacia"
+    propagate_case: true
+    word: true
+      
+  - trigger: "b.cep"
+    replace: "Burkholderia cepacia"
+    propagate_case: true
+    word: true
+      
+  - trigger: "bac."
+    replace: "Bacillus"
+    propagate_case: true
+    word: true
+
+  - trigger: "banth"
+    replace: "Bacillus anthracis"
+    propagate_case: true
+    word: true
+
+  - trigger: "b.anth"
+    replace: "B. anthracis"
+    propagate_case: true
+    word: true
+
+  - trigger: "bcer"
+    replace: "Bacillus cereus"
+    propagate_case: true
+    word: true
+
+  - trigger: "b.cer"
+    replace: "B. cereus"
+    propagate_case: true
+    word: true
+
+  - trigger: "bart"
+    replace: "Bartonella"
+    propagate_case: true
+    word: true
+
+  - trigger: "bord."
+    replace: "Bordetella"
+    propagate_case: true
+    word: true
+
+  - trigger: "b.per"
+    replace: "B. pertussis"
+    propagate_case: true
+    word: true
+
+  - trigger: "bper"
+    replace: "Bordetella pertussis"
+    propagate_case: true
+    word: true
+
+  - trigger: "bruc."
+    replace: "Brucella"
+    propagate_case: true
+    word: true
+
+  - trigger: "burk."
+    replace: "Burkholderia"
+    propagate_case: true
+    word: true
+
+  - trigger: "camp."
+    replace: "Campylobacter"
+    propagate_case: true
+    word: true
+
+  - trigger: "ccol"
+    replace: "Campylobacter coli"
+    propagate_case: true
+    word: true
+
+  - trigger: "c.col"
+    replace: "C. coli"
+    propagate_case: true
+    word: true
+
+  - trigger: "cfet"
+    replace: "Campylobacter fetus"
+    propagate_case: true
+    word: true
+
+  - trigger: "cfet"
+    replace: "C. fetus"
+    propagate_case: true
+    word: true
+
+  - trigger: "cjej"
+    replace: "Campylobacter jejuni"
+    propagate_case: true
+    word: true
+
+  - trigger: "c.jej"
+    replace: "C. jejuni"
+    propagate_case: true
+    word: true
+
+  - trigger: "cpyl"
+    replace: "Campylobacter pylori"
+    propagate_case: true
+    word: true
+
+  - trigger: "c.pyl"
+    replace: "C. pylori"
+    propagate_case: true
+    word: true
+
+  - trigger: "chlam"
+    replace: "Chlamydia"
+    propagate_case: true
+    word: true
+
+  - trigger: "e.col"
+    replace: "E. coli"
+    propagate_case: true
+    word: true
+
+  - trigger: "hphil"
+    replace: "Haemophilus"
+    propagate_case: true
+    word: true
+
+  - triggers: ["hflu", "hinf"]
+    replace: "Haemophilus influenzae"
+    propagate_case: true
+    word: true
+
+  - triggers: ["h.flu", "h.inf"]
+    replace: "H. influenzae"
+    propagate_case: true
+    word: true
+
+  - trigger: "hpar"
+    replace: "Haemophilus parainfluenzae"
+    propagate_case: true
+    word: true
+
+  - trigger: "h.par"
+    replace: "H. parainfluenzae"
+    propagate_case: true
+    word: true
+
+  - trigger: "hvag"
+    replace: "Haemophilus vaginalis"
+    propagate_case: true
+    word: true
+
+  - trigger: "h.vag"
+    replace: "H. vaginalis"
+    propagate_case: true
+    word: true
+
+  - trigger: "hel."
+    replace: "Helicobacter"
+    propagate_case: true
+    word: true
+
+  - trigger: "hpyl"
+    replace: "Helicobacter pylori"
+    propagate_case: true
+    word: true
+
+  - trigger: "h.pyl"
+    replace: "H. pylori"
+    propagate_case: true
+    word: true
+
+  - trigger: "kleb"
+    replace: "Klebsiella"
+    propagate_case: true
+    word: true
+
+  - triggers: ["kpneu", "kpne"]
+    replace: "Klebsiella pneumoniae"
+    propagate_case: true
+    word: true
+
+  - triggers: ["k.pneu", "k.pne"]
+    replace: "K. pneumoniae"
+    propagate_case: true
+    word: true
+
+  - trigger: "lacb."
+    replace: "Lactobacillus"
+    propagate_case: true
+    word: true
+
+  - trigger: "legi."
+    replace: "Legionella"
+    propagate_case: true
+    word: true
+
+  - trigger: "lpneu"
+    replace: "Legionella Pneumophila"
+    propagate_case: true
+    word: true
+
+  - trigger: "l.pneu"
+    replace: "L. Pneumophila"
+    propagate_case: true
+    word: true
+
+  - triggers: ["mpneu", "mpne"]
+    replace: "Mycoplasma pneumoniae"
+    propagate_case: true
+    word: true
+
+  - trigger: "m.pneu"
+    replace: "M. pneumoniae"
+    propagate_case: true
+    word: true
+
+  - trigger: "mycob"
+    replace: "Mycobacteri"
+    propagate_case: true
+    word: true
+
+  - trigger: "mbov"
+    replace: "Mycobacterium bovis"
+    propagate_case: true
+    word: true
+
+  - trigger: "m.bov"
+    replace: "M. bovis"
+    propagate_case: true
+    word: true
+
+  - trigger: "mdip"
+    replace: "Mycobacterium diphtheriae"
+    propagate_case: true
+    word: true
+
+  - trigger: "m.dip"
+    replace: "M. diphtheriae"
+    propagate_case: true
+    word: true
+
+  - trigger: "mlep"
+    replace: "Mycobacterium leprae"
+    propagate_case: true
+    word: true
+
+  - trigger: "m.lep"
+    replace: "M. leprae"
+    propagate_case: true
+    word: true
+
+  - trigger: "mtub"
+    replace: "Mycobacterium tuberculosis"
+    propagate_case: true
+    word: true
+
+  - trigger: "m.tub"
+    replace: "M. tuberculosis"
+    propagate_case: true
+    word: true
+
+  - trigger: "mycop"
+    replace: "Mycoplasma"
+    propagate_case: true
+    word: true
+
+  - trigger: "clos."
+    replace: "Clostridium"
+    propagate_case: true
+    word: true
+
+  - trigger: "cbot"
+    replace: "Clostridium botulinum"
+    propagate_case: true
+    word: true
+
+  - trigger: "cper"
+    replace: "Clostridium perfringens"
+    propagate_case: true
+    word: true
+
+  - trigger: "c.per"
+    replace: "C. perfringens"
+    propagate_case: true
+    word: true
+
+  - trigger: "ctet"
+    replace: "Clostridium tetani"
+    propagate_case: true
+    word: true
+
+  - triggers: ["ctra", "ctrac", "ctrach"]
+    replace: "Chlamidophila trachomatis"
+    propagate_case: true
+    word: true
+
+  - triggers: ["c.tra", "c.trac", "c.trach"]
+    replace: "C. trachomatis"
+    propagate_case: true
+    word: true
+
+  - triggers: ["cpneu", "cpne"]
+    replace: "Chlamydophila pneumoniae"
+    propagate_case: true
+    word: true
+
+  - trigger: "c.pneu"
+    replace: "C. pneumoniae"
+    propagate_case: true
+    word: true
+
+  - trigger: "cpsi"
+    replace: "Chlamydophila psittaci"
+    propagate_case: true
+    word: true
+
+  - trigger: "saur"
+    replace: "Staphylococcus aureus"
+    propagate_case: true
+    word: true
+
+  - trigger: "s.aur"
+    replace: "S. aureus"
+    propagate_case: true
+    word: true
+
+  - trigger: "s.epi"
+    replace: "S. epidermidis"
+    propagate_case: true
+    word: true
+
+  - trigger: "sepi"
+    replace: "Staphylococcus epidermidis"
+    propagate_case: true
+    word: true
+
+  - trigger: "saga"
+    replace: "Streptococcus agalactiae"
+    propagate_case: true
+    word: true
+
+  - trigger: "s.aga"
+    replace: "S. agalactiae"
+    propagate_case: true
+    word: true
+
+  - trigger: "lis"
+    replace: "Listeria"
+    propagate_case: true
+    word: true
+
+  - trigger: "lmon"
+    replace: "Listeria monocytogenes"
+    propagate_case: true
+    word: true
+
+  - trigger: "coryne"
+    replace: "Corynebacterium"
+    propagate_case: true
+    word: true
+
+  - trigger: "cdip"
+    replace: "Corynebacterium diphtheriae"
+    propagate_case: true
+    word: true
+
+  - trigger: "c.dip"
+    replace: "C. diphtheriae"
+    propagate_case: true
+    word: true
+
+  - triggers: ["v.chol", "v.cho"]
+    replace: "V. cholerae"
+    propagate_case: true
+    word: true
+
+  - triggers: ["vchol", "vcho"]
+    replace: "Vibrio cholerae"
+    propagate_case: true
+    word: true
+
