@@ -5,4 +5,4 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: "curl -s whatthecommit.com/index.txt"
+          cmd: "curl -s https://whatthecommit.com/index.txt"
