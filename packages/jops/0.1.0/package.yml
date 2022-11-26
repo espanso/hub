@@ -48,7 +48,7 @@ matches:
     - name: parentsave
       type: shell
       params:
-        cmd: "echo {{input.parentid}} > ~/.config/joplin/.parentid" 
+        cmd: "echo {{input.parentid}} > ~/.config/Joplin/.parentid" 
         
     - name: clientTokenSave
       type: shell
