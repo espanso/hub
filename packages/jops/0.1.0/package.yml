@@ -53,7 +53,7 @@ matches:
     - name: clientTokenSave
       type: shell
       params:
-        cmd: curl -X POST http://localhost:41184/auth | sed "s/{.*\"auth_token\":\"\([^\"]*\).*}/\1/g" > ~/.config/joplin/.auth
+        cmd: curl -X POST http://localhost:41184/auth | sed "s/{.*\"auth_token\":\"\([^\"]*\).*}/\1/g" > ~/.config/Joplin/.auth
 
 # Make note
   - trigger: :mn
@@ -67,7 +67,7 @@ matches:
     - name: authRead
       type: shell
       params:
-        cmd: cat ~/.config/joplin/.auth
+        cmd: cat ~/.config/Joplin/.auth
 
     - name: masterToken
       type: shell
@@ -77,7 +77,7 @@ matches:
     - name: defaultNotebook
       type: shell
       params:
-        cmd: cat ~/.config/joplin/.parentid 
+        cmd: cat ~/.config/Joplin/.parentid 
         
     - name: note
       type: shell
@@ -96,7 +96,7 @@ matches:
     - name: authRead
       type: shell
       params:
-        cmd: cat ~/.config/joplin/.auth  
+        cmd: cat ~/.config/Joplin/.auth  
         
     - name: masterToken
       type: shell
@@ -106,7 +106,7 @@ matches:
     - name: defaultNotebook
       type: shell
       params:
-        cmd: cat ~/.config/joplin/.parentid 
+        cmd: cat ~/.config/Joplin/.parentid 
         
     - name: todo
       type: shell
@@ -124,7 +124,7 @@ matches:
     - name: authRead
       type: shell
       params:
-        cmd: cat ~/.config/joplin/.auth  
+        cmd: cat ~/.config/Joplin/.auth  
 # Requests a master token from Joplin and parses the output        
     - name: masterToken
       type: shell
@@ -134,7 +134,7 @@ matches:
     - name: defaultNotebook
       type: shell
       params:
-        cmd: cat ~/.config/joplin/.parentid 
+        cmd: cat ~/.config/Joplin/.parentid 
         
     - name: clipboardTodo
       type: shell
@@ -166,7 +166,7 @@ matches:
       - name: authRead
         type: shell
         params:
-          cmd: cat ~/.config/joplin/.auth
+          cmd: cat ~/.config/Joplin/.auth
 # Requests a master token from Joplin and parses the output 
       - name: masterToken
         type: shell
