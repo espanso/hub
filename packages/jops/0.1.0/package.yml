@@ -28,11 +28,11 @@ matches:
             at the main Joplin screen
             
             Optionally you may set a default notebook 
-            by pasting its ID here → [[parentid]]
             
-            You can get this ID with
+            by pasting its external link here → [[parentid]]
+            
+            You can get this external link with
             Right click on the notebook → Copy external link
-            and copying everything after "="
 
 ## Creates a file with authorization token in default joplin folder
 # Saves Joplin's master api token directly
@@ -48,7 +48,7 @@ matches:
     - name: parentsave
       type: shell
       params:
-        cmd: "echo {{input.parentid}} > ~/.config/Joplin/.parentid" 
+        cmd: "echo {{input.parentid}} | sed 's.joplin://x-callback-url/openFolder?id=..'> ~/.config/Joplin/.parentid" 
         
     - name: clientTokenSave
       type: shell
