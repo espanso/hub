@@ -1,0 +1,40 @@
+matches:
+
+  - trigger: ',"'
+    replace: '“$|$”'
+
+  - trigger: ",'"
+    replace: '‘$|$’'
+
+  - trigger: "''"
+    replace: '’'
+
+  - trigger: ',n'
+    replace: '–'
+
+  - trigger: ',m'
+    replace: '—'
+
+  - trigger: '...'
+    replace: '…'
+
+  - trigger: '<<'
+    replace: '«'
+
+  - trigger: '>>'
+    replace: '»'
+
+  - trigger: '<-'
+    replace: '←'
+
+  - trigger: '->'
+    replace: '→'
+
+  - trigger: '<='
+    replace: '≤'
+
+  - trigger: '>='
+    replace: '≥'
+
+  - trigger: '/='
+    replace: '≠'
