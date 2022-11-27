@@ -1,0 +1,6 @@
+name: "jops"
+title: "Joplin Shortcut"
+description: Shortcuts for Joplin
+version: 0.1.0
+author: Alexander Ikensen
+tags: ["shell", "utility"]
