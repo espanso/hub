@@ -1,0 +1,81 @@
+matches:
+  - replace: أهلا
+    triggers:
+      - ':arhi'
+      - ':arabichi'
+  - replace: 你好
+    triggers:
+      - ':zhhi'
+      - ':chinesehi'
+  - replace: Hej
+    triggers:
+      - ':dahi'
+      - ':danishhi'
+  - replace: Salut
+    triggers:
+      - ':frhi'
+      - ':frenchhi'
+  - replace: Hallo
+    triggers:
+      - ':dehi'
+      - ':germanhi'
+  - replace: नमस्ते
+    triggers:
+      - ':hihi'
+      - ':hindihi'
+  - replace: Ciao
+    triggers:
+      - ':ithi'
+      - ':italianhi'
+  - replace: こんにちは
+    triggers:
+      - ':jahi'
+      - ':japanesehi'
+  - replace: 여보세요
+    triggers:
+      - ':kohi'
+      - ':koreanhi'
+  - replace: Hei
+    triggers:
+      - ':nohi'
+      - ':norwegianhi'
+  - replace: سلام
+    triggers:
+      - ':fahi'
+      - ':persianhi'
+  - replace: Cześć
+    triggers:
+      - ':plhi'
+      - ':polishhi'
+  - replace: Oi
+    triggers:
+      - ':pthi'
+      - ':portuguesehi'
+  - replace: Hola
+    triggers:
+      - ':eshi'
+      - ':spanishhi'
+  - replace: Habari
+    triggers:
+      - ':swhi'
+      - ':swahilihi'
+  - replace: Merhaba
+    triggers:
+      - ':trhi'
+      - ':turkishhi'
+  - replace: Привіт
+    triggers:
+      - ':ukhi'
+      - ':ukrainianhi'
+  - replace: Xin chào
+    triggers:
+      - ':vihi'
+      - ':vietnamesehi'
+  - replace: העלא
+    triggers:
+      - ':yihi'
+      - ':yiddishhi'
+  - replace: Sawubona
+    triggers:
+      - ':zuhi'
+      - ':zuluhi'

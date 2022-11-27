@@ -1,0 +1,7 @@
+name: "tholzschuh-maths"
+title: "Tim's 𝓜𝒜𝐓𝖧 snippets"
+description: A collection of unicode symbols often used by working mathematicians.
+version: 0.1.0
+author: Tim Holzschuh
+tags: ["math", "latex"]
+homepage: tholzschuh.github.io
