@@ -1,7 +1,0 @@
-author: Timo Runge
-description: Replace american english with british english.
-name: misspell-en-uk
-title: Misspell en_UK
-version: 0.1.2
-homepage: "https://github.com/timorunge/espanso-misspell-en"
-tags: ["spell-correction", "english", "uk"]

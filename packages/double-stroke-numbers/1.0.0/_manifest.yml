@@ -1,7 +1,0 @@
-author: Ihor Kopach (https://kopach.dev)
-description: "Easy write double stroke numbers: 𝟙𝟚𝟛"
-name: double-stroke-numbers
-title: Double stroke numbers
-version: 1.0.0
-homepage: 'https://github.com/kopach/espanso-package-double-stroke-numbers'
-tags: ["symbols", "numbers"]

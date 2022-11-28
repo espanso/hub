@@ -1,7 +1,0 @@
-author: Angelo Rafael
-description: A package of commands of git.
-name: git
-title: Git
-version: 0.1.0
-homepage: "https://github.com/angelorpt/espanso-git"
-tags: ["shell", "git", "alias"]

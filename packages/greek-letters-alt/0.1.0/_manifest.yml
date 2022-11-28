@@ -1,7 +1,0 @@
-author: Su-Well
-description: Expand :[letter name] to the corresponding greek letter. The first character determines the letter case
-name: greek-letters-alt
-title: Name-Based Greek Letter Expansions
-version: 0.1.0
-homepage: "https://github.com/Su-Well/espanso-package-greek-letters"
-tags: ["greek", "languages"]

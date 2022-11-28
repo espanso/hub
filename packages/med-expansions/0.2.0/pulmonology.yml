@@ -1,0 +1,88 @@
+matches:
+
+  - triggers: ["sdos", "sdosis"]
+    replace: "sarcoidosis"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - triggers: ["scoi", "scoid"]
+    replace: "sarcoid"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "cf."
+    replace: "cystic fibrosis"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+
+  - trigger: "lrti"
+    replace: "lower respiratory tract infection$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "rti."
+    replace: "respiratory tract infection$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "urti."
+    replace: "upper respiratory tract infection$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "vuri."
+    replace: "viral upper respiratory tract infection$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - triggers: ["respalk", "ralk"]
+    replace: "respiratory alkalosis$|$"
+    propagate_case: true
+    word: true
+    uppercase_style: "capitalize_words"
+
+  - triggers: ["respac", "raci"]
+    replace: "respiratory acidosis$|$"
+    propagate_case: true
+    word: true
+    uppercase_style: "capitalize_words"
+
+      #Exception — Short
+  - trigger: "alko"
+    replace: "alkalosis$|$"
+    propagate_case: true
+    word: true
+    uppercase_style: "capitalize_words"
+
+      #Exception — Short
+  - trigger: "acicdo"
+    replace: "acidosis$|$"
+    propagate_case: true
+    word: true
+    uppercase_style: "capitalize_words"
+
+  - trigger: "peff"
+    replace: "pleural effusion$|$"
+    propagate_case: true
+    word: true
+    uppercase_style: "capitalize_words"
+
+      #Exception — Short
+  - trigger: "eff"
+    replace: "effusion$|$"
+    propagate_case: true
+    word: true
+    uppercase_style: "capitalize_words"
+
+  - trigger: "copd."
+    replace: "chronic obstructive pulmonary disease$|$"
+    propagate_case: true
+

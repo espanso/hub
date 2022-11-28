@@ -1,7 +1,0 @@
-author: Ali Karbassi
-description: Useful Excel formulas
-name: excel-package
-title: Excel
-version: 1.0.0
-homepage: "https://github.com/karbassi/espanso-package-excel"
-tags: ["excel", "utility"]

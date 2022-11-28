@@ -1,5 +1,0 @@
-# Shruggie package
-
-matches:
-  - trigger: ":shrug"
-    replace: "¯\\_(ツ)_/¯"

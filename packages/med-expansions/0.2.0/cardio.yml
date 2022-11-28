@@ -1,0 +1,533 @@
+# The Heart and Cardiology
+matches:
+
+  - trigger: "boh."
+    replace: "bundle of His$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "purk."
+    replace: "Purkinje fibres$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "hps."
+    replace: "His-Purkinje system$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "rmb."
+    replace: "right marginal branch$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "hf."
+    replace: "heart failure$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - triggers: ["ctamp", "ctam"]
+    replace: "cardiac tamponade$|$"
+    propagate_case: true
+    word: true
+    uppercase_style: "capitalize_words"
+
+  - trigger: "vsd."
+    replace: "ventricular septal defect$|$"
+    propagate_case: true
+    word: true
+    uppercase_style: "capitalize_words"
+
+  - trigger: "lvh."
+    replace: "left ventricular hypertrophy$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+
+  - trigger: "acs."
+    replace: "acute coronary syndrome$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "ihd."
+    replace: "ischaemic heart disease$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - triggers: ["peric", "pcar"]
+    replace: "pericardi$|$"
+    propagate_case: true
+    word: true
+    uppercase_style: "capitalize_words"
+
+  - trigger: "cmyo"
+    replace: "cardiomyopathy$|$"
+    propagate_case: true
+
+  - trigger: "rpol"
+    replace: "repolarisation$|$"
+    propagate_case: true
+    word: true
+
+      # Exception made because "dpol" = "DNA polymerase"
+  - trigger: "dpol"
+    replace: "depolarisation$|$"
+    propagate_case: true
+    word: true
+
+  - triggers: ["emb", "ebol"]
+    replace: "embolis$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: "pemb"
+    replace: "pulmonary embolism$|$"
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+    word: true
+
+  - trigger: "cad."
+    replace: "Coronary Artery Disease$|$"
+    propagate_case: true
+    word: true
+
+  - triggers: ["msten", "mste"]
+    replace: "mitral stenosis$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - triggers: ["asten", "aste"]
+    replace: "aortic stenosis$|$"
+    propagate_case: true
+    word: true
+    uppercase_style: "capitalize_words"
+
+  - trigger: "areg"
+    replace: "aortic regurgitation$|$"
+    propagate_case: true
+    word: true
+    uppercase_style: "capitalize_words"
+
+  - trigger: "myoc"
+    replace: "myocardi$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: "tcus"
+    replace: "tricuspid$|$"
+    propagate_case: true
+    word: true
+
+      # Exception made because muscle is the common word.
+  - trigger: "papm"
+    replace: "papillary muscle$|$"
+    propagate_case: true
+    word: true
+
+  - triggers: ["infar", "ifar"]
+    replace: "infarction$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: "ami."
+    replace: "acute myocardial infarction$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "acs."
+    replace: "acute coronary syndrome$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - triggers: ["uang", "ua."]
+    replace: "unstable angina$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+      # "sa." not included because already exists for "sinoatrial"
+  - trigger: "sang"
+    replace: "stable angina$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - triggers: ["tachyc", "tcar"]
+    replace: "tachycardia$|$"
+    propagate_case: true
+    word: true
+
+  - triggers: ["bradyc", "bcar"]
+    replace: "bradycardi$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - triggers: ["regurg", "rgur"]
+    replace: "regurgitation$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: "rf."
+    replace: "rheumatic fever$|$"
+    propagate_case: true
+    word: true
+
+      # Exception, "send" not used because it is an English word
+  - triggers: ["subend", "sendo"]
+    replace: "subacute endocarditis$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: "vhd."
+    replace: "valvular heart disease$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - triggers: ["echoc", "ecar"]
+    replace: "echocardiogr$|$"
+    propagate_case: true
+    word: true
+
+      # Exception made because toe/toes are english words
+  - trigger: "toese"
+    replace: "Trans-Oesophageal Echocardiogra$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: "avd."
+    replace: "aortic valve disease$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: "tavi."
+    replace: "Trans-Luminal Aortic Valve Implantation$|$"
+    propagate_case: true
+    word: true
+
+      # Exception becar "ecar" == "echocardiogra$|$"
+  - trigger: "endoc"
+    replace: "endocardi$|$"
+    propagate_case: true
+    word: true
+
+  - triggers: ["pulmc", "pcon"]
+    replace: "pulmonary congestion$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - triggers: ["pulmoed", "poed"]
+    replace: "pulmonary oedema$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "lvef."
+    replace: "left-ventricular ejection fraction$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: "adis"
+    replace: "aortic dissection$|$"
+    propagate_case: true
+    word: true
+
+  - triggers: ["ventan", "vane"]
+    replace: "ventricular aneurysm$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: "mreg"
+    replace: "mitral regurgitation$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "mvp."
+    replace: "mitral valve prolapse$|$"
+    propagate_case: true
+    capitalize_words: "uppercase_style"
+    word: true
+
+  - trigger: "cmeg"
+    replace: "cardiomegaly$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: "rcm."
+    replace: "restrictive cardiomyopathy$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "hocm."
+    replace: "hypertrophic obstructive cardiomyopathy$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "hcm."
+    replace: "hypertrophic cardiomyopathy$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+      # Extra letter because "cmyo" == "cardiomyopathy"
+  - trigger: "cmyoc"
+    replace: "cardiomyocyte$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+      # Long trigger because "dfib" == "defibrillat$|$"
+  - trigger: "dfibxn"
+    replace: "defibtrillation$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: "dfib"
+    replace: "defibtrillat$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: "cccp"
+    replace: "crushing central chest pain$|$"
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+    word: true
+
+      # Extra long trigger out of necessity
+  - trigger: "soboe."
+    replace: "shortness of breath on exertion$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "cpoe"
+    replace: "chest pain on exertion$|$"
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+    word: true
+
+  - trigger: "ratr"
+    replace: "right atria$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "latr"
+    replace: "left atria$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "rv."
+    replace: "right ventric$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "lv."
+    replace: "left ventric$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "la."
+    replace: "left atrium$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "venu"
+    replace: "ventricular$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "ven"
+    replace: "ventricle$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "av."
+    replace: "atrioventricular$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+
+  - trigger: "sa."
+    replace: "sinoatrial$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: "san"
+    replace: "SA node"
+    word: true
+
+  - trigger: "avn"
+    replace: "AV node$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: "chf."
+    replace: "congestive heart failure$|$"
+    propagate_case: true
+    word: true
+    uppercase_style: "capitalize_words"
+
+  - trigger: "dias"
+    replace: "diastolic$|$"
+    propagate_case: true
+    word: true
+    uppercase_style: "capitalize_words"
+
+  - trigger: "hsta"
+    replace: "haemosta$|$"
+    propagate_case: true
+    word: true
+    uppercase_style: "capitalize_words"
+
+      # hcoa == hyp$|$coagulable, exception made for hypocoagulable
+  - triggers: ["hyperco", "highcoag", "hicoag"]
+    replace: "hypercoagulable$|$"
+    propagate_case: true
+    word: true
+    uppercase_style: "capitalize_words"
+
+  - trigger: "hcoa"
+    replace: "hyp$|$coagulable"
+    propagate_case: true
+    word: true
+    uppercase_style: "capitalize_words"
+
+  - triggers: ["plat", "plet"]
+    replace: "platelet$|$"
+    propagate_case: true
+    word: true
+    uppercase_style: "capitalize_words"
+
+  - triggers: ["thromp", "tphil", "tphi"]
+    replace: "thrombophili$|$"
+    propagate_case: true
+    word: true
+    uppercase_style: "capitalize_words"
+
+  - triggers: ["angram", "agra", "angiog"]
+    replace: "angiogra$|$"
+    propagate_case: true
+    word: true
+    uppercase_style: "capitalize_words"
+
+      # Exception made because can also use "dgen" == "degenerat$|$"
+  - trigger: "degenrx"
+    replace: "degeneration$|$"
+    propagate_case: true
+    word: true
+    uppercase_style: "capitalize_words"
+
+  - trigger: "dgen"
+    replace: "degenerat$|$"
+    propagate_case: true
+    word: true
+    uppercase_style: "capitalize_words"
+
+  - triggers: ["ste", "sten"]
+    replace: "stenosis$|$"
+    propagate_case: true
+    word: true
+    uppercase_style: "capitalize_words"
+
+  - trigger: "ali."
+    replace: "acute limb ischaemia$|$"
+    propagate_case: true
+    word: true
+    uppercase_style: "capitalize_words"
+
+      # Exception made because "isch" == "ischaemi$|$"
+  - trigger: "iscic"
+    replace: "ischaemic$|$"
+    propagate_case: true
+    word: true
+    uppercase_style: "capitalize_words"
+
+  - triggers: ["isc", "isch"]
+    replace: "ischaemi$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: "dsec"
+    replace: "dissection$|$"
+    propagate_case: true
+    word: true
+    uppercase_style: "capitalize_words"
+
+  - trigger: "arys"
+    replace: "aneurysm$|$"
+    propagate_case: true
+    word: true
+    uppercase_style: "capitalize_words"
+
+  - trigger: "mi."
+    replace: "myocardial infarction$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    capitalize_words: "uppercase_style"
+    word: true
+
+  - trigger: "wpw."
+    replace: "Wolff-Parkinson White syndrome$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: "scd."
+    replace: "sudden cardiac death$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "bnp."
+    replace: "brain natriuretic peptide$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "vsd."
+    replace: "ventricular septal defect$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "asd."
+    replace: "atrial septal defect$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "hdis"
+    replace: "heart disease$|$"
+    propagate_case: true
+    word: true
+    uppercase_style: "capitalize_words"
+
+  - trigger: "htn."
+    replace: "hypertension$|$"
+    propagate_case: true
+    word: true
+
+  - triggers: ["pste", "puls"]
+    replace: "pulmonary stenosis$|$"
+    propagate_case: true
+    capitalize_words: "uppercase_style"
+    word: true

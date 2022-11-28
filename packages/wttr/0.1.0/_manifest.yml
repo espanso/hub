@@ -1,7 +1,0 @@
-author: Brady Joslin
-description: A package to get the weather from wttr.in.
-name: wttr
-title: wttr Package
-version: 0.1.0
-homepage: "https://github.com/bradyjoslin/espanso-package-wttr"
-tags: ["shell", "misc", "weather"]

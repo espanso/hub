@@ -1,7 +1,0 @@
-author: Gabriel Barbosa
-description: A simple package to make coding in HTML5 easier.
-name: html-utils-package
-title: HTML utilities package
-version: 0.1.0
-homepage: "https://github.com/woodenbell/html-utils-package"
-tags: ["frontend", "html", "development"]

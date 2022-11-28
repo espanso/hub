@@ -1,7 +1,0 @@
-author: Craftidore
-description: Dice emulator using the espanso random function.
-homepage: https://github.com/Craftidore/espanso-dice
-name: espanso-dice
-title: Espanso Dice
-version: 0.1.0
-tags: ["utility", "fun", "dice"]
