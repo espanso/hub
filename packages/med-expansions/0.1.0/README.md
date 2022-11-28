@@ -21,7 +21,7 @@ Med-Expansions <br></br>
     
 
 ## Demo
-![screenshot](/demo.gif)
+![screenshot](./demo.gif)
 
 ## Key Features
 
