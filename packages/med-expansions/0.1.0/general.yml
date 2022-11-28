@@ -1,0 +1,66 @@
+matches:
+# General Medical
+  - trigger: "pgen"
+    replace: "pathogenesis"
+    word: true
+    propagate_case: true
+# Blood Test Terminology
+
+  - trigger: "rft.."
+    replace: "renal function test"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+
+  - trigger: "lft.."
+    replace: "liver function test"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+
+  - trigger: "shbg."
+    replace: "sex-hormone binding globulin"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+
+  - trigger: "t3."
+    replace: "triiodothyronine"
+    propagate_case: true
+    word: true
+
+  - trigger: "hct."
+    replace: "haematocrit"
+    propagate_case: true
+
+  - trigger: "fbc."
+    replace: "full blood count"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+
+  - triggers: ["u/e.", "u&e."]
+    replace: "urea & electrolytes"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+
+  - trigger: "crp."
+    replace: "C-reactive protein"
+    propagate_case: true
+
+  - trigger: "tsh."
+    replace: "thyroid-stimulating hormone"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "esr."
+    replace: "erythrocyte sedimentation rate"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+
+  - trigger: "cxr."
+    replace: "Chest X-Ray"
+    propagate_case: true
+    word: true
+
+  - trigger: "t4."
+    replace: "tetraiodothyronine"
+    propagate_case: true
+    word: true

@@ -1,0 +1,210 @@
+# ECG-related terminology
+# Any expansions relating to ECG waves or findings (i.e — stuff ON the ECG, like the different waves or intervals, segments etc) are appended with a trailing "." to expand
+# intervals appended with "i" — PR-interval is triggered with "pri.<SPC>"
+# General rule is that two word or syllables are expanded with:
+    # [1st_Letter_1st_Word][Chars_1,2,3_of_2nd_word/syllable]
+    # So Eindhoven's Triangle is expanded with:
+      # etri<SPC> → Eindhoven's Triangle$|$
+      # The placement of the cursor immediately following the expanded form is to remediate the issue raised by myself in https://github.com/espanso/espanso/issues/1411 
+# Where the first word or syllable is the variable portion of the expansion (e.g — LATeral lead, POSterior lead, INFerior lead), the rule is simply reversed
+    # [Chars_1,2,3_of_1st_Word][1st_char_2nd_Syllable/Word]
+# There is an attempt made to keep all expansions to four characters typically, and as a maximum.
+# Shorter triggers exist where expansions are either common or where four characters would be too much squeeze for too little juice.
+# Longer triggers exist typically under two circumstances
+    # Shorter triggers that obey the rules are already in use by another expansion
+    # The expansion in question is a derivative of another word for which an expansion already exists
+      # e.g — "prec" is the trigger for "precordial", "precl" therefore is the trigger for "precordial" leads.   
+matches:
+  # Misc. General but used in ECG
+
+  # This expansion follows no rules, sorry... But better than making a separate match for every instance of interted T, inverted P, etc.
+  # Intended usage: "!i.<space> tw.<SPC>" → "Inverted T-wave$|$" 
+  # "i" is included as opposed to just "!." so that you can use "!I." to yield capitalised "I" ("Inverted" as opposed to "inverted")
+  - trigger: "!i"
+    replace: "inverted"
+    propagate_case: true
+    word: true
+
+  # R waves/intervals
+  - trigger: "rw"
+    replace: "R-wave$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: "qrs."
+    replace: "QRS complex$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: "rri"
+    replace: "RR-interval$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: "pri"
+    replace: "PR-interval$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: "pw"
+    replace: "P-wave$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: "sts"
+    replace: "ST segment$|$"
+    propagate_case: true
+    word: true
+      
+      # Q wave/intervals
+
+  - triggers: ["qtci", "qtc", "cqti"]
+    replace: "QTc-interval$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "qti"
+    replace: "QT-interval$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "qw"
+    replace: "Q-wave$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: "tw"
+    replace: "T-wave$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: "rbbb."
+    replace: "right bundle branch block$|$"
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+    word: true
+
+  - trigger: "lbbb."
+    replace: "left bundle branch block$|$"
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+    word: true
+
+  - trigger: "sw"
+    replace: "S-wave$|$"
+    propagate_case: true
+    word: true
+
+  - triggers: ["junr", "jrhy"]
+    replace: "junctional rhythm$|$"
+    propagate_case: true
+    word: true
+    uppercase_style: "capitalize_words"
+
+  - trigger: "jp"
+    replace: "J-point$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: "pcor"
+    replace: "precordial$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: "pcorl"
+    replace: "precordial leads$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "antl"
+    replace: "anterior leads$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "latl"
+    replace: "lateral leads$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "posl"
+    replace: "posterior lead$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+      # Misc
+  - trigger: "etri"
+    replace: "Eindhoven's triangle$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+      
+      # Pathologicals
+
+  - triggers: ["ew.", "epsw.", "epsw", "εw"]
+    replace: "epsilon-wave$|$"
+    propagate_case: true
+    word: true
+
+  - triggers: ["dw.", "delw.", "delw", "δw", "Δw"]
+    replace: "delta-wave$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: "pexc"
+    replace: "pre-excitation"
+    propagate_case: true
+    word: true
+
+      # Not palp because of confusion with "palpate/palpable"
+  - trigger: "ptat"
+    replace: "palpitation"
+    propagate_case: true
+    word: true
+      #
+      # Arrhythmias
+  - triggers: ["afib", "af."]
+    replace: "atrial fibrillation$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "rvr."
+    replace: "rapid ventricular response$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - triggers: ["vfib", "vf:."]
+    replace: "ventricular fibrillation$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "svt."
+    replace: "supra-ventricular tachycardia$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "dysr"
+    replace: "dysrhythmia$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: "arrh"
+    replace: "arrhythmia$|$"
+    propagate_case: true
+    word: true
+
+  - trigger: "pea."
+    replace: "pulseless electrical activity$|$"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+

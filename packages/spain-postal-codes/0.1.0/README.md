@@ -1,1 +1,0 @@
-A package containing all postal codes of Spain

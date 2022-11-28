@@ -1,7 +1,0 @@
-author: Corentin Dy
-description: A package to type Romanian with almost every keyboard.
-name: romanian-accent
-title: Romanian Accent
-version: 0.1.0
-homepage: "https://github.com/CorentinDy/espanso-package-romanian-accent"
-tags: ["romanian", "languages"]

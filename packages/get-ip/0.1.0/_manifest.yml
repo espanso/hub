@@ -1,7 +1,0 @@
-author: yogeshbatra
-description: A espanso package to get IP address
-homepage: https://github.com/yogeshbatra/espanso-get-ip-pack
-name: get-ip
-title: Get Ip
-version: 0.1.0
-tags: ["ip", "shell", "development"]

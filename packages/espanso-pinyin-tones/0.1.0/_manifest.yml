@@ -1,7 +1,0 @@
-author: James Clark
-description: A package for typing Chinese pinyin tones
-homepage: https://github.com/IdiosApps/espanso-pinyin-tones
-name: espanso-pinyin-tones
-title: Espanso pinyin tones
-version: 0.1.0
-tags: ["chinese", "languages", "tones"]

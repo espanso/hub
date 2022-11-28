@@ -1,7 +1,0 @@
-author: Andrew Pastuszak
-description: A package allowing you to use unicode fractions
-name: espanso-fractions
-title: Unicode Fractions
-version: 0.1.0
-homepage: "https://github.com/apastuszak/espanso-package-fractions"
-tags: ["symbols", "numbers", "fractions", "math"]

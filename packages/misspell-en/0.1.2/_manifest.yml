@@ -1,7 +1,0 @@
-author: Timo Runge
-description: Replace commonly misspelled english words.
-name: misspell-en
-title: Misspell EN
-version: 0.1.2
-homepage: "https://github.com/timorunge/espanso-misspell-en"
-tags: ["spell-correction", "english"]

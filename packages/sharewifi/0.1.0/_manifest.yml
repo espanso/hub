@@ -1,7 +1,0 @@
-author: Brady Joslin
-description: An espanso package for quickly sharing Wi-Fi passwords and connection details on macOS.
-name: sharewifi
-title: sharewifi Package
-version: 0.1.0
-homepage: "https://github.com/bradyjoslin/espanso-package-sharewifi"
-tags: ["mac", "utility", "wifi"]

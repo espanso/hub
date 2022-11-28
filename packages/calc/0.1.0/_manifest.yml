@@ -1,7 +1,0 @@
-author: DingleFlop
-description: Matches to do basic arithmetic using your shell.
-homepage: https://github.com/DingleFlop/espanso-calc
-name: calc
-title: Calc
-version: 0.1.0
-tags: ["math", "utility"]

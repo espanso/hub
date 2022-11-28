@@ -1,7 +1,0 @@
-matches:
-  - trigger: ":ironho"
-    word: true
-    replace: |
-      {{pp}} refer to the following links on dietary iron:
-      https://www.albertahealthservices.ca/assets/info/nutrition/if-nfs-iron-and-your-health.pdf
-      https://www.healthlinkbc.ca/sites/hlbcprox-prod.health.gov.bc.ca/files/documents/healthfiles/hfile68d.pdf

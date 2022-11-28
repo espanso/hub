@@ -1,1 +1,0 @@
-A package for [espanso](https://espanso.org/) containing some mathematical symbols such as for Boolean and set operations which aren't always readily available otherwise.
