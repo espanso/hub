@@ -1,0 +1,57 @@
+  # Git conventional commits:
+  # One line commits:
+  - regex: ':(?P<type>feat|fix|build|chore|ci|docs|style|refactor|perf|test|revert)(?P<breaking>!?) '
+    replace: "git commit -m '{{type}}{{breaking}}: $|$'"
+
+  - regex: ':(?P<type>feat|fix|build|chore|ci|docs|style|refactor|perf|test|revert)(?P<scope>[^#!()\r\n]+)(?P<breaking>!?) '
+    replace: "git commit -m '{{type}}({{scope}}){{breaking}}: $|$'"
+  
+  # Commit with breaking change description and no scope
+  - regex: ':(?P<type>feat|fix|build|chore|ci|docs|style|refactor|perf|test|revert)!! '
+    replace: |
+      git commit -m '{{type}}!: $|$
+
+      BREAKING CHANGE: '
+    force_clipboard: true
+
+  # Commit with breaking change description and scope
+  - regex: ':(?P<type>feat|fix|build|chore|ci|docs|style|refactor|perf|test|revert)(?P<scope>[^#!()\r\n]+)!! '
+    replace: | 
+      git commit -m '{{type}}({{scope}})!: $|$
+
+      BREAKING CHANGE: '
+    force_clipboard: true
+
+  # Commit with closed issue and no scope
+  - regex: ':(?P<type>feat|fix|build|chore|ci|docs|style|refactor|perf|test|revert)(?P<breaking>!?)(?P<issue>#\d+) '
+    replace: | 
+      git commit -m '{{type}}{{breaking}}: $|$
+
+      Closes {{issue}}'
+    force_clipboard: true
+
+  # Commit with closed issue and scope
+  - regex: ':(?P<type>feat|fix|build|chore|ci|docs|style|refactor|perf|test|revert)(?P<breaking>!?)(?P<scope>[^#!()\r\n]+)(?P<issue>#\d+) '
+    replace: | 
+      git commit -m '{{type}}({{scope}}){{breaking}}: $|$
+
+      Closes {{issue}}'
+    force_clipboard: true
+
+  # Commit with closed issue, breaking change description, and no scope
+  - regex: ':(?P<type>feat|fix|build|chore|ci|docs|style|refactor|perf|test|revert)(?P<issue>#\d+)!! '
+    replace: | 
+      git commit -m '{{type}}!: $|$
+
+      BREAKING CHANGE: 
+      Closes {{issue}}'
+    force_clipboard: true
+
+  # Commit with closed issue, breaking change description, and scope
+  - regex: ':(?P<type>feat|fix|build|chore|ci|docs|style|refactor|perf|test|revert)(?P<scope>[^#!()\r\n]+)(?P<issue>#\d+)!! '
+    replace: | 
+      git commit -m '{{type}}({{scope}})!: $|$
+
+      BREAKING CHANGE: 
+      Closes {{issue}}'
+    force_clipboard: true
