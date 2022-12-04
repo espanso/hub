@@ -1,0 +1,7 @@
+author: JettChenT
+description: A tool for generating random strings with espanso
+homepage: https://github.com/JettChenT/espanso-randtools
+name: rand-tools
+title: Rand-Tools 
+version: 0.0.2
+tags: ["utility"]
