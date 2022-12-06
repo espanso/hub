@@ -1,0 +1,7 @@
+author: omrilotan
+description: Get a hilarious random commit message
+name: wtc
+title: What the Commit
+version: 1.0.1
+homepage: "https://github.com/omrilotan/espanso-package-wtc"
+tags: ["fun", "git", "shell"]
