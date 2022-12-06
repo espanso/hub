@@ -527,21 +527,17 @@ matches:
     propagate_case: true
     word: true
 
-  - trigger: "ipsl"
+  - triggers: {"ipsl", "ilat"}
     replace: "ipsalater$|$"
     propagate_case: true
     word: true
     uppercase_style: "capitalize_words"
 
-  - trigger: "conlat"
+  - triggers: {"conlat", "clat"}
     replace: "contralater$|$"
     propagate_case: true
     word: true
     uppercase_style: "capitalize_words"
-
-  - trigger: "prox"
-    replace: "proximal$|$"
-    propagate_case: true
 
   - trigger: "+ve."
     replace: "positive$|$"
