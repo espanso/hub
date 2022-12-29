@@ -1,0 +1,7 @@
+author: UyCode
+description: Matches to do basic arithmetic using your shell with Espanso version 2.1.0-alpha
+homepage: https://github.com/UyCode/espanso-calc-new
+name: calc
+title: Calc
+version: 1.0.0
+tags: ["math", "utility", "calculator"]
