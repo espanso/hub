@@ -1,0 +1,8 @@
+matches:
+  - trigger: ":wtc"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "curl -s https://whatthecommit.com/index.txt"

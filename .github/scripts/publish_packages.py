@@ -52,7 +52,7 @@ def get_repository_packages() -> List[Package]:
         title = manifest["title"]
         description = manifest["description"]
         author = manifest["author"]
-        tags = manifest["tags"]
+        tags = manifest.get("tags", [])
         package = Package(name, version, package_dir, title, description, author, tags)
         packages.append(package)
       except yaml.YAMLError as exc:

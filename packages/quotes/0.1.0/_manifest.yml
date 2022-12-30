@@ -1,0 +1,7 @@
+author: WhistlingZephyr
+description: Include different quotations and quotation-related characters to espanso.
+name: quotes
+title: Quotes
+version: 0.1.0
+homepage: https://github.com/WhistlingZephyr/espanso-package-quotes
+tags: ["quotes", "punctuation", "languages"]
