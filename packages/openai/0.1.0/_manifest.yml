@@ -1,7 +1,7 @@
 auther: Rohit Nagpal
 name: openai
 title: ChatGPTify your computer
-description: A package to query chatGPT, fact checking, code snippets, and editing
-homepage: https://github.com/rohitna/hub-chatgpt
+description: A package to query openai (chatGPT) -- fact checking, code snippets, corrections, rephrasings.
+homepage: https://github.com/rohitna/espanso-package-openai
 version: 0.1.0
 tags: ["utility", "code", "development", "english", "chat-gpt", "chat", "openai"]
