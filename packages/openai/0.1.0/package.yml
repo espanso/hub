@@ -1,0 +1,56 @@
+# openai package
+# Query chat-gpt anywhere from your computer
+
+matches:
+
+  - trigger: ":ask-gpt"
+    replace: "{{output}}"
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+      - name: output
+        type: shell
+        params:
+          cmd: 'bash $CONFIG/match/packages/openai/openai.sh "{{clipboard}}" 1.0'
+
+
+  - trigger: ":rephrase"
+    replace: "{{output}}"
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+      - name: output
+        type: shell
+        params:
+          cmd: 'bash $CONFIG/match/packages/openai/openai.sh "Rephrase and correct grammatical errors in: {{clipboard}}" 1.0'
+
+  - trigger: ":correct"
+    replace: "{{output}}"
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+      - name: output
+        type: shell
+        params:
+          cmd: 'bash $CONFIG/match/packages/openai/openai.sh "Correct grammatical errors in: {{clipboard}}" 1.0'
+
+  # Lower temperature (0.2) used for fact checking.
+  - trigger: ":fact-check"
+    replace: "{{output}}"
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+      - name: output
+        type: shell
+        params:
+          cmd: 'bash $CONFIG/match/packages/openai/openai.sh "Check this fact: {{clipboard}}" 0.2'
+
+  # regex based openai query
+  # Low char limit because of Espanso's 30 character limit on regex.
+  - regex: ":Q/(?P<query>.*)//"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: 'bash $CONFIG/match/packages/openai/openai.sh "{{query}}" 1.0'
