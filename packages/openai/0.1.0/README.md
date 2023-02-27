@@ -14,7 +14,8 @@ This is a package for [Espanso](https://espanso.org/), which is a free cross-pla
 1. Install this package.
 2. Use `espanso path` to get the config path <PATH> and add `export CONFIG="<PATH>"` to your zsh/bash rc
 3. Store the open ai api key in $CONFIG/openai_api_key (or create a sym link here).
-4. Do `chmod u+x $CONFIG/match/packages/openai/openai.sh` to make the curl script executable.
+4. Do `chmod u+x $CONFIG/match/packages/openai/openai.sh` to make the curl script executable. This curl script is based on a medium article [How to use GPT3 API with Curl](https://medium.com/geekculture/2022-how-to-use-chatgpt-api-with-curl-88830dec8a65).
+
 
 ## Usage
 Clipboard queries:
