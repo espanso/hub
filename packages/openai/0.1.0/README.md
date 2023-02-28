@@ -18,11 +18,14 @@ This is a package for [Espanso](https://espanso.org/), which is a free cross-pla
 
 
 ## Usage
-Clipboard queries:
+### Clipboard queries:
 - `:ask-gpt` (queries the content of the clipboard)
 - `:rephrase` (rephrases the content of the clipboard)
 - `:correct` (corrects grammatical errors in the contents of the clipboard)
 - `:fact-check` (fact checks the content of the clipboard)
+- `:respond` (writes a response to the content of the clipboard)
+
+### Regex queries
 - `:Q/{query}//` (regex query, char limit 25)
   - Example: `Q/rust quicksort//` returns the following:
   ```rust

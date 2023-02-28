@@ -13,6 +13,15 @@ matches:
         params:
           cmd: 'bash $CONFIG/match/packages/openai/openai.sh "{{clipboard}}" 1.0'
 
+  - trigger: ":respond"
+    replace: "{{output}}"
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+      - name: output
+        type: shell
+        params:
+          cmd: 'bash $CONFIG/match/packages/openai/openai.sh "Write a response to: {{clipboard}}" 1.0'
 
   - trigger: ":rephrase"
     replace: "{{output}}"
