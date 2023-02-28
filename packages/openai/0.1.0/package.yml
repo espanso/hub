@@ -23,6 +23,66 @@ matches:
         params:
           cmd: 'bash $CONFIG/match/packages/openai/openai.sh "Write a response to: {{clipboard}}" 1.0'
 
+  - trigger: ":explain"
+    replace: "{{output}}"
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+      - name: output
+        type: shell
+        params:
+          cmd: 'bash $CONFIG/match/packages/openai/openai.sh "Explain in detail: {{clipboard}}" 1.0'
+
+  - trigger: ":eli5"
+    replace: "{{output}}"
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+      - name: output
+        type: shell
+        params:
+          cmd: 'bash $CONFIG/match/packages/openai/openai.sh "Explain like I am 5: {{clipboard}}" 1.0'
+
+  - trigger: ":summarize"
+    replace: "{{output}}"
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+      - name: output
+        type: shell
+        params:
+          cmd: 'bash $CONFIG/match/packages/openai/openai.sh "Summarize: {{clipboard}}" 1.0'
+
+  - trigger: ":write"
+    replace: "{{output}}"
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+      - name: output
+        type: shell
+        params:
+          cmd: 'bash $CONFIG/match/packages/openai/openai.sh "Write an article on: {{clipboard}}" 1.0'
+
+  - trigger: ":debug"
+    replace: "{{output}}"
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+      - name: output
+        type: shell
+        params:
+          cmd: 'bash $CONFIG/match/packages/openai/openai.sh "Debug the following code: {{clipboard}}" 1.0'
+
+  - trigger: ":grade"
+    replace: "{{output}}"
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+      - name: output
+        type: shell
+        params:
+          cmd: 'bash $CONFIG/match/packages/openai/openai.sh "Grade the following part of an essay: {{clipboard}}" 1.0'
+
   - trigger: ":rephrase"
     replace: "{{output}}"
     vars:

@@ -24,6 +24,12 @@ This is a package for [Espanso](https://espanso.org/), which is a free cross-pla
 - `:correct` (corrects grammatical errors in the contents of the clipboard)
 - `:fact-check` (fact checks the content of the clipboard)
 - `:respond` (writes a response to the content of the clipboard)
+- `:explain` (explain the content of the clipboard in detail)
+- `:eli5` (explain the clipboard content to me like I am 5)
+- `:summarize` (summarize the content of the clipboard)
+- `:write` (write an article on the content of the clipboard)
+- `:debug` (debug the code in the clipboard)
+- `:grade` (grade the content of the clipboard)
 
 ### Regex queries
 - `:Q/{query}//` (regex query, char limit 25)
