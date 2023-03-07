@@ -1,0 +1,9 @@
+name: esperanto-accents
+title: Esperanto Accents
+description: A package to type Esperanto accents using the x-system (eks-sistemo). Type a non-diacriticked letter followed by x e.g. cx, gx, hx, jx, sx, ux to get a corresponding letter with accent.
+version: 0.1.0
+homepage: "https://github.com/alexmiranda/espanso-package-esperanto"
+author: Alex Miranda
+tags:
+  - languages
+  - esperanto
