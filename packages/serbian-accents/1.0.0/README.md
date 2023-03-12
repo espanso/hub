@@ -13,7 +13,7 @@ In Serbian, the term "truncated" or "bald" letters (ošišana ili ćelava latini
 Please make sure that you have already installed [Espanso](https://espanso.org/install) and then install as Espanso package.
 
 ```sh
-espanso install serbian-accent-letters
+espanso install serbian-accents
 ```
 
 You can now start using the package.
