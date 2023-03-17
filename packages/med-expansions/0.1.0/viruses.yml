@@ -1,0 +1,224 @@
+matches:
+    # /* VIRUS FILLS START
+    #/Users/cillianscott/Library/Preferences/espanso/match/packages/contractions-en/package.yml  HOW-TO USE:
+    # ALL Viral expansions end in "v"
+    # Letter of first syllable, letter of second syllable, first letter of third syllable OR second letter of second syllable (if only two syllables) followed by "v"
+    # *O*rtho*MY*xo*V*irus → omyv 
+    # For Viruses with one syllable followed by virus (eg — adenovirus) the entire syllable followed by  v will expand.
+    # Where possible "intuitive" expansions are ALSO facilitated ON TOP OF the systematic style detailed above
+    # Orthomyxovirus can be expanded with the systematic "omyv" and also the intuitive ":omv"
+      # Adenovirus can be expanded with "adev" or "adenov"
+      # Appending an additional "v" to the end of the trigger before pressing <SPC> will expand to -viridae instead of -virus
+      #
+      # "to be added"
+      # Echovirus
+
+  - trigger: "pcov"
+    replace: "Picornavirus"
+    propagate_case: true
+    word: true
+
+  - trigger: "pcovv"
+    replace: "Picornaviridae"
+    propagate_case: true
+    word: true
+
+  - triggers: ["pliv", "polv", "poliov"]
+    replace: "Poliovirus"
+    propagate_case: true
+    word: true
+
+  - triggers: ["plivv", "polvv", "poliovv"]
+    replace: "Polioviridae"
+    propagate_case: true
+    word: true
+
+  - triggers: ["csav", "coxv"]
+    replace: "Coxsackievirus"
+    propagate_case: true
+    word: true
+
+  - triggers: ["csavv", "coxvv"]
+    replace: "Coxsackieviridae"
+    propagate_case: true
+    word: true
+
+  - triggers: ["rnov", "rhinov"]
+    replace: "Rhinovirus"
+    propagate_case: true
+    word: true
+
+  - triggers: ["rnovv", "rhinovv"]
+    replace: "Rhinoviridae"
+    propagate_case: true
+    word: true
+
+  - triggers: ["himv", ":hiv"]
+    replace: "Human Immunodeficiency Virus"
+    propagate_case: true
+    word: true
+
+  - trigger: "cciv"
+    replace: "Calcivirus"
+    propagate_case: true
+    word: true
+
+  - trigger: "ccivv"
+    replace: "Calciviridae"
+    propagate_case: true
+    word: true
+
+  - trigger: "fviv"
+    replace: "Flavivirus"
+    propagate_case: true
+    word: true
+
+  - trigger: "fvivv"
+    replace: "Flaviviridae"
+    propagate_case: true
+    word: true
+
+  - trigger: "togav"
+    replace: "Togavirus"
+    propagate_case: true
+    word: true
+
+  - trigger: "togavv"
+    replace: "Togavirus"
+    propagate_case: true
+    word: true
+
+  - trigger: "crov"
+    replace: "Coronavirus"
+    propagate_case: true
+    word: true
+
+  - trigger: "crovv"
+    replace: "Coronaviridae"
+    propagate_case: true
+    word: true
+
+  - triggers: ["omyv", ":omv"]
+    replace: "Orthomyxovirus"
+    propagate_case: true
+    word: true
+
+  - trigger: "pmyv"
+    replace: "Paramyxovirus"
+    propagate_case: true
+    word: true
+
+  - trigger: "pmyvv"
+    replace: "Paramyxoviridae"
+    propagate_case: true
+    word: true
+
+  - trigger: "filovv"
+    replace: "Filoviridae"
+    propagate_case: true
+    word: true
+
+  - trigger: "filov"
+    replace: "Filovirus"
+    propagate_case: true
+    word: true
+
+  - trigger: "arenavv"
+    replace: "Arenaviridae"
+    propagate_case: true
+    word: true
+
+  - trigger: "arenav"
+    replace: "Arenavirus"
+    propagate_case: true
+    word: true
+
+  - trigger: "reovv"
+    replace: "Reoviridae"
+    propagate_case: true
+    word: true
+
+  - trigger: "reov"
+    replace: "Reovirus"
+    propagate_case: true
+    word: true
+
+  - trigger: "pomvv"
+    replace: "Polyomaviridae"
+    propagate_case: true
+    word: true
+
+  - trigger: "pomv"
+    replace: "Polyomavirus"
+    propagate_case: true
+    word: true
+
+  - triggers: ["pilv", "papv"]
+    replace: "Papillomavirus"
+    propagate_case: true
+    word: true
+
+  - triggers: ["pilvv", "papvv"]
+    replace: "Papillomaviridae"
+    propagate_case: true
+    word: true
+
+  - triggers: ["anov", "adenov", "adev"]
+    replace: "Adenovirus"
+    propagate_case: true
+    word: true
+
+  - triggers: ["anovv", "adenovv", "adevv"]
+    replace: "Adenoviridae"
+    propagate_case: true
+    word: true
+
+  - trigger: "poxvv"
+    replace: "Poxviridae"
+    propagate_case: true
+    word: true
+
+  - trigger: "poxv"
+    replace: "Poxvirus"
+    propagate_case: true
+    word: true
+
+  - triggers: [":hsv", "hsiv"]
+    replace: "Herpes Simplex Virus"
+    propagate_case: true
+    word: true
+
+  - triggers: [":rsv", "rsyv"]
+    replace: "Respiratory Syncytial Virus"
+    propagate_case: true
+    word: true
+
+  - triggers: [":ebv", "ebav"]
+    replace: "Epstein-Barr Virus"
+    propagate_case: true
+    word: true
+
+  - triggers: [":cmv", "cmev"]
+    replace: "Cytomegalovirus"
+    propagate_case: true
+    word: true
+
+  - triggers: [":vzv", "vzov"]
+    replace: "Varicella Zoster Virus"
+    propagate_case: true
+    word: true
+
+  - triggers: [":hhv", "hhev"]
+    replace: "Human Herpesvirus"
+    propagate_case: true
+    word: true
+
+  - triggers: [":hhvv", "hhevv"]
+    replace: "Human Herpesviridae"
+    propagate_case: true
+    word: true
+
+  - trigger: "!!!."
+    replace: "!!!."
+    propagate_case: true
+    word: true
