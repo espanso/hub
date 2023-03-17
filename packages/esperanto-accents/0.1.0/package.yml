@@ -1,0 +1,48 @@
+matches:
+  # c-circumflex
+  - trigger: "cx"
+    replace: "ĉ"
+  - trigger: "Cx"
+    replace: "Ĉ"
+  - trigger: "CX"
+    replace: "Ĉ"
+
+  # g-circumflex
+  - trigger: "gx"
+    replace: "ĝ"
+  - trigger: "Gx"
+    replace: "Ĝ"
+  - trigger: "GX"
+    replace: "Ĝ"
+
+  # h-circumflex
+  - trigger: "hx"
+    replace: "ĥ"
+  - trigger: "Hx"
+    replace: "Ĥ"
+  - trigger: "HX"
+    replace: "Ĥ"
+
+  # j-circumflex
+  - trigger: "jx"
+    replace: "ĵ"
+  - trigger: "Jx"
+    replace: "Ĵ"
+  - trigger: "JX"
+    replace: "Ĵ"
+
+  # s-circumflex
+  - trigger: "sx"
+    replace: "ŝ"
+  - trigger: "Sx"
+    replace: "Ŝ"
+  - trigger: "SX"
+    replace: "Ŝ"
+
+  # u-breve
+  - trigger: "ux"
+    replace: "ŭ"
+  - trigger: "Ux"
+    replace: "Ŭ"
+  - trigger: "UX"
+    replace: "Ŭ"
