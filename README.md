@@ -1,8 +1,4 @@
-# autocomplete-en
-package for espanso application what it does autocomplete using tab
+# hub
+The official Espanso's package repository
 
-### to use it write at least three letter form the word you want to autocomplete and after that hit tap
- - \t is tab
-<li>aba\t  -> abandon </li>
-<li>aban\t  -> abandon </li>
-
+See https://hub.espanso.org/ for the current website, and https://espanso.org/docs/packages/basics/ for additional information on Packages
