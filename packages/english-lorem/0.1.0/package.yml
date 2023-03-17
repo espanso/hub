@@ -1,0 +1,125 @@
+# English Lorem Ipsum
+#
+# An espanso package to generate random lorem ipsum text in English.
+# Translated from the lorem ipsum package by @federico-terzi
+
+matches:
+  - trigger: ">elorem"
+    replace: "{{eoutput}}"
+    vars:
+      - name: eoutput
+        type: random
+        params:
+          choices:
+            - "But I must explain to you how all this mistaken idea of reprobating pleasure and extolling pain arose."
+            - "To do so, I will give you a complete account of the system, and expound the actual teachings of the great explorer of truth, the master-builder of human happiness."
+            - "No one rejects, dislikes or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful."
+            - "Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure."
+            - "To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it?"
+            - "But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+            - "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of the pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain."
+            - "These cases are perfectly simple and easy to distinguish."
+            - "In a free hour, when our power of choice is untrammeled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided."
+            - "But in certain emergencies and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted."
+            - "The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."
+            - "This being the theory I hold, why need I be afraid of not being able to reconcile it with the case of my ancestors?"
+            - "Your references to them just now were historically correct, and also showed your kind and friendly feeling towards myself; but all the same I am not to be bribed by your flattery of my family, and you will not find me a less resolute opponent."
+            - "Tell me, pray, what explanation do you put upon their actions?"
+            - "Do you really believe that they charged an armed enemy, or treated their children, their own flesh and blood, so cruelly, without a thought for their own interest or advantage?"
+            - "Why, even wild animals do not act in that way; they do not run amok so blindly that we cannot discern any purpose in their movements and their onslaughts."
+            - "Can you then suppose that those heroic men performed their famous deeds without any motive at all?"
+  - trigger: "#elorem"
+    replace: "{{eoutput}}"
+    vars:
+      - name: eoutput
+        type: random
+        params:
+          choices:
+            - "But I must explain to you how all this mistaken idea of reprobating pleasure and extolling pain arose. To do so, I will give you a complete account of the system, and expound the actual teachings of the great explorer of truth, the master-builder of human happiness. No one rejects, dislikes or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful."
+            - "Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+            - "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of the pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain."
+            - "These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammeled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided."
+            - "But in certain emergencies and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."
+            - "This being the theory I hold, why need I be afraid of not being able to reconcile it with the case of my ancestors? Your references to them just now were historically correct, and also showed your kind and friendly feeling towards myself; but all the same I am not to be bribed by your flattery of my family, and you will not find me a less resolute opponent."
+            - "Tell me, pray, what explanation do you put upon their actions? Do you really believe that they charged an armed enemy, or treated their children, their own flesh and blood, so cruelly, without a thought for their own interest or advantage? Why, even wild animals do not act in that way; they do not run amok so blindly that we cannot discern any purpose in their movements and their onslaughts. Can you then suppose that those heroic men performed their famous deeds without any motive at all?"
+            - "And this is a principle of wide application. People of your school, and especially yourself, who are so diligent a student of history, have found a favorite field for the display of your eloquence in recalling the stories of brave and famous men of old, and in praising their actions, not on utilitarian grounds, but on account of the splendor of abstract moral worth. But all of this falls to the ground if the principle of selection that I have just mentioned be established, —the principle of forgoing pleasures for the purpose of getting greater pleasures, and enduring pains for the sake of escaping greater pains."
+            - "And this is a principle of wide application. People of your school, and especially yourself, who are so diligent a student of history, have found a favorite field for the display of your eloquence in recalling the stories of brave and famous men of old, and in praising their actions, not on utilitarian grounds, but on account of the splendor of abstract moral worth."
+            - "But all of this falls to the ground if the principle of selection that I have just mentioned be established, — the principle of forgoing pleasures for the purpose of getting greater pleasures, and enduring pains for the sake of escaping greater pains."
+            - "But enough has been said at this stage about the glorious exploits and achievements of the heroes of renown. The tendency of all the virtues to produce pleasure is a topic that will be treated in its own place later on. At present I shall proceed to expound the essence and qualities of pleasure itself, and shall endeavor to remove the misconceptions of ignorance and to make you realize how serious, how temperate, how austere is the school that is supposed to be sensual, lax and luxurious."
+            - "The pleasure we pursue is not that kind alone which directly affects our physical being with a delightful feeling, — a positively agreeable perception of the senses; on the contrary, the greatest pleasure according to us is that which is experienced as a result of the complete removal of pain. When we are released from pain, the mere sensation of complete emancipation and relief from uneasiness is in itself a source of gratification. But everything that causes gratification is a pleasure (just as everything that causes annoyance is a pain). Therefore the complete removal of pain has correctly been termed a pleasure. For example, when hunger and thirst are banished by food and drink, the mere fact of getting rid of uneasiness brings a resultant pleasure in its train. So generally, the removal of pain causes pleasure to take its place."
+            - "Epicurus consequently maintained that there is no such thing as a neutral state of feeling intermediate between pleasure and pain; for the state supposed by some thinkers to be neutral, being characterized as it is by entire absence of pain, is itself, he held, a pleasure, and, what is more, a pleasure of the highest order."
+            - "A man who is conscious of his condition at all must necessarily feel pleasure or pain. But complete absence of pain Epicurus considers to be the limit and highest point of pleasure; beyond this point pleasure may vary in kind, but it cannot vary in intensity or degree."
+            - "The truth of the position that pleasure is the ultimate good will most readily appear from the following illustration. Let us imagine a man living in the continuous enjoyment of numerous and vivid pleasures alike of body and of mind, undisturbed either by the presence or the prospect of pain: what possible state of existence could we describe as being more excellent or more desirable?"
+            - " One so situated must possess in the first place a strength of mind that is proof against all fear of death or of pain; he will know that death means complete unconsciousness, and that pain is generally light if long and short if strong, so that its intensity is compensated by brief duration and its continuance by diminishing severity."
+  - trigger: ">2elorem"
+    replace: "{{one}} {{two}}"
+    vars:
+      - name: one
+        type: match
+        params:
+          trigger: ">elorem"
+      - name: two
+        type: match
+        params:
+          trigger: ">elorem"
+  - trigger: ">3lorem"
+    replace: "{{two}} {{three}}"
+    vars:
+      - name: two
+        type: match
+        params:
+          trigger: ">2elorem"
+      - name: three
+        type: match
+        params:
+          trigger: ">elorem"
+  - trigger: ">4lorem"
+    replace: "{{three}} {{four}}"
+    vars:
+      - name: three
+        type: match
+        params:
+          trigger: ">2elorem"
+      - name: four
+        type: match
+        params:
+          trigger: ">2elorem"
+  - trigger: "#2elorem"
+    replace: |-
+      {{one}}
+      {{two}}
+    vars:
+      - name: one
+        type: match
+        params:
+          trigger: "#elorem"
+      - name: two
+        type: match
+        params:
+          trigger: "#elorem"
+  - trigger: "#3elorem"
+    replace: |-
+      {{two}}
+      {{three}}
+    vars:
+      - name: two
+        type: match
+        params:
+          trigger: "#2elorem"
+      - name: three
+        type: match
+        params:
+          trigger: "#elorem"
+  - trigger: "#4elorem"
+    replace: |-
+      {{three}}
+      {{four}}
+    vars:
+      - name: three
+        type: match
+        params:
+          trigger: "#2elorem"
+      - name: four
+        type: match
+        params:
+          trigger: "#2elorem"
