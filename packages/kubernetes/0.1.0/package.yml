@@ -80,11 +80,14 @@ matches:
         apiVersion: v1
         kind: PersistentVolumeClaim
         metadata:
-          name: foo-pvc
-          namespace: foo
+          name: my-pvc
         spec:
-          storageClassName: "" # Empty string must be explicitly set otherwise default StorageClass will be set
-          volumeName: foo-pv
+          accessModes:
+            - ReadWriteOnce
+          resources:
+            requests:
+              storage: 1Gi
+
           
   - trigger: ":kubeingressroute"
     replace: |         
@@ -124,3 +127,24 @@ matches:
                     name: test
                     port:
                       number: 80  
+
+  - trigger: ":kubeconfigmap"
+    replace: |
+        apiVersion: v1
+        kind: ConfigMap
+        metadata:
+          name: my-configmap
+        data:
+          key1: value1
+          key2: value2
+
+  - trigger: ":kubesecret"
+    replace: |
+        apiVersion: v1
+        kind: Secret
+        metadata:
+          name: my-secret
+        type: Opaque
+        data:
+          key1: <base64-encoded-value1>
+          key2: <base64-encoded-value2>

@@ -17,3 +17,6 @@ With these shortcuts command, earn time !
 | :kubecronjob      | Cronjob Example                                          |
 | :kubeingressroute | IngressRoute for Traefik                                 |
 | :kubeingress      | Example of Ingress                                       |
+| :kubeconfigmap    | Example of ConfigMap                                     |
+| :kubesecret       | Create a secret                                          |
+
