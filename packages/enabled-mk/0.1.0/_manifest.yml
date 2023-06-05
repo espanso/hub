@@ -1,0 +1,7 @@
+author: David Golembiowski
+description: The essential plugin for Espanso overzealots
+homepage: https://github.com/dmgolembiowski/espanso-enabled-mk
+name: enabled-mk
+title: Enabled MK
+version: 0.1.0
+tags: ["alias", "vim", "utility", "shell", "development", "symbols"]
