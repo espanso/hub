@@ -1,0 +1,359 @@
+# espanso configuration file
+
+# This is the default configuration file, change it as you like it
+# You can refer to the official documentation:
+# https://espanso.org/docs/
+
+# Matches are the substitution rules, when you type the "trigger" string
+# it gets replaced by the "replace" string.
+name: git
+parent: default
+
+matches:
+  ### ----------------
+  ### Configurations
+  ### ----------------
+
+  # Git Init
+  - trigger: "giti."
+    replace: "git init"
+
+  # Git Clone
+  - trigger: "gitcl."
+    replace: "git clone "
+
+  # Git Config Line 1
+  - trigger: "gitconfigline1."
+    replace: "git config --global core.autocrlf true"
+
+  # Git Config Line 2
+  - trigger: "gitconfigline2."
+    replace: "git config --global core.safecrlf warn"
+
+  # Git Config Email Global
+  - trigger: "gitemailg."
+    replace: 'git config --global user.email "$|$"'
+
+  # Git Config Email Local
+  - trigger: "gitemaill."
+    replace: 'git config --local user.email "$|$"'
+
+  # Git Config User Global
+  - trigger: "gituserg."
+    replace: 'git config --global user.name "$|$"'
+
+  # Git Config User Local
+  - trigger: "gituserl."
+    replace: 'git config --local user.name "$|$"'
+
+  ### -------------
+  ### Push | Pull | Commits
+  ### -------------
+
+  # Git Status
+  - trigger: "gits."
+    replace: "git status"
+
+  # Git Add
+  - trigger: "gita."
+    replace: "git add ."
+
+  # Commit
+  - trigger: "gitc."
+    replace: 'git commit -m "$|$"'
+
+  # Amend Commit
+  - trigger: "gitamc."
+    replace: 'git commit --amend -m "$|$"'
+
+  # Amend Commit
+  - trigger: "gitcam."
+    replace: 'git commit --amend -m "$|$"'
+
+  # Amend Author
+  - trigger: "gitama."
+    replace: 'git commit --amend --author="$|$User Name <email@email.com>"'
+
+  # Amend Date
+  - trigger: "gitamd."
+    replace: "#Examples: \"2023-02-14T15:55:00\" | \"Wed Sep 9 22:00 2020 +0530\"\ngit commit --amend --date=\"\""
+
+  # Git Push
+  - trigger: "gitp."
+    replace: "git push origin "
+
+  # Git Push Force
+  - trigger: "gitpf."
+    replace: "git push origin --force "
+
+  # Remote Update
+  - trigger: "gitru."
+    replace: "git remote update"
+
+  # Remote Update
+  - trigger: "gitfa."
+    replace: "git fetch --all"
+
+
+  # Git Push Develop
+  - trigger: "gitpd."
+    replace: "git push origin develop"
+
+  - trigger: "gitpd1."
+    replace: "git push origin dev"
+
+  - trigger: "gitpd2."
+    replace: "git push origin develop"
+
+  - trigger: "gitpd3."
+    replace: "git push origin development"
+
+  # Git Push Homolog
+  - trigger: "gitph."
+    replace: "git push origin homolog"
+
+  - trigger: "gitph1."
+    replace: "git push origin hml"
+
+  - trigger: "gitph2."
+    replace: "git push origin homolog"
+
+  - trigger: "gitph3."
+    replace: "git push origin homologation"
+
+  # Git Pull
+  - trigger: "gitu."
+    replace: "git pull origin "
+
+  # Git Pull Develop
+  - trigger: "gitud."
+    replace: "git pull origin develop"
+
+  - trigger: "gitud1."
+    replace: "git pull origin dev"
+
+  - trigger: "gitud2."
+    replace: "git pull origin develop"
+
+  - trigger: "gitud3."
+    replace: "git pull origin development"
+
+  # Git Pull Homolog
+  - trigger: "gituh."
+    replace: "git pull origin homolog"
+
+  - trigger: "gituh1."
+    replace: "git pull origin hml"
+
+  - trigger: "gituh2."
+    replace: "git pull origin homolog"
+
+  - trigger: "gituh3."
+    replace: "git pull origin homologation"
+
+  ### Stash
+
+  # Stash
+  - trigger: "gitst."
+    replace: "git stash"
+
+  - trigger: "gitstl."
+    replace: "git stash list"
+
+  - trigger: "gitsts."
+    replace: "git stash show"
+
+  - trigger: "gitstp."
+    replace: "git stash pop"
+
+  - trigger: "gitstd."
+    replace: "git stash drop"
+
+  - trigger: "gitstiu."
+    replace: "git stash --include-untracked"
+
+  ### Branch
+
+  # Git Merge
+  - trigger: "gitm."
+    replace: "git merge "
+
+  # Git Branch Main
+  - trigger: "gitbm."
+    replace: "git branch -m main"
+
+  # Git Merge Develop
+  - trigger: "gitmd."
+    replace: "git merge develop"
+
+  - trigger: "gitmd1."
+    replace: "git merge dev"
+
+  - trigger: "gitmd2."
+    replace: "git merge develop"
+
+  - trigger: "gitmd3."
+    replace: "git merge development"
+
+  # Git Merge Homolog
+  - trigger: "gitmh."
+    replace: "git merge homolog"
+
+  - trigger: "gitmh1."
+    replace: "git merge hml"
+
+  - trigger: "gitmh2."
+    replace: "git merge homolog"
+
+  - trigger: "gitmh3."
+    replace: "git merge homologation"
+
+  # Git Checkout
+  - trigger: "gitchk."
+    replace: "git checkout "
+
+  # Git Checkout Develop
+  - trigger: "gitchkd."
+    replace: "git checkout develop"
+
+  - trigger: "gitchkd1."
+    replace: "git checkout dev"
+
+  - trigger: "gitchkd2."
+    replace: "git checkout develop"
+
+  - trigger: "gitchkd3."
+    replace: "git checkout development"
+
+  # Git Checkout Homolog
+  - trigger: "gitchkh."
+    replace: "git checkout homolog"
+
+  - trigger: "gitchkh1."
+    replace: "git checkout hml"
+
+  - trigger: "gitchkh2."
+    replace: "git checkout homolog"
+
+  - trigger: "gitchkh3."
+    replace: "git checkout homologation"
+
+  # New Branch
+  - trigger: "gitchkb."
+    replace: "git checkout -b "
+
+  - trigger: "gitnb."
+    replace: "git checkout -b "
+
+  # Lista Branchs
+  - trigger: "gitb."
+    replace: "git branch"
+
+  # Lista Branchs Remote
+  - trigger: "gitba."
+    replace: "git branch -a"
+
+  # Delete Local Branch
+  - trigger: "gitbd."
+    replace: "git branch -d "
+
+  - trigger: "gitbdf."
+    replace: "git branch -D "
+
+  # Delete Remote Branch
+  - trigger: "gitbdr."
+    replace: "git push origin --delete "
+
+  ###-------
+  ### Log
+  ###-------
+
+  # Log
+  - trigger: "gitl."
+    replace: "git log"
+
+  # Log Pretty
+  - trigger: "gitlp."
+    replace: "git log --pretty=oneline"
+
+  # Log One Line
+  - trigger: "gitlo."
+    replace: "git log --oneline"
+
+  # Log Graph Oneline
+  - trigger: "gitlgo."
+    replace: "git log --graph --oneline"
+
+  # Log Log Pretty Formated
+  - trigger: "gitlpf."
+    replace: 'git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short'
+
+  ###--------------------------
+  ### Revert | Rebase | Reset
+  ###--------------------------
+
+  # Git Rebase
+  - trigger: "gitrb."
+    replace: "git rebase master"
+
+  # Git Reset
+  - trigger: "gitrs."
+    replace: "git reset"
+
+  # Git Reset Hard
+  - trigger: "gitrsh."
+    replace: "git reset --hard "
+
+  # Git Reset Hard HEAD
+  - trigger: "gitrshh."
+    replace: "git reset --hard HEAD"
+
+  - trigger: "gitrshh1."
+    replace: "git reset --hard HEAD~1"
+
+  # Git Reset Soft
+  - trigger: "gitrss."
+    replace: "git reset --soft "
+
+  # Git Reset Soft HEAD
+  - trigger: "gitrssh."
+    replace: "git reset --soft HEAD"
+
+  - trigger: "gitrssh1."
+    replace: "git reset --soft HEAD~1"
+
+  # Git Revert
+  - trigger: "gitrv."
+    replace: "git revert HEAD"
+
+  # Git Revert - No Edit
+  - trigger: "gitrvne."
+    replace: "git revert HEAD --no-edit"
+
+  # Git Tag
+  - trigger: "gittg."
+    replace: "git tag "
+
+  # Git Tag Delete
+  - trigger: "gittgd."
+    replace: "git tag -d "
+
+  # Git Move
+  - trigger: "gitmv."
+    replace: "git mv file.ext dir_name"
+
+  # Git Cherry Pick
+  - trigger: "gitcyp."
+    replace: "git cherry-pick "
+
+  ###---------------------------------------------
+  ### Discarding All Local Changes / Restore
+  ###---------------------------------------------
+
+  # Git Restore
+  - trigger: "gitrt."
+    replace: "git restore ."
+
+  # Git Clean
+  - trigger: "gitcln."
+    replace: "git clean -f"
