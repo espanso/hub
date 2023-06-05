@@ -1,0 +1,3749 @@
+matches:
+- replace: "\U0001F600"
+  trigger: ':grinning:'
+- replace: "\U0001F603"
+  trigger: ':smiley:'
+- replace: "\U0001F604"
+  trigger: ':smile:'
+- replace: "\U0001F601"
+  trigger: ':grin:'
+- replace: "\U0001F606"
+  trigger: ':laughing:'
+- replace: "\U0001F605"
+  trigger: ':sweat smile:'
+- replace: "\U0001F923"
+  trigger: ':rofl:'
+- replace: "\U0001F602"
+  trigger: ':joy:'
+- replace: "\U0001F642"
+  trigger: ':slightly smiling face:'
+- replace: "\U0001F643"
+  trigger: ':upside down face:'
+- replace: "\U0001FAE0"
+  trigger: ':melting face:'
+- replace: "\U0001F609"
+  trigger: ':wink:'
+- replace: "\U0001F60A"
+  trigger: ':blush:'
+- replace: "\U0001F607"
+  trigger: ':innocent:'
+- replace: "\U0001F970"
+  trigger: ':smiling face with three hearts:'
+- replace: "\U0001F60D"
+  trigger: ':heart eyes:'
+- replace: "\U0001F929"
+  trigger: ':star struck:'
+- replace: "\U0001F618"
+  trigger: ':kissing heart:'
+- replace: "\U0001F617"
+  trigger: ':kissing:'
+- replace: "\u263A"
+  trigger: ':smiling face:'
+- replace: "\U0001F61A"
+  trigger: ':kissing closed eyes:'
+- replace: "\U0001F619"
+  trigger: ':kissing smiling eyes:'
+- replace: "\U0001F972"
+  trigger: ':smiling face with tear:'
+- replace: "\U0001F60B"
+  trigger: ':yum:'
+- replace: "\U0001F61B"
+  trigger: ':stuck out tongue:'
+- replace: "\U0001F61C"
+  trigger: ':stuck out tongue winking eye:'
+- replace: "\U0001F92A"
+  trigger: ':zany:'
+- replace: "\U0001F61D"
+  trigger: ':stuck out tongue closed eyes:'
+- replace: "\U0001F911"
+  trigger: ':money mouth face:'
+- replace: "\U0001F917"
+  trigger: ':hugs:'
+- replace: "\U0001F92D"
+  trigger: ':hand over mouth:'
+- replace: "\U0001FAE2"
+  trigger: ':face with open eyes and hand over mouth:'
+- replace: "\U0001FAE3"
+  trigger: ':face with peeking eye:'
+- replace: "\U0001F92B"
+  trigger: ':shushing:'
+- replace: "\U0001F914"
+  trigger: ':thinking:'
+- replace: "\U0001FAE1"
+  trigger: ':saluting face:'
+- replace: "\U0001F910"
+  trigger: ':zipper mouth face:'
+- replace: "\U0001F928"
+  trigger: ':raised eyebrow:'
+- replace: "\U0001F610"
+  trigger: ':neutral face:'
+- replace: "\U0001F611"
+  trigger: ':expressionless:'
+- replace: "\U0001F636"
+  trigger: ':no mouth:'
+- replace: "\U0001FAE5"
+  trigger: ':dotted line face:'
+- replace: "\U0001F636\u200D\U0001F32B\uFE0F"
+  trigger: ':face in clouds:'
+- replace: "\U0001F60F"
+  trigger: ':smirk:'
+- replace: "\U0001F612"
+  trigger: ':unamused:'
+- replace: "\U0001F644"
+  trigger: ':roll eyes:'
+- replace: "\U0001F62C"
+  trigger: ':grimacing:'
+- replace: "\U0001F62E\u200D\U0001F4A8"
+  trigger: ':face exhaling:'
+- replace: "\U0001F925"
+  trigger: ':lying face:'
+- replace: "\U0001FAE8"
+  trigger: ':shaking face:'
+- replace: "\U0001F60C"
+  trigger: ':relieved:'
+- replace: "\U0001F614"
+  trigger: ':pensive:'
+- replace: "\U0001F62A"
+  trigger: ':sleepy:'
+- replace: "\U0001F924"
+  trigger: ':drooling face:'
+- replace: "\U0001F634"
+  trigger: ':sleeping:'
+- replace: "\U0001F637"
+  trigger: ':mask:'
+- replace: "\U0001F912"
+  trigger: ':face with thermometer:'
+- replace: "\U0001F915"
+  trigger: ':face with head bandage:'
+- replace: "\U0001F922"
+  trigger: ':nauseated face:'
+- replace: "\U0001F92E"
+  trigger: ':vomiting:'
+- replace: "\U0001F927"
+  trigger: ':sneezing face:'
+- replace: "\U0001F975"
+  trigger: ':hot:'
+- replace: "\U0001F976"
+  trigger: ':cold:'
+- replace: "\U0001F974"
+  trigger: ':woozy:'
+- replace: "\U0001F635"
+  trigger: ':dizzy face:'
+- replace: "\U0001F635\u200D\U0001F4AB"
+  trigger: ':face with spiral eyes:'
+- replace: "\U0001F92F"
+  trigger: ':exploding head:'
+- replace: "\U0001F920"
+  trigger: ':cowboy hat face:'
+- replace: "\U0001F973"
+  trigger: ':partying:'
+- replace: "\U0001F978"
+  trigger: ':disguised face:'
+- replace: "\U0001F60E"
+  trigger: ':sunglasses:'
+- replace: "\U0001F913"
+  trigger: ':nerd face:'
+- replace: "\U0001F9D0"
+  trigger: ':monocle:'
+- replace: "\U0001F615"
+  trigger: ':confused:'
+- replace: "\U0001FAE4"
+  trigger: ':face with diagonal mouth:'
+- replace: "\U0001F61F"
+  trigger: ':worried:'
+- replace: "\U0001F641"
+  trigger: ':slightly frowning face:'
+- replace: "\u2639"
+  trigger: ':frowning face:'
+- replace: "\U0001F62E"
+  trigger: ':open mouth:'
+- replace: "\U0001F62F"
+  trigger: ':hushed:'
+- replace: "\U0001F632"
+  trigger: ':astonished:'
+- replace: "\U0001F633"
+  trigger: ':flushed:'
+- replace: "\U0001F97A"
+  trigger: ':pleading:'
+- replace: "\U0001F979"
+  trigger: ':face holding back tears:'
+- replace: "\U0001F626"
+  trigger: ':frowning:'
+- replace: "\U0001F627"
+  trigger: ':anguished:'
+- replace: "\U0001F628"
+  trigger: ':fearful:'
+- replace: "\U0001F630"
+  trigger: ':cold sweat:'
+- replace: "\U0001F625"
+  trigger: ':disappointed relieved:'
+- replace: "\U0001F622"
+  trigger: ':cry:'
+- replace: "\U0001F62D"
+  trigger: ':sob:'
+- replace: "\U0001F631"
+  trigger: ':scream:'
+- replace: "\U0001F616"
+  trigger: ':confounded:'
+- replace: "\U0001F623"
+  trigger: ':persevere:'
+- replace: "\U0001F61E"
+  trigger: ':disappointed:'
+- replace: "\U0001F613"
+  trigger: ':sweat:'
+- replace: "\U0001F629"
+  trigger: ':weary:'
+- replace: "\U0001F62B"
+  trigger: ':tired face:'
+- replace: "\U0001F971"
+  trigger: ':yawning face:'
+- replace: "\U0001F624"
+  trigger: ':triumph:'
+- replace: "\U0001F621"
+  trigger: ':rage:'
+- replace: "\U0001F620"
+  trigger: ':angry:'
+- replace: "\U0001F92C"
+  trigger: ':symbols over mouth:'
+- replace: "\U0001F608"
+  trigger: ':smiling imp:'
+- replace: "\U0001F47F"
+  trigger: ':imp:'
+- replace: "\U0001F480"
+  trigger: ':skull:'
+- replace: "\u2620"
+  trigger: ':skull and crossbones:'
+- replace: "\U0001F4A9"
+  trigger: ':poop:'
+- replace: "\U0001F921"
+  trigger: ':clown face:'
+- replace: "\U0001F479"
+  trigger: ':japanese ogre:'
+- replace: "\U0001F47A"
+  trigger: ':japanese goblin:'
+- replace: "\U0001F47B"
+  trigger: ':ghost:'
+- replace: "\U0001F47D"
+  trigger: ':alien:'
+- replace: "\U0001F47E"
+  trigger: ':space invader:'
+- replace: "\U0001F916"
+  trigger: ':robot:'
+- replace: "\U0001F63A"
+  trigger: ':smiley cat:'
+- replace: "\U0001F638"
+  trigger: ':smile cat:'
+- replace: "\U0001F639"
+  trigger: ':joy cat:'
+- replace: "\U0001F63B"
+  trigger: ':heart eyes cat:'
+- replace: "\U0001F63C"
+  trigger: ':smirk cat:'
+- replace: "\U0001F63D"
+  trigger: ':kissing cat:'
+- replace: "\U0001F640"
+  trigger: ':scream cat:'
+- replace: "\U0001F63F"
+  trigger: ':crying cat face:'
+- replace: "\U0001F63E"
+  trigger: ':pouting cat:'
+- replace: "\U0001F648"
+  trigger: ':see no evil:'
+- replace: "\U0001F649"
+  trigger: ':hear no evil:'
+- replace: "\U0001F64A"
+  trigger: ':speak no evil:'
+- replace: "\U0001F48C"
+  trigger: ':love letter:'
+- replace: "\U0001F498"
+  trigger: ':cupid:'
+- replace: "\U0001F49D"
+  trigger: ':gift heart:'
+- replace: "\U0001F496"
+  trigger: ':sparkling heart:'
+- replace: "\U0001F497"
+  trigger: ':heartpulse:'
+- replace: "\U0001F493"
+  trigger: ':heartbeat:'
+- replace: "\U0001F49E"
+  trigger: ':revolving hearts:'
+- replace: "\U0001F495"
+  trigger: ':two hearts:'
+- replace: "\U0001F49F"
+  trigger: ':heart decoration:'
+- replace: "\u2763"
+  trigger: ':heart exclamation:'
+- replace: "\U0001F494"
+  trigger: ':broken heart:'
+- replace: "\u2764\uFE0F\u200D\U0001F525"
+  trigger: ':heart on fire:'
+- replace: "\u2764\uFE0F\u200D\U0001FA79"
+  trigger: ':mending heart:'
+- replace: "\u2764"
+  trigger: ':red heart:'
+- replace: "\U0001FA77"
+  trigger: ':pink heart:'
+- replace: "\U0001F9E1"
+  trigger: ':orange heart:'
+- replace: "\U0001F49B"
+  trigger: ':yellow heart:'
+- replace: "\U0001F49A"
+  trigger: ':green heart:'
+- replace: "\U0001F499"
+  trigger: ':blue heart:'
+- replace: "\U0001FA75"
+  trigger: ':light blue heart:'
+- replace: "\U0001F49C"
+  trigger: ':purple heart:'
+- replace: "\U0001F90E"
+  trigger: ':brown heart:'
+- replace: "\U0001F5A4"
+  trigger: ':black heart:'
+- replace: "\U0001FA76"
+  trigger: ':grey heart:'
+- replace: "\U0001F90D"
+  trigger: ':white heart:'
+- replace: "\U0001F48B"
+  trigger: ':kiss:'
+- replace: "\U0001F4AF"
+  trigger: ':100:'
+- replace: "\U0001F4A2"
+  trigger: ':anger:'
+- replace: "\U0001F4A5"
+  trigger: ':boom:'
+- replace: "\U0001F4AB"
+  trigger: ':dizzy:'
+- replace: "\U0001F4A6"
+  trigger: ':sweat drops:'
+- replace: "\U0001F4A8"
+  trigger: ':dash:'
+- replace: "\U0001F573"
+  trigger: ':hole:'
+- replace: "\U0001F4AC"
+  trigger: ':speech balloon:'
+- replace: "\U0001F441\uFE0F\u200D\U0001F5E8\uFE0F"
+  trigger: ':eye in speech bubble:'
+- replace: "\U0001F5E8"
+  trigger: ':left speech bubble:'
+- replace: "\U0001F5EF"
+  trigger: ':right anger bubble:'
+- replace: "\U0001F4AD"
+  trigger: ':thought balloon:'
+- replace: "\U0001F4A4"
+  trigger: ':zzz:'
+- replace: "\U0001F44B"
+  trigger: ':wave:'
+- replace: "\U0001F91A"
+  trigger: ':raised back of hand:'
+- replace: "\U0001F590"
+  trigger: ':raised hand with fingers splayed:'
+- replace: "\u270B"
+  trigger: ':raised hand:'
+- replace: "\U0001F596"
+  trigger: ':vulcan salute:'
+- replace: "\U0001FAF1"
+  trigger: ':rightwards hand:'
+- replace: "\U0001FAF2"
+  trigger: ':leftwards hand:'
+- replace: "\U0001FAF3"
+  trigger: ':palm down hand:'
+- replace: "\U0001FAF4"
+  trigger: ':palm up hand:'
+- replace: "\U0001FAF7"
+  trigger: ':leftwards pushing hand:'
+- replace: "\U0001FAF8"
+  trigger: ':rightwards pushing hand:'
+- replace: "\U0001F44C"
+  trigger: ':ok hand:'
+- replace: "\U0001F90C"
+  trigger: ':pinched fingers:'
+- replace: "\U0001F90F"
+  trigger: ':pinching hand:'
+- replace: "\u270C"
+  trigger: ':victory hand:'
+- replace: "\U0001F91E"
+  trigger: ':crossed fingers:'
+- replace: "\U0001FAF0"
+  trigger: ':hand with index finger and thumb crossed:'
+- replace: "\U0001F91F"
+  trigger: ':love you:'
+- replace: "\U0001F918"
+  trigger: ':metal:'
+- replace: "\U0001F919"
+  trigger: ':call me hand:'
+- replace: "\U0001F448"
+  trigger: ':point left:'
+- replace: "\U0001F449"
+  trigger: ':point right:'
+- replace: "\U0001F446"
+  trigger: ':point up 2:'
+- replace: "\U0001F595"
+  trigger: ':fu:'
+- replace: "\U0001F447"
+  trigger: ':point down:'
+- replace: "\u261D"
+  trigger: ':index pointing up:'
+- replace: "\U0001FAF5"
+  trigger: ':index pointing at the viewer:'
+- replace: "\U0001F44D"
+  trigger: ':+1:'
+- replace: "\U0001F44E"
+  trigger: ':-1:'
+- replace: "\u270A"
+  trigger: ':raised fist:'
+- replace: "\U0001F44A"
+  trigger: ':facepunch:'
+- replace: "\U0001F91B"
+  trigger: ':fist left:'
+- replace: "\U0001F91C"
+  trigger: ':fist right:'
+- replace: "\U0001F44F"
+  trigger: ':clap:'
+- replace: "\U0001F64C"
+  trigger: ':raised hands:'
+- replace: "\U0001FAF6"
+  trigger: ':heart hands:'
+- replace: "\U0001F450"
+  trigger: ':open hands:'
+- replace: "\U0001F932"
+  trigger: ':palms up:'
+- replace: "\U0001F91D"
+  trigger: ':handshake:'
+- replace: "\U0001F64F"
+  trigger: ':pray:'
+- replace: "\u270D"
+  trigger: ':writing hand:'
+- replace: "\U0001F485"
+  trigger: ':nail care:'
+- replace: "\U0001F933"
+  trigger: ':selfie:'
+- replace: "\U0001F4AA"
+  trigger: ':muscle:'
+- replace: "\U0001F9BE"
+  trigger: ':mechanical arm:'
+- replace: "\U0001F9BF"
+  trigger: ':mechanical leg:'
+- replace: "\U0001F9B5"
+  trigger: ':leg:'
+- replace: "\U0001F9B6"
+  trigger: ':foot:'
+- replace: "\U0001F442"
+  trigger: ':ear:'
+- replace: "\U0001F9BB"
+  trigger: ':ear with hearing aid:'
+- replace: "\U0001F443"
+  trigger: ':nose:'
+- replace: "\U0001F9E0"
+  trigger: ':brain:'
+- replace: "\U0001FAC0"
+  trigger: ':anatomical heart:'
+- replace: "\U0001FAC1"
+  trigger: ':lungs:'
+- replace: "\U0001F9B7"
+  trigger: ':tooth:'
+- replace: "\U0001F9B4"
+  trigger: ':bone:'
+- replace: "\U0001F440"
+  trigger: ':eyes:'
+- replace: "\U0001F441"
+  trigger: ':eye:'
+- replace: "\U0001F445"
+  trigger: ':tongue:'
+- replace: "\U0001F444"
+  trigger: ':lips:'
+- replace: "\U0001FAE6"
+  trigger: ':biting lip:'
+- replace: "\U0001F476"
+  trigger: ':baby:'
+- replace: "\U0001F9D2"
+  trigger: ':child:'
+- replace: "\U0001F466"
+  trigger: ':boy:'
+- replace: "\U0001F467"
+  trigger: ':girl:'
+- replace: "\U0001F9D1"
+  trigger: ':adult:'
+- replace: "\U0001F471"
+  trigger: ':blonde man:'
+- replace: "\U0001F468"
+  trigger: ':man:'
+- replace: "\U0001F9D4"
+  trigger: ':bearded person:'
+- replace: "\U0001F9D4\u200D\u2642\uFE0F"
+  trigger: ':man beard:'
+- replace: "\U0001F9D4\u200D\u2640\uFE0F"
+  trigger: ':woman beard:'
+- replace: "\U0001F468\u200D\U0001F9B0"
+  trigger: ':man red hair:'
+- replace: "\U0001F468\u200D\U0001F9B1"
+  trigger: ':man curly hair:'
+- replace: "\U0001F468\u200D\U0001F9B3"
+  trigger: ':man white hair:'
+- replace: "\U0001F468\u200D\U0001F9B2"
+  trigger: ':man bald:'
+- replace: "\U0001F469"
+  trigger: ':woman:'
+- replace: "\U0001F469\u200D\U0001F9B0"
+  trigger: ':woman red hair:'
+- replace: "\U0001F9D1\u200D\U0001F9B0"
+  trigger: ':person red hair:'
+- replace: "\U0001F469\u200D\U0001F9B1"
+  trigger: ':woman curly hair:'
+- replace: "\U0001F9D1\u200D\U0001F9B1"
+  trigger: ':person curly hair:'
+- replace: "\U0001F469\u200D\U0001F9B3"
+  trigger: ':woman white hair:'
+- replace: "\U0001F9D1\u200D\U0001F9B3"
+  trigger: ':person white hair:'
+- replace: "\U0001F469\u200D\U0001F9B2"
+  trigger: ':woman bald:'
+- replace: "\U0001F9D1\u200D\U0001F9B2"
+  trigger: ':person bald:'
+- replace: "\U0001F471\u200D\u2640\uFE0F"
+  trigger: ':woman blond hair:'
+- replace: "\U0001F471\u200D\u2642\uFE0F"
+  trigger: ':man blond hair:'
+- replace: "\U0001F9D3"
+  trigger: ':older adult:'
+- replace: "\U0001F474"
+  trigger: ':older man:'
+- replace: "\U0001F475"
+  trigger: ':older woman:'
+- replace: "\U0001F64D"
+  trigger: ':frowning woman:'
+- replace: "\U0001F64D\u200D\u2642\uFE0F"
+  trigger: ':man frowning:'
+- replace: "\U0001F64D\u200D\u2640\uFE0F"
+  trigger: ':woman frowning:'
+- replace: "\U0001F64E"
+  trigger: ':pouting woman:'
+- replace: "\U0001F64E\u200D\u2642\uFE0F"
+  trigger: ':man pouting:'
+- replace: "\U0001F64E\u200D\u2640\uFE0F"
+  trigger: ':woman pouting:'
+- replace: "\U0001F645"
+  trigger: ':no good woman:'
+- replace: "\U0001F645\u200D\u2642\uFE0F"
+  trigger: ':man gesturing no:'
+- replace: "\U0001F645\u200D\u2640\uFE0F"
+  trigger: ':woman gesturing no:'
+- replace: "\U0001F646"
+  trigger: ':ok woman:'
+- replace: "\U0001F646\u200D\u2642\uFE0F"
+  trigger: ':man gesturing ok:'
+- replace: "\U0001F646\u200D\u2640\uFE0F"
+  trigger: ':woman gesturing ok:'
+- replace: "\U0001F481"
+  trigger: ':tipping hand woman:'
+- replace: "\U0001F481\u200D\u2642\uFE0F"
+  trigger: ':man tipping hand:'
+- replace: "\U0001F481\u200D\u2640\uFE0F"
+  trigger: ':woman tipping hand:'
+- replace: "\U0001F64B"
+  trigger: ':raising hand woman:'
+- replace: "\U0001F64B\u200D\u2642\uFE0F"
+  trigger: ':man raising hand:'
+- replace: "\U0001F64B\u200D\u2640\uFE0F"
+  trigger: ':woman raising hand:'
+- replace: "\U0001F9CF"
+  trigger: ':deaf person:'
+- replace: "\U0001F9CF\u200D\u2642\uFE0F"
+  trigger: ':deaf man:'
+- replace: "\U0001F9CF\u200D\u2640\uFE0F"
+  trigger: ':deaf woman:'
+- replace: "\U0001F647"
+  trigger: ':bowing man:'
+- replace: "\U0001F647\u200D\u2642\uFE0F"
+  trigger: ':man bowing:'
+- replace: "\U0001F647\u200D\u2640\uFE0F"
+  trigger: ':woman bowing:'
+- replace: "\U0001F926"
+  trigger: ':person facepalming:'
+- replace: "\U0001F926\u200D\u2642\uFE0F"
+  trigger: ':man facepalming:'
+- replace: "\U0001F926\u200D\u2640\uFE0F"
+  trigger: ':woman facepalming:'
+- replace: "\U0001F937"
+  trigger: ':woman shrugging:'
+- replace: "\U0001F937\u200D\u2642\uFE0F"
+  trigger: ':man shrugging:'
+- replace: "\U0001F937\u200D\u2640\uFE0F"
+  trigger: ':woman shrugging:'
+- replace: "\U0001F9D1\u200D\u2695\uFE0F"
+  trigger: ':health worker:'
+- replace: "\U0001F468\u200D\u2695\uFE0F"
+  trigger: ':man health worker:'
+- replace: "\U0001F469\u200D\u2695\uFE0F"
+  trigger: ':woman health worker:'
+- replace: "\U0001F9D1\u200D\U0001F393"
+  trigger: ':student:'
+- replace: "\U0001F468\u200D\U0001F393"
+  trigger: ':man student:'
+- replace: "\U0001F469\u200D\U0001F393"
+  trigger: ':woman student:'
+- replace: "\U0001F9D1\u200D\U0001F3EB"
+  trigger: ':teacher:'
+- replace: "\U0001F468\u200D\U0001F3EB"
+  trigger: ':man teacher:'
+- replace: "\U0001F469\u200D\U0001F3EB"
+  trigger: ':woman teacher:'
+- replace: "\U0001F9D1\u200D\u2696\uFE0F"
+  trigger: ':judge:'
+- replace: "\U0001F468\u200D\u2696\uFE0F"
+  trigger: ':man judge:'
+- replace: "\U0001F469\u200D\u2696\uFE0F"
+  trigger: ':woman judge:'
+- replace: "\U0001F9D1\u200D\U0001F33E"
+  trigger: ':farmer:'
+- replace: "\U0001F468\u200D\U0001F33E"
+  trigger: ':man farmer:'
+- replace: "\U0001F469\u200D\U0001F33E"
+  trigger: ':woman farmer:'
+- replace: "\U0001F9D1\u200D\U0001F373"
+  trigger: ':cook:'
+- replace: "\U0001F468\u200D\U0001F373"
+  trigger: ':man cook:'
+- replace: "\U0001F469\u200D\U0001F373"
+  trigger: ':woman cook:'
+- replace: "\U0001F9D1\u200D\U0001F527"
+  trigger: ':mechanic:'
+- replace: "\U0001F468\u200D\U0001F527"
+  trigger: ':man mechanic:'
+- replace: "\U0001F469\u200D\U0001F527"
+  trigger: ':woman mechanic:'
+- replace: "\U0001F9D1\u200D\U0001F3ED"
+  trigger: ':factory worker:'
+- replace: "\U0001F468\u200D\U0001F3ED"
+  trigger: ':man factory worker:'
+- replace: "\U0001F469\u200D\U0001F3ED"
+  trigger: ':woman factory worker:'
+- replace: "\U0001F9D1\u200D\U0001F4BC"
+  trigger: ':office worker:'
+- replace: "\U0001F468\u200D\U0001F4BC"
+  trigger: ':man office worker:'
+- replace: "\U0001F469\u200D\U0001F4BC"
+  trigger: ':woman office worker:'
+- replace: "\U0001F9D1\u200D\U0001F52C"
+  trigger: ':scientist:'
+- replace: "\U0001F468\u200D\U0001F52C"
+  trigger: ':man scientist:'
+- replace: "\U0001F469\u200D\U0001F52C"
+  trigger: ':woman scientist:'
+- replace: "\U0001F9D1\u200D\U0001F4BB"
+  trigger: ':technologist:'
+- replace: "\U0001F468\u200D\U0001F4BB"
+  trigger: ':man technologist:'
+- replace: "\U0001F469\u200D\U0001F4BB"
+  trigger: ':woman technologist:'
+- replace: "\U0001F9D1\u200D\U0001F3A4"
+  trigger: ':singer:'
+- replace: "\U0001F468\u200D\U0001F3A4"
+  trigger: ':man singer:'
+- replace: "\U0001F469\u200D\U0001F3A4"
+  trigger: ':woman singer:'
+- replace: "\U0001F9D1\u200D\U0001F3A8"
+  trigger: ':artist:'
+- replace: "\U0001F468\u200D\U0001F3A8"
+  trigger: ':man artist:'
+- replace: "\U0001F469\u200D\U0001F3A8"
+  trigger: ':woman artist:'
+- replace: "\U0001F9D1\u200D\u2708\uFE0F"
+  trigger: ':pilot:'
+- replace: "\U0001F468\u200D\u2708\uFE0F"
+  trigger: ':man pilot:'
+- replace: "\U0001F469\u200D\u2708\uFE0F"
+  trigger: ':woman pilot:'
+- replace: "\U0001F9D1\u200D\U0001F680"
+  trigger: ':astronaut:'
+- replace: "\U0001F468\u200D\U0001F680"
+  trigger: ':man astronaut:'
+- replace: "\U0001F469\u200D\U0001F680"
+  trigger: ':woman astronaut:'
+- replace: "\U0001F9D1\u200D\U0001F692"
+  trigger: ':firefighter:'
+- replace: "\U0001F468\u200D\U0001F692"
+  trigger: ':man firefighter:'
+- replace: "\U0001F469\u200D\U0001F692"
+  trigger: ':woman firefighter:'
+- replace: "\U0001F46E"
+  trigger: ':policeman:'
+- replace: "\U0001F46E\u200D\u2642\uFE0F"
+  trigger: ':man police officer:'
+- replace: "\U0001F46E\u200D\u2640\uFE0F"
+  trigger: ':woman police officer:'
+- replace: "\U0001F575"
+  trigger: ':male detective:'
+- replace: "\U0001F575\uFE0F\u200D\u2642\uFE0F"
+  trigger: ':man detective:'
+- replace: "\U0001F575\uFE0F\u200D\u2640\uFE0F"
+  trigger: ':woman detective:'
+- replace: "\U0001F482"
+  trigger: ':guardsman:'
+- replace: "\U0001F482\u200D\u2642\uFE0F"
+  trigger: ':man guard:'
+- replace: "\U0001F482\u200D\u2640\uFE0F"
+  trigger: ':woman guard:'
+- replace: "\U0001F977"
+  trigger: ':ninja:'
+- replace: "\U0001F477"
+  trigger: ':construction worker man:'
+- replace: "\U0001F477\u200D\u2642\uFE0F"
+  trigger: ':man construction worker:'
+- replace: "\U0001F477\u200D\u2640\uFE0F"
+  trigger: ':woman construction worker:'
+- replace: "\U0001FAC5"
+  trigger: ':person with crown:'
+- replace: "\U0001F934"
+  trigger: ':prince:'
+- replace: "\U0001F478"
+  trigger: ':princess:'
+- replace: "\U0001F473"
+  trigger: ':man with turban:'
+- replace: "\U0001F473\u200D\u2642\uFE0F"
+  trigger: ':man wearing turban:'
+- replace: "\U0001F473\u200D\u2640\uFE0F"
+  trigger: ':woman wearing turban:'
+- replace: "\U0001F472"
+  trigger: ':man with gua pi mao:'
+- replace: "\U0001F9D5"
+  trigger: ':woman with headscarf:'
+- replace: "\U0001F935"
+  trigger: ':man in tuxedo:'
+- replace: "\U0001F935\u200D\u2642\uFE0F"
+  trigger: ':man in tuxedo:'
+- replace: "\U0001F935\u200D\u2640\uFE0F"
+  trigger: ':woman in tuxedo:'
+- replace: "\U0001F470"
+  trigger: ':bride with veil:'
+- replace: "\U0001F470\u200D\u2642\uFE0F"
+  trigger: ':man with veil:'
+- replace: "\U0001F470\u200D\u2640\uFE0F"
+  trigger: ':woman with veil:'
+- replace: "\U0001F930"
+  trigger: ':pregnant woman:'
+- replace: "\U0001FAC3"
+  trigger: ':pregnant man:'
+- replace: "\U0001FAC4"
+  trigger: ':pregnant person:'
+- replace: "\U0001F931"
+  trigger: ':breastfeeding:'
+- replace: "\U0001F469\u200D\U0001F37C"
+  trigger: ':woman feeding baby:'
+- replace: "\U0001F468\u200D\U0001F37C"
+  trigger: ':man feeding baby:'
+- replace: "\U0001F9D1\u200D\U0001F37C"
+  trigger: ':person feeding baby:'
+- replace: "\U0001F47C"
+  trigger: ':angel:'
+- replace: "\U0001F385"
+  trigger: ':santa:'
+- replace: "\U0001F936"
+  trigger: ':mrs claus:'
+- replace: "\U0001F9D1\u200D\U0001F384"
+  trigger: ':mx claus:'
+- replace: "\U0001F9B8"
+  trigger: ':superhero:'
+- replace: "\U0001F9B8\u200D\u2642\uFE0F"
+  trigger: ':man superhero:'
+- replace: "\U0001F9B8\u200D\u2640\uFE0F"
+  trigger: ':woman superhero:'
+- replace: "\U0001F9B9"
+  trigger: ':supervillain:'
+- replace: "\U0001F9B9\u200D\u2642\uFE0F"
+  trigger: ':man supervillain:'
+- replace: "\U0001F9B9\u200D\u2640\uFE0F"
+  trigger: ':woman supervillain:'
+- replace: "\U0001F9D9"
+  trigger: ':mage:'
+- replace: "\U0001F9D9\u200D\u2642\uFE0F"
+  trigger: ':man mage:'
+- replace: "\U0001F9D9\u200D\u2640\uFE0F"
+  trigger: ':woman mage:'
+- replace: "\U0001F9DA"
+  trigger: ':fairy:'
+- replace: "\U0001F9DA\u200D\u2642\uFE0F"
+  trigger: ':man fairy:'
+- replace: "\U0001F9DA\u200D\u2640\uFE0F"
+  trigger: ':woman fairy:'
+- replace: "\U0001F9DB"
+  trigger: ':vampire:'
+- replace: "\U0001F9DB\u200D\u2642\uFE0F"
+  trigger: ':man vampire:'
+- replace: "\U0001F9DB\u200D\u2640\uFE0F"
+  trigger: ':woman vampire:'
+- replace: "\U0001F9DC"
+  trigger: ':merperson:'
+- replace: "\U0001F9DC\u200D\u2642\uFE0F"
+  trigger: ':merman:'
+- replace: "\U0001F9DC\u200D\u2640\uFE0F"
+  trigger: ':mermaid:'
+- replace: "\U0001F9DD"
+  trigger: ':elf:'
+- replace: "\U0001F9DD\u200D\u2642\uFE0F"
+  trigger: ':man elf:'
+- replace: "\U0001F9DD\u200D\u2640\uFE0F"
+  trigger: ':woman elf:'
+- replace: "\U0001F9DE"
+  trigger: ':genie:'
+- replace: "\U0001F9DE\u200D\u2642\uFE0F"
+  trigger: ':man genie:'
+- replace: "\U0001F9DE\u200D\u2640\uFE0F"
+  trigger: ':woman genie:'
+- replace: "\U0001F9DF"
+  trigger: ':zombie:'
+- replace: "\U0001F9DF\u200D\u2642\uFE0F"
+  trigger: ':man zombie:'
+- replace: "\U0001F9DF\u200D\u2640\uFE0F"
+  trigger: ':woman zombie:'
+- replace: "\U0001F9CC"
+  trigger: ':troll:'
+- replace: "\U0001F486"
+  trigger: ':massage woman:'
+- replace: "\U0001F486\u200D\u2642\uFE0F"
+  trigger: ':man getting massage:'
+- replace: "\U0001F486\u200D\u2640\uFE0F"
+  trigger: ':woman getting massage:'
+- replace: "\U0001F487"
+  trigger: ':haircut woman:'
+- replace: "\U0001F487\u200D\u2642\uFE0F"
+  trigger: ':man getting haircut:'
+- replace: "\U0001F487\u200D\u2640\uFE0F"
+  trigger: ':woman getting haircut:'
+- replace: "\U0001F6B6"
+  trigger: ':walking man:'
+- replace: "\U0001F6B6\u200D\u2642\uFE0F"
+  trigger: ':man walking:'
+- replace: "\U0001F6B6\u200D\u2640\uFE0F"
+  trigger: ':woman walking:'
+- replace: "\U0001F9CD"
+  trigger: ':person standing:'
+- replace: "\U0001F9CD\u200D\u2642\uFE0F"
+  trigger: ':man standing:'
+- replace: "\U0001F9CD\u200D\u2640\uFE0F"
+  trigger: ':woman standing:'
+- replace: "\U0001F9CE"
+  trigger: ':person kneeling:'
+- replace: "\U0001F9CE\u200D\u2642\uFE0F"
+  trigger: ':man kneeling:'
+- replace: "\U0001F9CE\u200D\u2640\uFE0F"
+  trigger: ':woman kneeling:'
+- replace: "\U0001F9D1\u200D\U0001F9AF"
+  trigger: ':person with white cane:'
+- replace: "\U0001F468\u200D\U0001F9AF"
+  trigger: ':man with white cane:'
+- replace: "\U0001F469\u200D\U0001F9AF"
+  trigger: ':woman with white cane:'
+- replace: "\U0001F9D1\u200D\U0001F9BC"
+  trigger: ':person in motorized wheelchair:'
+- replace: "\U0001F468\u200D\U0001F9BC"
+  trigger: ':man in motorized wheelchair:'
+- replace: "\U0001F469\u200D\U0001F9BC"
+  trigger: ':woman in motorized wheelchair:'
+- replace: "\U0001F9D1\u200D\U0001F9BD"
+  trigger: ':person in manual wheelchair:'
+- replace: "\U0001F468\u200D\U0001F9BD"
+  trigger: ':man in manual wheelchair:'
+- replace: "\U0001F469\u200D\U0001F9BD"
+  trigger: ':woman in manual wheelchair:'
+- replace: "\U0001F3C3"
+  trigger: ':running man:'
+- replace: "\U0001F3C3\u200D\u2642\uFE0F"
+  trigger: ':man running:'
+- replace: "\U0001F3C3\u200D\u2640\uFE0F"
+  trigger: ':woman running:'
+- replace: "\U0001F483"
+  trigger: ':dancer:'
+- replace: "\U0001F57A"
+  trigger: ':man dancing:'
+- replace: "\U0001F574"
+  trigger: ':business suit levitating:'
+- replace: "\U0001F46F"
+  trigger: ':dancing women:'
+- replace: "\U0001F46F\u200D\u2642\uFE0F"
+  trigger: ':men with bunny ears:'
+- replace: "\U0001F46F\u200D\u2640\uFE0F"
+  trigger: ':women with bunny ears:'
+- replace: "\U0001F9D6"
+  trigger: ':person in steamy room:'
+- replace: "\U0001F9D6\u200D\u2642\uFE0F"
+  trigger: ':man in steamy room:'
+- replace: "\U0001F9D6\u200D\u2640\uFE0F"
+  trigger: ':woman in steamy room:'
+- replace: "\U0001F9D7"
+  trigger: ':person climbing:'
+- replace: "\U0001F9D7\u200D\u2642\uFE0F"
+  trigger: ':man climbing:'
+- replace: "\U0001F9D7\u200D\u2640\uFE0F"
+  trigger: ':woman climbing:'
+- replace: "\U0001F93A"
+  trigger: ':person fencing:'
+- replace: "\U0001F3C7"
+  trigger: ':horse racing:'
+- replace: "\u26F7"
+  trigger: ':skier:'
+- replace: "\U0001F3C2"
+  trigger: ':snowboarder:'
+- replace: "\U0001F3CC"
+  trigger: ':golfing man:'
+- replace: "\U0001F3CC\uFE0F\u200D\u2642\uFE0F"
+  trigger: ':man golfing:'
+- replace: "\U0001F3CC\uFE0F\u200D\u2640\uFE0F"
+  trigger: ':woman golfing:'
+- replace: "\U0001F3C4"
+  trigger: ':surfing man:'
+- replace: "\U0001F3C4\u200D\u2642\uFE0F"
+  trigger: ':man surfing:'
+- replace: "\U0001F3C4\u200D\u2640\uFE0F"
+  trigger: ':woman surfing:'
+- replace: "\U0001F6A3"
+  trigger: ':rowing man:'
+- replace: "\U0001F6A3\u200D\u2642\uFE0F"
+  trigger: ':man rowing boat:'
+- replace: "\U0001F6A3\u200D\u2640\uFE0F"
+  trigger: ':woman rowing boat:'
+- replace: "\U0001F3CA"
+  trigger: ':swimming man:'
+- replace: "\U0001F3CA\u200D\u2642\uFE0F"
+  trigger: ':man swimming:'
+- replace: "\U0001F3CA\u200D\u2640\uFE0F"
+  trigger: ':woman swimming:'
+- replace: "\u26F9"
+  trigger: ':person bouncing ball:'
+- replace: "\u26F9\uFE0F\u200D\u2642\uFE0F"
+  trigger: ':man bouncing ball:'
+- replace: "\u26F9\uFE0F\u200D\u2640\uFE0F"
+  trigger: ':woman bouncing ball:'
+- replace: "\U0001F3CB"
+  trigger: ':weight lifting man:'
+- replace: "\U0001F3CB\uFE0F\u200D\u2642\uFE0F"
+  trigger: ':man lifting weights:'
+- replace: "\U0001F3CB\uFE0F\u200D\u2640\uFE0F"
+  trigger: ':woman lifting weights:'
+- replace: "\U0001F6B4"
+  trigger: ':biking man:'
+- replace: "\U0001F6B4\u200D\u2642\uFE0F"
+  trigger: ':man biking:'
+- replace: "\U0001F6B4\u200D\u2640\uFE0F"
+  trigger: ':woman biking:'
+- replace: "\U0001F6B5"
+  trigger: ':mountain biking man:'
+- replace: "\U0001F6B5\u200D\u2642\uFE0F"
+  trigger: ':man mountain biking:'
+- replace: "\U0001F6B5\u200D\u2640\uFE0F"
+  trigger: ':woman mountain biking:'
+- replace: "\U0001F938"
+  trigger: ':person cartwheeling:'
+- replace: "\U0001F938\u200D\u2642\uFE0F"
+  trigger: ':man cartwheeling:'
+- replace: "\U0001F938\u200D\u2640\uFE0F"
+  trigger: ':woman cartwheeling:'
+- replace: "\U0001F93C"
+  trigger: ':people wrestling:'
+- replace: "\U0001F93C\u200D\u2642\uFE0F"
+  trigger: ':men wrestling:'
+- replace: "\U0001F93C\u200D\u2640\uFE0F"
+  trigger: ':women wrestling:'
+- replace: "\U0001F93D"
+  trigger: ':person playing water polo:'
+- replace: "\U0001F93D\u200D\u2642\uFE0F"
+  trigger: ':man playing water polo:'
+- replace: "\U0001F93D\u200D\u2640\uFE0F"
+  trigger: ':woman playing water polo:'
+- replace: "\U0001F93E"
+  trigger: ':person playing handball:'
+- replace: "\U0001F93E\u200D\u2642\uFE0F"
+  trigger: ':man playing handball:'
+- replace: "\U0001F93E\u200D\u2640\uFE0F"
+  trigger: ':woman playing handball:'
+- replace: "\U0001F939"
+  trigger: ':person juggling:'
+- replace: "\U0001F939\u200D\u2642\uFE0F"
+  trigger: ':man juggling:'
+- replace: "\U0001F939\u200D\u2640\uFE0F"
+  trigger: ':woman juggling:'
+- replace: "\U0001F9D8"
+  trigger: ':person in lotus position:'
+- replace: "\U0001F9D8\u200D\u2642\uFE0F"
+  trigger: ':man in lotus position:'
+- replace: "\U0001F9D8\u200D\u2640\uFE0F"
+  trigger: ':woman in lotus position:'
+- replace: "\U0001F6C0"
+  trigger: ':bath:'
+- replace: "\U0001F6CC"
+  trigger: ':sleeping bed:'
+- replace: "\U0001F9D1\u200D\U0001F91D\u200D\U0001F9D1"
+  trigger: ':people holding hands:'
+- replace: "\U0001F46D"
+  trigger: ':two women holding hands:'
+- replace: "\U0001F46B"
+  trigger: ':couple:'
+- replace: "\U0001F46C"
+  trigger: ':two men holding hands:'
+- replace: "\U0001F48F"
+  trigger: ':couplekiss man woman:'
+- replace: "\U0001F469\u200D\u2764\uFE0F\u200D\U0001F48B\u200D\U0001F468"
+  trigger: ':kiss woman, man:'
+- replace: "\U0001F468\u200D\u2764\uFE0F\u200D\U0001F48B\u200D\U0001F468"
+  trigger: ':kiss man, man:'
+- replace: "\U0001F469\u200D\u2764\uFE0F\u200D\U0001F48B\u200D\U0001F469"
+  trigger: ':kiss woman, woman:'
+- replace: "\U0001F491"
+  trigger: ':couple with heart woman man:'
+- replace: "\U0001F469\u200D\u2764\uFE0F\u200D\U0001F468"
+  trigger: ':couple with heart woman, man:'
+- replace: "\U0001F468\u200D\u2764\uFE0F\u200D\U0001F468"
+  trigger: ':couple with heart man, man:'
+- replace: "\U0001F469\u200D\u2764\uFE0F\u200D\U0001F469"
+  trigger: ':couple with heart woman, woman:'
+- replace: "\U0001F46A"
+  trigger: ':family man woman boy:'
+- replace: "\U0001F468\u200D\U0001F469\u200D\U0001F466"
+  trigger: ':family man, woman, boy:'
+- replace: "\U0001F468\u200D\U0001F469\u200D\U0001F467"
+  trigger: ':family man, woman, girl:'
+- replace: "\U0001F468\u200D\U0001F469\u200D\U0001F467\u200D\U0001F466"
+  trigger: ':family man, woman, girl, boy:'
+- replace: "\U0001F468\u200D\U0001F469\u200D\U0001F466\u200D\U0001F466"
+  trigger: ':family man, woman, boy, boy:'
+- replace: "\U0001F468\u200D\U0001F469\u200D\U0001F467\u200D\U0001F467"
+  trigger: ':family man, woman, girl, girl:'
+- replace: "\U0001F468\u200D\U0001F468\u200D\U0001F466"
+  trigger: ':family man, man, boy:'
+- replace: "\U0001F468\u200D\U0001F468\u200D\U0001F467"
+  trigger: ':family man, man, girl:'
+- replace: "\U0001F468\u200D\U0001F468\u200D\U0001F467\u200D\U0001F466"
+  trigger: ':family man, man, girl, boy:'
+- replace: "\U0001F468\u200D\U0001F468\u200D\U0001F466\u200D\U0001F466"
+  trigger: ':family man, man, boy, boy:'
+- replace: "\U0001F468\u200D\U0001F468\u200D\U0001F467\u200D\U0001F467"
+  trigger: ':family man, man, girl, girl:'
+- replace: "\U0001F469\u200D\U0001F469\u200D\U0001F466"
+  trigger: ':family woman, woman, boy:'
+- replace: "\U0001F469\u200D\U0001F469\u200D\U0001F467"
+  trigger: ':family woman, woman, girl:'
+- replace: "\U0001F469\u200D\U0001F469\u200D\U0001F467\u200D\U0001F466"
+  trigger: ':family woman, woman, girl, boy:'
+- replace: "\U0001F469\u200D\U0001F469\u200D\U0001F466\u200D\U0001F466"
+  trigger: ':family woman, woman, boy, boy:'
+- replace: "\U0001F469\u200D\U0001F469\u200D\U0001F467\u200D\U0001F467"
+  trigger: ':family woman, woman, girl, girl:'
+- replace: "\U0001F468\u200D\U0001F466"
+  trigger: ':family man, boy:'
+- replace: "\U0001F468\u200D\U0001F466\u200D\U0001F466"
+  trigger: ':family man, boy, boy:'
+- replace: "\U0001F468\u200D\U0001F467"
+  trigger: ':family man, girl:'
+- replace: "\U0001F468\u200D\U0001F467\u200D\U0001F466"
+  trigger: ':family man, girl, boy:'
+- replace: "\U0001F468\u200D\U0001F467\u200D\U0001F467"
+  trigger: ':family man, girl, girl:'
+- replace: "\U0001F469\u200D\U0001F466"
+  trigger: ':family woman, boy:'
+- replace: "\U0001F469\u200D\U0001F466\u200D\U0001F466"
+  trigger: ':family woman, boy, boy:'
+- replace: "\U0001F469\u200D\U0001F467"
+  trigger: ':family woman, girl:'
+- replace: "\U0001F469\u200D\U0001F467\u200D\U0001F466"
+  trigger: ':family woman, girl, boy:'
+- replace: "\U0001F469\u200D\U0001F467\u200D\U0001F467"
+  trigger: ':family woman, girl, girl:'
+- replace: "\U0001F5E3"
+  trigger: ':speaking head:'
+- replace: "\U0001F464"
+  trigger: ':bust in silhouette:'
+- replace: "\U0001F465"
+  trigger: ':busts in silhouette:'
+- replace: "\U0001FAC2"
+  trigger: ':people hugging:'
+- replace: "\U0001F463"
+  trigger: ':footprints:'
+- replace: "\U0001F9B0"
+  trigger: ':red hair:'
+- replace: "\U0001F9B1"
+  trigger: ':curly hair:'
+- replace: "\U0001F9B3"
+  trigger: ':white hair:'
+- replace: "\U0001F9B2"
+  trigger: ':bald:'
+- replace: "\U0001F435"
+  trigger: ':monkey face:'
+- replace: "\U0001F412"
+  trigger: ':monkey:'
+- replace: "\U0001F98D"
+  trigger: ':gorilla:'
+- replace: "\U0001F9A7"
+  trigger: ':orangutan:'
+- replace: "\U0001F436"
+  trigger: ':dog:'
+- replace: "\U0001F415"
+  trigger: ':dog2:'
+- replace: "\U0001F9AE"
+  trigger: ':guide dog:'
+- replace: "\U0001F415\u200D\U0001F9BA"
+  trigger: ':service dog:'
+- replace: "\U0001F429"
+  trigger: ':poodle:'
+- replace: "\U0001F43A"
+  trigger: ':wolf:'
+- replace: "\U0001F98A"
+  trigger: ':fox face:'
+- replace: "\U0001F99D"
+  trigger: ':raccoon:'
+- replace: "\U0001F431"
+  trigger: ':cat:'
+- replace: "\U0001F408"
+  trigger: ':cat2:'
+- replace: "\U0001F408\u200D\u2B1B"
+  trigger: ':black cat:'
+- replace: "\U0001F981"
+  trigger: ':lion:'
+- replace: "\U0001F42F"
+  trigger: ':tiger:'
+- replace: "\U0001F405"
+  trigger: ':tiger2:'
+- replace: "\U0001F406"
+  trigger: ':leopard:'
+- replace: "\U0001F434"
+  trigger: ':horse:'
+- replace: "\U0001FACE"
+  trigger: ':moose:'
+- replace: "\U0001FACF"
+  trigger: ':donkey:'
+- replace: "\U0001F40E"
+  trigger: ':racehorse:'
+- replace: "\U0001F984"
+  trigger: ':unicorn:'
+- replace: "\U0001F993"
+  trigger: ':zebra:'
+- replace: "\U0001F98C"
+  trigger: ':deer:'
+- replace: "\U0001F9AC"
+  trigger: ':bison:'
+- replace: "\U0001F42E"
+  trigger: ':cow:'
+- replace: "\U0001F402"
+  trigger: ':ox:'
+- replace: "\U0001F403"
+  trigger: ':water buffalo:'
+- replace: "\U0001F404"
+  trigger: ':cow2:'
+- replace: "\U0001F437"
+  trigger: ':pig:'
+- replace: "\U0001F416"
+  trigger: ':pig2:'
+- replace: "\U0001F417"
+  trigger: ':boar:'
+- replace: "\U0001F43D"
+  trigger: ':pig nose:'
+- replace: "\U0001F40F"
+  trigger: ':ram:'
+- replace: "\U0001F411"
+  trigger: ':sheep:'
+- replace: "\U0001F410"
+  trigger: ':goat:'
+- replace: "\U0001F42A"
+  trigger: ':dromedary camel:'
+- replace: "\U0001F42B"
+  trigger: ':camel:'
+- replace: "\U0001F999"
+  trigger: ':llama:'
+- replace: "\U0001F992"
+  trigger: ':giraffe:'
+- replace: "\U0001F418"
+  trigger: ':elephant:'
+- replace: "\U0001F9A3"
+  trigger: ':mammoth:'
+- replace: "\U0001F98F"
+  trigger: ':rhinoceros:'
+- replace: "\U0001F99B"
+  trigger: ':hippopotamus:'
+- replace: "\U0001F42D"
+  trigger: ':mouse:'
+- replace: "\U0001F401"
+  trigger: ':mouse2:'
+- replace: "\U0001F400"
+  trigger: ':rat:'
+- replace: "\U0001F439"
+  trigger: ':hamster:'
+- replace: "\U0001F430"
+  trigger: ':rabbit:'
+- replace: "\U0001F407"
+  trigger: ':rabbit2:'
+- replace: "\U0001F43F"
+  trigger: ':chipmunk:'
+- replace: "\U0001F9AB"
+  trigger: ':beaver:'
+- replace: "\U0001F994"
+  trigger: ':hedgehog:'
+- replace: "\U0001F987"
+  trigger: ':bat:'
+- replace: "\U0001F43B"
+  trigger: ':bear:'
+- replace: "\U0001F43B\u200D\u2744\uFE0F"
+  trigger: ':polar bear:'
+- replace: "\U0001F428"
+  trigger: ':koala:'
+- replace: "\U0001F43C"
+  trigger: ':panda face:'
+- replace: "\U0001F9A5"
+  trigger: ':sloth:'
+- replace: "\U0001F9A6"
+  trigger: ':otter:'
+- replace: "\U0001F9A8"
+  trigger: ':skunk:'
+- replace: "\U0001F998"
+  trigger: ':kangaroo:'
+- replace: "\U0001F9A1"
+  trigger: ':badger:'
+- replace: "\U0001F43E"
+  trigger: ':paw prints:'
+- replace: "\U0001F983"
+  trigger: ':turkey:'
+- replace: "\U0001F414"
+  trigger: ':chicken:'
+- replace: "\U0001F413"
+  trigger: ':rooster:'
+- replace: "\U0001F423"
+  trigger: ':hatching chick:'
+- replace: "\U0001F424"
+  trigger: ':baby chick:'
+- replace: "\U0001F425"
+  trigger: ':hatched chick:'
+- replace: "\U0001F426"
+  trigger: ':bird:'
+- replace: "\U0001F427"
+  trigger: ':penguin:'
+- replace: "\U0001F54A"
+  trigger: ':dove:'
+- replace: "\U0001F985"
+  trigger: ':eagle:'
+- replace: "\U0001F986"
+  trigger: ':duck:'
+- replace: "\U0001F9A2"
+  trigger: ':swan:'
+- replace: "\U0001F989"
+  trigger: ':owl:'
+- replace: "\U0001F9A4"
+  trigger: ':dodo:'
+- replace: "\U0001FAB6"
+  trigger: ':feather:'
+- replace: "\U0001F9A9"
+  trigger: ':flamingo:'
+- replace: "\U0001F99A"
+  trigger: ':peacock:'
+- replace: "\U0001F99C"
+  trigger: ':parrot:'
+- replace: "\U0001FABD"
+  trigger: ':wing:'
+- replace: "\U0001F426\u200D\u2B1B"
+  trigger: ':black bird:'
+- replace: "\U0001FABF"
+  trigger: ':goose:'
+- replace: "\U0001F438"
+  trigger: ':frog:'
+- replace: "\U0001F40A"
+  trigger: ':crocodile:'
+- replace: "\U0001F422"
+  trigger: ':turtle:'
+- replace: "\U0001F98E"
+  trigger: ':lizard:'
+- replace: "\U0001F40D"
+  trigger: ':snake:'
+- replace: "\U0001F432"
+  trigger: ':dragon face:'
+- replace: "\U0001F409"
+  trigger: ':dragon:'
+- replace: "\U0001F995"
+  trigger: ':sauropod:'
+- replace: "\U0001F996"
+  trigger: ':t-rex:'
+- replace: "\U0001F433"
+  trigger: ':whale:'
+- replace: "\U0001F40B"
+  trigger: ':whale2:'
+- replace: "\U0001F42C"
+  trigger: ':dolphin:'
+- replace: "\U0001F9AD"
+  trigger: ':seal:'
+- replace: "\U0001F41F"
+  trigger: ':fish:'
+- replace: "\U0001F420"
+  trigger: ':tropical fish:'
+- replace: "\U0001F421"
+  trigger: ':blowfish:'
+- replace: "\U0001F988"
+  trigger: ':shark:'
+- replace: "\U0001F419"
+  trigger: ':octopus:'
+- replace: "\U0001F41A"
+  trigger: ':shell:'
+- replace: "\U0001FAB8"
+  trigger: ':coral:'
+- replace: "\U0001FABC"
+  trigger: ':jellyfish:'
+- replace: "\U0001F40C"
+  trigger: ':snail:'
+- replace: "\U0001F98B"
+  trigger: ':butterfly:'
+- replace: "\U0001F41B"
+  trigger: ':bug:'
+- replace: "\U0001F41C"
+  trigger: ':ant:'
+- replace: "\U0001F41D"
+  trigger: ':honeybee:'
+- replace: "\U0001FAB2"
+  trigger: ':beetle:'
+- replace: "\U0001F41E"
+  trigger: ':beetle:'
+- replace: "\U0001F997"
+  trigger: ':grasshopper:'
+- replace: "\U0001FAB3"
+  trigger: ':cockroach:'
+- replace: "\U0001F577"
+  trigger: ':spider:'
+- replace: "\U0001F578"
+  trigger: ':spider web:'
+- replace: "\U0001F982"
+  trigger: ':scorpion:'
+- replace: "\U0001F99F"
+  trigger: ':mosquito:'
+- replace: "\U0001FAB0"
+  trigger: ':fly:'
+- replace: "\U0001FAB1"
+  trigger: ':worm:'
+- replace: "\U0001F9A0"
+  trigger: ':microbe:'
+- replace: "\U0001F490"
+  trigger: ':bouquet:'
+- replace: "\U0001F338"
+  trigger: ':cherry blossom:'
+- replace: "\U0001F4AE"
+  trigger: ':white flower:'
+- replace: "\U0001FAB7"
+  trigger: ':lotus:'
+- replace: "\U0001F3F5"
+  trigger: ':rosette:'
+- replace: "\U0001F339"
+  trigger: ':rose:'
+- replace: "\U0001F940"
+  trigger: ':wilted flower:'
+- replace: "\U0001F33A"
+  trigger: ':hibiscus:'
+- replace: "\U0001F33B"
+  trigger: ':sunflower:'
+- replace: "\U0001F33C"
+  trigger: ':blossom:'
+- replace: "\U0001F337"
+  trigger: ':tulip:'
+- replace: "\U0001FABB"
+  trigger: ':hyacinth:'
+- replace: "\U0001F331"
+  trigger: ':seedling:'
+- replace: "\U0001FAB4"
+  trigger: ':potted plant:'
+- replace: "\U0001F332"
+  trigger: ':evergreen tree:'
+- replace: "\U0001F333"
+  trigger: ':deciduous tree:'
+- replace: "\U0001F334"
+  trigger: ':palm tree:'
+- replace: "\U0001F335"
+  trigger: ':cactus:'
+- replace: "\U0001F33E"
+  trigger: ':ear of rice:'
+- replace: "\U0001F33F"
+  trigger: ':herb:'
+- replace: "\u2618"
+  trigger: ':shamrock:'
+- replace: "\U0001F340"
+  trigger: ':four leaf clover:'
+- replace: "\U0001F341"
+  trigger: ':maple leaf:'
+- replace: "\U0001F342"
+  trigger: ':fallen leaf:'
+- replace: "\U0001F343"
+  trigger: ':leaves:'
+- replace: "\U0001FAB9"
+  trigger: ':empty nest:'
+- replace: "\U0001FABA"
+  trigger: ':nest with eggs:'
+- replace: "\U0001F344"
+  trigger: ':mushroom:'
+- replace: "\U0001F347"
+  trigger: ':grapes:'
+- replace: "\U0001F348"
+  trigger: ':melon:'
+- replace: "\U0001F349"
+  trigger: ':watermelon:'
+- replace: "\U0001F34A"
+  trigger: ':tangerine:'
+- replace: "\U0001F34B"
+  trigger: ':lemon:'
+- replace: "\U0001F34C"
+  trigger: ':banana:'
+- replace: "\U0001F34D"
+  trigger: ':pineapple:'
+- replace: "\U0001F96D"
+  trigger: ':mango:'
+- replace: "\U0001F34E"
+  trigger: ':apple:'
+- replace: "\U0001F34F"
+  trigger: ':green apple:'
+- replace: "\U0001F350"
+  trigger: ':pear:'
+- replace: "\U0001F351"
+  trigger: ':peach:'
+- replace: "\U0001F352"
+  trigger: ':cherries:'
+- replace: "\U0001F353"
+  trigger: ':strawberry:'
+- replace: "\U0001FAD0"
+  trigger: ':blueberries:'
+- replace: "\U0001F95D"
+  trigger: ':kiwi fruit:'
+- replace: "\U0001F345"
+  trigger: ':tomato:'
+- replace: "\U0001FAD2"
+  trigger: ':olive:'
+- replace: "\U0001F965"
+  trigger: ':coconut:'
+- replace: "\U0001F951"
+  trigger: ':avocado:'
+- replace: "\U0001F346"
+  trigger: ':eggplant:'
+- replace: "\U0001F954"
+  trigger: ':potato:'
+- replace: "\U0001F955"
+  trigger: ':carrot:'
+- replace: "\U0001F33D"
+  trigger: ':corn:'
+- replace: "\U0001F336"
+  trigger: ':hot pepper:'
+- replace: "\U0001FAD1"
+  trigger: ':bell pepper:'
+- replace: "\U0001F952"
+  trigger: ':cucumber:'
+- replace: "\U0001F96C"
+  trigger: ':leafy greens:'
+- replace: "\U0001F966"
+  trigger: ':broccoli:'
+- replace: "\U0001F9C4"
+  trigger: ':garlic:'
+- replace: "\U0001F9C5"
+  trigger: ':onion:'
+- replace: "\U0001F95C"
+  trigger: ':peanuts:'
+- replace: "\U0001FAD8"
+  trigger: ':beans:'
+- replace: "\U0001F330"
+  trigger: ':chestnut:'
+- replace: "\U0001FADA"
+  trigger: ':ginger root:'
+- replace: "\U0001FADB"
+  trigger: ':pea pod:'
+- replace: "\U0001F35E"
+  trigger: ':bread:'
+- replace: "\U0001F950"
+  trigger: ':croissant:'
+- replace: "\U0001F956"
+  trigger: ':baguette bread:'
+- replace: "\U0001FAD3"
+  trigger: ':flatbread:'
+- replace: "\U0001F968"
+  trigger: ':pretzel:'
+- replace: "\U0001F96F"
+  trigger: ':bagel:'
+- replace: "\U0001F95E"
+  trigger: ':pancakes:'
+- replace: "\U0001F9C7"
+  trigger: ':waffle:'
+- replace: "\U0001F9C0"
+  trigger: ':cheese:'
+- replace: "\U0001F356"
+  trigger: ':meat on bone:'
+- replace: "\U0001F357"
+  trigger: ':poultry leg:'
+- replace: "\U0001F969"
+  trigger: ':steak:'
+- replace: "\U0001F953"
+  trigger: ':bacon:'
+- replace: "\U0001F354"
+  trigger: ':hamburger:'
+- replace: "\U0001F35F"
+  trigger: ':fries:'
+- replace: "\U0001F355"
+  trigger: ':pizza:'
+- replace: "\U0001F32D"
+  trigger: ':hotdog:'
+- replace: "\U0001F96A"
+  trigger: ':sandwich:'
+- replace: "\U0001F32E"
+  trigger: ':taco:'
+- replace: "\U0001F32F"
+  trigger: ':burrito:'
+- replace: "\U0001FAD4"
+  trigger: ':tamale:'
+- replace: "\U0001F959"
+  trigger: ':stuffed flatbread:'
+- replace: "\U0001F9C6"
+  trigger: ':falafel:'
+- replace: "\U0001F95A"
+  trigger: ':egg:'
+- replace: "\U0001F373"
+  trigger: ':fried egg:'
+- replace: "\U0001F958"
+  trigger: ':shallow pan of food:'
+- replace: "\U0001F372"
+  trigger: ':stew:'
+- replace: "\U0001FAD5"
+  trigger: ':fondue:'
+- replace: "\U0001F963"
+  trigger: ':bowl with spoon:'
+- replace: "\U0001F957"
+  trigger: ':green salad:'
+- replace: "\U0001F37F"
+  trigger: ':popcorn:'
+- replace: "\U0001F9C8"
+  trigger: ':butter:'
+- replace: "\U0001F9C2"
+  trigger: ':salt:'
+- replace: "\U0001F96B"
+  trigger: ':canned food:'
+- replace: "\U0001F371"
+  trigger: ':bento:'
+- replace: "\U0001F358"
+  trigger: ':rice cracker:'
+- replace: "\U0001F359"
+  trigger: ':rice ball:'
+- replace: "\U0001F35A"
+  trigger: ':rice:'
+- replace: "\U0001F35B"
+  trigger: ':curry:'
+- replace: "\U0001F35C"
+  trigger: ':ramen:'
+- replace: "\U0001F35D"
+  trigger: ':spaghetti:'
+- replace: "\U0001F360"
+  trigger: ':sweet potato:'
+- replace: "\U0001F362"
+  trigger: ':oden:'
+- replace: "\U0001F363"
+  trigger: ':sushi:'
+- replace: "\U0001F364"
+  trigger: ':fried shrimp:'
+- replace: "\U0001F365"
+  trigger: ':fish cake:'
+- replace: "\U0001F96E"
+  trigger: ':moon cake:'
+- replace: "\U0001F361"
+  trigger: ':dango:'
+- replace: "\U0001F95F"
+  trigger: ':dumpling:'
+- replace: "\U0001F960"
+  trigger: ':fortune cookie:'
+- replace: "\U0001F961"
+  trigger: ':takeout box:'
+- replace: "\U0001F980"
+  trigger: ':crab:'
+- replace: "\U0001F99E"
+  trigger: ':lobster:'
+- replace: "\U0001F990"
+  trigger: ':shrimp:'
+- replace: "\U0001F991"
+  trigger: ':squid:'
+- replace: "\U0001F9AA"
+  trigger: ':oyster:'
+- replace: "\U0001F366"
+  trigger: ':icecream:'
+- replace: "\U0001F367"
+  trigger: ':shaved ice:'
+- replace: "\U0001F368"
+  trigger: ':ice cream:'
+- replace: "\U0001F369"
+  trigger: ':doughnut:'
+- replace: "\U0001F36A"
+  trigger: ':cookie:'
+- replace: "\U0001F382"
+  trigger: ':birthday:'
+- replace: "\U0001F370"
+  trigger: ':cake:'
+- replace: "\U0001F9C1"
+  trigger: ':cupcake:'
+- replace: "\U0001F967"
+  trigger: ':pie:'
+- replace: "\U0001F36B"
+  trigger: ':chocolate bar:'
+- replace: "\U0001F36C"
+  trigger: ':candy:'
+- replace: "\U0001F36D"
+  trigger: ':lollipop:'
+- replace: "\U0001F36E"
+  trigger: ':custard:'
+- replace: "\U0001F36F"
+  trigger: ':honey pot:'
+- replace: "\U0001F37C"
+  trigger: ':baby bottle:'
+- replace: "\U0001F95B"
+  trigger: ':milk glass:'
+- replace: "\u2615"
+  trigger: ':hot beverage:'
+- replace: "\U0001FAD6"
+  trigger: ':teapot:'
+- replace: "\U0001F375"
+  trigger: ':tea:'
+- replace: "\U0001F376"
+  trigger: ':sake:'
+- replace: "\U0001F37E"
+  trigger: ':champagne:'
+- replace: "\U0001F377"
+  trigger: ':wine glass:'
+- replace: "\U0001F378"
+  trigger: ':cocktail:'
+- replace: "\U0001F379"
+  trigger: ':tropical drink:'
+- replace: "\U0001F37A"
+  trigger: ':beer:'
+- replace: "\U0001F37B"
+  trigger: ':beers:'
+- replace: "\U0001F942"
+  trigger: ':clinking glasses:'
+- replace: "\U0001F943"
+  trigger: ':tumbler glass:'
+- replace: "\U0001FAD7"
+  trigger: ':pouring liquid:'
+- replace: "\U0001F964"
+  trigger: ':cup with straw:'
+- replace: "\U0001F9CB"
+  trigger: ':bubble tea:'
+- replace: "\U0001F9C3"
+  trigger: ':beverage box:'
+- replace: "\U0001F9C9"
+  trigger: ':mate:'
+- replace: "\U0001F9CA"
+  trigger: ':ice:'
+- replace: "\U0001F962"
+  trigger: ':chopsticks:'
+- replace: "\U0001F37D"
+  trigger: ':plate with cutlery:'
+- replace: "\U0001F374"
+  trigger: ':fork and knife:'
+- replace: "\U0001F944"
+  trigger: ':spoon:'
+- replace: "\U0001F52A"
+  trigger: ':hocho:'
+- replace: "\U0001FAD9"
+  trigger: ':jar:'
+- replace: "\U0001F3FA"
+  trigger: ':amphora:'
+- replace: "\U0001F30D"
+  trigger: ':earth africa:'
+- replace: "\U0001F30E"
+  trigger: ':earth americas:'
+- replace: "\U0001F30F"
+  trigger: ':earth asia:'
+- replace: "\U0001F310"
+  trigger: ':globe with meridians:'
+- replace: "\U0001F5FA"
+  trigger: ':world map:'
+- replace: "\U0001F5FE"
+  trigger: ':japan:'
+- replace: "\U0001F9ED"
+  trigger: ':compass:'
+- replace: "\U0001F3D4"
+  trigger: ':mountain snow:'
+- replace: "\u26F0"
+  trigger: ':mountain:'
+- replace: "\U0001F30B"
+  trigger: ':volcano:'
+- replace: "\U0001F5FB"
+  trigger: ':mount fuji:'
+- replace: "\U0001F3D5"
+  trigger: ':camping:'
+- replace: "\U0001F3D6"
+  trigger: ':beach umbrella:'
+- replace: "\U0001F3DC"
+  trigger: ':desert:'
+- replace: "\U0001F3DD"
+  trigger: ':desert island:'
+- replace: "\U0001F3DE"
+  trigger: ':national park:'
+- replace: "\U0001F3DF"
+  trigger: ':stadium:'
+- replace: "\U0001F3DB"
+  trigger: ':classical building:'
+- replace: "\U0001F3D7"
+  trigger: ':building construction:'
+- replace: "\U0001F9F1"
+  trigger: ':brick:'
+- replace: "\U0001FAA8"
+  trigger: ':rock:'
+- replace: "\U0001FAB5"
+  trigger: ':wood:'
+- replace: "\U0001F6D6"
+  trigger: ':hut:'
+- replace: "\U0001F3D8"
+  trigger: ':houses:'
+- replace: "\U0001F3DA"
+  trigger: ':derelict house:'
+- replace: "\U0001F3E0"
+  trigger: ':house:'
+- replace: "\U0001F3E1"
+  trigger: ':house with garden:'
+- replace: "\U0001F3E2"
+  trigger: ':office:'
+- replace: "\U0001F3E3"
+  trigger: ':post office:'
+- replace: "\U0001F3E4"
+  trigger: ':european post office:'
+- replace: "\U0001F3E5"
+  trigger: ':hospital:'
+- replace: "\U0001F3E6"
+  trigger: ':bank:'
+- replace: "\U0001F3E8"
+  trigger: ':hotel:'
+- replace: "\U0001F3E9"
+  trigger: ':love hotel:'
+- replace: "\U0001F3EA"
+  trigger: ':convenience store:'
+- replace: "\U0001F3EB"
+  trigger: ':school:'
+- replace: "\U0001F3EC"
+  trigger: ':department store:'
+- replace: "\U0001F3ED"
+  trigger: ':factory:'
+- replace: "\U0001F3EF"
+  trigger: ':japanese castle:'
+- replace: "\U0001F3F0"
+  trigger: ':european castle:'
+- replace: "\U0001F492"
+  trigger: ':wedding:'
+- replace: "\U0001F5FC"
+  trigger: ':tokyo tower:'
+- replace: "\U0001F5FD"
+  trigger: ':statue of liberty:'
+- replace: "\u26EA"
+  trigger: ':church:'
+- replace: "\U0001F54C"
+  trigger: ':mosque:'
+- replace: "\U0001F6D5"
+  trigger: ':hindu temple:'
+- replace: "\U0001F54D"
+  trigger: ':synagogue:'
+- replace: "\u26E9"
+  trigger: ':shinto shrine:'
+- replace: "\U0001F54B"
+  trigger: ':kaaba:'
+- replace: "\u26F2"
+  trigger: ':fountain:'
+- replace: "\u26FA"
+  trigger: ':tent:'
+- replace: "\U0001F301"
+  trigger: ':foggy:'
+- replace: "\U0001F303"
+  trigger: ':night with stars:'
+- replace: "\U0001F3D9"
+  trigger: ':cityscape:'
+- replace: "\U0001F304"
+  trigger: ':sunrise over mountains:'
+- replace: "\U0001F305"
+  trigger: ':sunrise:'
+- replace: "\U0001F306"
+  trigger: ':city sunset:'
+- replace: "\U0001F307"
+  trigger: ':city sunrise:'
+- replace: "\U0001F309"
+  trigger: ':bridge at night:'
+- replace: "\u2668"
+  trigger: ':hot springs:'
+- replace: "\U0001F3A0"
+  trigger: ':carousel horse:'
+- replace: "\U0001F6DD"
+  trigger: ':playground slide:'
+- replace: "\U0001F3A1"
+  trigger: ':ferris wheel:'
+- replace: "\U0001F3A2"
+  trigger: ':roller coaster:'
+- replace: "\U0001F488"
+  trigger: ':barber:'
+- replace: "\U0001F3AA"
+  trigger: ':circus tent:'
+- replace: "\U0001F682"
+  trigger: ':steam locomotive:'
+- replace: "\U0001F683"
+  trigger: ':railway car:'
+- replace: "\U0001F684"
+  trigger: ':bullettrain side:'
+- replace: "\U0001F685"
+  trigger: ':bullettrain front:'
+- replace: "\U0001F686"
+  trigger: ':train2:'
+- replace: "\U0001F687"
+  trigger: ':metro:'
+- replace: "\U0001F688"
+  trigger: ':light rail:'
+- replace: "\U0001F689"
+  trigger: ':station:'
+- replace: "\U0001F68A"
+  trigger: ':tram:'
+- replace: "\U0001F69D"
+  trigger: ':monorail:'
+- replace: "\U0001F69E"
+  trigger: ':mountain railway:'
+- replace: "\U0001F68B"
+  trigger: ':train:'
+- replace: "\U0001F68C"
+  trigger: ':bus:'
+- replace: "\U0001F68D"
+  trigger: ':oncoming bus:'
+- replace: "\U0001F68E"
+  trigger: ':trolleybus:'
+- replace: "\U0001F690"
+  trigger: ':minibus:'
+- replace: "\U0001F691"
+  trigger: ':ambulance:'
+- replace: "\U0001F692"
+  trigger: ':fire engine:'
+- replace: "\U0001F693"
+  trigger: ':police car:'
+- replace: "\U0001F694"
+  trigger: ':oncoming police car:'
+- replace: "\U0001F695"
+  trigger: ':taxi:'
+- replace: "\U0001F696"
+  trigger: ':oncoming taxi:'
+- replace: "\U0001F697"
+  trigger: ':red car:'
+- replace: "\U0001F698"
+  trigger: ':oncoming automobile:'
+- replace: "\U0001F699"
+  trigger: ':blue car:'
+- replace: "\U0001F6FB"
+  trigger: ':pickup truck:'
+- replace: "\U0001F69A"
+  trigger: ':truck:'
+- replace: "\U0001F69B"
+  trigger: ':articulated lorry:'
+- replace: "\U0001F69C"
+  trigger: ':tractor:'
+- replace: "\U0001F3CE"
+  trigger: ':racing car:'
+- replace: "\U0001F3CD"
+  trigger: ':motorcycle:'
+- replace: "\U0001F6F5"
+  trigger: ':motor scooter:'
+- replace: "\U0001F9BD"
+  trigger: ':manual wheelchair:'
+- replace: "\U0001F9BC"
+  trigger: ':motorized wheelchair:'
+- replace: "\U0001F6FA"
+  trigger: ':auto rickshaw:'
+- replace: "\U0001F6B2"
+  trigger: ':bike:'
+- replace: "\U0001F6F4"
+  trigger: ':kick scooter:'
+- replace: "\U0001F6F9"
+  trigger: ':skateboard:'
+- replace: "\U0001F6FC"
+  trigger: ':roller skate:'
+- replace: "\U0001F68F"
+  trigger: ':busstop:'
+- replace: "\U0001F6E3"
+  trigger: ':motorway:'
+- replace: "\U0001F6E4"
+  trigger: ':railway track:'
+- replace: "\U0001F6E2"
+  trigger: ':oil drum:'
+- replace: "\u26FD"
+  trigger: ':fuel pump:'
+- replace: "\U0001F6DE"
+  trigger: ':wheel:'
+- replace: "\U0001F6A8"
+  trigger: ':rotating light:'
+- replace: "\U0001F6A5"
+  trigger: ':traffic light:'
+- replace: "\U0001F6A6"
+  trigger: ':vertical traffic light:'
+- replace: "\U0001F6D1"
+  trigger: ':stop sign:'
+- replace: "\U0001F6A7"
+  trigger: ':construction:'
+- replace: "\u2693"
+  trigger: ':anchor:'
+- replace: "\U0001F6DF"
+  trigger: ':ring buoy:'
+- replace: "\u26F5"
+  trigger: ':sailboat:'
+- replace: "\U0001F6F6"
+  trigger: ':canoe:'
+- replace: "\U0001F6A4"
+  trigger: ':speedboat:'
+- replace: "\U0001F6F3"
+  trigger: ':passenger ship:'
+- replace: "\u26F4"
+  trigger: ':ferry:'
+- replace: "\U0001F6E5"
+  trigger: ':motor boat:'
+- replace: "\U0001F6A2"
+  trigger: ':ship:'
+- replace: "\u2708"
+  trigger: ':airplane:'
+- replace: "\U0001F6E9"
+  trigger: ':small airplane:'
+- replace: "\U0001F6EB"
+  trigger: ':flight departure:'
+- replace: "\U0001F6EC"
+  trigger: ':flight arrival:'
+- replace: "\U0001FA82"
+  trigger: ':parachute:'
+- replace: "\U0001F4BA"
+  trigger: ':seat:'
+- replace: "\U0001F681"
+  trigger: ':helicopter:'
+- replace: "\U0001F69F"
+  trigger: ':suspension railway:'
+- replace: "\U0001F6A0"
+  trigger: ':mountain cableway:'
+- replace: "\U0001F6A1"
+  trigger: ':aerial tramway:'
+- replace: "\U0001F6F0"
+  trigger: ':artificial satellite:'
+- replace: "\U0001F680"
+  trigger: ':rocket:'
+- replace: "\U0001F6F8"
+  trigger: ':flying saucer:'
+- replace: "\U0001F6CE"
+  trigger: ':bellhop bell:'
+- replace: "\U0001F9F3"
+  trigger: ':luggage:'
+- replace: "\u231B"
+  trigger: ':hourglass done:'
+- replace: "\u23F3"
+  trigger: ':hourglass not done:'
+- replace: "\u231A"
+  trigger: ':watch:'
+- replace: "\u23F0"
+  trigger: ':alarm clock:'
+- replace: "\u23F1"
+  trigger: ':stopwatch:'
+- replace: "\u23F2"
+  trigger: ':timer clock:'
+- replace: "\U0001F570"
+  trigger: ':mantelpiece clock:'
+- replace: "\U0001F55B"
+  trigger: ':clock12:'
+- replace: "\U0001F567"
+  trigger: ':clock1230:'
+- replace: "\U0001F550"
+  trigger: ':clock1:'
+- replace: "\U0001F55C"
+  trigger: ':clock130:'
+- replace: "\U0001F551"
+  trigger: ':clock2:'
+- replace: "\U0001F55D"
+  trigger: ':clock230:'
+- replace: "\U0001F552"
+  trigger: ':clock3:'
+- replace: "\U0001F55E"
+  trigger: ':clock330:'
+- replace: "\U0001F553"
+  trigger: ':clock4:'
+- replace: "\U0001F55F"
+  trigger: ':clock430:'
+- replace: "\U0001F554"
+  trigger: ':clock5:'
+- replace: "\U0001F560"
+  trigger: ':clock530:'
+- replace: "\U0001F555"
+  trigger: ':clock6:'
+- replace: "\U0001F561"
+  trigger: ':clock630:'
+- replace: "\U0001F556"
+  trigger: ':clock7:'
+- replace: "\U0001F562"
+  trigger: ':clock730:'
+- replace: "\U0001F557"
+  trigger: ':clock8:'
+- replace: "\U0001F563"
+  trigger: ':clock830:'
+- replace: "\U0001F558"
+  trigger: ':clock9:'
+- replace: "\U0001F564"
+  trigger: ':clock930:'
+- replace: "\U0001F559"
+  trigger: ':clock10:'
+- replace: "\U0001F565"
+  trigger: ':clock1030:'
+- replace: "\U0001F55A"
+  trigger: ':clock11:'
+- replace: "\U0001F566"
+  trigger: ':clock1130:'
+- replace: "\U0001F311"
+  trigger: ':new moon:'
+- replace: "\U0001F312"
+  trigger: ':waxing crescent moon:'
+- replace: "\U0001F313"
+  trigger: ':first quarter moon:'
+- replace: "\U0001F314"
+  trigger: ':waxing gibbous moon:'
+- replace: "\U0001F315"
+  trigger: ':full moon:'
+- replace: "\U0001F316"
+  trigger: ':waning gibbous moon:'
+- replace: "\U0001F317"
+  trigger: ':last quarter moon:'
+- replace: "\U0001F318"
+  trigger: ':waning crescent moon:'
+- replace: "\U0001F319"
+  trigger: ':crescent moon:'
+- replace: "\U0001F31A"
+  trigger: ':new moon with face:'
+- replace: "\U0001F31B"
+  trigger: ':first quarter moon with face:'
+- replace: "\U0001F31C"
+  trigger: ':last quarter moon with face:'
+- replace: "\U0001F321"
+  trigger: ':thermometer:'
+- replace: "\u2600"
+  trigger: ':sun:'
+- replace: "\U0001F31D"
+  trigger: ':full moon with face:'
+- replace: "\U0001F31E"
+  trigger: ':sun with face:'
+- replace: "\U0001FA90"
+  trigger: ':ringed planet:'
+- replace: "\u2B50"
+  trigger: ':star:'
+- replace: "\U0001F31F"
+  trigger: ':star2:'
+- replace: "\U0001F320"
+  trigger: ':stars:'
+- replace: "\U0001F30C"
+  trigger: ':milky way:'
+- replace: "\u2601"
+  trigger: ':cloud:'
+- replace: "\u26C5"
+  trigger: ':sun behind cloud:'
+- replace: "\u26C8"
+  trigger: ':cloud with lightning and rain:'
+- replace: "\U0001F324"
+  trigger: ':sun behind small cloud:'
+- replace: "\U0001F325"
+  trigger: ':sun behind large cloud:'
+- replace: "\U0001F326"
+  trigger: ':sun behind rain cloud:'
+- replace: "\U0001F327"
+  trigger: ':cloud with rain:'
+- replace: "\U0001F328"
+  trigger: ':cloud with snow:'
+- replace: "\U0001F329"
+  trigger: ':cloud with lightning:'
+- replace: "\U0001F32A"
+  trigger: ':tornado:'
+- replace: "\U0001F32B"
+  trigger: ':fog:'
+- replace: "\U0001F32C"
+  trigger: ':wind face:'
+- replace: "\U0001F300"
+  trigger: ':cyclone:'
+- replace: "\U0001F308"
+  trigger: ':rainbow:'
+- replace: "\U0001F302"
+  trigger: ':closed umbrella:'
+- replace: "\u2602"
+  trigger: ':umbrella:'
+- replace: "\u2614"
+  trigger: ':umbrella with rain drops:'
+- replace: "\u26F1"
+  trigger: ':umbrella on ground:'
+- replace: "\u26A1"
+  trigger: ':high voltage:'
+- replace: "\u2744"
+  trigger: ':snowflake:'
+- replace: "\u2603"
+  trigger: ':snowman:'
+- replace: "\u26C4"
+  trigger: ':snowman without snow:'
+- replace: "\u2604"
+  trigger: ':comet:'
+- replace: "\U0001F525"
+  trigger: ':fire:'
+- replace: "\U0001F4A7"
+  trigger: ':droplet:'
+- replace: "\U0001F30A"
+  trigger: ':ocean:'
+- replace: "\U0001F383"
+  trigger: ':jack o lantern:'
+- replace: "\U0001F384"
+  trigger: ':christmas tree:'
+- replace: "\U0001F386"
+  trigger: ':fireworks:'
+- replace: "\U0001F387"
+  trigger: ':sparkler:'
+- replace: "\U0001F9E8"
+  trigger: ':firecracker:'
+- replace: "\u2728"
+  trigger: ':sparkles:'
+- replace: "\U0001F388"
+  trigger: ':balloon:'
+- replace: "\U0001F389"
+  trigger: ':tada:'
+- replace: "\U0001F38A"
+  trigger: ':confetti ball:'
+- replace: "\U0001F38B"
+  trigger: ':tanabata tree:'
+- replace: "\U0001F38D"
+  trigger: ':bamboo:'
+- replace: "\U0001F38E"
+  trigger: ':dolls:'
+- replace: "\U0001F38F"
+  trigger: ':flags:'
+- replace: "\U0001F390"
+  trigger: ':wind chime:'
+- replace: "\U0001F391"
+  trigger: ':rice scene:'
+- replace: "\U0001F9E7"
+  trigger: ':red envelope:'
+- replace: "\U0001F380"
+  trigger: ':ribbon:'
+- replace: "\U0001F381"
+  trigger: ':gift:'
+- replace: "\U0001F397"
+  trigger: ':reminder ribbon:'
+- replace: "\U0001F39F"
+  trigger: ':tickets:'
+- replace: "\U0001F3AB"
+  trigger: ':ticket:'
+- replace: "\U0001F396"
+  trigger: ':medal military:'
+- replace: "\U0001F3C6"
+  trigger: ':trophy:'
+- replace: "\U0001F3C5"
+  trigger: ':medal sports:'
+- replace: "\U0001F947"
+  trigger: ':1st place medal:'
+- replace: "\U0001F948"
+  trigger: ':2nd place medal:'
+- replace: "\U0001F949"
+  trigger: ':3rd place medal:'
+- replace: "\u26BD"
+  trigger: ':soccer ball:'
+- replace: "\u26BE"
+  trigger: ':baseball:'
+- replace: "\U0001F94E"
+  trigger: ':softball:'
+- replace: "\U0001F3C0"
+  trigger: ':basketball:'
+- replace: "\U0001F3D0"
+  trigger: ':volleyball:'
+- replace: "\U0001F3C8"
+  trigger: ':football:'
+- replace: "\U0001F3C9"
+  trigger: ':rugby football:'
+- replace: "\U0001F3BE"
+  trigger: ':tennis:'
+- replace: "\U0001F94F"
+  trigger: ':flying disc:'
+- replace: "\U0001F3B3"
+  trigger: ':bowling:'
+- replace: "\U0001F3CF"
+  trigger: ':cricket:'
+- replace: "\U0001F3D1"
+  trigger: ':field hockey:'
+- replace: "\U0001F3D2"
+  trigger: ':ice hockey:'
+- replace: "\U0001F94D"
+  trigger: ':lacrosse:'
+- replace: "\U0001F3D3"
+  trigger: ':ping pong:'
+- replace: "\U0001F3F8"
+  trigger: ':badminton:'
+- replace: "\U0001F94A"
+  trigger: ':boxing glove:'
+- replace: "\U0001F94B"
+  trigger: ':martial arts uniform:'
+- replace: "\U0001F945"
+  trigger: ':goal net:'
+- replace: "\u26F3"
+  trigger: ':flag in hole:'
+- replace: "\u26F8"
+  trigger: ':ice skate:'
+- replace: "\U0001F3A3"
+  trigger: ':fishing pole and fish:'
+- replace: "\U0001F93F"
+  trigger: ':diving mask:'
+- replace: "\U0001F3BD"
+  trigger: ':running shirt with sash:'
+- replace: "\U0001F3BF"
+  trigger: ':ski:'
+- replace: "\U0001F6F7"
+  trigger: ':sled:'
+- replace: "\U0001F94C"
+  trigger: ':curling stone:'
+- replace: "\U0001F3AF"
+  trigger: ':dart:'
+- replace: "\U0001FA80"
+  trigger: ':yo-yo:'
+- replace: "\U0001FA81"
+  trigger: ':kite:'
+- replace: "\U0001F52B"
+  trigger: ':gun:'
+- replace: "\U0001F3B1"
+  trigger: ':8ball:'
+- replace: "\U0001F52E"
+  trigger: ':crystal ball:'
+- replace: "\U0001FA84"
+  trigger: ':magic wand:'
+- replace: "\U0001F3AE"
+  trigger: ':video game:'
+- replace: "\U0001F579"
+  trigger: ':joystick:'
+- replace: "\U0001F3B0"
+  trigger: ':slot machine:'
+- replace: "\U0001F3B2"
+  trigger: ':game die:'
+- replace: "\U0001F9E9"
+  trigger: ':jigsaw:'
+- replace: "\U0001F9F8"
+  trigger: ':teddy bear:'
+- replace: "\U0001FA85"
+  trigger: ':pinata:'
+- replace: "\U0001FAA9"
+  trigger: ':mirror ball:'
+- replace: "\U0001FA86"
+  trigger: ':nesting dolls:'
+- replace: "\u2660"
+  trigger: ':spade suit:'
+- replace: "\u2665"
+  trigger: ':heart suit:'
+- replace: "\u2666"
+  trigger: ':diamond suit:'
+- replace: "\u2663"
+  trigger: ':club suit:'
+- replace: "\u265F"
+  trigger: ':chess pawn:'
+- replace: "\U0001F0CF"
+  trigger: ':black joker:'
+- replace: "\U0001F004"
+  trigger: ':mahjong:'
+- replace: "\U0001F3B4"
+  trigger: ':flower playing cards:'
+- replace: "\U0001F3AD"
+  trigger: ':performing arts:'
+- replace: "\U0001F5BC"
+  trigger: ':framed picture:'
+- replace: "\U0001F3A8"
+  trigger: ':art:'
+- replace: "\U0001F9F5"
+  trigger: ':thread:'
+- replace: "\U0001FAA1"
+  trigger: ':sewing needle:'
+- replace: "\U0001F9F6"
+  trigger: ':yarn:'
+- replace: "\U0001FAA2"
+  trigger: ':knot:'
+- replace: "\U0001F453"
+  trigger: ':eyeglasses:'
+- replace: "\U0001F576"
+  trigger: ':dark sunglasses:'
+- replace: "\U0001F97D"
+  trigger: ':goggles:'
+- replace: "\U0001F97C"
+  trigger: ':labcoat:'
+- replace: "\U0001F9BA"
+  trigger: ':safety vest:'
+- replace: "\U0001F454"
+  trigger: ':necktie:'
+- replace: "\U0001F455"
+  trigger: ':tshirt:'
+- replace: "\U0001F456"
+  trigger: ':jeans:'
+- replace: "\U0001F9E3"
+  trigger: ':scarf:'
+- replace: "\U0001F9E4"
+  trigger: ':gloves:'
+- replace: "\U0001F9E5"
+  trigger: ':coat:'
+- replace: "\U0001F9E6"
+  trigger: ':socks:'
+- replace: "\U0001F457"
+  trigger: ':dress:'
+- replace: "\U0001F458"
+  trigger: ':kimono:'
+- replace: "\U0001F97B"
+  trigger: ':sari:'
+- replace: "\U0001FA71"
+  trigger: ':one-piece swimsuit:'
+- replace: "\U0001FA72"
+  trigger: ':briefs:'
+- replace: "\U0001FA73"
+  trigger: ':shorts:'
+- replace: "\U0001F459"
+  trigger: ':bikini:'
+- replace: "\U0001F45A"
+  trigger: ':womans clothes:'
+- replace: "\U0001FAAD"
+  trigger: ':folding hand fan:'
+- replace: "\U0001F45B"
+  trigger: ':purse:'
+- replace: "\U0001F45C"
+  trigger: ':handbag:'
+- replace: "\U0001F45D"
+  trigger: ':pouch:'
+- replace: "\U0001F6CD"
+  trigger: ':shopping:'
+- replace: "\U0001F392"
+  trigger: ':school satchel:'
+- replace: "\U0001FA74"
+  trigger: ':thong sandal:'
+- replace: "\U0001F45E"
+  trigger: ':mans shoe:'
+- replace: "\U0001F45F"
+  trigger: ':athletic shoe:'
+- replace: "\U0001F97E"
+  trigger: ':hiking boot:'
+- replace: "\U0001F97F"
+  trigger: ':flat shoe:'
+- replace: "\U0001F460"
+  trigger: ':high heel:'
+- replace: "\U0001F461"
+  trigger: ':sandal:'
+- replace: "\U0001FA70"
+  trigger: ':ballet shoes:'
+- replace: "\U0001F462"
+  trigger: ':boot:'
+- replace: "\U0001FAAE"
+  trigger: ':hair pick:'
+- replace: "\U0001F451"
+  trigger: ':crown:'
+- replace: "\U0001F452"
+  trigger: ':womans hat:'
+- replace: "\U0001F3A9"
+  trigger: ':tophat:'
+- replace: "\U0001F393"
+  trigger: ':mortar board:'
+- replace: "\U0001F9E2"
+  trigger: ':billed hat:'
+- replace: "\U0001FA96"
+  trigger: ':military helmet:'
+- replace: "\u26D1"
+  trigger: ":rescue worker\u2019s helmet:"
+- replace: "\U0001F4FF"
+  trigger: ':prayer beads:'
+- replace: "\U0001F484"
+  trigger: ':lipstick:'
+- replace: "\U0001F48D"
+  trigger: ':ring:'
+- replace: "\U0001F48E"
+  trigger: ':gem:'
+- replace: "\U0001F507"
+  trigger: ':mute:'
+- replace: "\U0001F508"
+  trigger: ':speaker:'
+- replace: "\U0001F509"
+  trigger: ':sound:'
+- replace: "\U0001F50A"
+  trigger: ':loud sound:'
+- replace: "\U0001F4E2"
+  trigger: ':loudspeaker:'
+- replace: "\U0001F4E3"
+  trigger: ':mega:'
+- replace: "\U0001F4EF"
+  trigger: ':postal horn:'
+- replace: "\U0001F514"
+  trigger: ':bell:'
+- replace: "\U0001F515"
+  trigger: ':no bell:'
+- replace: "\U0001F3BC"
+  trigger: ':musical score:'
+- replace: "\U0001F3B5"
+  trigger: ':musical note:'
+- replace: "\U0001F3B6"
+  trigger: ':notes:'
+- replace: "\U0001F399"
+  trigger: ':studio microphone:'
+- replace: "\U0001F39A"
+  trigger: ':level slider:'
+- replace: "\U0001F39B"
+  trigger: ':control knobs:'
+- replace: "\U0001F3A4"
+  trigger: ':microphone:'
+- replace: "\U0001F3A7"
+  trigger: ':headphones:'
+- replace: "\U0001F4FB"
+  trigger: ':radio:'
+- replace: "\U0001F3B7"
+  trigger: ':saxophone:'
+- replace: "\U0001FA97"
+  trigger: ':accordion:'
+- replace: "\U0001F3B8"
+  trigger: ':guitar:'
+- replace: "\U0001F3B9"
+  trigger: ':musical keyboard:'
+- replace: "\U0001F3BA"
+  trigger: ':trumpet:'
+- replace: "\U0001F3BB"
+  trigger: ':violin:'
+- replace: "\U0001FA95"
+  trigger: ':banjo:'
+- replace: "\U0001F941"
+  trigger: ':drum:'
+- replace: "\U0001FA98"
+  trigger: ':long drum:'
+- replace: "\U0001FA87"
+  trigger: ':maracas:'
+- replace: "\U0001FA88"
+  trigger: ':flute:'
+- replace: "\U0001F4F1"
+  trigger: ':iphone:'
+- replace: "\U0001F4F2"
+  trigger: ':calling:'
+- replace: "\u260E"
+  trigger: ':telephone:'
+- replace: "\U0001F4DE"
+  trigger: ':telephone receiver:'
+- replace: "\U0001F4DF"
+  trigger: ':pager:'
+- replace: "\U0001F4E0"
+  trigger: ':fax:'
+- replace: "\U0001F50B"
+  trigger: ':battery:'
+- replace: "\U0001FAAB"
+  trigger: ':low battery:'
+- replace: "\U0001F50C"
+  trigger: ':electric plug:'
+- replace: "\U0001F4BB"
+  trigger: ':computer:'
+- replace: "\U0001F5A5"
+  trigger: ':desktop computer:'
+- replace: "\U0001F5A8"
+  trigger: ':printer:'
+- replace: "\u2328"
+  trigger: ':keyboard:'
+- replace: "\U0001F5B1"
+  trigger: ':computer mouse:'
+- replace: "\U0001F5B2"
+  trigger: ':trackball:'
+- replace: "\U0001F4BD"
+  trigger: ':minidisc:'
+- replace: "\U0001F4BE"
+  trigger: ':floppy disk:'
+- replace: "\U0001F4BF"
+  trigger: ':cd:'
+- replace: "\U0001F4C0"
+  trigger: ':dvd:'
+- replace: "\U0001F9EE"
+  trigger: ':abacus:'
+- replace: "\U0001F3A5"
+  trigger: ':movie camera:'
+- replace: "\U0001F39E"
+  trigger: ':film strip:'
+- replace: "\U0001F4FD"
+  trigger: ':film projector:'
+- replace: "\U0001F3AC"
+  trigger: ':clapper:'
+- replace: "\U0001F4FA"
+  trigger: ':tv:'
+- replace: "\U0001F4F7"
+  trigger: ':camera:'
+- replace: "\U0001F4F8"
+  trigger: ':camera flash:'
+- replace: "\U0001F4F9"
+  trigger: ':video camera:'
+- replace: "\U0001F4FC"
+  trigger: ':vhs:'
+- replace: "\U0001F50D"
+  trigger: ':mag:'
+- replace: "\U0001F50E"
+  trigger: ':mag right:'
+- replace: "\U0001F56F"
+  trigger: ':candle:'
+- replace: "\U0001F4A1"
+  trigger: ':bulb:'
+- replace: "\U0001F526"
+  trigger: ':flashlight:'
+- replace: "\U0001F3EE"
+  trigger: ':izakaya lantern:'
+- replace: "\U0001FA94"
+  trigger: ':diya lamp:'
+- replace: "\U0001F4D4"
+  trigger: ':notebook with decorative cover:'
+- replace: "\U0001F4D5"
+  trigger: ':closed book:'
+- replace: "\U0001F4D6"
+  trigger: ':open book:'
+- replace: "\U0001F4D7"
+  trigger: ':green book:'
+- replace: "\U0001F4D8"
+  trigger: ':blue book:'
+- replace: "\U0001F4D9"
+  trigger: ':orange book:'
+- replace: "\U0001F4DA"
+  trigger: ':books:'
+- replace: "\U0001F4D3"
+  trigger: ':notebook:'
+- replace: "\U0001F4D2"
+  trigger: ':ledger:'
+- replace: "\U0001F4C3"
+  trigger: ':page with curl:'
+- replace: "\U0001F4DC"
+  trigger: ':scroll:'
+- replace: "\U0001F4C4"
+  trigger: ':page facing up:'
+- replace: "\U0001F4F0"
+  trigger: ':newspaper:'
+- replace: "\U0001F5DE"
+  trigger: ':newspaper roll:'
+- replace: "\U0001F4D1"
+  trigger: ':bookmark tabs:'
+- replace: "\U0001F516"
+  trigger: ':bookmark:'
+- replace: "\U0001F3F7"
+  trigger: ':label:'
+- replace: "\U0001F4B0"
+  trigger: ':moneybag:'
+- replace: "\U0001FA99"
+  trigger: ':coin:'
+- replace: "\U0001F4B4"
+  trigger: ':yen:'
+- replace: "\U0001F4B5"
+  trigger: ':dollar:'
+- replace: "\U0001F4B6"
+  trigger: ':euro:'
+- replace: "\U0001F4B7"
+  trigger: ':pound:'
+- replace: "\U0001F4B8"
+  trigger: ':money with wings:'
+- replace: "\U0001F4B3"
+  trigger: ':credit card:'
+- replace: "\U0001F9FE"
+  trigger: ':receipt:'
+- replace: "\U0001F4B9"
+  trigger: ':chart:'
+- replace: "\u2709"
+  trigger: ':envelope:'
+- replace: "\U0001F4E7"
+  trigger: ':e-mail:'
+- replace: "\U0001F4E8"
+  trigger: ':incoming envelope:'
+- replace: "\U0001F4E9"
+  trigger: ':envelope with arrow:'
+- replace: "\U0001F4E4"
+  trigger: ':outbox tray:'
+- replace: "\U0001F4E5"
+  trigger: ':inbox tray:'
+- replace: "\U0001F4E6"
+  trigger: ':package:'
+- replace: "\U0001F4EB"
+  trigger: ':mailbox:'
+- replace: "\U0001F4EA"
+  trigger: ':mailbox closed:'
+- replace: "\U0001F4EC"
+  trigger: ':mailbox with mail:'
+- replace: "\U0001F4ED"
+  trigger: ':mailbox with no mail:'
+- replace: "\U0001F4EE"
+  trigger: ':postbox:'
+- replace: "\U0001F5F3"
+  trigger: ':ballot box:'
+- replace: "\u270F"
+  trigger: ':pencil:'
+- replace: "\u2712"
+  trigger: ':black nib:'
+- replace: "\U0001F58B"
+  trigger: ':fountain pen:'
+- replace: "\U0001F58A"
+  trigger: ':pen:'
+- replace: "\U0001F58C"
+  trigger: ':paintbrush:'
+- replace: "\U0001F58D"
+  trigger: ':crayon:'
+- replace: "\U0001F4DD"
+  trigger: ':memo:'
+- replace: "\U0001F4BC"
+  trigger: ':briefcase:'
+- replace: "\U0001F4C1"
+  trigger: ':file folder:'
+- replace: "\U0001F4C2"
+  trigger: ':open file folder:'
+- replace: "\U0001F5C2"
+  trigger: ':card index dividers:'
+- replace: "\U0001F4C5"
+  trigger: ':date:'
+- replace: "\U0001F4C6"
+  trigger: ':calendar:'
+- replace: "\U0001F5D2"
+  trigger: ':spiral notepad:'
+- replace: "\U0001F5D3"
+  trigger: ':spiral calendar:'
+- replace: "\U0001F4C7"
+  trigger: ':card index:'
+- replace: "\U0001F4C8"
+  trigger: ':chart with upwards trend:'
+- replace: "\U0001F4C9"
+  trigger: ':chart with downwards trend:'
+- replace: "\U0001F4CA"
+  trigger: ':bar chart:'
+- replace: "\U0001F4CB"
+  trigger: ':clipboard:'
+- replace: "\U0001F4CC"
+  trigger: ':pushpin:'
+- replace: "\U0001F4CD"
+  trigger: ':round pushpin:'
+- replace: "\U0001F4CE"
+  trigger: ':paperclip:'
+- replace: "\U0001F587"
+  trigger: ':paperclips:'
+- replace: "\U0001F4CF"
+  trigger: ':straight ruler:'
+- replace: "\U0001F4D0"
+  trigger: ':triangular ruler:'
+- replace: "\u2702"
+  trigger: ':scissors:'
+- replace: "\U0001F5C3"
+  trigger: ':card file box:'
+- replace: "\U0001F5C4"
+  trigger: ':file cabinet:'
+- replace: "\U0001F5D1"
+  trigger: ':wastebasket:'
+- replace: "\U0001F512"
+  trigger: ':lock:'
+- replace: "\U0001F513"
+  trigger: ':unlock:'
+- replace: "\U0001F50F"
+  trigger: ':lock with ink pen:'
+- replace: "\U0001F510"
+  trigger: ':closed lock with key:'
+- replace: "\U0001F511"
+  trigger: ':key:'
+- replace: "\U0001F5DD"
+  trigger: ':old key:'
+- replace: "\U0001F528"
+  trigger: ':hammer:'
+- replace: "\U0001FA93"
+  trigger: ':axe:'
+- replace: "\u26CF"
+  trigger: ':pick:'
+- replace: "\u2692"
+  trigger: ':hammer and pick:'
+- replace: "\U0001F6E0"
+  trigger: ':hammer and wrench:'
+- replace: "\U0001F5E1"
+  trigger: ':dagger:'
+- replace: "\u2694"
+  trigger: ':crossed swords:'
+- replace: "\U0001F4A3"
+  trigger: ':bomb:'
+- replace: "\U0001FA83"
+  trigger: ':boomerang:'
+- replace: "\U0001F3F9"
+  trigger: ':bow and arrow:'
+- replace: "\U0001F6E1"
+  trigger: ':shield:'
+- replace: "\U0001FA9A"
+  trigger: ':carpentry saw:'
+- replace: "\U0001F527"
+  trigger: ':wrench:'
+- replace: "\U0001FA9B"
+  trigger: ':screwdriver:'
+- replace: "\U0001F529"
+  trigger: ':nut and bolt:'
+- replace: "\u2699"
+  trigger: ':gear:'
+- replace: "\U0001F5DC"
+  trigger: ':clamp:'
+- replace: "\u2696"
+  trigger: ':balance scale:'
+- replace: "\U0001F9AF"
+  trigger: ':white cane:'
+- replace: "\U0001F517"
+  trigger: ':link:'
+- replace: "\u26D3"
+  trigger: ':chains:'
+- replace: "\U0001FA9D"
+  trigger: ':hook:'
+- replace: "\U0001F9F0"
+  trigger: ':toolbox:'
+- replace: "\U0001F9F2"
+  trigger: ':magnet:'
+- replace: "\U0001FA9C"
+  trigger: ':ladder:'
+- replace: "\u2697"
+  trigger: ':alembic:'
+- replace: "\U0001F9EA"
+  trigger: ':test tube:'
+- replace: "\U0001F9EB"
+  trigger: ':petri dish:'
+- replace: "\U0001F9EC"
+  trigger: ':dna:'
+- replace: "\U0001F52C"
+  trigger: ':microscope:'
+- replace: "\U0001F52D"
+  trigger: ':telescope:'
+- replace: "\U0001F4E1"
+  trigger: ':satellite:'
+- replace: "\U0001F489"
+  trigger: ':syringe:'
+- replace: "\U0001FA78"
+  trigger: ':drop of blood:'
+- replace: "\U0001F48A"
+  trigger: ':pill:'
+- replace: "\U0001FA79"
+  trigger: ':adhesive bandage:'
+- replace: "\U0001FA7C"
+  trigger: ':crutch:'
+- replace: "\U0001FA7A"
+  trigger: ':stethoscope:'
+- replace: "\U0001FA7B"
+  trigger: ':x-ray:'
+- replace: "\U0001F6AA"
+  trigger: ':door:'
+- replace: "\U0001F6D7"
+  trigger: ':elevator:'
+- replace: "\U0001FA9E"
+  trigger: ':mirror:'
+- replace: "\U0001FA9F"
+  trigger: ':window:'
+- replace: "\U0001F6CF"
+  trigger: ':bed:'
+- replace: "\U0001F6CB"
+  trigger: ':couch and lamp:'
+- replace: "\U0001FA91"
+  trigger: ':chair:'
+- replace: "\U0001F6BD"
+  trigger: ':toilet:'
+- replace: "\U0001FAA0"
+  trigger: ':plunger:'
+- replace: "\U0001F6BF"
+  trigger: ':shower:'
+- replace: "\U0001F6C1"
+  trigger: ':bathtub:'
+- replace: "\U0001FAA4"
+  trigger: ':mouse trap:'
+- replace: "\U0001FA92"
+  trigger: ':razor:'
+- replace: "\U0001F9F4"
+  trigger: ':lotion bottle:'
+- replace: "\U0001F9F7"
+  trigger: ':safety pin:'
+- replace: "\U0001F9F9"
+  trigger: ':broom:'
+- replace: "\U0001F9FA"
+  trigger: ':basket:'
+- replace: "\U0001F9FB"
+  trigger: ':toilet paper:'
+- replace: "\U0001FAA3"
+  trigger: ':bucket:'
+- replace: "\U0001F9FC"
+  trigger: ':soap:'
+- replace: "\U0001FAE7"
+  trigger: ':bubbles:'
+- replace: "\U0001FAA5"
+  trigger: ':toothbrush:'
+- replace: "\U0001F9FD"
+  trigger: ':sponge:'
+- replace: "\U0001F9EF"
+  trigger: ':fire extinguisher:'
+- replace: "\U0001F6D2"
+  trigger: ':shopping cart:'
+- replace: "\U0001F6AC"
+  trigger: ':smoking:'
+- replace: "\u26B0"
+  trigger: ':coffin:'
+- replace: "\U0001FAA6"
+  trigger: ':headstone:'
+- replace: "\u26B1"
+  trigger: ':funeral urn:'
+- replace: "\U0001F9FF"
+  trigger: ':nazar amulet:'
+- replace: "\U0001FAAC"
+  trigger: ':hamsa:'
+- replace: "\U0001F5FF"
+  trigger: ':moyai:'
+- replace: "\U0001FAA7"
+  trigger: ':placard:'
+- replace: "\U0001FAAA"
+  trigger: ':identification card:'
+- replace: "\U0001F3E7"
+  trigger: ':atm:'
+- replace: "\U0001F6AE"
+  trigger: ':put litter in its place:'
+- replace: "\U0001F6B0"
+  trigger: ':potable water:'
+- replace: "\u267F"
+  trigger: ':wheelchair symbol:'
+- replace: "\U0001F6B9"
+  trigger: ':mens:'
+- replace: "\U0001F6BA"
+  trigger: ':womens:'
+- replace: "\U0001F6BB"
+  trigger: ':restroom:'
+- replace: "\U0001F6BC"
+  trigger: ':baby symbol:'
+- replace: "\U0001F6BE"
+  trigger: ':wc:'
+- replace: "\U0001F6C2"
+  trigger: ':passport control:'
+- replace: "\U0001F6C3"
+  trigger: ':customs:'
+- replace: "\U0001F6C4"
+  trigger: ':baggage claim:'
+- replace: "\U0001F6C5"
+  trigger: ':left luggage:'
+- replace: "\u26A0"
+  trigger: ':warning:'
+- replace: "\U0001F6B8"
+  trigger: ':children crossing:'
+- replace: "\u26D4"
+  trigger: ':no entry:'
+- replace: "\U0001F6AB"
+  trigger: ':no entry sign:'
+- replace: "\U0001F6B3"
+  trigger: ':no bicycles:'
+- replace: "\U0001F6AD"
+  trigger: ':no smoking:'
+- replace: "\U0001F6AF"
+  trigger: ':do not litter:'
+- replace: "\U0001F6B1"
+  trigger: ':non-potable water:'
+- replace: "\U0001F6B7"
+  trigger: ':no pedestrians:'
+- replace: "\U0001F4F5"
+  trigger: ':no mobile phones:'
+- replace: "\U0001F51E"
+  trigger: ':underage:'
+- replace: "\u2622"
+  trigger: ':radioactive:'
+- replace: "\u2623"
+  trigger: ':biohazard:'
+- replace: "\u2B06"
+  trigger: ':up arrow:'
+- replace: "\u2197"
+  trigger: ':up-right arrow:'
+- replace: "\u27A1"
+  trigger: ':right arrow:'
+- replace: "\u2198"
+  trigger: ':down-right arrow:'
+- replace: "\u2B07"
+  trigger: ':down arrow:'
+- replace: "\u2199"
+  trigger: ':down-left arrow:'
+- replace: "\u2B05"
+  trigger: ':left arrow:'
+- replace: "\u2196"
+  trigger: ':up-left arrow:'
+- replace: "\u2195"
+  trigger: ':up-down arrow:'
+- replace: "\u2194"
+  trigger: ':left-right arrow:'
+- replace: "\u21A9"
+  trigger: ':right arrow curving left:'
+- replace: "\u21AA"
+  trigger: ':left arrow curving right:'
+- replace: "\u2934"
+  trigger: ':right arrow curving up:'
+- replace: "\u2935"
+  trigger: ':right arrow curving down:'
+- replace: "\U0001F503"
+  trigger: ':arrows clockwise:'
+- replace: "\U0001F504"
+  trigger: ':arrows counterclockwise:'
+- replace: "\U0001F519"
+  trigger: ':back:'
+- replace: "\U0001F51A"
+  trigger: ':end:'
+- replace: "\U0001F51B"
+  trigger: ':on:'
+- replace: "\U0001F51C"
+  trigger: ':soon:'
+- replace: "\U0001F51D"
+  trigger: ':top:'
+- replace: "\U0001F6D0"
+  trigger: ':place of worship:'
+- replace: "\u269B"
+  trigger: ':atom symbol:'
+- replace: "\U0001F549"
+  trigger: ':om:'
+- replace: "\u2721"
+  trigger: ':star of david:'
+- replace: "\u2638"
+  trigger: ':wheel of dharma:'
+- replace: "\u262F"
+  trigger: ':yin yang:'
+- replace: "\u271D"
+  trigger: ':latin cross:'
+- replace: "\u2626"
+  trigger: ':orthodox cross:'
+- replace: "\u262A"
+  trigger: ':star and crescent:'
+- replace: "\u262E"
+  trigger: ':peace symbol:'
+- replace: "\U0001F54E"
+  trigger: ':menorah:'
+- replace: "\U0001F52F"
+  trigger: ':six pointed star:'
+- replace: "\U0001FAAF"
+  trigger: ':khanda:'
+- replace: "\u2648"
+  trigger: ':aries:'
+- replace: "\u2649"
+  trigger: ':taurus:'
+- replace: "\u264A"
+  trigger: ':gemini:'
+- replace: "\u264B"
+  trigger: ':cancer:'
+- replace: "\u264C"
+  trigger: ':leo:'
+- replace: "\u264D"
+  trigger: ':virgo:'
+- replace: "\u264E"
+  trigger: ':libra:'
+- replace: "\u264F"
+  trigger: ':scorpio:'
+- replace: "\u2650"
+  trigger: ':sagittarius:'
+- replace: "\u2651"
+  trigger: ':capricorn:'
+- replace: "\u2652"
+  trigger: ':aquarius:'
+- replace: "\u2653"
+  trigger: ':pisces:'
+- replace: "\u26CE"
+  trigger: ':ophiuchus:'
+- replace: "\U0001F500"
+  trigger: ':twisted rightwards arrows:'
+- replace: "\U0001F501"
+  trigger: ':repeat:'
+- replace: "\U0001F502"
+  trigger: ':repeat one:'
+- replace: "\u25B6"
+  trigger: ':play button:'
+- replace: "\u23E9"
+  trigger: ':fast-forward button:'
+- replace: "\u23ED"
+  trigger: ':next track button:'
+- replace: "\u23EF"
+  trigger: ':play or pause button:'
+- replace: "\u25C0"
+  trigger: ':reverse button:'
+- replace: "\u23EA"
+  trigger: ':fast reverse button:'
+- replace: "\u23EE"
+  trigger: ':last track button:'
+- replace: "\U0001F53C"
+  trigger: ':arrow up small:'
+- replace: "\u23EB"
+  trigger: ':fast up button:'
+- replace: "\U0001F53D"
+  trigger: ':arrow down small:'
+- replace: "\u23EC"
+  trigger: ':fast down button:'
+- replace: "\u23F8"
+  trigger: ':pause button:'
+- replace: "\u23F9"
+  trigger: ':stop button:'
+- replace: "\u23FA"
+  trigger: ':record button:'
+- replace: "\u23CF"
+  trigger: ':eject button:'
+- replace: "\U0001F3A6"
+  trigger: ':cinema:'
+- replace: "\U0001F505"
+  trigger: ':low brightness:'
+- replace: "\U0001F506"
+  trigger: ':high brightness:'
+- replace: "\U0001F4F6"
+  trigger: ':signal strength:'
+- replace: "\U0001F6DC"
+  trigger: ':wireless:'
+- replace: "\U0001F4F3"
+  trigger: ':vibration mode:'
+- replace: "\U0001F4F4"
+  trigger: ':mobile phone off:'
+- replace: "\u2640"
+  trigger: ':female sign:'
+- replace: "\u2642"
+  trigger: ':male sign:'
+- replace: "\u26A7"
+  trigger: ':transgender symbol:'
+- replace: "\u2716"
+  trigger: ':multiply:'
+- replace: "\u2795"
+  trigger: ':plus:'
+- replace: "\u2796"
+  trigger: ':minus:'
+- replace: "\u2797"
+  trigger: ':divide:'
+- replace: "\U0001F7F0"
+  trigger: ':heavy equals sign:'
+- replace: "\u267E"
+  trigger: ':infinity:'
+- replace: "\u203C"
+  trigger: ':double exclamation mark:'
+- replace: "\u2049"
+  trigger: ':exclamation question mark:'
+- replace: "\u2753"
+  trigger: ':red question mark:'
+- replace: "\u2754"
+  trigger: ':white question mark:'
+- replace: "\u2755"
+  trigger: ':white exclamation mark:'
+- replace: "\u2757"
+  trigger: ':red exclamation mark:'
+- replace: "\u3030"
+  trigger: ':wavy dash:'
+- replace: "\U0001F4B1"
+  trigger: ':currency exchange:'
+- replace: "\U0001F4B2"
+  trigger: ':heavy dollar sign:'
+- replace: "\u2695"
+  trigger: ':medical symbol:'
+- replace: "\u267B"
+  trigger: ':recycling symbol:'
+- replace: "\u269C"
+  trigger: ':fleur-de-lis:'
+- replace: "\U0001F531"
+  trigger: ':trident:'
+- replace: "\U0001F4DB"
+  trigger: ':name badge:'
+- replace: "\U0001F530"
+  trigger: ':beginner:'
+- replace: "\u2B55"
+  trigger: ':hollow red circle:'
+- replace: "\u2705"
+  trigger: ':check mark button:'
+- replace: "\u2611"
+  trigger: ':check box with check:'
+- replace: "\u2714"
+  trigger: ':check mark:'
+- replace: "\u274C"
+  trigger: ':cross mark:'
+- replace: "\u274E"
+  trigger: ':cross mark button:'
+- replace: "\u27B0"
+  trigger: ':curly loop:'
+- replace: "\u27BF"
+  trigger: ':double curly loop:'
+- replace: "\u303D"
+  trigger: ':part alternation mark:'
+- replace: "\u2733"
+  trigger: ':eight-spoked asterisk:'
+- replace: "\u2734"
+  trigger: ':eight-pointed star:'
+- replace: "\u2747"
+  trigger: ':sparkle:'
+- replace: "\xA9"
+  trigger: ':copyright:'
+- replace: "\xAE"
+  trigger: ':registered:'
+- replace: "\u2122"
+  trigger: ':trade mark:'
+- replace: "#\uFE0F\u20E3"
+  trigger: ':keycap #:'
+- replace: "*\uFE0F\u20E3"
+  trigger: ':keycap *:'
+- replace: "0\uFE0F\u20E3"
+  trigger: ':keycap 0:'
+- replace: "1\uFE0F\u20E3"
+  trigger: ':keycap 1:'
+- replace: "2\uFE0F\u20E3"
+  trigger: ':keycap 2:'
+- replace: "3\uFE0F\u20E3"
+  trigger: ':keycap 3:'
+- replace: "4\uFE0F\u20E3"
+  trigger: ':keycap 4:'
+- replace: "5\uFE0F\u20E3"
+  trigger: ':keycap 5:'
+- replace: "6\uFE0F\u20E3"
+  trigger: ':keycap 6:'
+- replace: "7\uFE0F\u20E3"
+  trigger: ':keycap 7:'
+- replace: "8\uFE0F\u20E3"
+  trigger: ':keycap 8:'
+- replace: "9\uFE0F\u20E3"
+  trigger: ':keycap 9:'
+- replace: "\U0001F51F"
+  trigger: ':keycap ten:'
+- replace: "\U0001F520"
+  trigger: ':capital abcd:'
+- replace: "\U0001F521"
+  trigger: ':abcd:'
+- replace: "\U0001F522"
+  trigger: ':1234:'
+- replace: "\U0001F523"
+  trigger: ':symbols:'
+- replace: "\U0001F524"
+  trigger: ':abc:'
+- replace: "\U0001F170"
+  trigger: ':a button (blood type):'
+- replace: "\U0001F18E"
+  trigger: ':ab:'
+- replace: "\U0001F171"
+  trigger: ':b button (blood type):'
+- replace: "\U0001F191"
+  trigger: ':cl:'
+- replace: "\U0001F192"
+  trigger: ':cool:'
+- replace: "\U0001F193"
+  trigger: ':free:'
+- replace: "\u2139"
+  trigger: ':information:'
+- replace: "\U0001F194"
+  trigger: ':id:'
+- replace: "\u24C2"
+  trigger: ':circled m:'
+- replace: "\U0001F195"
+  trigger: ':new:'
+- replace: "\U0001F196"
+  trigger: ':ng:'
+- replace: "\U0001F17E"
+  trigger: ':o button (blood type):'
+- replace: "\U0001F197"
+  trigger: ':ok:'
+- replace: "\U0001F17F"
+  trigger: ':p button:'
+- replace: "\U0001F198"
+  trigger: ':sos:'
+- replace: "\U0001F199"
+  trigger: ':up:'
+- replace: "\U0001F19A"
+  trigger: ':vs:'
+- replace: "\U0001F201"
+  trigger: ':koko:'
+- replace: "\U0001F202"
+  trigger: ":japanese \u201Cservice charge\u201D button:"
+- replace: "\U0001F237"
+  trigger: ":japanese \u201Cmonthly amount\u201D button:"
+- replace: "\U0001F236"
+  trigger: ':u6709:'
+- replace: "\U0001F22F"
+  trigger: ':u6307:'
+- replace: "\U0001F250"
+  trigger: ':ideograph advantage:'
+- replace: "\U0001F239"
+  trigger: ':u5272:'
+- replace: "\U0001F21A"
+  trigger: ':u7121:'
+- replace: "\U0001F232"
+  trigger: ':u7981:'
+- replace: "\U0001F251"
+  trigger: ':accept:'
+- replace: "\U0001F238"
+  trigger: ':u7533:'
+- replace: "\U0001F234"
+  trigger: ':u5408:'
+- replace: "\U0001F233"
+  trigger: ':u7a7a:'
+- replace: "\u3297"
+  trigger: ":japanese \u201Ccongratulations\u201D button:"
+- replace: "\u3299"
+  trigger: ":japanese \u201Csecret\u201D button:"
+- replace: "\U0001F23A"
+  trigger: ':u55b6:'
+- replace: "\U0001F235"
+  trigger: ':u6e80:'
+- replace: "\U0001F534"
+  trigger: ':red circle:'
+- replace: "\U0001F7E0"
+  trigger: ':orange circle:'
+- replace: "\U0001F7E1"
+  trigger: ':yellow circle:'
+- replace: "\U0001F7E2"
+  trigger: ':green circle:'
+- replace: "\U0001F535"
+  trigger: ':large blue circle:'
+- replace: "\U0001F7E3"
+  trigger: ':purple circle:'
+- replace: "\U0001F7E4"
+  trigger: ':brown circle:'
+- replace: "\u26AB"
+  trigger: ':black circle:'
+- replace: "\u26AA"
+  trigger: ':white circle:'
+- replace: "\U0001F7E5"
+  trigger: ':red square:'
+- replace: "\U0001F7E7"
+  trigger: ':orange square:'
+- replace: "\U0001F7E8"
+  trigger: ':yellow square:'
+- replace: "\U0001F7E9"
+  trigger: ':green square:'
+- replace: "\U0001F7E6"
+  trigger: ':blue square:'
+- replace: "\U0001F7EA"
+  trigger: ':purple square:'
+- replace: "\U0001F7EB"
+  trigger: ':brown square:'
+- replace: "\u2B1B"
+  trigger: ':black large square:'
+- replace: "\u2B1C"
+  trigger: ':white large square:'
+- replace: "\u25FC"
+  trigger: ':black medium square:'
+- replace: "\u25FB"
+  trigger: ':white medium square:'
+- replace: "\u25FE"
+  trigger: ':black medium-small square:'
+- replace: "\u25FD"
+  trigger: ':white medium-small square:'
+- replace: "\u25AA"
+  trigger: ':black small square:'
+- replace: "\u25AB"
+  trigger: ':white small square:'
+- replace: "\U0001F536"
+  trigger: ':large orange diamond:'
+- replace: "\U0001F537"
+  trigger: ':large blue diamond:'
+- replace: "\U0001F538"
+  trigger: ':small orange diamond:'
+- replace: "\U0001F539"
+  trigger: ':small blue diamond:'
+- replace: "\U0001F53A"
+  trigger: ':small red triangle:'
+- replace: "\U0001F53B"
+  trigger: ':small red triangle down:'
+- replace: "\U0001F4A0"
+  trigger: ':diamond shape with a dot inside:'
+- replace: "\U0001F518"
+  trigger: ':radio button:'
+- replace: "\U0001F533"
+  trigger: ':white square button:'
+- replace: "\U0001F532"
+  trigger: ':black square button:'
+- replace: "\U0001F3C1"
+  trigger: ':checkered flag:'
+- replace: "\U0001F6A9"
+  trigger: ':triangular flag on post:'
+- replace: "\U0001F38C"
+  trigger: ':crossed flags:'
+- replace: "\U0001F3F4"
+  trigger: ':black flag:'
+- replace: "\U0001F3F3"
+  trigger: ':white flag:'
+- replace: "\U0001F3F3\uFE0F\u200D\U0001F308"
+  trigger: ':rainbow flag:'
+- replace: "\U0001F3F3\uFE0F\u200D\u26A7\uFE0F"
+  trigger: ':transgender flag:'
+- replace: "\U0001F3F4\u200D\u2620\uFE0F"
+  trigger: ':pirate flag:'
+- replace: "\U0001F1E6\U0001F1E8"
+  trigger: ':flag ascension island:'
+- replace: "\U0001F1E6\U0001F1E9"
+  trigger: ':andorra:'
+- replace: "\U0001F1E6\U0001F1EA"
+  trigger: ':united arab emirates:'
+- replace: "\U0001F1E6\U0001F1EB"
+  trigger: ':afghanistan:'
+- replace: "\U0001F1E6\U0001F1EC"
+  trigger: ':antigua barbuda:'
+- replace: "\U0001F1E6\U0001F1EE"
+  trigger: ':anguilla:'
+- replace: "\U0001F1E6\U0001F1F1"
+  trigger: ':albania:'
+- replace: "\U0001F1E6\U0001F1F2"
+  trigger: ':armenia:'
+- replace: "\U0001F1E6\U0001F1F4"
+  trigger: ':angola:'
+- replace: "\U0001F1E6\U0001F1F6"
+  trigger: ':antarctica:'
+- replace: "\U0001F1E6\U0001F1F7"
+  trigger: ':argentina:'
+- replace: "\U0001F1E6\U0001F1F8"
+  trigger: ':american samoa:'
+- replace: "\U0001F1E6\U0001F1F9"
+  trigger: ':austria:'
+- replace: "\U0001F1E6\U0001F1FA"
+  trigger: ':australia:'
+- replace: "\U0001F1E6\U0001F1FC"
+  trigger: ':aruba:'
+- replace: "\U0001F1E6\U0001F1FD"
+  trigger: ':aland islands:'
+- replace: "\U0001F1E6\U0001F1FF"
+  trigger: ':azerbaijan:'
+- replace: "\U0001F1E7\U0001F1E6"
+  trigger: ':bosnia herzegovina:'
+- replace: "\U0001F1E7\U0001F1E7"
+  trigger: ':barbados:'
+- replace: "\U0001F1E7\U0001F1E9"
+  trigger: ':bangladesh:'
+- replace: "\U0001F1E7\U0001F1EA"
+  trigger: ':belgium:'
+- replace: "\U0001F1E7\U0001F1EB"
+  trigger: ':burkina faso:'
+- replace: "\U0001F1E7\U0001F1EC"
+  trigger: ':bulgaria:'
+- replace: "\U0001F1E7\U0001F1ED"
+  trigger: ':bahrain:'
+- replace: "\U0001F1E7\U0001F1EE"
+  trigger: ':burundi:'
+- replace: "\U0001F1E7\U0001F1EF"
+  trigger: ':benin:'
+- replace: "\U0001F1E7\U0001F1F1"
+  trigger: ':st barthelemy:'
+- replace: "\U0001F1E7\U0001F1F2"
+  trigger: ':bermuda:'
+- replace: "\U0001F1E7\U0001F1F3"
+  trigger: ':brunei:'
+- replace: "\U0001F1E7\U0001F1F4"
+  trigger: ':bolivia:'
+- replace: "\U0001F1E7\U0001F1F6"
+  trigger: ':caribbean netherlands:'
+- replace: "\U0001F1E7\U0001F1F7"
+  trigger: ':brazil:'
+- replace: "\U0001F1E7\U0001F1F8"
+  trigger: ':bahamas:'
+- replace: "\U0001F1E7\U0001F1F9"
+  trigger: ':bhutan:'
+- replace: "\U0001F1E7\U0001F1FB"
+  trigger: ':flag bouvet island:'
+- replace: "\U0001F1E7\U0001F1FC"
+  trigger: ':botswana:'
+- replace: "\U0001F1E7\U0001F1FE"
+  trigger: ':belarus:'
+- replace: "\U0001F1E7\U0001F1FF"
+  trigger: ':belize:'
+- replace: "\U0001F1E8\U0001F1E6"
+  trigger: ':canada:'
+- replace: "\U0001F1E8\U0001F1E8"
+  trigger: ':cocos islands:'
+- replace: "\U0001F1E8\U0001F1E9"
+  trigger: ':congo kinshasa:'
+- replace: "\U0001F1E8\U0001F1EB"
+  trigger: ':central african republic:'
+- replace: "\U0001F1E8\U0001F1EC"
+  trigger: ':congo brazzaville:'
+- replace: "\U0001F1E8\U0001F1ED"
+  trigger: ':switzerland:'
+- replace: "\U0001F1E8\U0001F1EE"
+  trigger: ':cote divoire:'
+- replace: "\U0001F1E8\U0001F1F0"
+  trigger: ':cook islands:'
+- replace: "\U0001F1E8\U0001F1F1"
+  trigger: ':chile:'
+- replace: "\U0001F1E8\U0001F1F2"
+  trigger: ':cameroon:'
+- replace: "\U0001F1E8\U0001F1F3"
+  trigger: ':cn:'
+- replace: "\U0001F1E8\U0001F1F4"
+  trigger: ':colombia:'
+- replace: "\U0001F1E8\U0001F1F5"
+  trigger: ':flag clipperton island:'
+- replace: "\U0001F1E8\U0001F1F7"
+  trigger: ':costa rica:'
+- replace: "\U0001F1E8\U0001F1FA"
+  trigger: ':cuba:'
+- replace: "\U0001F1E8\U0001F1FB"
+  trigger: ':cape verde:'
+- replace: "\U0001F1E8\U0001F1FC"
+  trigger: ':curacao:'
+- replace: "\U0001F1E8\U0001F1FD"
+  trigger: ':christmas island:'
+- replace: "\U0001F1E8\U0001F1FE"
+  trigger: ':cyprus:'
+- replace: "\U0001F1E8\U0001F1FF"
+  trigger: ':czech republic:'
+- replace: "\U0001F1E9\U0001F1EA"
+  trigger: ':de:'
+- replace: "\U0001F1E9\U0001F1EC"
+  trigger: ':flag diego garcia:'
+- replace: "\U0001F1E9\U0001F1EF"
+  trigger: ':djibouti:'
+- replace: "\U0001F1E9\U0001F1F0"
+  trigger: ':denmark:'
+- replace: "\U0001F1E9\U0001F1F2"
+  trigger: ':dominica:'
+- replace: "\U0001F1E9\U0001F1F4"
+  trigger: ':dominican republic:'
+- replace: "\U0001F1E9\U0001F1FF"
+  trigger: ':algeria:'
+- replace: "\U0001F1EA\U0001F1E6"
+  trigger: ':flag ceuta & melilla:'
+- replace: "\U0001F1EA\U0001F1E8"
+  trigger: ':ecuador:'
+- replace: "\U0001F1EA\U0001F1EA"
+  trigger: ':estonia:'
+- replace: "\U0001F1EA\U0001F1EC"
+  trigger: ':egypt:'
+- replace: "\U0001F1EA\U0001F1ED"
+  trigger: ':western sahara:'
+- replace: "\U0001F1EA\U0001F1F7"
+  trigger: ':eritrea:'
+- replace: "\U0001F1EA\U0001F1F8"
+  trigger: ':es:'
+- replace: "\U0001F1EA\U0001F1F9"
+  trigger: ':ethiopia:'
+- replace: "\U0001F1EA\U0001F1FA"
+  trigger: ':eu:'
+- replace: "\U0001F1EB\U0001F1EE"
+  trigger: ':finland:'
+- replace: "\U0001F1EB\U0001F1EF"
+  trigger: ':fiji:'
+- replace: "\U0001F1EB\U0001F1F0"
+  trigger: ':falkland islands:'
+- replace: "\U0001F1EB\U0001F1F2"
+  trigger: ':micronesia:'
+- replace: "\U0001F1EB\U0001F1F4"
+  trigger: ':faroe islands:'
+- replace: "\U0001F1EB\U0001F1F7"
+  trigger: ':fr:'
+- replace: "\U0001F1EC\U0001F1E6"
+  trigger: ':gabon:'
+- replace: "\U0001F1EC\U0001F1E7"
+  trigger: ':uk:'
+- replace: "\U0001F1EC\U0001F1E9"
+  trigger: ':grenada:'
+- replace: "\U0001F1EC\U0001F1EA"
+  trigger: ':georgia:'
+- replace: "\U0001F1EC\U0001F1EB"
+  trigger: ':french guiana:'
+- replace: "\U0001F1EC\U0001F1EC"
+  trigger: ':guernsey:'
+- replace: "\U0001F1EC\U0001F1ED"
+  trigger: ':ghana:'
+- replace: "\U0001F1EC\U0001F1EE"
+  trigger: ':gibraltar:'
+- replace: "\U0001F1EC\U0001F1F1"
+  trigger: ':greenland:'
+- replace: "\U0001F1EC\U0001F1F2"
+  trigger: ':gambia:'
+- replace: "\U0001F1EC\U0001F1F3"
+  trigger: ':guinea:'
+- replace: "\U0001F1EC\U0001F1F5"
+  trigger: ':guadeloupe:'
+- replace: "\U0001F1EC\U0001F1F6"
+  trigger: ':equatorial guinea:'
+- replace: "\U0001F1EC\U0001F1F7"
+  trigger: ':greece:'
+- replace: "\U0001F1EC\U0001F1F8"
+  trigger: ':south georgia south sandwich islands:'
+- replace: "\U0001F1EC\U0001F1F9"
+  trigger: ':guatemala:'
+- replace: "\U0001F1EC\U0001F1FA"
+  trigger: ':guam:'
+- replace: "\U0001F1EC\U0001F1FC"
+  trigger: ':guinea bissau:'
+- replace: "\U0001F1EC\U0001F1FE"
+  trigger: ':guyana:'
+- replace: "\U0001F1ED\U0001F1F0"
+  trigger: ':hong kong:'
+- replace: "\U0001F1ED\U0001F1F2"
+  trigger: ':flag heard & mcdonald islands:'
+- replace: "\U0001F1ED\U0001F1F3"
+  trigger: ':honduras:'
+- replace: "\U0001F1ED\U0001F1F7"
+  trigger: ':croatia:'
+- replace: "\U0001F1ED\U0001F1F9"
+  trigger: ':haiti:'
+- replace: "\U0001F1ED\U0001F1FA"
+  trigger: ':hungary:'
+- replace: "\U0001F1EE\U0001F1E8"
+  trigger: ':canary islands:'
+- replace: "\U0001F1EE\U0001F1E9"
+  trigger: ':indonesia:'
+- replace: "\U0001F1EE\U0001F1EA"
+  trigger: ':ireland:'
+- replace: "\U0001F1EE\U0001F1F1"
+  trigger: ':israel:'
+- replace: "\U0001F1EE\U0001F1F2"
+  trigger: ':isle of man:'
+- replace: "\U0001F1EE\U0001F1F3"
+  trigger: ':india:'
+- replace: "\U0001F1EE\U0001F1F4"
+  trigger: ':british indian ocean territory:'
+- replace: "\U0001F1EE\U0001F1F6"
+  trigger: ':iraq:'
+- replace: "\U0001F1EE\U0001F1F7"
+  trigger: ':iran:'
+- replace: "\U0001F1EE\U0001F1F8"
+  trigger: ':iceland:'
+- replace: "\U0001F1EE\U0001F1F9"
+  trigger: ':it:'
+- replace: "\U0001F1EF\U0001F1EA"
+  trigger: ':jersey:'
+- replace: "\U0001F1EF\U0001F1F2"
+  trigger: ':jamaica:'
+- replace: "\U0001F1EF\U0001F1F4"
+  trigger: ':jordan:'
+- replace: "\U0001F1EF\U0001F1F5"
+  trigger: ':jp:'
+- replace: "\U0001F1F0\U0001F1EA"
+  trigger: ':kenya:'
+- replace: "\U0001F1F0\U0001F1EC"
+  trigger: ':kyrgyzstan:'
+- replace: "\U0001F1F0\U0001F1ED"
+  trigger: ':cambodia:'
+- replace: "\U0001F1F0\U0001F1EE"
+  trigger: ':kiribati:'
+- replace: "\U0001F1F0\U0001F1F2"
+  trigger: ':comoros:'
+- replace: "\U0001F1F0\U0001F1F3"
+  trigger: ':st kitts nevis:'
+- replace: "\U0001F1F0\U0001F1F5"
+  trigger: ':north korea:'
+- replace: "\U0001F1F0\U0001F1F7"
+  trigger: ':kr:'
+- replace: "\U0001F1F0\U0001F1FC"
+  trigger: ':kuwait:'
+- replace: "\U0001F1F0\U0001F1FE"
+  trigger: ':cayman islands:'
+- replace: "\U0001F1F0\U0001F1FF"
+  trigger: ':kazakhstan:'
+- replace: "\U0001F1F1\U0001F1E6"
+  trigger: ':laos:'
+- replace: "\U0001F1F1\U0001F1E7"
+  trigger: ':lebanon:'
+- replace: "\U0001F1F1\U0001F1E8"
+  trigger: ':st lucia:'
+- replace: "\U0001F1F1\U0001F1EE"
+  trigger: ':liechtenstein:'
+- replace: "\U0001F1F1\U0001F1F0"
+  trigger: ':sri lanka:'
+- replace: "\U0001F1F1\U0001F1F7"
+  trigger: ':liberia:'
+- replace: "\U0001F1F1\U0001F1F8"
+  trigger: ':lesotho:'
+- replace: "\U0001F1F1\U0001F1F9"
+  trigger: ':lithuania:'
+- replace: "\U0001F1F1\U0001F1FA"
+  trigger: ':luxembourg:'
+- replace: "\U0001F1F1\U0001F1FB"
+  trigger: ':latvia:'
+- replace: "\U0001F1F1\U0001F1FE"
+  trigger: ':libya:'
+- replace: "\U0001F1F2\U0001F1E6"
+  trigger: ':morocco:'
+- replace: "\U0001F1F2\U0001F1E8"
+  trigger: ':monaco:'
+- replace: "\U0001F1F2\U0001F1E9"
+  trigger: ':moldova:'
+- replace: "\U0001F1F2\U0001F1EA"
+  trigger: ':montenegro:'
+- replace: "\U0001F1F2\U0001F1EB"
+  trigger: ':flag st martin:'
+- replace: "\U0001F1F2\U0001F1EC"
+  trigger: ':madagascar:'
+- replace: "\U0001F1F2\U0001F1ED"
+  trigger: ':marshall islands:'
+- replace: "\U0001F1F2\U0001F1F0"
+  trigger: ':macedonia:'
+- replace: "\U0001F1F2\U0001F1F1"
+  trigger: ':mali:'
+- replace: "\U0001F1F2\U0001F1F2"
+  trigger: ':myanmar:'
+- replace: "\U0001F1F2\U0001F1F3"
+  trigger: ':mongolia:'
+- replace: "\U0001F1F2\U0001F1F4"
+  trigger: ':macau:'
+- replace: "\U0001F1F2\U0001F1F5"
+  trigger: ':northern mariana islands:'
+- replace: "\U0001F1F2\U0001F1F6"
+  trigger: ':martinique:'
+- replace: "\U0001F1F2\U0001F1F7"
+  trigger: ':mauritania:'
+- replace: "\U0001F1F2\U0001F1F8"
+  trigger: ':montserrat:'
+- replace: "\U0001F1F2\U0001F1F9"
+  trigger: ':malta:'
+- replace: "\U0001F1F2\U0001F1FA"
+  trigger: ':mauritius:'
+- replace: "\U0001F1F2\U0001F1FB"
+  trigger: ':maldives:'
+- replace: "\U0001F1F2\U0001F1FC"
+  trigger: ':malawi:'
+- replace: "\U0001F1F2\U0001F1FD"
+  trigger: ':mexico:'
+- replace: "\U0001F1F2\U0001F1FE"
+  trigger: ':malaysia:'
+- replace: "\U0001F1F2\U0001F1FF"
+  trigger: ':mozambique:'
+- replace: "\U0001F1F3\U0001F1E6"
+  trigger: ':namibia:'
+- replace: "\U0001F1F3\U0001F1E8"
+  trigger: ':new caledonia:'
+- replace: "\U0001F1F3\U0001F1EA"
+  trigger: ':niger:'
+- replace: "\U0001F1F3\U0001F1EB"
+  trigger: ':norfolk island:'
+- replace: "\U0001F1F3\U0001F1EC"
+  trigger: ':nigeria:'
+- replace: "\U0001F1F3\U0001F1EE"
+  trigger: ':nicaragua:'
+- replace: "\U0001F1F3\U0001F1F1"
+  trigger: ':netherlands:'
+- replace: "\U0001F1F3\U0001F1F4"
+  trigger: ':norway:'
+- replace: "\U0001F1F3\U0001F1F5"
+  trigger: ':nepal:'
+- replace: "\U0001F1F3\U0001F1F7"
+  trigger: ':nauru:'
+- replace: "\U0001F1F3\U0001F1FA"
+  trigger: ':niue:'
+- replace: "\U0001F1F3\U0001F1FF"
+  trigger: ':new zealand:'
+- replace: "\U0001F1F4\U0001F1F2"
+  trigger: ':oman:'
+- replace: "\U0001F1F5\U0001F1E6"
+  trigger: ':panama:'
+- replace: "\U0001F1F5\U0001F1EA"
+  trigger: ':peru:'
+- replace: "\U0001F1F5\U0001F1EB"
+  trigger: ':french polynesia:'
+- replace: "\U0001F1F5\U0001F1EC"
+  trigger: ':papua new guinea:'
+- replace: "\U0001F1F5\U0001F1ED"
+  trigger: ':philippines:'
+- replace: "\U0001F1F5\U0001F1F0"
+  trigger: ':pakistan:'
+- replace: "\U0001F1F5\U0001F1F1"
+  trigger: ':poland:'
+- replace: "\U0001F1F5\U0001F1F2"
+  trigger: ':st pierre miquelon:'
+- replace: "\U0001F1F5\U0001F1F3"
+  trigger: ':pitcairn islands:'
+- replace: "\U0001F1F5\U0001F1F7"
+  trigger: ':puerto rico:'
+- replace: "\U0001F1F5\U0001F1F8"
+  trigger: ':palestinian territories:'
+- replace: "\U0001F1F5\U0001F1F9"
+  trigger: ':portugal:'
+- replace: "\U0001F1F5\U0001F1FC"
+  trigger: ':palau:'
+- replace: "\U0001F1F5\U0001F1FE"
+  trigger: ':paraguay:'
+- replace: "\U0001F1F6\U0001F1E6"
+  trigger: ':qatar:'
+- replace: "\U0001F1F7\U0001F1EA"
+  trigger: ':reunion:'
+- replace: "\U0001F1F7\U0001F1F4"
+  trigger: ':romania:'
+- replace: "\U0001F1F7\U0001F1F8"
+  trigger: ':serbia:'
+- replace: "\U0001F1F7\U0001F1FA"
+  trigger: ':ru:'
+- replace: "\U0001F1F7\U0001F1FC"
+  trigger: ':rwanda:'
+- replace: "\U0001F1F8\U0001F1E6"
+  trigger: ':saudi arabia:'
+- replace: "\U0001F1F8\U0001F1E7"
+  trigger: ':solomon islands:'
+- replace: "\U0001F1F8\U0001F1E8"
+  trigger: ':seychelles:'
+- replace: "\U0001F1F8\U0001F1E9"
+  trigger: ':sudan:'
+- replace: "\U0001F1F8\U0001F1EA"
+  trigger: ':sweden:'
+- replace: "\U0001F1F8\U0001F1EC"
+  trigger: ':singapore:'
+- replace: "\U0001F1F8\U0001F1ED"
+  trigger: ':st helena:'
+- replace: "\U0001F1F8\U0001F1EE"
+  trigger: ':slovenia:'
+- replace: "\U0001F1F8\U0001F1EF"
+  trigger: ':flag svalbard & jan mayen:'
+- replace: "\U0001F1F8\U0001F1F0"
+  trigger: ':slovakia:'
+- replace: "\U0001F1F8\U0001F1F1"
+  trigger: ':sierra leone:'
+- replace: "\U0001F1F8\U0001F1F2"
+  trigger: ':san marino:'
+- replace: "\U0001F1F8\U0001F1F3"
+  trigger: ':senegal:'
+- replace: "\U0001F1F8\U0001F1F4"
+  trigger: ':somalia:'
+- replace: "\U0001F1F8\U0001F1F7"
+  trigger: ':suriname:'
+- replace: "\U0001F1F8\U0001F1F8"
+  trigger: ':south sudan:'
+- replace: "\U0001F1F8\U0001F1F9"
+  trigger: ':sao tome principe:'
+- replace: "\U0001F1F8\U0001F1FB"
+  trigger: ':el salvador:'
+- replace: "\U0001F1F8\U0001F1FD"
+  trigger: ':sint maarten:'
+- replace: "\U0001F1F8\U0001F1FE"
+  trigger: ':syria:'
+- replace: "\U0001F1F8\U0001F1FF"
+  trigger: ':swaziland:'
+- replace: "\U0001F1F9\U0001F1E6"
+  trigger: ':flag tristan da cunha:'
+- replace: "\U0001F1F9\U0001F1E8"
+  trigger: ':turks caicos islands:'
+- replace: "\U0001F1F9\U0001F1E9"
+  trigger: ':chad:'
+- replace: "\U0001F1F9\U0001F1EB"
+  trigger: ':french southern territories:'
+- replace: "\U0001F1F9\U0001F1EC"
+  trigger: ':togo:'
+- replace: "\U0001F1F9\U0001F1ED"
+  trigger: ':thailand:'
+- replace: "\U0001F1F9\U0001F1EF"
+  trigger: ':tajikistan:'
+- replace: "\U0001F1F9\U0001F1F0"
+  trigger: ':tokelau:'
+- replace: "\U0001F1F9\U0001F1F1"
+  trigger: ':timor leste:'
+- replace: "\U0001F1F9\U0001F1F2"
+  trigger: ':turkmenistan:'
+- replace: "\U0001F1F9\U0001F1F3"
+  trigger: ':tunisia:'
+- replace: "\U0001F1F9\U0001F1F4"
+  trigger: ':tonga:'
+- replace: "\U0001F1F9\U0001F1F7"
+  trigger: ':tr:'
+- replace: "\U0001F1F9\U0001F1F9"
+  trigger: ':trinidad tobago:'
+- replace: "\U0001F1F9\U0001F1FB"
+  trigger: ':tuvalu:'
+- replace: "\U0001F1F9\U0001F1FC"
+  trigger: ':taiwan:'
+- replace: "\U0001F1F9\U0001F1FF"
+  trigger: ':tanzania:'
+- replace: "\U0001F1FA\U0001F1E6"
+  trigger: ':ukraine:'
+- replace: "\U0001F1FA\U0001F1EC"
+  trigger: ':uganda:'
+- replace: "\U0001F1FA\U0001F1F2"
+  trigger: ':flag us outlying islands:'
+- replace: "\U0001F1FA\U0001F1F3"
+  trigger: ':united nations:'
+- replace: "\U0001F1FA\U0001F1F8"
+  trigger: ':us:'
+- replace: "\U0001F1FA\U0001F1FE"
+  trigger: ':uruguay:'
+- replace: "\U0001F1FA\U0001F1FF"
+  trigger: ':uzbekistan:'
+- replace: "\U0001F1FB\U0001F1E6"
+  trigger: ':vatican city:'
+- replace: "\U0001F1FB\U0001F1E8"
+  trigger: ':st vincent grenadines:'
+- replace: "\U0001F1FB\U0001F1EA"
+  trigger: ':venezuela:'
+- replace: "\U0001F1FB\U0001F1EC"
+  trigger: ':british virgin islands:'
+- replace: "\U0001F1FB\U0001F1EE"
+  trigger: ':us virgin islands:'
+- replace: "\U0001F1FB\U0001F1F3"
+  trigger: ':vietnam:'
+- replace: "\U0001F1FB\U0001F1FA"
+  trigger: ':vanuatu:'
+- replace: "\U0001F1FC\U0001F1EB"
+  trigger: ':wallis futuna:'
+- replace: "\U0001F1FC\U0001F1F8"
+  trigger: ':samoa:'
+- replace: "\U0001F1FD\U0001F1F0"
+  trigger: ':kosovo:'
+- replace: "\U0001F1FE\U0001F1EA"
+  trigger: ':yemen:'
+- replace: "\U0001F1FE\U0001F1F9"
+  trigger: ':mayotte:'
+- replace: "\U0001F1FF\U0001F1E6"
+  trigger: ':south africa:'
+- replace: "\U0001F1FF\U0001F1F2"
+  trigger: ':zambia:'
+- replace: "\U0001F1FF\U0001F1FC"
+  trigger: ':zimbabwe:'
+- replace: "\U0001F3F4\U000E0067\U000E0062\U000E0065\U000E006E\U000E0067\U000E007F"
+  trigger: ':england:'
+- replace: "\U0001F3F4\U000E0067\U000E0062\U000E0073\U000E0063\U000E0074\U000E007F"
+  trigger: ':scotland:'
+- replace: "\U0001F3F4\U000E0067\U000E0062\U000E0077\U000E006C\U000E0073\U000E007F"
+  trigger: ':wales:'
