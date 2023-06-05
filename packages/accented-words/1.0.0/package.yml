@@ -1,23 +1,50 @@
 # Accented Words
+# Various additions from https://en-academic.com/dic.nsf/enwiki/3894487#sel=9:12,9:16
 
 matches:
-  - trigger: "Champs-Elysees"
-    replace: "Champs-Élysées"
+
+  - trigger: "a bas"
+    replace: "à bas"
     propagate_case: true
     word: true
 
-  - trigger: "Francois"
-    replace: "François"
+  - trigger: "a la"
+    replace: "à la"
     propagate_case: true
     word: true
 
-  - trigger: "Metis"
-    replace: "Métis"
+  - trigger: "a gogo"
+    replace: "à gogo"
     propagate_case: true
     word: true
 
-  - trigger: "Quebec"
-    replace: "Québec"
+  - trigger: "ago-go"
+    replace: "àgo-go"
+    propagate_case: true
+    word: true
+    
+  - trigger: "aide-memoire"
+    replace: "aide-mémoire"
+    propagate_case: true
+    word: true    
+
+  - trigger: "abbe"
+    replace: "abbé"
+    propagate_case: true
+    word: true
+
+  - trigger: "adios"
+    replace: "adiós"
+    propagate_case: true
+    word: true
+
+  - trigger: "agrement"
+    replace: "agrément"
+    propagate_case: true
+    word: true
+
+  - trigger: "Ancien Regime"
+    replace: "Ancien Régime"
     propagate_case: true
     word: true
 
@@ -26,13 +53,128 @@ matches:
     propagate_case: true
     word: true
 
-  - trigger: "brulee"
-    replace: "brûlée"
+  - trigger: "anime"
+    replace: "animé"
     propagate_case: true
     word: true
 
-  - trigger: "cafe'"
+  - trigger: "anu"
+    replace: "añu"
+    propagate_case: true
+    word: true
+
+  - trigger: "ao dai"
+    replace: "áo dài"
+    propagate_case: true
+    word: true
+
+  - trigger: "aperitif"
+    replace: "apéritif"
+    propagate_case: true
+    word: true
+
+  - trigger: "applique"
+    replace: "appliqué"
+    propagate_case: true
+    word: true
+
+  - trigger: "apres-ski"
+    replace: "après-ski"
+    propagate_case: true
+    word: true
+
+  - trigger: "arete"
+    replace: "arête"
+    propagate_case: true
+    word: true
+
+  - trigger: "attache"
+    replace: "attaché"
+    propagate_case: true
+    word: true
+
+  - trigger: "auto-da-fe"
+    replace: "auto-da-fé"
+    propagate_case: true
+    word: true
+
+  - trigger: "Beardface"
+    replace: "Beardfacé"
+    propagate_case: true
+    word: true
+
+  - trigger: "belle epoque"
+    replace: "belle époque"
+    propagate_case: true
+    word: true
+
+  - trigger: "bete noire"
+    replace: "bête noire"
+    propagate_case: true
+    word: true
+
+  - trigger: "betise"
+    replace: "bêtise"
+    propagate_case: true
+    word: true
+
+  - trigger: "blase"
+    replace: "blasé"
+    propagate_case: true
+    word: true
+
+  - trigger: "boite"
+    replace: "boîte"
+    propagate_case: true
+    word: true
+
+  - trigger: "Bon"
+    replace: "Bön"
+    propagate_case: true
+    word: true
+
+  - trigger: "Bootes"
+    replace: "Boötes"
+    propagate_case: true
+    word: true
+
+  - trigger: "boutonniere"
+    replace: "boutonnière"
+    propagate_case: true
+    word: true
+
+  - trigger: "bric-a-brac"
+    replace: "bric-à-brac"
+    propagate_case: true
+    word: true
+    
+  - trigger: "brulee"
+    replace: "brûlée"
+    propagate_case: true
+    word: true    
+
+  - trigger: "cafe" # "'" not needed
     replace: "café"
+    propagate_case: true
+    word: true
+    
+  - trigger: "cafetiere"
+    replace: "cafétiere"
+    propagate_case: true
+    word: true    
+    
+  - trigger: "canape"
+    replace: "canapé"
+    propagate_case: true
+    word: true
+
+  - trigger: "canon'"
+    replace: "cañon"
+    propagate_case: true
+    word: true
+
+  - trigger: "Champs-Elysees"
+    replace: "Champs-Élysées"
     propagate_case: true
     word: true
 
@@ -41,8 +183,93 @@ matches:
     propagate_case: true
     word: true
 
+  - trigger: "charge d'affaires"
+    replace: "chargé d'affaires"
+    propagate_case: true
+    word: true
+
+  - trigger: "celebre"
+    replace: "célèbre"
+    propagate_case: true
+    word: true
+
+  - trigger: "chaines"
+    replace: "chaînés"
+    propagate_case: true
+    word: true
+
+  - trigger: "cinema verite"
+    replace: "cinéma vérité"
+    propagate_case: true
+    word: true
+
   - trigger: "cliche"
     replace: "cliché"
+    propagate_case: true
+    word: true
+
+  - trigger: "cloisonne"
+    replace: "cloisonné"
+    propagate_case: true
+    word: true
+
+  - trigger: "consomme"
+    replace: "consommé"
+    propagate_case: true
+    word: true
+
+  - trigger: "communique"
+    replace: "communiqué"
+    propagate_case: true
+    word: true
+
+  - trigger: "confrere"
+    replace: "confrère"
+    propagate_case: true
+    word: true
+
+  - trigger: "continuum"
+    replace: "continuüm"
+    propagate_case: true
+    word: true
+
+  - trigger: "cooperate"
+    replace: "coöperate"
+    propagate_case: true
+    word: true
+
+  - trigger: "coopt"
+    replace: "coöpt"
+    propagate_case: true
+    word: true
+
+  - trigger: "coordinate"
+    replace: "coördinate"
+    propagate_case: true
+    word: true
+
+  - trigger: "cortege"
+    replace: "cortège"
+    propagate_case: true
+    word: true
+
+  - trigger: "coup d'etat"
+    replace: "coup d'état"
+    propagate_case: true
+    word: true
+
+  - trigger: "coup de grace"
+    replace: "coup de grâce"
+    propagate_case: true
+    word: true
+
+  - trigger: "creche"
+    replace: "crèche"
+    propagate_case: true
+    word: true
+
+  - trigger: "coulee"
+    replace: "coulée"
     propagate_case: true
     word: true
 
@@ -51,8 +278,43 @@ matches:
     propagate_case: true
     word: true
 
+  - trigger: "creme brulee"
+    replace: "crème brûlée"
+    propagate_case: true
+    word: true
+
   - trigger: "crepe"
     replace: "crêpe"
+    propagate_case: true
+    word: true
+
+  - trigger: "Creusa"
+    replace: "Creüsa"
+    propagate_case: true
+    word: true
+
+  - trigger: "crouton"
+    replace: "croûton"
+    propagate_case: true
+    word: true
+
+  - trigger: "crudites"
+    replace: "crudités"
+    propagate_case: true
+    word: true
+
+  - trigger: "Curacao"
+    replace: "Curaçao"
+    propagate_case: true
+    word: true
+
+  - trigger: "dais"
+    replace: "daïs"
+    propagate_case: true
+    word: true
+
+  - trigger: "dau hoi"
+    replace: "dấu hỏi"
     propagate_case: true
     word: true
 
@@ -66,13 +328,98 @@ matches:
     propagate_case: true
     word: true
 
+  - trigger: "declasse"
+    replace: "déclassé"
+    propagate_case: true
+    word: true
+
+  - trigger: "decolletage"
+    replace: "décolletage"
+    propagate_case: true
+    word: true
+
+  - trigger: "decollete"
+    replace: "décolleté"
+    propagate_case: true
+    word: true
+
+  - trigger: "decor"
+    replace: "décor"
+    propagate_case: true
+    word: true
+
+  - trigger: "decoupage"
+    replace: "découpage"
+    propagate_case: true
+    word: true
+
+  - trigger: "degage"
+    replace: "dégagé"
+    propagate_case: true
+    word: true
+
+  - trigger: "deja vu"
+    replace: "déjà vu"
+    propagate_case: true
+    word: true
+
+  - trigger: "demode"
+    replace: "démodé"
+    propagate_case: true
+    word: true
+
+  - trigger: "denouement"
+    replace: "dénouement"
+    propagate_case: true
+    word: true
+
+  - trigger: "depot"
+    replace: "dépôt"
+    propagate_case: true
+    word: true
+
+  - trigger: "derailleur"
+    replace: "dérailleur"
+    propagate_case: true
+    word: true
+
+  - trigger: "derriere"
+    replace: "derrière"
+    propagate_case: true
+    word: true
+
+  - trigger: "deshabille"
+    replace: "déshabillé"
+    propagate_case: true
+    word: true
+
   - trigger: "detente"
     replace: "détente"
     propagate_case: true
     word: true
 
+  - trigger: "diamante"
+    replace: "diamanté"
+    propagate_case: true
+    word: true
+
+  - trigger: "discotheque"
+    replace: "discothèque"
+    propagate_case: true
+    word: true
+
+  - trigger: "divorce"
+    replace: "divorcé"
+    propagate_case: true
+    word: true
+    
   - trigger: "divorcee"
     replace: "divorcée"
+    propagate_case: true
+    word: true    
+
+  - trigger: "Dona"
+    replace: "Doña"
     propagate_case: true
     word: true
 
@@ -91,6 +438,26 @@ matches:
     propagate_case: true
     word: true
 
+  - trigger: "Eire"
+    replace: "Éire"
+    propagate_case: true
+    word: true
+
+  - trigger: "El Nino"
+    replace: "El Niño"
+    propagate_case: true
+    word: true
+
+  - trigger: "elan"
+    replace: "élan"
+    propagate_case: true
+    word: true
+
+  - trigger: "elite"
+    replace: "élite"
+    propagate_case: true
+    word: true
+
   - trigger: "emigre"
     replace: "émigré"
     propagate_case: true
@@ -101,8 +468,28 @@ matches:
     propagate_case: true
     word: true
 
+  - trigger: "entrepot"
+    replace: "entrepôt"
+    propagate_case: true
+    word: true
+
+  - trigger: "entrecote"
+    replace: "entrecôte"
+    propagate_case: true
+    word: true
+
   - trigger: "epee"
     replace: "épée"
+    propagate_case: true
+    word: true
+
+  - trigger: "etouffee"
+    replace: "étouffée"
+    propagate_case: true
+    word: true
+
+  - trigger: "etude"
+    replace: "étude"
     propagate_case: true
     word: true
 
@@ -121,8 +508,28 @@ matches:
     propagate_case: true
     word: true
 
+  - trigger: "faience"
+    replace: "faïence"
+    propagate_case: true
+    word: true
+
   - trigger: "fiance"
     replace: "fiancé"
+    propagate_case: true
+    word: true
+
+  - trigger: "fiancee"
+    replace: "fiancée"
+    propagate_case: true
+    word: true
+
+  - trigger: "filmjolk"
+    replace: "filmjölk"
+    propagate_case: true
+    word: true
+
+  - trigger: "fin de siecle"
+    replace: "fin de siècle"
     propagate_case: true
     word: true
 
@@ -131,8 +538,93 @@ matches:
     propagate_case: true
     word: true
 
+  - trigger: "fleche"
+    replace: "flèche"
+    propagate_case: true
+    word: true
+
+  - trigger: "fohn wind"
+    replace: "föhn wind"
+    propagate_case: true
+    word: true
+
+  - trigger: "folie a deux"
+    replace: "folie à deux"
+    propagate_case: true
+    word: true
+
+  - trigger: "fouette"
+    replace: "fouetté"
+    propagate_case: true
+    word: true
+    
   - trigger: "francais"
     replace: "français"
+    propagate_case: true
+    word: true    
+    
+  - trigger: "Francois"
+    replace: "François"
+    propagate_case: true
+    word: true
+
+  - trigger: "frappe"
+    replace: "frappé"
+    propagate_case: true
+    word: true
+
+  - trigger: "fraulein"
+    replace: "fräulein"
+    propagate_case: true
+    word: true
+
+  - trigger: "Fuhrer"
+    replace: "Führer"
+    propagate_case: true
+    word: true
+
+  - trigger: "garcon"
+    replace: "garçon"
+    propagate_case: true
+    word: true
+
+  - trigger: "gateau"
+    replace: "gâteau"
+    propagate_case: true
+    word: true
+    
+  - trigger: "gateaux"
+    replace: "gâteaux"
+    propagate_case: true
+    word: true    
+
+  - trigger: "gemutlichkeit"
+    replace: "gemütlichkeit"
+    propagate_case: true
+    word: true
+
+  - trigger: "glace"
+    replace: "glacé"
+    propagate_case: true
+    word: true
+
+  - trigger: "glogg"
+    replace: "glögg"
+    propagate_case: true
+    word: true
+
+  - trigger: "Gewurztraminer"
+    replace: "Gewürztraminer"
+    propagate_case: true
+    word: true
+
+  - trigger: "Gotterdammerung"
+    replace: "Götterdämmerung"
+    propagate_case: true
+    word: true
+
+  - trigger: "Grafenberg"
+    replace: "Gräfenberg"
     propagate_case: true
     word: true
 
@@ -141,8 +633,33 @@ matches:
     propagate_case: true
     word: true
 
+  - trigger: "hacek"
+    replace: "háček"
+    propagate_case: true
+    word: true
+
+  - trigger: "Hawaii"
+    replace: "Hawaií"
+    propagate_case: true
+    word: true
+
+  - trigger: "hotel"
+    replace: "hôtel"
+    propagate_case: true
+    word: true
+
+  - trigger: "hors d'oeuvre"
+    replace: "hors d'œuvre"
+    propagate_case: true
+    word: true
+
   - trigger: "ingenue"
     replace: "ingénue"
+    propagate_case: true
+    word: true
+
+  - trigger: "jager"
+    replace: "jäger"
     propagate_case: true
     word: true
 
@@ -151,8 +668,103 @@ matches:
     propagate_case: true
     word: true
 
+  - trigger: "jardiniere"
+    replace: "jardinière"
+    propagate_case: true
+    word: true
+
+  - trigger: "krouzek"
+    replace: "kroužek"
+    propagate_case: true
+    word: true
+
+  - trigger: "kummel"
+    replace: "kümmel"
+    propagate_case: true
+    word: true
+
+  - trigger: "kaldolmar"
+    replace: "kåldolmar"
+    propagate_case: true
+    word: true
+
+  - trigger: "karaoke"
+    replace: "karaōke"
+    propagate_case: true
+    word: true
+
+  - trigger: "lame"
+    replace: "lamé"
+    propagate_case: true
+    word: true
+
+  - trigger: "landler"
+    replace: "ländler"
+    propagate_case: true
+    word: true
+
+  - trigger: "langue d'oil"
+    replace: "langue d'oïl"
+    propagate_case: true
+    word: true
+
+  - trigger: "La Nina"
+    replace: "La Niña"
+    propagate_case: true
+    word: true
+
+  - trigger: "litterateur"
+    replace: "littérateur"
+    propagate_case: true
+    word: true
+
+  - trigger: "lycee"
+    replace: "lycée"
+    propagate_case: true
+    word: true
+
+  - trigger: "macedoine"
+    replace: "macédoine"
+    propagate_case: true
+    word: true
+
+  - trigger: "macrame"
+    replace: "macramé"
+    propagate_case: true
+    word: true
+
+  - trigger: "maitre"
+    replace: "maître"
+    propagate_case: true
+    word: true
+
+  - trigger: "malaguena"
+    replace: "malagueña"
+    propagate_case: true
+    word: true
+
   - trigger: "manana"
     replace: "mañana"
+    propagate_case: true
+    word: true
+
+  - trigger: "manege"
+    replace: "manège"
+    propagate_case: true
+    word: true
+
+  - trigger: "manque"
+    replace: "manqué"
+    propagate_case: true
+    word: true
+
+  - trigger: "mate"
+    replace: "maté"
+    propagate_case: true
+    word: true
+
+  - trigger: "materiel"
+    replace: "matériel"
     propagate_case: true
     word: true
 
@@ -171,8 +783,38 @@ matches:
     propagate_case: true
     word: true
 
+  - trigger: "menage a trois"
+    replace: "ménage à trois"
+    propagate_case: true
+    word: true
+
+  - trigger: "mesalliance"
+    replace: "mésalliance"
+    propagate_case: true
+    word: true
+
+  - trigger: "metier"
+    replace: "métier"
+    propagate_case: true
+    word: true
+
+  - trigger: "Metis"
+    replace: "Métis"
+    propagate_case: true
+    word: true
+
+  - trigger: "minaudiere"
+    replace: "minaudière"
+    propagate_case: true
+    word: true
+
   - trigger: "moire"
     replace: "moiré"
+    propagate_case: true
+    word: true
+
+  - trigger: "naif"
+    replace: "naïf"
     propagate_case: true
     word: true
 
@@ -181,13 +823,208 @@ matches:
     propagate_case: true
     word: true
 
-  - trigger: "nee'"
+  - trigger: "naivete"
+    replace: "naïveté"
+    propagate_case: true
+    word: true
+
+  - trigger: "ne"
+    replace: "né"
+    propagate_case: true
+    word: true
+
+  - trigger: "nee"
     replace: "née"
     propagate_case: true
     word: true
 
-  - trigger: "ole'"
+  - trigger: "negligee"
+    replace: "negligée"
+    propagate_case: true
+    word: true
+
+  - trigger: "Neufchatel"
+    replace: "Neufchâtel"
+    propagate_case: true
+    word: true
+
+  - trigger: "Nez Perce"
+    replace: "Nez Percé"
+    propagate_case: true
+    word: true
+
+  - trigger: "Noel"
+    replace: "Noël"
+    propagate_case: true
+    word: true
+
+  - trigger: "noone'"
+    replace: "noöne"
+    propagate_case: true
+    word: true
+
+  - trigger: "numero"
+    replace: "número"
+    propagate_case: true
+    word: true
+
+  - trigger: "Montano"
+    replace: "Montaño"
+    propagate_case: true
+    word: true
+
+  - trigger: "objet trouve"
+    replace: "objet trouvé"
+    propagate_case: true
+    word: true
+
+  - trigger: "ole"
     replace: "olé"
+    propagate_case: true
+    word: true
+
+  - trigger: "ombre"
+    replace: "ombré"
+    propagate_case: true
+    word: true
+
+  - trigger: "omerta"
+    replace: "omertà"
+    propagate_case: true
+    word: true
+
+  - trigger: "oology"
+    replace: "oölogy"
+    propagate_case: true
+    word: true
+
+  - trigger: "opera bouffe"
+    replace: "opéra bouffe"
+    propagate_case: true
+    word: true
+
+  - trigger: "opera comique"
+    replace: "opéra comique"
+    propagate_case: true
+    word: true
+
+  - trigger: "opium"
+    replace: "opïum"
+    propagate_case: true
+    word: true
+
+  - trigger: "ore"
+    replace: "öre"
+    propagate_case: true
+    word: true
+
+  - trigger: "ore"
+    replace: "øre"
+    propagate_case: true
+    word: true
+
+  - trigger: "outre"
+    replace: "outré"
+    propagate_case: true
+    word: true
+
+  - trigger: "papier-mache"
+    replace: "papier-mâché"
+    propagate_case: true
+    word: true
+
+  - trigger: "passe"
+    replace: "passé"
+    propagate_case: true
+    word: true
+
+  - trigger: "pate"
+    replace: "pâté"
+    propagate_case: true
+    word: true
+
+  - trigger: "pho"
+    replace: "phở"
+    propagate_case: true
+    word: true
+
+  - trigger: "piece de resistance"
+    replace: "pièce de résistance"
+    propagate_case: true
+    word: true
+
+  - trigger: "pied-a-terre"
+    replace: "pied-à-terre"
+    propagate_case: true
+    word: true
+
+  - trigger: "plisse"
+    replace: "plissé"
+    propagate_case: true
+    word: true
+
+  - trigger: "pina colada"
+    replace: "piña colada"
+    propagate_case: true
+    word: true
+
+  - trigger: "pinata"
+    replace: "piñata"
+    propagate_case: true
+    word: true
+
+  - trigger: "pinon"
+    replace: "piñon"
+    propagate_case: true
+    word: true
+
+  - trigger: "pirana"
+    replace: "piraña"
+    propagate_case: true
+    word: true
+
+  - trigger: "pique"
+    replace: "piqué"
+    propagate_case: true
+    word: true
+
+  - trigger: "piu"
+    replace: "più"
+    propagate_case: true
+    word: true
+
+  - trigger: "plie"
+    replace: "plié"
+    propagate_case: true
+    word: true
+
+  - trigger: "precis"
+    replace: "précis"
+    propagate_case: true
+    word: true
+
+  - trigger: "polsa"
+    replace: "pölsa"
+    propagate_case: true
+    word: true
+
+  - trigger: "preempt"
+    replace: "preëmpt"
+    propagate_case: true
+    word: true
+
+  - trigger: "premiere"
+    replace: "première"
+    propagate_case: true
+    word: true
+
+  - trigger: "premiere danseuse"
+    replace: "première danseuse"
+    propagate_case: true
+    word: true
+
+  - trigger: "pret-a-porter"
+    replace: "prêt-à-porter"
     propagate_case: true
     word: true
 
@@ -196,13 +1033,93 @@ matches:
     propagate_case: true
     word: true
 
-  - trigger: "resume'"
+  - trigger: "protegee"
+    replace: "protégée"
+    propagate_case: true
+    word: true
+
+  - trigger: "puree"
+    replace: "purée"
+    propagate_case: true
+    word: true
+
+  - trigger: "Quebec"
+    replace: "Québec"
+    propagate_case: true
+    word: true
+
+  - trigger: "Quebecois"
+    replace: "Québécois"
+    propagate_case: true
+    word: true
+
+  - trigger: "d'etre"
+    replace: "d'être"
+    propagate_case: true
+    word: true
+
+  - trigger: "recherche"
+    replace: "recherché"
+    propagate_case: true
+    word: true
+
+  - trigger: "reclame"
+    replace: "réclame"
+    propagate_case: true
+    word: true
+
+  - trigger: "reenter'"
+    replace: "reënter"
+    propagate_case: true
+    word: true
+
+  - trigger: "regime"
+    replace: "régime"
+    propagate_case: true
+    word: true
+
+  - trigger: "resume"
     replace: "résumé"
+    propagate_case: true
+    word: true
+
+  - trigger: "residuum"
+    replace: "residuüm"
+    propagate_case: true
+    word: true
+
+  - trigger: "retrousse"
+    replace: "retroussé"
+    propagate_case: true
+    word: true
+
+  - trigger: "risque"
+    replace: "risqué"
+    propagate_case: true
+    word: true
+
+  - trigger: "role"
+    replace: "rôle"
+    propagate_case: true
+    word: true
+
+  - trigger: "riviere"
+    replace: "rivière"
+    propagate_case: true
+    word: true
+
+  - trigger: "roman a clef"
+    replace: "roman à clef"
     propagate_case: true
     word: true
 
   - trigger: "rose'"
     replace: "rosé"
+    propagate_case: true
+    word: true
+
+  - trigger: "roue"
+    replace: "roué"
     propagate_case: true
     word: true
 
@@ -221,8 +1138,33 @@ matches:
     propagate_case: true
     word: true
 
+  - trigger: "senora"
+    replace: "señora"
+    propagate_case: true
+    word: true
+
+  - trigger: "senorita"
+    replace: "señorita"
+    propagate_case: true
+    word: true
+
+  - trigger: "Sinn Fein"
+    replace: "Sinn Féin"
+    propagate_case: true
+    word: true
+
   - trigger: "smorgasbord"
     replace: "smörgåsbord"
+    propagate_case: true
+    word: true
+
+  - trigger: "smorgastarta"
+    replace: "smörgåstårta"
+    propagate_case: true
+    word: true
+
+  - trigger: "soigne"
+    replace: "soigné"
     propagate_case: true
     word: true
 
@@ -231,7 +1173,7 @@ matches:
     propagate_case: true
     word: true
 
-  - trigger: "souffle'"
+  - trigger: "souffle"
     replace: "soufflé"
     propagate_case: true
     word: true
@@ -241,12 +1183,72 @@ matches:
     propagate_case: true
     word: true
 
-  - trigger: "touche'"
+  - trigger: "surstromming"
+    replace: "surströmming"
+    propagate_case: true
+    word: true
+
+  - trigger: "tete-a-tete"
+    replace: "tête-à-tête"
+    propagate_case: true
+    word: true
+
+  - trigger: "touche"
     replace: "touché"
+    propagate_case: true
+    word: true
+
+  - trigger: "tourtiere"
+    replace: "tourtière"
+    propagate_case: true
+    word: true
+
+  - trigger: "uber'"
+    replace: "über"
+    propagate_case: true
+    word: true
+
+  - trigger: "Ubermensch"
+    replace: "Übermensch"
+    propagate_case: true
+    word: true
+
+  - trigger: "ventre a terre"
+    replace: "ventre à terre"
+    propagate_case: true
+    word: true
+
+  - trigger: "vicuna"
+    replace: "vicuña"
+    propagate_case: true
+    word: true
+
+  - trigger: "vin rose"
+    replace: "vin rosé"
+    propagate_case: true
+    word: true
+
+  - trigger: "vis a vis"
+    replace: "vis à vis"
     propagate_case: true
     word: true
 
   - trigger: "voila"
     replace: "voilà"
+    propagate_case: true
+    word: true
+
+  - trigger: "vardogr"
+    replace: "vardøgr"
+    propagate_case: true
+    word: true
+
+  - trigger: "Zaire"
+    replace: "Zaïre"
+    propagate_case: true
+    word: true
+
+  - trigger: "zoology"
+    replace: "zoölogy"
     propagate_case: true
     word: true
