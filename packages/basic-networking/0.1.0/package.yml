@@ -1,0 +1,44 @@
+matches:
+  - trigger: ":pip"
+    label: >
+      This prints the IP Address of the external (public facing) internet gateway.
+      In other words, this is your network address on the world wide web!
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "curl https://ifconfig.me"
+
+  - trigger: ":lip"
+    label: >
+      This prints the IP address of your current client device (most likely your laptop)
+      on the local network (LAN).
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "ipconfig getifaddr en0"
+
+  - trigger: ":rip"
+    label: >
+      This prints the IP Address of your current  Access Point (most likely your router)
+      for your current client device.
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "netstat -rn | grep default -m 1 | awk '{print $2}'"
+
+  - trigger: ":mac"
+    label: >
+      This prints your current devices MAC Address.
+      Normally, on a Mac OS machine, en0 is the Wi-Fi interface.
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "networksetup -getmacaddress en0 | awk '{print $3}'"
