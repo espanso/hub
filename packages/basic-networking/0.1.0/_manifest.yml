@@ -1,0 +1,6 @@
+name: "basic-networking"
+title: "Basic Networking"
+description: A package that provides info about your computer network
+version: 0.1.0
+author: webdavis
+tags: ["networking", "computer", "macOS"]
