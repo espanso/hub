@@ -1,0 +1,5 @@
+name: "relative-date"
+title: "Relative Date Expansion"
+description: Use +2d -4w etc to expand to the date relative to today. d=day, w=week, m=month and y=year. Only integer numbers!
+version: 0.1.0
+author: Matthias Berse

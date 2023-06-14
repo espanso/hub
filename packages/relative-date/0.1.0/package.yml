@@ -1,0 +1,12 @@
+matches:
+  - regex: "(?P<reldate>[+-][1-9][0-9]*[dwmy])"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: script
+        params:
+          args: 
+            - python
+            - "%CONFIG%/match/packages/relative-date/relative-date.py" 
+            - "{{reldate}}"
+          
