@@ -1,0 +1,30 @@
+matches:
+  - trigger: ":CDB:"
+    replace: "CREATE DATABASE"
+
+  - trigger: ":ADB:"
+    replace: "ALTER DATABASE"
+
+  - trigger: ":II:"
+    replace: "INSERT INTO"
+
+  - trigger: ":SF:"
+    replace: "SELECT * FROM"
+
+  - trigger: ":DF:"
+    replace: "DELETE FROM"
+ 
+  - trigger: ":CTB:"
+    replace: "CREATE TABLE" 
+
+  - trigger: ":DTB:"
+    replace: "DROP TABLE"
+  
+  - trigger: ":GB:"
+    replace: "GROUP BY"
+  
+  - trigger: ":OB:"
+    replace: "ORDER BY"
+  
+  - trigger: ":WH:"
+    replace: "WHERE"
