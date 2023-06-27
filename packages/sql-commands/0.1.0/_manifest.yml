@@ -1,0 +1,6 @@
+name: "sql-commands"
+title: "SQL Commands"
+description: A package that provides the most used SQL commands.
+version: 0.1.0
+author: Albert Ribas
+tags: ["SQL", "database"]
