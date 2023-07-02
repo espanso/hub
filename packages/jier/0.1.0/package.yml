@@ -1,0 +1,66 @@
+matches:
+  # misc
+  - trigger: ";>>"
+    replace: ➡
+  - trigger: ";vv"
+    replace: ⬇
+  - trigger: ";^^"
+    replace: ⬆
+  - trigger: ";<<"
+    replace: ⬅
+
+  # faq
+  - trigger: ";chongt"
+    replace: 冲突了，merge 下 master。
+  # code
+  - trigger: ";log"
+    replace: console.log($|$)
+  - trigger: ";delay"
+    replace: const delay = (ms) => new Promise((res) => setTimeout(res, ms));
+  # mac symbols
+  - trigger: ":cmd"
+    replace: "⌘"
+  - trigger: ":shift"
+    replace: "⇧"
+  - trigger: ":ctrl"
+    replace: "⌃"
+  - trigger: ":alt"
+    replace: "⌥"
+  - trigger: ":opt"
+    replace: "⌥"
+  - trigger: ":left"
+    replace: "←"
+  - trigger: ":right"
+    replace: "→"
+  - trigger: ":up"
+    replace: "↑"
+  - trigger: ":down"
+    replace: "↓"
+  - trigger: ":caps_lock"
+    replace: "⇪"
+  - trigger: ":esc"
+    replace: "⎋"
+  - trigger: ":eject"
+    replace: "⏏"
+  - trigger: ":return"
+    replace: "↵"
+  - trigger: ":enter"
+    replace: "⌅"
+  - trigger: ":tab"
+    replace: "⇥"
+  - trigger: ":backtab"
+    replace: "⇤"
+  - trigger: ":pgup"
+    replace: "⇞"
+  - trigger: ":pgdown"
+    replace: "⇟"
+  - trigger: ":home"
+    replace: "↖"
+  - trigger: ":end"
+    replace: "↘"
+  - trigger: ":space"
+    replace: "␣"
+  - trigger: ":del"
+    replace: "⌫"
+  - trigger: ":fdel"
+    replace: "⌦"

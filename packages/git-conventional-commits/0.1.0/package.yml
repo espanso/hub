@@ -1,0 +1,31 @@
+matches:
+  # One line commits:
+  - regex: ':(?P<type>feat|fix|build|chore|ci|docs|style|refactor|perf|test|revert)(?P<breaking>!?) '
+    replace: "git commit -m '{{type}}{{breaking}}: $|$'"
+
+  - regex: ':(?P<type>feat|fix|build|chore|ci|docs|style|refactor|perf|test|revert)(?P<scope>[^#!()\r\n]+)(?P<breaking>!?) '
+    replace: "git commit -m '{{type}}({{scope}}){{breaking}}: $|$'"
+  
+  # Commit with breaking change description and no scope
+  - regex: ':(?P<type>feat|fix|build|chore|ci|docs|style|refactor|perf|test|revert)!! '
+    replace: "git commit -m '{{type}}!: $|$\r\rBREAKING CHANGE: '"
+
+  # Commit with breaking change description and scope
+  - regex: ':(?P<type>feat|fix|build|chore|ci|docs|style|refactor|perf|test|revert)(?P<scope>[^#!()\r\n]+)!! '
+    replace: "git commit -m '{{type}}({{scope}})!: $|$\r\rBREAKING CHANGE: '"
+
+  # Commit with closed issue and no scope
+  - regex: ':(?P<type>feat|fix|build|chore|ci|docs|style|refactor|perf|test|revert)(?P<breaking>!?)(?P<issue>#\d+) '
+    replace: "git commit -m '{{type}}{{breaking}}: $|$\r\rCloses {{issue}}'"
+
+  # Commit with closed issue and scope
+  - regex: ':(?P<type>feat|fix|build|chore|ci|docs|style|refactor|perf|test|revert)(?P<breaking>!?)(?P<scope>[^#!()\r\n]+)(?P<issue>#\d+) '
+    replace: "git commit -m '{{type}}({{scope}}){{breaking}}: $|$\r\rCloses {{issue}}'"
+
+  # Commit with closed issue, breaking change description, and no scope
+  - regex: ':(?P<type>feat|fix|build|chore|ci|docs|style|refactor|perf|test|revert)(?P<issue>#\d+)!! '
+    replace: "git commit -m '{{type}}!: $|$\r\rBREAKING CHANGE:\rCloses {{issue}}'"
+
+  # Commit with closed issue, breaking change description, and scope
+  - regex: ':(?P<type>feat|fix|build|chore|ci|docs|style|refactor|perf|test|revert)(?P<scope>[^#!()\r\n]+)(?P<issue>#\d+)!! '
+    replace: "git commit -m '{{type}}({{scope}})!: $|$\r\rBREAKING CHANGE: \rCloses {{issue}}'"

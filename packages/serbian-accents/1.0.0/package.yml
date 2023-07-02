@@ -1,0 +1,52 @@
+matches:
+  - triggers:
+    - "c~"
+    - "cz~"
+    replace: "č"
+
+  - triggers:
+    - "C~"
+    - "Cz~"
+    - "CZ~"
+    replace: "Č"
+
+  - triggers:
+    - "s~"
+    replace: "š"
+
+  - triggers:
+    - "S~"
+    replace: "Š~"
+
+  - triggers:
+    - "z~"
+    replace: "ž~"
+
+  - triggers:
+    - "Z~"
+    replace: "Ž"
+
+  - triggers:
+    - "c~"
+    - "cc~"
+    - "ch~"
+    - "ci~"
+    replace: "ć"
+
+  - triggers:
+    - "C~"
+    - "Cc~"
+    - "CC~"
+    - "Ch~"
+    - "CH~"
+    - "Ci~"
+    - "CI~"
+    replace: "Ć"
+
+  - triggers:
+    - "d~"
+    replace: "đ"
+
+  - triggers:
+    - "D~"
+    replace: "Đ"

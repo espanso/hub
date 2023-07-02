@@ -1,0 +1,6 @@
+name: "git-conventional-commits"
+title: "Git Conventional Commits"
+description: Snippets for creating conventional commits in git
+version: 0.1.0
+author: Devan Looches
+homepage: https://github.com/devanlooches/espanso-git-conventional-commits
