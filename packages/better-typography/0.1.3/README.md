@@ -1,10 +1,13 @@
 # Better Typography
 
-This is an Espanso package to help with converting quotes into smart quotes. I created the file when I realized I had extensions or plugins in multiple apps meant to assist with these conversions. This particular config file is inspired by the [Smart Typography](https://github.com/mgmeyers/obsidian-smart-typography) plugin for Obsidian by mgmeyers.
+This is an Espanso package to help with converting quotes into smart quotes. I
+created the file when I realized I had extensions or plugins in multiple apps
+meant to assist with these conversions. It is inspired by the [Smart Typography](https://github.com/mgmeyers/obsidian-smart-typography)
+plugin for Obsidian by mgmeyers.
 
 ## Replacements
 
-*NOTE:* The pipe is the cursor position.
+*NOTE:* The pipe character is the cursor position.
 
 | Trigger | Replacement | Character                |
 |---------|-------------|--------------------------|
