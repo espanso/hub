@@ -1,0 +1,6 @@
+name: "turkish"
+title: "Turkish characters"
+description: A package for typing Turkish characters with any keybord layout.
+version: 1.0.0
+author: Alp Kaan Aksu
+tags: ["turkish"]

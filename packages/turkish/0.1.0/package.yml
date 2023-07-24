@@ -1,0 +1,37 @@
+matches:
+  # Turkish Characters   
+  - trigger: "C-"
+    replace: "Ç"
+        
+  - trigger: "c-"
+    replace: "ç"
+
+  - trigger: "S-"
+    replace: "Ş"
+    
+  - trigger: "s-"
+    replace: "ş"
+        
+  - trigger: "G-"
+    replace: "Ğ"
+
+  - trigger: "g-"
+    replace: "ğ"
+  
+  - trigger: "U-"
+    replace: "Ü"
+        
+  - trigger: "u-"
+    replace: "ü"
+
+  - trigger: "O-"
+    replace: "Ö"
+    
+  - trigger: "o-"
+    replace: "ö"
+        
+  - trigger: "I-"
+    replace: "İ"
+
+  - trigger: "i-"
+    replace: "ı"
