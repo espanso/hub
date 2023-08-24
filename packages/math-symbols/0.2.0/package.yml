@@ -23,10 +23,10 @@ matches:
   - trigger: ":oint:"
     replace: "∮"
 
-  - trigger: ":oint:"
+  - trigger: ":oiint:"
     replace: "∯"
 
-  - trigger: ":oint:"
+  - trigger: ":oiiint:"
     replace: "∰"
 
   - trigger: ":sum:"
