@@ -79,8 +79,5 @@ matches:
 
   - trigger: ":comment:"
     label: "Markdown - Comment"
-    replace: |-
-        <!---
-        `$|$`
-        -->
+    replace: "<!--- $|$ -->"
     force_clipboard: true
