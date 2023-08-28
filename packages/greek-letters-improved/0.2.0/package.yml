@@ -1,0 +1,174 @@
+matches:
+  - triggers: [":Alpha:", ":A:"]
+    replace: "Α"
+
+  - triggers: [":alpha:", ":a:"]
+    replace: "α"
+
+  - triggers: [":Beta:", ":B:"]
+    replace: "Β"
+
+  - triggers: [":beta:", ":b:"]
+    replace: "β"
+
+  - triggers: [":varbeta:", ":vb:"]
+    replace: "ϐ"
+
+  - triggers: [":Delta:", ":D:"]
+    replace: "Δ"
+
+  - triggers: [":delta:", ":d:"]
+    replace: "δ"
+
+  - triggers: [":Epsilon:", ":E:"]
+    replace: "Ε"
+
+  - triggers: [":epsilon:", ":e:"]
+    replace: "ϵ"
+
+  - triggers: [":varepsilon", ":ve:"]
+    replace: "ε"
+
+  - triggers: [":Phi:", ":P:"]
+    replace: "Φ"
+
+  - triggers: [":phi:", ":p:"]
+    replace: "𝜙"
+
+  - triggers: [":varphi:", ":vp:"]
+    replace: "φ"
+
+  - triggers: [":Gamma:", ":G:"]
+    replace: "Γ"
+
+  - triggers: [":gamma:", ":g:"]
+    replace: "γ"
+
+  - triggers: [":Eta:", ":E:"]
+    replace: "Η"
+
+  - triggers: [":eta:", ":e:"]
+    replace: "η"
+
+  - triggers: [":Iota:", ":I:"]
+    replace: "Ι"
+
+  - triggers: [":iota:", ":i:"]
+    replace: "ι"
+
+  - triggers: [":Theta:", ":T:"]
+    replace: "Θ"
+
+  - triggers: [":theta:", ":t:"]
+    replace: "θ"
+
+  - triggers: [":vartheta:", ":vt:"]
+    replace: "ϑ"
+
+  - triggers: [":Kappa:", ":K:"]
+    replace: "Κ"
+
+  - triggers: [":kappa:", ":k:"]
+    replace: "κ"
+
+  - triggers: [":varkappa", ":vk:"]
+    replace: "ϰ"
+
+  - triggers: [":Lambda:", ":L:"]
+    replace: "Λ"
+
+  - triggers: [":lambda:", ":l:"]
+    replace: "λ"
+
+  - triggers: [":Mu:", ":M:"]
+    replace: "Μ"
+
+  - triggers: [":mu:", ":m:"]
+    replace: "μ"
+
+  - triggers: [":Nu:", ":N:"]
+    replace: "Ν"
+
+  - triggers: [":nu:", ":n:"]
+    replace: "ν"
+
+  - trigger: ":Omicron:"
+    replace: "Ο"
+
+  - trigger: ":omicron:"
+    replace: "ο"
+
+  - trigger: ":Pi:"
+    replace: "Π"
+
+  - trigger: ":pi:"
+    replace: "π"
+
+  - triggers: [":varpi:", ":vpi:"]
+    replace: "ϖ"
+
+  - triggers: [":Chi:", ":C:"]
+    replace: "Χ"
+
+  - triggers: [":chi:", ":c:"]
+    replace: "χ"
+
+  - triggers: [":Rho:", ":R:"]
+    replace: "Ρ"
+
+  - triggers: [":rho:", ":r:"]
+    replace: "ρ"
+
+  - triggers: [":varrho", ":vr:"]
+    replace: "ϱ"
+
+  - triggers: [":Sigma:", ":S:"]
+    replace: "Σ"
+
+  - triggers: [":sigma:", ":s:"]
+    replace: "σ"
+
+  - triggers: [":varsigma:", ":vs:"]
+    replace: "ς"
+
+  - trigger: ":Tau:"
+    replace: "Τ"
+
+  - trigger: ":tau:"
+    replace: "τ"
+
+  - triggers: [":Upsilon:", ":U:"]
+    replace: "Υ"
+
+  - triggers: [":upsilon:", ":u:"]
+    replace: "υ"
+
+  - triggers: [":Omega:", ":O:"]
+    replace: "Ω"
+
+  - triggers: [":omega:", ":o:"]
+    replace: "ω"
+
+  - trigger: ":Xi:"
+    replace: "Ξ"
+
+  - trigger: ":xi:"
+    replace: "ξ"
+
+  - trigger: ":Psi:"
+    replace: "Ψ"
+
+  - triggers: [":varPsi:", ":vPsi:"]
+    replace: "Ⲯ"
+
+  - trigger: ":psi:"
+    replace: "ψ"
+
+  - triggers: [":varpsi:", ":vpsi:"]
+    replace: "ⲯ"
+
+  - triggers: [":Zeta:", ":Z:"]
+    replace: "Ζ"
+
+  - triggers: [":zeta:", ":z:"]
+    replace: "ζ"

@@ -1,0 +1,83 @@
+matches:
+  - trigger: ":block:"
+    label: "Markdown - Code block"
+    replace: |-
+        ```$|$
+        ```
+    force_clipboard: true
+
+  - trigger: ":code:"
+    label: "Markdown - Inline code"
+    replace: |-
+        `$|$`
+    force_clipboard: true
+
+  - trigger: ":h1:"
+    label: "Markdown - Header1"
+    replace: "#"
+
+  - trigger: ":h2:"
+    label: "Markdown - Header2"
+    replace: "##"
+
+  - trigger: ":h3:"
+    label: "Markdown - Header3"
+    replace: "###"
+
+  - trigger: ":h4:"
+    label: "Markdown - Header4"
+    replace: "####"
+
+  - trigger: ":h5:"
+    label: "Markdown - Header5"
+    replace: "#####"
+
+  - trigger: ":h6:"
+    label: "Markdown - Header6"
+    replace: "######"
+
+  - trigger: ":bold:"
+    label: "Markdown - Bold"
+    replace: "**$|$**"
+
+  - trigger: ":italic:"
+    label: "Markdown - Italic"
+    replace: "*$|$*"
+
+  - trigger: ":strike:"
+    label: "Markdown - Strikethrough"
+    replace: "~~$|$~~"
+
+  - trigger: ":url:"
+    label: "Markdown - URL"
+    replace: "[$|$]()"
+
+  - trigger: ":img:"
+    label: "Markdown - Image"
+    replace: "![]($|$)"
+
+  - trigger: ":horizontal:"
+    label: "Markdown - Horizontal line"
+    replace: "___"
+
+  - trigger: ":task:"
+    label: "Markdown - Task"
+    replace: "- [ ] "
+
+  - trigger: ":taskdone:"
+    label: "Markdown - Task completed"
+    replace: "- [x] "
+
+  - trigger: ":collapse:"
+    label: "Markdown - Collapse block"
+    replace: |-
+        <details>
+        <summary></summary>
+        $|$
+        </details>
+    force_clipboard: true
+
+  - trigger: ":comment:"
+    label: "Markdown - Comment"
+    replace: "<!--- $|$ -->"
+    force_clipboard: true
