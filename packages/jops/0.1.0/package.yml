@@ -1,0 +1,194 @@
+# Originally the package was written with global variables
+# but this has been changed for duplicated local variables 😒
+# because while espanso .deb worked just fine
+# AppImage didn't like it for some reason
+
+# TODO
+# ? clipboard todo due date menu :ctd
+# ? default tags
+# test suite
+# Notebook list & IDs: replace for-loop to while-loop; 
+
+
+
+matches:
+       
+# One time initialization screen
+  - trigger: :jop
+    replace: "{{clientTokenSave}}{{parentsave}} Success 👍"
+    vars:
+## Prompt user for auth token
+    - name: input
+      type: form
+      params:
+        layout: |
+            You're about to enable Joplin shortcuts 👍
+            
+            Please grant permission to access your notes
+            at the main Joplin screen
+            
+            Optionally you may set a default notebook 
+            
+            by pasting its external link here → [[parentid]]
+            
+            You can get this external link with
+            Right click on the notebook → Copy external link
+
+## Creates a file with authorization token in default joplin folder
+# Saves Joplin's master api token directly
+# currently depreciated and replaced 
+# with requesting this token every time an action is performed
+# because more secure
+
+#    - name: authsave
+#      type: shell
+#      params:
+#        cmd: "echo {{input.token}} > ~/.config/joplin/.auth" 
+        
+    - name: parentsave
+      type: shell
+      params:
+        cmd: "echo {{input.parentid}} | sed 's.joplin://x-callback-url/openFolder?id=..'> ~/.config/Joplin/.parentid" 
+        
+    - name: clientTokenSave
+      type: shell
+      params:
+        cmd: curl -X POST http://localhost:41184/auth | sed "s/{.*\"auth_token\":\"\([^\"]*\).*}/\1/g" > ~/.config/Joplin/.auth
+
+# Make note
+  - trigger: :mn
+    replace: "{{note}}"
+    vars:
+    - name: data
+      type: form
+      params:
+        layout: "[[text]]"
+        
+    - name: authRead
+      type: shell
+      params:
+        cmd: cat ~/.config/Joplin/.auth
+
+    - name: masterToken
+      type: shell
+      params:
+        cmd: curl -X GET http://localhost:41184/auth/check?auth_token={{authRead}} | sed "s/{.*\"token\":\"\([^\"]*\).*}/\1/g"
+        
+    - name: defaultNotebook
+      type: shell
+      params:
+        cmd: cat ~/.config/Joplin/.parentid 
+        
+    - name: note
+      type: shell
+      params:
+        cmd: "curl --silent --output /dev/null --data '{\"title\": \"📓 Quick note\", \"body\": \" {{data.text}} \", \"parent_id\": \"{{defaultNotebook}}\" }' http://localhost:41184/notes?token={{masterToken}}"
+        
+# Make todo 
+  - trigger: :mt
+    replace: "{{todo}}"
+    vars:
+    - name: data
+      type: form
+      params:
+        layout: "[[text]]"
+        
+    - name: authRead
+      type: shell
+      params:
+        cmd: cat ~/.config/Joplin/.auth  
+        
+    - name: masterToken
+      type: shell
+      params:
+        cmd: curl -X GET http://localhost:41184/auth/check?auth_token={{authRead}} | sed "s/{.*\"token\":\"\([^\"]*\).*}/\1/g"
+        
+    - name: defaultNotebook
+      type: shell
+      params:
+        cmd: cat ~/.config/Joplin/.parentid 
+        
+    - name: todo
+      type: shell
+      params:
+        cmd: "curl --silent --output /dev/null --data '{\"title\": \"Quick todo ☑️\", \"body\": \" {{data.text}} \", \"is_todo\": 1, \"parent_id\": \"{{defaultNotebook}}\" }' http://localhost:41184/notes?token={{masterToken}}"
+# Clipboard todo
+
+  - trigger: :ct
+    replace: "{{clipboardTodo}}"
+    vars:
+          
+    - name: clipboard
+      type: clipboard
+    
+    - name: authRead
+      type: shell
+      params:
+        cmd: cat ~/.config/Joplin/.auth  
+# Requests a master token from Joplin and parses the output        
+    - name: masterToken
+      type: shell
+      params:
+        cmd: curl -X GET http://localhost:41184/auth/check?auth_token={{authRead}} | sed "s/{.*\"token\":\"\([^\"]*\).*}/\1/g"
+        
+    - name: defaultNotebook
+      type: shell
+      params:
+        cmd: cat ~/.config/Joplin/.parentid 
+        
+    - name: clipboardTodo
+      type: shell
+      params:
+        cmd: "curl --silent --output /dev/null --data '{\"title\": \"Quick todo ☑️\", \"body\": \" {{clipboard}} \", \"is_todo\": 1, \"parent_id\": \"{{defaultNotebook}}\" }' http://localhost:41184/notes?token={{masterToken}}"
+
+
+################ WIP ###################
+# Prototype of package testing suite
+  - trigger: :api
+    replace: "{{clienttokensave}}"
+
+  - trigger: :sav
+    replace: "{{api}}"
+    
+
+# Prototype to allow user choice of his notebooks as default
+# Should return id of selected notebook
+## Status: cannot be implemented untill 
+## "choices" extension would allow 
+## injection of list with ids list
+
+  - trigger: :init
+    replace: "{{notebook}}"
+    vars:
+# should be rewritten to use CONFIG espanso folder
+# instead of joplin's: because this client
+# doesn't store joplin's auth token, only its own.
+      - name: authRead
+        type: shell
+        params:
+          cmd: cat ~/.config/Joplin/.auth
+# Requests a master token from Joplin and parses the output 
+      - name: masterToken
+        type: shell
+        params:
+          cmd: curl -X GET http://localhost:41184/auth/check?auth_token={{authRead}} | sed "s/{.*\"token\":\"\([^\"]*\).*}/\1/g"
+# Gets JSON of notebook titles and parses it to be a list
+      - name: notebooktitles
+        type: shell
+        params:
+          cmd: for ((i=1;i<=5;i++)); do curl -XGET "http://localhost:41184/folders?page=$i&token={{masterToken}}"; done | grep -o '"title":"[^"]*' | grep -o '[^"]*$' | sed G
+# Gets JSON of notebook ids and parses it to be a list
+      - name: notebookid
+        type: shell
+        params:
+          cmd: for ((i=1;i<=5;i++)); do curl -XGET "http://localhost:41184/folders?page=$i&token={{masterToken}}"; done | grep -o '"id":"[^"]*' | grep -o '[^"]*$' | sed G
+# Displays the choice of notebook to user
+      - name: notebook
+        type: choice
+        params:
+          values: 
+            - label: |
+                "{{notebooktitles}}"
+              id: |
+                "{{notebookid}}"
+         

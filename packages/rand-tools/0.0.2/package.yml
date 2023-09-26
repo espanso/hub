@@ -1,0 +1,15 @@
+matches:
+  - regex: "hrand(?P<num>.*?);"
+    replace: "{{result}}"
+    vars:
+      - name: result
+        type: shell
+        params:
+          cmd: "openssl rand -hex $ESPANSO_NUM"
+  - regex: "brand(?P<num>.*?);"
+    replace: "{{result}}"
+    vars:
+      - name: result
+        type: shell
+        params:
+          cmd: "openssl rand -base64 $ESPANSO_NUM"

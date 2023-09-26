@@ -1,0 +1,43 @@
+---
+matches:
+  - trigger: "bb8s"
+    replace: "-ogo-template='{{var}}'"
+    vars:
+      - name: var
+        type: echo
+        inject_vars: false
+        params:
+          echo: "{{ range $k, $val := .data}}{{$k}}={{ $val | base64decode }}{{\"\\n\"}}{{end}}"
+
+  - trigger: "k8salpi"
+    replace: "kubectl run -i --tty --rm debug --image=alpine --restart=Never -- sh"
+
+  - trigger: "k8sgetall"
+    replace: "kubectl api-resources --verbs=list --namespaced -o name  | xargs -n 1 kubectl get --show-kind --ignore-not-found"
+
+  - trigger: "cc8s"
+    replace: "-o=custom-columns=NameSpace:.metadata.namespace,NAME:.metadata.name,CONTAINERS:.spec.containers[*].name"
+
+  - trigger: "k8scurl"
+    replace: |
+     cat <<EOF |kubectl apply -f -
+     apiVersion: v1
+     kind: Pod
+     metadata:
+       name: testcurl
+     spec:
+       containers:
+       - name: curl
+         image: curlimages/curl
+         command: [ "sleep", "600" ]
+     EOF
+     kubectl exec -it testcurl -- sh
+
+  - trigger: "k8snp"
+    replace: "kubectl get pods --all-namespaces -o wide --field-selector spec.nodeName="
+
+  - trigger: "k8smf"
+    replace: "-o json | jq 'del(.metadata.managedFields)'"
+
+  - trigger: "k8sdrain"
+    replace: "kubectl drain --delete-emptydir-data --ignore-daemonsets"

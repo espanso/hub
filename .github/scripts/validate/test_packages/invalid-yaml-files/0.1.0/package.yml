@@ -1,0 +1,4 @@
+matches:
+  - trigger: ":hello"
+    replace: "github"
+  invalid: {{ invalid }} by {{ invalid }}

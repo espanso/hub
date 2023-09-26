@@ -1,0 +1,7 @@
+name: "serbian-accents"
+title: "Serbian Accent Letters"
+description: A way to type Serbian accented letters
+homepage: "https://github.com/cvladan/espanso-serbian-accents-package"
+version: 1.0.0
+author: Vladan Čolović
+tags: ["accents", "letters", "characters", "serbian", "slovenian", "croatian", "bosnian", "caron", "diacritics"]

@@ -1,0 +1,31 @@
+# Calculator
+
+matches:
+  # Calculator
+  - trigger: ":calc"
+    replace: "{{solved}}"
+    vars:
+      - name: "input"
+        type: "form"
+        params: 
+          layout: |
+            [[val]]
+      - name: "solved"
+        type: "shell"
+        params: 
+          cmd: "set /a %ESPANSO_INPUT_VAL%"
+          shell: "cmd"
+  # Calculator w/ input
+  - trigger: ":ecalc"
+    replace: "{{input.val}} = {{solved}}"
+    vars:
+      - name: "input"
+        type: "form"
+        params: 
+          layout: |
+            [[val]]
+      - name: "solved"
+        type: "shell"
+        params: 
+          cmd: "set /a %ESPANSO_INPUT_VAL%"
+          shell: "cmd"

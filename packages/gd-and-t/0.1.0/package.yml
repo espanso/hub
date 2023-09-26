@@ -1,0 +1,38 @@
+matches:
+ #GD&T symbols
+  # place deg symbol
+  - trigger: ":deg"
+    replace: "°"
+    
+    #place diameter symbol
+  - trigger: ":dia"
+    replace: "Ø"
+    
+    #place flatness symbol
+  - trigger: ":flat"
+    replace: "▱"
+    
+    #place parallelism symbol
+  - trigger: ":para"
+    replace: "//"
+    
+    #place concentricity symbol
+  - trigger: ":conc"
+    replace: "⌾"
+    
+    #place counterbore symbol
+  - trigger: ":cbore"
+    replace: "⌴"
+    
+    #place countersink symbol
+  - trigger: ":csink"
+    replace: "⌵"
+    
+    #spotty results with cylindricity
+    #place cylindricity symbol
+  - trigger: ":cyl"
+    replace: "⌭"
+    
+    #place true position symbol
+  - trigger: ":true"
+    replace: "⌖"

@@ -1,0 +1,7 @@
+name: "better-typography"
+title: "Better Typography"
+description: A package to help convert quotes into smart quotes.
+version: 0.1.2
+author: Justin Wayne Liles
+tags: ["typography","quotes","convert","replacement"]
+homepage: "https://github.com/jwliles/better-typography"

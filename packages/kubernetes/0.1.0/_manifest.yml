@@ -1,0 +1,7 @@
+author: QJoly
+description: Kubernetes manifests
+homepage: https://github.com/QJoly/espanso-kubernetes
+name: kubernetes
+title: kubernetes
+version: 0.1.0
+tags: ["file", "kubernetes", "yaml"]

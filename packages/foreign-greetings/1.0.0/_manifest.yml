@@ -1,0 +1,11 @@
+author: Ihor Kopach (https://kopach.dev)
+description: 🌐 Espanso package to easy say Hi in different languages
+homepage: https://github.com/kopach/espanso-package-foreign-greetings#readme
+name: foreign-greetings
+tags:
+  - greetings
+  - languages
+  - phrases
+  - communication
+title: Foreign greetings
+version: 1.0.0

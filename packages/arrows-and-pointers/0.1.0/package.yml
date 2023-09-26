@@ -1,0 +1,407 @@
+matches:
+
+# LEFTWARDS ARROW
+  - triggers: [":<-:", ":lef", ":lf", ":wes", ":wst"]
+    replace: "←"
+  - triggers: [":<-:", ":lef", ":lf", ":wes", ":wst"]
+    replace: "↢"
+  - triggers: [":<-:", ":lef", ":lf", ":wes", ":wst"]
+    replace: "⇽"
+  - triggers: [":<-:", ":lef", ":lf", ":wes", ":wst"]
+    replace: "☜"
+  - triggers: [":<-:", ":lef", ":lf", ":wes", ":wst"]
+    replace: "↤"
+  - triggers: [":<-:", ":lef", ":lf", ":wes", ":wst"]
+    replace: "⇤"
+  - triggers: [":<-:", ":lef", ":lf", ":wes", ":wst"]
+    replace: "↼"
+  - triggers: [":<-:", ":lef", ":lf", ":wes", ":wst"]
+    replace: "↽"
+  - triggers: [":<-:", ":lef", ":lf", ":wes", ":wst"]
+    replace: "↞"
+  - triggers: [":<-:", ":lef", ":lf", ":wes", ":wst"]
+    replace: "↜"
+  - triggers: [":<-:", ":lef", ":lf", ":wes", ":wst"]
+    replace: "⇜"
+  - triggers: [":<-:", ":lef", ":lf", ":wes", ":wst"]
+    replace: "↩"
+  - triggers: [":<-:", ":lef", ":lf", ":wes", ":wst"]
+    replace: "↫"
+  - triggers: [":<-:", ":lef", ":lf", ":wes", ":wst"]
+    replace: "⇐"
+  - triggers: [":<-:", ":lef", ":lf", ":wes", ":wst"]
+    replace: "⇚"
+  - triggers: [":<-:", ":lef", ":lf", ":wes", ":wst"]
+    replace: "⇇"
+  - triggers: [":<-:", ":lef", ":lf", ":wes", ":wst"]
+    replace: "⇠"
+  - triggers: [":<-:", ":lef", ":lf", ":wes", ":wst"]
+    replace: "⇷"
+  - triggers: [":<-:", ":lef", ":lf", ":wes", ":wst"]
+    replace: "⇺"
+  - triggers: [":<-:", ":lef", ":lf", ":wes", ":wst"]
+    replace: "↚"
+  - triggers: [":<-:", ":lef", ":lf", ":wes", ":wst"]
+    replace: "⤺"
+  - triggers: [":<-:", ":lef", ":lf", ":wes", ":wst"]
+    replace: "⇦"
+  - triggers: [":<-:", ":lef", ":lf", ":wes", ":wst"]
+    replace: "⬅"
+  - triggers: [":<-:", ":lef", ":lf", ":wes", ":wst"]
+    replace: "⇷"
+  - triggers: [":<-:", ":lef", ":lf", ":wes", ":wst"]
+    replace: "⇺"
+  - triggers: [":<-:", ":lef", ":lf", ":wes", ":wst"]
+    replace: "⯇"
+  - triggers: [":<-:", ":lef", ":lf", ":wes", ":wst"]
+    replace: "⮘"
+  - triggers: [":<-:", ":lef", ":lf", ":wes", ":wst"]
+    replace: "⮜"
+    
+# RIGHTWARDS ARROW
+  - triggers: [":->", ":rig", ":rt", ":eas", ":est"]
+    replace: "→"
+  - triggers: [":->", ":rig", ":rt", ":eas", ":est"]
+    replace: "↣"
+  - triggers: [":->", ":rig", ":rt", ":eas", ":est"]
+    replace: "⇾"
+  - triggers: [":->", ":rig", ":rt", ":eas", ":est"]
+    replace: "☞"
+  - triggers: [":->", ":rig", ":rt", ":eas", ":est"]
+    replace: "⇨"
+  - triggers: [":->", ":rig", ":rt", ":eas", ":est"]
+    replace: "⮕"
+  - triggers: [":->", ":rig", ":rt", ":eas", ":est"]
+    replace: "⇢"
+  - triggers: [":->", ":rig", ":rt", ":eas", ":est"]
+    replace: "↦"
+  - triggers: [":->", ":rig", ":rt", ":eas", ":est"]
+    replace: "⇰"
+  - triggers: [":->", ":rig", ":rt", ":eas", ":est"]
+    replace: "⇥"
+  - triggers: [":->", ":rig", ":rt", ":eas", ":est"]
+    replace: "⇀"
+  - triggers: [":->", ":rig", ":rt", ":eas", ":est"]
+    replace: "⇁"
+  - triggers: [":->", ":rig", ":rt", ":eas", ":est"]
+    replace: "↠"
+  - triggers: [":->", ":rig", ":rt", ":eas", ":est"]
+    replace: "↝"
+  - triggers: [":->", ":rig", ":rt", ":eas", ":est"]
+    replace: "↪"
+  - triggers: [":->", ":rig", ":rt", ":eas", ":est"]
+    replace: "⤻"
+  - triggers: [":->", ":rig", ":rt", ":eas", ":est"]
+    replace: "↬"
+  - triggers: [":->", ":rig", ":rt", ":eas", ":est"]
+    replace: "⇉"
+  - triggers: [":->", ":rig", ":rt", ":eas", ":est"]
+    replace: "⇒"
+  - triggers: [":->", ":rig", ":rt", ":eas", ":est"]
+    replace: "⇛"
+  - triggers: [":->", ":rig", ":rt", ":eas", ":est"]
+    replace: "⇝"
+  - triggers: [":->", ":rig", ":rt", ":eas", ":est"]
+    replace: "⇶"
+  - triggers: [":->", ":rig", ":rt", ":eas", ":est"]
+    replace: "⇶"
+  - triggers: [":->", ":rig", ":rt", ":eas", ":est"]
+    replace: "⇸"
+  - triggers: [":->", ":rig", ":rt", ":eas", ":est"]
+    replace: "⇴"
+  - triggers: [":->", ":rig", ":rt", ":eas", ":est"]
+    replace: "⇻"
+  - triggers: [":->", ":rig", ":rt", ":eas", ":est"]
+    replace: "↛"
+  - triggers: [":->", ":rig", ":rt", ":eas", ":est"]
+    replace: "⯈"
+  - triggers: [":->", ":rig", ":rt", ":eas", ":est"]
+    replace: "⮚"
+  - triggers: [":->", ":rig", ":rt", ":eas", ":est"]
+    replace: "⮞"
+
+# UPWARDS ARROW
+  - triggers: [":|^", ":^|:", ":up", ":nor", ":nth"]
+    replace: "↑"
+  - triggers: [":|^", ":^|:", ":up", ":nor", ":nth"]
+    replace: "☝"
+  - triggers: [":|^", ":^|:", ":up", ":nor", ":nth"]
+    replace: "⇧"
+  - triggers: [":|^", ":^|:", ":up", ":nor", ":nth"]
+    replace: "⬆"
+  - triggers: [":|^", ":^|:", ":up", ":nor", ":nth"]
+    replace: "↟"
+  - triggers: [":|^", ":^|:", ":up", ":nor", ":nth"]
+    replace: "↥"
+  - triggers: [":|^", ":^|:", ":up", ":nor", ":nth"]
+    replace: "⇫"
+  - triggers: [":|^", ":^|:", ":up", ":nor", ":nth"]
+    replace: "⇬"
+  - triggers: [":|^", ":^|:", ":up", ":nor", ":nth"]
+    replace: "⇭"
+  - triggers: [":|^", ":^|:", ":up", ":nor", ":nth"]
+    replace: "↾"
+  - triggers: [":|^", ":^|:", ":up", ":nor", ":nth"]
+    replace: "↿"
+  - triggers: [":|^", ":^|:", ":up", ":nor", ":nth"]
+    replace: "⇮"
+  - triggers: [":|^", ":^|:", ":up", ":nor", ":nth"]
+    replace: "⇯"
+  - triggers: [":|^", ":^|:", ":up", ":nor", ":nth"]
+    replace: "⇈"
+  - triggers: [":|^", ":^|:", ":up", ":nor", ":nth"]
+    replace: "⇑"
+  - triggers: [":|^", ":^|:", ":up", ":nor", ":nth"]
+    replace: "⇡"
+  - triggers: [":|^", ":^|:", ":up", ":nor", ":nth"]
+    replace: "⇪"
+  - triggers: [":|^", ":^|:", ":up", ":nor", ":nth"]
+    replace: "⯅"
+  - triggers: [":|^", ":^|:", ":up", ":nor", ":nth"]
+    replace: "⮙"
+  - triggers: [":|^", ":^|:", ":up", ":nor", ":nth"]
+    replace: "⮝"
+
+# DOWNWARDS ARROW
+  - triggers: [":v|:", ":|v", ":sou", ":sth"]
+    replace: "↓"
+  - triggers: [":v|:", ":|v", ":sou", ":sth"]
+    replace: "☟"
+  - triggers: [":v|:", ":|v", ":sou", ":sth"]
+    replace: "⬇"
+  - triggers: [":v|:", ":|v", ":sou", ":sth"]
+    replace: "⇩"
+  - triggers: [":v|:", ":|v", ":sou", ":sth"]
+    replace: "↡"
+  - triggers: [":v|:", ":|v", ":sou", ":sth"]
+    replace: "↧"
+  - triggers: [":v|:", ":|v", ":sou", ":sth"]
+    replace: "↯"
+  - triggers: [":v|:", ":|v", ":sou", ":sth"]
+    replace: "⇂"
+  - triggers: [":v|:", ":|v", ":sou", ":sth"]
+    replace: "⇃"
+  - triggers: [":v|:", ":|v", ":sou", ":sth"]
+    replace: "⇊"
+  - triggers: [":v|:", ":|v", ":sou", ":sth"]
+    replace: "⇓"
+  - triggers: [":v|:", ":|v", ":sou", ":sth"]
+    replace: "⇣"
+  - triggers: [":v|:", ":|v", ":sou", ":sth"]
+    replace: "⤸"
+  - triggers: [":v|:", ":|v", ":sou", ":sth"]
+    replace: "⤹"
+  - triggers: [":v|:", ":|v", ":sou", ":sth"]
+    replace: "⯆"
+  - triggers: [":v|:", ":|v", ":sou", ":sth"]
+    replace: "⮛"
+  - triggers: [":v|:", ":|v", ":sou", ":sth"]
+    replace: "⮟"
+
+# NORTH WEST ARROW
+  - triggers: [":<\\:", ":^\\", ":nw", ":NW"]
+    replace: "↖"
+  - triggers: [":<\\:", ":^\\", ":nw", ":NW"]
+    replace: "⇖"
+  - triggers: [":<\\:", ":^\\", ":nw", ":NW"]
+    replace: "⬉"
+  - triggers: [":<\\:", ":^\\", ":nw", ":NW"]
+    replace: "⇱"
+  - triggers: [":<\\:", ":^\\", ":nw", ":NW"]
+    replace: "↰"
+  - triggers: [":<\\:", ":^\\", ":nw", ":NW"]
+    replace: "⮢"
+  - triggers: [":<\\:", ":^\\", ":nw", ":NW"]
+    replace: "⮤"
+
+# NORTH EAST ARROW
+  - triggers: [":/>", ":/^",":ne", ":NE"]
+    replace: "↗"
+  - triggers: [":/>", ":/^",":ne", ":NE"]
+    replace: "⇗"
+  - triggers: [":/>", ":/^",":ne", ":NE"]
+    replace: "⬈"
+  - triggers: [":/>", ":/^",":ne", ":NE"]
+    replace: "⤴"
+  - triggers: [":/>", ":/^",":ne", ":NE"]
+    replace: "↱"
+  - triggers: [":/>", ":/^",":ne", ":NE"]
+    replace: "⮣"
+  - triggers: [":/>", ":/^",":ne", ":NE"]
+    replace: "⮥"
+
+# SOUTH EAST ARROW
+  - triggers: [":\\>", ":\\v", ":se", ":SE"]
+    replace: "↘"
+  - triggers: [":\\>", ":\\v", ":se", ":SE"]
+    replace: "⇘"
+  - triggers: [":\\>", ":\\v", ":se", ":SE"]
+    replace: "⬊"
+  - triggers: [":\\>", ":\\v", ":se", ":SE"]
+    replace: "⇲"
+  - triggers: [":\\>", ":\\v", ":se", ":SE"]
+    replace: "⤵"
+  - triggers: [":\\>", ":\\v", ":se", ":SE"]
+    replace: "⤷"
+  - triggers: [":\\>", ":\\v", ":se", ":SE"]
+    replace: "↳"
+  - triggers: [":\\>", ":\\v", ":se", ":SE"]
+    replace: "⮡"
+  - triggers: [":\\>", ":\\v", ":se", ":SE"]
+    replace: "↴"
+  - triggers: [":\\>", ":\\v", ":se", ":SE"]
+    replace: "⮧"
+
+# SOUTH WEST ARROW
+  - triggers: [":</", ":v/", ":sw", ":SW"]
+    replace: "↙"
+  - triggers: [":</", ":v/", ":sw", ":SW"]
+    replace: "⇙"
+  - triggers: [":</", ":v/", ":sw", ":SW"]
+    replace: "⬋"
+  - triggers: [":</", ":v/", ":sw", ":SW"]
+    replace: "↲"
+  - triggers: [":</", ":v/", ":sw", ":SW"]
+    replace: "↵"
+  - triggers: [":</", ":v/", ":sw", ":SW"]
+    replace: "⮠"
+  - triggers: [":</", ":v/", ":sw", ":SW"]
+    replace: "⮦"
+  - triggers: [":</", ":v/", ":sw", ":SW"]
+    replace: "⤶"
+    
+
+# LEFT RIGHT ARROW
+  - triggers: [":<>", ":<->"]
+    replace: "↔"
+  - triggers: [":<>", ":<->"]
+    replace: "↭"
+  - triggers: [":<>", ":<->"]
+    replace: "↮"
+  - triggers: [":<>", ":<->"]
+    replace: "⇔"
+  - triggers: [":<>", ":<->"]
+    replace: "⬌"
+  - triggers: [":<>", ":<->"]
+    replace: "⇋"
+  - triggers: [":<>", ":<->"]
+    replace: "⇌"
+  - triggers: [":<>", ":<->"]
+    replace: "↹"
+  - triggers: [":<>", ":<->"]
+    replace: "⇆"
+  - triggers: [":<>", ":<->"]
+    replace: "⇄"
+  - triggers: [":<>", ":<->"]
+    replace: "⇿"
+  - triggers: [":<>", ":<->"]
+    replace: "⥊"
+  - triggers: [":<>", ":<->"]
+    replace: "⥋"
+  - triggers: [":<>", ":<->"]
+    replace: "⥎"
+  - triggers: [":<>", ":<->"]
+    replace: "⥐"
+  - triggers: [":<>", ":<->"]
+    replace: "⇹"
+  - triggers: [":<>", ":<->"]
+    replace: "⇼"
+        
+# UP DOWN ARROW
+  - triggers: [":^v", ":v^", ":^|v", ":v|^"]
+    replace: "↕"
+  - triggers: [":^v", ":v^", ":^|v", ":v|^"]
+    replace: "⇕"
+  - triggers: [":^v", ":v^", ":^|v", ":v|^"]
+    replace: "⇳"
+  - triggers: [":^v", ":v^", ":^|v", ":v|^"]
+    replace: "⬍"
+  - triggers: [":^v", ":v^", ":^|v", ":v|^"]
+    replace: "⇅"
+  - triggers: [":^v", ":v^", ":^|v", ":v|^"]
+    replace: "⇵"
+  - triggers: [":^v", ":v^", ":^|v", ":v|^"]
+    replace: "↨"
+  - triggers: [":^v", ":v^", ":^|v", ":v|^"]
+    replace: "⥌"
+  - triggers: [":^v", ":v^", ":^|v", ":v|^"]
+    replace: "⥍"
+  - triggers: [":^v", ":v^", ":^|v", ":v|^"]
+    replace: "⥏"
+  - triggers: [":^v", ":v^", ":^|v", ":v|^"]
+    replace: "⥑"
+
+# CROSS ARROWS
+  - triggers: [":<X>", ":^Xv"]
+    replace: "⤧"
+  - triggers: [":<X>", ":^Xv"]
+    replace: "⤩"
+  - triggers: [":<X>", ":^Xv"]
+    replace: "⤪"
+  - triggers: [":<X>", ":^Xv"]
+    replace: "⤨"
+
+
+# CLOCKWISE 
+  - triggers: [":cloc", ":O>", ":>O"]
+    replace: "⥁"
+  - triggers: [":cloc", ":O>", ":>O"]
+    replace: "↻"
+  - triggers: [":cloc", ":O>", ":>O"]
+    replace: "↷"
+  - triggers: [":cloc", ":O>", ":>O"]
+    replace: "⤸"
+  - triggers: [":cloc", ":O>", ":>O"]
+    replace: "⤵"
+  - triggers: [":cloc", ":O>", ":>O"]
+    replace: "⤶"
+  - triggers: [":cloc", ":O>", ":>O"]
+    replace: "↴"
+  - triggers: [":cloc", ":O>", ":>O"]
+    replace: "⮧"
+  - triggers: [":cloc", ":O>", ":>O"]
+    replace: "⮤"
+  - triggers: [":cloc", ":O>", ":>O"]
+    replace: "↱"
+  - triggers: [":cloc", ":O>", ":>O"]
+    replace: "⮣"
+  - triggers: [":cloc", ":O>", ":>O"]
+    replace: "↲"
+  - triggers: [":cloc", ":O>", ":>O"]
+    replace: "↵"
+  - triggers: [":cloc", ":O>", ":>O"]
+    replace: "⮠"
+    
+# ANTI CLOCKWISE
+  - triggers: [":anti", ":O<", ":<O"]
+    replace: "⥀"
+  - triggers: [":anti", ":O<", ":<O"]
+    replace: "↺"
+  - triggers: [":anti", ":O<", ":<O"]
+    replace: "↶"
+  - triggers: [":anti", ":O<", ":<O"]
+    replace: "⤹"
+  - triggers: [":anti", ":O<", ":<O"]
+    replace: "⮌"
+  - triggers: [":anti", ":O<", ":<O"]
+    replace: "⮍"
+  - triggers: [":anti", ":O<", ":<O"]
+    replace: "⮎"
+  - triggers: [":anti", ":O<", ":<O"]
+    replace: "⮏"
+  - triggers: [":anti", ":O<", ":<O"]
+    replace: "⤴"
+  - triggers: [":anti", ":O<", ":<O"]
+    replace: "⤷"
+  - triggers: [":anti", ":O<", ":<O"]
+    replace: "↰"
+  - triggers: [":anti", ":O<", ":<O"]
+    replace: "⮢"
+  - triggers: [":anti", ":O<", ":<O"]
+    replace: "⮥"
+  - triggers: [":anti", ":O<", ":<O"]
+    replace: "↳"
+  - triggers: [":anti", ":O<", ":<O"]
+    replace: "⮡"
+  - triggers: [":anti", ":O<", ":<O"]
+    replace: "⮦"
