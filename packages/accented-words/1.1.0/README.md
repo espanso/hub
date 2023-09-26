@@ -2,6 +2,8 @@
 
 Simple package to extend [Espanso](https://espanso.org) with commonly accented words used in English.
 
+Major additions from https://en-academic.com/dic.nsf/enwiki/3894487#sel=9:12,9:16 thanks to Stephen Meech.
+
 ## Installation
 
 ```
