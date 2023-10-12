@@ -1,0 +1,31 @@
+# Password Generator
+matches:
+
+  - trigger: ":genpass:"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: script
+        params:
+          args:
+            - python
+            - "%CONFIG%\\match\\packages\\passwordgeneratorwin\\password_generator.py"
+
+  - regex: ":genpass\\((?P<number>.*)\\)"
+    replace: "{{output}}"
+    vars:
+      - name: myvar
+        type: echo
+        params:
+          echo: "{{number}}"
+
+      - name: output
+        type: script
+        params:
+          args:
+            - python
+            - "%CONFIG%\\match\\packages\\passwordgeneratorwin\\password_generator.py"
+          
+          
+
+          
