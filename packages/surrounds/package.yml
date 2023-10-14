@@ -1,0 +1,23 @@
+matches:
+  ## Surrounds
+  # surround word in double quotes
+  - triggers: [";pq", ';p"']
+    replace: '"{{paste_word}}"'
+
+  # surround in single quotes
+  - triggers: [";psq", ";sq", ";p'"]
+    replace: "'{{paste_word}}'"
+
+  - triggers: [";p`"] # handy for code markdown formatting
+    replace: "`{{paste_word}}`"
+  
+  # surround in parentheses, brackets, braces
+  - triggers: [";p("]
+    replace: "({{paste_word}})"
+
+  - triggers: [";p["]
+    replace: "[{{paste_word}}]"
+
+  - triggers: [';p{']
+    replace: |
+              {{{paste_word}}}
