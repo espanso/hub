@@ -1,0 +1,22 @@
+matches:
+  # Base64 encode the clipboard
+  - trigger: ":b64e"
+    replace: "{{output}}"
+    vars:
+      - name: clipboard
+        type: clipboard
+      - name: output
+        type: shell
+        params:
+          cmd: "echo -n \"{{clipboard}}\" | base64"
+  
+  # Base64 decode the clipboard
+  - trigger: ":b64d"
+    replace: "{{output}}"
+    vars:
+      - name: clipboard
+        type: clipboard
+      - name: output
+        type: shell
+        params:
+          cmd: "echo -n \"{{clipboard}}\" | base64 -d"
