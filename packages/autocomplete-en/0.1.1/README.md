@@ -5,8 +5,6 @@ Package for espanso application. What it does autocomplete using tab-key.
  - \t is tab
  
 <li>aba\t  -> abandon </li>
-<li>aban\t  -> abandon </li>
-
+<li>aban\t  -> abandon </li>  
 
 This version demonstrates the use of multiple triggers
-
