@@ -132,3 +132,7 @@ dmypy.json
 
 # macOS files that should be excluded from git
 .DS_Store
+packages/accented-words/1.0.1/_manifest.yml
+packages/accented-words/1.0.1/LICENSE
+packages/accented-words/1.0.1/package.yml
+packages/accented-words/1.0.1/README.md
