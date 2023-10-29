@@ -1,0 +1,9 @@
+#py-calc: package.yml
+matches:
+  - regex: "\\((?P<argz>.*?)\\)="
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "python3 -c 'print({{argz}})'"
