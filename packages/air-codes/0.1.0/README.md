@@ -11,21 +11,21 @@ The 'air-codes' package is a comprehensive resource for air transportation data,
 
 ### Airports Data
 
-Using the '::' trigger followed by an IATA 3-letter airport code and a question mark will reveal detailed information such as the full name, city, and IATA code of the airport. For instance, entering '::MXP?' will provide 'Malpensa International Airport, Milan, IT (MXP)', essentially answering the query "_*What are the details of the airport code MXP?*_".
+Using the `::` trigger followed by an IATA 3-letter airport code and a question mark will reveal detailed information such as the full name, city, and IATA code of the airport. For instance, entering `::MXP?` will provide `Malpensa International Airport, Milan, IT (MXP)`, essentially answering the query "_*What are the details of the airport code MXP?*_".
 
 ### Airlines Data
 
-Similarly, using the '::' trigger followed by an IATA 2-letter identifier and a question mark will provide the full name of the airline. For example, entering '::AF?' will display 'Air France (AF), FR', answering the question "_*What are the details of the airline code AF?*_".
+Similarly, using the `::` trigger followed by an IATA 2-letter identifier and a question mark will provide the full name of the airline. For example, entering `::AF?` will display `Air France (AF), FR`, answering the question "_*What are the details of the airline code AF?*_".
 
 ## Data Sources
 
 ### Airports Data
 
-The airport information is sourced from ourairports.com, both from their general website ([here](https://ourairports.com/airports.html)) and directly from their data section ([here](https://ourairports.com/data/)). The dataset has been cleaned, enhanced, and curated (to some extend) to focus on 'large_airport' types to ensure a concise package without compromising vital details.
+The airport information is sourced from _*ourairports.com*_, both from their general website ([here](https://ourairports.com/airports.html)) and directly from their data section ([here](https://ourairports.com/data/)). The dataset has been cleaned, enhanced, and curated (to some extend) to focus on 'large_airport' types to ensure a concise package without compromising vital details.
 
 ### Airlines Data
 
-The airline data is obtained from openflights.org ([here](https://openflights.org/data.php#airline)). The dataset has been refined to include only the airlines with IATA designator codes, while excluding outdated or irrelevant information, ensuring a relevant dataset.
+The airline data is obtained from _*openflights.org*_ ([here](https://openflights.org/data.php#airline)). The dataset has been refined to include only the airlines with IATA designator codes, while excluding outdated or irrelevant information, ensuring a relevant dataset.
 
 ## Relevance
 
