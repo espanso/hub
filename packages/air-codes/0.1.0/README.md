@@ -11,7 +11,7 @@ The 'air-codes' package is a comprehensive resource for air transportation data,
 
 ### Airports Data
 
-Using the '::' trigger followed by an IATA 3-letter airport code and a question mark will reveal detailed information such as the full name, city, and IATA code of the airport. For instance, entering '::MXP?' will yield 'Malpensa International Airport, Milan, IT (MXP)', essentially answering the query "_*What are the details of the airport code MXP?*_".
+Using the '::' trigger followed by an IATA 3-letter airport code and a question mark will reveal detailed information such as the full name, city, and IATA code of the airport. For instance, entering '::MXP?' will provide 'Malpensa International Airport, Milan, IT (MXP)', essentially answering the query "_*What are the details of the airport code MXP?*_".
 
 ### Airlines Data
 
