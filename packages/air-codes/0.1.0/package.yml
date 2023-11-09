@@ -5473,7 +5473,7 @@ matches:
     label: "Provide the airline name based on IATA's two-character designators"
     replace: "Sky Airline (H2), CL"
 
-    - trigger: "::OO?"
+  - trigger: "::OO?"
     label: "Provide the airline name based on IATA's two-character designators"
     replace: "SkyWest (OO), US"
 
@@ -5737,7 +5737,7 @@ matches:
     label: "Provide the airline name based on IATA's two-character designators"
     replace: "US Helicopter Corporation (UH), US"
 
-    - trigger: "::VA?"
+  - trigger: "::VA?"
     label: "Provide the airline name based on IATA's two-character designators"
     replace: "V Australia Airlines (VA), AU"
 
@@ -6769,7 +6769,7 @@ matches:
     label: "Provide the airline name based on IATA's two-character designators"
     replace: "TUR Avrupa Hava YollarÄ± (YI), TR"
 
-    - trigger: "::II?"
+  - trigger: "::II?"
     label: "Provide the airline name based on IATA's two-character designators"
     replace: "LSM International (II), RU"
 
@@ -7025,7 +7025,7 @@ matches:
     label: "Provide the airline name based on IATA's two-character designators"
     replace: "Indonesia Sky (I5), ID"
 
-    - trigger: "::9P?"
+  - trigger: "::9P?"
     label: "Provide the airline name based on IATA's two-character designators"
     replace: "Pelangi (9P), MY"
 
