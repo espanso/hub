@@ -2717,6 +2717,10 @@ matches:
   replace: automatically
   propagate_case: true
   word: true
+- trigger: uatomatically
+  replace: automatically
+  propagate_case: true
+  word: true
 - trigger: auxilliaries
   replace: auxiliaries
   propagate_case: true
@@ -2946,6 +2950,10 @@ matches:
   propagate_case: true
   word: true
 - trigger: befoer
+  replace: before
+  propagate_case: true
+  word: true
+- trigger: befreo
   replace: before
   propagate_case: true
   word: true
@@ -4413,6 +4421,10 @@ matches:
   replace: compatibility
   propagate_case: true
   word: true
+- trigger: comaptibility
+  replace: compatibility
+  propagate_case: true
+  word: true
 - trigger: compatable
   replace: compatible
   propagate_case: true
@@ -4927,6 +4939,10 @@ matches:
   word: true
 - trigger: contemporaneus
   replace: contemporary
+  propagate_case: true
+  word: true
+- trigger: contetn
+  replace: content
   propagate_case: true
   word: true
 - trigger: contension
@@ -5810,6 +5826,10 @@ matches:
   propagate_case: true
   word: true
 - trigger: desgin
+  replace: design
+  propagate_case: true
+  word: true
+- trigger: deisng
   replace: design
   propagate_case: true
   word: true
@@ -7193,6 +7213,10 @@ matches:
   replace: engineers
   propagate_case: true
   word: true
+- trigger: englush
+  replace: english
+  propagate_case: true
+  word: true
 - trigger: enahnced
   replace: enhanced
   propagate_case: true
@@ -7615,6 +7639,10 @@ matches:
   word: true
 - trigger: exmaple
   replace: example
+  propagate_case: true
+  word: true
+- trigger: exmaples
+  replace: examples
   propagate_case: true
   word: true
 - trigger: exasparated
@@ -8134,6 +8162,10 @@ matches:
   propagate_case: true
   word: true
 - trigger: finnished
+  replace: finished
+  propagate_case: true
+  word: true
+- trigger: finisehd
   replace: finished
   propagate_case: true
   word: true
@@ -9725,6 +9757,10 @@ matches:
   replace: immediately
   propagate_case: true
   word: true
+- trigger: imediatly
+  replace: immediatly
+  propagate_case: true
+  word: true
 - trigger: imense
   replace: immense
   propagate_case: true
@@ -10354,6 +10390,10 @@ matches:
   propagate_case: true
   word: true
 - trigger: istalled
+  replace: installed
+  propagate_case: true
+  word: true
+- trigger: instaled
   replace: installed
   propagate_case: true
   word: true
@@ -11254,6 +11294,10 @@ matches:
   propagate_case: true
   word: true
 - trigger: lisense
+  replace: license
+  propagate_case: true
+  word: true
+- trigger: lincese
   replace: license
   propagate_case: true
   word: true
@@ -13175,6 +13219,10 @@ matches:
   word: true
 - trigger: optomistic
   replace: optimistic
+  propagate_case: true
+  word: true
+- trigger: optionnal
+  replace: optional
   propagate_case: true
   word: true
 - trigger: erally
@@ -15869,6 +15917,10 @@ matches:
   replace: respected
   propagate_case: true
   word: true
+- trigger: repsective
+  replace: respective
+  propagate_case: true
+  word: true
 - trigger: respectivly
   replace: respectively
   propagate_case: true
@@ -16687,6 +16739,10 @@ matches:
   word: true
 - trigger: sohw
   replace: show
+  propagate_case: true
+  word: true
+- trigger: showed
+  replace: shown
   propagate_case: true
   word: true
 - trigger: shrewed
@@ -19565,10 +19621,6 @@ matches:
   replace: usage
   propagate_case: true
   word: true
-- trigger: sue
-  replace: use
-  propagate_case: true
-  word: true
 - trigger: useage
   replace: use
   propagate_case: true
@@ -20453,6 +20505,10 @@ matches:
   replace: write
   propagate_case: true
   word: true
+- trigger: wirte
+  replace: write
+  propagate_case: true
+  word: true
 - trigger: writter
   replace: writer
   propagate_case: true
@@ -20522,6 +20578,10 @@ matches:
   propagate_case: true
   word: true
 - trigger: yuo
+  replace: you
+  propagate_case: true
+  word: true
+- trigger: yuou
   replace: you
   propagate_case: true
   word: true
