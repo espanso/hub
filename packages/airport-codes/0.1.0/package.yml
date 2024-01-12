@@ -1,0 +1,566 @@
+# Airport Codes
+#
+# An espanso package to quickly expand airport codes
+# into the full city names in which they reside
+
+matches:
+   - trigger: "zabe"
+     replace: "Allentown"
+
+   - trigger: "zabq"
+     replace: "Albuquerque"
+
+   - trigger: "zack"
+     replace: "Nantucket"
+
+   - trigger: "zacy"
+     replace: "Atlantic City"
+
+   - trigger: "zags"
+     replace: "Augusta"
+
+   - trigger: "zalb"
+     replace: "Albany"
+
+   - trigger: "zalm"
+     replace: "Alamogordo"
+
+   - trigger: "zama"
+     replace: "Amarillo"
+
+   - trigger: "zanc"
+     replace: "Anchorage"
+
+   - trigger: "zase"
+     replace: "Aspen"
+
+   - trigger: "zatl"
+     replace: "Atlanta"
+
+   - trigger: "zaug"
+     replace: "Augusta"
+
+   - trigger: "zaus"
+     replace: "Austin"
+
+   - trigger: "zavl"
+     replace: "Asheville"
+
+   - trigger: "zavp"
+     replace: "Scranton"
+
+   - trigger: "zazo"
+     replace: "Kalamazoo"
+
+   - trigger: "zbdl"
+     replace: "Hartford"
+
+   - trigger: "zbgr"
+     replace: "Bangor"
+
+   - trigger: "zbhm"
+     replace: "Birmingham"
+
+   - trigger: "zbil"
+     replace: "Billings"
+
+   - trigger: "zbis"
+     replace: "Bismark"
+
+   - trigger: "zbna"
+     replace: "Nashville"
+
+   - trigger: "zboi"
+     replace: "Boise"
+
+   - trigger: "zbos"
+     replace: "Boston"
+
+   - trigger: "zbtl"
+     replace: "Battlecreek"
+
+   - trigger: "zbtr"
+     replace: "Baton Rouge"
+
+   - trigger: "zbtv"
+     replace: "Burlington"
+
+   - trigger: "zbuf"
+     replace: "Buffalo"
+
+   - trigger: "zbur"
+     replace: "Burbank"
+
+   - trigger: "zbwi"
+     replace: "Baltimore"
+
+   - trigger: "zcae"
+     replace: "Columbia"
+
+   - trigger: "zcak"
+     replace: "Akron"
+
+   - trigger: "zcha"
+     replace: "Chattanooga"
+
+   - trigger: "zchs"
+     replace: "Charleston"
+
+   - trigger: "zcid"
+     replace: "Cedar Rapids"
+
+   - trigger: "zckb"
+     replace: "Clarksburg"
+
+   - trigger: "zcle"
+     replace: "Cleveland"
+
+   - trigger: "zclt"
+     replace: "Charlotte"
+
+   - trigger: "zcmh"
+     replace: "Columbus"
+
+   - trigger: "zcos"
+     replace: "Colorado Springs"
+
+   - trigger: "zcpr"
+     replace: "Casper"
+
+   - trigger: "zcrp"
+     replace: "Corpus Christi"
+
+   - trigger: "zcrw"
+     replace: "Charleston"
+
+   - trigger: "zcvg"
+     replace: "Cincinnati"
+
+   - trigger: "zcys"
+     replace: "Cheyenne"
+
+   - trigger: "zdab"
+     replace: "Daytona Beach"
+
+   - trigger: "zdal"
+     replace: "Dallas"
+
+   - trigger: "zday"
+     replace: "Dayton"
+
+   - trigger: "zdca"
+     replace: "Washington D.C."
+
+   - trigger: "zden"
+     replace: "Denver"
+
+   - trigger: "zdet"
+     replace: "Detroit"
+
+   - trigger: "zdfw"
+     replace: "Dallas"
+
+   - trigger: "zdhm"
+     replace: "Dothan"
+
+   - trigger: "zdlh"
+     replace: "Duluth"
+
+   - trigger: "zdsm"
+     replace: "Des Moines"
+
+   - trigger: "zdtw"
+     replace: "Detroit"
+
+   - trigger: "zelp"
+     replace: "El Paso"
+
+   - trigger: "zeri"
+     replace: "Erie"
+
+   - trigger: "zeug"
+     replace: "Eugene"
+
+   - trigger: "zevv"
+     replace: "Evansville"
+
+   - trigger: "zewr"
+     replace: "Newark"
+
+   - trigger: "zeyw"
+     replace: "Key West"
+
+   - trigger: "zfai"
+     replace: "Fairbanks"
+
+   - trigger: "zfar"
+     replace: "Fargo"
+
+   - trigger: "zfat"
+     replace: "Fresno"
+
+   - trigger: "zfay"
+     replace: "Fayetteville"
+
+   - trigger: "zflg"
+     replace: "Flagstaff"
+
+   - trigger: "zfll"
+     replace: "Fort Lauderdale"
+
+   - trigger: "zfnt"
+     replace: "Flint"
+
+   - trigger: "zfsd"
+     replace: "Sioux Falls"
+
+   - trigger: "zfwa"
+     replace: "Fort Wayne"
+
+   - trigger: "zfyv"
+     replace: "Fayetteville"
+
+   - trigger: "zgeg"
+     replace: "Spokane"
+
+   - trigger: "zgjt"
+     replace: "Grand Junction"
+
+   - trigger: "zgpt"
+     replace: "Gulfport"
+
+   - trigger: "zgrb"
+     replace: "Green Bay"
+
+   - trigger: "zgrr"
+     replace: "Grand Rapids"
+
+   - trigger: "zgso"
+     replace: "Greensboro"
+
+   - trigger: "zgsp"
+     replace: "Greenville"
+
+   - trigger: "zhio"
+     replace: "Hillsboro"
+
+   - trigger: "zhnl"
+     replace: "Honolulu"
+
+   - trigger: "zhou"
+     replace: "Houston"
+
+   - trigger: "zhpn"
+     replace: "Westchester"
+
+   - trigger: "zhsv"
+     replace: "Huntsville"
+
+   - trigger: "zhya"
+     replace: "Hyannis"
+
+   - trigger: "ziad"
+     replace: "Washington, D.C"
+
+   - trigger: "ziah"
+     replace: "Houston"
+
+   - trigger: "zict"
+     replace: "Wichita"
+
+   - trigger: "zilm"
+     replace: "Wilmington"
+
+   - trigger: "zind"
+     replace: "Indianapolis"
+
+   - trigger: "zint"
+     replace: "Winston-Salem"
+
+   - trigger: "zisp"
+     replace: "Islip"
+
+   - trigger: "zito"
+     replace: "Hilo"
+
+   - trigger: "zjac"
+     replace: "Jackson Hole"
+
+   - trigger: "zjan"
+     replace: "Jackson"
+
+   - trigger: "zjax"
+     replace: "Jacksonville"
+
+   - trigger: "zjfk"
+     replace: "New York"
+
+   - trigger: "zjnu"
+     replace: "Juneau"
+
+   - trigger: "zkoa"
+     replace: "Kailua"
+
+   - trigger: "zlan"
+     replace: "Lansing"
+
+   - trigger: "zlas"
+     replace: "Las Vegas"
+
+   - trigger: "zlax"
+     replace: "Los Angeles"
+
+   - trigger: "zlbb"
+     replace: "Lubbock"
+
+   - trigger: "zlex"
+     replace: "Lexington"
+
+   - trigger: "zlga"
+     replace: "New York"
+
+   - trigger: "zlgb"
+     replace: "Long Beach"
+
+   - trigger: "zlih"
+     replace: "Lihue"
+
+   - trigger: "zlit"
+     replace: "Little Rock"
+
+   - trigger: "zlnk"
+     replace: "Lincoln"
+
+   - trigger: "zmaf"
+     replace: "Midland"
+
+   - trigger: "zmas"
+     replace: "Saginaw"
+
+   - trigger: "zmci"
+     replace: "Kansas City"
+
+   - trigger: "zmco"
+     replace: "Orlando"
+
+   - trigger: "zmdt"
+     replace: "Harrisburg"
+
+   - trigger: "zmdw"
+     replace: "Chicago"
+
+   - trigger: "zmem"
+     replace: "Memphis"
+
+   - trigger: "zmgm"
+     replace: "Montgomery"
+
+   - trigger: "zmht"
+     replace: "Manchester"
+
+   - trigger: "zmia"
+     replace: "Miami"
+
+   - trigger: "zmke"
+     replace: "Milwaukee"
+
+   - trigger: "zmli"
+     replace: "Moline"
+
+   - trigger: "zmob"
+     replace: "Mobile"
+
+   - trigger: "zmpv"
+     replace: "Montpelier"
+
+   - trigger: "zmsn"
+     replace: "Madison"
+
+   - trigger: "zmsp"
+     replace: "Minneapolis"
+
+   - trigger: "zmsy"
+     replace: "New Orleans"
+
+   - trigger: "zmyr"
+     replace: "Myrtle Beach"
+
+   - trigger: "zoak"
+     replace: "Oakland"
+
+   - trigger: "zogg"
+     replace: "Kahului"
+
+   - trigger: "zokc"
+     replace: "Oklahoma City"
+
+   - trigger: "zoma"
+     replace: "Omaha"
+
+   - trigger: "zont"
+     replace: "Ontario"
+
+   - trigger: "zord"
+     replace: "Chicago"
+
+   - trigger: "zorf"
+     replace: "Norfolk"
+
+   - trigger: "zorh"
+     replace: "Worcester"
+
+   - trigger: "zpbi"
+     replace: "West Palm Beach"
+
+   - trigger: "zpdx"
+     replace: "Portland"
+
+   - trigger: "zpfn"
+     replace: "Panama City"
+
+   - trigger: "zphf"
+     replace: "Newport News"
+
+   - trigger: "zphl"
+     replace: "Philadelphia"
+
+   - trigger: "zphx"
+     replace: "Phoenix"
+
+   - trigger: "zpia"
+     replace: "Peoria"
+
+   - trigger: "zpie"
+     replace: "St. Petersburg"
+
+   - trigger: "zpir"
+     replace: "Pierre"
+
+   - trigger: "zpit"
+     replace: "Pittsburgh"
+
+   - trigger: "zpns"
+     replace: "Pensacola"
+
+   - trigger: "zpsc"
+     replace: "Pasco"
+
+   - trigger: "zpsp"
+     replace: "Palm Springs"
+
+   - trigger: "zpub"
+     replace: "Pueblo"
+
+   - trigger: "zpvd"
+     replace: "Providence"
+
+   - trigger: "zpwm"
+     replace: "Portland"
+
+   - trigger: "zrap"
+     replace: "Rapid City"
+
+   - trigger: "zrdu"
+     replace: "Raleigh"
+
+   - trigger: "zric"
+     replace: "Richmond"
+
+   - trigger: "zrks"
+     replace: "Rock Springs"
+
+   - trigger: "zrno"
+     replace: "Reno"
+
+   - trigger: "zroa"
+     replace: "Roanoke"
+
+   - trigger: "zroc"
+     replace: "Rochester"
+
+   - trigger: "zrst"
+     replace: "Rochester"
+
+   - trigger: "zrsw"
+     replace: "Fort Meyers"
+
+   - trigger: "zrut"
+     replace: "Rutland"
+
+   - trigger: "zsan"
+     replace: "San Diego"
+
+   - trigger: "zsat"
+     replace: "San Antonio"
+
+   - trigger: "zsav"
+     replace: "Savannah"
+
+   - trigger: "zsbn"
+     replace: "South Bend"
+
+   - trigger: "zsdf"
+     replace: "Louisville"
+
+   - trigger: "zsea"
+     replace: "Seattle"
+
+   - trigger: "zsfo"
+     replace: "San Francisco"
+
+   - trigger: "zsgf"
+     replace: "Springfield"
+
+   - trigger: "zshv"
+     replace: "Shreveport"
+
+   - trigger: "zsjc"
+     replace: "San Jose"
+
+   - trigger: "zslc"
+     replace: "Salt Lake City"
+
+   - trigger: "zsle"
+     replace: "Salem"
+
+   - trigger: "zsmf"
+     replace: "Sacramento"
+
+   - trigger: "zsna"
+     replace: "Santa Ana"
+
+   - trigger: "zsrq"
+     replace: "Sarasota"
+
+   - trigger: "zstl"
+     replace: "St Louis"
+
+   - trigger: "zswf"
+     replace: "Newburgh"
+
+   - trigger: "zsyr"
+     replace: "Syracuse"
+
+   - trigger: "ztol"
+     replace: "Toledo"
+
+   - trigger: "ztpa"
+     replace: "Tampa"
+
+   - trigger: "ztri"
+     replace: "Bristol"
+
+   - trigger: "zttn"
+     replace: "Trenton"
+
+   - trigger: "ztul"
+     replace: "Tulsa"
+
+   - trigger: "ztsc"
+     replace: "Tucson"
+
+   - trigger: "ztys"
+     replace: "Knoxville"
+
+   - trigger: "zyum"
+     replace: "Yuma"
