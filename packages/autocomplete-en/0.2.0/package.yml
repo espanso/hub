@@ -1,5 +1,5 @@
-# Modified by Stephen Meech from original by Metwally Mohamed to demonstrate 
-# multiple triggers, reducing file-size by about 50%, and the number of lines 
+# Modified by Stephen Meech from original by Metwally Mohamed to demonstrate
+# multiple triggers, reducing file-size by about 50%, and the number of lines
 # by 70%. It might be possible to do it even more concisely with Regex triggers
 # but heed the warning at:
 # https://espanso.org/docs/matches/regex-triggers/#when-not-to-use-regex-triggers
