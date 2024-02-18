@@ -7,9 +7,9 @@ matches:
         type: form
         params:
           layout: |
-            fr:
+            source:
             [[from]]
-            to:
+            target:
             [[to]]
             Text:
             [[text]]
