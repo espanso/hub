@@ -9,7 +9,7 @@ Before using this package, make sure you have [translate-shell](https://github.c
 Once you have translate-shell installed, you can install this package using the following command:
 
 ```bash
-espanso install quick-translate 
+espanso install quick-translate --git https://github.com/p0ly60n/quick-translate --external 
 espanso restart
 ```
 
