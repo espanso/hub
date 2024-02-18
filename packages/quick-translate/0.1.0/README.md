@@ -15,4 +15,4 @@ espanso restart
 
 ## Usage
 
-Type `:trans` to open the form and then enter your to and from languages and the text you want to translate. The translated text will be outputted.
+Type `::trans` to open the form and then enter your to and from languages and the text you want to translate. The translated text will be outputted.
