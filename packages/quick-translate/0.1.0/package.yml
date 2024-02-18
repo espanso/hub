@@ -16,350 +16,351 @@ matches:
           fields:
             source:
               type: choice
+              default: German
               values:
                 - Afrikaans
+                - Albanian
                 - Amharic
                 - Arabic
+                - Armenian
                 - Assamese
                 - Aymara
                 - Azerbaijani
-                - Bashkir
-                - Belarusian
-                - Bulgarian
-                - Bhojpuri
                 - Bambara
+                - Bashkir
+                - Basque
+                - Belarusian
                 - Bengali
-                - Tibetan
-                - Breton
+                - Bhojpuri
                 - Bosnian
+                - Breton
+                - Bulgarian
+                - Cantonese
                 - Catalan
                 - Cebuano
                 - Cherokee
-                - Kurdish (Central)
-                - Corsican
-                - Czech
+                - Chichewa
+                - Chinese (Literary)
+                - Chinese (Simplified)
+                - Chinese (Traditional)
                 - Chuvash
-                - Welsh
+                - Corsican
+                - Croatian
+                - Czech
                 - Danish
-                - German
-                - Dogri
+                - Dari
                 - Dhivehi
+                - Dogri
+                - Dutch
                 - Dzongkha
-                - Ewe
-                - Greek
+                - Eastern Mari
                 - English
                 - Esperanto
-                - Spanish
                 - Estonian
-                - Basque
-                - Persian
-                - Finnish
-                - Fijian
+                - Ewe
                 - Faroese
+                - Fijian
+                - Filipino
+                - Finnish
                 - French
                 - French (Canadian)
                 - Frisian
-                - Irish
-                - Scots Gaelic
                 - Galician
+                - Georgian
+                - German
+                - Greek
+                - Greenlandic
                 - Guarani
-                - Konkani
                 - Gujarati
+                - Haitian Creole
                 - Hausa
                 - Hawaiian
                 - Hebrew
+                - Hill Mari
                 - Hindi
                 - Hmong
-                - Croatian
-                - Upper Sorbian
-                - Haitian Creole
                 - Hungarian
-                - Armenian
+                - Icelandic
+                - Igbo
+                - Ilocano
                 - Indonesian
                 - Interlingue
-                - Igbo
                 - Inuinnaqtun
-                - Ilocano
-                - Icelandic
-                - Italian
                 - Inuktitut
                 - Inuktitut (Latin)
+                - Irish
+                - Italian
                 - Japanese
                 - Javanese
-                - Georgian
-                - Kazakh
-                - Greenlandic
-                - Khmer
                 - Kannada
+                - Kazakh
+                - Khmer
+                - Kinyarwanda
+                - Klingon
+                - Konkani
                 - Korean
                 - Krio
+                - Kurdish (Central)
                 - Kurdish (Northern)
                 - Kyrgyz
-                - Latin
-                - Luxembourgish
-                - Luganda
-                - Lingala
                 - Lao
-                - Lithuanian
-                - Mizo
+                - Latin
                 - Latvian
-                - Chinese (Literary)
+                - Lingala
+                - Lithuanian
+                - Luganda
+                - Luxembourgish
+                - Macedonian
                 - Maithili
                 - Malagasy
-                - Eastern Mari
-                - Maori
-                - Macedonian
+                - Malay
                 - Malayalam
+                - Maltese
+                - Maori
+                - Marathi
+                - Meiteilon
+                - Mizo
                 - Mongolian
                 - Mongolian (Traditional)
-                - Meiteilon
-                - Marathi
-                - Hill Mari
-                - Malay
-                - Maltese
                 - Myanmar
                 - Nepali
-                - Dutch
                 - Norwegian
-                - Sepedi
-                - Chichewa
                 - Occitan
-                - Oromo
                 - Odia
-                - Querétaro Otomi
-                - Punjabi
+                - Oromo
                 - Papiamento
-                - Polish
-                - Dari
                 - Pashto
+                - Persian
+                - Polish
                 - Portuguese (Brazilian)
                 - Portuguese (European)
+                - Punjabi
                 - Quechua
-                - Romansh
+                - Querétaro Otomi
                 - Romanian
+                - Romansh
                 - Russian
-                - Kinyarwanda
+                - Samoan
                 - Sanskrit
-                - Yakut
+                - Scots Gaelic
+                - Sepedi
+                - Serbian (Cyrillic)
+                - Serbian (Latin)
+                - Sesotho
+                - Setswana
+                - Shona
                 - Sindhi
                 - Sinhala
                 - Slovak
                 - Slovenian
-                - Samoan
-                - Shona
                 - Somali
-                - Albanian
-                - Serbian (Cyrillic)
-                - Serbian (Latin)
-                - Sesotho
+                - Spanish
                 - Sundanese
-                - Swedish
                 - Swahili
-                - Tamil
-                - Telugu
-                - Tajik
-                - Thai
-                - Tigrinya
-                - Turkmen
-                - Filipino
-                - Klingon
-                - Setswana
-                - Tongan
-                - Turkish
-                - Tsonga
-                - Tatar
-                - Twi
+                - Swedish
                 - Tahitian
+                - Tajik
+                - Tamil
+                - Tatar
+                - Telugu
+                - Thai
+                - Tibetan
+                - Tigrinya
+                - Tongan
+                - Tsonga
+                - Turkish
+                - Turkmen
+                - Twi
                 - Udmurt
-                - Uyghur
                 - Ukrainian
+                - Upper Sorbian
                 - Urdu
+                - Uyghur
                 - Uzbek
                 - Vietnamese
                 - Volapük
+                - Welsh
                 - Wolof
                 - Xhosa
+                - Yakut
                 - Yiddish
                 - Yoruba
                 - Yucatec Maya
-                - Cantonese
-                - Chinese (Simplified)
-                - Chinese (Traditional)
                 - Zulu
               default: German
             target:
               type: choice
+              default: English
               values:
                 - Afrikaans
+                - Albanian
                 - Amharic
                 - Arabic
+                - Armenian
                 - Assamese
                 - Aymara
                 - Azerbaijani
-                - Bashkir
-                - Belarusian
-                - Bulgarian
-                - Bhojpuri
                 - Bambara
+                - Bashkir
+                - Basque
+                - Belarusian
                 - Bengali
-                - Tibetan
-                - Breton
+                - Bhojpuri
                 - Bosnian
+                - Breton
+                - Bulgarian
+                - Cantonese
                 - Catalan
                 - Cebuano
                 - Cherokee
-                - Kurdish (Central)
-                - Corsican
-                - Czech
+                - Chichewa
+                - Chinese (Literary)
+                - Chinese (Simplified)
+                - Chinese (Traditional)
                 - Chuvash
-                - Welsh
+                - Corsican
+                - Croatian
+                - Czech
                 - Danish
-                - German
-                - Dogri
+                - Dari
                 - Dhivehi
+                - Dogri
+                - Dutch
                 - Dzongkha
-                - Ewe
-                - Greek
+                - Eastern Mari
                 - English
                 - Esperanto
-                - Spanish
                 - Estonian
-                - Basque
-                - Persian
-                - Finnish
-                - Fijian
+                - Ewe
                 - Faroese
+                - Fijian
+                - Filipino
+                - Finnish
                 - French
                 - French (Canadian)
                 - Frisian
-                - Irish
-                - Scots Gaelic
                 - Galician
+                - Georgian
+                - German
+                - Greek
+                - Greenlandic
                 - Guarani
-                - Konkani
                 - Gujarati
+                - Haitian Creole
                 - Hausa
                 - Hawaiian
                 - Hebrew
+                - Hill Mari
                 - Hindi
                 - Hmong
-                - Croatian
-                - Upper Sorbian
-                - Haitian Creole
                 - Hungarian
-                - Armenian
+                - Icelandic
+                - Igbo
+                - Ilocano
                 - Indonesian
                 - Interlingue
-                - Igbo
                 - Inuinnaqtun
-                - Ilocano
-                - Icelandic
-                - Italian
                 - Inuktitut
                 - Inuktitut (Latin)
+                - Irish
+                - Italian
                 - Japanese
                 - Javanese
-                - Georgian
-                - Kazakh
-                - Greenlandic
-                - Khmer
                 - Kannada
+                - Kazakh
+                - Khmer
+                - Kinyarwanda
+                - Klingon
+                - Konkani
                 - Korean
                 - Krio
+                - Kurdish (Central)
                 - Kurdish (Northern)
                 - Kyrgyz
-                - Latin
-                - Luxembourgish
-                - Luganda
-                - Lingala
                 - Lao
-                - Lithuanian
-                - Mizo
+                - Latin
                 - Latvian
-                - Chinese (Literary)
+                - Lingala
+                - Lithuanian
+                - Luganda
+                - Luxembourgish
+                - Macedonian
                 - Maithili
                 - Malagasy
-                - Eastern Mari
-                - Maori
-                - Macedonian
+                - Malay
                 - Malayalam
+                - Maltese
+                - Maori
+                - Marathi
+                - Meiteilon
+                - Mizo
                 - Mongolian
                 - Mongolian (Traditional)
-                - Meiteilon
-                - Marathi
-                - Hill Mari
-                - Malay
-                - Maltese
                 - Myanmar
                 - Nepali
-                - Dutch
                 - Norwegian
-                - Sepedi
-                - Chichewa
                 - Occitan
-                - Oromo
                 - Odia
-                - Querétaro Otomi
-                - Punjabi
+                - Oromo
                 - Papiamento
-                - Polish
-                - Dari
                 - Pashto
+                - Persian
+                - Polish
                 - Portuguese (Brazilian)
                 - Portuguese (European)
+                - Punjabi
                 - Quechua
-                - Romansh
+                - Querétaro Otomi
                 - Romanian
+                - Romansh
                 - Russian
-                - Kinyarwanda
+                - Samoan
                 - Sanskrit
-                - Yakut
+                - Scots Gaelic
+                - Sepedi
+                - Serbian (Cyrillic)
+                - Serbian (Latin)
+                - Sesotho
+                - Setswana
+                - Shona
                 - Sindhi
                 - Sinhala
                 - Slovak
                 - Slovenian
-                - Samoan
-                - Shona
                 - Somali
-                - Albanian
-                - Serbian (Cyrillic)
-                - Serbian (Latin)
-                - Sesotho
+                - Spanish
                 - Sundanese
-                - Swedish
                 - Swahili
-                - Tamil
-                - Telugu
-                - Tajik
-                - Thai
-                - Tigrinya
-                - Turkmen
-                - Filipino
-                - Klingon
-                - Setswana
-                - Tongan
-                - Turkish
-                - Tsonga
-                - Tatar
-                - Twi
+                - Swedish
                 - Tahitian
+                - Tajik
+                - Tamil
+                - Tatar
+                - Telugu
+                - Thai
+                - Tibetan
+                - Tigrinya
+                - Tongan
+                - Tsonga
+                - Turkish
+                - Turkmen
+                - Twi
                 - Udmurt
-                - Uyghur
                 - Ukrainian
+                - Upper Sorbian
                 - Urdu
+                - Uyghur
                 - Uzbek
                 - Vietnamese
                 - Volapük
+                - Welsh
                 - Wolof
                 - Xhosa
+                - Yakut
                 - Yiddish
                 - Yoruba
                 - Yucatec Maya
-                - Cantonese
-                - Chinese (Simplified)
-                - Chinese (Traditional)
                 - Zulu
-              default: English
             text:
               multiline: true
 
