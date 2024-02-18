@@ -4,7 +4,7 @@ This package utilizes the functionality of [translate-shell](https://github.com/
 
 ## Installation
 
-Before using this package, make sure you have [translate-shell](https://github.com/soimort/translate-shell/wiki/Distros) installed on your system. If you don't, you can install it for your OS [here](https://github.com/soimort/translate-shell/wiki/Distros): 
+Before using this package, make sure you have [translate-shell](https://github.com/soimort/translate-shell/wiki/Distros) installed on your system. If you don't, you can install it for your OS [here](https://github.com/soimort/translate-shell/wiki/Distros)
 
 Once you have translate-shell installed, you can install this package using the following command:
 
