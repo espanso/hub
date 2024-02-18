@@ -8,13 +8,13 @@ matches:
         params:
           layout: |
             source:
-            [[from]]
+            [[source]]
             target:
-            [[to]]
+            [[target]]
             Text:
             [[text]]
           fields:
-            from:
+            source:
               type: choice
               values:
                 - Afrikaans
@@ -186,7 +186,8 @@ matches:
                 - Chinese (Simplified)
                 - Chinese (Traditional)
                 - Zulu
-            to:
+              default: German
+            target:
               type: choice
               values:
                 - Afrikaans
@@ -358,10 +359,11 @@ matches:
                 - Chinese (Simplified)
                 - Chinese (Traditional)
                 - Zulu
+              default: English
             text:
               multiline: true
 
       - name: "output"
         type: shell
         params:
-          cmd: "trans -b -s {{input.from}} -t {{input.to}} '{{input.text}}'"
+          cmd: "trans -b -s '{{input.source}}' -t '{{input.target}}' '{{input.text}}'"
