@@ -14,7 +14,8 @@ matches:
           fields:
             target:
               type: choice
-              default: "{{targetlang}}"
+              default: 
+                "{{targetlang}}"
               values:
                 "{{lang}}"
 
@@ -40,13 +41,14 @@ matches:
           fields:
             source:
               type: choice
-              default: German
               values:
                 "{{lang}}"
-              default: "{{sourcelang}}"
+              default: 
+                "{{sourcelang}}"
             target:
               type: choice
-              default: "{{targetlang}}"
+              default: 
+                "{{targetlang}}"
               values:
                 "{{lang}}"
             text:
