@@ -18,6 +18,8 @@ matches:
                 "{{targetlang}}"
               values:
                 "{{lang}}"
+            text:
+              multiline: true
 
       - name: "output"
         type: shell
@@ -41,10 +43,10 @@ matches:
           fields:
             source:
               type: choice
-              values:
-                "{{lang}}"
               default: 
                 "{{sourcelang}}"
+              values:
+                "{{lang}}"
             target:
               type: choice
               default: 
