@@ -12,7 +12,7 @@ Once you have it installed, you can install this package using the following com
 espanso install quick-translate --git https://github.com/p0ly60n/quick-translate --external
 ```
 
-After Installing, you can change the `sourcelang` and `targetlang` variables in [defaultlang.yml](defaultlang.yml) to your desired default languages. You can find the valid names at the bottom of [package.yml](package.yml)
+After Installing, you can change the `sourcelang` and `targetlang` variables in [defaultlang.yml](defaultlang.yml) to your desired default languages. You can find the valid names at the bottom of [package.yml](package.yml). Please note that if there's an update in the future, those files could be overwritten.
 
 ## Usage
 
