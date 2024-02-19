@@ -1,3 +1,62 @@
+matches:
+  - trigger: "::trans"
+    label: "Translate"
+    replace: "{{output}}"
+    vars:
+      - name: "input"
+        type: form
+        params:
+          layout: |
+            Target:
+            [[target]]
+            Text:
+            [[text]]
+          fields:
+            target:
+              type: choice
+              default: "{{targetlang}}"
+              values:
+                "{{lang}}"
+
+      - name: "output"
+        type: shell
+        params:
+          cmd: "trans -b -t '{{input.target}}' '{{input.text}}'"
+
+  - trigger: "::etrans"
+    label: "Extended Translate"
+    replace: "{{output}}"
+    vars:
+      - name: "input"
+        type: form
+        params:
+          layout: |
+            Source:
+            [[source]]
+            Target:
+            [[target]]
+            Text:
+            [[text]]
+          fields:
+            source:
+              type: choice
+              default: German
+              values:
+                "{{lang}}"
+              default: "{{sourcelang}}"
+            target:
+              type: choice
+              default: "{{targetlang}}"
+              values:
+                "{{lang}}"
+            text:
+              multiline: true
+
+      - name: "output"
+        type: shell
+        params:
+          cmd: "trans -b -s '{{input.source}}' -t '{{input.target}}' '{{input.text}}'"
+
 global_vars:
   - name: lang
     type: echo
@@ -172,63 +231,3 @@ global_vars:
         Yoruba
         Yucatec Maya
         Zulu
-        
-
-matches:
-  - trigger: "::trans"
-    label: "Translate"
-    replace: "{{output}}"
-    vars:
-      - name: "input"
-        type: form
-        params:
-          layout: |
-            Target:
-            [[target]]
-            Text:
-            [[text]]
-          fields:
-            target:
-              type: choice
-              default: English
-              values:
-                "{{lang}}"
-
-      - name: "output"
-        type: shell
-        params:
-          cmd: "trans -b -t '{{input.target}}' '{{input.text}}'"
-
-  - trigger: "::etrans"
-    label: "Extended Translate"
-    replace: "{{output}}"
-    vars:
-      - name: "input"
-        type: form
-        params:
-          layout: |
-            Source:
-            [[source]]
-            Target:
-            [[target]]
-            Text:
-            [[text]]
-          fields:
-            source:
-              type: choice
-              default: German
-              values:
-                "{{lang}}"
-              default: German
-            target:
-              type: choice
-              default: English
-              values:
-                "{{lang}}"
-            text:
-              multiline: true
-
-      - name: "output"
-        type: shell
-        params:
-          cmd: "trans -b -s '{{input.source}}' -t '{{input.target}}' '{{input.text}}'"
