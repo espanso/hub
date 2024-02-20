@@ -60,6 +60,7 @@ matches:
         type: shell
         params:
           cmd: "trans -b -s '{{input.source}}' -t '{{input.target}}' '{{input.text}}'"
+          shell: wsl
 
 global_vars:
   - name: lang
