@@ -2101,6 +2101,10 @@ matches:
   replace: anywhere
   propagate_case: true
   word: true
+- trigger: apolgy
+  replace: aology
+  propagate_case: true
+  word: true
 - trigger: appart
   replace: apart
   propagate_case: true
@@ -2711,6 +2715,10 @@ matches:
   word: true
 - trigger: autoctonous
   replace: autochthonous
+  propagate_case: true
+  word: true
+- trigger: autoamted
+  replace: automated
   propagate_case: true
   word: true
 - trigger: autoamtically
@@ -7361,6 +7369,10 @@ matches:
   replace: environment
   propagate_case: true
   word: true
+- trigger: environement
+  replace: environment
+  propagate_case: true
+  word: true
 - trigger: enviormental
   replace: environmental
   propagate_case: true
@@ -7563,6 +7575,10 @@ matches:
   word: true
 - trigger: eveyrone
   replace: everyone
+  propagate_case: true
+  word: true
+- trigger: eveyrthing
+  replace: everything
   propagate_case: true
   word: true
 - trigger: evidentally
@@ -8733,6 +8749,10 @@ matches:
   replace: generator
   propagate_case: true
   word: true
+- trigger: genrator
+  replace: generator
+  propagate_case: true
+  word: true
 - trigger: generical
   replace: generic
   propagate_case: true
@@ -8814,6 +8834,10 @@ matches:
   propagate_case: true
   word: true
 - trigger: govorment
+  replace: government
+  propagate_case: true
+  word: true
+- trigger: govenrment
   replace: government
   propagate_case: true
   word: true
@@ -9391,6 +9415,10 @@ matches:
   word: true
 - trigger: hold's
   replace: holds
+  propagate_case: true
+  word: true
+- trigger: hiloday
+  replace: holiday
   propagate_case: true
   word: true
 - trigger: wholistic
@@ -10383,6 +10411,10 @@ matches:
   word: true
 - trigger: unstability
   replace: instability
+  propagate_case: true
+  word: true
+- trigger: istall
+  replace: install
   propagate_case: true
   word: true
 - trigger: instilation
@@ -14837,6 +14869,10 @@ matches:
   replace: property
   propagate_case: true
   word: true
+- trigger: proprerty
+  replace: property
+  propagate_case: true
+  word: true
 - trigger: prophacy
   replace: prophecy
   propagate_case: true
@@ -15097,6 +15133,10 @@ matches:
   replace: queasy
   propagate_case: true
   word: true
+- trigger: quesiton
+  replace: question
+  propagate_case: true
+  word: true
 - trigger: questionned
   replace: questioned
   propagate_case: true
@@ -15301,6 +15341,10 @@ matches:
   replace: received
   propagate_case: true
   word: true
+- trigger: receveied
+  replace: received
+  propagate_case: true
+  word: true
 - trigger: reciever
   replace: receiver
   propagate_case: true
@@ -15431,6 +15475,10 @@ matches:
   word: true
 - trigger: recoreded
   replace: recorded
+  propagate_case: true
+  word: true
+- trigger: rercorded
+  replace: recorrded
   propagate_case: true
   word: true
 - trigger: recrational
@@ -16377,6 +16425,10 @@ matches:
   replace: sclera
   propagate_case: true
   word: true
+- trigger: screren
+  replace: screen
+  propagate_case: true
+  word: true
 - trigger: scrrening
   replace: screening
   propagate_case: true
@@ -16685,6 +16737,10 @@ matches:
   replace: shield
   propagate_case: true
   word: true
+- trigger: shild
+  replace: shield
+  propagate_case: true
+  word: true
 - trigger: shineing
   replace: shining
   propagate_case: true
@@ -16726,6 +16782,10 @@ matches:
   propagate_case: true
   word: true
 - trigger: hsould
+  replace: should
+  propagate_case: true
+  word: true
+- trigger: shuold
   replace: should
   propagate_case: true
   word: true
@@ -16858,6 +16918,10 @@ matches:
   propagate_case: true
   word: true
 - trigger: signle
+  replace: single
+  propagate_case: true
+  word: true
+- trigger: isngle
   replace: single
   propagate_case: true
   word: true
@@ -17535,6 +17599,10 @@ matches:
   word: true
 - trigger: strenous
   replace: strenuous
+  propagate_case: true
+  word: true
+- trigger: strwess
+  replace: stress
   propagate_case: true
   word: true
 - trigger: strech

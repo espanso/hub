@@ -309,6 +309,10 @@ matches:
   replace: alle
   propagate_case: true
   word: true
+- trigger: ale
+  replace: alle
+  propagate_case: true
+  word: true
 - trigger: allenaza
   replace: alleanza
   propagate_case: true
@@ -557,6 +561,10 @@ matches:
   replace: aprile
   propagate_case: true
   word: true
+- trigger: archtetto
+  replace: architetto
+  propagate_case: true
+  word: true
 - trigger: arrpano
   replace: arrapano
   propagate_case: true
@@ -661,6 +669,14 @@ matches:
   replace: attacco
   propagate_case: true
   word: true
+- trigger: attendfere
+  replace: attendere
+  propagate_case: true
+  word: true
+- trigger: atetnzione
+  replace: attenzione
+  propagate_case: true
+  word: true
 - trigger: atesa
   replace: attesa
   propagate_case: true
@@ -718,6 +734,10 @@ matches:
   propagate_case: true
   word: true
 - trigger: vare
+  replace: aver
+  propagate_case: true
+  word: true
+- trigger: averr
   replace: aver
   propagate_case: true
   word: true
@@ -877,6 +897,10 @@ matches:
   replace: blocchi
   propagate_case: true
   word: true
+- trigger: bombarando
+  replace: bombardando
+  propagate_case: true
+  word: true
 - trigger: brodello
   replace: bordello
   propagate_case: true
@@ -911,6 +935,10 @@ matches:
   word: true
 - trigger: caudot
   replace: caduto
+  propagate_case: true
+  word: true
+- trigger: cavalrio
+  replace: calvario
   propagate_case: true
   word: true
 - trigger: cabmia
@@ -1071,6 +1099,10 @@ matches:
   word: true
 - trigger: erco
   replace: cerco
+  propagate_case: true
+  word: true
+- trigger: cerrto
+  replace: certo
   propagate_case: true
   word: true
 - trigger: cestianrlo
@@ -1273,6 +1305,10 @@ matches:
   replace: compatibili
   propagate_case: true
   word: true
+- trigger: compenteze
+  replace: competenze
+  propagate_case: true
+  word: true
 - trigger: ocmpila
   replace: compila
   propagate_case: true
@@ -1337,6 +1373,10 @@ matches:
   replace: comprare
   propagate_case: true
   word: true
+- trigger: comrpare
+  replace: comprare
+  propagate_case: true
+  word: true
 - trigger: comrpato
   replace: comprato
   propagate_case: true
@@ -1362,6 +1402,10 @@ matches:
   propagate_case: true
   word: true
 - trigger: comunicaizone
+  replace: comunicazione
+  propagate_case: true
+  word: true
+- trigger: comuinicazione
   replace: comunicazione
   propagate_case: true
   word: true
@@ -1649,6 +1693,10 @@ matches:
   replace: contratto
   propagate_case: true
   word: true
+- trigger: ciontratto
+  replace: contratto
+  propagate_case: true
+  word: true
 - trigger: contirbuto
   replace: contributo
   propagate_case: true
@@ -1909,6 +1957,10 @@ matches:
   replace: dimentichiamo
   propagate_case: true
   word: true
+- trigger: dimunire
+  replace: diminuire
+  propagate_case: true
+  word: true
 - trigger: dimim
   replace: dimmi
   propagate_case: true
@@ -2021,6 +2073,10 @@ matches:
   replace: distrazioni
   propagate_case: true
   word: true
+- trigger: ditribuito
+  replace: distribuito
+  propagate_case: true
+  word: true
 - trigger: dinvetare
   replace: diventare
   propagate_case: true
@@ -2126,6 +2182,10 @@ matches:
   propagate_case: true
   word: true
 - trigger: dorvebbe
+  replace: dovrebbe
+  propagate_case: true
+  word: true
+- trigger: dsovrebbe
   replace: dovrebbe
   propagate_case: true
   word: true
@@ -2385,6 +2445,10 @@ matches:
   replace: fare
   propagate_case: true
   word: true
+- trigger: afre
+  replace: fare
+  propagate_case: true
+  word: true
 - trigger: faregli
   replace: fargli
   propagate_case: true
@@ -2443,6 +2507,10 @@ matches:
   word: true
 - trigger: femro
   replace: fermo
+  propagate_case: true
+  word: true
+- trigger: ferrare
+  replace: ferrate
   propagate_case: true
   word: true
 - trigger: festegiare
@@ -2511,6 +2579,10 @@ matches:
   word: true
 - trigger: firamre
   replace: firmare
+  propagate_case: true
+  word: true
+- trigger: fisala
+  replace: fissala
   propagate_case: true
   word: true
 - trigger: fissimaoci
@@ -2627,6 +2699,10 @@ matches:
   word: true
 - trigger: furgonicno
   replace: furgoncino
+  propagate_case: true
+  word: true
+- trigger: genra
+  replace: genera
   propagate_case: true
   word: true
 - trigger: generaer
@@ -2750,6 +2826,18 @@ matches:
   propagate_case: true
   word: true
 - trigger: garzie
+  replace: grazie
+  propagate_case: true
+  word: true
+- trigger: granzie
+  replace: grazie
+  propagate_case: true
+  word: true
+- trigger: grazi
+  replace: grazie
+  propagate_case: true
+  word: true
+- trigger: graie
   replace: grazie
   propagate_case: true
   word: true
@@ -2877,6 +2965,10 @@ matches:
   replace: impianta
   propagate_case: true
   word: true
+- trigger: impicciayi
+  replace: impicciati
+  propagate_case: true
+  word: true
 - trigger: impiccaito
   replace: impicciato
   propagate_case: true
@@ -2957,8 +3049,20 @@ matches:
   replace: incentivi
   propagate_case: true
   word: true
+- trigger: inclduendo
+  replace: includendo
+  propagate_case: true
+  word: true
+- trigger: inclufing
+  replace: including
+  propagate_case: true
+  word: true
 - trigger: incompetneti
   replace: incompetenti
+  propagate_case: true
+  word: true
+- trigger: incotnrare
+  replace: incontrare
   propagate_case: true
   word: true
 - trigger: incerdibile
@@ -2983,6 +3087,10 @@ matches:
   word: true
 - trigger: inveitabilmente
   replace: inevitabilmente
+  propagate_case: true
+  word: true
+- trigger: infati
+  replace: infatti
   propagate_case: true
   word: true
 - trigger: infalzione
@@ -3013,6 +3121,10 @@ matches:
   replace: informazioni
   propagate_case: true
   word: true
+- trigger: informaioni
+  replace: informazioni
+  propagate_case: true
+  word: true
 - trigger: ingengeria
   replace: ingegneria
   propagate_case: true
@@ -3031,6 +3143,10 @@ matches:
   word: true
 - trigger: inenterrottamente
   replace: ininterrottamente
+  propagate_case: true
+  word: true
+- trigger: iniziado
+  replace: iniziando
   propagate_case: true
   word: true
 - trigger: inizare
@@ -3135,6 +3251,10 @@ matches:
   word: true
 - trigger: itendi
   replace: intendi
+  propagate_case: true
+  word: true
+- trigger: inteno
+  replace: intendo
   propagate_case: true
   word: true
 - trigger: intezione
@@ -3333,6 +3453,10 @@ matches:
   replace: lavatrice
   propagate_case: true
   word: true
+- trigger: lavastrici
+  replace: lavatrici
+  propagate_case: true
+  word: true
 - trigger: alvora
   replace: lavora
   propagate_case: true
@@ -3501,6 +3625,10 @@ matches:
   replace: macchina
   propagate_case: true
   word: true
+- trigger: macchian
+  replace: macchina
+  propagate_case: true
+  word: true
 - trigger: machcine
   replace: macchine
   propagate_case: true
@@ -3537,6 +3665,10 @@ matches:
   replace: magliette
   propagate_case: true
   word: true
+- trigger: makle
+  replace: male
+  propagate_case: true
+  word: true
 - trigger: amnca
   replace: manca
   propagate_case: true
@@ -3551,6 +3683,10 @@ matches:
   word: true
 - trigger: manacava
   replace: mancava
+  propagate_case: true
+  word: true
+- trigger: manci
+  replace: manchi
   propagate_case: true
   word: true
 - trigger: meanco
@@ -3985,6 +4121,10 @@ matches:
   replace: non
   propagate_case: true
   word: true
+- trigger: nornmale
+  replace: normale
+  propagate_case: true
+  word: true
 - trigger: nsotra
   replace: nostra
   propagate_case: true
@@ -4327,6 +4467,10 @@ matches:
   word: true
 - trigger: pgarmi
   replace: pagarmi
+  propagate_case: true
+  word: true
+- trigger: apgato
+  replace: pagato
   propagate_case: true
   word: true
 - trigger: pagia
@@ -4697,6 +4841,10 @@ matches:
   replace: piace
   propagate_case: true
   word: true
+- trigger: oiace
+  replace: piace
+  propagate_case: true
+  word: true
 - trigger: piacree
   replace: piacere
   propagate_case: true
@@ -4795,6 +4943,10 @@ matches:
   word: true
 - trigger: procherie
   replace: porcherie
+  propagate_case: true
+  word: true
+- trigger: prota
+  replace: porta
   propagate_case: true
   word: true
 - trigger: portlae
@@ -5121,6 +5273,10 @@ matches:
   replace: professionisti
   propagate_case: true
   word: true
+- trigger: profielr
+  replace: profiler
+  propagate_case: true
+  word: true
 - trigger: proggetti
   replace: progetti
   propagate_case: true
@@ -5237,6 +5393,10 @@ matches:
   replace: proprietario
   propagate_case: true
   word: true
+- trigger: propeitario
+  replace: proprietario
+  propagate_case: true
+  word: true
 - trigger: priprio
   replace: proprio
   propagate_case: true
@@ -5341,6 +5501,10 @@ matches:
   replace: pulsante
   propagate_case: true
   word: true
+- trigger: pulsnate
+  replace: pulsante
+  propagate_case: true
+  word: true
 - trigger: putnata
   replace: puntata
   propagate_case: true
@@ -5386,6 +5550,10 @@ matches:
   propagate_case: true
   word: true
 - trigger: qualce
+  replace: qualche
+  propagate_case: true
+  word: true
+- trigger: qulahce
   replace: qualche
   propagate_case: true
   word: true
@@ -5613,6 +5781,10 @@ matches:
   replace: registrazioni
   propagate_case: true
   word: true
+- trigger: registrrati
+  replace: registrrati
+  propagate_case: true
+  word: true
 - trigger: regoal
   replace: regola
   propagate_case: true
@@ -5631,6 +5803,10 @@ matches:
   word: true
 - trigger: reelativa
   replace: relativa
+  propagate_case: true
+  word: true
+- trigger: relatve
+  replace: relative
   propagate_case: true
   word: true
 - trigger: realativi
@@ -5761,12 +5937,20 @@ matches:
   replace: ricontrollati
   propagate_case: true
   word: true
+- trigger: rielaorare
+  replace: rielaborare
+  propagate_case: true
+  word: true
 - trigger: rimpie
   replace: riempie
   propagate_case: true
   word: true
 - trigger: rimpeito
   replace: riempito
+  propagate_case: true
+  word: true
+- trigger: rinetrare
+  replace: rientrare
   propagate_case: true
   word: true
 - trigger: risce
@@ -6293,8 +6477,16 @@ matches:
   replace: schiantare
   propagate_case: true
   word: true
+- trigger: scifo
+  replace: schifo
+  propagate_case: true
+  word: true
 - trigger: sciqauone
   replace: sciacquone
+  propagate_case: true
+  word: true
+- trigger: scriroppo
+  replace: sciroppo
   propagate_case: true
   word: true
 - trigger: scommeto
@@ -6725,6 +6917,10 @@ matches:
   replace: singolarmente
   propagate_case: true
   word: true
+- trigger: sitemando
+  replace: sistemando
+  propagate_case: true
+  word: true
 - trigger: sistamre
   replace: sistemare
   propagate_case: true
@@ -7057,6 +7253,10 @@ matches:
   replace: stringa
   propagate_case: true
   word: true
+- trigger: struemnti
+  replace: strumenti
+  propagate_case: true
+  word: true
 - trigger: studentesce
   replace: studentesche
   propagate_case: true
@@ -7119,6 +7319,10 @@ matches:
   word: true
 - trigger: siucidare
   replace: suicidare
+  propagate_case: true
+  word: true
+- trigger: sule
+  replace: sule
   propagate_case: true
   word: true
 - trigger: sulal
@@ -7265,6 +7469,10 @@ matches:
   replace: tempo
   propagate_case: true
   word: true
+- trigger: tepo
+  replace: tempo
+  propagate_case: true
+  word: true
 - trigger: tentaivi
   replace: tentativi
   propagate_case: true
@@ -7287,6 +7495,10 @@ matches:
   word: true
 - trigger: temrini
   replace: termini
+  propagate_case: true
+  word: true
+- trigger: tstare
+  replace: testare
   propagate_case: true
   word: true
 - trigger: tenile
@@ -7351,6 +7563,10 @@ matches:
   word: true
 - trigger: tracciamneto
   replace: tracciamento
+  propagate_case: true
+  word: true
+- trigger: trtacciare
+  replace: tracciare
   propagate_case: true
   word: true
 - trigger: traccaito
@@ -7553,6 +7769,10 @@ matches:
   replace: utile
   propagate_case: true
   word: true
+- trigger: utle
+  replace: utile
+  propagate_case: true
+  word: true
 - trigger: utilizzre
   replace: utilizzare
   propagate_case: true
@@ -7591,6 +7811,10 @@ matches:
   word: true
 - trigger: vaire
   replace: varie
+  propagate_case: true
+  word: true
+- trigger: evcchie
+  replace: vecchie
   propagate_case: true
   word: true
 - trigger: vechcio
@@ -7709,6 +7933,10 @@ matches:
   replace: verso
   propagate_case: true
   word: true
+- trigger: viagigo
+  replace: viaggio
+  propagate_case: true
+  word: true
 - trigger: vicensidanco
   replace: vicesindaco
   propagate_case: true
@@ -7739,6 +7967,10 @@ matches:
   word: true
 - trigger: visualizazione
   replace: visualizzazione
+  propagate_case: true
+  word: true
+- trigger: vitra
+  replace: vita
   propagate_case: true
   word: true
 - trigger: voglai
