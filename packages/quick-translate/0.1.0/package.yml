@@ -25,6 +25,7 @@ matches:
         type: shell
         params:
           cmd: "trans -b -t '{{input.target}}' '{{input.text}}'"
+          shell: wsl
 
   - trigger: "::etrans"
     label: "Extended Translate"
