@@ -7,10 +7,10 @@ matches:
         type: form
         params:
           layout: |
-            Target:
-            [[target]]
             Text:
             [[text]]
+            Target:
+            [[target]]
           fields:
             target:
               type: choice
@@ -35,12 +35,12 @@ matches:
         type: form
         params:
           layout: |
+            Text:
+            [[text]]
             Source:
             [[source]]
             Target:
             [[target]]
-            Text:
-            [[text]]
           fields:
             source:
               type: choice
