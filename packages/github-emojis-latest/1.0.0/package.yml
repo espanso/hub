@@ -3758,3 +3758,663 @@ matches:
     replace: "\U0001F9DF\U00002640"
   - trigger: ";zzz;"
     replace: "\U0001F4A4"
+
+  # ------ ✂ ------
+  # dmoji, d for Developer
+  - trigger: dmoji
+    search_terms: ["Improve structure / format of the code."]
+    # label: "🎨"
+    replace: "{{art}}"
+    vars:
+      - name: art
+        type: match
+        params:
+          trigger: ";art;"
+  - trigger: dmoji
+    search_terms: ["Improve performance."]
+    # label: "⚡️"
+    replace: "{{zap}}"
+    vars:
+      - name: zap
+        type: match
+        params:
+          trigger: ";zap;"
+  - trigger: dmoji
+    search_terms: ["Remove code or files."]
+    # label: "🔥"
+    replace: "{{fire}}"
+    vars:
+      - name: fire
+        type: match
+        params:
+          trigger: ";fire;"
+  - trigger: dmoji
+    search_terms: ["Fix a bug."]
+    # label: "🐛"
+    replace: "{{bug}}"
+    vars:
+      - name: bug
+        type: match
+        params:
+          trigger: ";bug;"
+  - trigger: dmoji
+    search_terms: ["Critical hotfix."]
+    # label: "🚑️"
+    replace: "{{ambulance}}"
+    vars:
+      - name: ambulance
+        type: match
+        params:
+          trigger: ";ambulance;"
+  - trigger: dmoji
+    search_terms: ["Introduce new features."]
+    # label: "✨"
+    replace: "{{sparkles}}"
+    vars:
+      - name: sparkles
+        type: match
+        params:
+          trigger: ";sparkles;"
+  - trigger: dmoji
+    search_terms: ["Add or update documentation."]
+    # label: "📝"
+    replace: "{{memo}}"
+    vars:
+      - name: memo
+        type: match
+        params:
+          trigger: ";memo;"
+  - trigger: dmoji
+    search_terms: ["Deploy stuff."]
+    # label: "🚀"
+    replace: "{{rocket}}"
+    vars:
+      - name: rocket
+        type: match
+        params:
+          trigger: ";rocket;"
+  - trigger: dmoji
+    search_terms: ["Add or update the UI and style files."]
+    # label: "💄"
+    replace: "{{lipstick}}"
+    vars:
+      - name: lipstick
+        type: match
+        params:
+          trigger: ";lipstick;"
+  - trigger: dmoji
+    search_terms: ["Begin a project."]
+    # label: "🎉"
+    replace: "{{tada}}"
+    vars:
+      - name: tada
+        type: match
+        params:
+          trigger: ";tada;"
+  - trigger: dmoji
+    search_terms: ["Add, update, or pass tests."]
+    # label: "✅"
+    replace: "{{white_check_mark}}"
+    vars:
+      - name: white_check_mark
+        type: match
+        params:
+          trigger: ";white check mark;"
+  - trigger: dmoji
+    search_terms: ["Fix security or privacy issues."]
+    # label: "🔒️"
+    replace: "{{lock}}"
+    vars:
+      - name: lock
+        type: match
+        params:
+          trigger: ";lock;"
+  - trigger: dmoji
+    search_terms: ["Add or update secrets."]
+    # label: "🔐"
+    replace: "{{closed_lock_with_key}}"
+    vars:
+      - name: closed_lock_with_key
+        type: match
+        params:
+          trigger: ";closed lock with key;"
+  - trigger: dmoji
+    search_terms: ["Release / Version tags."]
+    # label: "🔖"
+    replace: "{{bookmark}}"
+    vars:
+      - name: bookmark
+        type: match
+        params:
+          trigger: ";bookmark;"
+  - trigger: dmoji
+    search_terms: ["Fix compiler / linter warnings."]
+    # label: "🚨"
+    replace: "{{rotating_light}}"
+    vars:
+      - name: rotating_light
+        type: match
+        params:
+          trigger: ";rotating light;"
+  - trigger: dmoji
+    search_terms: ["Work in progress."]
+    # label: "🚧"
+    replace: "{{construction}}"
+    vars:
+      - name: construction
+        type: match
+        params:
+          trigger: ";construction;"
+  - trigger: dmoji
+    search_terms: ["Fix CI Build."]
+    # label: "💚"
+    replace: "{{green_heart}}"
+    vars:
+      - name: green_heart
+        type: match
+        params:
+          trigger: ";green heart;"
+  - trigger: dmoji
+    search_terms: ["Downgrade dependencies."]
+    # label: "⬇️"
+    replace: "{{arrow_down}}"
+    vars:
+      - name: arrow_down
+        type: match
+        params:
+          trigger: ";arrow down;"
+  - trigger: dmoji
+    search_terms: ["Upgrade dependencies."]
+    # label: "⬆️"
+    replace: "{{arrow_up}}"
+    vars:
+      - name: arrow_up
+        type: match
+        params:
+          trigger: ";arrow up;"
+  - trigger: dmoji
+    search_terms: ["Pin dependencies to specific versions."]
+    # label: "📌"
+    replace: "{{pushpin}}"
+    vars:
+      - name: pushpin
+        type: match
+        params:
+          trigger: ";pushpin;"
+  - trigger: dmoji
+    search_terms: ["Add or update CI build system."]
+    # label: "👷"
+    replace: "{{construction_worker}}"
+    vars:
+      - name: construction_worker
+        type: match
+        params:
+          trigger: ";construction worker;"
+  - trigger: dmoji
+    search_terms: ["Add or update analytics or track code."]
+    # label: "📈"
+    replace: "{{chart_with_upwards_trend}}"
+    vars:
+      - name: chart_with_upwards_trend
+        type: match
+        params:
+          trigger: ";chart with upwards trend;"
+  - trigger: dmoji
+    search_terms: ["Refactor code."]
+    # label: "♻️"
+    replace: "{{recycle}}"
+    vars:
+      - name: recycle
+        type: match
+        params:
+          trigger: ";recycle;"
+  - trigger: dmoji
+    search_terms: ["Add a dependency."]
+    # label: "➕"
+    replace: "{{heavy_plus_sign}}"
+    vars:
+      - name: heavy_plus_sign
+        type: match
+        params:
+          trigger: ";heavy plus sign;"
+  - trigger: dmoji
+    search_terms: ["Remove a dependency."]
+    # label: "➖"
+    replace: "{{heavy_minus_sign}}"
+    vars:
+      - name: heavy_minus_sign
+        type: match
+        params:
+          trigger: ";heavy minus sign;"
+  - trigger: dmoji
+    search_terms: ["Add or update configuration files."]
+    # label: "🔧"
+    replace: "{{wrench}}"
+    vars:
+      - name: wrench
+        type: match
+        params:
+          trigger: ";wrench;"
+  - trigger: dmoji
+    search_terms: ["Add or update development scripts."]
+    # label: "🔨"
+    replace: "{{hammer}}"
+    vars:
+      - name: hammer
+        type: match
+        params:
+          trigger: ";hammer;"
+  - trigger: dmoji
+    search_terms: ["Internationalization and localization."]
+    # label: "🌐"
+    replace: "{{globe_with_meridians}}"
+    vars:
+      - name: globe_with_meridians
+        type: match
+        params:
+          trigger: ";globe with meridians;"
+  - trigger: dmoji
+    search_terms: ["Fix typos."]
+    # label: "✏️"
+    replace: "{{pencil2}}"
+    vars:
+      - name: pencil2
+        type: match
+        params:
+          trigger: ";pencil2;"
+  - trigger: dmoji
+    search_terms: ["Write bad code that needs to be improved."]
+    # label: "💩"
+    replace: "{{poop}}"
+    vars:
+      - name: poop
+        type: match
+        params:
+          trigger: ";poop;"
+  - trigger: dmoji
+    search_terms: ["Revert changes."]
+    # label: "⏪️"
+    replace: "{{rewind}}"
+    vars:
+      - name: rewind
+        type: match
+        params:
+          trigger: ";rewind;"
+  - trigger: dmoji
+    search_terms: ["Merge branches."]
+    # label: "🔀"
+    replace: "{{twisted_rightwards_arrows}}"
+    vars:
+      - name: twisted_rightwards_arrows
+        type: match
+        params:
+          trigger: ";twisted rightwards arows;"
+  - trigger: dmoji
+    search_terms: ["Add or update compiled files or packages."]
+    # label: "📦️"
+    replace: "{{package}}"
+    vars:
+      - name: package
+        type: match
+        params:
+          trigger: ";package;"
+  - trigger: dmoji
+    search_terms: ["Update code due to external API changes."]
+    # label: "👽️"
+    replace: "{{alien}}"
+    vars:
+      - name: alien
+        type: match
+        params:
+          trigger: ";alien;"
+  - trigger: dmoji
+    search_terms: ["Move or rename resources (e.g.: files, paths, routes)."]
+    # label: "🚚"
+    replace: "{{truck}}"
+    vars:
+      - name: truck
+        type: match
+        params:
+          trigger: ";truck;"
+  - trigger: dmoji
+    search_terms: ["Add or update license."]
+    # label: "📄"
+    replace: "{{page_facing_up}}"
+    vars:
+      - name: page_facing_up
+        type: match
+        params:
+          trigger: ";page facing up;"
+  - trigger: dmoji
+    search_terms: ["Introduce breaking changes."]
+    # label: "💥"
+    replace: "{{boom}}"
+    vars:
+      - name: boom
+        type: match
+        params:
+          trigger: ";boom;"
+  - trigger: dmoji
+    search_terms: ["Add or update assets."]
+    # label: "🍱"
+    replace: "{{bento}}"
+    vars:
+      - name: bento
+        type: match
+        params:
+          trigger: ";bento;"
+  - trigger: dmoji
+    search_terms: ["Improve accessibility."]
+    # label: "♿️"
+    replace: "{{wheelchair}}"
+    vars:
+      - name: wheelchair
+        type: match
+        params:
+          trigger: ";wheelchair;"
+  - trigger: dmoji
+    search_terms: ["Add or update comments in source code."]
+    # label: "💡"
+    replace: "{{bulb}}"
+    vars:
+      - name: bulb
+        type: match
+        params:
+          trigger: ";bulb;"
+  - trigger: dmoji
+    search_terms: ["Write code drunkenly."]
+    # label: "🍻"
+    replace: "{{beers}}"
+    vars:
+      - name: beers
+        type: match
+        params:
+          trigger: ";beers;"
+  - trigger: dmoji
+    search_terms: ["Add or update text and literals."]
+    # label: "💬"
+    replace: "{{speech_balloon}}"
+    vars:
+      - name: speech_balloon
+        type: match
+        params:
+          trigger: ";speech balloon;"
+  - trigger: dmoji
+    search_terms: ["Perform database related changes."]
+    # label: "🗃️"
+    replace: "{{card_file_box}}"
+    vars:
+      - name: card_file_box
+        type: match
+        params:
+          trigger: ";card file box;"
+  - trigger: dmoji
+    search_terms: ["Add or update logs."]
+    # label: "🔊"
+    replace: "{{loud_sound}}"
+    vars:
+      - name: loud_sound
+        type: match
+        params:
+          trigger: ";loud sound;"
+  - trigger: dmoji
+    search_terms: ["Remove logs."]
+    # label: "🔇"
+    replace: "{{mute}}"
+    vars:
+      - name: mute
+        type: match
+        params:
+          trigger: ";mute;"
+  - trigger: dmoji
+    search_terms: ["Add or update contributor(s)."]
+    # label: "👥"
+    replace: "{{busts_in_silhouette}}"
+    vars:
+      - name: busts_in_silhouette
+        type: match
+        params:
+          trigger: ";busts in silhouette;"
+  - trigger: dmoji
+    search_terms: ["Improve user experience / usability."]
+    # label: "🚸"
+    replace: "{{children_crossing}}"
+    vars:
+      - name: children_crossing
+        type: match
+        params:
+          trigger: ";children crossing;"
+  - trigger: dmoji
+    search_terms: ["Make architectural changes."]
+    # label: "🏗️"
+    replace: "{{building_construction}}"
+    vars:
+      - name: building_construction
+        type: match
+        params:
+          trigger: ";building construction;"
+  - trigger: dmoji
+    search_terms: ["Work on responsive design."]
+    # label: "📱"
+    replace: "{{iphone}}"
+    vars:
+      - name: iphone
+        type: match
+        params:
+          trigger: ";iphone;"
+  - trigger: dmoji
+    search_terms: ["Mock things."]
+    # label: "🤡"
+    replace: "{{clown_face}}"
+    vars:
+      - name: clown_face
+        type: match
+        params:
+          trigger: ";clown face;"
+  - trigger: dmoji
+    search_terms: ["Add or update an easter egg."]
+    # label: "🥚"
+    replace: "{{egg}}"
+    vars:
+      - name: egg
+        type: match
+        params:
+          trigger: ";egg;"
+  - trigger: dmoji
+    search_terms: ["Add or update a .gitignore file."]
+    # label: "🙈"
+    replace: "{{see_no_evil}}"
+    vars:
+      - name: see_no_evil
+        type: match
+        params:
+          trigger: ";see no evil;"
+  - trigger: dmoji
+    search_terms: ["Add or update snapshots."]
+    # label: "📸"
+    replace: "{{camera_flash}}"
+    vars:
+      - name: camera_flash
+        type: match
+        params:
+          trigger: ";camera flash;"
+  - trigger: dmoji
+    search_terms: ["Perform experiments."]
+    # label: "⚗️"
+    replace: "{{alembic}}"
+    vars:
+      - name: alembic
+        type: match
+        params:
+          trigger: ";alembic;"
+  - trigger: dmoji
+    search_terms: ["Improve SEO."]
+    # label: "🔍️"
+    replace: "{{mag}}"
+    vars:
+      - name: mag
+        type: match
+        params:
+          trigger: ";mag;"
+  - trigger: dmoji
+    search_terms: ["Add or update types."]
+    # label: "🏷️"
+    replace: "{{label}}"
+    vars:
+      - name: label
+        type: match
+        params:
+          trigger: ";label;"
+  - trigger: dmoji
+    search_terms: ["Add or update seed files."]
+    # label: "🌱"
+    replace: "{{seedling}}"
+    vars:
+      - name: seedling
+        type: match
+        params:
+          trigger: ";seedling;"
+  - trigger: dmoji
+    search_terms: ["Add, update, or remove feature flags."]
+    # label: "🚩"
+    replace: "{{triangular_flag_on_post}}"
+    vars:
+      - name: triangular_flag_on_post
+        type: match
+        params:
+          trigger: ";triangular flag on post;"
+  - trigger: dmoji
+    search_terms: ["Catch errors."]
+    # label: "🥅"
+    replace: "{{goal_net}}"
+    vars:
+      - name: goal_net
+        type: match
+        params:
+          trigger: ";goal net;"
+  - trigger: dmoji
+    search_terms: ["Add or update animations and transitions."]
+    # label: "💫"
+    replace: "{{dizzy}}"
+    vars:
+      - name: dizzy
+        type: match
+        params:
+          trigger: ";dizzy;"
+  - trigger: dmoji
+    search_terms: ["Deprecate code that needs to be cleaned up."]
+    # label: "🗑️"
+    replace: "{{wastebasket}}"
+    vars:
+      - name: wastebasket
+        type: match
+        params:
+          trigger: ";wastebasket;"
+  - trigger: dmoji
+    search_terms: ["Work on code related to authorization, roles and permissions."]
+    # label: "🛂"
+    replace: "{{passport_control}}"
+    vars:
+      - name: passport_control
+        type: match
+        params:
+          trigger: ";passport control;"
+  - trigger: dmoji
+    search_terms: ["Simple fix for a non-critical issue."]
+    # label: "🩹"
+    replace: "{{adhesive_bandage}}"
+    vars:
+      - name: adhesive_bandage
+        type: match
+        params:
+          trigger: ";adhesive bandage;"
+  - trigger: dmoji
+    search_terms: ["Data exploration/inspection."]
+    # label: "🧐"
+    replace: "{{monocle_face}}"
+    vars:
+      - name: monocle_face
+        type: match
+        params:
+          trigger: ";monocle face;"
+  - trigger: dmoji
+    search_terms: ["Remove dead code."]
+    # label: "⚰️"
+    replace: "{{coffin}}"
+    vars:
+      - name: coffin
+        type: match
+        params:
+          trigger: ";coffin;"
+  - trigger: dmoji
+    search_terms: ["Add a failing test."]
+    # label: "🧪"
+    replace: "{{test_tube}}"
+    vars:
+      - name: test_tube
+        type: match
+        params:
+          trigger: ";test tube;"
+  - trigger: dmoji
+    search_terms: ["Add or update business logic."]
+    # label: "👔"
+    replace: "{{necktie}}"
+    vars:
+      - name: necktie
+        type: match
+        params:
+          trigger: ";necktie;"
+  - trigger: dmoji
+    search_terms: ["Add or update healthcheck."]
+    # label: "🩺"
+    replace: "{{stethoscope}}"
+    vars:
+      - name: stethoscope
+        type: match
+        params:
+          trigger: ";stethoscope;"
+  - trigger: dmoji
+    search_terms: ["Infrastructure related changes."]
+    # label: "🧱"
+    replace: "{{bricks}}"
+    vars:
+      - name: bricks
+        type: match
+        params:
+          trigger: ";bricks;"
+  - trigger: dmoji
+    search_terms: ["Improve developer experience."]
+    # label: "🧑‍💻"
+    replace: "{{technologist}}"
+    vars:
+      - name: technologist
+        type: match
+        params:
+          trigger: ";technologist;"
+  - trigger: dmoji
+    search_terms: ["Add sponsorships or money related infrastructure."]
+    # label: "💸"
+    replace: "{{money_with_wings}}"
+    vars:
+      - name: money_with_wings
+        type: match
+        params:
+          trigger: ";money with wings;"
+  - trigger: dmoji
+    search_terms: ["Add or update code related to multithreading or concurrency."]
+    # label: "🧵"
+    replace: "{{thread}}"
+    vars:
+      - name: thread
+        type: match
+        params:
+          trigger: ";thread;"
+  - trigger: dmoji
+    search_terms: ["Add or update code related to validation."]
+    # label: "🦺"
+    replace: "{{safety_vest}}"
+    vars:
+      - name: safety_vest
+        type: match
+        params:
+          trigger: ";safety vest;"
