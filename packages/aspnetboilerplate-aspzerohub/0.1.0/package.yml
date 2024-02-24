@@ -1,0 +1,176 @@
+matches:
+
+  #aspbolerplate and aspzero
+  - trigger: ":bundle"
+    replace: "npm run create-bundles"
+
+  - trigger: ";;ajax"
+    replace: "abp.ajax({\n
+            method: '',\n
+            url: '',\n
+            data: JSON.stringify()\n
+            }).done(function(data) {\n\n
+            });"
+
+  - trigger: ";;ns"
+    replace: "abp.notify.success('a message text', 'optional title');"
+
+  - trigger: ";;ni"
+    replace: "abp.notify.info('a message text', 'optional title');"
+
+  - trigger: ";;nw"
+    replace: "abp.notify.warn('a message text', 'optional title');"
+
+  - trigger: ";;ne"
+    replace: "abp.notify.error('a message text', 'optional title');"
+
+  - trigger: ";;ms"
+    replace: "abp.message.success('some success message', 'some optional title');"
+
+  - trigger: ";;mi"
+    replace: "abp.message.info('some info message', 'some optional title');"
+
+  - trigger: ";;mw"
+    replace: "abp.message.warn('some warning message', 'some optional title');"
+
+  - trigger: ";;me"
+    replace: "abp.message.error('some error message', 'some optional title');"
+
+  - trigger: ";;con"
+    replace: "abp.message.confirm(\n
+                '$|$','',\n
+                function (isConfirmed) {\n
+                if (isConfirmed) {\n\n
+                  }\n
+                }\n
+              );"
+
+  - trigger: ";;sbusy"
+    replace: "abp.ui.setBusy('#form');"
+
+  - trigger: ";;sclear"
+    replace: "abp.ui.clearBusy('#form');"
+
+  - trigger: ";;sbajax"
+    replace: "abp.ui.setBusy(\n
+              $('#form'),\n
+              {{output}}\n
+              );"
+    vars:
+      - name: output
+        type: match
+        params:
+          trigger: ";;ajax"
+  
+  - trigger: ";;bpage"
+    replace: "abp.ui.block();"
+
+  - trigger: ";;ubpage"
+    replace: "abp.ui.unblock();"
+
+  - trigger: ";;belm"
+    replace: "abp.ui.block($('#$|$'));"
+
+  - trigger: ";;ubelm"
+    replace: "abp.ui.unblock($('#$|$'));"
+
+  - trigger: ";;fstr"
+    replace: "var str = abp.utils.formatString('Hello {0}!', 'World');"
+
+  - trigger: ";;dlog"
+    replace: "abp.log.debug('$|$');"
+
+  - trigger: ";;ilog"
+    replace: "abp.log.info('$|$');"
+
+  - trigger: ";;wlog"
+    replace: "abp.log.warn('$|$');"
+
+  - trigger: ";;elog"
+    replace: "abp.log.error('$|$');"
+
+  - trigger: ";;flog"
+    replace: "abp.log.fatal('$|$');"
+
+  - trigger: ";;getpassive"
+    replace: "using (_unitOfWorkManager.Current.DisableFilter(AbpDataFilters.SoftDelete))\n
+    {$|$\n
+    }\n"
+
+  - trigger: ";;fkatr"
+    replace: "[ForeignKey(\"$|$\")]"
+
+  - trigger: ";;autatr"
+    replace: "[AbpAuthorize]"
+
+  - trigger: ";;autatr"
+    replace: "[AbpAuthorize(\"$|$\")]"
+
+  - trigger: ";;anonatr"
+    replace: "[AbpAllowAnonymous]"
+
+  - trigger: ";;anonatr"
+    replace: "[AllowAnonymous]"
+
+  - trigger: ";;autatr"
+    replace: "[Audited]"
+
+  - trigger: ";;autatr"
+    replace: "[DisableAuditing]"
+
+  - trigger: ";;usecase"
+    replace: "[UseCase(Description = \"$|$\")]"
+
+  - trigger: ";;remsatr"
+    replace: "[RemoteService(IsEnabled = false)]"
+
+  - trigger: ";;remsatr"
+    replace: "[RemoteService(IsMetadataEnabled = false)]"
+
+  - trigger: ";;vatr"
+    replace: "[DisableValidation]"
+
+  - trigger: ";;vatr"
+    replace: "[EnableValidation]"
+
+  - trigger: ";;uow"
+    replace: "[UnitOfWork]"
+
+  - trigger: ";;uow"
+    replace: "[UnitOfWork(IsDisabled = true)]"
+
+  - trigger: ";;uow"
+    replace: "[UnitOfWork(isTransactional: false)]"
+
+  - trigger: ";;map"
+    replace: "[AutoMapTo(typeof($|$))]"
+
+  - trigger: ";;slattr"
+    replace: "[StringLength($|$)]"
+
+  - trigger: ";;slattr"
+    replace: "[StringLength($|$, MinimumLength = )]"      
+
+  - trigger: ";;grant"
+    html: "abp.auth.isGranted('$|$');"
+
+  - trigger: ";;grant"
+    replace: "@if (IsGranted(\"$|$\"))\n{\n\n}\n"
+
+  - trigger: ";;gloc"
+    html: "app.localize($|$\"\")"
+
+  - trigger: ";;gloc"
+    replace: "@L(\"$|$\")"
+
+  - trigger: ";;gloc"
+    replace: "L(\"$|$\")"
+
+  - trigger: ";;loc"
+    replace: "<text name=\"$|$\" value=\"\" />"
+
+  - trigger: ";;throw"
+    replace: "throw new UserFriendlyException(\"$|$\");"
+
+  - trigger: ";;throw"
+    replace: "throw new Exception(\"$|$\");"
