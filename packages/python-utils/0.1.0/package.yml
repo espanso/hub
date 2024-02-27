@@ -1,0 +1,24 @@
+matches:
+  - trigger: ":pymain"
+    force_clipboard: true
+    replace: |
+              def main() -> None:
+                  $|$
+              
+              if __name__ == "__main__":
+                  main()
+  
+  - trigger: ":pycls"
+    force_clipboard: true
+    replace: |
+              class ClassName:
+                  def __init__(self) -> None:
+                      $|$
+ 
+                  def method_1(self) -> None:
+                      ...
+  - trigger: ":pydef"
+    force_clipboard: true
+    replace: |
+              def $|$() -> :
+                  return
