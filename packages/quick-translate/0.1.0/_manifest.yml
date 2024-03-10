@@ -1,0 +1,7 @@
+name: quick-translate
+title: Quick Translate
+description: A Package to quickly translate text of various languages
+version: 0.1.0
+author: p0ly60n
+homepage: https://github.com/p0ly60n/quick-translate
+tags: ["languages", "translation", "dictionary"]
