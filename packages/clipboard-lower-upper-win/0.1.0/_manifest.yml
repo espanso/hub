@@ -1,0 +1,7 @@
+author: Saravanabalagi
+description: A simple espanso package to convert clipboard content to lower and upper case in Windows
+homepage: https://github.com/saravanabalagi/espanso-clipboard-lower-upper-win
+name: clipboard-lower-upper-win
+title: Clipboard Lower Upper (Windows)
+version: 0.1.0
+tags: ["utility"]
