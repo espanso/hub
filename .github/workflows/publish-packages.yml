@@ -16,6 +16,8 @@ jobs:
           python-version: '3.9'
       - name: "Install python dependencies"
         run: "pip install pyyaml"
+      - name: "Quality check"
+        run: "python .github/scripts/validate/main.py"
       - name: "Publish packages"
         run: "python .github/scripts/publish_packages.py"
         env:
