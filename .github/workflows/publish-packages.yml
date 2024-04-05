@@ -10,10 +10,10 @@ jobs:
     concurrency: deploy
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
+          python-version: '3.12'
       - name: "Install python dependencies"
         run: "pip install pyyaml"
       - name: "Quality check"
@@ -30,6 +30,7 @@ jobs:
       - name: "Push update on hub-frontend"
         run: |
           git config --global user.name "Espanso Hub Bot"
+          git config --global user.email "espanso-hub@github-actions-bot.com"
 
           git clone git@github.com:espanso/hub-frontend.git
           cd hub-frontend
