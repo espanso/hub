@@ -30,6 +30,7 @@ jobs:
       - name: "Push update on hub-frontend"
         run: |
           git config --global user.name "Espanso Hub Bot"
+          git config --global user.email "espanso-hub@github-actions-bot.com"
 
           git clone git@github.com:espanso/hub-frontend.git
           cd hub-frontend
