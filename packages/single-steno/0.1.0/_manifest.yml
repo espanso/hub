@@ -1,0 +1,6 @@
+name: "single-steno"
+title: "Single Steno"
+description: Convert single characters into the most common English words
+version: 0.1.0
+author: reiwa
+tags: ["steno", "common", "character"]
