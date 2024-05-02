@@ -1,0 +1,6 @@
+name: "us-time-zones"
+title: "US Time Zones"
+description: A simple package for printing converted time.
+version: 0.1.0
+author: Jon Ouellette
+tags: ["time", "timezones", "us"]

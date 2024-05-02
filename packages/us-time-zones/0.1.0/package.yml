@@ -1,0 +1,99 @@
+matches:
+  # 12-HOUR FORMAT ##########################################
+    # Eastern Time
+  - trigger: ":et12"
+    replace: "{{et12}}"
+    vars:
+      - name: et12
+        type: shell
+        params:
+          cmd: TZ='America/New_York' date "+%I:%M:%S %p %Z"
+   # Central Time
+  - trigger: ":ct12"
+    replace: "{{ct12}}"
+    vars:
+      - name: ct12
+        type: shell
+        params:
+          cmd: TZ='America/Chicago' date "+%I:%M:%S %p %Z" 
+  # Mountain Time
+  - trigger: ":mt12"
+    replace: "{{mt12}}"
+    vars:
+      - name: mt12
+        type: shell
+        params:
+          cmd: TZ='America/Denver' date "+%I:%M:%S %p %Z"
+  # Pacific Time
+  - trigger: ":pt12"
+    replace: "{{pt12}}"
+    vars:
+      - name: pt12
+        type: shell
+        params:
+          cmd: TZ='America/Los_Angeles' date "+%I:%M:%S %p %Z"
+  # Alaska Time
+  - trigger: ":at12"
+    replace: "{{at12}}"
+    vars:
+      - name: at12
+        type: shell
+        params:
+          cmd: TZ='America/Anchorage' date "+%I:%M:%S %p %Z"
+  # Hawaii-Aleutian Time
+  - trigger: ":hat12"
+    replace: "{{hat12}}"
+    vars:
+      - name: hat12
+        type: shell
+        params:
+          cmd: TZ='America/Adak' date "+%I:%M:%S %p %Z"
+  # 24-HOUR FORMAT ##########################################
+  # Eastern Time
+  - trigger: ":et24"
+    replace: "{{et24}}"
+    vars:
+      - name: et24
+        type: shell
+        params:
+          cmd: TZ='America/New_York' date "+%H:%M:%S %Z"
+   # Central Time
+  - trigger: ":ct24"
+    replace: "{{ct24}}"
+    vars:
+      - name: ct24
+        type: shell
+        params:
+          cmd: TZ='America/Chicago' date "+%H:%M:%S %Z" 
+  # Mountain Time
+  - trigger: ":mt24"
+    replace: "{{mt24}}"
+    vars:
+      - name: mt24
+        type: shell
+        params:
+          cmd: TZ='America/Denver' date "+%H:%M:%S %Z"
+  # Pacific Time
+  - trigger: ":pt24"
+    replace: "{{pt24}}"
+    vars:
+      - name: pt24
+        type: shell
+        params:
+          cmd: TZ='America/Los_Angeles' date "+%H:%M:%S %Z"
+  # Alaska Time
+  - trigger: ":at24"
+    replace: "{{at24}}"
+    vars:
+      - name: at24
+        type: shell
+        params:
+          cmd: TZ='America/Anchorage' date "+%H:%M:%S %Z"
+  # Hawaii-Aleutian Time
+  - trigger: ":hat24"
+    replace: "{{hat24}}"
+    vars:
+      - name: hat24
+        type: shell
+        params:
+          cmd: TZ='America/Adak' date "+%H:%M:%S %Z"
