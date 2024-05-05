@@ -1,0 +1,6 @@
+name: "lean"
+title: "Lean input abbreviations"
+description: Input abbreviations for unicode symbols for the Lean theorem prover
+version: 0.1.0
+author: Gabriel Ebner
+tags: ["latex"]
