@@ -1,0 +1,8 @@
+author: "Jos\xE9 Ferreira"
+description: A package containing most of the Greek alphabet and some common variatons
+  using Latex based naming scheme
+name: greek-letters-improved
+title: Greek Letters based on Latex
+version: 0.2.0
+homepage: "https://github.com/jpmvferreira/espanso-mega-pack"
+tags: ["greek", "languages", "latex", "math"]

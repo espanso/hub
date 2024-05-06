@@ -1,0 +1,63 @@
+matches:
+  - trigger: ":vec:"  # e.g.: x⃗
+    replace: "\u20d7"
+
+  - triggers: [":underrightarrow:", ":ura:"]  # e.g.: x⃯
+    replace: "\u20ef"
+
+  - triggers: [":underleftarrow:", ":ula:"]  # e.g.: x⃮
+    replace: "\u20ee"
+
+  - triggers: [":overleftarrow:", ":ola:"]  # e.g.: x⃡
+    replace: "\u20e1"
+
+  - triggers: [":underline:", ":ul:"]  # e.g.: x̲
+    replace: "\u0332"
+
+  - trigger: ":bar:"  # e.g.: x̅
+    replace: "\u0305"
+
+  - trigger: ":acute:"  # e.g.: x́
+    replace: "\u0301"
+
+  - trigger: ":macron:"  # e.g.: x̄
+    replace: "\u0304"
+
+  - trigger: ":breve:"  # e.g.: x̆
+    replace: "\u0306"
+
+  - trigger: ":caron:"  # e.g.: x̌
+    replace: "\u030c"
+
+  - trigger: ":ddddot:"  # e.g.: x⃛
+    replace: "\u20dc"
+
+  - trigger: ":dddot:"  # e.g.: x⃛
+    replace: "\u20db"
+
+  - trigger: ":ddot:"  # e.g.: ẍ
+    replace: "\u0308"
+
+  - trigger: ":dot:"  # e.g.: ẋ
+    replace: "\u0307"
+
+  - trigger: ":grave:"  # e.g.: x̀
+    replace: "\u0300"
+
+  - trigger: ":hat:"  # e.g.: x̂
+    replace: "\u0302"
+
+  - trigger: ":widehat:"  # e.g.: x̂
+    replace: "\u0302"
+
+  - trigger: ":tilde:"  # e.g.: x̃
+    replace: "\u0303"
+
+  - trigger: ":widetilde:"  # e.g.: x̃
+    replace: "\u0303"
+
+  - trigger: ":ring:"  # e.g.: x̊
+    replace: "\u030a"
+
+  - triggers: [":not:", ":slash:"]  # e.g.: x̸
+    replace: "\u0338"
