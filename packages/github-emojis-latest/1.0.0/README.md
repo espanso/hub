@@ -1,4 +1,4 @@
-# We deveopers love GitHub Emojis!
+# We developers love GitHub Emojis!
 
 All emojis supported by GitHub can be found here: [comprehensive list](https://api.github.com/emojis). This package is automatically generate by a home-brewed Bash script. It's accurate and synchronized with official GitHub emoji list.
 
