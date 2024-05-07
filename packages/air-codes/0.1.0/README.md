@@ -54,3 +54,7 @@ You can contact me via:
 - [Twitter](https://twitter.com/cl3mcg)
 
 I'm open to discussions, collaborations, and suggestions related to air transportation, logistics, or any other relevant projects. Don't hesitate to connect or drop a message via these platforms.
+
+### Other Espanso packages for airport code abbreviations
+
+If you are interested in another Espanso package related to airport code abbreviations and their related cities, check the [`airport-codes` package](https://github.com/gflujan/espanso-airport-codes) from [Gabriel F. Lujan](https://github.com/gflujan).
