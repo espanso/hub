@@ -1,7 +1,7 @@
 name: "sf-symbols"
 title: "SF Symbols"
 description: Symbols/Icons from Apple’s San Francisco (SF Pro) system font
-version: 1.0
+version: 0.1.0
 author: jonamil
 tags:
   - "apple"

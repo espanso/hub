@@ -15,7 +15,7 @@ espanso restart
 
 ### Selection Dialog
 
-A selection dialog containing all SF Symbols can be triggered through `:sf:`. On macOS (where this package is primarily useful), previews of the symbols are visible within the dialog.
+A selection dialog containing all SF Symbols can be triggered through `:sf:`. On macOS (where this package is primarily useful), a preview of each symbol is visible within the dialog.
 
 Where provided by Apple, search keywords are appended to symbols’ names to make searching easier.
 
