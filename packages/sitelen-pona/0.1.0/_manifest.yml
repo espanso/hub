@@ -1,0 +1,7 @@
+name: "sitelen-pona"
+title: "o sitelen pona!"
+description: A package for writing UCSUR sitelen pona with Espanso!
+version: 0.1.0
+author: niko
+homepage: "https://github.com/neroist/sitelen-pona-ucsur-guide"
+tags: ["toki pona", "sitelen pona", "ilo", "UCSUR", "symbols", "languages", "chat", "writing", "characters", "communication", "conlangs"]

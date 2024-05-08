@@ -1,0 +1,669 @@
+matches:
+  # punctuation etc
+  - triggers: ["zz", "  "]
+    replace: "　" # ! changed to logograph fullwidth space
+    word: true
+
+  - trigger: "-"
+    replace: "‍" # ! changed to zero width non joiner
+    word: true
+
+  - trigger: "^"
+    replace: "󱦕" # ! changed to stacking joiner
+    word: true
+
+  - trigger: "*"
+    replace: "󱦖" # ! changed to scaling joiner
+    word: true
+
+  - trigger: ":"
+    replace: "󱦝" # ! changed to sp colon
+    word: true
+
+  - trigger: "."
+    replace: "󱦜" # ! changed to sp full stop 
+    word: true
+
+  - trigger: "["
+    replace: "󱦐" # ! changed to cartouche start
+    word: true
+
+  - trigger: "]"
+    replace: "󱦑" # ! changed to cartouche end
+    word: true
+
+  - trigger: "<"
+    replace: "「" # ! changed to cjk start quote
+    word: true
+
+  - trigger: ">"
+    replace: "」" # ! changed to cjk end quote
+    word: true
+
+  - trigger: "("
+    replace: "󱦗" # ! changed to "start left-combining (normal) long glyph"
+    word: true
+
+  - trigger: ")"
+    replace: "󱦘" # ! changed to "end left-combining (normal) long glyph"  
+    word: true
+
+  - trigger: "{"
+    replace: "󱦚" # ! changed to "start right-combining (reversed) long glyph"
+    word: true
+
+  - trigger: "}"
+    replace: "󱦛" # ! changed to "end right-combining (reversed) long glyph" 
+    word: true
+
+  # contractions
+  - triggers: ["msa", "misonala", "misonaala"]
+    replace: "󱤴󱥡󱤂"
+    word: true
+
+  # pu
+  - trigger: "a"
+    replace: "󱤀"
+    word: true
+
+  - trigger: "aaa"
+    replace: "󱤀󱤀󱤀"
+    word: true
+
+  - trigger: "akesi"
+    replace: "󱤁"
+    word: true
+
+  - trigger: "ala"
+    replace: "󱤂"
+    word: true
+
+  - trigger: "alasa"
+    replace: "󱤃"
+    word: true
+
+  - triggers: ["ale", "ali"]
+    replace: "󱤄"
+    word: true
+
+  - trigger: "anpa"
+    replace: "󱤅"
+    word: true
+
+  - trigger: "ante"
+    replace: "󱤆"
+    word: true
+
+  - trigger: "anu"
+    replace: "󱤇"
+    word: true
+
+  - trigger: "awen"
+    replace: "󱤈"
+    word: true
+
+  - trigger: "e"
+    replace: "󱤉"
+    word: true
+
+  - trigger: "en"
+    replace: "󱤊"
+    word: true
+
+  - trigger: "esun"
+    replace: "󱤋"
+    word: true
+
+  - trigger: "ijo"
+    replace: "󱤌"
+    word: true
+
+  - trigger: "ike"
+    replace: "󱤍"
+    word: true
+
+  - trigger: "ilo"
+    replace: "󱤎"
+    word: true
+
+  - trigger: "insa"
+    replace: "󱤏"
+    word: true
+
+  - trigger: "jaki"
+    replace: "󱤐"
+    word: true
+
+  - trigger: "jan"
+    replace: "󱤑"
+    word: true
+
+  - trigger: "jelo"
+    replace: "󱤒"
+    word: true
+
+  - trigger: "jo"
+    replace: "󱤓"
+    word: true
+
+  - trigger: "kala"
+    replace: "󱤔"
+    word: true
+
+  - trigger: "kalama"
+    replace: "󱤕"
+    word: true
+
+  - trigger: "kama"
+    replace: "󱤖"
+    word: true
+
+  - trigger: "kasi"
+    replace: "󱤗"
+    word: true
+
+  - trigger: "ken"
+    replace: "󱤘"
+    word: true
+
+  - triggers: ["kepeken", "kepen", "kpkn"]
+    replace: "󱤙"
+    word: true
+
+  - trigger: "kili"
+    replace: "󱤚"
+    word: true
+
+  - trigger: "kin"
+    replace: "󱥹"
+    word: true
+
+  - trigger: "kiwen"
+    replace: "󱤛"
+    word: true
+
+  - trigger: "ko"
+    replace: "󱤜"
+    word: true
+
+  - trigger: "kon"
+    replace: "󱤝"
+    word: true
+
+  - trigger: "kule"
+    replace: "󱤞"
+    word: true
+
+  - trigger: "kulupu"
+    replace: "󱤟"
+    word: true
+
+  - trigger: "kute"
+    replace: "󱤠"
+    word: true
+
+  - trigger: "la"
+    replace: "󱤡"
+    word: true
+
+  - trigger: "lape"
+    replace: "󱤢"
+    word: true
+
+  - trigger: "laso"
+    replace: "󱤣"
+    word: true
+
+  - trigger: "lawa"
+    replace: "󱤤"
+    word: true
+
+  - trigger: "len"
+    replace: "󱤥"
+    word: true
+
+  - trigger: "lete"
+    replace: "󱤦"
+    word: true
+
+  - trigger: "li"
+    replace: "󱤧"
+    word: true
+
+  - trigger: "lili"
+    replace: "󱤨"
+    word: true
+
+  - trigger: "linja"
+    replace: "󱤩"
+    word: true
+
+  - trigger: "lipu"
+    replace: "󱤪"
+    word: true
+
+  - trigger: "loje"
+    replace: "󱤫"
+    word: true
+
+  - trigger: "lon"
+    replace: "󱤬"
+    word: true
+
+  - trigger: "luka"
+    replace: "󱤭"
+    word: true
+
+  - trigger: "lukin"
+    replace: "󱤮"
+    word: true
+
+  - trigger: "oko"
+    replace: "󱥺"
+    word: true
+
+  - trigger: "lupa"
+    replace: "󱤯"
+    word: true
+
+  - trigger: "ma"
+    replace: "󱤰"
+    word: true
+
+  - trigger: "mama"
+    replace: "󱤱"
+    word: true
+
+  - trigger: "mani"
+    replace: "󱤲"
+    word: true
+
+  - trigger: "meli"
+    replace: "󱤳"
+    word: true
+
+  - trigger: "mi"
+    replace: "󱤴"
+    word: true
+
+  - trigger: "mije"
+    replace: "󱤵"
+    word: true
+
+  - trigger: "moku"
+    replace: "󱤶"
+    word: true
+
+  - trigger: "moli"
+    replace: "󱤷"
+    word: true
+
+  - trigger: "monsi"
+    replace: "󱤸"
+    word: true
+
+  - trigger: "mu"
+    replace: "󱤹"
+    word: true
+
+  - trigger: "mun"
+    replace: "󱤺"
+    word: true
+
+  - trigger: "musi"
+    replace: "󱤻"
+    word: true
+
+  - trigger: "mute"
+    replace: "󱤼"
+    word: true
+
+  - trigger: "namako"
+    replace: "󱥸"
+    word: true
+
+  - trigger: "nanpa"
+    replace: "󱤽"
+    word: true
+
+  - trigger: "nasa"
+    replace: "󱤾"
+    word: true
+
+  - trigger: "nasin"
+    replace: "󱤿"
+    word: true
+
+  - trigger: "nena"
+    replace: "󱥀"
+    word: true
+
+  - trigger: "ni"
+    replace: "󱥁"
+    word: true
+
+  - trigger: "nimi"
+    replace: "󱥂"
+    word: true
+
+  - trigger: "noka"
+    replace: "󱥃"
+    word: true
+
+  - trigger: "o"
+    replace: "󱥄"
+    word: true
+
+  - trigger: "olin"
+    replace: "󱥅"
+    word: true
+
+  - trigger: "ona"
+    replace: "󱥆"
+    word: true
+
+  - trigger: "open"
+    replace: "󱥇"
+    word: true
+
+  - trigger: "pakala"
+    replace: "󱥈"
+    word: true
+
+  - trigger: "pali"
+    replace: "󱥉"
+    word: true
+
+  - trigger: "palisa"
+    replace: "󱥊"
+    word: true
+
+  - trigger: "pan"
+    replace: "󱥋"
+    word: true
+
+  - trigger: "pana"
+    replace: "󱥌"
+    word: true
+
+  - trigger: "pi"
+    replace: "󱥍"
+    word: true
+
+  - trigger: "pilin"
+    replace: "󱥎"
+    word: true
+
+  - trigger: "pimeja"
+    replace: "󱥏"
+    word: true
+
+  - trigger: "pini"
+    replace: "󱥐"
+    word: true
+
+  - trigger: "pipi"
+    replace: "󱥑"
+    word: true
+
+  - trigger: "poka"
+    replace: "󱥒"
+    word: true
+
+  - trigger: "poki"
+    replace: "󱥓"
+    word: true
+
+  - trigger: "pona"
+    replace: "󱥔"
+    word: true
+
+  - trigger: "pu"
+    replace: "󱥕"
+    word: true
+
+  - trigger: "sama"
+    replace: "󱥖"
+    word: true
+
+  - trigger: "seli"
+    replace: "󱥗"
+    word: true
+
+  - trigger: "selo"
+    replace: "󱥘"
+    word: true
+
+  - trigger: "seme"
+    replace: "󱥙"
+    word: true
+
+  - trigger: "sewi"
+    replace: "󱥚"
+    word: true
+
+  - trigger: "sijelo"
+    replace: "󱥛"
+    word: true
+
+  - trigger: "sike"
+    replace: "󱥜"
+    word: true
+
+  - trigger: "sin"
+    replace: "󱥝"
+    word: true
+
+  - trigger: "sina"
+    replace: "󱥞"
+    word: true
+
+  - trigger: "sinpin"
+    replace: "󱥟"
+    word: true
+
+  - trigger: "sitelen"
+    replace: "󱥠"
+    word: true
+
+  - trigger: "sona"
+    replace: "󱥡"
+    word: true
+
+  - trigger: "soweli"
+    replace: "󱥢"
+    word: true
+
+  - trigger: "suli"
+    replace: "󱥣"
+    word: true
+
+  - trigger: "suno"
+    replace: "󱥤"
+    word: true
+
+  - trigger: "supa"
+    replace: "󱥥"
+    word: true
+
+  - trigger: "suwi"
+    replace: "󱥦"
+    word: true
+
+  - trigger: "tan"
+    replace: "󱥧"
+    word: true
+
+  - trigger: "taso"
+    replace: "󱥨"
+    word: true
+
+  - trigger: "tawa"
+    replace: "󱥩"
+    word: true
+
+  - trigger: "telo"
+    replace: "󱥪"
+    word: true
+
+  - trigger: "tenpo"
+    replace: "󱥫"
+    word: true
+
+  - trigger: "toki"
+    replace: "󱥬"
+    word: true
+
+  - trigger: "tomo"
+    replace: "󱥭"
+    word: true
+
+  - trigger: "tu"
+    replace: "󱥮"
+    word: true
+
+  - trigger: "unpa"
+    replace: "󱥯"
+    word: true
+
+  - trigger: "uta"
+    replace: "󱥰"
+    word: true
+
+  - trigger: "utala"
+    replace: "󱥱"
+    word: true
+
+  - trigger: "walo"
+    replace: "󱥲"
+    word: true
+
+  - trigger: "wan"
+    replace: "󱥳"
+    word: true
+
+  - trigger: "waso"
+    replace: "󱥴"
+    word: true
+
+  - trigger: "wawa"
+    replace: "󱥵"
+    word: true
+
+  - trigger: "weka"
+    replace: "󱥶"
+    word: true
+
+  - trigger: "wile"
+    replace: "󱥷"
+    word: true
+
+  # ku suli
+  - trigger: "tonsi"
+    replace: "󱥾"
+    word: true
+
+  - trigger: "monsuta"
+    replace: "󱥽"
+    word: true
+
+  - triggers: ["kije", "kijete", "kijetesantakalu"]
+    replace: "󱦀"
+    word: true
+
+  - trigger: "leko"
+    replace: "󱥼"
+    word: true
+
+  - trigger: "kipisi"
+    replace: "󱥻"
+    word: true
+
+  - trigger: "apeja"
+    replace: "󱦡"
+    word: true
+
+  - trigger: "jasima"
+    replace: "󱥿"
+    word: true
+
+  - triggers: ["oke", "oki", "ke"]
+    replace: "󿫤"
+    word: true
+
+  - trigger: "n"
+    replace: "󱦆"
+    word: true
+
+  - trigger: "soko"
+    replace: "󱦁"
+    word: true
+
+  - trigger: "meso"
+    replace: "󱦂"
+    word: true
+
+  - trigger: "epiku"
+    replace: "󱦃"
+    word: true
+
+  - trigger: "kokosila"
+    replace: "󱦄"
+    word: true
+
+  - trigger: "lanpan"
+    replace: "󱦅"
+    word: true
+
+  - trigger: "misikeke"
+    replace: "󱦇"
+    word: true
+
+  - trigger: "ku"
+    replace: "󱦈"
+    word: true
+
+  - trigger: "su"
+    replace: "󿬯"
+    word: true
+
+  # (select) ku lili
+  - trigger: "isipin"
+    replace: "󿫀"
+    word: true
+
+  - trigger: "kapesi"
+    replace: "󿫁"
+    word: true
+
+  - trigger: "kiki"
+    replace: "󿫃"
+    word: true
+
+  - triggers: ["linluwi", "linuwi"]
+    replace: "󿫄"
+    word: true
+
+  - trigger: "mulapisu"
+    replace: "󿫈"
+    word: true
+
+  - trigger: "pake"
+    replace: "󱦠"
+    word: true
+
+  - trigger: "Pingo"
+    replace: "󿫽"
+    word: true
+
+  - trigger: "powe"
+    replace: "󱦣"
+    word: true
+
+  - trigger: "unu"
+    replace: "󿫊"
+    word: true
+
+  - trigger: "wa"
+    replace: "󿫋"
+    word: true
