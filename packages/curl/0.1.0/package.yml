@@ -1,0 +1,53 @@
+# curl package
+
+name: curl
+parent: default
+
+matches:
+  - trigger: ":curl:"
+    replace: "curl --request GET https://example.com"
+
+  - trigger: ":curlget:"
+    replace: "curl --request GET https://example.com?key=value"
+
+  - trigger: ":curlpost:"
+    replace: "curl --request POST https://example.com"
+
+  - trigger: ":curlput:"
+    replace: "curl --request PUT https://example.com"
+
+  - trigger: ":curldelete:"
+    replace: "curl --request DELETE https://example.com"
+
+  - trigger: ":curlpatch:"
+    replace: "curl --request PATCH https://example.com"
+
+  - trigger: ":curldata:"
+    replace: "curl --request POST --header 'Content-Type: multipart/form-data' --form 'key=value' http://example.com"
+
+  - trigger: ":curlxml:"
+    replace: "curl --request POST --header 'Content-Type: application/xml' --data '<key>value</key>' http://example.com"
+
+  - trigger: ":curljson:"
+    replace: 'curl --request POST --header ''Content-Type: application/json'' --data ''{"key":"value"}'' http://example.com'
+
+  - trigger: ":curlheader:"
+    replace: "curl --request GET --header 'X-My-Header: 123' http://example.com"
+
+  - trigger: ":curlcookie:"
+    replace: "curl --request GET --cookie 'key=value' http://example.com"
+
+  - trigger: ":curlbasic:"
+    replace: "curl --request GET --user 'username:password' http://example.com"
+
+  - trigger: ":curlbearer:"
+    replace: "curl --request GET --header 'Authorization: Bearer token' http://example.com"
+
+  - trigger: ":curlproxy:"
+    replace: "curl --request GET --proxy http://proxy.example.com:8080 http://example.com"
+
+  - trigger: ":curldownload:"
+    replace: "curl --request GET --output file.txt http://example.com"
+
+  - trigger: ":curlupload:"
+    replace: "curl --request POST --form 'file=@/path/to/file' http://example.com"
