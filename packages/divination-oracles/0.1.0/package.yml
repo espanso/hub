@@ -1,0 +1,380 @@
+# Returns a random playing card from a standard 52 card deck, with no jokers
+matches:
+  - trigger: ":card:"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: random
+        params:
+          choices:
+            - "Ace of Hearts"
+            - "2 of Hearts"
+            - "3 of Hearts"
+            - "4 of Hearts"
+            - "5 of Hearts"
+            - "6 of Hearts"
+            - "7 of Hearts"
+            - "8 of Hearts"
+            - "9 of Hearts"
+            - "10 of Hearts"
+            - "Jack of Hearts"
+            - "Queen of Hearts"
+            - "King of Hearts"
+            - "Ace of Clubs"
+            - "2 of Clubs"
+            - "3 of Clubs"
+            - "4 of Clubs"
+            - "5 of Clubs"
+            - "6 of Clubs"
+            - "7 of Clubs"
+            - "8 of Clubs"
+            - "9 of Clubs"
+            - "10 of Clubs"
+            - "Jack of Clubs"
+            - "Queen of Clubs"
+            - "King of Clubs"
+            - "Ace of Diamonds"
+            - "2 of Diamonds"
+            - "3 of Diamonds"
+            - "4 of Diamonds"
+            - "5 of Diamonds"
+            - "6 of Diamonds"
+            - "7 of Diamonds"
+            - "8 of Diamonds"
+            - "9 of Diamonds"
+            - "10 of Diamonds"
+            - "Jack of Diamonds"
+            - "Queen of Diamonds"
+            - "King of Diamonds"
+            - "Ace of Spades"
+            - "2 of Spades"
+            - "3 of Spades"
+            - "4 of Spades"
+            - "5 of Spades"
+            - "6 of Spades"
+            - "7 of Spades"
+            - "8 of Spades"
+            - "9 of Spades"
+            - "10 of Spades"
+            - "Jack of Spades"
+            - "Queen of Spades"
+            - "King of Spades"
+
+  # Returns a random playing card from a 54 card deck, including 2 jokers
+  - trigger: ":cardj:"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: random
+        params:
+          choices:
+            - "Ace of Hearts"
+            - "2 of Hearts"
+            - "3 of Hearts"
+            - "4 of Hearts"
+            - "5 of Hearts"
+            - "6 of Hearts"
+            - "7 of Hearts"
+            - "8 of Hearts"
+            - "9 of Hearts"
+            - "10 of Hearts"
+            - "Jack of Hearts"
+            - "Queen of Hearts"
+            - "King of Hearts"
+            - "Ace of Clubs"
+            - "2 of Clubs"
+            - "3 of Clubs"
+            - "4 of Clubs"
+            - "5 of Clubs"
+            - "6 of Clubs"
+            - "7 of Clubs"
+            - "8 of Clubs"
+            - "9 of Clubs"
+            - "10 of Clubs"
+            - "Jack of Clubs"
+            - "Queen of Clubs"
+            - "King of Clubs"
+            - "Ace of Diamonds"
+            - "2 of Diamonds"
+            - "3 of Diamonds"
+            - "4 of Diamonds"
+            - "5 of Diamonds"
+            - "6 of Diamonds"
+            - "7 of Diamonds"
+            - "8 of Diamonds"
+            - "9 of Diamonds"
+            - "10 of Diamonds"
+            - "Jack of Diamonds"
+            - "Queen of Diamonds"
+            - "King of Diamonds"
+            - "Ace of Spades"
+            - "2 of Spades"
+            - "3 of Spades"
+            - "4 of Spades"
+            - "5 of Spades"
+            - "6 of Spades"
+            - "7 of Spades"
+            - "8 of Spades"
+            - "9 of Spades"
+            - "10 of Spades"
+            - "Jack of Spades"
+            - "Queen of Spades"
+            - "King of Spades"
+            - "Joker"
+            - "Joker"
+  
+  # Returns a random card from a standard 78-card tarot deck
+  - trigger: ":tarot:"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: random
+        params:
+          choices:
+            - "The Fool (0)"
+            - "The Magician (1)"
+            - "The High Priestess (2)"
+            - "The Empress (3)"
+            - "The Emperor (4)"
+            - "The Hierophant (5)"
+            - "The Lovers (6)"
+            - "The Chariot (7)"
+            - "Strength (8)"
+            - "The Hermit (9)"
+            - "Wheel of Fortune (10)"
+            - "Justice (11)"
+            - "The Hanged Man (12)"
+            - "Death (13)"
+            - "Temperance (14)"
+            - "The Devil (15)"
+            - "The Tower (16)"
+            - "The Star (17)"
+            - "The Moon (18)"
+            - "The Sun (19)"
+            - "Judgment (20)"
+            - "The World (21)"
+            - "Ace of Wands"
+            - "2 of Wands"
+            - "3 of Wands"
+            - "4 of Wands"
+            - "5 of Wands"
+            - "6 of Wands"
+            - "7 of Wands"
+            - "8 of Wands"
+            - "9 of Wands"
+            - "10 of Wands"
+            - "Page of Wands"
+            - "Knight of Wands"
+            - "Queen of Wands"
+            - "King of Wands"
+            - "Ace of Cups"
+            - "2 of Cups"
+            - "3 of Cups"
+            - "4 of Cups"
+            - "5 of Cups"
+            - "6 of Cups"
+            - "7 of Cups"
+            - "8 of Cups"
+            - "9 of Cups"
+            - "10 of Cups"
+            - "Page of Cups"
+            - "Knight of Cups"
+            - "Queen of Cups"
+            - "King of Cups"
+            - "Ace of Swords"
+            - "2 of Swords"
+            - "3 of Swords"
+            - "4 of Swords"
+            - "5 of Swords"
+            - "6 of Swords"
+            - "7 of Swords"
+            - "8 of Swords"
+            - "9 of Swords"
+            - "10 of Swords"
+            - "Page of Swords"
+            - "Knight of Swords"
+            - "Queen of Swords"
+            - "King of Swords"
+            - "Ace of Pentacles"
+            - "2 of Pentacles"
+            - "3 of Pentacles"
+            - "4 of Pentacles"
+            - "5 of Pentacles"
+            - "6 of Pentacles"
+            - "7 of Pentacles"
+            - "8 of Pentacles"
+            - "9 of Pentacles"
+            - "10 of Pentacles"
+            - "Page of Pentacles"
+            - "Knight of Pentacles"
+            - "Queen of Pentacles"
+            - "King of Pentacles"
+  
+  # Returns a random card from a standard 78-card tarot deck, with a 25% chance of it being reversed
+  - trigger: ":tarot25:"
+    replace: "{{nested}}{{output}}"
+    vars:
+      - name: nested
+        type: match
+        params:
+          trigger: ":tarot:"
+      - name: output
+        type: random
+        params:
+          choices:
+            - " reversed"
+            - ""
+            - ""
+            - ""
+
+  # Returns a random card from a standard 78-card tarot deck, with a 20% chance of it being reversed
+  - trigger: ":tarot20:"
+    replace: "{{nested}}{{output}}"
+    vars:
+      - name: nested
+        type: match
+        params:
+          trigger: ":tarot:"
+      - name: output
+        type: random
+        params:
+          choices:
+            - " reversed"
+            - ""
+            - ""
+            - ""
+            - ""
+  
+  # Returns a random card from a standard 78-card tarot deck, with a 10% chance of it being reversed
+  - trigger: ":tarot10:"
+    replace: "{{nested}}{{output}}"
+    vars:
+      - name: nested
+        type: match
+        params:
+          trigger: ":tarot:"
+      - name: output
+        type: random
+        params:
+          choices:
+            - " reversed"
+            - ""
+            - ""
+            - ""
+            - ""
+            - ""
+            - ""
+            - ""
+            - ""
+            - ""
+
+  # Returns a random card from a standard 78-card tarot deck, with a 5% chance of it being reversed
+  - trigger: ":tarot5:"
+    replace: "{{nested}}{{output}}"
+    vars:
+      - name: nested
+        type: match
+        params:
+          trigger: ":tarot:"
+      - name: output
+        type: random
+        params:
+          choices:
+            - " reversed"
+            - ""
+            - ""
+            - ""
+            - ""
+            - ""
+            - ""
+            - ""
+            - ""
+            - ""
+            - ""
+            - ""
+            - ""
+            - ""
+            - ""
+            - ""
+            - ""
+            - ""
+            - ""
+            - ""
+
+  # Returns a random card from a 36-card Lenormand deck
+  - trigger: ":lenormand:"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: random
+        params:
+          choices:
+            - "Rider (1)"
+            - "Clover (2)"
+            - "Ship (3)"
+            - "House (4)"
+            - "Tree (5)"
+            - "Clouds (6)"
+            - "Snake (7)"
+            - "Coffin (8)"
+            - "Bouquet (9)"
+            - "Scythe (10)"
+            - "Whip (11)"
+            - "Birds (12)"
+            - "Child (13)"
+            - "Fox (14)"
+            - "Bear (15)"
+            - "Stars (16)"
+            - "Stork (17)"
+            - "Dog (18)"
+            - "Tower (19)"
+            - "Garden (20)"
+            - "Mountain (21)"
+            - "Crossroad (22)"
+            - "Mice (23)"
+            - "Heart (24)"
+            - "Ring (25)"
+            - "Book (26)"
+            - "Letter (27)"
+            - "Man (28)"
+            - "Woman (29)"
+            - "Lily (30)"
+            - "Sun (31)"
+            - "Moon (32)"
+            - "Key (33)"
+            - "Fish (34)"
+            - "Anchor (35)"
+            - "Cross (36)"
+  
+  # Returns a random rune from the Elder Futhark
+  - trigger: ":futhark:"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: random
+        params:
+          choices:
+            - "Fehu (ᚠ)"
+            - "Uruz (ᚢ)"
+            - "Thurisaz (ᚦ)"
+            - "Ansuz (ᚨ)"
+            - "Raidho (ᚱ)"
+            - "Kenaz (ᚲ)"
+            - "Gebo (ᚷ)"
+            - "Wunjo (ᚹ)"
+            - "Hagalaz (ᚺ)"
+            - "Naudhiz (ᚾ)"
+            - "Isa (ᛁ)"
+            - "Jera (ᛃ)"
+            - "Eihwaz (ᛇ)"
+            - "Perthro (ᛈ)"
+            - "Algiz (ᛉ)"
+            - "Sowilo (ᛊ)"
+            - "Tiwaz (ᛏ)"
+            - "Berkano (ᛒ)"
+            - "Ehwaz (ᛖ)"
+            - "Mannaz (ᛗ)"
+            - "Laguz (ᛚ)"
+            - "Ingwaz (ᛜ)"
+            - "Dagaz (ᛞ)"
+            - "Othala (ᛟ)"
