@@ -1,0 +1,6 @@
+name: "airport-codes"
+title: "Airport Codes"
+description: "Quickly expand airport codes into their full city names."
+version: 0.1.0
+author: "Metal Gabe"
+tags: ["utility", "locations", "airports", "cities"]
