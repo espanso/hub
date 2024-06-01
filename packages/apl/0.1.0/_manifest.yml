@@ -1,6 +1,6 @@
 name: "apl"
 title: "APL symbols"
-description: A package for writting APL symbols based on Dyalog conventions
+description: A package for writing APL symbols based on Dyalog conventions
 version: 0.1.0
 author: Luis Ángel Méndez Gort
 tags: ["apl", "dyalog", "development", "symbols"]
