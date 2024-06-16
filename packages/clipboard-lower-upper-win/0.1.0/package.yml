@@ -1,0 +1,22 @@
+name: clipboard-lower-upper-win
+parent: default
+
+matches:
+  - trigger: "::low"
+    replace: "{{output}}"
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+      - name: output
+        type: shell
+        params:
+          cmd: "(Get-Clipboard).ToLower()"
+  - trigger: "::up"
+    replace: "{{output}}"
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+      - name: output
+        type: shell
+        params:
+          cmd: "(Get-Clipboard).ToUpper()"

@@ -1,0 +1,64 @@
+# curl package
+
+name: curl
+parent: default
+
+global_vars:
+  - name: curlform
+    type: form
+    params:
+      layout: Target [[protocol]]://[[URL]]
+      fields:
+        protocol:
+          type: choice
+          values: [https, http]
+          default: https
+
+matches:
+  - trigger: ":curl:"
+    replace: "curl --request GET {{curlform.protocol}}://{{curlform.URL}}"
+
+  - trigger: ":curlget:"
+    replace: "curl --request GET {{curlform.protocol}}://{{curlform.URL}}?key=value"
+
+  - trigger: ":curlpost:"
+    replace: "curl --request POST {{curlform.protocol}}://{{curlform.URL}}"
+
+  - trigger: ":curlput:"
+    replace: "curl --request PUT {{curlform.protocol}}://{{curlform.URL}}"
+
+  - trigger: ":curldelete:"
+    replace: "curl --request DELETE {{curlform.protocol}}://{{curlform.URL}}"
+
+  - trigger: ":curlpatch:"
+    replace: "curl --request PATCH {{curlform.protocol}}://{{curlform.URL}}"
+
+  - trigger: ":curldata:"
+    replace: "curl --request POST --header 'Content-Type: multipart/form-data' --form 'key=value' {{curlform.protocol}}://{{curlform.URL}}"
+
+  - trigger: ":curlxml:"
+    replace: "curl --request POST --header 'Content-Type: application/xml' --data '<key>value</key>' {{curlform.protocol}}://{{curlform.URL}}"
+
+  - trigger: ":curljson:"
+    replace: 'curl --request POST --header ''Content-Type: application/json'' --data ''{"key":"value"}'' {{curlform.protocol}}://{{curlform.URL}}'
+
+  - trigger: ":curlheader:"
+    replace: "curl --request GET --header 'X-My-Header: 123' {{curlform.protocol}}://{{curlform.URL}}"
+
+  - trigger: ":curlcookie:"
+    replace: "curl --request GET --cookie 'key=value' {{curlform.protocol}}://{{curlform.URL}}"
+
+  - trigger: ":curlbasic:"
+    replace: "curl --request GET --user 'username:password' {{curlform.protocol}}://{{curlform.URL}}"
+
+  - trigger: ":curlbearer:"
+    replace: "curl --request GET --header 'Authorization: Bearer token' {{curlform.protocol}}://{{curlform.URL}}"
+
+  - trigger: ":curlproxy:"
+    replace: "curl --request GET --proxy http://proxy.example.com:8080 {{curlform.protocol}}://{{curlform.URL}}"
+
+  - trigger: ":curldownload:"
+    replace: "curl --request GET --output file.txt {{curlform.protocol}}://{{curlform.URL}}"
+
+  - trigger: ":curlupload:"
+    replace: "curl --request POST --form 'file=@/path/to/file' {{curlform.protocol}}://{{curlform.URL}}"
