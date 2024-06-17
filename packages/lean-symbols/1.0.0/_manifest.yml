@@ -5,6 +5,6 @@ description: >
   extension allows you to insert, using the same shortcuts. For example '\a\', '\a ', '\aTAB', 
   all insert α, i.e. the greek alpha. TAB denotes a single press of the tab key.
 
-version: 0.1.0
+version: 1.0.0
 author: Johannes C. Mayer
 tags: ["math", "symbols"]

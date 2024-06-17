@@ -1,16 +1,19 @@
 import json
 import yaml
 from pathlib import Path
+import requests
+import io
 
-# Orignial mapping can be found here https://raw.githubusercontent.com/leanprover/vscode-lean4/c7efb256743d3a5e35ffda21f09f6c32900ba69c/vscode-lean4/src/abbreviation/abbreviations.json
+# Note that this points to a specific commit. To update the mappings point to a newer commit.
+lean_mappings_url = "https://raw.githubusercontent.com/leanprover/vscode-lean4/c7efb256743d3a5e35ffda21f09f6c32900ba69c/vscode-lean4/src/abbreviation/abbreviations.json"
 
 custom_non_overriding_mapping = Path("custom_non_overriding_map.yml")
-lean_mapping_file = Path("abbreviations.json")
 output_file = Path('package.yml')
 
 
-def append_mapping(espanso_mapping : dict, new : dict):
-    for key, value in new.items():
+def make_espanso_mappings(mappings : dict):
+    espanso_mapping = {"matches": []}
+    for key, value in mappings.items():
         espanso_mapping["matches"].append(
             {
                 "triggers": [f"\\{key}\\", f"\\{key}\t"],
@@ -23,35 +26,26 @@ def append_mapping(espanso_mapping : dict, new : dict):
                 "replace": value + " "
             }
         )
-
-
-def json_to_espanso(json_file):
-    espanso_mapping = {"matches": []}
-
-    with json_file.open('r') as f:
-        mapping = json.load(f)
-
-    append_mapping(espanso_mapping, mapping)
-
     return espanso_mapping
 
 
-def inject_custom_non_overwriding_mapping(mapping):
-    mapping_to_inject = yaml.load(custom_non_overriding_mapping.open('r'), yaml.SafeLoader)
-    for k, v in mapping_to_inject.items():
-        if k in mapping:
-            raise Exception(f"The mappingping `{k}: {v}` would overwrite the default lean mapping of `{k}: {map[k]}`. Aborting")
-        append_mapping(mapping, {k: v})
-
-
-# Example usage:
 def main():
-    mapping = json_to_espanso(lean_mapping_file)
+    # Fetch the Lean mappings
+    response = requests.get(lean_mappings_url)
+    with io.StringIO(response.text) as tmp_lean_mapping_file:
+        lean_mappings = json.load(tmp_lean_mapping_file)
 
-    inject_custom_non_overwriding_mapping(mapping)
+    # Add the custom mapppings
+    custom_mappings = yaml.load(custom_non_overriding_mapping.open('r'), yaml.SafeLoader)
+    for k, v in custom_mappings.items():
+        if k in lean_mappings:
+            raise Exception(f"The mappingping `{k}: {v}` would overwrite the default lean mapping of `{k}: {lean_mappings[k]}`. Aborting!")
+        lean_mappings[k] = v
 
+    # Create the espanso mappings
+    espanso_mappings = make_espanso_mappings(lean_mappings)
     with output_file.open('w', encoding='utf-8') as out_file:
-        yaml.dump(mapping, out_file, sort_keys=False, allow_unicode=True)
+        yaml.dump(espanso_mappings, out_file, sort_keys=False, allow_unicode=True)
 
 
 if __name__ == "__main__":
