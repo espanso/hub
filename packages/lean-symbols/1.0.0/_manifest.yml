@@ -1,6 +1,10 @@
 name: "lean-symbols"
-title: "Insert unicode math symbols available in Lean with Espanso"
-description: Insert Lean Symbols with espanso
+title: "Unicode Math Lean Symbols"
+description: >
+  Insert symbols like ∑ Π α → ↦  Γ etc, the same set of symbols as the VScode lean4 
+  extension allows you to insert, using the same shortcuts. For example '\a\', '\a ', '\aTAB', 
+  all insert α, i.e. the greek alpha. TAB denotes a single press of the tab key.
+
 version: 0.1.0
 author: Johannes C. Mayer
 tags: ["math", "symbols"]
