@@ -1,5 +1,6 @@
-name: "espanso-lean-symbols"
-title: "Espanso Lean Symbols"
+name: "lean-symbols"
+title: "Insert unicode math symbols available in Lean with Espanso"
 description: Insert Lean Symbols with espanso
 version: 0.1.0
 author: Johannes C. Mayer
+tags: ["math", "symbols"]
