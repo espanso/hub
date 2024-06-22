@@ -1,0 +1,60 @@
+matches:
+  - trigger: ":pymain"
+    replace: |
+              def main() -> None:
+                  $|$
+              
+              if __name__ == "__main__":
+                  main()
+  - trigger: ":pycls"
+    replace: |
+              class $|$:
+                  def __init__(self) -> None:
+                      
+
+                  def method_1(self) -> None:
+                      
+  - trigger: ":pydef"
+    replace: |
+              def $|$():
+                  
+                  return
+  - trigger: ":pymatch"
+    replace: |
+              match $|$:
+                  case :
+                      
+                  case _:
+                      
+  - trigger: ":pytry"
+    replace: |
+              try:
+                  
+              except $|$ as e:
+                  
+  - trigger: ":pyboiler:args"
+    replace: |
+              import argparse
+              
+              def main(args: argparse.Namespace) -> None:
+                  
+              if __name__ == "__main__":
+                  parser = argparse.ArgumentParser()
+                  
+                  parser.add_argument("$|$")
+                  
+                  args = parser.parse_args()
+                  main(args)
+  - trigger: ":pyboiler:log"
+    replace: |
+              import logging
+
+              logger = logging.getLogger(__name__)
+              
+              def main() -> None:
+                  logger.debug("Logger working")
+
+              if __name__ == "__main__":
+                  logging.basicConfig(level=logging.DEBUG, format="%(levelname)s %(asctime)s: %(message)s")
+                  
+                  main()
