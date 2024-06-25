@@ -1,0 +1,6 @@
+name: 'flutter-snippets'
+title: 'Flutter snippets'
+description: A package for flutter code snippets
+version: 0.1.0
+author: rishi
+tags: ["development", "flutter", "code"]
