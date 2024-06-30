@@ -8,7 +8,7 @@ Basic calculation package for espanso that works in macOS.
 ## Usage
 1. Type `:calc`
 2. You'll see a form, type the calculation
-  <img width="185" alt="image" src="https://user-images.githubusercontent.com/23709916/175305102-2453d39b-b7d8-45f2-8a42-9286a2ab2d25.png">
+  <img width="185" alt="image" src="https://user-images.githubusercontent.com/23709916/175305102-2453d39b-b7d8-45f2-8a42-9286a2ab2d25.png"></img>
   3. The text will be replaced with the result
 
 ## Commands
