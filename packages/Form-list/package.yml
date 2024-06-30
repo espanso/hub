@@ -1,0 +1,32 @@
+# uses form_urls.csv to paste the link to the corresponding URL.
+
+global_vars:
+  - name: "urlcsv"
+    type: echo
+    params:
+      echo: |
+              "$CONFIG/match/packages/Form-list/form_urls.csv"
+matches:
+  - trigger: ":forms"
+    replace: "{{form_url}}"
+    vars:
+      - name: form_url
+        type: shell
+        params:
+          cmd: |
+                echo "$(awk -F"," -v u=$ESPANSO_FORM1_CHOICES '$1~/u/{print $2}' {{urlcsv}})"
+      - name: form_names
+        type: shell
+        params:
+          cmd: |
+                echo "$(awk -F"," '{print $1}' {{urlcsv}})"
+      - name: form1
+        type: form
+        params:
+          layout: |
+                    get link to D65 form:
+                    [[choices]]
+          fields:
+            choices:
+              type: list
+              values: "{{form_names}}"
