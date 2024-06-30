@@ -1,0 +1,32 @@
+# Calculator
+
+name: calc-macos
+parent: default
+
+matches:
+  # Calculator
+  - trigger: ":calc"
+    replace: "{{solved}}"
+    vars:
+      - name: "input"
+        type: "form"
+        params: 
+          layout: |
+            [[val]]
+      - name: "solved"
+        type: shell
+        params: 
+          cmd: "echo '{{input.val}}' | bc"
+  # Calculator w/ input
+  - trigger: ":ecalc"
+    replace: "{{input.val}} = {{solved}}"
+    vars:
+      - name: "input"
+        type: "form"
+        params: 
+          layout: |
+            [[val]]
+      - name: "solved"
+        type: shell
+        params: 
+          cmd: "echo '{{input.val}}' | bc"
