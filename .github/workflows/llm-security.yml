@@ -1,0 +1,60 @@
+name: OpenAI Code Review
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  openai_review:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+      with:
+        ref: ${{ github.event.pull_request.head.sha }}
+
+    - name: Get changed package files
+      id: changed-files
+      uses: tj-actions/changed-files@v2
+      with:
+        files: |
+          **/package.yml
+          **/package.yaml
+
+    - name: Send code to OpenAI API
+      env:
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      run: |
+        # Read the prompt template from a file
+        prompt_template=$(cat .github/llm-security-prompt-template.md)
+
+        # Initialize the code changes variable
+        code_changes=""
+
+        # Iterate over the changed package files and append them to code_changes
+        for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+          code=$(cat $file)
+          code_changes+="$file:\n\`\`\`yaml\n$code\n\`\`\`\n\n"
+        done
+
+        # Check if any package files were changed
+        if [ -z "$code_changes" ]; then
+          echo "No package files were changed. Skipping LLM code review."
+          exit 0
+        fi
+
+        # Replace the placeholder in the prompt template with the code changes
+        prompt=$(echo "$prompt_template" | sed "s/{{code_changes}}/$code_changes/g")
+
+        response=$(curl -s https://api.openai.com/v1/chat/completions \
+          -H "Content-Type: application/json" \
+          -H "Authorization: Bearer $OPENAI_API_KEY" \
+          -d '{
+            "model": "gpt-3.5-turbo",
+            "messages": [{"role": "user", "content": "'"$prompt"'"}],
+            "temperature": 0.7
+          }' | jq -r '.choices[0].message.content')
+
+        echo "OpenAI Response:"
+        echo "$response"
