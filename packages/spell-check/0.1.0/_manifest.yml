@@ -1,0 +1,6 @@
+name: "spell-check"
+title: "English Spell Checker"
+description: Replaces many common typos in english with the correct versions.
+version: 0.1.0
+author: DevGuyRash
+tags: ["Languages", "Chat", "Typofixer", "Spell-Correction", "Writing", "Replacement", "Typofixer-en"]
