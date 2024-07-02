@@ -1,0 +1,16 @@
+matches:
+
+  - triggers: ['$colors$']
+    replace: "color:  {{CSS.color_name}}"
+    vars:
+      - name: "CSS"
+        type: form
+        params:
+          layout: "color_name: [[color_name]]" 
+          fields:
+            color_name:
+              type: list
+              values:
+              - darkred
+              - limegreen
+              - royalblue
