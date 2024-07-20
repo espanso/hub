@@ -1,0 +1,7 @@
+name: "bib-generator"
+title: "Bib Generator"
+homepage: https://github.com/Xeophon/hub/tree/main/packages/bib-generator
+description: Generate a BibTex entry by searching through DBLP
+version: 1.0.0
+author: Xeophon
+tags: ["bib", "academia", "research"]
