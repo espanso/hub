@@ -1,0 +1,5 @@
+name: "surrounds"
+title: "Surrounds for text strings"
+description: Copy text and then use these expansions to surround the text with various punctuation.
+version: 0.2.0
+author: Ben Alexander (mistahben)
