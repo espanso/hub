@@ -1,0 +1,235 @@
+# OASIS-IS ChatGPT framework Form.  OASIS-IS stands for : O-bjective, A-rchtype, -S-etting, I-llustrations, S-tyle, - , I-nterpretation, S-pecification.
+# After those steps are Evalute - How good was the response, give your chatbot feedback, and then Banter - Continue the conversation.  
+# Paid ChatGPT users can use the current list of models avaialble while unpaid can use the default model.
+# The frameworks spreadsheet can be found here: http://3dmkf.com/pace-oasis
+# This first one, is meant to generate a prompt.  Run :oasis from a URL in a web broser, fill out the form and submit it, then press enter.  It wiss pass the prompt to ChatGPT.  
+
+matches:  
+- trigger: :oasis
+  replace: "https://chatgpt.com/chat?q=You will use the OASIS IS model to start a convesation.\n1) Objective: What do you wish to accomplish?\n2)Archetype: Persona, identity, character, or profile.  This can be generic like a manager with 20 years workplace mediation experience, or specific like Batman, Mark Twain, or Jack Sparrow.\n3) Setting: Context or background information.\n4) Illustrations: These are your examples. This is Optional.\n4) Illustrations: These are your examples.\n5) Style: The tone, mood, or voice.  Examples: comedic, formal, casual, business casual./n6)Interpretation: Output Framework or Structure.\n7)Specification: This is the output style, format, or how the output should look like.  Examples: Table, List, Paragraph, Code Block, etc.\n\n
+  1) What I want you to accomplish: {{oasisform.objective}}\n
+  2) Using this persona: {{oasisform.archtype}}\n
+  3) Here is addional Context: {{oasisform.setting}}\n
+  4) Here are Examples: {{oasisform.illustrations}}\n
+  5) Tone/Mode/Voice: {{oasisform.style}}\n
+  6) I want the output to follow this ouput framework: {{oasisform.interpretation}}\n
+  7) Output should look like: {{oasisform.specification}}\n
+  &model={{oasisform.model}}"
+  vars: 
+    - name: "oasisform"
+      type: form
+      params:
+        layout: "You will need to fill out the following 7 fields. The more you fill out the better the prompt will be.  Except for Objective, they are all optional.\n 
+          1) Objective: 	What do you want to accomplish:\n
+          [[objective]]\n
+          2) Archetype: 	Persona, identity, character, or profile.  This can be generic like a manager with 20 years workplace mediation experience, or specific like Batman, Mark Twain, or Jack Sparrow:\n
+          [[archtype]]\n
+          3) Setting: 	Context or background information:\n
+          [[setting]]\n
+          4) Illustrations: 	These are your examples:\n
+          [[illustrations]]\n
+          5) Style:   The tone, mood, or voice.  Examples: comedic, formal, casual, business casual:\n
+          [[style]]\n
+          6) Interpretation:    Output Framework or Structure: [[interpretation]]\n
+          7) Specification:   This is the output style, format, or how the output should look like.  Examples: Table, List, Paragraph, Code Block, etc:\n
+          [[specification]]\n
+          Model: [[model]]"
+        fields: 
+          objective:
+            multiline: true
+          archtype:
+          setting:
+            multiline: true
+          illustrations:
+            multiline: true
+          style:
+          interpretation: 
+            type: choice
+            default: No Framework
+            values:
+            - No Framework
+            - 4Ps (Product, Price, Place, Promotion)
+            - 5 Rights of Nursing Delegation
+            - 5 Whys
+            - 5Ws (Who, What, Where, When, Why) & 1H (How)
+            - ACE (Attention, Connection, Engagement)
+            - Agile Framework
+            - AIDA (Attention, Interest, Desire, Action)
+            - Ansoff Matrix
+            - Balanced Scorecard
+            - Blue Ocean Strategy
+            - Business Model Canvas
+            - C.A.R.L. method - Context, Action, Results, Learning
+            - Claim-Evidence-Reasoning Framework (CER)
+            - Dan Harmon's Story Circle
+            - DMAIC (Define, Measure, Analyze, Improve, Control)
+            - Eisenhower Box (Urgent-Important Matrix)
+            - Executive Summaries
+            - Fishbone Diagram (Ishikawa Diagram)
+            - Five Paragraph Order Planning and Execution
+            - Freytag's Pyramid / 5 - point Story Structure
+            - GAP Analysis
+            - HERO (Hook, Empathy, Response, Offer)
+            - Inverted Pyramid
+            - Kano Model
+            - Literary Story Format - Narrative Structure
+            - Monroe's Motivated Sequence
+            - MoSCoW Method
+            - MOST (Mission, Objectives, Strategies, Tactics)
+            - OKR (Objectives and Key Results)
+            - PAPA (Problem, Agitation, Persuasion, Action)
+            - Pareto Analysis (80/20 Rule)
+            - PASO (Problem, Agitation, Solution, Outcome)
+            - PDCA (Plan, Do, Check, Act)
+            - PEEC(Point, Evidence, Explanation, Conclusion)
+            - PESTLE Analysis (Political, Economic, Social, Technological, Legal and Environmental)
+            - Porter's Five Forces
+            - QUEST (Qualify, Understand, Educate, Stimulate, Transition)
+            - R.C.S. method - Rephrase, Clarify, and Structure
+            - RACI (Responsible, Accountable, Consulted, Informed)
+            - Return on Invested Capital (ROIC) analysis
+            - S.T.A.R. method - Situation, Task, Action, Results
+            - Save The Cat Beat Sheet
+            - Six Sigma
+            - Six Thinking Hats
+            - SLAP (Situation, Language, Action, Purpose)
+            - SMART (Specific, Measurable, Achievable, Relevant, Time-bound)
+            - SOAR Analysis
+            - SWOT Analysis
+            - The 10-20-30 Rule
+            - The 22 Rules of Storytelling According to Pixar
+            - The 8 Sequences Method
+            - The Fichtean Curve
+            - The Hero's Journey (Monomyth)
+            - The Hourglass Format
+            - The Lead-Quote-Commentary (LQC) Format
+            - The Narrative Structure in Business and Marketing
+            - The Novel Roadmap
+            - The Seven-Point Story Structure
+            - The Snowflake Method
+            - The Wall Street Journal Formula
+            - Theory of Constraints
+            - Three-Act Structure
+            - Three-Part Presentation Structure
+            - Todorov's Narrative Theory
+            - TOWS Matrix
+            - USP (Unique Selling Proposition)
+            - Value Chain Analysis
+            - Value Net Analysis
+            - Value Proposition Canvas
+            - VRIO A
+            - Waterfall Model
+          specification:
+          model:
+            type: choice
+            default: gpt-4o
+            values:
+              - gpt-4o
+              - gpt-4o-mini
+              - gpt-4
+
+# As the form above, this is meant to create a prompt using the OASIS-IS model.  This is meant to be used in the prompt field of the Chatbot form.  Unlike the one above, this one will work for any model.
+# poasis is short for prompt-oasis.  
+
+- trigger: :poasis
+  form: |
+        You will need to fill out the following 7 fields. The more you fill out the better the prompt will be.  Except for Objective, they are all optional.  
+        1) Objective: 	What do you want to accomplish:
+        [[objective]]
+        2) Archetype: 	Persona, identity, character, or profile.  This can be generic like a manager with 20 years workplace mediation experience, or specific like Batman, Mark Twain, or Jack Sparrow:
+        [[archtype]]
+        3) Setting: 	Context or background information:
+        [[setting]]
+        4) Illustrations: 	These are your examples:
+        [[illustrations]]
+        5) Style:   The tone, mood, or voice.  Examples: comedic, formal, casual, business casual:
+        [[style]]
+        6) Interpretation:    Output Framework or Structure: [[interpretation]]
+        7) Specification:   This is the output style, format, or how the output should look like.  Examples: Table, List, Paragraph, Code Block, etc:
+        [[specification]]
+  form_fields: 
+    objective:
+      multiline: true
+    archtype:
+    setting:
+      multiline: true
+    illustrations:
+      multiline: true
+    style:
+    interpretation: 
+      type: choice
+      default: No Framework
+      values:
+        - No Framework
+        - 4Ps (Product, Price, Place, Promotion)
+        - 5 Rights of Nursing Delegation
+        - 5 Whys
+        - 5Ws (Who, What, Where, When, Why) & 1H (How)
+        - ACE (Attention, Connection, Engagement)
+        - Agile Framework
+        - AIDA (Attention, Interest, Desire, Action)
+        - Ansoff Matrix
+        - Balanced Scorecard
+        - Blue Ocean Strategy
+        - Business Model Canvas
+        - C.A.R.L. method - Context, Action, Results, Learning
+        - Claim-Evidence-Reasoning Framework (CER)
+        - Dan Harmon's Story Circle
+        - DMAIC (Define, Measure, Analyze, Improve, Control)
+        - Eisenhower Box (Urgent-Important Matrix)
+        - Executive Summaries
+        - Fishbone Diagram (Ishikawa Diagram)
+        - Five Paragraph Order Planning and Execution
+        - Freytag's Pyramid / 5 - point Story Structure
+        - GAP Analysis
+        - HERO (Hook, Empathy, Response, Offer)
+        - Inverted Pyramid
+        - Kano Model
+        - Literary Story Format - Narrative Structure
+        - Monroe's Motivated Sequence
+        - MoSCoW Method
+        - MOST (Mission, Objectives, Strategies, Tactics)
+        - OKR (Objectives and Key Results)
+        - PAPA (Problem, Agitation, Persuasion, Action)
+        - Pareto Analysis (80/20 Rule)
+        - PASO (Problem, Agitation, Solution, Outcome)
+        - PDCA (Plan, Do, Check, Act)
+        - PEEC(Point, Evidence, Explanation, Conclusion)
+        - PESTLE Analysis (Political, Economic, Social, Technological, Legal and Environmental)
+        - Porter's Five Forces
+        - QUEST (Qualify, Understand, Educate, Stimulate, Transition)
+        - R.C.S. method - Rephrase, Clarify, and Structure
+        - RACI (Responsible, Accountable, Consulted, Informed)
+        - Return on Invested Capital (ROIC) analysis
+        - S.T.A.R. method - Situation, Task, Action, Results
+        - Save The Cat Beat Sheet
+        - Six Sigma
+        - Six Thinking Hats
+        - SLAP (Situation, Language, Action, Purpose)
+        - SMART (Specific, Measurable, Achievable, Relevant, Time-bound)
+        - SOAR Analysis
+        - SWOT Analysis
+        - The 10-20-30 Rule
+        - The 22 Rules of Storytelling According to Pixar
+        - The 8 Sequences Method
+        - The Fichtean Curve
+        - The Hero's Journey (Monomyth)
+        - The Hourglass Format
+        - The Lead-Quote-Commentary (LQC) Format
+        - The Narrative Structure in Business and Marketing
+        - The Novel Roadmap
+        - The Seven-Point Story Structure
+        - The Snowflake Method
+        - The Wall Street Journal Formula
+        - Theory of Constraints
+        - Three-Act Structure
+        - Three-Part Presentation Structure
+        - Todorov's Narrative Theory
+        - TOWS Matrix
+        - USP (Unique Selling Proposition)
+        - Value Chain Analysis
+        - Value Net Analysis
+        - Value Proposition Canvas
+        - VRIO Analysis
+        - Waterfall Model
+    specification:
