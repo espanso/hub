@@ -1,7 +1,7 @@
 name: oasis-is-framework
 title: OASIS-IS GenAI Framework
 description: OASIS-IS Generative AI mega-prompt framework
-version: 0.1.0
+version: 0.1.1
 author: Rifter
 tags: ["GenAI", "ChatGPT", "AI"]
-homepage: "https://github.com/Ryfter/"
+homepage: "https://github.com/Ryfter/oasis-is-framework/"
