@@ -101,5 +101,5 @@ matches:
 
   # Discord Masked Link
 - trigger: ":dli"
-  replace: "[$|$]($|)"
+  replace: "[$|$](url)"
 
