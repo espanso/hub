@@ -8,9 +8,9 @@ Improve your Discord experience using this snippets triggers.
 | --------------- | ---------------------------------------- | --------------------- |
 | :dita           | \_$\|$\_                                 | Italic                |
 | :dbo            | \*\*$\|$\*\*                             | Bold                  |
-| :dun            | \_\_\*$\|$\*\_\_                         | Underline             |
+| :dun            | \_\_$\|$\_\_                             | Underline             |
 | :ditb           | \*\*\*$\|$\*\*\*                         | Bold Italic           |
-| :duit           | \_\_$\|$\_\_                             | Underline Italic      |
+| :duit           | \_\_\*$\|$\*\_\_                         | Underline Italic      |
 | :dubo           | \_\_\*\*$\|$\*\*\_\_                     | Underline Bold        |
 | :dubi           | \_\_\*\*\*$\|$\*\*\*\_\_                 | Underline Bold Italic |
 | :dst            | \~\~$\|$\~\~                             | Strikethrough         |

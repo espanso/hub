@@ -24,7 +24,7 @@ matches:
 
   # Discord Underline
 - trigger: ":dun"
-  replace: "__*$|$*__"
+  replace: "__$|$__"
 
   # Discord Bold Italic
 - trigger: ":ditb"
@@ -32,7 +32,7 @@ matches:
 
   # Discord Underline Italic
 - trigger: ":duit"
-  replace: "__$|$__"
+  replace: "__*$|$*__"
 
   # Discord Underline Bold
 - trigger: ":dubo"
