@@ -68,7 +68,7 @@ matches:
   replace: "`$|$`"
 
   # Discord Multi line Code Block
-- trigger: ":dmcob"
+- trigger: ":dmco"
   replace: "```$|$```"
 
   # Discord Spoiler
