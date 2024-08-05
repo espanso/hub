@@ -89,15 +89,15 @@ matches:
 
   # Discord Mention
 - trigger: ":dme"
-  replace: "<@$|$>"
+  replace: "@$|$"
 
   # Discord Channel Mention
 - trigger: ":dch"
-  replace: "<#$|$>"
+  replace: "#$|$"
 
   # Discord Role Mention
 - trigger: ":dro"
-  replace: "<@&$|$>"
+  replace: "@&$|$"
 
   # Discord Masked Link
 - trigger: ":dli"
