@@ -23,7 +23,7 @@ Improve your Discord experience using this snippets triggers.
 | Trigger         | Command                                  | Name           |
 | --------------- | ---------------------------------------- | -------------- |
 | :dco            | \`$\|$\`                                 | Code Block     |
-| :dmcob          | \`\`\`$\|$\`\`\`                         | Multi line Code|
+| :dmco           | \`\`\`$\|$\`\`\`                         | Multi line Code|
 | :dsp            | \|\|$\|$\|\|                             | Spoiler        |
 | :dqu            | > $\|$                                   | Quote          |
 | :dbq            | >>> $\|$                                 | Block Quote    |
