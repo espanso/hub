@@ -101,5 +101,10 @@ matches:
 
   # Discord Masked Link
 - trigger: ":dli"
-  replace: "[$|$](url)"
+  replace: "[$|$]({{clipboard_content}})"
+  vars:
+    - name: clipboard_content
+      type: shell
+      params:
+        cmd: "powershell -command Get-Clipboard" # or "pbpaste" on macOS or "xclip -o" on Linux
 
