@@ -1,3 +1,105 @@
+# espanso configuration file
+
+# This is the default configuration file, change it as you like it
+# You can refer to the official documentation:
+# https://espanso.org/docs/
+
+# Matches are the substitution rules, when you type the "trigger" string
+# it gets replaced by the "replace" string.
+name: discord-snippet
+parent: default
+
 matches:
-  - trigger: ":hello"
-    replace: "github"
+  ### ----------------
+  ### Text Formatting
+  ### ----------------
+
+  # Discord Italic
+- trigger: ":dita"
+  replace: "_$|$_"
+
+  # Discord Bold
+- trigger: ":dbo"
+  replace: "**$|$**"
+
+  # Discord Underline
+- trigger: ":dun"
+  replace: "__*$|$*__"
+
+  # Discord Bold Italic
+- trigger: ":ditb"
+  replace: "***$|$***"
+
+  # Discord Underline Italic
+- trigger: ":duit"
+  replace: "__$|$__"
+
+  # Discord Underline Bold
+- trigger: ":dubo"
+  replace: "__**$|$**__"
+
+  # Discord Underline Bold Italic
+- trigger: ":dubi"
+  replace: "__***$|$***__"
+
+  # Discord Strikethrough
+- trigger: ":dst"
+  replace: "~~$|$~~"
+
+   # Discord Header 1
+- trigger: ":dh1"
+  replace: "# $|$"
+
+  # Discord Header 2
+- trigger: ":dh2"
+  replace: "## $|$"
+
+  # Discord Header 3
+- trigger: ":dh3"
+  replace: "### $|$"
+
+
+  ### ----------------
+  ### Text Blocks
+  ### ----------------
+
+  # Discord Code block
+- trigger: ":dco"
+  replace: "`$|$`"
+
+  # Discord Multi line Code Block
+- trigger: ":dmcob"
+  replace: "```$|$```"
+
+  # Discord Spoiler
+- trigger: ":dsp"
+  replace: "||$|$||"
+
+  # Discord Quote
+- trigger: ":dqu"
+  replace: "> $|$"
+
+  # Discord Block Quote
+- trigger: ":dbq"
+  replace: ">>> $|$"
+
+  ### ----------------
+  ### Links and Mentions
+  ### ----------------
+
+  # Discord Mention
+- trigger: ":dme"
+  replace: "<@$|$>"
+
+  # Discord Channel Mention
+- trigger: ":dch"
+  replace: "<#$|$>"
+
+  # Discord Role Mention
+- trigger: ":dro"
+  replace: "<@&$|$>"
+
+  # Discord Masked Link
+- trigger: ":dli"
+  replace: "[$|$]($|)"
+
