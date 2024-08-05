@@ -34,7 +34,7 @@ Improve your Discord experience using this snippets triggers.
 | --------------- | ---------------------------------------- | --------------  |
 | :dme            | <@$\|$>                                  | Mention         |
 | :dch            | <#$\|$>                                  | Channel Mention |
-| :dro            | <@&\$|$>                                 | Role Mention    |
+| :dro            | <@&$\|$>                                 | Role Mention    |
 | :dli            | \[\$\|$\]\($\|$\)                        | Masked Link     |
 
 <br>
