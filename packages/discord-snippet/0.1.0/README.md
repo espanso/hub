@@ -1,0 +1,1 @@
+A Collection of Snippets for Discord
