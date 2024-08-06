@@ -67,12 +67,9 @@ matches:
   - trigger: ":dco"
     replace: "`$|$`"
 
-  # Discord Multi line Code Block
+    # Discord Multi line Code Block
   - trigger: ":dmco"
-    replace:  |
-      ```
-      $|$
-      ```
+    replace: "```\n $|$ \n```"
 
   # Discord Spoiler
   - trigger: ":dsp"
