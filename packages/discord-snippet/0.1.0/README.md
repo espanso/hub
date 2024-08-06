@@ -1,8 +1,8 @@
-# Espanso GIT
+# Espanso Discord Markdown Snippets
 
 Improve your Discord experience using this snippets triggers.
 
-## Triggers
+## Text Formatting
 
 | Trigger         | Command                                  | Name                  |
 | --------------- | ---------------------------------------- | --------------------- |

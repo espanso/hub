@@ -69,7 +69,10 @@ matches:
 
   # Discord Multi line Code Block
   - trigger: ":dmco"
-    replace: "```$|$```"
+    replace:  |
+      ```
+      $|$
+      ```
 
   # Discord Spoiler
   - trigger: ":dsp"
