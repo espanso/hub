@@ -1,7 +1,0 @@
-name: "discord-snippet"
-title: "Discord Snippets"
-description: A Collection of snippets for Discord Markdown
-version: 0.1.0
-author: Nathanel Moulin
-homepage: https://github.com/NathanelM/discord-snippet/tree/main
-tags: ["utility", "discord", "markdown"]
