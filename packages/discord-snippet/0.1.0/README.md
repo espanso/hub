@@ -36,5 +36,3 @@ Improve your Discord experience using this snippets triggers.
 | :dch            | <#$\|$>                                  | Channel Mention |
 | :dro            | <@&$\|$>                                 | Role Mention    |
 | :dli            | \[\$\|$\](Clipboard)                     | Masked Link     |
-
-<br>
