@@ -36,7 +36,7 @@ global_vars:
     type: echo
     params:
       echo: "You will need to fill out the following 7 fields. The more you fill out the better the prompt will be.  Except for Objective, they are all optional.\n
-      CONVERSATION TITLE: Name your Chat (This can help you find it later, it does not name it on the left)[[title]]\n
+        CONVERSATION TITLE: Name your Chat (This can help you find it later, it does not name it on the left)[[title]]\n
         1) Objective: 	What do you want to accomplish:\n
         [[objective]]\n
         2) Archetype: 	Persona, identity, character, or profile.  This can be generic like a manager with 20 years workplace mediation experience, or specific like Batman, Mark Twain, or Jack Sparrow:\n
