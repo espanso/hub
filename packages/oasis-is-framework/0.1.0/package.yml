@@ -1,36 +1,35 @@
 # yaml-language-server: https://github.com/espanso/espanso/blob/dev/schemas/match.schema.json
 
-
-# OASIS-IS ChatGPT framework Form.  OASIS-IS stands for : O-bjective, A-rchtype, -S-etting, I-llustrations, S-tyle, - , I-nterpretation, S-pecification.
-# After those steps are Evalute - How good was the response, give your chatbot feedback, and then Banter - Continue the conversation.  
-# Paid ChatGPT users can use the current list of models avaialble while unpaid can use the default model.
+# OASIS-IS ChatGPT framework Form.  OASIS-IS stands for : O-bjective, A-rchetype, -S-etting, I-llustrations, S-tyle, - , I-nterpretation, S-pecification.
+# After those steps you move to Evaluate - How good was the response, give your chatbot feedback, and then Banter - Continue the conversation.  
+# Paid ChatGPT users can use the current list of models available while unpaid can use the default model.
 # The frameworks spreadsheet can be found here: http://3dmkf.com/pace-oasis
-# This first one, is meant to generate a prompt.  Run :oasis from a URL in a web browser, fill out the form and submit it, then press enter.  It wiss pass the prompt to Chat
+# This first one, is meant to generate a prompt.  Run :oasis from a URL in a web browser, fill out the form and submit it, then press enter.  It will pass the prompt to Chat
 global_vars:
   - name: urlprompt
     type: echo
     params:
-      echo: "Title: {{oasisform.title}}%0AYou will use the OASIS IS model to start a conversation.%0A1) Objective: What do you wish to accomplish?%0A2)Archetype: Persona, identity, character, or profile.  This can be generic like a manager with 20 years workplace mediation experience, or specific like Batman, Mark Twain, or Jack Sparrow.%0A3) Setting: Context or background information.%0A4) Illustrations: These are your examples. This is Optional.%0A4) Illustrations: These are your examples.%0A5) Style: The tone, mood, or voice.  Examples: comedic, formal, casual, business casual.%0A6)Interpretation: Output Framework or Structure.%0A7) Specification: This is the output style, format, or how the output should look like.  Examples: Table, List, Paragraph, Code Block, etc.%0A%0A
+      echo: "Title: {{oasisform.title}}%0AYou will use the OASIS IS model to start a conversation.%0A1) Objective: What do you wish to accomplish?%0A2) Archetype: Persona, identity, character, or profile.  This can be generic like a manager with 20 years workplace mediation experience, or specific like Batman, Mark Twain, or Jack Sparrow.%0A3) Setting: Context or background information.%0A4) Illustrations: These are your examples. This is Optional.%0A5) Style: The tone, mood, or voice.  Examples: comedic, formal, casual, business casual.%0A6) Interpretation: Output Framework or Structure.%0A7) Specification: This is the output style, format, or how the output should look like.  Examples: Table, List, Paragraph, Code Block, etc.%0A%0A
         Title: {{oasisform.title}} / Model: {{oasisform.model}}%0A
         1) What I want you to accomplish: {{oasisform.objective}}%0A
-        2) Using this persona: {{oasisform.archtype}}%0A
-        3) Here is addional Context: {{oasisform.setting}}%0A
+        2) Using this persona: {{oasisform.archetype}}%0A
+        3) Here is additional Context: {{oasisform.setting}}%0A
         4) Here are Examples: {{oasisform.illustrations}}%0A
         5) Tone/Mode/Voice: {{oasisform.style}}%0A
-        6) I want the output to follow this ouput framework: {{oasisform.interpretation}}%0A
+        6) I want the output to follow this output framework: {{oasisform.interpretation}}%0A
         7) Output should look like: {{oasisform.specification}}%0A
         &model={{oasisform.model}}"
   - name: boxprompt
     type: echo
     params:
-      echo: "Title: {{oasisform.title}}\nYou will use the OASIS IS model to start a conversation.\n1) Objective: What do you wish to accomplish?\n2)Archetype: Persona, identity, character, or profile.  This can be generic like a manager with 20 years workplace mediation experience, or specific like Batman, Mark Twain, or Jack Sparrow.\n3) Setting: Context or background information.\n4) Illustrations: These are your examples. This is Optional.\n4) Illustrations: These are your examples.\n5) Style: The tone, mood, or voice.  Examples: comedic, formal, casual, business casual.\n6)Interpretation: Output Framework or Structure.\n7) Specification: This is the output style, format, or how the output should look like.  Examples: Table, List, Paragraph, Code Block, etc.\n\n
+      echo: "Title: {{oasisform.title}}\nYou will use the OASIS IS model to start a conversation.\n1) Objective: What do you wish to accomplish?\n2)Archetype: Persona, identity, character, or profile.  This can be generic like a manager with 20 years workplace mediation experience, or specific like Batman, Mark Twain, or Jack Sparrow.\n3) Setting: Context or background information.\n4) Illustrations: These are your examples. This is Optional.\n5) Style: The tone, mood, or voice.  Examples: comedic, formal, casual, business casual.\n6) Interpretation: Output Framework or Structure.\n7) Specification: This is the output style, format, or how the output should look like.  Examples: Table, List, Paragraph, Code Block, etc.\n\n
         Title: {{oasisform.title}}\n
         1) What I want you to accomplish: {{oasisform.objective}}\n
-        2) Using this persona: {{oasisform.archtype}}\n
-        3) Here is addional Context: {{oasisform.setting}}\n
+        2) Using this persona: {{oasisform.archetype}}\n
+        3) Here is additional Context: {{oasisform.setting}}\n
         4) Here are Examples: {{oasisform.illustrations}}\n
         5) Tone/Mode/Voice: {{oasisform.style}}\n
-        6) I want the output to follow this ouput framework: {{oasisform.interpretation}}\n
+        6) I want the output to follow this output framework: {{oasisform.interpretation}}\n
         7) Output should look like: {{oasisform.specification}}\n"
   - name: formo1
     type: echo
@@ -40,7 +39,7 @@ global_vars:
         1) Objective: 	What do you want to accomplish:\n
         [[objective]]\n
         2) Archetype: 	Persona, identity, character, or profile.  This can be generic like a manager with 20 years workplace mediation experience, or specific like Batman, Mark Twain, or Jack Sparrow:\n
-        [[archtype]]\n
+        [[archetype]]\n
         3) Setting: 	Context or background information:\n
         [[setting]]\n
         4) Illustrations: 	These are your examples:\n
@@ -58,7 +57,7 @@ anchors:
       multiline: false
       objective:
         multiline: true
-      archtype:
+      archetype:
       setting:
         multiline: true
       illustrations:
@@ -102,13 +101,13 @@ anchors:
           - Pareto Analysis (80/20 Rule)
           - PASO (Problem, Agitation, Solution, Outcome)
           - PDCA (Plan, Do, Check, Act)
-          - PEEC(Point, Evidence, Explanation, Conclusion)
+          - PEEC (Point, Evidence, Explanation, Conclusion)
           - PESTLE Analysis (Political, Economic, Social, Technological, Legal and Environmental)
           - Porter's Five Forces
           - QUEST (Qualify, Understand, Educate, Stimulate, Transition)
           - R.C.S. method - Rephrase, Clarify, and Structure
           - RACI (Responsible, Accountable, Consulted, Informed)
-          - Return on Invested Capital (ROIC) analysis
+          - ROIC (Return on Invested Capital) analysis
           - S.T.A.R. method - Situation, Task, Action, Results
           - Save The Cat Beat Sheet
           - Six Sigma
@@ -138,7 +137,7 @@ anchors:
           - Value Chain Analysis
           - Value Net Analysis
           - Value Proposition Canvas
-          - VRIO Analysis
+          - VRIO (Value, Rarity, Imitability, and Organization) Analysis
           - Waterfall Model
       specification:
       model:
