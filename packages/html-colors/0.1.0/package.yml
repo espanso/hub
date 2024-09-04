@@ -1,841 +1,1261 @@
 matches:
-  - replace: "#CD5C5C"
-    trigger: "::indianred"
-  - replace: "205, 92, 92"
-    trigger: "::rgb-indianred"
-  - replace: "red, brown"
-    trigger: "::families-indianred"
-  - replace: "#F08080"
-    trigger: "::lightcoral"
-  - replace: "240, 128, 128"
-    trigger: "::rgb-lightcoral"
-  - replace: "red, pink, coral, light"
-    trigger: "::families-lightcoral"
-  - replace: "#FA8072"
-    trigger: "::salmon"
-  - replace: "250, 128, 114"
-    trigger: "::rgb-salmon"
-  - replace: "red, pink, orange, salmon"
-    trigger: "::families-salmon"
-  - replace: "#E9967A"
-    trigger: "::darksalmon"
-  - replace: "233, 150, 122"
-    trigger: "::rgb-darksalmon"
-  - replace: "red, pink, orange, salmon, dark"
-    trigger: "::families-darksalmon"
-  - replace: "#FFA07A"
-    trigger: "::lightsalmon"
-  - replace: "255, 160, 122"
-    trigger: "::rgb-lightsalmon"
-  - replace: "red, pink, orange, salmon, light"
-    trigger: "::families-lightsalmon"
-  - replace: "#DC143C"
-    trigger: "::crimson"
-  - replace: "220, 20, 60"
-    trigger: "::rgb-crimson"
-  - replace: "red"
-    trigger: "::families-crimson"
-  - replace: "#FF0000"
-    trigger: "::red"
-  - replace: "255, 0, 0"
-    trigger: "::rgb-red"
-  - replace: "red"
-    trigger: "::families-red"
-  - replace: "#8B0000"
-    trigger: "::darkred"
-  - replace: "139, 0, 0"
-    trigger: "::rgb-darkred"
-  - replace: "red, dark"
-    trigger: "::families-darkred"
-  - replace: "#FFC0CB"
-    trigger: "::pink"
-  - replace: "255, 192, 203"
-    trigger: "::rgb-pink"
-  - replace: "pink"
-    trigger: "::families-pink"
-  - replace: "#FFB6C1"
-    trigger: "::lightpink"
-  - replace: "255, 182, 193"
-    trigger: "::rgb-lightpink"
-  - replace: "pink, light"
-    trigger: "::families-lightpink"
-  - replace: "#FF69B4"
-    trigger: "::hotpink"
-  - replace: "255, 105, 180"
-    trigger: "::rgb-hotpink"
-  - replace: "pink, hot"
-    trigger: "::families-hotpink"
-  - replace: "#FF1493"
-    trigger: "::deeppink"
-  - replace: "255, 20, 147"
-    trigger: "::rgb-deeppink"
-  - replace: "pink, deep"
-    trigger: "::families-deeppink"
-  - replace: "#C71585"
-    trigger: "::mediumvioletred"
-  - replace: "199, 21, 133"
-    trigger: "::rgb-mediumvioletred"
-  - replace: "pink, purple, violet, medium"
-    trigger: "::families-mediumvioletred"
-  - replace: "#DB7093"
-    trigger: "::palevioletred"
-  - replace: "219, 112, 147"
-    trigger: "::rgb-palevioletred"
-  - replace: "pink, pale, violet"
-    trigger: "::families-palevioletred"
-  - replace: "#FF7F50"
-    trigger: "::coral"
-  - replace: "255, 127, 80"
-    trigger: "::rgb-coral"
-  - replace: "orange, coral"
-    trigger: "::families-coral"
-  - replace: "#FF6347"
-    trigger: "::tomato"
-  - replace: "255, 99, 71"
-    trigger: "::rgb-tomato"
-  - replace: "orange, red"
-    trigger: "::families-tomato"
-  - replace: "#FF4500"
-    trigger: "::orangered"
-  - replace: "255, 69, 0"
-    trigger: "::rgb-orangered"
-  - replace: "orange, red"
-    trigger: "::families-orangered"
-  - replace: "#FF8C00"
-    trigger: "::darkorange"
-  - replace: "255, 140, 0"
-    trigger: "::rgb-darkorange"
-  - replace: "orange, dark"
-    trigger: "::families-darkorange"
-  - replace: "#FFA500"
-    trigger: "::orange"
-  - replace: "255, 165, 0"
-    trigger: "::rgb-orange"
-  - replace: "orange"
-    trigger: "::families-orange"
-  - replace: "#FFD700"
-    trigger: "::gold"
-  - replace: "255, 215, 0"
-    trigger: "::rgb-gold"
-  - replace: "yellow"
-    trigger: "::families-gold"
-  - replace: "#FFFF00"
-    trigger: "::yellow"
-  - replace: "255, 255, 0"
-    trigger: "::rgb-yellow"
-  - replace: "yellow"
-    trigger: "::families-yellow"
-  - replace: "#FFFFE0"
-    trigger: "::lightyellow"
-  - replace: "255, 255, 224"
-    trigger: "::rgb-lightyellow"
-  - replace: "yellow, light"
-    trigger: "::families-lightyellow"
-  - replace: "#FFFACD"
-    trigger: "::lemonchiffon"
-  - replace: "255, 250, 205"
-    trigger: "::rgb-lemonchiffon"
-  - replace: "yellow, lemon"
-    trigger: "::families-lemonchiffon"
-  - replace: "#FAFAD2"
-    trigger: "::lightgoldenrodyellow"
-  - replace: "250, 250, 210"
-    trigger: "::rgb-lightgoldenrodyellow"
-  - replace: "yellow, light, goldenrod, tan"
-    trigger: "::families-lightgoldenrodyellow"
-  - replace: "#FFEFD5"
-    trigger: "::papayawhip"
-  - replace: "255, 239, 213"
-    trigger: "::rgb-papayawhip"
-  - replace: "pink, tan"
-    trigger: "::families-papayawhip"
-  - replace: "#FFE4B5"
-    trigger: "::moccasin"
-  - replace: "255, 228, 181"
-    trigger: "::rgb-moccasin"
-  - replace: "pink, tan"
-    trigger: "::families-moccasin"
-  - replace: "#FFDAB9"
-    trigger: "::peachpuff"
-  - replace: "255, 218, 185"
-    trigger: "::rgb-peachpuff"
-  - replace: "pink, orange, peach"
-    trigger: "::families-peachpuff"
-  - replace: "#EEE8AA"
-    trigger: "::palegoldenrod"
-  - replace: "238, 232, 170"
-    trigger: "::rgb-palegoldenrod"
-  - replace: "yellow, tan, pale, goldenrod"
-    trigger: "::families-palegoldenrod"
-  - replace: "#F0E68C"
-    trigger: "::khaki"
-  - replace: "240, 230, 140"
-    trigger: "::rgb-khaki"
-  - replace: "yellow, tan, khaki"
-    trigger: "::families-khaki"
-  - replace: "#BDB76B"
-    trigger: "::darkkhaki"
-  - replace: "189, 183, 107"
-    trigger: "::rgb-darkkhaki"
-  - replace: "yellow, tan, khaki, dark"
-    trigger: "::families-darkkhaki"
-  - replace: "#E6E6FA"
-    trigger: "::lavender"
-  - replace: "230, 230, 250"
-    trigger: "::rgb-lavender"
-  - replace: "purple"
-    trigger: "::families-lavender"
-  - replace: "#D8BFD8"
-    trigger: "::thistle"
-  - replace: "216, 191, 216"
-    trigger: "::rgb-thistle"
-  - replace: "purple"
-    trigger: "::families-thistle"
-  - replace: "#DDA0DD"
-    trigger: "::plum"
-  - replace: "221, 160, 221"
-    trigger: "::rgb-plum"
-  - replace: "purple"
-    trigger: "::families-plum"
-  - replace: "#EE82EE"
-    trigger: "::violet"
-  - replace: "238, 130, 238"
-    trigger: "::rgb-violet"
-  - replace: "purple, violet, pink"
-    trigger: "::families-violet"
-  - replace: "#DA70D6"
-    trigger: "::orchid"
-  - replace: "218, 112, 214"
-    trigger: "::rgb-orchid"
-  - replace: "purple, orchid"
-    trigger: "::families-orchid"
-  - replace: "#FF00FF"
-    trigger: "::fuchsia"
-  - replace: "255, 0, 255"
-    trigger: "::rgb-fuchsia"
-  - replace: "purple, pink"
-    trigger: "::families-fuchsia"
-  - replace: "#FF00FF"
-    trigger: "::magenta"
-  - replace: "255, 0, 255"
-    trigger: "::rgb-magenta"
-  - replace: "purple, pink, magenta"
-    trigger: "::families-magenta"
-  - replace: "#BA55D3"
-    trigger: "::mediumorchid"
-  - replace: "186, 85, 211"
-    trigger: "::rgb-mediumorchid"
-  - replace: "purple, orchid, medium"
-    trigger: "::families-mediumorchid"
-  - replace: "#9370DB"
-    trigger: "::mediumpurple"
-  - replace: "147, 112, 219"
-    trigger: "::rgb-mediumpurple"
-  - replace: "purple, medium"
-    trigger: "::families-mediumpurple"
-  - replace: "#663399"
-    trigger: "::rebeccapurple"
-  - replace: "102, 51, 153"
-    trigger: "::rgb-rebeccapurple"
-  - replace: "purple, blue"
-    trigger: "::families-rebeccapurple"
-  - replace: "#8A2BE2"
-    trigger: "::blueviolet"
-  - replace: "138, 43, 226"
-    trigger: "::rgb-blueviolet"
-  - replace: "purple, blue, violet"
-    trigger: "::families-blueviolet"
-  - replace: "#9400D3"
-    trigger: "::darkviolet"
-  - replace: "148, 0, 211"
-    trigger: "::rgb-darkviolet"
-  - replace: "purple, dark, violet"
-    trigger: "::families-darkviolet"
-  - replace: "#9932CC"
-    trigger: "::darkorchid"
-  - replace: "153, 50, 204"
-    trigger: "::rgb-darkorchid"
-  - replace: "purple, dark, orchid"
-    trigger: "::families-darkorchid"
-  - replace: "#8B008B"
-    trigger: "::darkmagenta"
-  - replace: "139, 0, 139"
-    trigger: "::rgb-darkmagenta"
-  - replace: "purple, dark, magenta"
-    trigger: "::families-darkmagenta"
-  - replace: "#800080"
-    trigger: "::purple"
-  - replace: "128, 0, 128"
-    trigger: "::rgb-purple"
-  - replace: "purple"
-    trigger: "::families-purple"
-  - replace: "#4B0082"
-    trigger: "::indigo"
-  - replace: "75, 0, 130"
-    trigger: "::rgb-indigo"
-  - replace: "purple, blue"
-    trigger: "::families-indigo"
-  - replace: "#6A5ACD"
-    trigger: "::slateblue"
-  - replace: "106, 90, 205"
-    trigger: "::rgb-slateblue"
-  - replace: "purple, blue, slate"
-    trigger: "::families-slateblue"
-  - replace: "#483D8B"
-    trigger: "::darkslateblue"
-  - replace: "72, 61, 139"
-    trigger: "::rgb-darkslateblue"
-  - replace: "purple, blue, slate, dark"
-    trigger: "::families-darkslateblue"
-  - replace: "#7B68EE"
-    trigger: "::mediumslateblue"
-  - replace: "123, 104, 238"
-    trigger: "::rgb-mediumslateblue"
-  - replace: "purple, blue, slate, medium"
-    trigger: "::families-mediumslateblue"
-  - replace: "#ADFF2F"
-    trigger: "::greenyellow"
-  - replace: "173, 255, 47"
-    trigger: "::rgb-greenyellow"
-  - replace: "green, yellow"
-    trigger: "::families-greenyellow"
-  - replace: "#7FFF00"
-    trigger: "::chartreuse"
-  - replace: "127, 255, 0"
-    trigger: "::rgb-chartreuse"
-  - replace: "green"
-    trigger: "::families-chartreuse"
-  - replace: "#7CFC00"
-    trigger: "::lawngreen"
-  - replace: "124, 252, 0"
-    trigger: "::rgb-lawngreen"
-  - replace: "green"
-    trigger: "::families-lawngreen"
-  - replace: "#00FF00"
-    trigger: "::lime"
-  - replace: "0, 255, 0"
-    trigger: "::rgb-lime"
-  - replace: "green"
-    trigger: "::families-lime"
-  - replace: "#32CD32"
-    trigger: "::limegreen"
-  - replace: "50, 205, 50"
-    trigger: "::rgb-limegreen"
-  - replace: "green"
-    trigger: "::families-limegreen"
-  - replace: "#98FB98"
-    trigger: "::palegreen"
-  - replace: "152, 251, 152"
-    trigger: "::rgb-palegreen"
-  - replace: "green, pale"
-    trigger: "::families-palegreen"
-  - replace: "#90EE90"
-    trigger: "::lightgreen"
-  - replace: "144, 238, 144"
-    trigger: "::rgb-lightgreen"
-  - replace: "green, light"
-    trigger: "::families-lightgreen"
-  - replace: "#00FA9A"
-    trigger: "::mediumspringgreen"
-  - replace: "0, 250, 154"
-    trigger: "::rgb-mediumspringgreen"
-  - replace: "green, medium, spring"
-    trigger: "::families-mediumspringgreen"
-  - replace: "#00FF7F"
-    trigger: "::springgreen"
-  - replace: "0, 255, 127"
-    trigger: "::rgb-springgreen"
-  - replace: "green, spring"
-    trigger: "::families-springgreen"
-  - replace: "#3CB371"
-    trigger: "::mediumseagreen"
-  - replace: "60, 179, 113"
-    trigger: "::rgb-mediumseagreen"
-  - replace: "green, sea, medium"
-    trigger: "::families-mediumseagreen"
-  - replace: "#2E8B57"
-    trigger: "::seagreen"
-  - replace: "46, 139, 87"
-    trigger: "::rgb-seagreen"
-  - replace: "green, sea"
-    trigger: "::families-seagreen"
-  - replace: "#228B22"
-    trigger: "::forestgreen"
-  - replace: "34, 139, 34"
-    trigger: "::rgb-forestgreen"
-  - replace: "green, forest"
-    trigger: "::families-forestgreen"
-  - replace: "#008000"
-    trigger: "::green"
-  - replace: "0, 128, 0"
-    trigger: "::rgb-green"
-  - replace: "green"
-    trigger: "::families-green"
-  - replace: "#006400"
-    trigger: "::darkgreen"
-  - replace: "0, 100, 0"
-    trigger: "::rgb-darkgreen"
-  - replace: "green, dark"
-    trigger: "::families-darkgreen"
-  - replace: "#9ACD32"
-    trigger: "::yellowgreen"
-  - replace: "154, 205, 50"
-    trigger: "::rgb-yellowgreen"
-  - replace: "green, yellow"
-    trigger: "::families-yellowgreen"
-  - replace: "#6B8E23"
-    trigger: "::olivedrab"
-  - replace: "107, 142, 35"
-    trigger: "::rgb-olivedrab"
-  - replace: "green, olive"
-    trigger: "::families-olivedrab"
-  - replace: "#6B8E23"
-    trigger: "::olive"
-  - replace: "128, 128, 0"
-    trigger: "::rgb-olive"
-  - replace: "green, olive"
-    trigger: "::families-olive"
-  - replace: "#556B2F"
-    trigger: "::darkolivegreen"
-  - replace: "85, 107, 47"
-    trigger: "::rgb-darkolivegreen"
-  - replace: "green, olive, dark"
-    trigger: "::families-darkolivegreen"
-  - replace: "#66CDAA"
-    trigger: "::mediumaquamarine"
-  - replace: "102, 205, 170"
-    trigger: "::rgb-mediumaquamarine"
-  - replace: "green, blue, aquamarine, medium"
-    trigger: "::families-mediumaquamarine"
-  - replace: "#8FBC8B"
-    trigger: "::darkseagreen"
-  - replace: "143, 188, 139"
-    trigger: "::rgb-darkseagreen"
-  - replace: "green, sea, dark"
-    trigger: "::families-darkseagreen"
-  - replace: "#20B2AA"
-    trigger: "::lightseagreen"
-  - replace: "32, 178, 170"
-    trigger: "::rgb-lightseagreen"
-  - replace: "green, blue, sea, light"
-    trigger: "::families-lightseagreen"
-  - replace: "#008B8B"
-    trigger: "::darkcyan"
-  - replace: "0, 139, 139"
-    trigger: "::rgb-darkcyan"
-  - replace: "green, blue, cyan, dark"
-    trigger: "::families-darkcyan"
-  - replace: "#008080"
-    trigger: "::teal"
-  - replace: "0, 128, 128"
-    trigger: "::rgb-teal"
-  - replace: "green, blue"
-    trigger: "::families-teal"
-  - replace: "#00FFFF"
-    trigger: "::aqua"
-  - replace: "0, 255, 255"
-    trigger: "::rgb-aqua"
-  - replace: "blue, aqua"
-    trigger: "::families-aqua"
-  - replace: "#00FFFF"
-    trigger: "::cyan"
-  - replace: "0, 255, 255"
-    trigger: "::rgb-cyan"
-  - replace: "blue, cyan"
-    trigger: "::families-cyan"
-  - replace: "#E0FFFF"
-    trigger: "::lightcyan"
-  - replace: "224, 255, 255"
-    trigger: "::rgb-lightcyan"
-  - replace: "blue, cyan, light"
-    trigger: "::families-lightcyan"
-  - replace: "#AFEEEE"
-    trigger: "::paleturquoise"
-  - replace: "175, 238, 238"
-    trigger: "::rgb-paleturquoise"
-  - replace: "blue, turquoise, pale"
-    trigger: "::families-paleturquoise"
-  - replace: "#7FFFD4"
-    trigger: "::aquamarine"
-  - replace: "127, 255, 212"
-    trigger: "::rgb-aquamarine"
-  - replace: "blue, aquamarine"
-    trigger: "::families-aquamarine"
-  - replace: "#40E0D0"
-    trigger: "::turquoise"
-  - replace: "64, 224, 208"
-    trigger: "::rgb-turquoise"
-  - replace: "blue, turquoise"
-    trigger: "::families-turquoise"
-  - replace: "#48D1CC"
-    trigger: "::mediumturquoise"
-  - replace: "72, 209, 204"
-    trigger: "::rgb-mediumturquoise"
-  - replace: "blue, turquoise, medium"
-    trigger: "::families-mediumturquoise"
-  - replace: "#00CED1"
-    trigger: "::darkturquoise"
-  - replace: "0, 206, 209"
-    trigger: "::rgb-darkturquoise"
-  - replace: "blue, turquoise, dark"
-    trigger: "::families-darkturquoise"
-  - replace: "#5F9EA0"
-    trigger: "::cadetblue"
-  - replace: "95, 158, 160"
-    trigger: "::rgb-cadetblue"
-  - replace: "blue, gray"
-    trigger: "::families-cadetblue"
-  - replace: "#4682B4"
-    trigger: "::steelblue"
-  - replace: "70, 130, 180"
-    trigger: "::rgb-steelblue"
-  - replace: "blue, steel"
-    trigger: "::families-steelblue"
-  - replace: "#B0C4DE"
-    trigger: "::lightsteelblue"
-  - replace: "176, 196, 222"
-    trigger: "::rgb-lightsteelblue"
-  - replace: "blue, steel, light"
-    trigger: "::families-lightsteelblue"
-  - replace: "#B0E0E6"
-    trigger: "::powderblue"
-  - replace: "176, 224, 230"
-    trigger: "::rgb-powderblue"
-  - replace: "blue"
-    trigger: "::families-powderblue"
-  - replace: "#ADD8E6"
-    trigger: "::lightblue"
-  - replace: "173, 216, 230"
-    trigger: "::rgb-lightblue"
-  - replace: "blue, light"
-    trigger: "::families-lightblue"
-  - replace: "#87CEEB"
-    trigger: "::skyblue"
-  - replace: "135, 206, 235"
-    trigger: "::rgb-skyblue"
-  - replace: "blue, sky"
-    trigger: "::families-skyblue"
-  - replace: "#87CEFA"
-    trigger: "::lightskyblue"
-  - replace: "135, 206, 250"
-    trigger: "::rgb-lightskyblue"
-  - replace: "blue, sky, light"
-    trigger: "::families-lightskyblue"
-  - replace: "#00BFFF"
-    trigger: "::deepskyblue"
-  - replace: "0, 191, 255"
-    trigger: "::rgb-deepskyblue"
-  - replace: "blue, sky, deep"
-    trigger: "::families-deepskyblue"
-  - replace: "#1E90FF"
-    trigger: "::dodgerblue"
-  - replace: "30, 144, 255"
-    trigger: "::rgb-dodgerblue"
-  - replace: "blue"
-    trigger: "::families-dodgerblue"
-  - replace: "#6495ED"
-    trigger: "::cornflowerblue"
-  - replace: "100, 149, 237"
-    trigger: "::rgb-cornflowerblue"
-  - replace: "blue"
-    trigger: "::families-cornflowerblue"
-  - replace: "#4169E1"
-    trigger: "::royalblue"
-  - replace: "65, 105, 225"
-    trigger: "::rgb-royalblue"
-  - replace: "blue"
-    trigger: "::families-royalblue"
-  - replace: "#0000FF"
-    trigger: "::blue"
-  - replace: "0, 0, 255"
-    trigger: "::rgb-blue"
-  - replace: "blue"
-    trigger: "::families-blue"
-  - replace: "#0000CD"
-    trigger: "::mediumblue"
-  - replace: "0, 0, 205"
-    trigger: "::rgb-mediumblue"
-  - replace: "blue, medium"
-    trigger: "::families-mediumblue"
-  - replace: "#00008B"
-    trigger: "::darkblue"
-  - replace: "0, 0, 139"
-    trigger: "::rgb-darkblue"
-  - replace: "blue, dark"
-    trigger: "::families-darkblue"
-  - replace: "#00008B"
-    trigger: "::navy"
-  - replace: "0, 0, 128"
-    trigger: "::rgb-navy"
-  - replace: "blue, dark"
-    trigger: "::families-navy"
-  - replace: "#191970"
-    trigger: "::midnightblue"
-  - replace: "25, 25, 112"
-    trigger: "::rgb-midnightblue"
-  - replace: "blue, dark"
-    trigger: "::families-midnightblue"
-  - replace: "#FFF8DC"
-    trigger: "::cornsilk"
-  - replace: "255, 248, 220"
-    trigger: "::rgb-cornsilk"
-  - replace: "brown, tan"
-    trigger: "::families-cornsilk"
-  - replace: "#FFEBCD"
-    trigger: "::blanchedalmond"
-  - replace: "255, 235, 205"
-    trigger: "::rgb-blanchedalmond"
-  - replace: "brown, tan"
-    trigger: "::families-blanchedalmond"
-  - replace: "#FFE4C4"
-    trigger: "::bisque"
-  - replace: "255, 228, 196"
-    trigger: "::rgb-bisque"
-  - replace: "brown, tan"
-    trigger: "::families-bisque"
-  - replace: "#FFDEAD"
-    trigger: "::navajowhite"
-  - replace: "255, 222, 173"
-    trigger: "::rgb-navajowhite"
-  - replace: "brown, tan"
-    trigger: "::families-navajowhite"
-  - replace: "#F5DEB3"
-    trigger: "::wheat"
-  - replace: "245, 222, 179"
-    trigger: "::rgb-wheat"
-  - replace: "brown, tan"
-    trigger: "::families-wheat"
-  - replace: "#DEB887"
-    trigger: "::burlywood"
-  - replace: "222, 184, 135"
-    trigger: "::rgb-burlywood"
-  - replace: "brown, tan"
-    trigger: "::families-burlywood"
-  - replace: "#D2B48C"
-    trigger: "::tan"
-  - replace: "210, 180, 140"
-    trigger: "::rgb-tan"
-  - replace: "brown, tan"
-    trigger: "::families-tan"
-  - replace: "#BC8F8F"
-    trigger: "::rosybrown"
-  - replace: "188, 143, 143"
-    trigger: "::rgb-rosybrown"
-  - replace: "brown, tan"
-    trigger: "::families-rosybrown"
-  - replace: "#F4A460"
-    trigger: "::sandybrown"
-  - replace: "244, 164, 96"
-    trigger: "::rgb-sandybrown"
-  - replace: "brown, orange"
-    trigger: "::families-sandybrown"
-  - replace: "#DAA520"
-    trigger: "::goldenrod"
-  - replace: "218, 165, 32"
-    trigger: "::rgb-goldenrod"
-  - replace: "brown, goldenrod, orange"
-    trigger: "::families-goldenrod"
-  - replace: "#B8860B"
-    trigger: "::darkgoldenrod"
-  - replace: "184, 134, 11"
-    trigger: "::rgb-darkgoldenrod"
-  - replace: "brown, orange, goldenrod, dark"
-    trigger: "::families-darkgoldenrod"
-  - replace: "#CD853F"
-    trigger: "::peru"
-  - replace: "205, 133, 63"
-    trigger: "::rgb-peru"
-  - replace: "brown, orange"
-    trigger: "::families-peru"
-  - replace: "#D2691E"
-    trigger: "::chocolate"
-  - replace: "210, 105, 30"
-    trigger: "::rgb-chocolate"
-  - replace: "brown, orange"
-    trigger: "::families-chocolate"
-  - replace: "#8B4513"
-    trigger: "::saddlebrown"
-  - replace: "139, 69, 19"
-    trigger: "::rgb-saddlebrown"
-  - replace: "brown"
-    trigger: "::families-saddlebrown"
-  - replace: "#A0522D"
-    trigger: "::sienna"
-  - replace: "160, 82, 45"
-    trigger: "::rgb-sienna"
-  - replace: "brown"
-    trigger: "::families-sienna"
-  - replace: "#A52A2A"
-    trigger: "::brown"
-  - replace: "165, 42, 42"
-    trigger: "::rgb-brown"
-  - replace: "brown, red"
-    trigger: "::families-brown"
-  - replace: "#800000"
-    trigger: "::maroon"
-  - replace: "128, 0, 0"
-    trigger: "::rgb-maroon"
-  - replace: "brown, red"
-    trigger: "::families-maroon"
-  - replace: "#FFFFFF"
-    trigger: "::white"
-  - replace: "255, 255, 255"
-    trigger: "::rgb-white"
-  - replace: "white"
-    trigger: "::families-white"
-  - replace: "#FFFAFA"
-    trigger: "::snow"
-  - replace: "255, 250, 250"
-    trigger: "::rgb-snow"
-  - replace: "white"
-    trigger: "::families-snow"
-  - replace: "#F0FFF0"
-    trigger: "::honeydew"
-  - replace: "240, 255, 240"
-    trigger: "::rgb-honeydew"
-  - replace: "white"
-    trigger: "::families-honeydew"
-  - replace: "#F5FFFA"
-    trigger: "::mintcream"
-  - replace: "245, 255, 250"
-    trigger: "::rgb-mintcream"
-  - replace: "white"
-    trigger: "::families-mintcream"
-  - replace: "#F0FFFF"
-    trigger: "::azure"
-  - replace: "240, 255, 255"
-    trigger: "::rgb-azure"
-  - replace: "white"
-    trigger: "::families-azure"
-  - replace: "#F0F8FF"
-    trigger: "::aliceblue"
-  - replace: "240, 248, 255"
-    trigger: "::rgb-aliceblue"
-  - replace: "white"
-    trigger: "::families-aliceblue"
-  - replace: "#F8F8FF"
-    trigger: "::ghostwhite"
-  - replace: "248, 248, 255"
-    trigger: "::rgb-ghostwhite"
-  - replace: "white"
-    trigger: "::families-ghostwhite"
-  - replace: "#F5F5F5"
-    trigger: "::whitesmoke"
-  - replace: "245, 245, 245"
-    trigger: "::rgb-whitesmoke"
-  - replace: "white"
-    trigger: "::families-whitesmoke"
-  - replace: "#FFF5EE"
-    trigger: "::seashell"
-  - replace: "255, 245, 238"
-    trigger: "::rgb-seashell"
-  - replace: "white, pink"
-    trigger: "::families-seashell"
-  - replace: "#F5F5DC"
-    trigger: "::beige"
-  - replace: "245, 245, 220"
-    trigger: "::rgb-beige"
-  - replace: "white, tan"
-    trigger: "::families-beige"
-  - replace: "#FDF5E6"
-    trigger: "::oldlace"
-  - replace: "253, 245, 230"
-    trigger: "::rgb-oldlace"
-  - replace: "white, tan"
-    trigger: "::families-oldlace"
-  - replace: "#FDF5E6"
-    trigger: "::floralwhite"
-  - replace: "253, 245, 230"
-    trigger: "::rgb-floralwhite"
-  - replace: "white, tan"
-    trigger: "::families-floralwhite"
-  - replace: "#FFFFF0"
-    trigger: "::ivory"
-  - replace: "255, 255, 240"
-    trigger: "::rgb-ivory"
-  - replace: "white, tan"
-    trigger: "::families-ivory"
-  - replace: "#FAEBD7"
-    trigger: "::antiquewhite"
-  - replace: "250, 235, 215"
-    trigger: "::rgb-antiquewhite"
-  - replace: "white, tan"
-    trigger: "::families-antiquewhite"
-  - replace: "#FAF0E6"
-    trigger: "::linen"
-  - replace: "250, 240, 230"
-    trigger: "::rgb-linen"
-  - replace: "white, tan"
-    trigger: "::families-linen"
-  - replace: "#FFF0F5"
-    trigger: "::lavenderblush"
-  - replace: "255, 240, 245"
-    trigger: "::rgb-lavenderblush"
-  - replace: "white, lavender, pink"
-    trigger: "::families-lavenderblush"
-  - replace: "#FFE4E1"
-    trigger: "::mistyrose"
-  - replace: "255, 228, 225"
-    trigger: "::rgb-mistyrose"
-  - replace: "white, pink"
-    trigger: "::families-mistyrose"
-  - replace: "#DCDCDC"
-    trigger: "::gainsboro"
-  - replace: "220, 220, 220"
-    trigger: "::rgb-gainsboro"
-  - replace: "gray"
-    trigger: "::families-gainsboro"
-  - replace: "#D3D3D3"
-    trigger: "::lightgray"
-  - replace: "211, 211, 211"
-    trigger: "::rgb-lightgray"
-  - replace: "gray, light"
-    trigger: "::families-lightgray"
-  - replace: "#C0C0C0"
-    trigger: "::silver"
-  - replace: "192, 192, 192"
-    trigger: "::rgb-silver"
-  - replace: "gray"
-    trigger: "::families-silver"
-  - replace: "#A9A9A9"
-    trigger: "::darkgray"
-  - replace: "169, 169, 169"
-    trigger: "::rgb-darkgray"
-  - replace: "gray, dark"
-    trigger: "::families-darkgray"
-  - replace: "#808080"
-    trigger: "::gray"
-  - replace: "128, 128, 128"
-    trigger: "::rgb-gray"
-  - replace: "gray"
-    trigger: "::families-gray"
-  - replace: "#696969"
-    trigger: "::dimgray"
-  - replace: "105, 105, 105"
-    trigger: "::rgb-dimgray"
-  - replace: "gray"
-    trigger: "::families-dimgray"
-  - replace: "#778899"
-    trigger: "::lightslategray"
-  - replace: "119, 136, 153"
-    trigger: "::rgb-lightslategray"
-  - replace: "gray, light, slate"
-    trigger: "::families-lightslategray"
-  - replace: "#708090"
-    trigger: "::slategray"
-  - replace: "112, 128, 144"
-    trigger: "::rgb-slategray"
-  - replace: "gray, slate"
-    trigger: "::families-slategray"
-  - replace: "#2F4F4F"
-    trigger: "::darkslategray"
-  - replace: "47, 79, 79"
-    trigger: "::rgb-darkslategray"
-  - replace: "gray, slate, dark"
-    trigger: "::families-darkslategray"
-  - replace: "#000000"
-    trigger: "::black"
-  - replace: "0, 0, 0"
-    trigger: "::rgb-black"
-  - replace: "black"
-    trigger: "::families-black"
+  - trigger: "##indianred"
+    force_clipboard: true
+    replace: "#CD5C5C"
+  - trigger: "##rgb-indianred"
+    force_clipboard: true
+    replace: "205, 92, 92"
+  - trigger: "##families-indianred"
+    force_clipboard: true
+    replace: "red, brown"
+  - trigger: "##lightcoral"
+    force_clipboard: true
+    replace: "#F08080"
+  - trigger: "##rgb-lightcoral"
+    force_clipboard: true
+    replace: "240, 128, 128"
+  - trigger: "##families-lightcoral"
+    force_clipboard: true
+    replace: "red, pink, coral, light"
+  - trigger: "##salmon"
+    force_clipboard: true
+    replace: "#FA8072"
+  - trigger: "##rgb-salmon"
+    force_clipboard: true
+    replace: "250, 128, 114"
+  - trigger: "##families-salmon"
+    force_clipboard: true
+    replace: "red, pink, orange, salmon"
+  - trigger: "##darksalmon"
+    force_clipboard: true
+    replace: "#E9967A"
+  - trigger: "##rgb-darksalmon"
+    force_clipboard: true
+    replace: "233, 150, 122"
+  - trigger: "##families-darksalmon"
+    force_clipboard: true
+    replace: "red, pink, orange, salmon, dark"
+  - trigger: "##lightsalmon"
+    force_clipboard: true
+    replace: "#FFA07A"
+  - trigger: "##rgb-lightsalmon"
+    force_clipboard: true
+    replace: "255, 160, 122"
+  - trigger: "##families-lightsalmon"
+    force_clipboard: true
+    replace: "red, pink, orange, salmon, light"
+  - trigger: "##crimson"
+    force_clipboard: true
+    replace: "#DC143C"
+  - trigger: "##rgb-crimson"
+    force_clipboard: true
+    replace: "220, 20, 60"
+  - trigger: "##families-crimson"
+    force_clipboard: true
+    replace: "red"
+  - trigger: "##red"
+    force_clipboard: true
+    replace: "#FF0000"
+  - trigger: "##rgb-red"
+    force_clipboard: true
+    replace: "255, 0, 0"
+  - trigger: "##families-red"
+    force_clipboard: true
+    replace: "red"
+  - trigger: "##darkred"
+    force_clipboard: true
+    replace: "#8B0000"
+  - trigger: "##rgb-darkred"
+    force_clipboard: true
+    replace: "139, 0, 0"
+  - trigger: "##families-darkred"
+    force_clipboard: true
+    replace: "red, dark"
+  - trigger: "##pink"
+    force_clipboard: true
+    replace: "#FFC0CB"
+  - trigger: "##rgb-pink"
+    force_clipboard: true
+    replace: "255, 192, 203"
+  - trigger: "##families-pink"
+    force_clipboard: true
+    replace: "pink"
+  - trigger: "##lightpink"
+    force_clipboard: true
+    replace: "#FFB6C1"
+  - trigger: "##rgb-lightpink"
+    force_clipboard: true
+    replace: "255, 182, 193"
+  - trigger: "##families-lightpink"
+    force_clipboard: true
+    replace: "pink, light"
+  - trigger: "##hotpink"
+    force_clipboard: true
+    replace: "#FF69B4"
+  - trigger: "##rgb-hotpink"
+    force_clipboard: true
+    replace: "255, 105, 180"
+  - trigger: "##families-hotpink"
+    force_clipboard: true
+    replace: "pink, hot"
+  - trigger: "##deeppink"
+    force_clipboard: true
+    replace: "#FF1493"
+  - trigger: "##rgb-deeppink"
+    force_clipboard: true
+    replace: "255, 20, 147"
+  - trigger: "##families-deeppink"
+    force_clipboard: true
+    replace: "pink, deep"
+  - trigger: "##mediumvioletred"
+    force_clipboard: true
+    replace: "#C71585"
+  - trigger: "##rgb-mediumvioletred"
+    force_clipboard: true
+    replace: "199, 21, 133"
+  - trigger: "##families-mediumvioletred"
+    force_clipboard: true
+    replace: "pink, purple, violet, medium"
+  - trigger: "##palevioletred"
+    force_clipboard: true
+    replace: "#DB7093"
+  - trigger: "##rgb-palevioletred"
+    force_clipboard: true
+    replace: "219, 112, 147"
+  - trigger: "##families-palevioletred"
+    force_clipboard: true
+    replace: "pink, pale, violet"
+  - trigger: "##coral"
+    force_clipboard: true
+    replace: "#FF7F50"
+  - trigger: "##rgb-coral"
+    force_clipboard: true
+    replace: "255, 127, 80"
+  - trigger: "##families-coral"
+    force_clipboard: true
+    replace: "orange, coral"
+  - trigger: "##tomato"
+    force_clipboard: true
+    replace: "#FF6347"
+  - trigger: "##rgb-tomato"
+    force_clipboard: true
+    replace: "255, 99, 71"
+  - trigger: "##families-tomato"
+    force_clipboard: true
+    replace: "orange, red"
+  - trigger: "##orangered"
+    force_clipboard: true
+    replace: "#FF4500"
+  - trigger: "##rgb-orangered"
+    force_clipboard: true
+    replace: "255, 69, 0"
+  - trigger: "##families-orangered"
+    force_clipboard: true
+    replace: "orange, red"
+  - trigger: "##darkorange"
+    force_clipboard: true
+    replace: "#FF8C00"
+  - trigger: "##rgb-darkorange"
+    force_clipboard: true
+    replace: "255, 140, 0"
+  - trigger: "##families-darkorange"
+    force_clipboard: true
+    replace: "orange, dark"
+  - trigger: "##orange"
+    force_clipboard: true
+    replace: "#FFA500"
+  - trigger: "##rgb-orange"
+    force_clipboard: true
+    replace: "255, 165, 0"
+  - trigger: "##families-orange"
+    force_clipboard: true
+    replace: "orange"
+  - trigger: "##gold"
+    force_clipboard: true
+    replace: "#FFD700"
+  - trigger: "##rgb-gold"
+    force_clipboard: true
+    replace: "255, 215, 0"
+  - trigger: "##families-gold"
+    force_clipboard: true
+    replace: "yellow"
+  - trigger: "##yellow"
+    force_clipboard: true
+    replace: "#FFFF00"
+  - trigger: "##rgb-yellow"
+    force_clipboard: true
+    replace: "255, 255, 0"
+  - trigger: "##families-yellow"
+    force_clipboard: true
+    replace: "yellow"
+  - trigger: "##lightyellow"
+    force_clipboard: true
+    replace: "#FFFFE0"
+  - trigger: "##rgb-lightyellow"
+    force_clipboard: true
+    replace: "255, 255, 224"
+  - trigger: "##families-lightyellow"
+    force_clipboard: true
+    replace: "yellow, light"
+  - trigger: "##lemonchiffon"
+    force_clipboard: true
+    replace: "#FFFACD"
+  - trigger: "##rgb-lemonchiffon"
+    force_clipboard: true
+    replace: "255, 250, 205"
+  - trigger: "##families-lemonchiffon"
+    force_clipboard: true
+    replace: "yellow, lemon"
+  - trigger: "##lightgoldenrodyellow"
+    force_clipboard: true
+    replace: "#FAFAD2"
+  - trigger: "##rgb-lightgoldenrodyellow"
+    force_clipboard: true
+    replace: "250, 250, 210"
+  - trigger: "##families-lightgoldenrodyellow"
+    force_clipboard: true
+    replace: "yellow, light, goldenrod, tan"
+  - trigger: "##papayawhip"
+    force_clipboard: true
+    replace: "#FFEFD5"
+  - trigger: "##rgb-papayawhip"
+    force_clipboard: true
+    replace: "255, 239, 213"
+  - trigger: "##families-papayawhip"
+    force_clipboard: true
+    replace: "pink, tan"
+  - trigger: "##moccasin"
+    force_clipboard: true
+    replace: "#FFE4B5"
+  - trigger: "##rgb-moccasin"
+    force_clipboard: true
+    replace: "255, 228, 181"
+  - trigger: "##families-moccasin"
+    force_clipboard: true
+    replace: "pink, tan"
+  - trigger: "##peachpuff"
+    force_clipboard: true
+    replace: "#FFDAB9"
+  - trigger: "##rgb-peachpuff"
+    force_clipboard: true
+    replace: "255, 218, 185"
+  - trigger: "##families-peachpuff"
+    force_clipboard: true
+    replace: "pink, orange, peach"
+  - trigger: "##palegoldenrod"
+    force_clipboard: true
+    replace: "#EEE8AA"
+  - trigger: "##rgb-palegoldenrod"
+    force_clipboard: true
+    replace: "238, 232, 170"
+  - trigger: "##families-palegoldenrod"
+    force_clipboard: true
+    replace: "yellow, tan, pale, goldenrod"
+  - trigger: "##khaki"
+    force_clipboard: true
+    replace: "#F0E68C"
+  - trigger: "##rgb-khaki"
+    force_clipboard: true
+    replace: "240, 230, 140"
+  - trigger: "##families-khaki"
+    force_clipboard: true
+    replace: "yellow, tan, khaki"
+  - trigger: "##darkkhaki"
+    force_clipboard: true
+    replace: "#BDB76B"
+  - trigger: "##rgb-darkkhaki"
+    force_clipboard: true
+    replace: "189, 183, 107"
+  - trigger: "##families-darkkhaki"
+    force_clipboard: true
+    replace: "yellow, tan, khaki, dark"
+  - trigger: "##lavender"
+    force_clipboard: true
+    replace: "#E6E6FA"
+  - trigger: "##rgb-lavender"
+    force_clipboard: true
+    replace: "230, 230, 250"
+  - trigger: "##families-lavender"
+    force_clipboard: true
+    replace: "purple"
+  - trigger: "##thistle"
+    force_clipboard: true
+    replace: "#D8BFD8"
+  - trigger: "##rgb-thistle"
+    force_clipboard: true
+    replace: "216, 191, 216"
+  - trigger: "##families-thistle"
+    force_clipboard: true
+    replace: "purple"
+  - trigger: "##plum"
+    force_clipboard: true
+    replace: "#DDA0DD"
+  - trigger: "##rgb-plum"
+    force_clipboard: true
+    replace: "221, 160, 221"
+  - trigger: "##families-plum"
+    force_clipboard: true
+    replace: "purple"
+  - trigger: "##violet"
+    force_clipboard: true
+    replace: "#EE82EE"
+  - trigger: "##rgb-violet"
+    force_clipboard: true
+    replace: "238, 130, 238"
+  - trigger: "##families-violet"
+    force_clipboard: true
+    replace: "purple, violet, pink"
+  - trigger: "##orchid"
+    force_clipboard: true
+    replace: "#DA70D6"
+  - trigger: "##rgb-orchid"
+    force_clipboard: true
+    replace: "218, 112, 214"
+  - trigger: "##families-orchid"
+    force_clipboard: true
+    replace: "purple, orchid"
+  - trigger: "##fuchsia"
+    force_clipboard: true
+    replace: "#FF00FF"
+  - trigger: "##rgb-fuchsia"
+    force_clipboard: true
+    replace: "255, 0, 255"
+  - trigger: "##families-fuchsia"
+    force_clipboard: true
+    replace: "purple, pink"
+  - trigger: "##magenta"
+    force_clipboard: true
+    replace: "#FF00FF"
+  - trigger: "##rgb-magenta"
+    force_clipboard: true
+    replace: "255, 0, 255"
+  - trigger: "##families-magenta"
+    force_clipboard: true
+    replace: "purple, pink, magenta"
+  - trigger: "##mediumorchid"
+    force_clipboard: true
+    replace: "#BA55D3"
+  - trigger: "##rgb-mediumorchid"
+    force_clipboard: true
+    replace: "186, 85, 211"
+  - trigger: "##families-mediumorchid"
+    force_clipboard: true
+    replace: "purple, orchid, medium"
+  - trigger: "##mediumpurple"
+    force_clipboard: true
+    replace: "#9370DB"
+  - trigger: "##rgb-mediumpurple"
+    force_clipboard: true
+    replace: "147, 112, 219"
+  - trigger: "##families-mediumpurple"
+    force_clipboard: true
+    replace: "purple, medium"
+  - trigger: "##rebeccapurple"
+    force_clipboard: true
+    replace: "#663399"
+  - trigger: "##rgb-rebeccapurple"
+    force_clipboard: true
+    replace: "102, 51, 153"
+  - trigger: "##families-rebeccapurple"
+    force_clipboard: true
+    replace: "purple, blue"
+  - trigger: "##blueviolet"
+    force_clipboard: true
+    replace: "#8A2BE2"
+  - trigger: "##rgb-blueviolet"
+    force_clipboard: true
+    replace: "138, 43, 226"
+  - trigger: "##families-blueviolet"
+    force_clipboard: true
+    replace: "purple, blue, violet"
+  - trigger: "##darkviolet"
+    force_clipboard: true
+    replace: "#9400D3"
+  - trigger: "##rgb-darkviolet"
+    force_clipboard: true
+    replace: "148, 0, 211"
+  - trigger: "##families-darkviolet"
+    force_clipboard: true
+    replace: "purple, dark, violet"
+  - trigger: "##darkorchid"
+    force_clipboard: true
+    replace: "#9932CC"
+  - trigger: "##rgb-darkorchid"
+    force_clipboard: true
+    replace: "153, 50, 204"
+  - trigger: "##families-darkorchid"
+    force_clipboard: true
+    replace: "purple, dark, orchid"
+  - trigger: "##darkmagenta"
+    force_clipboard: true
+    replace: "#8B008B"
+  - trigger: "##rgb-darkmagenta"
+    force_clipboard: true
+    replace: "139, 0, 139"
+  - trigger: "##families-darkmagenta"
+    force_clipboard: true
+    replace: "purple, dark, magenta"
+  - trigger: "##purple"
+    force_clipboard: true
+    replace: "#800080"
+  - trigger: "##rgb-purple"
+    force_clipboard: true
+    replace: "128, 0, 128"
+  - trigger: "##families-purple"
+    force_clipboard: true
+    replace: "purple"
+  - trigger: "##indigo"
+    force_clipboard: true
+    replace: "#4B0082"
+  - trigger: "##rgb-indigo"
+    force_clipboard: true
+    replace: "75, 0, 130"
+  - trigger: "##families-indigo"
+    force_clipboard: true
+    replace: "purple, blue"
+  - trigger: "##slateblue"
+    force_clipboard: true
+    replace: "#6A5ACD"
+  - trigger: "##rgb-slateblue"
+    force_clipboard: true
+    replace: "106, 90, 205"
+  - trigger: "##families-slateblue"
+    force_clipboard: true
+    replace: "purple, blue, slate"
+  - trigger: "##darkslateblue"
+    force_clipboard: true
+    replace: "#483D8B"
+  - trigger: "##rgb-darkslateblue"
+    force_clipboard: true
+    replace: "72, 61, 139"
+  - trigger: "##families-darkslateblue"
+    force_clipboard: true
+    replace: "purple, blue, slate, dark"
+  - trigger: "##mediumslateblue"
+    force_clipboard: true
+    replace: "#7B68EE"
+  - trigger: "##rgb-mediumslateblue"
+    force_clipboard: true
+    replace: "123, 104, 238"
+  - trigger: "##families-mediumslateblue"
+    force_clipboard: true
+    replace: "purple, blue, slate, medium"
+  - trigger: "##greenyellow"
+    force_clipboard: true
+    replace: "#ADFF2F"
+  - trigger: "##rgb-greenyellow"
+    force_clipboard: true
+    replace: "173, 255, 47"
+  - trigger: "##families-greenyellow"
+    force_clipboard: true
+    replace: "green, yellow"
+  - trigger: "##chartreuse"
+    force_clipboard: true
+    replace: "#7FFF00"
+  - trigger: "##rgb-chartreuse"
+    force_clipboard: true
+    replace: "127, 255, 0"
+  - trigger: "##families-chartreuse"
+    force_clipboard: true
+    replace: "green"
+  - trigger: "##lawngreen"
+    force_clipboard: true
+    replace: "#7CFC00"
+  - trigger: "##rgb-lawngreen"
+    force_clipboard: true
+    replace: "124, 252, 0"
+  - trigger: "##families-lawngreen"
+    force_clipboard: true
+    replace: "green"
+  - trigger: "##lime"
+    force_clipboard: true
+    replace: "#00FF00"
+  - trigger: "##rgb-lime"
+    force_clipboard: true
+    replace: "0, 255, 0"
+  - trigger: "##families-lime"
+    force_clipboard: true
+    replace: "green"
+  - trigger: "##limegreen"
+    force_clipboard: true
+    replace: "#32CD32"
+  - trigger: "##rgb-limegreen"
+    force_clipboard: true
+    replace: "50, 205, 50"
+  - trigger: "##families-limegreen"
+    force_clipboard: true
+    replace: "green"
+  - trigger: "##palegreen"
+    force_clipboard: true
+    replace: "#98FB98"
+  - trigger: "##rgb-palegreen"
+    force_clipboard: true
+    replace: "152, 251, 152"
+  - trigger: "##families-palegreen"
+    force_clipboard: true
+    replace: "green, pale"
+  - trigger: "##lightgreen"
+    force_clipboard: true
+    replace: "#90EE90"
+  - trigger: "##rgb-lightgreen"
+    force_clipboard: true
+    replace: "144, 238, 144"
+  - trigger: "##families-lightgreen"
+    force_clipboard: true
+    replace: "green, light"
+  - trigger: "##mediumspringgreen"
+    force_clipboard: true
+    replace: "#00FA9A"
+  - trigger: "##rgb-mediumspringgreen"
+    force_clipboard: true
+    replace: "0, 250, 154"
+  - trigger: "##families-mediumspringgreen"
+    force_clipboard: true
+    replace: "green, medium, spring"
+  - trigger: "##springgreen"
+    force_clipboard: true
+    replace: "#00FF7F"
+  - trigger: "##rgb-springgreen"
+    force_clipboard: true
+    replace: "0, 255, 127"
+  - trigger: "##families-springgreen"
+    force_clipboard: true
+    replace: "green, spring"
+  - trigger: "##mediumseagreen"
+    force_clipboard: true
+    replace: "#3CB371"
+  - trigger: "##rgb-mediumseagreen"
+    force_clipboard: true
+    replace: "60, 179, 113"
+  - trigger: "##families-mediumseagreen"
+    force_clipboard: true
+    replace: "green, sea, medium"
+  - trigger: "##seagreen"
+    force_clipboard: true
+    replace: "#2E8B57"
+  - trigger: "##rgb-seagreen"
+    force_clipboard: true
+    replace: "46, 139, 87"
+  - trigger: "##families-seagreen"
+    force_clipboard: true
+    replace: "green, sea"
+  - trigger: "##forestgreen"
+    force_clipboard: true
+    replace: "#228B22"
+  - trigger: "##rgb-forestgreen"
+    force_clipboard: true
+    replace: "34, 139, 34"
+  - trigger: "##families-forestgreen"
+    force_clipboard: true
+    replace: "green, forest"
+  - trigger: "##green"
+    force_clipboard: true
+    replace: "#008000"
+  - trigger: "##rgb-green"
+    force_clipboard: true
+    replace: "0, 128, 0"
+  - trigger: "##families-green"
+    force_clipboard: true
+    replace: "green"
+  - trigger: "##darkgreen"
+    force_clipboard: true
+    replace: "#006400"
+  - trigger: "##rgb-darkgreen"
+    force_clipboard: true
+    replace: "0, 100, 0"
+  - trigger: "##families-darkgreen"
+    force_clipboard: true
+    replace: "green, dark"
+  - trigger: "##yellowgreen"
+    force_clipboard: true
+    replace: "#9ACD32"
+  - trigger: "##rgb-yellowgreen"
+    force_clipboard: true
+    replace: "154, 205, 50"
+  - trigger: "##families-yellowgreen"
+    force_clipboard: true
+    replace: "green, yellow"
+  - trigger: "##olivedrab"
+    force_clipboard: true
+    replace: "#6B8E23"
+  - trigger: "##rgb-olivedrab"
+    force_clipboard: true
+    replace: "107, 142, 35"
+  - trigger: "##families-olivedrab"
+    force_clipboard: true
+    replace: "green, olive"
+  - trigger: "##olive"
+    force_clipboard: true
+    replace: "#6B8E23"
+  - trigger: "##rgb-olive"
+    force_clipboard: true
+    replace: "128, 128, 0"
+  - trigger: "##families-olive"
+    force_clipboard: true
+    replace: "green, olive"
+  - trigger: "##darkolivegreen"
+    force_clipboard: true
+    replace: "#556B2F"
+  - trigger: "##rgb-darkolivegreen"
+    force_clipboard: true
+    replace: "85, 107, 47"
+  - trigger: "##families-darkolivegreen"
+    force_clipboard: true
+    replace: "green, olive, dark"
+  - trigger: "##mediumaquamarine"
+    force_clipboard: true
+    replace: "#66CDAA"
+  - trigger: "##rgb-mediumaquamarine"
+    force_clipboard: true
+    replace: "102, 205, 170"
+  - trigger: "##families-mediumaquamarine"
+    force_clipboard: true
+    replace: "green, blue, aquamarine, medium"
+  - trigger: "##darkseagreen"
+    force_clipboard: true
+    replace: "#8FBC8B"
+  - trigger: "##rgb-darkseagreen"
+    force_clipboard: true
+    replace: "143, 188, 139"
+  - trigger: "##families-darkseagreen"
+    force_clipboard: true
+    replace: "green, sea, dark"
+  - trigger: "##lightseagreen"
+    force_clipboard: true
+    replace: "#20B2AA"
+  - trigger: "##rgb-lightseagreen"
+    force_clipboard: true
+    replace: "32, 178, 170"
+  - trigger: "##families-lightseagreen"
+    force_clipboard: true
+    replace: "green, blue, sea, light"
+  - trigger: "##darkcyan"
+    force_clipboard: true
+    replace: "#008B8B"
+  - trigger: "##rgb-darkcyan"
+    force_clipboard: true
+    replace: "0, 139, 139"
+  - trigger: "##families-darkcyan"
+    force_clipboard: true
+    replace: "green, blue, cyan, dark"
+  - trigger: "##teal"
+    force_clipboard: true
+    replace: "#008080"
+  - trigger: "##rgb-teal"
+    force_clipboard: true
+    replace: "0, 128, 128"
+  - trigger: "##families-teal"
+    force_clipboard: true
+    replace: "green, blue"
+  - trigger: "##aqua"
+    force_clipboard: true
+    replace: "#00FFFF"
+  - trigger: "##rgb-aqua"
+    force_clipboard: true
+    replace: "0, 255, 255"
+  - trigger: "##families-aqua"
+    force_clipboard: true
+    replace: "blue, aqua"
+  - trigger: "##cyan"
+    force_clipboard: true
+    replace: "#00FFFF"
+  - trigger: "##rgb-cyan"
+    force_clipboard: true
+    replace: "0, 255, 255"
+  - trigger: "##families-cyan"
+    force_clipboard: true
+    replace: "blue, cyan"
+  - trigger: "##lightcyan"
+    force_clipboard: true
+    replace: "#E0FFFF"
+  - trigger: "##rgb-lightcyan"
+    force_clipboard: true
+    replace: "224, 255, 255"
+  - trigger: "##families-lightcyan"
+    force_clipboard: true
+    replace: "blue, cyan, light"
+  - trigger: "##paleturquoise"
+    force_clipboard: true
+    replace: "#AFEEEE"
+  - trigger: "##rgb-paleturquoise"
+    force_clipboard: true
+    replace: "175, 238, 238"
+  - trigger: "##families-paleturquoise"
+    force_clipboard: true
+    replace: "blue, turquoise, pale"
+  - trigger: "##aquamarine"
+    force_clipboard: true
+    replace: "#7FFFD4"
+  - trigger: "##rgb-aquamarine"
+    force_clipboard: true
+    replace: "127, 255, 212"
+  - trigger: "##families-aquamarine"
+    force_clipboard: true
+    replace: "blue, aquamarine"
+  - trigger: "##turquoise"
+    force_clipboard: true
+    replace: "#40E0D0"
+  - trigger: "##rgb-turquoise"
+    force_clipboard: true
+    replace: "64, 224, 208"
+  - trigger: "##families-turquoise"
+    force_clipboard: true
+    replace: "blue, turquoise"
+  - trigger: "##mediumturquoise"
+    force_clipboard: true
+    replace: "#48D1CC"
+  - trigger: "##rgb-mediumturquoise"
+    force_clipboard: true
+    replace: "72, 209, 204"
+  - trigger: "##families-mediumturquoise"
+    force_clipboard: true
+    replace: "blue, turquoise, medium"
+  - trigger: "##darkturquoise"
+    force_clipboard: true
+    replace: "#00CED1"
+  - trigger: "##rgb-darkturquoise"
+    force_clipboard: true
+    replace: "0, 206, 209"
+  - trigger: "##families-darkturquoise"
+    force_clipboard: true
+    replace: "blue, turquoise, dark"
+  - trigger: "##cadetblue"
+    force_clipboard: true
+    replace: "#5F9EA0"
+  - trigger: "##rgb-cadetblue"
+    force_clipboard: true
+    replace: "95, 158, 160"
+  - trigger: "##families-cadetblue"
+    force_clipboard: true
+    replace: "blue, gray"
+  - trigger: "##steelblue"
+    force_clipboard: true
+    replace: "#4682B4"
+  - trigger: "##rgb-steelblue"
+    force_clipboard: true
+    replace: "70, 130, 180"
+  - trigger: "##families-steelblue"
+    force_clipboard: true
+    replace: "blue, steel"
+  - trigger: "##lightsteelblue"
+    force_clipboard: true
+    replace: "#B0C4DE"
+  - trigger: "##rgb-lightsteelblue"
+    force_clipboard: true
+    replace: "176, 196, 222"
+  - trigger: "##families-lightsteelblue"
+    force_clipboard: true
+    replace: "blue, steel, light"
+  - trigger: "##powderblue"
+    force_clipboard: true
+    replace: "#B0E0E6"
+  - trigger: "##rgb-powderblue"
+    force_clipboard: true
+    replace: "176, 224, 230"
+  - trigger: "##families-powderblue"
+    force_clipboard: true
+    replace: "blue"
+  - trigger: "##lightblue"
+    force_clipboard: true
+    replace: "#ADD8E6"
+  - trigger: "##rgb-lightblue"
+    force_clipboard: true
+    replace: "173, 216, 230"
+  - trigger: "##families-lightblue"
+    force_clipboard: true
+    replace: "blue, light"
+  - trigger: "##skyblue"
+    force_clipboard: true
+    replace: "#87CEEB"
+  - trigger: "##rgb-skyblue"
+    force_clipboard: true
+    replace: "135, 206, 235"
+  - trigger: "##families-skyblue"
+    force_clipboard: true
+    replace: "blue, sky"
+  - trigger: "##lightskyblue"
+    force_clipboard: true
+    replace: "#87CEFA"
+  - trigger: "##rgb-lightskyblue"
+    force_clipboard: true
+    replace: "135, 206, 250"
+  - trigger: "##families-lightskyblue"
+    force_clipboard: true
+    replace: "blue, sky, light"
+  - trigger: "##deepskyblue"
+    force_clipboard: true
+    replace: "#00BFFF"
+  - trigger: "##rgb-deepskyblue"
+    force_clipboard: true
+    replace: "0, 191, 255"
+  - trigger: "##families-deepskyblue"
+    force_clipboard: true
+    replace: "blue, sky, deep"
+  - trigger: "##dodgerblue"
+    force_clipboard: true
+    replace: "#1E90FF"
+  - trigger: "##rgb-dodgerblue"
+    force_clipboard: true
+    replace: "30, 144, 255"
+  - trigger: "##families-dodgerblue"
+    force_clipboard: true
+    replace: "blue"
+  - trigger: "##cornflowerblue"
+    force_clipboard: true
+    replace: "#6495ED"
+  - trigger: "##rgb-cornflowerblue"
+    force_clipboard: true
+    replace: "100, 149, 237"
+  - trigger: "##families-cornflowerblue"
+    force_clipboard: true
+    replace: "blue"
+  - trigger: "##royalblue"
+    force_clipboard: true
+    replace: "#4169E1"
+  - trigger: "##rgb-royalblue"
+    force_clipboard: true
+    replace: "65, 105, 225"
+  - trigger: "##families-royalblue"
+    force_clipboard: true
+    replace: "blue"
+  - trigger: "##blue"
+    force_clipboard: true
+    replace: "#0000FF"
+  - trigger: "##rgb-blue"
+    force_clipboard: true
+    replace: "0, 0, 255"
+  - trigger: "##families-blue"
+    force_clipboard: true
+    replace: "blue"
+  - trigger: "##mediumblue"
+    force_clipboard: true
+    replace: "#0000CD"
+  - trigger: "##rgb-mediumblue"
+    force_clipboard: true
+    replace: "0, 0, 205"
+  - trigger: "##families-mediumblue"
+    force_clipboard: true
+    replace: "blue, medium"
+  - trigger: "##darkblue"
+    force_clipboard: true
+    replace: "#00008B"
+  - trigger: "##rgb-darkblue"
+    force_clipboard: true
+    replace: "0, 0, 139"
+  - trigger: "##families-darkblue"
+    force_clipboard: true
+    replace: "blue, dark"
+  - trigger: "##navy"
+    force_clipboard: true
+    replace: "#00008B"
+  - trigger: "##rgb-navy"
+    force_clipboard: true
+    replace: "0, 0, 128"
+  - trigger: "##families-navy"
+    force_clipboard: true
+    replace: "blue, dark"
+  - trigger: "##midnightblue"
+    force_clipboard: true
+    replace: "#191970"
+  - trigger: "##rgb-midnightblue"
+    force_clipboard: true
+    replace: "25, 25, 112"
+  - trigger: "##families-midnightblue"
+    force_clipboard: true
+    replace: "blue, dark"
+  - trigger: "##cornsilk"
+    force_clipboard: true
+    replace: "#FFF8DC"
+  - trigger: "##rgb-cornsilk"
+    force_clipboard: true
+    replace: "255, 248, 220"
+  - trigger: "##families-cornsilk"
+    force_clipboard: true
+    replace: "brown, tan"
+  - trigger: "##blanchedalmond"
+    force_clipboard: true
+    replace: "#FFEBCD"
+  - trigger: "##rgb-blanchedalmond"
+    force_clipboard: true
+    replace: "255, 235, 205"
+  - trigger: "##families-blanchedalmond"
+    force_clipboard: true
+    replace: "brown, tan"
+  - trigger: "##bisque"
+    force_clipboard: true
+    replace: "#FFE4C4"
+  - trigger: "##rgb-bisque"
+    force_clipboard: true
+    replace: "255, 228, 196"
+  - trigger: "##families-bisque"
+    force_clipboard: true
+    replace: "brown, tan"
+  - trigger: "##navajowhite"
+    force_clipboard: true
+    replace: "#FFDEAD"
+  - trigger: "##rgb-navajowhite"
+    force_clipboard: true
+    replace: "255, 222, 173"
+  - trigger: "##families-navajowhite"
+    force_clipboard: true
+    replace: "brown, tan"
+  - trigger: "##wheat"
+    force_clipboard: true
+    replace: "#F5DEB3"
+  - trigger: "##rgb-wheat"
+    force_clipboard: true
+    replace: "245, 222, 179"
+  - trigger: "##families-wheat"
+    force_clipboard: true
+    replace: "brown, tan"
+  - trigger: "##burlywood"
+    force_clipboard: true
+    replace: "#DEB887"
+  - trigger: "##rgb-burlywood"
+    force_clipboard: true
+    replace: "222, 184, 135"
+  - trigger: "##families-burlywood"
+    force_clipboard: true
+    replace: "brown, tan"
+  - trigger: "##tan"
+    force_clipboard: true
+    replace: "#D2B48C"
+  - trigger: "##rgb-tan"
+    force_clipboard: true
+    replace: "210, 180, 140"
+  - trigger: "##families-tan"
+    force_clipboard: true
+    replace: "brown, tan"
+  - trigger: "##rosybrown"
+    force_clipboard: true
+    replace: "#BC8F8F"
+  - trigger: "##rgb-rosybrown"
+    force_clipboard: true
+    replace: "188, 143, 143"
+  - trigger: "##families-rosybrown"
+    force_clipboard: true
+    replace: "brown, tan"
+  - trigger: "##sandybrown"
+    force_clipboard: true
+    replace: "#F4A460"
+  - trigger: "##rgb-sandybrown"
+    force_clipboard: true
+    replace: "244, 164, 96"
+  - trigger: "##families-sandybrown"
+    force_clipboard: true
+    replace: "brown, orange"
+  - trigger: "##goldenrod"
+    force_clipboard: true
+    replace: "#DAA520"
+  - trigger: "##rgb-goldenrod"
+    force_clipboard: true
+    replace: "218, 165, 32"
+  - trigger: "##families-goldenrod"
+    force_clipboard: true
+    replace: "brown, goldenrod, orange"
+  - trigger: "##darkgoldenrod"
+    force_clipboard: true
+    replace: "#B8860B"
+  - trigger: "##rgb-darkgoldenrod"
+    force_clipboard: true
+    replace: "184, 134, 11"
+  - trigger: "##families-darkgoldenrod"
+    force_clipboard: true
+    replace: "brown, orange, goldenrod, dark"
+  - trigger: "##peru"
+    force_clipboard: true
+    replace: "#CD853F"
+  - trigger: "##rgb-peru"
+    force_clipboard: true
+    replace: "205, 133, 63"
+  - trigger: "##families-peru"
+    force_clipboard: true
+    replace: "brown, orange"
+  - trigger: "##chocolate"
+    force_clipboard: true
+    replace: "#D2691E"
+  - trigger: "##rgb-chocolate"
+    force_clipboard: true
+    replace: "210, 105, 30"
+  - trigger: "##families-chocolate"
+    force_clipboard: true
+    replace: "brown, orange"
+  - trigger: "##saddlebrown"
+    force_clipboard: true
+    replace: "#8B4513"
+  - trigger: "##rgb-saddlebrown"
+    force_clipboard: true
+    replace: "139, 69, 19"
+  - trigger: "##families-saddlebrown"
+    force_clipboard: true
+    replace: "brown"
+  - trigger: "##sienna"
+    force_clipboard: true
+    replace: "#A0522D"
+  - trigger: "##rgb-sienna"
+    force_clipboard: true
+    replace: "160, 82, 45"
+  - trigger: "##families-sienna"
+    force_clipboard: true
+    replace: "brown"
+  - trigger: "##brown"
+    force_clipboard: true
+    replace: "#A52A2A"
+  - trigger: "##rgb-brown"
+    force_clipboard: true
+    replace: "165, 42, 42"
+  - trigger: "##families-brown"
+    force_clipboard: true
+    replace: "brown, red"
+  - trigger: "##maroon"
+    force_clipboard: true
+    replace: "#800000"
+  - trigger: "##rgb-maroon"
+    force_clipboard: true
+    replace: "128, 0, 0"
+  - trigger: "##families-maroon"
+    force_clipboard: true
+    replace: "brown, red"
+  - trigger: "##white"
+    force_clipboard: true
+    replace: "#FFFFFF"
+  - trigger: "##rgb-white"
+    force_clipboard: true
+    replace: "255, 255, 255"
+  - trigger: "##families-white"
+    force_clipboard: true
+    replace: "white"
+  - trigger: "##snow"
+    force_clipboard: true
+    replace: "#FFFAFA"
+  - trigger: "##rgb-snow"
+    force_clipboard: true
+    replace: "255, 250, 250"
+  - trigger: "##families-snow"
+    force_clipboard: true
+    replace: "white"
+  - trigger: "##honeydew"
+    force_clipboard: true
+    replace: "#F0FFF0"
+  - trigger: "##rgb-honeydew"
+    force_clipboard: true
+    replace: "240, 255, 240"
+  - trigger: "##families-honeydew"
+    force_clipboard: true
+    replace: "white"
+  - trigger: "##mintcream"
+    force_clipboard: true
+    replace: "#F5FFFA"
+  - trigger: "##rgb-mintcream"
+    force_clipboard: true
+    replace: "245, 255, 250"
+  - trigger: "##families-mintcream"
+    force_clipboard: true
+    replace: "white"
+  - trigger: "##azure"
+    force_clipboard: true
+    replace: "#F0FFFF"
+  - trigger: "##rgb-azure"
+    force_clipboard: true
+    replace: "240, 255, 255"
+  - trigger: "##families-azure"
+    force_clipboard: true
+    replace: "white"
+  - trigger: "##aliceblue"
+    force_clipboard: true
+    replace: "#F0F8FF"
+  - trigger: "##rgb-aliceblue"
+    force_clipboard: true
+    replace: "240, 248, 255"
+  - trigger: "##families-aliceblue"
+    force_clipboard: true
+    replace: "white"
+  - trigger: "##ghostwhite"
+    force_clipboard: true
+    replace: "#F8F8FF"
+  - trigger: "##rgb-ghostwhite"
+    force_clipboard: true
+    replace: "248, 248, 255"
+  - trigger: "##families-ghostwhite"
+    force_clipboard: true
+    replace: "white"
+  - trigger: "##whitesmoke"
+    force_clipboard: true
+    replace: "#F5F5F5"
+  - trigger: "##rgb-whitesmoke"
+    force_clipboard: true
+    replace: "245, 245, 245"
+  - trigger: "##families-whitesmoke"
+    force_clipboard: true
+    replace: "white"
+  - trigger: "##seashell"
+    force_clipboard: true
+    replace: "#FFF5EE"
+  - trigger: "##rgb-seashell"
+    force_clipboard: true
+    replace: "255, 245, 238"
+  - trigger: "##families-seashell"
+    force_clipboard: true
+    replace: "white, pink"
+  - trigger: "##beige"
+    force_clipboard: true
+    replace: "#F5F5DC"
+  - trigger: "##rgb-beige"
+    force_clipboard: true
+    replace: "245, 245, 220"
+  - trigger: "##families-beige"
+    force_clipboard: true
+    replace: "white, tan"
+  - trigger: "##oldlace"
+    force_clipboard: true
+    replace: "#FDF5E6"
+  - trigger: "##rgb-oldlace"
+    force_clipboard: true
+    replace: "253, 245, 230"
+  - trigger: "##families-oldlace"
+    force_clipboard: true
+    replace: "white, tan"
+  - trigger: "##floralwhite"
+    force_clipboard: true
+    replace: "#FDF5E6"
+  - trigger: "##rgb-floralwhite"
+    force_clipboard: true
+    replace: "253, 245, 230"
+  - trigger: "##families-floralwhite"
+    force_clipboard: true
+    replace: "white, tan"
+  - trigger: "##ivory"
+    force_clipboard: true
+    replace: "#FFFFF0"
+  - trigger: "##rgb-ivory"
+    force_clipboard: true
+    replace: "255, 255, 240"
+  - trigger: "##families-ivory"
+    force_clipboard: true
+    replace: "white, tan"
+  - trigger: "##antiquewhite"
+    force_clipboard: true
+    replace: "#FAEBD7"
+  - trigger: "##rgb-antiquewhite"
+    force_clipboard: true
+    replace: "250, 235, 215"
+  - trigger: "##families-antiquewhite"
+    force_clipboard: true
+    replace: "white, tan"
+  - trigger: "##linen"
+    force_clipboard: true
+    replace: "#FAF0E6"
+  - trigger: "##rgb-linen"
+    force_clipboard: true
+    replace: "250, 240, 230"
+  - trigger: "##families-linen"
+    force_clipboard: true
+    replace: "white, tan"
+  - trigger: "##lavenderblush"
+    force_clipboard: true
+    replace: "#FFF0F5"
+  - trigger: "##rgb-lavenderblush"
+    force_clipboard: true
+    replace: "255, 240, 245"
+  - trigger: "##families-lavenderblush"
+    force_clipboard: true
+    replace: "white, lavender, pink"
+  - trigger: "##mistyrose"
+    force_clipboard: true
+    replace: "#FFE4E1"
+  - trigger: "##rgb-mistyrose"
+    force_clipboard: true
+    replace: "255, 228, 225"
+  - trigger: "##families-mistyrose"
+    force_clipboard: true
+    replace: "white, pink"
+  - trigger: "##gainsboro"
+    force_clipboard: true
+    replace: "#DCDCDC"
+  - trigger: "##rgb-gainsboro"
+    force_clipboard: true
+    replace: "220, 220, 220"
+  - trigger: "##families-gainsboro"
+    force_clipboard: true
+    replace: "gray"
+  - trigger: "##lightgray"
+    force_clipboard: true
+    replace: "#D3D3D3"
+  - trigger: "##rgb-lightgray"
+    force_clipboard: true
+    replace: "211, 211, 211"
+  - trigger: "##families-lightgray"
+    force_clipboard: true
+    replace: "gray, light"
+  - trigger: "##silver"
+    force_clipboard: true
+    replace: "#C0C0C0"
+  - trigger: "##rgb-silver"
+    force_clipboard: true
+    replace: "192, 192, 192"
+  - trigger: "##families-silver"
+    force_clipboard: true
+    replace: "gray"
+  - trigger: "##darkgray"
+    force_clipboard: true
+    replace: "#A9A9A9"
+  - trigger: "##rgb-darkgray"
+    force_clipboard: true
+    replace: "169, 169, 169"
+  - trigger: "##families-darkgray"
+    force_clipboard: true
+    replace: "gray, dark"
+  - trigger: "##gray"
+    force_clipboard: true
+    replace: "#808080"
+  - trigger: "##rgb-gray"
+    force_clipboard: true
+    replace: "128, 128, 128"
+  - trigger: "##families-gray"
+    force_clipboard: true
+    replace: "gray"
+  - trigger: "##dimgray"
+    force_clipboard: true
+    replace: "#696969"
+  - trigger: "##rgb-dimgray"
+    force_clipboard: true
+    replace: "105, 105, 105"
+  - trigger: "##families-dimgray"
+    force_clipboard: true
+    replace: "gray"
+  - trigger: "##lightslategray"
+    force_clipboard: true
+    replace: "#778899"
+  - trigger: "##rgb-lightslategray"
+    force_clipboard: true
+    replace: "119, 136, 153"
+  - trigger: "##families-lightslategray"
+    force_clipboard: true
+    replace: "gray, light, slate"
+  - trigger: "##slategray"
+    force_clipboard: true
+    replace: "#708090"
+  - trigger: "##rgb-slategray"
+    force_clipboard: true
+    replace: "112, 128, 144"
+  - trigger: "##families-slategray"
+    force_clipboard: true
+    replace: "gray, slate"
+  - trigger: "##darkslategray"
+    force_clipboard: true
+    replace: "#2F4F4F"
+  - trigger: "##rgb-darkslategray"
+    force_clipboard: true
+    replace: "47, 79, 79"
+  - trigger: "##families-darkslategray"
+    force_clipboard: true
+    replace: "gray, slate, dark"
+  - trigger: "##black"
+    force_clipboard: true
+    replace: "#000000"
+  - trigger: "##rgb-black"
+    force_clipboard: true
+    replace: "0, 0, 0"
+  - trigger: "##families-black"
+    force_clipboard: true
+    replace: "black"
