@@ -1,0 +1,7 @@
+name: "html-colors"
+title: "HTML Colors"
+description: HTML color codes in hex and RGB formats.
+version: 0.1.0
+homepage: "https://github.com/danielvartan/html-colors"
+author: Daniel Vartanian
+tags: ["html", "colors", "colours", "hex colors", "rgb colors"]

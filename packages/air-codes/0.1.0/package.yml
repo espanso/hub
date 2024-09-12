@@ -1,0 +1,5651 @@
+matches:
+  # Provide airport data based on IATA's three-letter airport codes
+  - trigger: "::LHR?"
+    replace: "London Heathrow Airport, London, GB (LHR)"
+
+  - trigger: "::LAX?"
+    replace: "Los Angeles / Tom Bradley International Airport, Los Angeles, US (LAX)"
+
+  - trigger: "::ORD?"
+    replace: "Chicago O'Hare International Airport, Chicago, US (ORD)"
+
+  - trigger: "::JFK?"
+    replace: "John F Kennedy International Airport, New York, US (JFK)"
+
+  - trigger: "::ATL?"
+    replace: "Hartsfield Jackson Atlanta International Airport, Atlanta, US (ATL)"
+
+  - trigger: "::CDG?"
+    replace: "Charles de Gaulle International Airport, Paris, FR (CDG)"
+
+  - trigger: "::SFO?"
+    replace: "San Francisco International Airport, San Francisco, US (SFO)"
+
+  - trigger: "::AMS?"
+    replace: "Amsterdam Airport Schiphol, Amsterdam, NL (AMS)"
+
+  - trigger: "::FRA?"
+    replace: "Frankfurt Airport, Frankfurt am Main, DE (FRA)"
+
+  - trigger: "::EWR?"
+    replace: "Newark Liberty International Airport, Newark, US (EWR)"
+
+  - trigger: "::DFW?"
+    replace: "Dallas Fort Worth International Airport, Dallas-Fort Worth, US (DFW)"
+
+  - trigger: "::LAS?"
+    replace: "Harry Reid International Airport, Las Vegas, US (LAS)"
+
+  - trigger: "::MCO?"
+    replace: "Orlando International Airport, Orlando, US (MCO)"
+
+  - trigger: "::DEN?"
+    replace: "Denver International Airport, Denver, US (DEN)"
+
+  - trigger: "::IAD?"
+    replace: "Washington Dulles International Airport, Dulles, US (IAD)"
+
+  - trigger: "::LGA?"
+    replace: "La Guardia Airport, New York, US (LGA)"
+
+  - trigger: "::MIA?"
+    replace: "Miami International Airport, Miami, US (MIA)"
+
+  - trigger: "::SEA?"
+    replace: "Seattle–Tacoma International Airport, Seattle, US (SEA)"
+
+  - trigger: "::PHX?"
+    replace: "Phoenix Sky Harbor International Airport, Phoenix, US (PHX)"
+
+  - trigger: "::BOS?"
+    replace: "Logan International Airport, Boston, US (BOS)"
+
+  - trigger: "::PHL?"
+    replace: "Philadelphia International Airport, Philadelphia, US (PHL)"
+
+  - trigger: "::CLT?"
+    replace: "Charlotte Douglas International Airport, Charlotte, US (CLT)"
+
+  - trigger: "::LGW?"
+    replace: "London Gatwick Airport, London, GB (LGW)"
+
+  - trigger: "::IAH?"
+    replace: "George Bush Intercontinental Houston Airport, Houston, US (IAH)"
+
+  - trigger: "::DTW?"
+    replace: "Detroit Metropolitan Wayne County Airport, Detroit, US (DTW)"
+
+  - trigger: "::DCA?"
+    replace: "Ronald Reagan Washington National Airport, Washington, US (DCA)"
+
+  - trigger: "::YYZ?"
+    replace: "Toronto Lester B. Pearson International Airport, Toronto, CA (YYZ)"
+
+  - trigger: "::MSP?"
+    replace: "Minneapolis–Saint Paul International Airport / Wold–Chamberlain Field, Minneapolis, US (MSP)"
+
+  - trigger: "::MUC?"
+    replace: "Munich Airport, Munich, DE (MUC)"
+
+  - trigger: "::BCN?"
+    replace: "Josep Tarradellas Barcelona-El Prat Airport, Barcelona, ES (BCN)"
+
+  - trigger: "::FCO?"
+    replace: "Rome–Fiumicino Leonardo da Vinci International Airport, Rome, IT (FCO)"
+
+  - trigger: "::MAD?"
+    replace: "Adolfo Suárez Madrid–Barajas Airport, Madrid, ES (MAD)"
+
+  - trigger: "::SLC?"
+    replace: "Salt Lake City International Airport, Salt Lake City, US (SLC)"
+
+  - trigger: "::FLL?"
+    replace: "Fort Lauderdale Hollywood International Airport, Fort Lauderdale, US (FLL)"
+
+  - trigger: "::MDW?"
+    replace: "Chicago Midway International Airport, Chicago, US (MDW)"
+
+  - trigger: "::ZRH?"
+    replace: "Zürich Airport, Zurich, CH (ZRH)"
+
+  - trigger: "::BWI?"
+    replace: "Baltimore/Washington International Thurgood Marshall Airport, Baltimore, US (BWI)"
+
+  - trigger: "::SAN?"
+    replace: "San Diego International Airport, San Diego, US (SAN)"
+
+  - trigger: "::CPH?"
+    replace: "Copenhagen Kastrup Airport, Copenhagen, DK (CPH)"
+
+  - trigger: "::BRU?"
+    replace: "Brussels Airport, Zaventem, BE (BRU)"
+
+  - trigger: "::DUB?"
+    replace: "Dublin Airport, Dublin, IE (DUB)"
+
+  - trigger: "::SIN?"
+    replace: "Singapore Changi Airport, Singapore, SG (SIN)"
+
+  - trigger: "::STL?"
+    replace: "St Louis Lambert International Airport, St Louis, US (STL)"
+
+  - trigger: "::DXB?"
+    replace: "Dubai International Airport, Dubai, AE (DXB)"
+
+  - trigger: "::VIE?"
+    replace: "Vienna International Airport, Vienna, AT (VIE)"
+
+  - trigger: "::YVR?"
+    replace: "Vancouver International Airport, Vancouver, CA (YVR)"
+
+  - trigger: "::NRT?"
+    replace: "Narita International Airport, Narita, JP (NRT)"
+
+  - trigger: "::HNL?"
+    replace: "Daniel K Inouye International Airport, Honolulu, US (HNL)"
+
+  - trigger: "::STN?"
+    replace: "London Stansted Airport, London, GB (STN)"
+
+  - trigger: "::PDX?"
+    replace: "Portland International Airport, Portland, US (PDX)"
+
+  - trigger: "::YUL?"
+    replace: "Montreal / Pierre Elliott Trudeau International Airport, Montréal, CA (YUL)"
+
+  - trigger: "::MSY?"
+    replace: "Louis Armstrong New Orleans International Airport, New Orleans, US (MSY)"
+
+  - trigger: "::HKG?"
+    replace: "Hong Kong International Airport, Islands, HK (HKG)"
+
+  - trigger: "::ARN?"
+    replace: "Stockholm-Arlanda Airport, Stockholm, SE (ARN)"
+
+  - trigger: "::TPA?"
+    replace: "Tampa International Airport, Tampa, US (TPA)"
+
+  - trigger: "::LIS?"
+    replace: "Humberto Delgado Airport (Lisbon Portela Airport), Lisbon, PT (LIS)"
+
+  - trigger: "::BNA?"
+    replace: "Nashville International Airport, Nashville, US (BNA)"
+
+  - trigger: "::PRG?"
+    replace: "Václav Havel Airport Prague, Prague, CZ (PRG)"
+
+  - trigger: "::CVG?"
+    replace: "Cincinnati Northern Kentucky International Airport, Cincinnati / Covington, US (CVG)"
+
+  - trigger: "::SYD?"
+    replace: "Sydney Kingsford Smith International Airport, Sydney, AU (SYD)"
+
+  - trigger: "::BKK?"
+    replace: "Suvarnabhumi Airport, Bangkok, TH (BKK)"
+
+  - trigger: "::AUS?"
+    replace: "Austin Bergstrom International Airport, Austin, US (AUS)"
+
+  - trigger: "::CUN?"
+    replace: "Aeropuerto Internacional de Cancún, Ciudad de Cancún, MX (CUN)"
+
+  - trigger: "::PIT?"
+    replace: "Pittsburgh International Airport, Pittsburgh, US (PIT)"
+
+  - trigger: "::MXP?"
+    replace: "Malpensa International Airport, Milan, IT (MXP)"
+
+  - trigger: "::RDU?"
+    replace: "Raleigh Durham International Airport, Raleigh/Durham, US (RDU)"
+
+  - trigger: "::ISL?"
+    replace: "İstanbul Atatürk Airport, Bakırköy, Istanbul, TR (ISL)"
+
+  - trigger: "::ATH?"
+    replace: "Athens Eleftherios Venizelos International Airport, Athens, GR (ATH)"
+
+  - trigger: "::SJC?"
+    replace: "Norman Y. Mineta San Jose International Airport, San Jose, US (SJC)"
+
+  - trigger: "::BUD?"
+    replace: "Budapest Liszt Ferenc International Airport, Budapest, HU (BUD)"
+
+  - trigger: "::MCI?"
+    replace: "Kansas City International Airport, Kansas City, US (MCI)"
+
+  - trigger: "::OSL?"
+    replace: "Oslo Airport, Gardermoen, Oslo, NO (OSL)"
+
+  - trigger: "::OAK?"
+    replace: "Metropolitan Oakland International Airport, Oakland, US (OAK)"
+
+  - trigger: "::SAT?"
+    replace: "San Antonio International Airport, San Antonio, US (SAT)"
+
+  - trigger: "::MEM?"
+    replace: "Memphis International Airport, Memphis, US (MEM)"
+
+  - trigger: "::SNA?"
+    replace: "John Wayne Orange County International Airport, Santa Ana, US (SNA)"
+
+  - trigger: "::PEK?"
+    replace: "Beijing Capital International Airport, Beijing, CN (PEK)"
+
+  - trigger: "::KEF?"
+    replace: "Keflavik International Airport, Reykjavík, IS (KEF)"
+
+  - trigger: "::MAN?"
+    replace: "Manchester Airport, Manchester, GB (MAN)"
+
+  - trigger: "::HEL?"
+    replace: "Helsinki Vantaa Airport, Helsinki, FI (HEL)"
+
+  - trigger: "::CLE?"
+    replace: "Cleveland Hopkins International Airport, Cleveland, US (CLE)"
+
+  - trigger: "::GVA?"
+    replace: "Geneva Cointrin International Airport, Geneva, CH (GVA)"
+
+  - trigger: "::KUL?"
+    replace: "Kuala Lumpur International Airport, Sepang, MY (KUL)"
+
+  - trigger: "::ORY?"
+    replace: "Paris-Orly Airport, Paris, FR (ORY)"
+
+  - trigger: "::IND?"
+    replace: "Indianapolis International Airport, Indianapolis, US (IND)"
+
+  - trigger: "::EDI?"
+    replace: "Edinburgh Airport, Edinburgh, GB (EDI)"
+
+  - trigger: "::YYC?"
+    replace: "Calgary International Airport, Calgary, CA (YYC)"
+
+  - trigger: "::DUS?"
+    replace: "Düsseldorf Airport, Düsseldorf, DE (DUS)"
+
+  - trigger: "::MEX?"
+    replace: "Aeropuerto Internacional Lic. Benito Juárez, Ciudad de México, MX (MEX)"
+
+  - trigger: "::PMI?"
+    replace: "Palma de Mallorca Airport, Palma de Mallorca, ES (PMI)"
+
+  - trigger: "::VCE?"
+    replace: "Venice Marco Polo Airport, Venice, IT (VCE)"
+
+  - trigger: "::CMH?"
+    replace: "John Glenn Columbus International Airport, Columbus, US (CMH)"
+
+  - trigger: "::ICN?"
+    replace: "Incheon International Airport, Seoul, KR (ICN)"
+
+  - trigger: "::LTN?"
+    replace: "London Luton Airport, London, GB (LTN)"
+
+  - trigger: "::WAW?"
+    replace: "Warsaw Chopin Airport, Warsaw, PL (WAW)"
+
+  - trigger: "::MEL?"
+    replace: "Melbourne International Airport, Melbourne, AU (MEL)"
+
+  - trigger: "::PVG?"
+    replace: "Shanghai Pudong International Airport, Shanghai (Pudong), CN (PVG)"
+
+  - trigger: "::MKE?"
+    replace: "General Mitchell International Airport, Milwaukee, US (MKE)"
+
+  - trigger: "::DEL?"
+    replace: "Indira Gandhi International Airport, New Delhi, IN (DEL)"
+
+  - trigger: "::AGP?"
+    replace: "Málaga-Costa del Sol Airport, Málaga, ES (AGP)"
+
+  - trigger: "::SJU?"
+    replace: "Luis Munoz Marin International Airport, San Juan, PR (SJU)"
+
+  - trigger: "::NCE?"
+    replace: "Nice-Côte d'Azur Airport, Nice, FR (NCE)"
+
+  - trigger: "::JNB?"
+    replace: "OR Tambo International Airport, Johannesburg, ZA (JNB)"
+
+  - trigger: "::JAX?"
+    replace: "Jacksonville International Airport, Jacksonville, US (JAX)"
+
+  - trigger: "::HAM?"
+    replace: "Hamburg Helmut Schmidt Airport, Hamburg, DE (HAM)"
+
+  - trigger: "::TLV?"
+    replace: "Ben Gurion International Airport, Tel Aviv, IL (TLV)"
+
+  - trigger: "::AKL?"
+    replace: "Auckland International Airport, Auckland, NZ (AKL)"
+
+  - trigger: "::BUF?"
+    replace: "Buffalo Niagara International Airport, Buffalo, US (BUF)"
+
+  - trigger: "::ANC?"
+    replace: "Ted Stevens Anchorage International Airport, Anchorage, US (ANC)"
+
+  - trigger: "::YOW?"
+    replace: "Ottawa Macdonald-Cartier International Airport, Ottawa, CA (YOW)"
+
+  - trigger: "::GRU?"
+    replace: "Guarulhos - Governador André Franco Montoro International Airport, São Paulo, BR (GRU)"
+
+  - trigger: "::SVO?"
+    replace: "Sheremetyevo International Airport, Moscow, RU (SVO)"
+
+  - trigger: "::GLA?"
+    replace: "Glasgow International Airport, Paisley, Renfrewshire, GB (GLA)"
+
+  - trigger: "::DMK?"
+    replace: "Don Mueang International Airport, Bangkok, TH (DMK)"
+
+  - trigger: "::HND?"
+    replace: "Tokyo Haneda International Airport, Tokyo, JP (HND)"
+
+  - trigger: "::CAI?"
+    replace: "Cairo International Airport, Cairo, EG (CAI)"
+
+  - trigger: "::CGN?"
+    replace: "Cologne Bonn Airport, Köln (Cologne), DE (CGN)"
+
+  - trigger: "::EZE?"
+    replace: "Minister Pistarini International Airport, Buenos Aires (Ezeiza), AR (EZE)"
+
+  - trigger: "::BNE?"
+    replace: "Brisbane International Airport, Brisbane, AU (BNE)"
+
+  - trigger: "::BOM?"
+    replace: "Chhatrapati Shivaji International Airport, Mumbai, IN (BOM)"
+
+  - trigger: "::AUH?"
+    replace: "Abu Dhabi International Airport, Abu Dhabi, AE (AUH)"
+
+  - trigger: "::TPE?"
+    replace: "Taiwan Taoyuan International Airport, Taoyuan (Dayuan), TW (TPE)"
+
+  - trigger: "::LIM?"
+    replace: "Jorge Chávez International Airport, Lima, PE (LIM)"
+
+  - trigger: "::SMF?"
+    replace: "Sacramento International Airport, Sacramento, US (SMF)"
+
+  - trigger: "::DPS?"
+    replace: "Ngurah Rai (Bali) International Airport, Denpasar, ID (DPS)"
+
+  - trigger: "::OMA?"
+    replace: "Eppley Airfield, Omaha, US (OMA)"
+
+  - trigger: "::MNL?"
+    replace: "Ninoy Aquino International Airport, Manila, PH (MNL)"
+
+  - trigger: "::PBI?"
+    replace: "Palm Beach International Airport, West Palm Beach, US (PBI)"
+
+  - trigger: "::LPA?"
+    replace: "Gran Canaria Airport, Gran Canaria Island, ES (LPA)"
+
+  - trigger: "::RNO?"
+    replace: "Reno Tahoe International Airport, Reno, US (RNO)"
+
+  - trigger: "::PVD?"
+    replace: "Theodore Francis Green State Airport, Warwick, US (PVD)"
+
+  - trigger: "::SDF?"
+    replace: "Louisville Muhammad Ali International Airport, Louisville, US (SDF)"
+
+  - trigger: "::CPT?"
+    replace: "Cape Town International Airport, Cape Town, ZA (CPT)"
+
+  - trigger: "::MLA?"
+    replace: "Malta International Airport, Valletta, MT (MLA)"
+
+  - trigger: "::STR?"
+    replace: "Stuttgart Airport, Stuttgart, DE (STR)"
+
+  - trigger: "::DOH?"
+    replace: "Hamad International Airport, Doha, QA (DOH)"
+
+  - trigger: "::GIG?"
+    replace: "Rio Galeão – Tom Jobim International Airport, Rio De Janeiro, BR (GIG)"
+
+  - trigger: "::SCL?"
+    replace: "Comodoro Arturo Merino Benítez International Airport, Santiago, CL (SCL)"
+
+  - trigger: "::BHX?"
+    replace: "Birmingham International Airport, Birmingham, GB (BHX)"
+
+  - trigger: "::YEG?"
+    replace: "Edmonton International Airport, Edmonton, CA (YEG)"
+
+  - trigger: "::YWG?"
+    replace: "Winnipeg / James Armstrong Richardson International Airport, Winnipeg, CA (YWG)"
+
+  - trigger: "::SAV?"
+    replace: "Savannah Hilton Head International Airport, Savannah, US (SAV)"
+
+  - trigger: "::RIC?"
+    replace: "Richmond International Airport, Richmond, US (RIC)"
+
+  - trigger: "::RIX?"
+    replace: "Riga International Airport, Riga, LV (RIX)"
+
+  - trigger: "::BGY?"
+    replace: "Milan Bergamo Airport, Milan, IT (BGY)"
+
+  - trigger: "::RSW?"
+    replace: "Southwest Florida International Airport, Fort Myers, US (RSW)"
+
+  - trigger: "::YHZ?"
+    replace: "Halifax / Stanfield International Airport, Halifax, CA (YHZ)"
+
+  - trigger: "::PTY?"
+    replace: "Tocumen International Airport, Tocumen, PA (PTY)"
+
+  - trigger: "::BGO?"
+    replace: "Bergen Airport, Flesland, Bergen, NO (BGO)"
+
+  - trigger: "::OPO?"
+    replace: "Francisco de Sá Carneiro Airport, Porto, PT (OPO)"
+
+  - trigger: "::HKT?"
+    replace: "Phuket International Airport, Phuket, TH (HKT)"
+
+  - trigger: "::SGN?"
+    replace: "Tan Son Nhat International Airport, Ho Chi Minh City, VN (SGN)"
+
+  - trigger: "::HER?"
+    replace: "Heraklion International Nikos Kazantzakis Airport, Heraklion, GR (HER)"
+
+  - trigger: "::OTP?"
+    replace: "Henri Coandă International Airport, Bucharest, RO (OTP)"
+
+  - trigger: "::ONT?"
+    replace: "Ontario International Airport, Ontario, US (ONT)"
+
+  - trigger: "::CGK?"
+    replace: "Soekarno-Hatta International Airport, Jakarta, ID (CGK)"
+
+  - trigger: "::AYT?"
+    replace: "Antalya International Airport, Antalya, TR (AYT)"
+
+  - trigger: "::NBO?"
+    replace: "Jomo Kenyatta International Airport, Nairobi, KE (NBO)"
+
+  - trigger: "::SYR?"
+    replace: "Syracuse Hancock International Airport, Syracuse, US (SYR)"
+
+  - trigger: "::LCA?"
+    replace: "Larnaca International Airport, Larnaca, CY (LCA)"
+
+  - trigger: "::TFS?"
+    replace: "Tenerife Sur Airport, Tenerife, ES (TFS)"
+
+  - trigger: "::KRK?"
+    replace: "Kraków John Paul II International Airport, Kraków, PL (KRK)"
+
+  - trigger: "::KIX?"
+    replace: "Kansai International Airport, Osaka, JP (KIX)"
+
+  - trigger: "::TUL?"
+    replace: "Tulsa International Airport, Tulsa, US (TUL)"
+
+  - trigger: "::FAO?"
+    replace: "Faro Airport, Faro, PT (FAO)"
+
+  - trigger: "::PWM?"
+    replace: "Portland International Jetport, Portland, US (PWM)"
+
+  - trigger: "::ALC?"
+    replace: "Alicante-Elche Miguel Hernández Airport, Alicante, ES (ALC)"
+
+  - trigger: "::BEG?"
+    replace: "Belgrade Nikola Tesla Airport, Belgrade, RS (BEG)"
+
+  - trigger: "::MRS?"
+    replace: "Marseille Provence Airport, Marseille, FR (MRS)"
+
+  - trigger: "::BLQ?"
+    replace: "Bologna Guglielmo Marconi Airport, Bologna, IT (BLQ)"
+
+  - trigger: "::CHC?"
+    replace: "Christchurch International Airport, Christchurch, NZ (CHC)"
+
+  - trigger: "::ZAG?"
+    replace: "Zagreb Airport, Zagreb, HR (ZAG)"
+
+  - trigger: "::YQB?"
+    replace: "Quebec Jean Lesage International Airport, Quebec, CA (YQB)"
+
+  - trigger: "::GOT?"
+    replace: "Gothenburg-Landvetter Airport, Gothenburg, SE (GOT)"
+
+  - trigger: "::DME?"
+    replace: "Domodedovo International Airport, Moscow, RU (DME)"
+
+  - trigger: "::NAS?"
+    replace: "Lynden Pindling International Airport, Nassau, BS (NAS)"
+
+  - trigger: "::BOG?"
+    replace: "El Dorado International Airport, Bogota, CO (BOG)"
+
+  - trigger: "::PUJ?"
+    replace: "Punta Cana International Airport, Punta Cana, DO (PUJ)"
+
+  - trigger: "::NAP?"
+    replace: "Naples International Airport, Napoli, IT (NAP)"
+
+  - trigger: "::PER?"
+    replace: "Perth International Airport, Perth, AU (PER)"
+
+  - trigger: "::HAN?"
+    replace: "Noi Bai International Airport, Hanoi (Soc Son), VN (HAN)"
+
+  - trigger: "::BSL?"
+    replace: "EuroAirport Basel-Mulhouse-Freiburg, Saint-Louis, FR (BSL)"
+
+  - trigger: "::YYJ?"
+    replace: "Victoria International Airport, Victoria, CA (YYJ)"
+
+  - trigger: "::TLS?"
+    replace: "Toulouse-Blagnac Airport, Toulouse/Blagnac, FR (TLS)"
+
+  - trigger: "::SAW?"
+    replace: "Istanbul Sabiha Gökçen International Airport, Pendik, Istanbul, TR (SAW)"
+
+  - trigger: "::LED?"
+    replace: "Pulkovo Airport, St. Petersburg, RU (LED)"
+
+  - trigger: "::TLL?"
+    replace: "Lennart Meri Tallinn Airport, Tallinn, EE (TLL)"
+
+  - trigger: "::SNN?"
+    replace: "Shannon Airport, Shannon, IE (SNN)"
+
+  - trigger: "::HAV?"
+    replace: "José Martí International Airport, Havana, CU (HAV)"
+
+  - trigger: "::PVR?"
+    replace: "Aeropuerto Internacional Lic. Gustavo Díaz Ordaz, Ciudad de Puerto Vallarta, MX (PVR)"
+
+  - trigger: "::EIN?"
+    replace: "Eindhoven Airport, Eindhoven, NL (EIN)"
+
+  - trigger: "::CMN?"
+    replace: "Mohammed V International Airport, Casablanca, MA (CMN)"
+
+  - trigger: "::PSA?"
+    replace: "Pisa International Airport, Pisa, IT (PSA)"
+
+  - trigger: "::LYS?"
+    replace: "Lyon Saint-Exupéry Airport, Lyon, FR (LYS)"
+
+  - trigger: "::LUX?"
+    replace: "Luxembourg-Findel International Airport, Luxembourg, LU (LUX)"
+
+  - trigger: "::NUE?"
+    replace: "Nuremberg Airport, Nuremberg, DE (NUE)"
+
+  - trigger: "::SOF?"
+    replace: "Sofia Airport, Sofia, BG (SOF)"
+
+  - trigger: "::MCT?"
+    replace: "Muscat International Airport, Muscat, OM (MCT)"
+
+  - trigger: "::LJU?"
+    replace: "Ljubljana Jože Pučnik Airport, Ljubljana, SI (LJU)"
+
+  - trigger: "::IST?"
+    replace: "İstanbul Airport, Arnavutköy, Istanbul, TR (IST)"
+
+  - trigger: "::CUZ?"
+    replace: "Alejandro Velasco Astete International Airport, Cusco, PE (CUZ)"
+
+  - trigger: "::KBP?"
+    replace: "Boryspil International Airport, Boryspil, UA (KBP)"
+
+  - trigger: "::CMB?"
+    replace: "Bandaranaike International Colombo Airport, Colombo, LK (CMB)"
+
+  - trigger: "::AMM?"
+    replace: "Queen Alia International Airport, Amman, JO (AMM)"
+
+  - trigger: "::SHA?"
+    replace: "Shanghai Hongqiao International Airport, Shanghai (Minhang), CN (SHA)"
+
+  - trigger: "::SJD?"
+    replace: "Aeropuerto Internacional de Los Cabos, Ciudad de San José del Cabo, MX (SJD)"
+
+  - trigger: "::SFB?"
+    replace: "Orlando Sanford International Airport, Orlando, US (SFB)"
+
+  - trigger: "::CNX?"
+    replace: "Chiang Mai International Airport, Chiang Mai, TH (CNX)"
+
+  - trigger: "::CAN?"
+    replace: "Guangzhou Baiyun International Airport, Guangzhou (Huadu), CN (CAN)"
+
+  - trigger: "::SVG?"
+    replace: "Stavanger Airport, Sola, Stavanger, NO (SVG)"
+
+  - trigger: "::CTA?"
+    replace: "Catania-Fontanarossa Airport, Catania, IT (CTA)"
+
+  - trigger: "::TUN?"
+    replace: "Tunis Carthage International Airport, Tunis, TN (TUN)"
+
+  - trigger: "::VNO?"
+    replace: "Vilnius International Airport, Vilnius, LT (VNO)"
+
+  - trigger: "::MAA?"
+    replace: "Chennai International Airport, Chennai, IN (MAA)"
+
+  - trigger: "::SKG?"
+    replace: "Thessaloniki Macedonia International Airport, Thessaloniki, GR (SKG)"
+
+  - trigger: "::IBZ?"
+    replace: "Ibiza Airport, Ibiza (Eivissa), ES (IBZ)"
+
+  - trigger: "::ADL?"
+    replace: "Adelaide International Airport, Adelaide, AU (ADL)"
+
+  - trigger: "::TRD?"
+    replace: "Trondheim Airport, Værnes, Trondheim, NO (TRD)"
+
+  - trigger: "::HAJ?"
+    replace: "Hannover Airport, Hannover, DE (HAJ)"
+
+  - trigger: "::SXM?"
+    replace: "Princess Juliana International Airport, Saint Martin, SX (SXM)"
+
+  - trigger: "::BFS?"
+    replace: "Belfast International Airport, Belfast, GB (BFS)"
+
+  - trigger: "::BAH?"
+    replace: "Bahrain International Airport, Manama, BH (BAH)"
+
+  - trigger: "::AEP?"
+    replace: "Jorge Newbery Airpark, Buenos Aires, AR (AEP)"
+
+  - trigger: "::BLR?"
+    replace: "Kempegowda International Airport, Bangalore, IN (BLR)"
+
+  - trigger: "::BOD?"
+    replace: "Bordeaux-Mérignac Airport, Bordeaux/Mérignac, FR (BOD)"
+
+  - trigger: "::BLL?"
+    replace: "Billund Airport, Billund, DK (BLL)"
+
+  - trigger: "::BTS?"
+    replace: "M. R. Štefánik Airport, Bratislava, SK (BTS)"
+
+  - trigger: "::HRG?"
+    replace: "Hurghada International Airport, Hurghada, EG (HRG)"
+
+  - trigger: "::ACE?"
+    replace: "César Manrique-Lanzarote Airport, San Bartolomé, ES (ACE)"
+
+  - trigger: "::REP?"
+    replace: "Siem Reap International Airport, Siem Reap, KH (REP)"
+
+  - trigger: "::MLE?"
+    replace: "Malé International Airport, Malé, MV (MLE)"
+
+  - trigger: "::FAI?"
+    replace: "Fairbanks International Airport, Fairbanks, US (FAI)"
+
+  - trigger: "::KTM?"
+    replace: "Tribhuvan International Airport, Kathmandu, NP (KTM)"
+
+  - trigger: "::SDQ?"
+    replace: "Las Américas International Airport, Santo Domingo, DO (SDQ)"
+
+  - trigger: "::CMA?"
+    replace: "Camarillo International Airport, Camarillo, US (CMA)"
+
+  - trigger: "::GMP?"
+    replace: "Gimpo International Airport, Seoul, KR (GMP)"
+
+  - trigger: "::TRN?"
+    replace: "Turin Airport, Torino, IT (TRN)"
+
+  - trigger: "::GDN?"
+    replace: "Gdańsk Lech Wałęsa Airport, Gdańsk, PL (GDN)"
+
+  - trigger: "::KWI?"
+    replace: "Kuwait International Airport, Kuwait City, KW (KWI)"
+
+  - trigger: "::YYT?"
+    replace: "St. John's International Airport, St. John's, CA (YYT)"
+
+  - trigger: "::GDL?"
+    replace: "Aeropuerto Internacional Miguel Hidalgo, Ciudad de Tlajomulco de Zúñiga, MX (GDL)"
+
+  - trigger: "::AUA?"
+    replace: "Queen Beatrix International Airport, Oranjestad, AW (AUA)"
+
+  - trigger: "::ADB?"
+    replace: "Adnan Menderes International Airport, İzmir, TR (ADB)"
+
+  - trigger: "::ADD?"
+    replace: "Addis Ababa Bole International Airport, Addis Ababa, ET (ADD)"
+
+  - trigger: "::BER?"
+    replace: "Berlin Brandenburg Airport, Berlin, DE (BER)"
+
+  - trigger: "::PMO?"
+    replace: "Falcone–Borsellino Airport, Palermo, IT (PMO)"
+
+  - trigger: "::DRW?"
+    replace: "Darwin International Airport / RAAF Darwin, Darwin, AU (DRW)"
+
+  - trigger: "::WLG?"
+    replace: "Wellington International Airport, Wellington, NZ (WLG)"
+
+  - trigger: "::FUE?"
+    replace: "Fuerteventura Airport, El Matorral, ES (FUE)"
+
+  - trigger: "::TOS?"
+    replace: "Tromsø Airport, Langnes, Tromsø, NO (TOS)"
+
+  - trigger: "::JED?"
+    replace: "King Abdulaziz International Airport, Jeddah, SA (JED)"
+
+  - trigger: "::GUA?"
+    replace: "La Aurora Airport, Guatemala City, GT (GUA)"
+
+  - trigger: "::BSB?"
+    replace: "Presidente Juscelino Kubitschek International Airport, Brasília, BR (BSB)"
+
+  - trigger: "::XIY?"
+    replace: "Xi'an Xianyang International Airport, Xianyang (Weicheng), CN (XIY)"
+
+  - trigger: "::SSH?"
+    replace: "Sharm El Sheikh International Airport, Sharm El Sheikh, EG (SSH)"
+
+  - trigger: "::CCS?"
+    replace: "Simón Bolívar International Airport, Caracas, VE (CCS)"
+
+  - trigger: "::UIO?"
+    replace: "Mariscal Sucre International Airport, Quito, EC (UIO)"
+
+  - trigger: "::VRN?"
+    replace: "Verona-Villafranca Valerio Catullo Airport, Villafranca di Verona, IT (VRN)"
+
+  - trigger: "::ITM?"
+    replace: "Osaka International Airport, Osaka, JP (ITM)"
+
+  - trigger: "::PNH?"
+    replace: "Phnom Penh International Airport, Phnom Penh (Pou Senchey), KH (PNH)"
+
+  - trigger: "::YXX?"
+    replace: "Abbotsford International Airport, Abbotsford, CA (YXX)"
+
+  - trigger: "::MVD?"
+    replace: "Carrasco General Cesáreo L. Berisso International Airport, Ciudad de la Costa, UY (MVD)"
+
+  - trigger: "::BEY?"
+    replace: "Beirut Rafic Hariri International Airport, Beirut, LB (BEY)"
+
+  - trigger: "::ESB?"
+    replace: "Esenboğa International Airport, Ankara, TR (ESB)"
+
+  - trigger: "::CTU?"
+    replace: "Chengdu Shuangliu International Airport, Chengdu, CN (CTU)"
+
+  - trigger: "::CCU?"
+    replace: "Netaji Subhash Chandra Bose International Airport, Kolkata, IN (CCU)"
+
+  - trigger: "::CAG?"
+    replace: "Cagliari Elmas Airport, Cagliari, IT (CAG)"
+
+  - trigger: "::FNC?"
+    replace: "Madeira International Airport Cristiano Ronaldo, Funchal, PT (FNC)"
+
+  - trigger: "::VKO?"
+    replace: "Vnukovo International Airport, Moscow, RU (VKO)"
+
+  - trigger: "::PLS?"
+    replace: "Providenciales International Airport, Providenciales, TC (PLS)"
+
+  - trigger: "::SZX?"
+    replace: "Shenzhen Bao'an International Airport, Shenzhen (Bao'an), CN (SZX)"
+
+  - trigger: "::CEB?"
+    replace: "Mactan Cebu International Airport, Lapu-Lapu City, PH (CEB)"
+
+  - trigger: "::ACC?"
+    replace: "Kotoka International Airport, Accra, GH (ACC)"
+
+  - trigger: "::GOI?"
+    replace: "Dabolim Airport, Vasco da Gama, IN (GOI)"
+
+  - trigger: "::MTY?"
+    replace: "Aeropuerto Internacional Gral. Mariano Escobedo, Ciudad de Apodaca, MX (MTY)"
+
+  - trigger: "::GCM?"
+    replace: "Owen Roberts International Airport, George Town, KY (GCM)"
+
+  - trigger: "::KIN?"
+    replace: "Norman Manley International Airport, Kingston, JM (KIN)"
+
+  - trigger: "::SCQ?"
+    replace: "Santiago-Rosalía de Castro Airport, Santiago de Compostela, ES (SCQ)"
+
+  - trigger: "::LEJ?"
+    replace: "Leipzig/Halle Airport, Schkeuditz, DE (LEJ)"
+
+  - trigger: "::GYE?"
+    replace: "José Joaquín de Olmedo International Airport, Guayaquil, EC (GYE)"
+
+  - trigger: "::EBB?"
+    replace: "Entebbe International Airport, Kampala, UG (EBB)"
+
+  - trigger: "::TBS?"
+    replace: "Tbilisi International Airport, Tbilisi, GE (TBS)"
+
+  - trigger: "::FUK?"
+    replace: "Fukuoka Airport, Fukuoka, JP (FUK)"
+
+  - trigger: "::LOS?"
+    replace: "Murtala Muhammed International Airport, Lagos, NG (LOS)"
+
+  - trigger: "::HYD?"
+    replace: "Rajiv Gandhi International Airport, Hyderabad, IN (HYD)"
+
+  - trigger: "::BRI?"
+    replace: "Bari Karol Wojtyła Airport, Bari, IT (BRI)"
+
+  - trigger: "::DLM?"
+    replace: "Dalaman International Airport, Dalaman, TR (DLM)"
+
+  - trigger: "::ZNZ?"
+    replace: "Abeid Amani Karume International Airport, Zanzibar, TZ (ZNZ)"
+
+  - trigger: "::RUH?"
+    replace: "King Khaled International Airport, Riyadh, SA (RUH)"
+
+  - trigger: "::GYD?"
+    replace: "Heydar Aliyev International Airport, Baku, AZ (GYD)"
+
+  - trigger: "::DAR?"
+    replace: "Julius Nyerere International Airport, Dar es Salaam, TZ (DAR)"
+
+  - trigger: "::DAC?"
+    replace: "Hazrat Shahjalal International Airport, Dhaka, BD (DAC)"
+
+  - trigger: "::CTS?"
+    replace: "New Chitose Airport, Sapporo, JP (CTS)"
+
+  - trigger: "::KMG?"
+    replace: "Kunming Changshui International Airport, Kunming, CN (KMG)"
+
+  - trigger: "::CUR?"
+    replace: "Hato International Airport, Willemstad, CW (CUR)"
+
+  - trigger: "::COK?"
+    replace: "Cochin International Airport, Kochi, IN (COK)"
+
+  - trigger: "::MRU?"
+    replace: "Sir Seewoosagur Ramgoolam International Airport, Plaine Magnien, MU (MRU)"
+
+  - trigger: "::VRA?"
+    replace: "Juan Gualberto Gomez International Airport, Matanzas, CU (VRA)"
+
+  - trigger: "::SSA?"
+    replace: "Deputado Luiz Eduardo Magalhães International Airport, Salvador, BR (SSA)"
+
+  - trigger: "::YXS?"
+    replace: "Prince George Airport, Prince George, CA (YXS)"
+
+  - trigger: "::BJV?"
+    replace: "Milas Bodrum International Airport, Bodrum, TR (BJV)"
+
+  - trigger: "::PPT?"
+    replace: "Faa'a International Airport, Papeete, PF (PPT)"
+
+  - trigger: "::MID?"
+    replace: "Aeropuerto Internacional Manuel Crescencio Rejón, Ciudad de Mérida, MX (MID)"
+
+  - trigger: "::LIR?"
+    replace: "Guanacaste Airport, Liberia, CR (LIR)"
+
+  - trigger: "::UVF?"
+    replace: "Hewanorra International Airport, Vieux Fort, LC (UVF)"
+
+  - trigger: "::MBA?"
+    replace: "Moi International Airport, Mombasa, KE (MBA)"
+
+  - trigger: "::SAL?"
+    replace: "Monseñor Óscar Arnulfo Romero International Airport, San Salvador (San Luis Talpa), SV (SAL)"
+
+  - trigger: "::BZE?"
+    replace: "Philip S. W. Goldson International Airport, Belize City, BZ (BZE)"
+
+  - trigger: "::RGN?"
+    replace: "Yangon International Airport, Yangon, MM (RGN)"
+
+  - trigger: "::SUB?"
+    replace: "Juanda International Airport, Surabaya, ID (SUB)"
+
+  - trigger: "::ALA?"
+    replace: "Almaty International Airport, Almaty, KZ (ALA)"
+
+  - trigger: "::BOJ?"
+    replace: "Burgas Airport, Burgas, BG (BOJ)"
+
+  - trigger: "::GUM?"
+    replace: "Antonio B. Won Pat International Airport, Hagåtña, GU (GUM)"
+
+  - trigger: "::KHI?"
+    replace: "Jinnah International Airport, Karachi, PK (KHI)"
+
+  - trigger: "::IKA?"
+    replace: "Imam Khomeini International Airport, Tehran, IR (IKA)"
+
+  - trigger: "::SKP?"
+    replace: "Skopje International Airport, Ilinden, MK (SKP)"
+
+  - trigger: "::SEZ?"
+    replace: "Seychelles International Airport, Mahe Island, SC (SEZ)"
+
+  - trigger: "::PDL?"
+    replace: "João Paulo II Airport, Ponta Delgada, PT (PDL)"
+
+  - trigger: "::OKA?"
+    replace: "Naha Airport / JASDF Naha Air Base, Naha, JP (OKA)"
+
+  - trigger: "::BWN?"
+    replace: "Brunei International Airport, Bandar Seri Begawan, BN (BWN)"
+
+  - trigger: "::PUS?"
+    replace: "Gimhae International Airport, Busan, KR (PUS)"
+
+  - trigger: "::MSQ?"
+    replace: "Minsk National Airport, Minsk, BY (MSQ)"
+
+  - trigger: "::MFM?"
+    replace: "Macau International Airport, Nossa Senhora do Carmo, MO (MFM)"
+
+  - trigger: "::FDF?"
+    replace: "Martinique Aimé Césaire International Airport, Fort-de-France, MQ (FDF)"
+
+  - trigger: "::ALG?"
+    replace: "Houari Boumediene Airport, Algiers, DZ (ALG)"
+
+  - trigger: "::ACA?"
+    replace: "Aeropuerto Internacional Juan N. Álvarez, Ciudad de Acapulco, MX (ACA)"
+
+  - trigger: "::TIJ?"
+    replace: "Aeropuerto Internacional Gral. Abelardo Rodriguez, Ciudad de Tijuana, MX (TIJ)"
+
+  - trigger: "::KRT?"
+    replace: "Khartoum International Airport, Khartoum, SD (KRT)"
+
+  - trigger: "::TIA?"
+    replace: "Tirana International Airport Mother Teresa, Tirana, AL (TIA)"
+
+  - trigger: "::CJU?"
+    replace: "Jeju International Airport, Jeju City, KR (CJU)"
+
+  - trigger: "::MZT?"
+    replace: "Aeropuerto Internacional Gral. Rafael Buelna, Ciudad de Mazatlàn, MX (MZT)"
+
+  - trigger: "::VVI?"
+    replace: "Viru Viru International Airport, Santa Cruz, BO (VVI)"
+
+  - trigger: "::TRV?"
+    replace: "Thiruvananthapuram International Airport, Thiruvananthapuram, IN (TRV)"
+
+  - trigger: "::WDH?"
+    replace: "Hosea Kutako International Airport, Windhoek, NA (WDH)"
+
+  - trigger: "::CZM?"
+    replace: "Aeropuerto Internacional de Cozumel, Ciudad de Cozumel, MX (CZM)"
+
+  - trigger: "::PAP?"
+    replace: "Toussaint Louverture International Airport, Port-au-Prince, HT (PAP)"
+
+  - trigger: "::TAS?"
+    replace: "Tashkent International Airport, Tashkent, UZ (TAS)"
+
+  - trigger: "::CNF?"
+    replace: "Tancredo Neves International Airport, Belo Horizonte, BR (CNF)"
+
+  - trigger: "::LUN?"
+    replace: "Kenneth Kaunda International Airport, Lusaka, ZM (LUN)"
+
+  - trigger: "::MAO?"
+    replace: "Eduardo Gomes International Airport, Manaus, BR (MAO)"
+
+  - trigger: "::PTP?"
+    replace: "Pointe-à-Pitre Le Raizet International Airport, Pointe-à-Pitre, GP (PTP)"
+
+  - trigger: "::SHJ?"
+    replace: "Sharjah International Airport, Sharjah, AE (SHJ)"
+
+  - trigger: "::BJX?"
+    replace: "Aeropuerto Internacional Del Bajío, Ciudad de Silao, MX (BJX)"
+
+  - trigger: "::XMN?"
+    replace: "Xiamen Gaoqi International Airport, Xiamen, CN (XMN)"
+
+  - trigger: "::NGO?"
+    replace: "Chubu Centrair International Airport, Tokoname, JP (NGO)"
+
+  - trigger: "::NQZ?"
+    replace: "Nursultan Nazarbayev International Airport, Nur-Sultan, KZ (NQZ)"
+
+  - trigger: "::TGD?"
+    replace: "Podgorica Airport / Podgorica Golubovci Airbase, Podgorica, ME (TGD)"
+
+  - trigger: "::VAR?"
+    replace: "Varna Airport, Varna, BG (VAR)"
+
+  - trigger: "::HGH?"
+    replace: "Hangzhou Xiaoshan International Airport, Hangzhou, CN (HGH)"
+
+  - trigger: "::CKG?"
+    replace: "Chongqing Jiangbei International Airport, Chongqing, CN (CKG)"
+
+  - trigger: "::FRU?"
+    replace: "Manas International Airport, Bishkek, KG (FRU)"
+
+  - trigger: "::KWL?"
+    replace: "Guilin Liangjiang International Airport, Guilin (Lingui), CN (KWL)"
+
+  - trigger: "::WUH?"
+    replace: "Wuhan Tianhe International Airport, Wuhan (Huangpi), CN (WUH)"
+
+  - trigger: "::SID?"
+    replace: "Amílcar Cabral International Airport, Espargos, CV (SID)"
+
+  - trigger: "::HMO?"
+    replace: "General Ignacio P. Garcia International Airport, Hermosillo, MX (HMO)"
+
+  - trigger: "::KGL?"
+    replace: "Kigali International Airport, Kigali, RW (KGL)"
+
+  - trigger: "::LAD?"
+    replace: "Quatro de Fevereiro International Airport, Luanda, AO (LAD)"
+
+  - trigger: "::KHH?"
+    replace: "Kaohsiung International Airport, Kaohsiung (Xiaogang), TW (KHH)"
+
+  - trigger: "::EVN?"
+    replace: "Zvartnots International Airport, Yerevan, AM (EVN)"
+
+  - trigger: "::FLN?"
+    replace: "Hercílio Luz International Airport, Florianópolis, BR (FLN)"
+
+  - trigger: "::JIB?"
+    replace: "Djibouti-Ambouli Airport, Djibouti City, DJ (JIB)"
+
+  - trigger: "::FIH?"
+    replace: "Ndjili International Airport, Kinshasa, CD (FIH)"
+
+  - trigger: "::BDS?"
+    replace: "Brindisi Airport, Brindisi, IT (BDS)"
+
+  - trigger: "::DUR?"
+    replace: "King Shaka International Airport, Durban, ZA (DUR)"
+
+  - trigger: "::UPG?"
+    replace: "Hasanuddin International Airport, Ujung Pandang, ID (UPG)"
+
+  - trigger: "::THR?"
+    replace: "Mehrabad International Airport, Tehran, IR (THR)"
+
+  - trigger: "::HRE?"
+    replace: "Robert Gabriel Mugabe International Airport, Harare, ZW (HRE)"
+
+  - trigger: "::ADW?"
+    replace: "Joint Base Andrews, Camp Springs, US (ADW)"
+
+  - trigger: "::ABV?"
+    replace: "Nnamdi Azikiwe International Airport, Abuja, NG (ABV)"
+
+  - trigger: "::MPM?"
+    replace: "Maputo Airport, Maputo, MZ (MPM)"
+
+  - trigger: "::ASU?"
+    replace: "Aeropuerto Internacional Silvio Pettirossi, Asunción, PY (ASU)"
+
+  - trigger: "::DAM?"
+    replace: "Damascus International Airport, Damascus, SY (DAM)"
+
+  - trigger: "::LHE?"
+    replace: "Allama Iqbal International Airport, Lahore, PK (LHE)"
+
+  - trigger: "::RUN?"
+    replace: "Roland Garros Airport, Sainte-Marie, RE (RUN)"
+
+  - trigger: "::BJL?"
+    replace: "Banjul International Airport, Banjul, GM (BJL)"
+
+  - trigger: "::TLC?"
+    replace: "Aeropuerto Internacional Adolfo López Mateos, Ciudad de Toluca, MX (TLC)"
+
+  - trigger: "::TNR?"
+    replace: "Ivato Airport, Antananarivo, MG (TNR)"
+
+  - trigger: "::DLC?"
+    replace: "Dalian Zhoushuizi International Airport, Ganjingzi, Dalian, CN (DLC)"
+
+  - trigger: "::HRB?"
+    replace: "Harbin Taiping International Airport, Harbin, CN (HRB)"
+
+  - trigger: "::DMM?"
+    replace: "King Fahd International Airport, Ad Dammam, SA (DMM)"
+
+  - trigger: "::MED?"
+    replace: "Prince Mohammad Bin Abdulaziz Airport, Medina, SA (MED)"
+
+  - trigger: "::POM?"
+    replace: "Port Moresby Jacksons International Airport, Port Moresby, PG (POM)"
+
+  - trigger: "::KOJ?"
+    replace: "Kagoshima Airport, Kagoshima, JP (KOJ)"
+
+  - trigger: "::BEL?"
+    replace: "Val de Cans/Júlio Cezar Ribeiro International Airport, Belém, BR (BEL)"
+
+  - trigger: "::NDJ?"
+    replace: "N'Djamena International Airport, N'Djamena, TD (NDJ)"
+
+  - trigger: "::DWC?"
+    replace: "Al Maktoum International Airport, Jebel Ali, AE (DWC)"
+
+  - trigger: "::ROB?"
+    replace: "Roberts International Airport, Monrovia, LR (ROB)"
+
+  - trigger: "::OVB?"
+    replace: "Novosibirsk Tolmachevo Airport, Novosibirsk, RU (OVB)"
+
+  - trigger: "::DNA?"
+    replace: "Kadena Air Base, , JP (DNA)"
+
+  - trigger: "::SYZ?"
+    replace: "Shiraz Shahid Dastghaib International Airport, Shiraz, IR (SYZ)"
+
+  - trigger: "::AER?"
+    replace: "Sochi International Airport, Sochi, RU (AER)"
+
+  - trigger: "::TSN?"
+    replace: "Tianjin Binhai International Airport, Tianjin, CN (TSN)"
+
+  - trigger: "::GBE?"
+    replace: "Sir Seretse Khama International Airport, Gaborone, BW (GBE)"
+
+  - trigger: "::VLI?"
+    replace: "Bauerfield International Airport, Port Vila, VU (VLI)"
+
+  - trigger: "::MDL?"
+    replace: "Mandalay International Airport, Mandalay, MM (MDL)"
+
+  - trigger: "::BON?"
+    replace: "Flamingo International Airport, Kralendijk, Bonaire, BQ (BON)"
+
+  - trigger: "::KNO?"
+    replace: "Kualanamu International Airport, Medan, ID (KNO)"
+
+  - trigger: "::NKG?"
+    replace: "Nanjing Lukou International Airport, Nanjing, CN (NKG)"
+
+  - trigger: "::VIX?"
+    replace: "Eurico de Aguiar Salles Airport, Vitória, BR (VIX)"
+
+  - trigger: "::LWO?"
+    replace: "Lviv International Airport, Lviv, UA (LWO)"
+
+  - trigger: "::SVX?"
+    replace: "Koltsovo Airport, Yekaterinburg, RU (SVX)"
+
+  - trigger: "::PBM?"
+    replace: "Johan Adolf Pengel International Airport, Zandery, SR (PBM)"
+
+  - trigger: "::NIM?"
+    replace: "Diori Hamani International Airport, Niamey, NE (NIM)"
+
+  - trigger: "::BGW?"
+    replace: "Baghdad International Airport / New Al Muthana Air Base, Baghdad, IQ (BGW)"
+
+  - trigger: "::BKO?"
+    replace: "Modibo Keita International Airport, Bamako, ML (BKO)"
+
+  - trigger: "::TNA?"
+    replace: "Jinan Yaoqiang International Airport, Jinan, CN (TNA)"
+
+  - trigger: "::PKX?"
+    replace: "Beijing Daxing International Airport, Beijing, CN (PKX)"
+
+  - trigger: "::BPS?"
+    replace: "Porto Seguro Airport, Porto Seguro, BR (BPS)"
+
+  - trigger: "::OKO?"
+    replace: "Yokota Air Base, Fussa, JP (OKO)"
+
+  - trigger: "::CGO?"
+    replace: "Zhengzhou Xinzheng International Airport, Zhengzhou, CN (CGO)"
+
+  - trigger: "::DJJ?"
+    replace: "Dortheys Hiyo Eluay International Airport, Sentani, ID (DJJ)"
+
+  - trigger: "::VVO?"
+    replace: "Vladivostok International Airport, Artyom, RU (VVO)"
+
+  - trigger: "::URC?"
+    replace: "Ürümqi Diwopu International Airport, Ürümqi, CN (URC)"
+
+  - trigger: "::ASB?"
+    replace: "Ashgabat International Airport, Ashgabat, TM (ASB)"
+
+  - trigger: "::SHE?"
+    replace: "Shenyang Taoxian International Airport, Hunnan, Shenyang, CN (SHE)"
+
+  - trigger: "::FNA?"
+    replace: "Lungi International Airport, Freetown (Lungi-Town), SL (FNA)"
+
+  - trigger: "::JUB?"
+    replace: "Juba International Airport, Juba, SS (JUB)"
+
+  - trigger: "::NGB?"
+    replace: "Ningbo Lishe International Airport, Ningbo, CN (NGB)"
+
+  - trigger: "::SYX?"
+    replace: "Sanya Phoenix International Airport, Sanya (Tianya), CN (SYX)"
+
+  - trigger: "::DVO?"
+    replace: "Francisco Bangoy International Airport, Davao, PH (DVO)"
+
+  - trigger: "::MHD?"
+    replace: "Mashhad International Airport, Mashhad, IR (MHD)"
+
+  - trigger: "::BPN?"
+    replace: "Sultan Aji Muhammad Sulaiman Sepinggan International Airport, Balikpapan, ID (BPN)"
+
+  - trigger: "::CAY?"
+    replace: "Cayenne – Félix Eboué Airport, Matoury, GF (CAY)"
+
+  - trigger: "::KUF?"
+    replace: "Kurumoch International Airport, Samara, RU (KUF)"
+
+  - trigger: "::KZN?"
+    replace: "Kazan International Airport, Kazan, RU (KZN)"
+
+  - trigger: "::LHW?"
+    replace: "Lanzhou Zhongchuan International Airport, Lanzhou (Yongdeng), CN (LHW)"
+
+  - trigger: "::FOC?"
+    replace: "Fuzhou Changle International Airport, Fuzhou, CN (FOC)"
+
+  - trigger: "::SDJ?"
+    replace: "Sendai Airport, Natori, JP (SDJ)"
+
+  - trigger: "::BLA?"
+    replace: "General José Antonio Anzoategui International Airport, Barcelona, VE (BLA)"
+
+  - trigger: "::TYN?"
+    replace: "Taiyuan Wusu Airport, Taiyuan, CN (TYN)"
+
+  - trigger: "::DSS?"
+    replace: "Blaise Diagne International Airport, Dakar, SN (DSS)"
+
+  - trigger: "::HIR?"
+    replace: "Honiara International Airport, Honiara, SB (HIR)"
+
+  - trigger: "::KJA?"
+    replace: "Krasnoyarsk International Airport, Krasnoyarsk, RU (KJA)"
+
+  - trigger: "::ISB?"
+    replace: "Islamabad International Airport, Attock, PK (ISB)"
+
+  - trigger: "::UFA?"
+    replace: "Ufa International Airport, Ufa, RU (UFA)"
+
+  - trigger: "::HAK?"
+    replace: "Haikou Meilan International Airport, Haikou (Meilan), CN (HAK)"
+
+  - trigger: "::CGQ?"
+    replace: "Changchun Longjia International Airport, Changchun, CN (CGQ)"
+
+  - trigger: "::NKC?"
+    replace: "Nouakchott–Oumtounsy International Airport, Nouakchott, MR (NKC)"
+
+  - trigger: "::GEA?"
+    replace: "Nouméa Magenta Airport, Nouméa, NC (GEA)"
+
+  - trigger: "::MJI?"
+    replace: "Mitiga International Airport, Tripoli, LY (MJI)"
+
+  - trigger: "::DGO?"
+    replace: "Aeropuerto Internacional Gral, Guadalupe Victoria, Ciudad de Durango, MX (DGO)"
+
+  - trigger: "::UBN?"
+    replace: "Ulaanbaatar Chinggis Khaan International Airport, Ulaanbaatar (Sergelen), MN (UBN)"
+
+  - trigger: "::DHA?"
+    replace: "King Abdulaziz Air Base, Dhahran, SA (DHA)"
+
+  - trigger: "::CSX?"
+    replace: "Changsha Huanghua International Airport, Changsha (Changsha), CN (CSX)"
+
+  - trigger: "::AGT?"
+    replace: "Aeropuerto Internacional Guaraní, Ciudad del Este, PY (AGT)"
+
+  - trigger: "::ETM?"
+    replace: "Ramon International Airport, Eilat, IL (ETM)"
+
+  - trigger: "::HET?"
+    replace: "Hohhot Baita International Airport, Hohhot, CN (HET)"
+
+  - trigger: "::WNZ?"
+    replace: "Wenzhou Longwan International Airport, Wenzhou, CN (WNZ)"
+
+  - trigger: "::KWE?"
+    replace: "Guiyang Longdongbao International Airport, Guiyang (Nanming), CN (KWE)"
+
+  - trigger: "::TAO?"
+    replace: "Qingdao Jiaodong International Airport, Jiaozhou, Qingdao, CN (TAO)"
+
+  - trigger: "::KHN?"
+    replace: "Nanchang Changbei International Airport, Nanchang, CN (KHN)"
+
+  - trigger: "::YNT?"
+    replace: "Yantai Penglai International Airport, Yantai, CN (YNT)"
+
+  - trigger: "::NNG?"
+    replace: "Nanning Wuxu Airport, Nanning (Jiangnan), CN (NNG)"
+
+  - trigger: "::DQM?"
+    replace: "Duqm International Airport, Duqm, OM (DQM)"
+
+  - trigger: "::NLU?"
+    replace: "Aeropuerto Internacional General Felipe Ángeles, Mexico City, MX (NLU)"
+
+  - trigger: "::SHO?"
+    replace: "King Mswati III International Airport, Mpaka, SZ (SHO)"
+
+  - trigger: "::ROV?"
+    replace: "Platov International Airport, Rostov-on-Don, RU (ROV)"
+
+  - trigger: "::HSA?"
+    replace: "Hazrat Sultan International Airport, , KZ (HSA)"
+
+  - trigger: "::HRI?"
+    replace: "Mattala Rajapaksa International Airport, , LK (HRI)"
+
+  - trigger: "::TFU?"
+    replace: "Chengdu Tianfu International Airport, Chengdu (Jianyang), CN (TFU)"
+
+  - trigger: "::ZIA?"
+    replace: "Zhukovsky International Airport, Moscow, RU (ZIA)"
+
+  - trigger: "::MWX?"
+    replace: "Muan International Airport, Piseo-ri (Muan), KR (MWX)"
+
+  - trigger: "::ESG?"
+    replace: "Aeropuerto Internacional Dr. Luis Maria Argaña, Mariscal Estigarribia, PY (ESG)"
+
+  - trigger: "::EHU?"
+    replace: "Ezhou Huahu Airport, Ezhou, CN (EHU)"
+
+  - trigger: "::GSV?"
+    replace: "Gagarin International Airport, Saratov, RU (GSV)"
+
+  - trigger: "::SAI?"
+    replace: "Siem Reap-Angkor International Airport, Siem Reap, KH (SAI)"
+
+  - trigger: "::PJC?"
+    replace: "Aeropuerto Internacional Dr. Augusto Roberto Fuster, Pedro Juan Caballero, PY (PJC)"
+
+  - trigger: "::HSR?"
+    replace: "Rajkot International Airport, Rajkot, IN (HSR)"
+
+  # Provide airline name based on IATA's two-character designators
+  - trigger: "::1T?"
+    replace: "1Time Airline (1T), ZA"
+
+  - trigger: "::Q5?"
+    replace: "40-Mile Air (Q5), US"
+
+  - trigger: "::AN?"
+    replace: "Ansett Australia (AN), AU"
+
+  - trigger: "::1B?"
+    replace: "Abacus International (1B), SG"
+
+  - trigger: "::W9?"
+    replace: "Abelag Aviation (W9), BE"
+
+  - trigger: "::ZI?"
+    replace: "Aigle Azur (ZI), FR"
+
+  - trigger: "::AQ?"
+    replace: "Aloha Airlines (AQ), US"
+
+  - trigger: "::AA?"
+    replace: "American Airlines (AA), US"
+
+  - trigger: "::OZ?"
+    replace: "Asiana Airlines (OZ), KR"
+
+  - trigger: "::4K?"
+    replace: "Askari Aviation (4K), PK"
+
+  - trigger: "::8U?"
+    replace: "Afriqiyah Airways (8U), LY"
+
+  - trigger: "::Q9?"
+    replace: "Afrinat International Airlines (Q9), GM"
+
+  - trigger: "::G4?"
+    replace: "Allegiant Air (G4), US"
+
+  - trigger: "::K5?"
+    replace: "Aban Air (K5), IR"
+
+  - trigger: "::M3?"
+    replace: "ABSA - Aerolinhas Brasileiras (M3), BR"
+
+  - trigger: "::O4?"
+    replace: "Antrak Air (O4), GH"
+
+  - trigger: "::GB?"
+    replace: "Airborne Express (GB), US"
+
+  - trigger: "::8V?"
+    replace: "Astral Aviation (8V), KE"
+
+  - trigger: "::E4?"
+    replace: "Aero Asia International (E4), PK"
+
+  - trigger: "::YT?"
+    replace: "Air Togo (YT), TG"
+
+  - trigger: "::4G?"
+    replace: "Advance Leasing Company (4G), US"
+
+  - trigger: "::7A?"
+    replace: "Aztec Worldwide Airlines (7A), US"
+
+  - trigger: "::8T?"
+    replace: "Air Tindi (8T), CA"
+
+  - trigger: "::ZY?"
+    replace: "Ada Air (ZY), AL"
+
+  - trigger: "::Z7?"
+    replace: "ADC Airlines (Z7), NG"
+
+  - trigger: "::JP?"
+    replace: "Adria Airways (JP), SI"
+
+  - trigger: "::UX?"
+    replace: "Air Europa (UX), ES"
+
+  - trigger: "::EM?"
+    replace: "Aero Benin (EM), BJ"
+
+  - trigger: "::A3?"
+    replace: "Aegean Airlines (A3), GR"
+
+  - trigger: "::KI?"
+    replace: "Air Atlantique (KI), GB"
+
+  - trigger: "::PE?"
+    replace: "Air Europe (PE), IT"
+
+  - trigger: "::KO?"
+    replace: "Alaska Central Express (KO), US"
+
+  - trigger: "::5W?"
+    replace: "Astraeus (5W), GB"
+
+  - trigger: "::VV?"
+    replace: "Aerosvit Airlines (VV), UA"
+
+  - trigger: "::I9?"
+    replace: "Air Italy (I9), IT"
+
+  - trigger: "::WK?"
+    replace: "American Falcon (WK), AR"
+
+  - trigger: "::QQ?"
+    replace: "Alliance Airlines (QQ), AU"
+
+  - trigger: "::FG?"
+    replace: "Ariana Afghan Airlines (FG), AF"
+
+  - trigger: "::SU?"
+    replace: "Aeroflot Russian Airlines (SU), RU"
+
+  - trigger: "::JA?"
+    replace: "Air Bosna (JA), BA"
+
+  - trigger: "::AF?"
+    replace: "Air France (AF), FR"
+
+  - trigger: "::SB?"
+    replace: "Air Caledonie International (SB), FR"
+
+  - trigger: "::GN?"
+    replace: "Air Gabon (GN), GA"
+
+  - trigger: "::2O?"
+    replace: "Air Salone (2O), SL"
+
+  - trigger: "::2Q?"
+    replace: "Air Cargo Carriers (2Q), US"
+
+  - trigger: "::V7?"
+    replace: "Air Senegal International (V7), SN"
+
+  - trigger: "::SW?"
+    replace: "Air Namibia (SW), NA"
+
+  - trigger: "::5D?"
+    replace: "Aerolitoral (5D), MX"
+
+  - trigger: "::1A?"
+    replace: "Amadeus Global Travel Distribution (1A), ES"
+
+  - trigger: "::7T?"
+    replace: "Air Glaciers (7T), CH"
+
+  - trigger: "::PL?"
+    replace: "Aeroper (PL), PE"
+
+  - trigger: "::8A?"
+    replace: "Atlas Blue (8A), MA"
+
+  - trigger: "::GD?"
+    replace: "Air Alpha Greenland (GD), DK"
+
+  - trigger: "::LD?"
+    replace: "Air Hong Kong (LD), HK"
+
+  - trigger: "::HT?"
+    replace: "Aeromist-Kharkiv (HT), UA"
+
+  - trigger: "::J2?"
+    replace: "Azerbaijan Airlines (J2), AZ"
+
+  - trigger: "::U3?"
+    replace: "Avies (U3), EE"
+
+  - trigger: "::AP?"
+    replace: "Airbus Industrie (AP), FR"
+
+  - trigger: "::5A?"
+    replace: "Alpine Air Express (5A), US"
+
+  - trigger: "::ED?"
+    replace: "Airblue (ED), PK"
+
+  - trigger: "::AB?"
+    replace: "Air Berlin (AB), DE"
+
+  - trigger: "::AG?"
+    replace: "Air Contractors (AG), IE"
+
+  - trigger: "::AI?"
+    replace: "Air India Limited (AI), IN"
+
+  - trigger: "::ZB?"
+    replace: "Air Bourbon (ZB), FR"
+
+  - trigger: "::CC?"
+    replace: "Air Atlanta Icelandic (CC), IS"
+
+  - trigger: "::RB?"
+    replace: "Air Srpska (RB), BA"
+
+  - trigger: "::TN?"
+    replace: "Air Tahiti Nui (TN), FR"
+
+  - trigger: "::W4?"
+    replace: "Aero Services Executive (W4), FR"
+
+  - trigger: "::IZ?"
+    replace: "Arkia Israel Airlines (IZ), IL"
+
+  - trigger: "::JM?"
+    replace: "Air Jamaica (JM), JM"
+
+  - trigger: "::AP?"
+    replace: "Air One (AP), IT"
+
+  - trigger: "::S2?"
+    replace: "Air Sahara (S2), IN"
+
+  - trigger: "::KM?"
+    replace: "Air Malta (KM), MT"
+
+  - trigger: "::M6?"
+    replace: "Amerijet International (M6), US"
+
+  - trigger: "::NQ?"
+    replace: "Air Japan (NQ), JP"
+
+  - trigger: "::4A?"
+    replace: "Air Kiribati (4A), KI"
+
+  - trigger: "::EH?"
+    replace: "Air Nippon Network Co. Ltd. (EH), JP"
+
+  - trigger: "::HP?"
+    replace: "America West Airlines (HP), US"
+
+  - trigger: "::ZW?"
+    replace: "Air Wisconsin (ZW), US"
+
+  - trigger: "::U9?"
+    replace: "Tatarstan Airlines (U9), RU"
+
+  - trigger: "::VD?"
+    replace: "Air Libert (VD), FR"
+
+  - trigger: "::TT?"
+    replace: "Air Lithuania (TT), LT"
+
+  - trigger: "::QM?"
+    replace: "Air Malawi (QM), MW"
+
+  - trigger: "::BM?"
+    replace: "Air Sicilia (BM), IT"
+
+  - trigger: "::NX?"
+    replace: "Air Macau (NX), MO"
+
+  - trigger: "::ZV?"
+    replace: "Air Midwest (ZV), US"
+
+  - trigger: "::HM?"
+    replace: "Air Seychelles (HM), SC"
+
+  - trigger: "::AM?"
+    replace: "AeroMéxico (AM), MX"
+
+  - trigger: "::NH?"
+    replace: "All Nippon Airways (NH), JP"
+
+  - trigger: "::YW?"
+    replace: "Air Nostrum (YW), ES"
+
+  - trigger: "::PX?"
+    replace: "Air Niugini (PX), PG"
+
+  - trigger: "::G9?"
+    replace: "Air Arabia (G9), AE"
+
+  - trigger: "::AC?"
+    replace: "Air Canada (AC), CA"
+
+  - trigger: "::BT?"
+    replace: "Air Baltic (BT), LV"
+
+  - trigger: "::EL?"
+    replace: "Air Nippon (EL), JP"
+
+  - trigger: "::TL?"
+    replace: "Airnorth (TL), AU"
+
+  - trigger: "::4N?"
+    replace: "Air North Charter - Canada (4N), CA"
+
+  - trigger: "::IW?"
+    replace: "AOM French Airlines (IW), FR"
+
+  - trigger: "::NZ?"
+    replace: "Air New Zealand (NZ), NZ"
+
+  - trigger: "::J6?"
+    replace: "AVCOM (J6), RU"
+
+  - trigger: "::2D?"
+    replace: "Aero VIP (2D), AR"
+
+  - trigger: "::6V?"
+    replace: "Air Vegas (6V), US"
+
+  - trigger: "::XM?"
+    replace: "Alitalia Express (XM), IT"
+
+  - trigger: "::OE?"
+    replace: "Fly One Airlines S.R.L. (OE), RO"
+
+  - trigger: "::GV?"
+    replace: "Aero Flight (GV), DE"
+
+  - trigger: "::JW?"
+    replace: "Arrow Air (JW), US"
+
+  - trigger: "::W3?"
+    replace: "Arik Air (W3), NG"
+
+  - trigger: "::2B?"
+    replace: "Aerocondor (2B), PT"
+
+  - trigger: "::4C?"
+    replace: "LATAM Airlines Colombia (4C), CO"
+
+  - trigger: "::AR?"
+    replace: "Aerolineas Argentinas (AR), AR"
+
+  - trigger: "::QN?"
+    replace: "Air Armenia (QN), AM"
+
+  - trigger: "::AS?"
+    replace: "Alaska Airlines (AS), US"
+
+  - trigger: "::4D?"
+    replace: "Air Sinai (4D), EG"
+
+  - trigger: "::PL?"
+    replace: "Airstars (PL), RU"
+
+  - trigger: "::EV?"
+    replace: "Atlantic Southeast Airlines (EV), US"
+
+  - trigger: "::OB?"
+    replace: "Astrakhan Airlines (OB), RU"
+
+  - trigger: "::TC?"
+    replace: "Air Tanzania (TC), TZ"
+
+  - trigger: "::2J?"
+    replace: "Air Burkina (2J), BF"
+
+  - trigger: "::HC?"
+    replace: "Aero-Tropics Air Services (HC), AU"
+
+  - trigger: "::FO?"
+    replace: "Airlines Of Tasmania (FO), AU"
+
+  - trigger: "::PJ?"
+    replace: "Air Saint Pierre (PJ), FR"
+
+  - trigger: "::8C?"
+    replace: "Air Transport International (8C), US"
+
+  - trigger: "::OS?"
+    replace: "Austrian Airlines (OS), AT"
+
+  - trigger: "::IQ?"
+    replace: "Augsburg Airways (IQ), DE"
+
+  - trigger: "::RU?"
+    replace: "AirBridge Cargo (RU), RU"
+
+  - trigger: "::MO?"
+    replace: "Abu Dhabi Amiri Flight (MO), AE"
+
+  - trigger: "::5N?"
+    replace: "Aeroflot-Nord (5N), RU"
+
+  - trigger: "::GR?"
+    replace: "Aurigny Air Services (GR), GB"
+
+  - trigger: "::NO?"
+    replace: "Aus-Air (NO), AU"
+
+  - trigger: "::AU?"
+    replace: "Austral Lineas Aereas (AU), AR"
+
+  - trigger: "::AO?"
+    replace: "Australian Airlines (AO), AU"
+
+  - trigger: "::AV?"
+    replace: "Avianca - Aerovias Nacionales de Colombia (AV), CO"
+
+  - trigger: "::NF?"
+    replace: "Air Vanuatu (NF), VU"
+
+  - trigger: "::K8?"
+    replace: "Airlink Zambia (K8), ZM"
+
+  - trigger: "::B9?"
+    replace: "Air Bangladesh (B9), BD"
+
+  - trigger: "::DR?"
+    replace: "Air Mediterranee (DR), FR"
+
+  - trigger: "::7E?"
+    replace: "Aeroline GmbH (7E), DE"
+
+  - trigger: "::6G?"
+    replace: "Air Wales (6G), GB"
+
+  - trigger: "::TX?"
+    replace: "Air Caraïbes (TX), FR"
+
+  - trigger: "::IX?"
+    replace: "Air India Express (IX), IN"
+
+  - trigger: "::HJ?"
+    replace: "Asian Express Airlines (HJ), AU"
+
+  - trigger: "::XT?"
+    replace: "Air Exel (XT), NL"
+
+  - trigger: "::AK?"
+    replace: "AirAsia (AK), MY"
+
+  - trigger: "::6V?"
+    replace: "Axis Airways (6V), FR"
+
+  - trigger: "::3G?"
+    replace: "Atlant-Soyuz Airlines (3G), RU"
+
+  - trigger: "::AZ?"
+    replace: "Alitalia (AZ), IT"
+
+  - trigger: "::ZE?"
+    replace: "Arcus-Air Logistic (ZE), DE"
+
+  - trigger: "::Z8?"
+    replace: "Amaszonas (Z8), BO"
+
+  - trigger: "::UM?"
+    replace: "Air Zimbabwe (UM), ZW"
+
+  - trigger: "::R7?"
+    replace: "Aserca Airlines (R7), VE"
+
+  - trigger: "::FV?"
+    replace: "Rossiya-Russian Airlines (FV), RU"
+
+  - trigger: "::RX?"
+    replace: "Aviaexpress (RX), HU"
+
+  - trigger: "::MQ?"
+    replace: "American Eagle Airlines (MQ), US"
+
+  - trigger: "::FF?"
+    replace: "Airshop (FF), NL"
+
+  - trigger: "::ML?"
+    replace: "African Transport Trading and Investment Company (ML), SD"
+
+  - trigger: "::VU?"
+    replace: "Air Ivoire (VU), CI"
+
+  - trigger: "::BP?"
+    replace: "Air Botswana (BP), BW"
+
+  - trigger: "::GS?"
+    replace: "Air Foyle (GS), GB"
+
+  - trigger: "::VT?"
+    replace: "Air Tahiti (VT), FR"
+
+  - trigger: "::3N?"
+    replace: "Air Urga (3N), UA"
+
+  - trigger: "::VL?"
+    replace: "Air VIA (VL), BG"
+
+  - trigger: "::FK?"
+    replace: "Africa West (FK), TG"
+
+  - trigger: "::G2?"
+    replace: "Avirex (G2), GA"
+
+  - trigger: "::V8?"
+    replace: "ATRAN Cargo Airlines (V8), RU"
+
+  - trigger: "::VE?"
+    replace: "Avensa (VE), VE"
+
+  - trigger: "::V5?"
+    replace: "Avolar Aerolineas (V5), MX"
+
+  - trigger: "::CA?"
+    replace: "Air China (CA), CN"
+
+  - trigger: "::Q6?"
+    replace: "Aero Condor Peru (Q6), PE"
+
+  - trigger: "::5F?"
+    replace: "Arctic Circle Air Service (5F), US"
+
+  - trigger: "::QC?"
+    replace: "Air Corridor (QC), MZ"
+
+  - trigger: "::NV?"
+    replace: "Air Central (NV), JP"
+
+  - trigger: "::CV?"
+    replace: "Air Chathams (CV), NZ"
+
+  - trigger: "::CW?"
+    replace: "Air Marshall Islands (CW), MH"
+
+  - trigger: "::ZA?"
+    replace: "Access Air (ZA), US"
+
+  - trigger: "::AH?"
+    replace: "Air Algerie (AH), DZ"
+
+  - trigger: "::KI?"
+    replace: "Adam Air (KI), ID"
+
+  - trigger: "::ER?"
+    replace: "Astar Air Cargo (ER), US"
+
+  - trigger: "::HO?"
+    replace: "Antinea Airlines (HO), DZ"
+
+  - trigger: "::EN?"
+    replace: "Air Dolomiti (EN), IT"
+
+  - trigger: "::D9?"
+    replace: "Aeroflot-Don (D9), RU"
+
+  - trigger: "::NM?"
+    replace: "Air Madrid (NM), ES"
+
+  - trigger: "::EE?"
+    replace: "Aero Airlines (EE), EE"
+
+  - trigger: "::4F?"
+    replace: "Air City (4F), DE"
+
+  - trigger: "::EI?"
+    replace: "Aer Lingus (EI), IE"
+
+  - trigger: "::E8?"
+    replace: "Alpi Eagles (E8), IT"
+
+  - trigger: "::KY?"
+    replace: "Air S (KY), ST"
+
+  - trigger: "::PC?"
+    replace: "Air Fiji (PC), FJ"
+
+  - trigger: "::OF?"
+    replace: "Air Finland (OF), FI"
+
+  - trigger: "::FJ?"
+    replace: "Air Pacific (FJ), FJ"
+
+  - trigger: "::RC?"
+    replace: "Atlantic Airways (RC), FO"
+
+  - trigger: "::QH?"
+    replace: "Air Florida (QH), US"
+
+  - trigger: "::NY?"
+    replace: "Air Iceland (NY), IS"
+
+  - trigger: "::2P?"
+    replace: "Air Philippines (2P), PH"
+
+  - trigger: "::ZX?"
+    replace: "Air Georgian (ZX), CA"
+
+  - trigger: "::2U?"
+    replace: "Air Guinee Express (2U), GN"
+
+  - trigger: "::0A?"
+    replace: "Amber Air (0A), LT"
+
+  - trigger: "::DA?"
+    replace: "Air Georgia (DA), GE"
+
+  - trigger: "::GL?"
+    replace: "Air Greenland (GL), DK"
+
+  - trigger: "::LL?"
+    replace: "Allegro (LL), MX"
+
+  - trigger: "::5Y?"
+    replace: "Atlas Air (5Y), US"
+
+  - trigger: "::GG?"
+    replace: "Air Guyane (GG), FR"
+
+  - trigger: "::H9?"
+    replace: "Air D'Ayiti (H9), HT"
+
+  - trigger: "::GG?"
+    replace: "Air Comores International (GG), KM"
+
+  - trigger: "::8C?"
+    replace: "Air Horizon (8C), TG"
+
+  - trigger: "::W9?"
+    replace: "Air Bagan (W9), MM"
+
+  - trigger: "::IP?"
+    replace: "Atyrau Air Ways (IP), KZ"
+
+  - trigger: "::QK?"
+    replace: "Air Canada Jazz (QK), CA"
+
+  - trigger: "::KK?"
+    replace: "Atlasjet (KK), TR"
+
+  - trigger: "::JS?"
+    replace: "Air Koryo (JS), KP"
+
+  - trigger: "::KC?"
+    replace: "Air Astana (KC), KZ"
+
+  - trigger: "::LV?"
+    replace: "Albanian Airlines (LV), AL"
+
+  - trigger: "::D4?"
+    replace: "Alidaunia (D4), IT"
+
+  - trigger: "::CD?"
+    replace: "Alliance Air (CD), IN"
+
+  - trigger: "::XL?"
+    replace: "Aerolane (XL), EC"
+
+  - trigger: "::A6?"
+    replace: "Air Alps Aviation (A6), AT"
+
+  - trigger: "::TD?"
+    replace: "Atlantis European Airways (TD), AM"
+
+  - trigger: "::L8?"
+    replace: "Air Luxor GB (L8), GW"
+
+  - trigger: "::LK?"
+    replace: "Air Luxor (LK), PT"
+
+  - trigger: "::MK?"
+    replace: "Air Mauritius (MK), MU"
+
+  - trigger: "::MD?"
+    replace: "Air Madagascar (MD), MG"
+
+  - trigger: "::9U?"
+    replace: "Air Moldova (9U), MD"
+
+  - trigger: "::M0?"
+    replace: "Aero Mongolia (M0), MN"
+
+  - trigger: "::A7?"
+    replace: "Air Plus Comet (A7), ES"
+
+  - trigger: "::QO?"
+    replace: "Aeromexpress (QO), MX"
+
+  - trigger: "::MR?"
+    replace: "Air Mauritanie (MR), MR"
+
+  - trigger: "::3S?"
+    replace: "Aeroland Airways (3S), GR"
+
+  - trigger: "::8D?"
+    replace: "Astair (8D), RU"
+
+  - trigger: "::F4?"
+    replace: "Albarka Air (F4), NG"
+
+  - trigger: "::AJ?"
+    replace: "Aero Contractors (AJ), NG"
+
+  - trigger: "::8Y?"
+    replace: "Air Burundi (8Y), BI"
+
+  - trigger: "::OT?"
+    replace: "Aeropelican Air Services (OT), AU"
+
+  - trigger: "::AD?"
+    replace: "Air Paradise International (AD), ID"
+
+  - trigger: "::QD?"
+    replace: "Air Class Lineas Aereas (QD), UY"
+
+  - trigger: "::QS?"
+    replace: "African Safari Airways (QS), KE"
+
+  - trigger: "::4Y?"
+    replace: "Airbus France (4Y), FR"
+
+  - trigger: "::MC?"
+    replace: "Air Mobility Command (MC), US"
+
+  - trigger: "::RE?"
+    replace: "Aer Arann (RE), IE"
+
+  - trigger: "::UU?"
+    replace: "Air Austral (UU), FR"
+
+  - trigger: "::6K?"
+    replace: "Asian Spirit (6K), PH"
+
+  - trigger: "::RK?"
+    replace: "Air Afrique (RK), CI"
+
+  - trigger: "::A5?"
+    replace: "Airlinair (A5), FR"
+
+  - trigger: "::QL?"
+    replace: "Aero Lanka (QL), LK"
+
+  - trigger: "::MV?"
+    replace: "Armenian International Airways (MV), AM"
+
+  - trigger: "::20?"
+    replace: "Air Salone (20), SL"
+
+  - trigger: "::U8?"
+    replace: "Armavia (U8), AM"
+
+  - trigger: "::BQ?"
+    replace: "Aeromar (BQ), DO"
+
+  - trigger: "::P5?"
+    replace: "AeroRep (P5), CO"
+
+  - trigger: "::BF?"
+    replace: "Aero-Service (BF), CG"
+
+  - trigger: "::5L?"
+    replace: "Aerosur (5L), BO"
+
+  - trigger: "::EX?"
+    replace: "Air Santo Domingo (EX), DO"
+
+  - trigger: "::JR?"
+    replace: "Aero California (JR), MX"
+
+  - trigger: "::Z3?"
+    replace: "Avient Aviation (Z3), ZW"
+
+  - trigger: "::M3?"
+    replace: "Air Service (M3), MK"
+
+  - trigger: "::GM?"
+    replace: "Air Slovakia (GM), SK"
+
+  - trigger: "::R3?"
+    replace: "Aircompany Yakutia (R3), RU"
+
+  - trigger: "::VW?"
+    replace: "Aeromar (VW), MX"
+
+  - trigger: "::JY?"
+    replace: "Air Turks and Caicos (JY), TC"
+
+  - trigger: "::OR?"
+    replace: "Arkefly (OR), NL"
+
+  - trigger: "::CG?"
+    replace: "Airlines PNG (CG), PG"
+
+  - trigger: "::TY?"
+    replace: "Air Cal (TY), FR"
+
+  - trigger: "::FL?"
+    replace: "AirTran Airways (FL), US"
+
+  - trigger: "::TS?"
+    replace: "Air Transat (TS), CA"
+
+  - trigger: "::EC?"
+    replace: "Avialeasing Aviation Company (EC), UZ"
+
+  - trigger: "::VO?"
+    replace: "Tyrolean Airways (VO), AT"
+
+  - trigger: "::DW?"
+    replace: "Aero-Charter Ukraine (DW), UA"
+
+  - trigger: "::6U?"
+    replace: "Air Ukraine (6U), UA"
+
+  - trigger: "::2K?"
+    replace: "Aerolineas Galapagos (Aerogal) (2K), EC"
+
+  - trigger: "::6R?"
+    replace: "Alrosa Mirny Air Enterprise (6R), RU"
+
+  - trigger: "::8Q?"
+    replace: "Baker Aviation (8Q), US"
+
+  - trigger: "::BA?"
+    replace: "British Airways (BA), GB"
+
+  - trigger: "::BG?"
+    replace: "Biman Bangladesh Airlines (BG), BD"
+
+  - trigger: "::BF?"
+    replace: "Bluebird Cargo (BF), IS"
+
+  - trigger: "::B4?"
+    replace: "BACH Flugbetriebsges (B4), AT"
+
+  - trigger: "::BZ?"
+    replace: "Blue Dart Aviation (BZ), IN"
+
+  - trigger: "::JA?"
+    replace: "B&H Airlines (JA), BA"
+
+  - trigger: "::J4?"
+    replace: "Buffalo Airways (J4), CA"
+
+  - trigger: "::A8?"
+    replace: "Benin Golf Air (A8), BJ"
+
+  - trigger: "::4T?"
+    replace: "Belair Airlines (4T), CH"
+
+  - trigger: "::UP?"
+    replace: "Bahamasair (UP), BS"
+
+  - trigger: "::E6?"
+    replace: "Bringer Air Cargo Taxi Aereo (E6), BR"
+
+  - trigger: "::TH?"
+    replace: "BA Connect (TH), GB"
+
+  - trigger: "::BS?"
+    replace: "British International Helicopters (BS), GB"
+
+  - trigger: "::B4?"
+    replace: "Bankair (B4), US"
+
+  - trigger: "::PG?"
+    replace: "Bangkok Airways (PG), TH"
+
+  - trigger: "::KF?"
+    replace: "Blue1 (KF), FI"
+
+  - trigger: "::JV?"
+    replace: "Bearskin Lake Air Service (JV), CA"
+
+  - trigger: "::B3?"
+    replace: "Bellview Airlines (B3), NG"
+
+  - trigger: "::BD?"
+    replace: "bmi (BD), GB"
+
+  - trigger: "::WW?"
+    replace: "bmibaby (WW), GB"
+
+  - trigger: "::CH?"
+    replace: "Bemidji Airlines (CH), US"
+
+  - trigger: "::5Z?"
+    replace: "Bismillah Airlines (5Z), BD"
+
+  - trigger: "::BO?"
+    replace: "Bouraq Indonesia Airlines (BO), ID"
+
+  - trigger: "::BV?"
+    replace: "Blue Panorama Airlines (BV), IT"
+
+  - trigger: "::7R?"
+    replace: "BRA-Transportes Aereos (7R), BR"
+
+  - trigger: "::8E?"
+    replace: "Bering Air (8E), US"
+
+  - trigger: "::B2?"
+    replace: "Belavia Belarusian Airlines (B2), BY"
+
+  - trigger: "::K6?"
+    replace: "Bravo Air Congo (K6), CD"
+
+  - trigger: "::BN?"
+    replace: "Braniff International Airways (BN), US"
+
+  - trigger: "::GQ?"
+    replace: "Big Sky Airlines (GQ), US"
+
+  - trigger: "::V9?"
+    replace: "BAL Bashkirian Airlines (V9), RU"
+
+  - trigger: "::7P?"
+    replace: "Metro Batavia (7P), ID"
+
+  - trigger: "::J8?"
+    replace: "Berjaya Air (J8), MY"
+
+  - trigger: "::QW?"
+    replace: "Blue Wings (QW), DE"
+
+  - trigger: "::BM?"
+    replace: "Bayu Indonesia Air (BM), ID"
+
+  - trigger: "::DB?"
+    replace: "Brit Air (DB), FR"
+
+  - trigger: "::E9?"
+    replace: "Boston-Maine Airways (E9), US"
+
+  - trigger: "::SN?"
+    replace: "Brussels Airlines (SN), BE"
+
+  - trigger: "::NT?"
+    replace: "Binter Canarias (NT), ES"
+
+  - trigger: "::0B?"
+    replace: "Blue Air (0B), RO"
+
+  - trigger: "::KJ?"
+    replace: "British Mediterranean Airways (KJ), GB"
+
+  - trigger: "::FB?"
+    replace: "Bulgaria Air (FB), BG"
+
+  - trigger: "::8N?"
+    replace: "Barents AirLink (8N), SE"
+
+  - trigger: "::5C?"
+    replace: "CAL Cargo Air Lines (5C), IL"
+
+  - trigger: "::AW?"
+    replace: "CHC Airways (AW), NL"
+
+  - trigger: "::XG?"
+    replace: "Calima Aviacion (XG), ES"
+
+  - trigger: "::MO?"
+    replace: "Calm Air (MO), CA"
+
+  - trigger: "::R9?"
+    replace: "Camai Air (R9), US"
+
+  - trigger: "::UY?"
+    replace: "Cameroon Airlines (UY), CM"
+
+  - trigger: "::C6?"
+    replace: "CanJet (C6), CA"
+
+  - trigger: "::CP?"
+    replace: "Canadian Airlines (CP), CA"
+
+  - trigger: "::5T?"
+    replace: "Canadian North (5T), CA"
+
+  - trigger: "::W2?"
+    replace: "Canadian Western Airlines (W2), CA"
+
+  - trigger: "::9K?"
+    replace: "Cape Air (9K), US"
+
+  - trigger: "::PT?"
+    replace: "Capital Cargo International Airlines (PT), US"
+
+  - trigger: "::GG?"
+    replace: "Cargo 360 (GG), US"
+
+  - trigger: "::2G?"
+    replace: "Cargoitalia (2G), IT"
+
+  - trigger: "::W8?"
+    replace: "Cargojet Airways (W8), CA"
+
+  - trigger: "::CV?"
+    replace: "Cargolux (CV), LU"
+
+  - trigger: "::BW?"
+    replace: "Caribbean Airlines (BW), TT"
+
+  - trigger: "::8B?"
+    replace: "Caribbean Star Airlines (8B), AG"
+
+  - trigger: "::V3?"
+    replace: "Carpatair (V3), RO"
+
+  - trigger: "::RV?"
+    replace: "Caspian Airlines (RV), IR"
+
+  - trigger: "::CX?"
+    replace: "Cathay Pacific (CX), HK"
+
+  - trigger: "::KX?"
+    replace: "Cayman Airways (KX), KY"
+
+  - trigger: "::5J?"
+    replace: "Cebu Pacific (5J), PH"
+
+  - trigger: "::7N?"
+    replace: "Centavia (7N), RS"
+
+  - trigger: "::C0?"
+    replace: "Centralwings (C0), PL"
+
+  - trigger: "::J7?"
+    replace: "Centre-Avia (J7), RU"
+
+  - trigger: "::WE?"
+    replace: "Centurion Air Cargo (WE), US"
+
+  - trigger: "::OP?"
+    replace: "Chalk's Ocean Airways (OP), US"
+
+  - trigger: "::MG?"
+    replace: "Champion Air (MG), US"
+
+  - trigger: "::2Z?"
+    replace: "Changan Airlines (2Z), CN"
+
+  - trigger: "::S8?"
+    replace: "Chari Aviation Services (S8), TD"
+
+  - trigger: "::RP?"
+    replace: "Chautauqua Airlines (RP), US"
+
+  - trigger: "::C8?"
+    replace: "Chicago Express (C8), US"
+
+  - trigger: "::CI?"
+    replace: "China Airlines (CI), TW"
+
+  - trigger: "::CK?"
+    replace: "China Cargo Airlines (CK), CN"
+
+  - trigger: "::MU?"
+    replace: "China Eastern Airlines (MU), CN"
+
+  - trigger: "::CJ?"
+    replace: "China Northern Airlines (CJ), CN"
+
+  - trigger: "::WH?"
+    replace: "China Northwest Airlines (WH), CN"
+
+  - trigger: "::8Y?"
+    replace: "China Postal Airlines (8Y), CN"
+
+  - trigger: "::CZ?"
+    replace: "China Southern Airlines (CZ), CN"
+
+  - trigger: "::HR?"
+    replace: "China United Airlines (HR), CN"
+
+  - trigger: "::XO?"
+    replace: "China Xinhua Airlines (XO), CN"
+
+  - trigger: "::3Q?"
+    replace: "Yunnan Airlines (3Q), CN"
+
+  - trigger: "::X7?"
+    replace: "Chitaavia (X7), RU"
+
+  - trigger: "::A2?"
+    replace: "Cielos Airlines (A2), PE"
+
+  - trigger: "::QI?"
+    replace: "Cimber Air (QI), DK"
+
+  - trigger: "::C9?"
+    replace: "Cirrus Airlines (C9), DE"
+
+  - trigger: "::CF?"
+    replace: "City Airline (CF), SE"
+
+  - trigger: "::G3?"
+    replace: "City Connexion Airlines (G3), BI"
+
+  - trigger: "::WX?"
+    replace: "CityJet (WX), IE"
+
+  - trigger: "::CJ?"
+    replace: "BA CityFlyer (CJ), GB"
+
+  - trigger: "::CT?"
+    replace: "Civil Air Transport (CT), TW"
+
+  - trigger: "::6P?"
+    replace: "Club Air (6P), IT"
+
+  - trigger: "::BX?"
+    replace: "Coast Air (BX), NO"
+
+  - trigger: "::DQ?"
+    replace: "Coastal Air (DQ), US"
+
+  - trigger: "::9L?"
+    replace: "Colgan Air (9L), US"
+
+  - trigger: "::OH?"
+    replace: "Comair (OH), US"
+
+  - trigger: "::MN?"
+    replace: "Comair (MN), ZA"
+
+  - trigger: "::C5?"
+    replace: "CommutAir (C5), US"
+
+  - trigger: "::KR?"
+    replace: "Comores Airlines (KR), KM"
+
+  - trigger: "::GJ?"
+    replace: "Compania Mexicargo (GJ), MX"
+
+  - trigger: "::CP?"
+    replace: "Compass Airlines (CP), US"
+
+  - trigger: "::DE?"
+    replace: "Condor Flugdienst (DE), DE"
+
+  - trigger: "::6A?"
+    replace: "Consorcio Aviaxsa (6A), MX"
+
+  - trigger: "::C3?"
+    replace: "Contact Air (C3), DE"
+
+  - trigger: "::CO?"
+    replace: "Continental Airlines (CO), US"
+
+  - trigger: "::PC?"
+    replace: "Continental Airways (PC), RU"
+
+  - trigger: "::CO?"
+    replace: "Continental Express (CO), US"
+
+  - trigger: "::CS?"
+    replace: "Continental Micronesia (CS), US"
+
+  - trigger: "::V0?"
+    replace: "Conviasa (V0), VE"
+
+  - trigger: "::CM?"
+    replace: "Copa Airlines (CM), PA"
+
+  - trigger: "::SS?"
+    replace: "Corsairfly (SS), FR"
+
+  - trigger: "::XK?"
+    replace: "Corse-Mediterranee (XK), FR"
+
+  - trigger: "::OU?"
+    replace: "Croatia Airlines (OU), HR"
+
+  - trigger: "::QE?"
+    replace: "Crossair Europe (QE), CH"
+
+  - trigger: "::CU?"
+    replace: "Cubana de Aviación (CU), CU"
+
+  - trigger: "::CY?"
+    replace: "Cyprus Airways (CY), CY"
+
+  - trigger: "::YK?"
+    replace: "Cyprus Turkish Airlines (YK), TR"
+
+  - trigger: "::OK?"
+    replace: "Czech Airlines (OK), CZ"
+
+  - trigger: "::WD?"
+    replace: "DAS Air Cargo (WD), UG"
+
+  - trigger: "::DX?"
+    replace: "DAT Danish Air Transport (DX), DK"
+
+  - trigger: "::ES?"
+    replace: "DHL International (ES), BH"
+
+  - trigger: "::L3?"
+    replace: "DHL de Guatemala (L3), GT"
+
+  - trigger: "::D3?"
+    replace: "Daallo Airlines (D3), DJ"
+
+  - trigger: "::N2?"
+    replace: "Dagestan Airlines (N2), RU"
+
+  - trigger: "::H8?"
+    replace: "Dalavia (H8), RU"
+
+  - trigger: "::0D?"
+    replace: "Darwin Airline (0D), CH"
+
+  - trigger: "::D5?"
+    replace: "Dauair (D5), DE"
+
+  - trigger: "::DL?"
+    replace: "Delta Air Lines (DL), US"
+
+  - trigger: "::2A?"
+    replace: "Deutsche Bahn (2A), DE"
+
+  - trigger: "::1I?"
+    replace: "Deutsche Rettungsflugwacht (1I), DE"
+
+  - trigger: "::D7?"
+    replace: "Dinar (D7), AR"
+
+  - trigger: "::AW?"
+    replace: "Dirgantara Air Service (AW), ID"
+
+  - trigger: "::DH?"
+    replace: "Discovery Airways (DH), US"
+
+  - trigger: "::D8?"
+    replace: "Djibouti Airlines (D8), DJ"
+
+  - trigger: "::DO?"
+    replace: "Dominicana de Aviaci (DO), DO"
+
+  - trigger: "::E3?"
+    replace: "Domodedovo Airlines (E3), RU"
+
+  - trigger: "::KA?"
+    replace: "Dragonair (KA), HK"
+
+  - trigger: "::KB?"
+    replace: "Druk Air (KB), BT"
+
+  - trigger: "::DI?"
+    replace: "dba (DI), DE"
+
+  - trigger: "::1C?"
+    replace: "Electronic Data Systems (1C), CH"
+
+  - trigger: "::VE?"
+    replace: "EUjet (VE), IE"
+
+  - trigger: "::BR?"
+    replace: "EVA Air (BR), TW"
+
+  - trigger: "::H7?"
+    replace: "Eagle Air (H7), UG"
+
+  - trigger: "::QU?"
+    replace: "East African (QU), UG"
+
+  - trigger: "::S9?"
+    replace: "East African Safari Air (S9), KE"
+
+  - trigger: "::T3?"
+    replace: "Eastern Airways (T3), GB"
+
+  - trigger: "::DK?"
+    replace: "Eastland Air (DK), AU"
+
+  - trigger: "::W9?"
+    replace: "Eastwind Airlines (W9), US"
+
+  - trigger: "::WK?"
+    replace: "Edelweiss Air (WK), CH"
+
+  - trigger: "::MS?"
+    replace: "Egyptair (MS), EG"
+
+  - trigger: "::LY?"
+    replace: "El Al Israel Airlines (LY), IL"
+
+  - trigger: "::UZ?"
+    replace: "El-Buraq Air Transport (UZ), LY"
+
+  - trigger: "::EK?"
+    replace: "Emirates (EK), AE"
+
+  - trigger: "::EM?"
+    replace: "Empire Airlines (EM), US"
+
+  - trigger: "::EU?"
+    replace: "Empresa Ecuatoriana De Aviacion (EU), EC"
+
+  - trigger: "::E0?"
+    replace: "Eos Airlines (E0), US"
+
+  - trigger: "::B8?"
+    replace: "Eritrean Airlines (B8), ER"
+
+  - trigger: "::E7?"
+    replace: "Estafeta Carga Aerea (E7), MX"
+
+  - trigger: "::OV?"
+    replace: "Estonian Air (OV), EE"
+
+  - trigger: "::ET?"
+    replace: "Ethiopian Airlines (ET), ET"
+
+  - trigger: "::EY?"
+    replace: "Etihad Airways (EY), AE"
+
+  - trigger: "::RZ?"
+    replace: "Euro Exec Express (RZ), SE"
+
+  - trigger: "::UI?"
+    replace: "Eurocypria Airlines (UI), CY"
+
+  - trigger: "::GJ?"
+    replace: "Eurofly Service (GJ), IT"
+
+  - trigger: "::K2?"
+    replace: "Eurolot (K2), PL"
+
+  - trigger: "::3W?"
+    replace: "Euromanx Airways (3W), AT"
+
+  - trigger: "::EA?"
+    replace: "European Air Express (EA), DE"
+
+  - trigger: "::QY?"
+    replace: "European Air Transport (QY), BE"
+
+  - trigger: "::E7?"
+    replace: "European Aviation Air Charter (E7), GB"
+
+  - trigger: "::EW?"
+    replace: "Eurowings (EW), DE"
+
+  - trigger: "::EZ?"
+    replace: "Evergreen International Airlines (EZ), US"
+
+  - trigger: "::JN?"
+    replace: "Excel Airways (JN), GB"
+
+  - trigger: "::MB?"
+    replace: "Execair Aviation (MB), CA"
+
+  - trigger: "::OW?"
+    replace: "Executive Airlines (OW), US"
+
+  - trigger: "::8D?"
+    replace: "Expo Aviation (8D), LK"
+
+  - trigger: "::EO?"
+    replace: "Express One International (EO), US"
+
+  - trigger: "::XE?"
+    replace: "ExpressJet (XE), US"
+
+  - trigger: "::U2?"
+    replace: "easyJet (U2), GB"
+
+  - trigger: "::IH?"
+    replace: "Falcon Aviation (IH), SE"
+
+  - trigger: "::EF?"
+    replace: "Far Eastern Air Transport (EF), TW"
+
+  - trigger: "::F6?"
+    replace: "Faroejet (F6), FO"
+
+  - trigger: "::F3?"
+    replace: "Faso Airways (F3), BF"
+
+  - trigger: "::FX?"
+    replace: "Federal Express (FX), US"
+
+  - trigger: "::N8?"
+    replace: "Fika Salaama Airlines (N8), UG"
+
+  - trigger: "::4S?"
+    replace: "Finalair Congo (4S), CG"
+
+  - trigger: "::AY?"
+    replace: "Finnair (AY), FI"
+
+  - trigger: "::FC?"
+    replace: "Finncomm Airlines (FC), FI"
+
+  - trigger: "::FY?"
+    replace: "Firefly (FY), MY"
+
+  - trigger: "::7F?"
+    replace: "First Air (7F), CA"
+
+  - trigger: "::DP?"
+    replace: "First Choice Airways (DP), GB"
+
+  - trigger: "::8F?"
+    replace: "Fischer Air (8F), CZ"
+
+  - trigger: "::B5?"
+    replace: "Flightline (B5), GB"
+
+  - trigger: "::PA?"
+    replace: "Florida Coastal Airlines (PA), US"
+
+  - trigger: "::RF?"
+    replace: "Florida West International Airways (RF), US"
+
+  - trigger: "::F2?"
+    replace: "Fly Air (F2), TR"
+
+  - trigger: "::SH?"
+    replace: "Fly Me Sweden (SH), SE"
+
+  - trigger: "::D7?"
+    replace: "AirAsia X (D7), MY"
+
+  - trigger: "::TE?"
+    replace: "FlyLal (TE), LT"
+
+  - trigger: "::LF?"
+    replace: "FlyNordic (LF), SE"
+
+  - trigger: "::F7?"
+    replace: "Flybaboo (F7), CH"
+
+  - trigger: "::BE?"
+    replace: "Flybe (BE), GB"
+
+  - trigger: "::B4?"
+    replace: "Flyglobespan (B4), GB"
+
+  - trigger: "::VY?"
+    replace: "Formosa Airlines (VY), TW"
+
+  - trigger: "::BN?"
+    replace: "Forward Air International Airlines (BN), US"
+
+  - trigger: "::HK?"
+    replace: "Four Star Aviation / Four Star Cargo (HK), US"
+
+  - trigger: "::FP?"
+    replace: "Freedom Air (FP), US"
+
+  - trigger: "::F9?"
+    replace: "Frontier Airlines (F9), US"
+
+  - trigger: "::2F?"
+    replace: "Frontier Flying Service (2F), US"
+
+  - trigger: "::FH?"
+    replace: "Futura International Airways (FH), ES"
+
+  - trigger: "::GT?"
+    replace: "GB Airways (GT), GB"
+
+  - trigger: "::7O?"
+    replace: "Galaxy Air (7O), KG"
+
+  - trigger: "::1G?"
+    replace: "Galileo International (1G), US"
+
+  - trigger: "::GC?"
+    replace: "Gambia International Airlines (GC), GM"
+
+  - trigger: "::G7?"
+    replace: "Gandalf Airlines (G7), IT"
+
+  - trigger: "::GA?"
+    replace: "Garuda Indonesia (GA), ID"
+
+  - trigger: "::4G?"
+    replace: "Gazpromavia (4G), RU"
+
+  - trigger: "::A9?"
+    replace: "Georgian Airways (A9), GE"
+
+  - trigger: "::QB?"
+    replace: "Georgian National Airlines (QB), GE"
+
+  - trigger: "::ST?"
+    replace: "Germania (ST), DE"
+
+  - trigger: "::4U?"
+    replace: "Germanwings (4U), DE"
+
+  - trigger: "::GP?"
+    replace: "Gestair (GP), ES"
+
+  - trigger: "::G0?"
+    replace: "Ghana International Airlines (G0), GH"
+
+  - trigger: "::G8?"
+    replace: "Go Air (G8), IN"
+
+  - trigger: "::GK?"
+    replace: "Go One Airways (GK), GB"
+
+  - trigger: "::G7?"
+    replace: "GoJet Airlines (G7), US"
+
+  - trigger: "::G3?"
+    replace: "Gol Transportes Aéreos (G3), BR"
+
+  - trigger: "::DC?"
+    replace: "Golden Air (DC), SE"
+
+  - trigger: "::G1?"
+    replace: "Gorkha Airlines (G1), NP"
+
+  - trigger: "::GS?"
+    replace: "Grant Aviation (GS), US"
+
+  - trigger: "::ZK?"
+    replace: "Great Lakes Airlines (ZK), US"
+
+  - trigger: "::IJ?"
+    replace: "Great Wall Airlines (IJ), CN"
+
+  - trigger: "::TA?"
+    replace: "Grupo TACA (TA), CR"
+
+  - trigger: "::G6?"
+    replace: "Guine Bissaur Airlines (G6), GW"
+
+  - trigger: "::J9?"
+    replace: "Guinee Airlines (J9), GN"
+
+  - trigger: "::G8?"
+    replace: "Gujarat Airways (G8), IN"
+
+  - trigger: "::GF?"
+    replace: "Gulf Air Bahrain (GF), BH"
+
+  - trigger: "::H6?"
+    replace: "Hageland Aviation Services (H6), US"
+
+  - trigger: "::HR?"
+    replace: "Hahn Air (HR), DE"
+
+  - trigger: "::HU?"
+    replace: "Hainan Airlines (HU), CN"
+
+  - trigger: "::1R?"
+    replace: "Hainan Phoenix Information Systems (1R), CN"
+
+  - trigger: "::2T?"
+    replace: "Haiti Ambassador Airlines (2T), HT"
+
+  - trigger: "::4R?"
+    replace: "Hamburg International (4R), DE"
+
+  - trigger: "::X3?"
+    replace: "TUIfly (X3), DE"
+
+  - trigger: "::HF?"
+    replace: "Hapagfly (HF), DE"
+
+  - trigger: "::HB?"
+    replace: "Harbor Airlines (HB), US"
+
+  - trigger: "::HQ?"
+    replace: "Harmony Airways (HQ), CA"
+
+  - trigger: "::HA?"
+    replace: "Hawaiian Airlines (HA), US"
+
+  - trigger: "::HP?"
+    replace: "Hawaiian Pacific Airlines (HP), US"
+
+  - trigger: "::BH?"
+    replace: "Hawkair (BH), CA"
+
+  - trigger: "::HN?"
+    replace: "Heavylift Cargo Airlines (HN), AU"
+
+  - trigger: "::8H?"
+    replace: "Heli France (8H), FR"
+
+  - trigger: "::JB?"
+    replace: "Helijet (JB), CA"
+
+  - trigger: "::ZU?"
+    replace: "Helios Airways (ZU), CY"
+
+  - trigger: "::T4?"
+    replace: "Hellas Jet (T4), GR"
+
+  - trigger: "::HW?"
+    replace: "Hello (HW), CH"
+
+  - trigger: "::2L?"
+    replace: "Helvetic Airways (2L), CH"
+
+  - trigger: "::DU?"
+    replace: "Hemus Air (DU), BG"
+
+  - trigger: "::EO?"
+    replace: "Hewa Bora Airways (EO), CD"
+
+  - trigger: "::UD?"
+    replace: "Hex'Air (UD), FR"
+
+  - trigger: "::5K?"
+    replace: "Hi Fly (5K), PT"
+
+  - trigger: "::HD?"
+    replace: "Hokkaido International Airlines (HD), JP"
+
+  - trigger: "::H5?"
+    replace: "Hola Airlines (H5), ES"
+
+  - trigger: "::HX?"
+    replace: "Hong Kong Airlines (HX), HK"
+
+  - trigger: "::UO?"
+    replace: "Hong Kong Express Airways (UO), HK"
+
+  - trigger: "::HH?"
+    replace: "Hope Air (HH), CA"
+
+  - trigger: "::QX?"
+    replace: "Horizon Air (QX), US"
+
+  - trigger: "::BN?"
+    replace: "Horizon Airlines (BN), AU"
+
+  - trigger: "::H4?"
+    replace: "Héli Sécurité Helicopter Airlines (H4), FR"
+
+  - trigger: "::II?"
+    replace: "IBC Airways (II), US"
+
+  - trigger: "::C3?"
+    replace: "ICAR Airlines (C3), UA"
+
+  - trigger: "::1F?"
+    replace: "INFINI Travel Information (1F), JP"
+
+  - trigger: "::IB?"
+    replace: "Iberia Airlines (IB), ES"
+
+  - trigger: "::TY?"
+    replace: "Iberworld (TY), ES"
+
+  - trigger: "::FW?"
+    replace: "Ibex Airlines (FW), JP"
+
+  - trigger: "::FI?"
+    replace: "Icelandair (FI), IS"
+
+  - trigger: "::IK?"
+    replace: "Imair Airlines (IK), AZ"
+
+  - trigger: "::DH?"
+    replace: "Independence Air (DH), US"
+
+  - trigger: "::6E?"
+    replace: "IndiGo Airlines (6E), IN"
+
+  - trigger: "::IC?"
+    replace: "Indian Airlines (IC), IN"
+
+  - trigger: "::I9?"
+    replace: "Indigo (I9), US"
+
+  - trigger: "::QZ?"
+    replace: "Indonesia AirAsia (QZ), ID"
+
+  - trigger: "::IO?"
+    replace: "Indonesian Airlines (IO), ID"
+
+  - trigger: "::IJ?"
+    replace: "InteliJet Airways (IJ), CO"
+
+  - trigger: "::H4?"
+    replace: "Inter Islands Airlines (H4), CV"
+
+  - trigger: "::D6?"
+    replace: "Interair South Africa (D6), ZA"
+
+  - trigger: "::ZA?"
+    replace: "Interavia Airlines (ZA), RU"
+
+  - trigger: "::RS?"
+    replace: "Intercontinental de Aviaci (RS), CO"
+
+  - trigger: "::ID?"
+    replace: "Interlink Airlines (ID), ZA"
+
+  - trigger: "::6I?"
+    replace: "International Business Air (6I), SE"
+
+  - trigger: "::3L?"
+    replace: "Intersky (3L), AT"
+
+  - trigger: "::I4?"
+    replace: "Interstate Airline (I4), NL"
+
+  - trigger: "::IR?"
+    replace: "Iran Air (IR), IR"
+
+  - trigger: "::EP?"
+    replace: "Iran Aseman Airlines (EP), IR"
+
+  - trigger: "::IA?"
+    replace: "Iraqi Airways (IA), IQ"
+
+  - trigger: "::IS?"
+    replace: "Island Airlines (IS), US"
+
+  - trigger: "::2S?"
+    replace: "Island Express (2S), US"
+
+  - trigger: "::8L?"
+    replace: "Cargo Plus Aviation (8L), AE"
+
+  - trigger: "::CN?"
+    replace: "Islands Nationair (CN), PG"
+
+  - trigger: "::IF?"
+    replace: "Islas Airways (IF), ES"
+
+  - trigger: "::WC?"
+    replace: "Islena De Inversiones (WC), HN"
+
+  - trigger: "::6H?"
+    replace: "Israir (6H), IL"
+
+  - trigger: "::9X?"
+    replace: "Itali Airlines (9X), IT"
+
+  - trigger: "::GI?"
+    replace: "Itek Air (GI), KG"
+
+  - trigger: "::H9?"
+    replace: "Izair (H9), TR"
+
+  - trigger: "::JC?"
+    replace: "JAL Express (JC), JP"
+
+  - trigger: "::JO?"
+    replace: "JALways (JO), JP"
+
+  - trigger: "::1M?"
+    replace: "JSC Transport Automated Information Systems (1M), RU"
+
+  - trigger: "::JL?"
+    replace: "Japan Airlines (JL), JP"
+
+  - trigger: "::JL?"
+    replace: "Japan Airlines Domestic (JL), JP"
+
+  - trigger: "::EG?"
+    replace: "Japan Asia Airways (EG), JP"
+
+  - trigger: "::NU?"
+    replace: "Japan Transocean Air (NU), JP"
+
+  - trigger: "::JU?"
+    replace: "Jat Airways (JU), RS"
+
+  - trigger: "::VJ?"
+    replace: "Jatayu Airlines (VJ), ID"
+
+  - trigger: "::J9?"
+    replace: "Jazeera Airways (J9), KW"
+
+  - trigger: "::7C?"
+    replace: "Jeju Air (7C), KR"
+
+  - trigger: "::9W?"
+    replace: "Jet Airways (9W), IN"
+
+  - trigger: "::QJ?"
+    replace: "Jet Airways (QJ), US"
+
+  - trigger: "::0J?"
+    replace: "Jetclub (0J), CH"
+
+  - trigger: "::3K?"
+    replace: "Jetstar Asia Airways (3K), SG"
+
+  - trigger: "::LS?"
+    replace: "Jet2.com (LS), GB"
+
+  - trigger: "::8J?"
+    replace: "Jet4You (8J), MA"
+
+  - trigger: "::B6?"
+    replace: "JetBlue Airways (B6), US"
+
+  - trigger: "::JF?"
+    replace: "Jetairfly (JF), BE"
+
+  - trigger: "::0J?"
+    replace: "Jetclub (0J), CH"
+
+  - trigger: "::SG?"
+    replace: "JetsGo (SG), CA"
+
+  - trigger: "::JQ?"
+    replace: "Jetstar Airways (JQ), AU"
+
+  - trigger: "::JX?"
+    replace: "Jett8 Airlines Cargo (JX), SG"
+
+  - trigger: "::GX?"
+    replace: "Jetx Airlines (GX), IS"
+
+  - trigger: "::R5?"
+    replace: "Jordan Aviation (R5), JO"
+
+  - trigger: "::HO?"
+    replace: "Juneyao Airlines (HO), CN"
+
+  - trigger: "::KD?"
+    replace: "KD Avia (KD), RU"
+
+  - trigger: "::WA?"
+    replace: "KLM Cityhopper (WA), NL"
+
+  - trigger: "::KL?"
+    replace: "KLM Royal Dutch Airlines (KL), NL"
+
+  - trigger: "::N2?"
+    replace: "Kabo Air (N2), NG"
+
+  - trigger: "::K4?"
+    replace: "Kalitta Air (K4), US"
+
+  - trigger: "::RQ?"
+    replace: "Kam Air (RQ), AF"
+
+  - trigger: "::E2?"
+    replace: "Kampuchea Airlines (E2), KH"
+
+  - trigger: "::V2?"
+    replace: "Karat (V2), RU"
+
+  - trigger: "::KV?"
+    replace: "Kavminvodyavia (KV), RU"
+
+  - trigger: "::M5?"
+    replace: "Kenmore Air (M5), US"
+
+  - trigger: "::KQ?"
+    replace: "Kenya Airways (KQ), KE"
+
+  - trigger: "::BZ?"
+    replace: "Keystone Air Services (BZ), CA"
+
+  - trigger: "::IT?"
+    replace: "Kingfisher Airlines (IT), IN"
+
+  - trigger: "::Y9?"
+    replace: "Kish Air (Y9), IR"
+
+  - trigger: "::KP?"
+    replace: "Kiwi International Air Lines (KP), US"
+
+  - trigger: "::7K?"
+    replace: "Kogalymavia Air Company (7K), RU"
+
+  - trigger: "::8J?"
+    replace: "Komiinteravia (8J), RU"
+
+  - trigger: "::KE?"
+    replace: "Korean Air (KE), KR"
+
+  - trigger: "::7B?"
+    replace: "Krasnojarsky Airlines (7B), RU"
+
+  - trigger: "::K9?"
+    replace: "Krylo Airlines (K9), RU"
+
+  - trigger: "::GW?"
+    replace: "Kuban Airlines (GW), RU"
+
+  - trigger: "::VD?"
+    replace: "Kunpeng Airlines (VD), CN"
+
+  - trigger: "::KU?"
+    replace: "Kuwait Airways (KU), KW"
+
+  - trigger: "::GO?"
+    replace: "Kuzu Airlines Cargo (GO), TR"
+
+  - trigger: "::N5?"
+    replace: "Kyrgyz Airlines (N5), KG"
+
+  - trigger: "::QH?"
+    replace: "Kyrgyzstan (QH), KG"
+
+  - trigger: "::R8?"
+    replace: "Kyrgyzstan Airlines (R8), KG"
+
+  - trigger: "::KY?"
+    replace: "Kibris T (KY), TR"
+
+  - trigger: "::JF?"
+    replace: "L.A.B. Flying Service (JF), US"
+
+  - trigger: "::LR?"
+    replace: "LACSA (LR), CR"
+
+  - trigger: "::KG?"
+    replace: "LAI - Linea Aerea IAACA (KG), VE"
+
+  - trigger: "::LA?"
+    replace: "LAN Airlines (LA), CL"
+
+  - trigger: "::4M?"
+    replace: "LAN Argentina (4M), AR"
+
+  - trigger: "::LU?"
+    replace: "LAN Express (LU), CL"
+
+  - trigger: "::LP?"
+    replace: "LAN Peru (LP), PE"
+
+  - trigger: "::LO?"
+    replace: "LOT Polish Airlines (LO), PL"
+
+  - trigger: "::XO?"
+    replace: "LTE International Airways (XO), ES"
+
+  - trigger: "::L3?"
+    replace: "LTU Austria (L3), AT"
+
+  - trigger: "::LT?"
+    replace: "LTU International (LT), DE"
+
+  - trigger: "::N6?"
+    replace: "Lagun Air (N6), ES"
+
+  - trigger: "::IK?"
+    replace: "Lankair (IK), LK"
+
+  - trigger: "::QV?"
+    replace: "Lao Airlines (QV), LA"
+
+  - trigger: "::L7?"
+    replace: "Laoag International Airlines (L7), PH"
+
+  - trigger: "::NG?"
+    replace: "Lauda Air (NG), AT"
+
+  - trigger: "::LQ?"
+    replace: "Lebanese Air Transport (LQ), LB"
+
+  - trigger: "::LI?"
+    replace: "Leeward Islands Air Transport (LI), AG"
+
+  - trigger: "::LN?"
+    replace: "Libyan Arab Airlines (LN), LY"
+
+  - trigger: "::L7?"
+    replace: "Linea Aerea SAPSA (L7), CL"
+
+  - trigger: "::8z?"
+    replace: "Linea Aerea de Servicio Ejecutivo Regional (8z), VE"
+
+  - trigger: "::LD?"
+    replace: "Linea Turistica Aerotuy (LD), VE"
+
+  - trigger: "::ZE?"
+    replace: "Lineas Aereas Azteca (ZE), MX"
+
+  - trigger: "::LM?"
+    replace: "Linhas A (LM), MZ"
+
+  - trigger: "::JT?"
+    replace: "Lion Mentari Airlines (JT), ID"
+
+  - trigger: "::LM?"
+    replace: "Livingston (LM), IT"
+
+  - trigger: "::LB?"
+    replace: "Lloyd Aereo Boliviano (LB), BO"
+
+  - trigger: "::HE?"
+    replace: "Luftfahrtgesellschaft Walter (HE), DE"
+
+  - trigger: "::LH?"
+    replace: "Lufthansa (LH), DE"
+
+  - trigger: "::LH?"
+    replace: "Lufthansa Cargo (LH), DE"
+
+  - trigger: "::CL?"
+    replace: "Lufthansa CityLine (CL), DE"
+
+  - trigger: "::L1?"
+    replace: "Lufthansa Systems (L1), DE"
+
+  - trigger: "::DV?"
+    replace: "Lufttaxi Fluggesellschaft (DV), DE"
+
+  - trigger: "::L5?"
+    replace: "Lufttransport (L5), NO"
+
+  - trigger: "::LG?"
+    replace: "Luxair (LG), LU"
+
+  - trigger: "::5V?"
+    replace: "Lviv Airlines (5V), UA"
+
+  - trigger: "::L2?"
+    replace: "Lynden Air Cargo (L2), US"
+
+  - trigger: "::MJ?"
+    replace: "LAPA – Líneas Aéreas Privadas Argentinas (MJ), AR"
+
+  - trigger: "::M7?"
+    replace: "MasAir (M7), MX"
+
+  - trigger: "::IN?"
+    replace: "MAT Macedonian Airlines (IN), MK"
+
+  - trigger: "::OM?"
+    replace: "MIAT Mongolian Airlines (OM), MN"
+
+  - trigger: "::MB?"
+    replace: "MNG Airlines (MB), TR"
+
+  - trigger: "::CC?"
+    replace: "Macair Airlines (CC), AU"
+
+  - trigger: "::DM?"
+    replace: "Maersk (DM), DK"
+
+  - trigger: "::W5?"
+    replace: "Mahan Air (W5), IR"
+
+  - trigger: "::M2?"
+    replace: "Mahfooz Aviation (M2), GM"
+
+  - trigger: "::MH?"
+    replace: "Malaysia Airlines (MH), MY"
+
+  - trigger: "::TF?"
+    replace: "Malmö Aviation (TF), SE"
+
+  - trigger: "::R5?"
+    replace: "Malta Air Charter (R5), MT"
+
+  - trigger: "::MA?"
+    replace: "Malév (MA), HU"
+
+  - trigger: "::RI?"
+    replace: "Mandala Airlines (RI), ID"
+
+  - trigger: "::AE?"
+    replace: "Mandarin Airlines (AE), TW"
+
+  - trigger: "::JE?"
+    replace: "Mango (JE), ZA"
+
+  - trigger: "::6V?"
+    replace: "Mars RK (6V), UA"
+
+  - trigger: "::M7?"
+    replace: "Marsland Aviation (M7), SD"
+
+  - trigger: "::MP?"
+    replace: "Martinair (MP), NL"
+
+  - trigger: "::Q4?"
+    replace: "Mastertop Linhas Aereas (Q4), BR"
+
+  - trigger: "::H5?"
+    replace: "Mavial Magadan Airlines (H5), RU"
+
+  - trigger: "::8M?"
+    replace: "Maxair (8M), SE"
+
+  - trigger: "::MY?"
+    replace: "Maxjet Airways (MY), US"
+
+  - trigger: "::MW?"
+    replace: "Maya Island Air (MW), BZ"
+
+  - trigger: "::IM?"
+    replace: "Menajet (IM), LB"
+
+  - trigger: "::IG?"
+    replace: "Meridiana (IG), IT"
+
+  - trigger: "::MZ?"
+    replace: "Merpati Nusantara Airlines (MZ), ID"
+
+  - trigger: "::YV?"
+    replace: "Mesa Airlines (YV), US"
+
+  - trigger: "::XJ?"
+    replace: "Mesaba Airlines (XJ), US"
+
+  - trigger: "::MX?"
+    replace: "Mexicana de Aviaci (MX), MX"
+
+  - trigger: "::GL?"
+    replace: "Miami Air International (GL), US"
+
+  - trigger: "::ME?"
+    replace: "Middle East Airlines (ME), LB"
+
+  - trigger: "::JI?"
+    replace: "Midway Airlines (JI), US"
+
+  - trigger: "::YX?"
+    replace: "Midwest Airlines (YX), US"
+
+  - trigger: "::MY?"
+    replace: "Midwest Airlines (Egypt) (MY), EG"
+
+  - trigger: "::2M?"
+    replace: "Moldavian Airlines (2M), MD"
+
+  - trigger: "::ZB?"
+    replace: "Monarch Airlines (ZB), GB"
+
+  - trigger: "::8I?"
+    replace: "Myway Airlines (8I), IT"
+
+  - trigger: "::YM?"
+    replace: "Montenegro Airlines (YM), ME"
+
+  - trigger: "::3R?"
+    replace: "Moskovia Airlines (3R), RU"
+
+  - trigger: "::M9?"
+    replace: "Motor Sich (M9), UA"
+
+  - trigger: "::NM?"
+    replace: "Mount Cook Airlines (NM), NZ"
+
+  - trigger: "::N4?"
+    replace: "Mountain Air Company (N4), SL"
+
+  - trigger: "::VZ?"
+    replace: "MyTravel Airways (VZ), GB"
+
+  - trigger: "::UB?"
+    replace: "Myanma Airways (UB), MM"
+
+  - trigger: "::8M?"
+    replace: "Myanmar Airways International (8M), MM"
+
+  - trigger: "::DV?"
+    replace: "Nantucket Airlines (DV), US"
+
+  - trigger: "::P9?"
+    replace: "Nas Air (P9), ML"
+
+  - trigger: "::UE?"
+    replace: "Nasair (UE), ER"
+
+  - trigger: "::N4?"
+    replace: "National Airlines (N4), CL"
+
+  - trigger: "::N7?"
+    replace: "National Airlines (N7), US"
+
+  - trigger: "::NA?"
+    replace: "National Airlines (NA), US"
+
+  - trigger: "::9O?"
+    replace: "National Airways Cameroon (9O), CM"
+
+  - trigger: "::NC?"
+    replace: "National Jet Systems (NC), AU"
+
+  - trigger: "::CE?"
+    replace: "Nationwide Airlines (CE), ZA"
+
+  - trigger: "::ON?"
+    replace: "Nauru Air Corporation (ON), NR"
+
+  - trigger: "::1N?"
+    replace: "Navitaire (1N), US"
+
+  - trigger: "::RA?"
+    replace: "Nepal Airlines (RA), NP"
+
+  - trigger: "::NO?"
+    replace: "Neos (NO), IT"
+
+  - trigger: "::1I?"
+    replace: "NetJets (1I), US"
+
+  - trigger: "::EJ?"
+    replace: "New England Airlines (EJ), US"
+
+  - trigger: "::2N?"
+    replace: "NextJet (2N), SE"
+
+  - trigger: "::HG?"
+    replace: "Niki (HG), AT"
+
+  - trigger: "::KZ?"
+    replace: "Nippon Cargo Airlines (KZ), JP"
+
+  - trigger: "::DD?"
+    replace: "Nok Air (DD), TH"
+
+  - trigger: "::JH?"
+    replace: "Nordeste Linhas Aereas Regionais (JH), BR"
+
+  - trigger: "::6N?"
+    replace: "Nordic Regional (6N), SE"
+
+  - trigger: "::N9?"
+    replace: "North Coast Aviation (N9), PG"
+
+  - trigger: "::M3?"
+    replace: "North Flying (M3), DK"
+
+  - trigger: "::HW?"
+    replace: "North-Wright Airways (HW), CA"
+
+  - trigger: "::NC?"
+    replace: "Northern Air Cargo (NC), US"
+
+  - trigger: "::U7?"
+    replace: "Northern Dene Airways (U7), CA"
+
+  - trigger: "::NW?"
+    replace: "Northwest Airlines (NW), US"
+
+  - trigger: "::FY?"
+    replace: "Northwest Regional Airlines (FY), AU"
+
+  - trigger: "::J3?"
+    replace: "Northwestern Air (J3), CA"
+
+  - trigger: "::DY?"
+    replace: "Norwegian Air Shuttle (DY), NO"
+
+  - trigger: "::BJ?"
+    replace: "Nouvel Air Tunisie (BJ), TN"
+
+  - trigger: "::M4?"
+    replace: "Nova Airline (M4), SD"
+
+  - trigger: "::1I?"
+    replace: "Novair (1I), SE"
+
+  - trigger: "::N6?"
+    replace: "Nuevo Continente (N6), PE"
+
+  - trigger: "::XY?"
+    replace: "Nas Air (XY), SA"
+
+  - trigger: "::UQ?"
+    replace: "O'Connor Airlines (UQ), AU"
+
+  - trigger: "::CR?"
+    replace: "OAG (CR), GB"
+
+  - trigger: "::O8?"
+    replace: "Oasis Hong Kong Airlines (O8), HK"
+
+  - trigger: "::VC?"
+    replace: "Ocean Airlines (VC), IT"
+
+  - trigger: "::O6?"
+    replace: "Oceanair (O6), BR"
+
+  - trigger: "::O2?"
+    replace: "Oceanic Airlines (O2), GN"
+
+  - trigger: "::OA?"
+    replace: "Olympic Airlines (OA), GR"
+
+  - trigger: "::WY?"
+    replace: "Oman Air (WY), OM"
+
+  - trigger: "::OY?"
+    replace: "Omni Air International (OY), US"
+
+  - trigger: "::N3?"
+    replace: "Omskavia Airline (N3), RU"
+
+  - trigger: "::8Q?"
+    replace: "Onur Air (8Q), TR"
+
+  - trigger: "::R2?"
+    replace: "Orenburg Airlines (R2), RU"
+
+  - trigger: "::OX?"
+    replace: "Orient Thai Airlines (OX), TH"
+
+  - trigger: "::QO?"
+    replace: "Origin Pacific Airways (QO), NZ"
+
+  - trigger: "::OL?"
+    replace: "Ostfriesische Lufttransport (OL), DE"
+
+  - trigger: "::ON?"
+    replace: "Our Airline (ON), NR"
+
+  - trigger: "::OJ?"
+    replace: "Overland Airways (OJ), NG"
+
+  - trigger: "::OZ?"
+    replace: "Ozark Air Lines (OZ), US"
+
+  - trigger: "::O7?"
+    replace: "Ozjet Airlines (O7), AU"
+
+  - trigger: "::PV?"
+    replace: "PAN Air (PV), ES"
+
+  - trigger: "::9Q?"
+    replace: "PB Air (9Q), TH"
+
+  - trigger: "::PU?"
+    replace: "PLUNA (PU), UY"
+
+  - trigger: "::U4?"
+    replace: "PMTair (U4), KH"
+
+  - trigger: "::Y5?"
+    replace: "Pace Airlines (Y5), US"
+
+  - trigger: "::BL?"
+    replace: "Jetstar Pacific (BL), VN"
+
+  - trigger: "::DJ?"
+    replace: "Pacific Blue (DJ), NZ"
+
+  - trigger: "::8P?"
+    replace: "Pacific Coastal Airline (8P), CA"
+
+  - trigger: "::Q8?"
+    replace: "Pacific East Asia Cargo Airlines (Q8), PH"
+
+  - trigger: "::PS?"
+    replace: "Pacific Southwest Airlines (PS), US"
+
+  - trigger: "::LW?"
+    replace: "Pacific Wings (LW), US"
+
+  - trigger: "::GX?"
+    replace: "Pacificair (GX), PH"
+
+  - trigger: "::PK?"
+    replace: "Pakistan International Airlines (PK), PK"
+
+  - trigger: "::GP?"
+    replace: "Palau Trans Pacific Airline (GP), PW"
+
+  - trigger: "::PF?"
+    replace: "Palestinian Airlines (PF), EG"
+
+  - trigger: "::NR?"
+    replace: "Pamir Airways (NR), AF"
+
+  - trigger: "::PA?"
+    replace: "Pan American Airways (PA), US"
+
+  - trigger: "::PA?"
+    replace: "Pan American World Airways (PA), US"
+
+  - trigger: "::PQ?"
+    replace: "Panafrican Airways (PQ), CI"
+
+  - trigger: "::P8?"
+    replace: "Pantanal Linhas Aéreas (P8), BR"
+
+  - trigger: "::I7?"
+    replace: "Paramount Airways (I7), IN"
+
+  - trigger: "::HP?"
+    replace: "Pearl Airways (HP), HT"
+
+  - trigger: "::PC?"
+    replace: "Pegasus Airlines (PC), TR"
+
+  - trigger: "::1I?"
+    replace: "Pegasus Hava Tasimaciligi (1I), TR"
+
+  - trigger: "::KS?"
+    replace: "Peninsula Airways (KS), US"
+
+  - trigger: "::P9?"
+    replace: "Perm Airlines (P9), RU"
+
+  - trigger: "::PR?"
+    replace: "Philippine Airlines (PR), PH"
+
+  - trigger: "::HP?"
+    replace: "Phoenix Airways (HP), CH"
+
+  - trigger: "::9R?"
+    replace: "Phuket Air (9R), TH"
+
+  - trigger: "::PI?"
+    replace: "Piedmont Airlines (1948-1989) (PI), US"
+
+  - trigger: "::9E?"
+    replace: "Pinnacle Airlines (9E), US"
+
+  - trigger: "::PO?"
+    replace: "Polar Air Cargo (PO), US"
+
+  - trigger: "::PH?"
+    replace: "Polynesian Airlines (PH), WS"
+
+  - trigger: "::DJ?"
+    replace: "Polynesian Blue (DJ), NZ"
+
+  - trigger: "::1U?"
+    replace: "Polyot Sirena (1U), RU"
+
+  - trigger: "::PD?"
+    replace: "Porter Airlines (PD), CA"
+
+  - trigger: "::NI?"
+    replace: "Portugalia (NI), PT"
+
+  - trigger: "::BK?"
+    replace: "Potomac Air (BK), US"
+
+  - trigger: "::PW?"
+    replace: "Precision Air (PW), TZ"
+
+  - trigger: "::TO?"
+    replace: "President Airlines (TO), KH"
+
+  - trigger: "::FE?"
+    replace: "Primaris Airlines (FE), US"
+
+  - trigger: "::8W?"
+    replace: "Private Wings Flugcharter (8W), DE"
+
+  - trigger: "::P0?"
+    replace: "Proflight Commuter Services (P0), ZM"
+
+  - trigger: "::QF?"
+    replace: "Qantas (QF), AU"
+
+  - trigger: "::QR?"
+    replace: "Qatar Airways (QR), QA"
+
+  - trigger: "::R6?"
+    replace: "RACSA (R6), GT"
+
+  - trigger: "::1D?"
+    replace: "Radixx Solutions International (1D), US"
+
+  - trigger: "::8L?"
+    replace: "Redhill Aviation (8L), GB"
+
+  - trigger: "::V4?"
+    replace: "Reem Air (V4), KG"
+
+  - trigger: "::FN?"
+    replace: "Regional Airlines (FN), MA"
+
+  - trigger: "::ZL?"
+    replace: "Regional Express (ZL), AU"
+
+  - trigger: "::3C?"
+    replace: "RegionsAir (3C), US"
+
+  - trigger: "::QQ?"
+    replace: "Reno Air (QQ), US"
+
+  - trigger: "::RW?"
+    replace: "Rwandair Express (WB), RW"
+
+  - trigger: "::RD?"
+    replace: "Ryan International Airlines (RD), US"
+
+  - trigger: "::FR?"
+    replace: "Ryanair (FR), IE"
+
+  - trigger: "::YS?"
+    replace: "Régional (YS), FR"
+
+  - trigger: "::S4?"
+    replace: "SATA International (S4), PT"
+
+  - trigger: "::SA?"
+    replace: "South African Airways (SA), ZA"
+
+  - trigger: "::NL?"
+    replace: "Shaheen Air International (NL), PK"
+
+  - trigger: "::SK?"
+    replace: "Scandinavian Airlines System (SK), SE"
+
+  - trigger: "::S7?"
+    replace: "S7 Airlines (S7), RU"
+
+  - trigger: "::BB?"
+    replace: "Seaborne Airlines (BB), US"
+
+  - trigger: "::UL?"
+    replace: "SriLankan Airlines (UL), LK"
+
+  - trigger: "::SY?"
+    replace: "Sun Country Airlines (SY), US"
+
+  - trigger: "::G3?"
+    replace: "Sky Express (G3), GR"
+
+  - trigger: "::SG?"
+    replace: "Spicejet (SG), IN"
+
+  - trigger: "::I6?"
+    replace: "Sky Eyes (I6), TH"
+
+  - trigger: "::EH?"
+    replace: "SAETA (EH), EC"
+
+  - trigger: "::7G?"
+    replace: "Star Flyer (7G), JP"
+
+  - trigger: "::FA?"
+    replace: "Safair (FA), ZA"
+
+  - trigger: "::N5?"
+    replace: "Skagway Air Service (N5), US"
+
+  - trigger: "::SP?"
+    replace: "SATA Air Acores (SP), PT"
+
+  - trigger: "::SQ?"
+    replace: "Singapore Airlines (SQ), SG"
+
+  - trigger: "::5M?"
+    replace: "Sibaviatrans (5M), RU"
+
+  - trigger: "::SI?"
+    replace: "Skynet Airlines (SI), IE"
+
+  - trigger: "::XS?"
+    replace: "SITA (XS), BE"
+
+  - trigger: "::SJ?"
+    replace: "Sriwijaya Air (SJ), ID"
+
+  - trigger: "::ZS?"
+    replace: "Sama Airlines (ZS), SA"
+
+  - trigger: "::FT?"
+    replace: "Siem Reap Airways (FT), KH"
+
+  - trigger: "::SX?"
+    replace: "Sky Work Airlines (SX), CH"
+
+  - trigger: "::SM?"
+    replace: "Swedline Express (SM), SE"
+
+  - trigger: "::DG?"
+    replace: "South East Asian Airlines (DG), PH"
+
+  - trigger: "::VD?"
+    replace: "SwedJet Airways (VD), SE"
+
+  - trigger: "::5G?"
+    replace: "Skyservice Airlines (5G), CA"
+
+  - trigger: "::FS?"
+    replace: "Servicios de Transportes A (FS), AR"
+
+  - trigger: "::SD?"
+    replace: "Sudan Airways (SD), SD"
+
+  - trigger: "::PI?"
+    replace: "Sun Air (Fiji) (PI), FJ"
+
+  - trigger: "::EZ?"
+    replace: "Sun Air of Scandinavia (EZ), DK"
+
+  - trigger: "::SV?"
+    replace: "Saudi Arabian Airlines (SV), SA"
+
+  - trigger: "::WN?"
+    replace: "Southwest Airlines (WN), US"
+
+  - trigger: "::A4?"
+    replace: "Southern Winds Airlines (A4), AR"
+
+  - trigger: "::WG?"
+    replace: "Sunwing Airlines (WG), CA"
+
+  - trigger: "::LX?"
+    replace: "Swiss International Air Lines (LX), CH"
+
+  - trigger: "::SR?"
+    replace: "Swissair (SR), CH"
+
+  - trigger: "::WV?"
+    replace: "Swe Fly (WV), SE"
+
+  - trigger: "::S8?"
+    replace: "Shovkoviy Shlyah (S8), UA"
+
+  - trigger: "::XQ?"
+    replace: "SunExpress (XQ), TR"
+
+  - trigger: "::RB?"
+    replace: "Syrian Arab Airlines (RB), SY"
+
+  - trigger: "::AL?"
+    replace: "Skywalk Airlines (AL), US"
+
+  - trigger: "::ZP?"
+    replace: "Silk Way Airlines (ZP), AZ"
+
+  - trigger: "::E5?"
+    replace: "Samara Airlines (E5), RU"
+
+  - trigger: "::SC?"
+    replace: "Shandong Airlines (SC), CN"
+
+  - trigger: "::9S?"
+    replace: "Spring Airlines (9S), CN"
+
+  - trigger: "::3U?"
+    replace: "Sichuan Airlines (3U), CN"
+
+  - trigger: "::FM?"
+    replace: "Shanghai Airlines (FM), CN"
+
+  - trigger: "::ZH?"
+    replace: "Shenzhen Airlines (ZH), CN"
+
+  - trigger: "::8C?"
+    replace: "Shanxi Airlines (8C), CN"
+
+  - trigger: "::7L?"
+    replace: "Sun D'Or (7L), IL"
+
+  - trigger: "::NE?"
+    replace: "SkyEurope (NE), SK"
+
+  - trigger: "::CQ?"
+    replace: "Sunshine Express Airlines (CQ), AU"
+
+  - trigger: "::SO?"
+    replace: "Superior Aviation (SO), US"
+
+  - trigger: "::JK?"
+    replace: "Spanair (JK), ES"
+
+  - trigger: "::2G?"
+    replace: "San Juan Airlines (2G), US"
+
+  - trigger: "::1Z?"
+    replace: "Sabre Pacific (1Z), AU"
+
+  - trigger: "::1S?"
+    replace: "Sabre (1S), US"
+
+  - trigger: "::1I?"
+    replace: "Sierra Nevada Airlines (1I), US"
+
+  - trigger: "::1H?"
+    replace: "Siren-Travel (1H), RU"
+
+  - trigger: "::1Q?"
+    replace: "Sirena (1Q), RU"
+
+  - trigger: "::1K?"
+    replace: "Southern Cross Distribution (1K), AU"
+
+  - trigger: "::1K?"
+    replace: "Sutra (1K), US"
+
+  - trigger: "::2C?"
+    replace: "SNCF (2C), FR"
+
+  - trigger: "::2S?"
+    replace: "Star Equatorial Airlines (2S), GN"
+
+  - trigger: "::NK?"
+    replace: "Spirit Airlines (NK), US"
+
+  - trigger: "::9R?"
+    replace: "SATENA (9R), CO"
+
+  - trigger: "::S0?"
+    replace: "Slok Air Gambia (S0), GM"
+
+  - trigger: "::SO?"
+    replace: "Sosoliso Airlines (SO), NG"
+
+  - trigger: "::1I?"
+    replace: "Sky Trek International Airlines (1I), US"
+
+  - trigger: "::SX?"
+    replace: "Skybus Airlines (SX), US"
+
+  - trigger: "::RU?"
+    replace: "SkyKing Turks and Caicos Airways (RU), TC"
+
+  - trigger: "::S3?"
+    replace: "Santa Barbara Airlines (S3), VE"
+
+  - trigger: "::H2?"
+    replace: "Sky Airline (H2), CL"
+
+  - trigger: "::OO?"
+    replace: "SkyWest (OO), US"
+
+  - trigger: "::JZ?"
+    replace: "Skyways Express (JZ), SE"
+
+  - trigger: "::BC?"
+    replace: "Skymark Airlines (BC), JP"
+
+  - trigger: "::LJ?"
+    replace: "Sierra National Airlines (LJ), SL"
+
+  - trigger: "::MI?"
+    replace: "SilkAir (MI), SG"
+
+  - trigger: "::6Q?"
+    replace: "Slovak Airlines (6Q), SK"
+
+  - trigger: "::PY?"
+    replace: "Surinam Airways (PY), SR"
+
+  - trigger: "::8D?"
+    replace: "Servant Air (8D), US"
+
+  - trigger: "::NB?"
+    replace: "Sterling Airlines (NB), DK"
+
+  - trigger: "::6J?"
+    replace: "Skynet Asia Airways (6J), JP"
+
+  - trigger: "::IE?"
+    replace: "Solomon Airlines (IE), SB"
+
+  - trigger: "::6W?"
+    replace: "Saratov Aviation Division (6W), RU"
+
+  - trigger: "::HZ?"
+    replace: "Sat Airlines (HZ), KZ"
+
+  - trigger: "::S5?"
+    replace: "Shuttle America (S5), US"
+
+  - trigger: "::DV?"
+    replace: "Scat Air (DV), KZ"
+
+  - trigger: "::S6?"
+    replace: "Star Air (S6), DK"
+
+  - trigger: "::EQ?"
+    replace: "TAME (EQ), EC"
+
+  - trigger: "::JJ?"
+    replace: "TAM Brazilian Airlines (JJ), BR"
+
+  - trigger: "::TP?"
+    replace: "TAP Portugal (TP), PT"
+
+  - trigger: "::TU?"
+    replace: "Tunisair (TU), TN"
+
+  - trigger: "::3V?"
+    replace: "TNT Airways (3V), BE"
+
+  - trigger: "::M7?"
+    replace: "Tropical Airways (M7), HT"
+
+  - trigger: "::T2?"
+    replace: "Thai Air Cargo (T2), TH"
+
+  - trigger: "::FQ?"
+    replace: "Thomas Cook Airlines (FQ), BE"
+
+  - trigger: "::MT?"
+    replace: "Thomas Cook Airlines (MT), GB"
+
+  - trigger: "::TQ?"
+    replace: "Tandem Aero (TQ), MD"
+
+  - trigger: "::L9?"
+    replace: "Teamline Air (L9), AT"
+
+  - trigger: "::UE?"
+    replace: "Transeuropean Airlines (UE), RU"
+
+  - trigger: "::ZT?"
+    replace: "Titan Airways (ZT), GB"
+
+  - trigger: "::TR?"
+    replace: "Tiger Airways (TR), SG"
+
+  - trigger: "::TT?"
+    replace: "Tiger Airways Australia (TT), AU"
+
+  - trigger: "::TG?"
+    replace: "Thai Airways International (TG), TH"
+
+  - trigger: "::FD?"
+    replace: "Thai AirAsia (FD), TH"
+
+  - trigger: "::TK?"
+    replace: "Turkish Airlines (TK), TR"
+
+  - trigger: "::T7?"
+    replace: "Twin Jet (T7), FR"
+
+  - trigger: "::9I?"
+    replace: "Thai Sky Airlines (9I), TH"
+
+  - trigger: "::TD?"
+    replace: "Tulip Air (TD), NL"
+
+  - trigger: "::TL?"
+    replace: "Trans Mediterranean Airlines (TL), LB"
+
+  - trigger: "::GY?"
+    replace: "Tri-MG Intra Asia Airlines (GY), ID"
+
+  - trigger: "::3P?"
+    replace: "Tiara Air (3P), AW"
+
+  - trigger: "::7T?"
+    replace: "Tobruk Air (7T), LY"
+
+  - trigger: "::TI?"
+    replace: "Tol-Air Services (TI), US"
+
+  - trigger: "::BY?"
+    replace: "Transaviaexport (BY), BY"
+
+  - trigger: "::6B?"
+    replace: "TUIfly Nordic (6B), SE"
+
+  - trigger: "::DT?"
+    replace: "TAAG Angola Airlines (DT), AO"
+
+  - trigger: "::SF?"
+    replace: "Tassili Airlines (SF), DZ"
+
+  - trigger: "::PZ?"
+    replace: "TAM Mercosur (PZ), PY"
+
+  - trigger: "::AX?"
+    replace: "Trans States Airlines (AX), US"
+
+  - trigger: "::1E?"
+    replace: "Travelsky Technology (1E), CN"
+
+  - trigger: "::2H?"
+    replace: "Thalys (2H), BE"
+
+  - trigger: "::RO?"
+    replace: "Tarom (RO), RO"
+
+  - trigger: "::3T?"
+    replace: "Turan Air (3T), AZ"
+
+  - trigger: "::8R?"
+    replace: "TRIP Linhas A (8R), BR"
+
+  - trigger: "::U5?"
+    replace: "USA3000 Airlines (U5), US"
+
+  - trigger: "::UA?"
+    replace: "United Airlines (UA), US"
+
+  - trigger: "::U2?"
+    replace: "United Feeder Service (U2), US"
+
+  - trigger: "::U7?"
+    replace: "USA Jet Airlines (U7), US"
+
+  - trigger: "::U6?"
+    replace: "Ural Airlines (U6), RU"
+
+  - trigger: "::UF?"
+    replace: "UM Airlines (UF), UA"
+
+  - trigger: "::6Z?"
+    replace: "Ukrainian Cargo Airways (6Z), UA"
+
+  - trigger: "::5X?"
+    replace: "United Parcel Service (5X), US"
+
+  - trigger: "::US?"
+    replace: "US Airways (US), US"
+
+  - trigger: "::UT?"
+    replace: "UTair Aviation (UT), RU"
+
+  - trigger: "::HY?"
+    replace: "Uzbekistan Airways (HY), UZ"
+
+  - trigger: "::PS?"
+    replace: "Ukraine International Airlines (PS), UA"
+
+  - trigger: "::UH?"
+    replace: "US Helicopter Corporation (UH), US"
+
+  - trigger: "::VA?"
+    replace: "V Australia Airlines (VA), AU"
+
+  - trigger: "::VF?"
+    replace: "Valuair (VF), SG"
+
+  - trigger: "::VC?"
+    replace: "Voyageur Airways (VC), CA"
+
+  - trigger: "::VN?"
+    replace: "Vietnam Airlines (VN), VN"
+
+  - trigger: "::NN?"
+    replace: "VIM Airlines (NN), RU"
+
+  - trigger: "::2R?"
+    replace: "VIA Rail Canada (2R), CA"
+
+  - trigger: "::VA?"
+    replace: "Viasa (VA), VE"
+
+  - trigger: "::Y4?"
+    replace: "Volaris (Y4), MX"
+
+  - trigger: "::VI?"
+    replace: "Volga-Dnepr Airlines (VI), RU"
+
+  - trigger: "::VX?"
+    replace: "Virgin America (VX), US"
+
+  - trigger: "::TV?"
+    replace: "Virgin Express (TV), BE"
+
+  - trigger: "::VK?"
+    replace: "Virgin Nigeria Airways (VK), NG"
+
+  - trigger: "::VS?"
+    replace: "Virgin Atlantic Airways (VS), GB"
+
+  - trigger: "::ZG?"
+    replace: "Viva Macau (ZG), MO"
+
+  - trigger: "::VE?"
+    replace: "Volare Airlines (VE), IT"
+
+  - trigger: "::VY?"
+    replace: "Vueling Airlines (VY), ES"
+
+  - trigger: "::XF?"
+    replace: "Vladivostok Air (XF), RU"
+
+  - trigger: "::LC?"
+    replace: "Varig Log (LC), BR"
+
+  - trigger: "::VM?"
+    replace: "Viaggio Air (VM), BG"
+
+  - trigger: "::VA?"
+    replace: "Virgin Australia (VA), AU"
+
+  - trigger: "::DJ?"
+    replace: "Virgin Blue (DJ), AU"
+
+  - trigger: "::RG?"
+    replace: "VRG Linhas Aereas (RG), BR"
+
+  - trigger: "::VP?"
+    replace: "VASP (VP), BR"
+
+  - trigger: "::VG?"
+    replace: "VLM Airlines (VG), BE"
+
+  - trigger: "::7W?"
+    replace: "Wayraper (7W), PE"
+
+  - trigger: "::WJ?"
+    replace: "WebJet Linhas A (WJ), BR"
+
+  - trigger: "::2W?"
+    replace: "Welcome Air (2W), AT"
+
+  - trigger: "::PT?"
+    replace: "West Air Sweden (PT), SE"
+
+  - trigger: "::8O?"
+    replace: "West Coast Air (8O), CA"
+
+  - trigger: "::WS?"
+    replace: "WestJet (WS), CA"
+
+  - trigger: "::WA?"
+    replace: "Western Airlines (WA), US"
+
+  - trigger: "::CN?"
+    replace: "Westward Airways (CN), US"
+
+  - trigger: "::WF?"
+    replace: "Widerøe (WF), NO"
+
+  - trigger: "::IV?"
+    replace: "Wind Jet (IV), IT"
+
+  - trigger: "::IW?"
+    replace: "Wings Air (IW), ID"
+
+  - trigger: "::K5?"
+    replace: "Wings of Alaska (K5), US"
+
+  - trigger: "::W6?"
+    replace: "Wizz Air (W6), HU"
+
+  - trigger: "::8Z?"
+    replace: "Wizz Air Hungary (8Z), BG"
+
+  - trigger: "::WO?"
+    replace: "World Airways (WO), US"
+
+  - trigger: "::1P?"
+    replace: "Worldspan (1P), US"
+
+  - trigger: "::8V?"
+    replace: "Wright Air Service (8V), US"
+
+  - trigger: "::SE?"
+    replace: "XL Airways France (SE), FR"
+
+  - trigger: "::MF?"
+    replace: "Xiamen Airlines (MF), CN"
+
+  - trigger: "::XP?"
+    replace: "Xtra Airways (XP), US"
+
+  - trigger: "::YL?"
+    replace: "Yamal Airlines (YL), RU"
+
+  - trigger: "::Y8?"
+    replace: "Yangtze River Express (Y8), CN"
+
+  - trigger: "::IY?"
+    replace: "Yemenia (IY), YE"
+
+  - trigger: "::Q3?"
+    replace: "Zambian Airways (Q3), ZM"
+
+  - trigger: "::3J?"
+    replace: "Zip (3J), CA"
+
+  - trigger: "::C4?"
+    replace: "Zimex Aviation (C4), CH"
+
+  - trigger: "::Z4?"
+    replace: "Zoom Airlines (Z4), CA"
+
+  - trigger: "::UK?"
+    replace: "Vistara (UK), IN"
+
+  - trigger: "::8Q?"
+    replace: "Maldivian Air Taxi (8Q), MV"
+
+  - trigger: "::XW?"
+    replace: "Sky Express (XW), RU"
+
+  - trigger: "::Y0?"
+    replace: "Yellow Air Taxi (Y0), US"
+
+  - trigger: "::VJ?"
+    replace: "Royal Air Cambodge (VJ), KH"
+
+  - trigger: "::6T?"
+    replace: "Air Mandalay (6T), MM"
+
+  - trigger: "::SH?"
+    replace: "TAN-SAHSA (SH), HN"
+
+  - trigger: "::BX?"
+    replace: "Air Busan (BX), KR"
+
+  - trigger: "::TB?"
+    replace: "TUI Airlines Belgium (TB), BE"
+
+  - trigger: "::GH?"
+    replace: "Globus (GH), RU"
+
+  - trigger: "::9Y?"
+    replace: "Air Kazakhstan (9Y), KZ"
+
+  - trigger: "::JD?"
+    replace: "Japan Air System (JD), JP"
+
+  - trigger: "::ZQ?"
+    replace: "Annsett New Zealand (ZQ), NZ"
+
+  - trigger: "::DS?"
+    replace: "EasyJet (DS), CH"
+
+  - trigger: "::2I?"
+    replace: "Star Peru (2I), PE"
+
+  - trigger: "::KW?"
+    replace: "Carnival Air Lines (KW), US"
+
+  - trigger: "::4H?"
+    replace: "United Airways (4H), BD"
+
+  - trigger: "::M8?"
+    replace: "Trans Maldivian Airways (M8), MV"
+
+  - trigger: "::5H?"
+    replace: "Fly540 (5H), KE"
+
+  - trigger: "::TO?"
+    replace: "Transavia France (TO), FR"
+
+  - trigger: "::WP?"
+    replace: "Island Air (WP), US"
+
+  - trigger: "::OG?"
+    replace: "1-2-go (OG), TH"
+
+  - trigger: "::B7?"
+    replace: "Uni Air (B7), TW"
+
+  - trigger: "::YD?"
+    replace: "Gomelavia (YD), BY"
+
+  - trigger: "::WZ?"
+    replace: "Red Wings (WZ), RU"
+
+  - trigger: "::11?"
+    replace: "TUIfly (X3) (11), DE"
+
+  - trigger: "::FU?"
+    replace: "Felix Airways (FU), YE"
+
+  - trigger: "::K1?"
+    replace: "Kostromskie avialinii (K1), RU"
+
+  - trigger: "::XX?"
+    replace: "Greenfly (XX), ES"
+
+  - trigger: "::7J?"
+    replace: "Tajik Air (7J), TJ"
+
+  - trigger: "::TM?"
+    replace: "Air Mozambique (TM), MZ"
+
+  - trigger: "::GY?"
+    replace: "Gabon Airlines (GY), GA"
+
+  - trigger: "::ML?"
+    replace: "Maldivo Airlines (ML), MV"
+
+  - trigger: "::VH?"
+    replace: "Virgin Pacific (VH), FJ"
+
+  - trigger: "::Z2?"
+    replace: "Zest Air (Z2), PH"
+
+  - trigger: "::HK?"
+    replace: "Yangon Airways (HK), MM"
+
+  - trigger: "::IJ?"
+    replace: "Transport Aérien Transrégional (IJ), FR"
+
+  - trigger: "::N4?"
+    replace: "Minerva Airlines (N4), IT"
+
+  - trigger: "::ZE?"
+    replace: "Eastar Jet (ZE), KR"
+
+  - trigger: "::LJ?"
+    replace: "Jin Air (LJ), KR"
+
+  - trigger: "::SH?"
+    replace: "Aéris (Priv) (SH), FR"
+
+  - trigger: "::3O?"
+    replace: "Air Arabia Maroc (3O), MA"
+
+  - trigger: "::B1?"
+    replace: "Baltic Air lines (B1), LV"
+
+  - trigger: "::YC?"
+    replace: "Ciel Canadien (YC), CA"
+
+  - trigger: "::CN?"
+    replace: "Canadian National Airways (CN), CA"
+
+  - trigger: "::FA?"
+    replace: "Epic Holiday (FA), US"
+
+  - trigger: "::3I?"
+    replace: "Air Comet Chile (3I), CL"
+
+  - trigger: "::DN?"
+    replace: "Voronezhskie Airlanes (DN), RU"
+
+  - trigger: "::L8?"
+    replace: "Line Blue (L8), DE"
+
+  - trigger: "::BU?"
+    replace: "Blue Sky America (BU), US"
+
+  - trigger: "::XS?"
+    replace: "Texas Spirit (XS), US"
+
+  - trigger: "::IL?"
+    replace: "Illinois Airways (IL), US"
+
+  - trigger: "::SZ?"
+    replace: "Salzburg arrows (SZ), AT"
+
+  - trigger: "::TQ?"
+    replace: "Texas Wings (TQ), US"
+
+  - trigger: "::KT?"
+    replace: "California Western (KT), US"
+
+  - trigger: "::DH?"
+    replace: "Dennis Sky (DH), IL"
+
+  - trigger: "::ZZ?"
+    replace: "Zz (ZZ), BE"
+
+  - trigger: "::A1?"
+    replace: "Atifly (A1), US"
+
+  - trigger: "::UK?"
+    replace: "Air UK (UK), GB"
+
+  - trigger: "::CB?"
+    replace: "Suckling Airways (CB), GB"
+
+  - trigger: "::RY?"
+    replace: "Reno Sky (RY), US"
+
+  - trigger: "::99?"
+    replace: "Ciao Air (99), IT"
+
+  - trigger: "::VB?"
+    replace: "Birmingham European (VB), GB"
+
+  - trigger: "::5P?"
+    replace: "Pal airlines (5P), CL"
+
+  - trigger: "::C1?"
+    replace: "CanXpress (C1), CA"
+
+  - trigger: "::V5?"
+    replace: "Danube Wings (V5), SK"
+
+  - trigger: "::SH?"
+    replace: "Sharp Airlines (SH), AU"
+
+  - trigger: "::C2?"
+    replace: "CanXplorer (C2), CA"
+
+  - trigger: "::QA?"
+    replace: "Click (Mexicana) (QA), MX"
+
+  - trigger: "::W1?"
+    replace: "World Experience Airline (W1), CA"
+
+  - trigger: "::J4?"
+    replace: "ALAK (J4), RU"
+
+  - trigger: "::E9?"
+    replace: "AJT Air International (E9), RU"
+
+  - trigger: "::3E?"
+    replace: "Air Choice One (3E), US"
+
+  - trigger: "::KN?"
+    replace: "China United (KN), CN"
+
+  - trigger: "::ZQ?"
+    replace: "Locair (ZQ), US"
+
+  - trigger: "::4Q?"
+    replace: "Safi Airlines (4Q), AF"
+
+  - trigger: "::K5?"
+    replace: "SeaPort Airlines (K5), US"
+
+  - trigger: "::S6?"
+    replace: "Salmon Air (S6), US"
+
+  - trigger: "::IL?"
+    replace: "Fly Illi (IL), US"
+
+  - trigger: "::01?"
+    replace: "Bobb Air Freight (01), DE"
+
+  - trigger: "::V9?"
+    replace: "Star1 Airlines (V9), LT"
+
+  - trigger: "::6D?"
+    replace: "Pelita (6D), ID"
+
+  - trigger: "::E8?"
+    replace: "Alpi Eagles (E8), IT"
+
+  - trigger: "::J5?"
+    replace: "Alaska Seaplane Service (J5), US"
+
+  - trigger: "::T8?"
+    replace: "TAN (T8), AR"
+
+  - trigger: "::I6?"
+    replace: "MexicanaLink (I6), MX"
+
+  - trigger: "::IP?"
+    replace: "Island Spirit (IP), IS"
+
+  - trigger: "::T0?"
+    replace: "TACA Peru (T0), PE"
+
+  - trigger: "::7Q?"
+    replace: "Pan Am World Airways Dominicana (7Q), DO"
+
+  - trigger: "::PF?"
+    replace: "Primera Air (PF), IS"
+
+  - trigger: "::3S?"
+    replace: "Air Antilles Express (3S), FR"
+
+  - trigger: "::P7?"
+    replace: "Regional Paraguaya (P7), PY"
+
+  - trigger: "::V6?"
+    replace: "VIP Ecuador (V6), EC"
+
+  - trigger: "::P9?"
+    replace: "Peruvian Airlines (P9), PE"
+
+  - trigger: "::ЯП?"
+    replace: "Polar Airlines (ЯП), RU"
+
+  - trigger: "::OC?"
+    replace: "Catovair (OC), MU"
+
+  - trigger: "::7Z?"
+    replace: "Halcyonair (7Z), CV"
+
+  - trigger: "::4P?"
+    replace: "Business Aviation (4P), CD"
+
+  - trigger: "::E9?"
+    replace: "Compagnie Africaine d'Aviation (E9), CD"
+
+  - trigger: "::K8?"
+    replace: "Zambia Skyways (K8), ZM"
+
+  - trigger: "::UJ?"
+    replace: "AlMasria Universal Airlines (UJ), EG"
+
+  - trigger: "::6Y?"
+    replace: "SmartLynx Airlines (6Y), LV"
+
+  - trigger: "::K7?"
+    replace: "KoralBlue Airlines (K7), EG"
+
+  - trigger: "::E4?"
+    replace: "Elysian Airlines (E4), CM"
+
+  - trigger: "::HT?"
+    replace: "Hellenic Imperial Airways (HT), GR"
+
+  - trigger: "::WD?"
+    replace: "Amsterdam Airlines (WD), NL"
+
+  - trigger: "::Q9?"
+    replace: "Arik Niger (Q9), NE"
+
+  - trigger: "::DA?"
+    replace: "Dana Air (DA), NG"
+
+  - trigger: "::8F?"
+    replace: "STP Airways (8F), ST"
+
+  - trigger: "::7Y?"
+    replace: "Med Airways (7Y), LB"
+
+  - trigger: "::UQ?"
+    replace: "Skyjet Airlines (UQ), UG"
+
+  - trigger: "::G6?"
+    replace: "Air Volga (G6), RU"
+
+  - trigger: "::RL?"
+    replace: "Royal Falcon (RL), JO"
+
+  - trigger: "::4L?"
+    replace: "Euroline (4L), GE"
+
+  - trigger: "::WG?"
+    replace: "Worldways (WG), CA"
+
+  - trigger: "::ZF?"
+    replace: "Athens Airways (ZF), GR"
+
+  - trigger: "::VQ?"
+    replace: "Viking Hellas (VQ), GR"
+
+  - trigger: "::DZ?"
+    replace: "Starline.kz (DZ), KZ"
+
+  - trigger: "::EH?"
+    replace: "Euro Harmony (EH), PT"
+
+  - trigger: "::L7?"
+    replace: "Lugansk Airlines (L7), UA"
+
+  - trigger: "::6P?"
+    replace: "Gryphon Airlines (6P), US"
+
+  - trigger: "::GP?"
+    replace: "Gadair European Airlines (GP), ES"
+
+  - trigger: "::SM?"
+    replace: "Spirit of Manila Airlines (SM), PH"
+
+  - trigger: "::OQ?"
+    replace: "Chongqing Airlines (OQ), CN"
+
+  - trigger: "::PN?"
+    replace: "West Air China (PN), CN"
+
+  - trigger: "::IH?"
+    replace: "Falcon Air (IH), SE"
+
+  - trigger: "::C3?"
+    replace: "QatXpress (C3), QA"
+
+  - trigger: "::1C?"
+    replace: "OneChina (1C), CN"
+
+  - trigger: "::Y7?"
+    replace: "NordStar Airlines (Y7), RU"
+
+  - trigger: "::JR?"
+    replace: "Joy Air (JR), CN"
+
+  - trigger: "::CD?"
+    replace: "Air India Regional (CD), IN"
+
+  - trigger: "::9H?"
+    replace: "MDLR Airlines (9H), IN"
+
+  - trigger: "::Q2?"
+    replace: "Maldivian (Q2), MV"
+
+  - trigger: "::XN?"
+    replace: "Xpressair (XN), ID"
+
+  - trigger: "::VC?"
+    replace: "Strategic Airlines (VC), AU"
+
+  - trigger: "::NA?"
+    replace: "Al-Naser Airlines (NA), IQ"
+
+  - trigger: "::MR?"
+    replace: "Homer Air (MR), DE"
+
+  - trigger: "::GM?"
+    replace: "Flitestar (GM), ZA"
+
+  - trigger: "::WQ?"
+    replace: "PanAm World Airways (WQ), US"
+
+  - trigger: "::YY?"
+    replace: "Virginwings (YY), DE"
+
+  - trigger: "::KY?"
+    replace: "KSY (KY), GR"
+
+  - trigger: "::BQ?"
+    replace: "Buquebus Líneas Aéreas (BQ), UY"
+
+  - trigger: "::CQ?"
+    replace: "SOCHI AIR (CQ), RU"
+
+  - trigger: "::WU?"
+    replace: "Wizz Air Ukraine (WU), UA"
+
+  - trigger: "::LQ?"
+    replace: "LCM AIRLINES (LQ), RU"
+
+  - trigger: "::BZ?"
+    replace: "Aero Brazil (BZ), BR"
+
+  - trigger: "::K6?"
+    replace: "Cambodia Angkor Air (K6), KH"
+
+  - trigger: "::D5?"
+    replace: "Skyline nepc (D5), IN"
+
+  - trigger: "::H3?"
+    replace: "THREE (H3), CN"
+
+  - trigger: "::69?"
+    replace: "Royal European Airlines (69), GB"
+
+  - trigger: "::AD?"
+    replace: "Azul (AD), BR"
+
+  - trigger: "::PQ?"
+    replace: "LSM Airlines (PQ), RU"
+
+  - trigger: "::C4?"
+    replace: "LionXpress (C4), CM"
+
+  - trigger: "::X1?"
+    replace: "Nik Airways (X1), SA"
+
+  - trigger: "::GK?"
+    replace: "Genesis (GK), PK"
+
+  - trigger: "::XZ?"
+    replace: "Congo Express (XZ), CD"
+
+  - trigger: "::FZ?"
+    replace: "Fly Dubai (FZ), AE"
+
+  - trigger: "::D1?"
+    replace: "Domenican Airlines (D1), DO"
+
+  - trigger: "::9A?"
+    replace: "Air Atlantic (9A), CA"
+
+  - trigger: "::CR?"
+    replace: "Air Ops (CR), SE"
+
+  - trigger: "::JY?"
+    replace: "Aereonautica militare (JY), IT"
+
+  - trigger: "::YZ?"
+    replace: "LSM AIRLINES (YZ), RU"
+
+  - trigger: "::YP?"
+    replace: "Aero Lloyd (YP) (YP), DE"
+
+  - trigger: "::UR?"
+    replace: "UTair-Express (UR), RU"
+
+  - trigger: "::G5?"
+    replace: "Huaxia (G5), CN"
+
+  - trigger: "::ZP?"
+    replace: "Zabaykalskii Airlines (ZP), RU"
+
+  - trigger: "::M4?"
+    replace: "Marysya Airlines (M4), RU"
+
+  - trigger: "::N1?"
+    replace: "N1 (N1), PE"
+
+  - trigger: "::4Z?"
+    replace: "Airlink (SAA) (4Z), ZA"
+
+  - trigger: "::3B?"
+    replace: "JobAir (3B), CZ"
+
+  - trigger: "::OD?"
+    replace: "Zuliana de Aviacion (OD), VE"
+
+  - trigger: "::BZ?"
+    replace: "Black Stallion Airways (BZ), US"
+
+  - trigger: "::GM?"
+    replace: "German International Air Lines (GM), DE"
+
+  - trigger: "::TB?"
+    replace: "TrasBrasil (TB), BR"
+
+  - trigger: "::TH?"
+    replace: "TransBrasil Airlines (TH), BR"
+
+  - trigger: "::9C?"
+    replace: "China SSS (9C), CN"
+
+  - trigger: "::NJ?"
+    replace: "Nihon.jet (NJ), JP"
+
+  - trigger: "::TJ?"
+    replace: "Transportes Aéreos Nacionales de Selva (TJ), PE"
+
+  - trigger: "::P8?"
+    replace: "Air Mekong (P8), VN"
+
+  - trigger: "::H3?"
+    replace: "Harbour Air (Priv) (H3), CA"
+
+  - trigger: "::HH?"
+    replace: "Air Hamburg (AHO) (HH), DE"
+
+  - trigger: "::Z6?"
+    replace: "ZABAIKAL AIRLINES (Z6), RU"
+
+  - trigger: "::TI?"
+    replace: "TransHolding (TI), BR"
+
+  - trigger: "::YT?"
+    replace: "Yeti Airways (YT), NP"
+
+  - trigger: "::Y1?"
+    replace: "Yellowstone Club Private Shuttle (Y1), US"
+
+  - trigger: "::NS?"
+    replace: "Caucasus Airlines (NS), GE"
+
+  - trigger: "::S1?"
+    replace: "Serbian Airlines (S1), RS"
+
+  - trigger: "::WM?"
+    replace: "Windward Islands Airways (WM), NL"
+
+  - trigger: "::YO?"
+    replace: "TransHolding System (YO), BR"
+
+  - trigger: "::CB?"
+    replace: "CCML Airlines (CB), CO"
+
+  - trigger: "::SF?"
+    replace: "Air Charter International (SF), FR"
+
+  - trigger: "::F1?"
+    replace: "Fly Brasil (F1), BR"
+
+  - trigger: "::3F?"
+    replace: "Fly Colombia (3F), CO"
+
+  - trigger: "::T6?"
+    replace: "Trans Pas Air (T6), US"
+
+  - trigger: "::МИ?"
+    replace: "KMV (МИ), RU"
+
+  - trigger: "::HC?"
+    replace: "Himalayan Airlines (HC), NP"
+
+  - trigger: "::G1?"
+    replace: "Indya Airline Group (G1), IN"
+
+  - trigger: "::WG?"
+    replace: "Sunwing (WG), CA"
+
+  - trigger: "::ZX?"
+    replace: "Japan Regio (ZX), JP"
+
+  - trigger: "::N0?"
+    replace: "Norte Lineas Aereas (N0), AR"
+
+  - trigger: "::W7?"
+    replace: "Austral Brasil (W7), BR"
+
+  - trigger: "::H9?"
+    replace: "PEGASUS AIRLINES- (H9), TR"
+
+  - trigger: "::IJ?"
+    replace: "AirLiberté (IJ), FR"
+
+  - trigger: "::QC?"
+    replace: "Camair-co (QC), CM"
+
+  - trigger: "::N6?"
+    replace: "Aerocontinente (Priv) (N6), PE"
+
+  - trigger: "::RS?"
+    replace: "Sky Regional (RS), CA"
+
+  - trigger: "::YI?"
+    replace: "TUR Avrupa Hava YollarÄ± (YI), TR"
+
+  - trigger: "::II?"
+    replace: "LSM International (II), RU"
+
+  - trigger: "::BU?"
+    replace: "Baikotovitchestrian Airlines (BU), WS"
+
+  - trigger: "::Z7?"
+    replace: "Zimbabwean Airlines (Z7), ZW"
+
+  - trigger: "::6U?"
+    replace: "Air Cargo Germany (6U), DE"
+
+  - trigger: "::7M?"
+    replace: "Mongolian International Air Lines (7M), MN"
+
+  - trigger: "::2D?"
+    replace: "Alaniya Airlines (2D), RU"
+
+  - trigger: "::TW?"
+    replace: "Tway Airlines (TW), KR"
+
+  - trigger: "::HI?"
+    replace: "Papillon Grand Canyon Helicopters (HI), US"
+
+  - trigger: "::JX?"
+    replace: "Jusur airways (JX), EG"
+
+  - trigger: "::XB?"
+    replace: "NEXT Brasil (XB), BR"
+
+  - trigger: "::W4?"
+    replace: "AeroWorld (W4), RU"
+
+  - trigger: "::KH?"
+    replace: "Cook Island Air (KH), CK"
+
+  - trigger: "::E8?"
+    replace: "US Africa Airways (E8), US"
+
+  - trigger: "::GN?"
+    replace: "GNB Linhas Aereas (GN), BR"
+
+  - trigger: "::E1?"
+    replace: "Usa Sky Cargo (E1), US"
+
+  - trigger: "::HN?"
+    replace: "Hankook Airline (HN), KR"
+
+  - trigger: "::RR?"
+    replace: "Red Jet America (RR), US"
+
+  - trigger: "::Z7?"
+    replace: "REDjet (Z7), BB"
+
+  - trigger: "::1H?"
+    replace: "Hellenic Airways (1H), GR"
+
+  - trigger: "::PT?"
+    replace: "Red Jet Andes (PT), PE"
+
+  - trigger: "::QY?"
+    replace: "Red Jet Canada (QY), CA"
+
+  - trigger: "::4X?"
+    replace: "Red Jet Mexico (4X), MX"
+
+  - trigger: "::Y8?"
+    replace: "Marusya Airways (Y8), RU"
+
+  - trigger: "::7H?"
+    replace: "Era Alaska (7H), US"
+
+  - trigger: "::R8?"
+    replace: "AirRussia (R8), RU"
+
+  - trigger: "::H1?"
+    replace: "Hankook Air US (H1), US"
+
+  - trigger: "::D5?"
+    replace: "NEPC Airlines (D5), IN"
+
+  - trigger: "::10?"
+    replace: "Canadian World (10), CA"
+
+  - trigger: "::H5?"
+    replace: "I-Fly (H5), RU"
+
+  - trigger: "::IJ?"
+    replace: "T.A.T (IJ), FR"
+
+  - trigger: "::DN?"
+    replace: "Alinord (DN), IT"
+
+  - trigger: "::VB?"
+    replace: "Pacific Express (VB), US"
+
+  - trigger: "::KT?"
+    replace: "VickJet (KT), FR"
+
+  - trigger: "::XV?"
+    replace: "BVI Airways (XV), VG"
+
+  - trigger: "::SO?"
+    replace: "Salsa d'Haiti (SO), HT"
+
+  - trigger: "::ZJ?"
+    replace: "Zambezi Airlines (ZMA) (ZJ), ZM"
+
+  - trigger: "::YQ?"
+    replace: "Polet Airlines (Priv) (YQ), RU"
+
+  - trigger: "::T1?"
+    replace: "TROPICAL LINHAS AEREAS (T1), BR"
+
+  - trigger: "::12?"
+    replace: "12 North (12), IN"
+
+  - trigger: "::L6?"
+    replace: "Mauritania Airlines International (L6), MR"
+
+  - trigger: "::6F?"
+    replace: "MAT Airways (6F), MK"
+
+  - trigger: "::AW?"
+    replace: "Asian Wings Airways (AW), MM"
+
+  - trigger: "::E5?"
+    replace: "Air Arabia Egypt (E5), EG"
+
+  - trigger: "::CT?"
+    replace: "Alitalia Cityliner (CT), IT"
+
+  - trigger: "::OI?"
+    replace: "Orchid Airlines (OI), AU"
+
+  - trigger: "::Y5?"
+    replace: "Asia Wings (Y5), KZ"
+
+  - trigger: "::XR?"
+    replace: "Skywest Australia (XR), AU"
+
+  - trigger: "::NP?"
+    replace: "Nile Air (NP), EG"
+
+  - trigger: "::DN?"
+    replace: "Senegal Airlines (DN), SN"
+
+  - trigger: "::6I?"
+    replace: "Fly 6ix (6I), SL"
+
+  - trigger: "::S9?"
+    replace: "Starbow Airlines (S9), GH"
+
+  - trigger: "::0X?"
+    replace: "Copenhagen Express (0X), DK"
+
+  - trigger: "::8B?"
+    replace: "BusinessAir (8B), TH"
+
+  - trigger: "::YR?"
+    replace: "SENIC AIRLINES (YR), US"
+
+  - trigger: "::C7?"
+    replace: "Sky Wing Pacific (C7), KR"
+
+  - trigger: "::PP?"
+    replace: "Air Indus (PP), PK"
+
+  - trigger: "::07?"
+    replace: "Samurai Airlines (07), PK"
+
+  - trigger: "::00?"
+    replace: "AirOne Continental (00), SK"
+
+  - trigger: "::U1?"
+    replace: "AirOne Polska (U1), PL"
+
+  - trigger: "::MM?"
+    replace: "Peach Aviation (MM), JP"
+
+  - trigger: "::U1?"
+    replace: "Aviabus (U1), RU"
+
+  - trigger: "::DF?"
+    replace: "Michael Airlines (DF), PR"
+
+  - trigger: "::ZC?"
+    replace: "Korongo Airlines (ZC), CD"
+
+  - trigger: "::I5?"
+    replace: "Indonesia Sky (I5), ID"
+
+  - trigger: "::9P?"
+    replace: "Pelangi (9P), MY"
+
+  - trigger: "::B0?"
+    replace: "Aws express (B0), US"
+
+  - trigger: "::76?"
+    replace: "Southjet (76), US"
+
+  - trigger: "::77?"
+    replace: "Southjet connect (77), US"
+
+  - trigger: "::KP?"
+    replace: "Air Cape (KP), ZA"
+
+  - trigger: "::78?"
+    replace: "Southjet cargo (78), US"
+
+  - trigger: "::I2?"
+    replace: "Iberia Express (I2), ES"
+
+  - trigger: "::4O?"
+    replace: "Interjet (ABC Aerolineas) (4O), MX"
+
+  - trigger: "::OG?"
+    replace: "AirOnix (OG), UA"
+
+  - trigger: "::NJ?"
+    replace: "Nordic Global Airlines (NJ), FI"
+
+  - trigger: "::TZ?"
+    replace: "Scoot (TZ), SG"
+
+  - trigger: "::SX?"
+    replace: "Starling Airlines Spain (SX), ES"
+
+  - trigger: "::5K?"
+    replace: "Hi Fly (5K), PT"
+
+  - trigger: "::WH?"
+    replace: "China Northwest Airlines (WH) (WH), CN"
+
+  - trigger: "::ZN?"
+    replace: "Zenith International Airline (ZN), TH"
+
+  - trigger: "::O1?"
+    replace: "Orbit Airlines Azerbaijan (O1), AZ"
+
+  - trigger: "::A6?"
+    replace: "Air Alps Aviation (A6) (A6), AT"
+
+  - trigger: "::P4?"
+    replace: "Patriot Airways (P4), US"
+
+  - trigger: "::V2?"
+    replace: "Vision Airlines (V2), US"
+
+  - trigger: "::C8?"
+    replace: "Chicago Express (C8), US"
+
+  - trigger: "::5Q?"
+    replace: "BQB Lineas Aereas (5Q), UY"
+
+  - trigger: "::YE?"
+    replace: "Yellowtail (YE), US"
+
+  - trigger: "::KG?"
+    replace: "Royal Airways (KG), US"
+
+  - trigger: "::FH?"
+    replace: "FlyHigh Airlines Ireland (FH), IE"
+
+  - trigger: "::2D?"
+    replace: "Aero VIP (2D) (2D), PT"
+
+  - trigger: "::YH?"
+    replace: "Yangon Airways Ltd. (YH), MM"
+
+  - trigger: "::TJ?"
+    replace: "T.J. Air (TJ), US"
+
+  - trigger: "::SX?"
+    replace: "SkyWork Airlines (SX), CH"
+
+  - trigger: "::J7?"
+    replace: "ValueJet (J7), US"
+
+  - trigger: "::W2?"
+    replace: "Maastricht Airlines (W2), NL"
+
+  - trigger: "::WL?"
+    replace: "CheapFlyingInternational (WL), FR"
+
+  - trigger: "::E6?"
+    replace: "Aviaexpresscruise (E6), RU"
+
+  - trigger: "::24?"
+    replace: "Euro Jet (24), DE"
+
+  - trigger: "::00?"
+    replace: "AirOne Atlantic (00), SK"
+
+  - trigger: "::HQ?"
+    replace: "HQ- Business Express (HQ), US"
+
+  - trigger: "::R1?"
+    replace: "Royal Southern Airlines. (R1), CO"
+
+  - trigger: "::Q3?"
+    replace: "SOCHI AIR CHATER (Q3), RU"
+
+  - trigger: "::J7?"
+    replace: "Denim Air (J7), NO"
+
+  - trigger: "::NO?"
+    replace: "North Pacific Airlines (NO), US"
+
+  - trigger: "::OD?"
+    replace: "Malindo Air (OD), MY"
+
+  - trigger: "::9F?"
+    replace: "Tramm Airlines (9F), NL"
+
+  - trigger: "::GC?"
+    replace: "Lina Congo (GC), CG"
+
+  - trigger: "::Z9?"
+    replace: "Flightlink Tanzania (Z9), TZ"
+
+  - trigger: "::I8?"
+    replace: "IzAvia (I8), RU"
+
+  - trigger: "::3V?"
+    replace: "3 Valleys Airlines (3V), FR"
+
+  - trigger: "::M1?"
+    replace: "Maryland Air (M1), US"
+
+  - trigger: "::7I?"
+    replace: "Insel Air (7I/INC) (Priv) (7I), NL"
+
+  - trigger: "::5Z?"
+    replace: "VivaColombia (5Z), CO"
+
+  - trigger: "::ZM?"
+    replace: "Apache Air (ZM), US"
+
+  - trigger: "::M2?"
+    replace: "MHS Aviation GmbH (M2), DE"
+
+  - trigger: "::NR?"
+    replace: "Jettor Airlines (NR), HK"
+
+  - trigger: "::GD?"
+    replace: "GoDutch (GD), NL"
+
+  - trigger: "::SL?"
+    replace: "Thai Lion Air (SL), TH"
+
+  - trigger: "::DW?"
+    replace: "Deutsche Luftverkehrsgesellschaft (DW), DE"
+
+  - trigger: "::N8?"
+    replace: "National Air Cargo (N8), US"
+
+  - trigger: "::13?"
+    replace: "Eastern Atlantic Virtual Airlines (13), US"
+
+  - trigger: "::QG?"
+    replace: "Citilink Indonesia (QG), ID"
+
+  - trigger: "::GU?"
+    replace: "Gulisano airways (GU), IT"
+
+  - trigger: "::XP?"
+    replace: "Caribbean Wings (XP), TC"
+
+  - trigger: "::S8?"
+    replace: "Snowbird Airlines (S8), FI"
+
+  - trigger: "::KH?"
+    replace: "Kharkiv Airlines (KH), UA"
+
+  - trigger: "::XA?"
+    replace: "XAIR USA (XA), US"
+
+  - trigger: "::LB?"
+    replace: "Air Costa (LB), IN"
+
+  - trigger: "::XP?"
+    replace: "XPTO (XP), PT"
+
+  - trigger: "::3W?"
+    replace: "Malawian Airlines (3W), MW"
+
+  - trigger: "::JU?"
+    replace: "Air Serbia (JU), RS"
+
+  - trigger: "::LT?"
+    replace: "Air Lituanica (LT), LT"
+
+  - trigger: "::RN?"
+    replace: "Rainbow Air (RAI) (RN), US"
+
+  - trigger: "::RY?"
+    replace: "Rainbow Air Canada (RY), CA"
+
+  - trigger: "::RX?"
+    replace: "Rainbow Air Polynesia (RX), US"
+
+  - trigger: "::RU?"
+    replace: "Rainbow Air Euro (RU), GB"
+
+  - trigger: "::RM?"
+    replace: "Rainbow Air US (RM), US"
+
+  - trigger: "::QD?"
+    replace: "Dobrolet (QD), RU"
+
+  - trigger: "::S0?"
+    replace: "Spike Airlines (S0), US"
+
+  - trigger: "::L1?"
+    replace: "All Argentina (L1), AR"
+
+  - trigger: "::A2?"
+    replace: "All America (A2), US"
+
+  - trigger: "::L9?"
+    replace: "All Asia (L9), CN"
+
+  - trigger: "::9A?"
+    replace: "All Africa (9A), ZA"
+
+  - trigger: "::N4?"
+    replace: "Regionalia México (N4), MX"
+
+  - trigger: "::N9?"
+    replace: "All Europe (N9), GB"
+
+  - trigger: "::N7?"
+    replace: "All Spain (N7), ES"
+
+  - trigger: "::9N?"
+    replace: "Regional Air Iceland (9N), IS"
+
+  - trigger: "::8K?"
+    replace: "Voestar (8K), BR"
+
+  - trigger: "::7O?"
+    replace: "All Colombia (7O), CO"
+
+  - trigger: "::2X?"
+    replace: "Regionalia Uruguay (2X), UY"
+
+  - trigger: "::9X?"
+    replace: "Regionalia Venezuela (9X), VE"
+
+  - trigger: "::9J?"
+    replace: "Regionalia Chile (9J), CL"
+
+  - trigger: "::6C?"
+    replace: "Vuela Cuba (6C), CU"
+
+  - trigger: "::88?"
+    replace: "All Australia (88), AU"
+
+  - trigger: "::ER?"
+    replace: "Fly Europa (ER), ES"
+
+  - trigger: "::PO?"
+    replace: "FlyPortugal (PO), PT"
+
+  - trigger: "::IJ?"
+    replace: "Spring Airlines Japan (IJ), JP"
+
+  - trigger: "::KP?"
+    replace: "Dense Airways (KP), US"
+
+  - trigger: "::KZ?"
+    replace: "Dense Connection (KZ), US"
+
+  - trigger: "::4S?"
+    replace: "Vuola Italia (4S), IT"
+
+  - trigger: "::1X?"
+    replace: "Island Express Air (1X), CA"
+
+  - trigger: "::Z0?"
+    replace: "All Argentina Express (Z0), AR"
+
+  - trigger: "::WE?"
+    replace: "Thai Smile Airways (WE), TH"
+
+  - trigger: "::I4?"
+    replace: "International AirLink (I4), JM"
+
+  - trigger: "::RT?"
+    replace: "Real Tonga (RT), TO"
+
+  - trigger: "::2R?"
+    replace: "All America AR (2R), AR"
+
+  - trigger: "::1R?"
+    replace: "All America CL (1R), CL"
+
+  - trigger: "::Q4?"
+    replace: "SOCHI AIR EXPRESS (Q4), RU"
+
+  - trigger: "::1Y?"
+    replace: "All America BR (1Y), BR"
+
+  - trigger: "::X9?"
+    replace: "FRA Air (X9), DE"
+
+  - trigger: "::QN?"
+    replace: "Royal (QN), CA"
+
+  - trigger: "::GX?"
+    replace: "GREAT LAKES (GX), CA"
+
+  - trigger: "::9V?"
+    replace: "Volotea Costa Rica (9V), CR"
+
+  - trigger: "::X5?"
+    replace: "Fly Romania (X5), RO"
+
+  - trigger: "::E2?"
+    replace: "Eagle Atlantic Airlines (E2), GH"
+
+  - trigger: "::0Y?"
+    replace: "All America CO (0Y), CO"
+
+  - trigger: "::0M?"
+    replace: "All America MX (0M), MX"
+
+  - trigger: "::FX?"
+    replace: "FOX Linhas Aereas (FX), BR"
+
+  - trigger: "::EX?"
+    replace: "Wings of England (EX), GB"
+
+  - trigger: "::DW?"
+    replace: "Deutsche Luftverkehrsgesellschaft (DLT) (DW), DE"
+
+  - trigger: "::K3?"
+    replace: "Atlantic Air Cargo (K3), US"
+
+  - trigger: "::W3?"
+    replace: "World Scale Airlines (W3), US"
+
+  - trigger: "::AG?"
+    replace: "All America US (AG), US"
+
+  - trigger: "::1K?"
+    replace: "BudgetAir (1K), DE"
+
+  - trigger: "::F5?"
+    replace: "Fly One (F5), MD"
+
+  - trigger: "::EE?"
+    replace: "Nordica (EE), EE"
+
+  - trigger: "::0E?"
+    replace: "Dummy (0E), FR"
+
+  - trigger: "::0P?"
+    replace: "All America BOPY (0P), PY"
+
+  - trigger: "::2Y?"
+    replace: "Air Andaman (2Y) (2Y), TH"
+
+  - trigger: "::JG?"
+    replace: "Jetgo Australia (JG), AU"
+
+  - trigger: "::2S?"
+    replace: "Air Carnival (2S), IN"
+
+  - trigger: "::7R?"
+    replace: "Svyaz Rossiya (7R), RU"

@@ -1,0 +1,7 @@
+author: yanming zhang
+description: An package to get sql command code snippets
+name: sql
+title: sql Package
+version: 0.1.0
+homepage: "https://github.com/zhangymPerson/espanso-package-sql"
+tags: ["sql", "mysql", "development"]

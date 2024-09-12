@@ -1,0 +1,63 @@
+name: sql
+parent: default
+
+matches:
+  - trigger: ":select:"
+    replace: "select * from $|$ limit 100;"
+
+  - trigger: ":where:"
+    replace: "select * from $|$ where condition;"
+
+  - trigger: ":count:"
+    replace: "select count(*) from $|$;"
+
+  - trigger: ":limit:"
+    replace: "select * from $|$ limit 100;"
+
+  - trigger: ":groupby:"
+    replace: "select column from $|$ group by column;"
+
+  - trigger: ":leftjoin:"
+    replace: "select * from $|$ left join table_name on condition;"
+
+  - trigger: ":insert:"
+    replace: "insert into $|$ (column1, column2) values (value1, value2);"
+
+  - trigger: ":update:"
+    replace: "update $|$ set column1 = value1, column2 = value2 where condition;"
+
+  - trigger: ":delete:"
+    replace: "delete from $|$ where condition;"
+
+  - trigger: ":create:"
+    replace: |
+      create table if not exists $|$ (
+        id int auto_increment primary key,
+        create_time datetime not null default current_timestamp,
+        create_by varchar(255) not null,
+        update_time datetime default null on update current_timestamp,
+        update_by varchar(255) default null,
+        remark text
+      ) engine=innodb default charset=utf8mb4;
+
+  - trigger: ":alter:"
+    replace: |
+      alter table $|$ add column column_name data_type;
+
+  - trigger: ":drop:"
+    replace: "drop table if exists $|$;"
+
+  - trigger: ":truncate:"
+    replace: "truncate table $|$;"
+
+  - trigger: ":use:"
+    replace: "use $|$;"
+
+  - trigger: ":showdb:"
+    replace: "show databases;"
+
+  - trigger: ":showtb:"
+    replace: "show tables;"
+
+  - trigger: ":desc:"
+    replace: "desc $|$;"

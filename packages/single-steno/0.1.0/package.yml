@@ -1,0 +1,150 @@
+matches:
+  - trigger: "b"
+    replace: "because"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "c"
+    replace: "come"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "d"
+    replace: "could"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "e"
+    replace: "even"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "f"
+    replace: "for"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "g"
+    replace: "give"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "h"
+    replace: "have"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "i"
+    replace: "I"
+    word: true
+
+  - trigger: "j"
+    replace: "just"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "k"
+    replace: "know"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "l"
+    replace: "like"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "m"
+    replace: "most"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "n"
+    replace: "and"
+    word: true
+
+  - trigger: "N"
+    replace: "not"
+    word: true
+
+  - trigger: "o"
+    replace: "other"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "p"
+    replace: "people"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "q"
+    replace: "question"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "r"
+    replace: "are"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "s"
+    replace: "some"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "t"
+    replace: "the"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "u"
+    replace: "under"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "v"
+    replace: "very"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "w"
+    replace: "with"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "x"
+    replace: "exactly"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "y"
+    replace: "you"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true
+
+  - trigger: "z"
+    replace: "these"
+    propagate_case: true
+    uppercase_style: "capitalize_words"
+    word: true

@@ -1,0 +1,7 @@
+name: oasis-is-framework
+title: OASIS-IS GenAI Mega-Prompt Framework
+description: OASIS-IS Generative AI mega-prompt framework for "conversations" with Generative AI.  This is a starter prompt that gets the information you need to added to your initial prompt.
+version: 0.1.0
+author: Rifter
+tags: ["GenAI", "ChatGPT", "AI", "Prompt", "Framework", "claude", "megaprompt"]
+homepage: "https://github.com/Ryfter/oasis-is-framework/"

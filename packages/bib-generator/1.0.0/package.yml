@@ -1,0 +1,28 @@
+matches:
+  - regex: ":cite:(?P<citation>.*?):"
+    replace: "{{final}}"
+    vars:
+      - name: dblp_search_results
+        type: script
+        params:
+          args:
+            - python
+            - "%CONFIG%/match/packages/bib-generator/dblp_multi_search.py"
+            - "{{citation}}"
+      - name: form1
+        type: form
+        params:
+          layout: |
+            Select bib entry:
+            [[entries]]
+          fields:
+            entries:
+              type: list
+              values: "{{dblp_search_results}}"
+      - name: final
+        type: script
+        params:
+          args:
+            - python
+            - "%CONFIG%/match/packages/bib-generator/bib_generator.py"
+            - "{{form1.entries}}"

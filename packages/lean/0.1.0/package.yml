@@ -1,0 +1,8553 @@
+matches:
+- replace: \
+  trigger: '\\ '
+- replace: "\u03B1"
+  trigger: '\a '
+- replace: "\u03B2"
+  trigger: '\b '
+- replace: "\u03C7"
+  trigger: '\c '
+- replace: "\u2193"
+  trigger: '\d '
+- replace: "\u03B5"
+  trigger: '\e '
+- replace: "\u03B3"
+  trigger: '\g '
+- replace: "\u2229"
+  trigger: '\i '
+- replace: "\u03BC"
+  trigger: '\m '
+- replace: "\xAC"
+  trigger: '\n '
+- replace: "\u2218"
+  trigger: '\o '
+- replace: "\u03A0"
+  trigger: '\p '
+- replace: "\u25B8"
+  trigger: '\t '
+- replace: "\u2192"
+  trigger: '\r '
+- replace: "\u2191"
+  trigger: '\u '
+- replace: "\u2228"
+  trigger: '\v '
+- replace: "\xD7"
+  trigger: '\x '
+- replace: "\u207B\xB9"
+  trigger: '\- '
+- replace: "\u223C"
+  trigger: '\~ '
+- replace: "\xB7"
+  trigger: '\. '
+- replace: "\u22C6"
+  trigger: '\* '
+- replace: "\xBF"
+  trigger: '\? '
+- replace: "\u2081"
+  trigger: '\1 '
+- replace: "\u2082"
+  trigger: '\2 '
+- replace: "\u2083"
+  trigger: '\3 '
+- replace: "\u2084"
+  trigger: '\4 '
+- replace: "\u2085"
+  trigger: '\5 '
+- replace: "\u2086"
+  trigger: '\6 '
+- replace: "\u2087"
+  trigger: '\7 '
+- replace: "\u2088"
+  trigger: '\8 '
+- replace: "\u2089"
+  trigger: '\9 '
+- replace: "\u2080"
+  trigger: '\0 '
+- replace: "\u2190"
+  trigger: '\l '
+- replace: "\u27E8"
+  trigger: '\< '
+- replace: "\u27E9"
+  trigger: '\> '
+- replace: "\xD8"
+  trigger: '\O '
+- replace: "\u214B"
+  trigger: '\& '
+- replace: "\U0001D538"
+  trigger: '\A '
+- replace: "\u2102"
+  trigger: '\C '
+- replace: "\u0394"
+  trigger: '\D '
+- replace: "\U0001D53D"
+  trigger: '\F '
+- replace: "\u0393"
+  trigger: '\G '
+- replace: "\u210D"
+  trigger: '\H '
+- replace: "\u22C2"
+  trigger: '\I '
+- replace: "\u22C2\u2080"
+  trigger: '\I0 '
+- replace: "\U0001D542"
+  trigger: '\K '
+- replace: "\u039B"
+  trigger: '\L '
+- replace: "\u2115"
+  trigger: '\N '
+- replace: "\u03A0"
+  trigger: '\P '
+- replace: "\u211A"
+  trigger: '\Q '
+- replace: "\u211D"
+  trigger: '\R '
+- replace: "\u03A3"
+  trigger: '\S '
+- replace: "\u22C3"
+  trigger: '\U '
+- replace: "\u22C3\u2080"
+  trigger: '\U0 '
+- replace: "\u2124"
+  trigger: '\Z '
+- replace: "\u266F"
+  trigger: '\# '
+- replace: "\u2236"
+  trigger: '\: '
+- replace: "\u2223"
+  trigger: '\| '
+- replace: "\xA1"
+  trigger: '\! '
+- replace: "\u03B2"
+  trigger: '\be '
+- replace: "\u03B3"
+  trigger: '\ga '
+- replace: "\u03B4"
+  trigger: '\de '
+- replace: "\u03B5"
+  trigger: '\ep '
+- replace: "\u03B6"
+  trigger: '\ze '
+- replace: "\u03B7"
+  trigger: '\et '
+- replace: "\u03B8"
+  trigger: '\th '
+- replace: "\u03B9"
+  trigger: '\io '
+- replace: "\u03BA"
+  trigger: '\ka '
+- replace: "\u03BB"
+  trigger: '\la '
+- replace: "\u03BC"
+  trigger: '\mu '
+- replace: "\u03BD"
+  trigger: '\nu '
+- replace: "\u03BE"
+  trigger: '\xi '
+- replace: "\u03C0"
+  trigger: '\pi '
+- replace: "\u03C1"
+  trigger: '\rh '
+- replace: "\u03C2"
+  trigger: '\vsi '
+- replace: "\u03C3"
+  trigger: '\si '
+- replace: "\u03C4"
+  trigger: '\ta '
+- replace: "\u03C6"
+  trigger: '\ph '
+- replace: "\u03C7"
+  trigger: '\ch '
+- replace: "\u03C8"
+  trigger: '\ps '
+- replace: "\u03C9"
+  trigger: '\om '
+- replace: "\xC0"
+  trigger: '\`A '
+- replace: "\xC1"
+  trigger: '\''A '
+- replace: "\xC2"
+  trigger: '\^{A} '
+- replace: "\xC3"
+  trigger: '\~A '
+- replace: "\xC4"
+  trigger: '\"A '
+- replace: "\xC7"
+  trigger: '\cC '
+- replace: "\xC8"
+  trigger: '\`E '
+- replace: "\xC9"
+  trigger: '\''E '
+- replace: "\xCA"
+  trigger: '\^{E} '
+- replace: "\xCB"
+  trigger: '\"E '
+- replace: "\xCC"
+  trigger: '\`I '
+- replace: "\xCD"
+  trigger: '\''I '
+- replace: "\xCE"
+  trigger: '\^{I} '
+- replace: "\xCF"
+  trigger: '\"I '
+- replace: "\xD1"
+  trigger: '\~N '
+- replace: "\xD2"
+  trigger: '\`O '
+- replace: "\xD3"
+  trigger: '\''O '
+- replace: "\xD4"
+  trigger: '\^{O} '
+- replace: "\xD5"
+  trigger: '\~O '
+- replace: "\xD6"
+  trigger: '\"O '
+- replace: "\xD8"
+  trigger: '\/O '
+- replace: "\xD9"
+  trigger: '\`U '
+- replace: "\xDA"
+  trigger: '\''U '
+- replace: "\xDB"
+  trigger: '\^{U} '
+- replace: "\xDC"
+  trigger: '\"U '
+- replace: "\xDD"
+  trigger: '\''Y '
+- replace: "\xE0"
+  trigger: '\`a '
+- replace: "\xE1"
+  trigger: '\''a '
+- replace: "\xE2"
+  trigger: '\^{a} '
+- replace: "\xE3"
+  trigger: '\~a '
+- replace: "\xE4"
+  trigger: '\"a '
+- replace: "\xE7"
+  trigger: '\cc '
+- replace: "\xE8"
+  trigger: '\`e '
+- replace: "\xE9"
+  trigger: '\''e '
+- replace: "\xEA"
+  trigger: '\^{e} '
+- replace: "\xEB"
+  trigger: '\"e '
+- replace: "\xEC"
+  trigger: '\`i '
+- replace: "\xED"
+  trigger: '\''i '
+- replace: "\xEE"
+  trigger: '\^{i} '
+- replace: "\xEF"
+  trigger: '\"i '
+- replace: "\xF1"
+  trigger: '\~{n} '
+- replace: "\xF2"
+  trigger: '\`o '
+- replace: "\xF3"
+  trigger: '\''o '
+- replace: "\xF4"
+  trigger: '\^{o} '
+- replace: "\xF5"
+  trigger: '\~o '
+- replace: "\xF6"
+  trigger: '\"o '
+- replace: "\xF8"
+  trigger: '\/o '
+- replace: "\xF9"
+  trigger: '\`u '
+- replace: "\xFA"
+  trigger: '\''u '
+- replace: "\xFB"
+  trigger: '\^{u} '
+- replace: "\xFC"
+  trigger: '\"u '
+- replace: "\xFD"
+  trigger: '\''y '
+- replace: "\xFF"
+  trigger: '\"y '
+- replace: "\u0141"
+  trigger: '\/L '
+- replace: "\u2209"
+  trigger: '\notin '
+- replace: "\u2669"
+  trigger: '\note '
+- replace: "\xAC"
+  trigger: '\not '
+- replace: "\U0001018E"
+  trigger: '\nomisma '
+- replace: "\u2209"
+  trigger: '\nin '
+- replace: "\u220C"
+  trigger: '\nni '
+- replace: "\u220B"
+  trigger: '\ni '
+- replace: "\u27F9"
+  trigger: '\nattrans '
+- replace: "\u27F9"
+  trigger: '\nat_trans '
+- replace: "\u266E"
+  trigger: '\natural '
+- replace: "\u2115"
+  trigger: '\nat '
+- replace: "\u20A6"
+  trigger: '\naira '
+- replace: "\u2207"
+  trigger: '\nabla '
+- replace: "\u2249"
+  trigger: '\napprox '
+- replace: "\u2116"
+  trigger: '\numero '
+- replace: "\u21CD"
+  trigger: '\nLeftarrow '
+- replace: "\u21CE"
+  trigger: '\nLeftrightarrow '
+- replace: "\u21CF"
+  trigger: '\nRightarrow '
+- replace: "\u22AF"
+  trigger: '\nVDash '
+- replace: "\u22AE"
+  trigger: '\nVdash '
+- replace: "\u2247"
+  trigger: '\ncong '
+- replace: "\u2197"
+  trigger: '\nearrow '
+- replace: "\xAC"
+  trigger: '\neg '
+- replace: "\u2262"
+  trigger: '\nequiv '
+- replace: "\u2260"
+  trigger: '\neq '
+- replace: "\u2204"
+  trigger: '\nexists '
+- replace: "\u2260"
+  trigger: '\ne '
+- replace: "\u2271"
+  trigger: '\ngeqq '
+- replace: "\u2271"
+  trigger: '\ngeqslant '
+- replace: "\u2271"
+  trigger: '\ngeq '
+- replace: "\u226F"
+  trigger: '\ngtr '
+- replace: "\u219A"
+  trigger: '\nleftarrow '
+- replace: "\u21AE"
+  trigger: '\nleftrightarrow '
+- replace: "\u2270"
+  trigger: '\nleqq '
+- replace: "\u2270"
+  trigger: '\nleqslant '
+- replace: "\u2270"
+  trigger: '\nleq '
+- replace: "\u226E"
+  trigger: '\nless '
+- replace: "\u2224"
+  trigger: '\nmid '
+- replace: "\u2226"
+  trigger: '\nparallel '
+- replace: "\u22E0"
+  trigger: '\npreceq '
+- replace: "\u2280"
+  trigger: '\nprec '
+- replace: "\u219B"
+  trigger: '\nrightarrow '
+- replace: "\u2224"
+  trigger: '\nshortmid '
+- replace: "\u2226"
+  trigger: '\nshortparallel '
+- replace: "\u2244"
+  trigger: '\nsimeq '
+- replace: "\u2241"
+  trigger: '\nsim '
+- replace: "\u2288"
+  trigger: '\nsubseteqq '
+- replace: "\u2288"
+  trigger: '\nsubseteq '
+- replace: "\u2284"
+  trigger: '\nsubset '
+- replace: "\u22E1"
+  trigger: '\nsucceq '
+- replace: "\u2281"
+  trigger: '\nsucc '
+- replace: "\u2289"
+  trigger: '\nsupseteqq '
+- replace: "\u2289"
+  trigger: '\nsupseteq '
+- replace: "\u2285"
+  trigger: '\nsupset '
+- replace: "\u22EC"
+  trigger: '\ntrianglelefteq '
+- replace: "\u22EA"
+  trigger: '\ntriangleleft '
+- replace: "\u22ED"
+  trigger: '\ntrianglerighteq '
+- replace: "\u22EB"
+  trigger: '\ntriangleright '
+- replace: "\u22AD"
+  trigger: '\nvDash '
+- replace: "\u22AC"
+  trigger: '\nvdash '
+- replace: "\u2196"
+  trigger: '\nwarrow '
+- replace: "\u2260"
+  trigger: '\eqn '
+- replace: "\u2243"
+  trigger: '\equiv '
+- replace: "\u2256"
+  trigger: '\eqcirc '
+- replace: "\u2255"
+  trigger: '\eqcolon '
+- replace: "\u22DD"
+  trigger: '\eqslantgtr '
+- replace: "\u22DC"
+  trigger: '\eqslantless '
+- replace: "\u22A2"
+  trigger: '\entails '
+- replace: "\u2013"
+  trigger: '\en '
+- replace: "\u2204"
+  trigger: '\exn '
+- replace: "\u2203"
+  trigger: '\exists '
+- replace: "\u2203"
+  trigger: '\ex '
+- replace: "\u2205"
+  trigger: '\emptyset '
+- replace: "\u2205"
+  trigger: '\empty '
+- replace: "\u2014"
+  trigger: '\em '
+- replace: "\u03B5"
+  trigger: '\epsilon '
+- replace: "\u03B5"
+  trigger: '\eps '
+- replace: "\u20AC"
+  trigger: '\euro '
+- replace: "\u03B7"
+  trigger: '\eta '
+- replace: "\u2113"
+  trigger: '\ell '
+- replace: "\u2245"
+  trigger: '\iso '
+- replace: "\u2208"
+  trigger: '\in '
+- replace: "\u2209"
+  trigger: '\inn '
+- replace: "\u2229"
+  trigger: '\inter '
+- replace: "\u22BA"
+  trigger: '\intercal '
+- replace: "\u2229"
+  trigger: '\intersection '
+- replace: "\u222B"
+  trigger: '\integral '
+- replace: "\u2124"
+  trigger: '\int '
+- replace: "\u207B\xB9"
+  trigger: '\inv '
+- replace: "\u2206"
+  trigger: '\increment '
+- replace: "\u2293"
+  trigger: '\inf '
+- replace: "\u2A05"
+  trigger: '\infi '
+- replace: "\u221E"
+  trigger: '\infty '
+- replace: "\u2194"
+  trigger: '\iff '
+- replace: "\u2192"
+  trigger: '\imp '
+- replace: "\u0131"
+  trigger: '\imath '
+- replace: "\u03B9"
+  trigger: '\iota '
+- replace: "\u2260"
+  trigger: '\=n '
+- replace: "\u2262"
+  trigger: '\==n '
+- replace: "\u2263"
+  trigger: '\=== '
+- replace: "\u27F9"
+  trigger: '\==> '
+- replace: "\u2261"
+  trigger: '\== '
+- replace: "\u2255"
+  trigger: '\=: '
+- replace: "\u2257"
+  trigger: '\=o '
+- replace: "\u21CF"
+  trigger: '\=>n '
+- replace: "\u21D2"
+  trigger: '\=> '
+- replace: "\u2241"
+  trigger: '\~n '
+- replace: "\u2249"
+  trigger: '\~~n '
+- replace: "\u224B"
+  trigger: '\~~~ '
+- replace: "\u224A"
+  trigger: '\~~- '
+- replace: "\u2248"
+  trigger: '\~~ '
+- replace: "\u2244"
+  trigger: '\~-n '
+- replace: "\u2243"
+  trigger: '\~- '
+- replace: "\u2247"
+  trigger: '\~=n '
+- replace: "\u2245"
+  trigger: '\~= '
+- replace: "\u223C"
+  trigger: '\homotopy '
+- replace: "\u27F6"
+  trigger: '\hom '
+- replace: "\u03E9"
+  trigger: '\hori '
+- replace: "\u21A9"
+  trigger: '\hookleftarrow '
+- replace: "\u21AA"
+  trigger: '\hookrightarrow '
+- replace: "\u20B4"
+  trigger: '\hryvnia '
+- replace: "\u0371"
+  trigger: '\heta '
+- replace: "\u2665"
+  trigger: '\heartsuit '
+- replace: "\u210F"
+  trigger: '\hbar '
+- replace: "\u223B"
+  trigger: '\:~ '
+- replace: "\u2254"
+  trigger: '\:= '
+- replace: "\u223A"
+  trigger: '\::- '
+- replace: "\u2237"
+  trigger: '\:: '
+- replace: "\u2242"
+  trigger: '\-~ '
+- replace: "\u22A3"
+  trigger: '\-| '
+- replace: "\u207B\xB9"
+  trigger: '\-1 '
+- replace: "\u207B\xB9"
+  trigger: '\^-1 '
+- replace: "\u207B\xB2"
+  trigger: '\-2 '
+- replace: "\u207B\xB3"
+  trigger: '\-3 '
+- replace: "\u2239"
+  trigger: '\-: '
+- replace: "\u219B"
+  trigger: '\->n '
+- replace: "\u2192"
+  trigger: '\-> '
+- replace: "\u27F6"
+  trigger: '\--> '
+- replace: "\u2500"
+  trigger: '\--- '
+- replace: "\u2550"
+  trigger: '\--= '
+- replace: "\u2501"
+  trigger: '\--_ '
+- replace: "\u254C"
+  trigger: '\--. '
+- replace: "\u22B8"
+  trigger: '\-o '
+- replace: "\u2251"
+  trigger: '\.=. '
+- replace: "\u2250"
+  trigger: '\.= '
+- replace: "\u2214"
+  trigger: '\.+ '
+- replace: "\u2238"
+  trigger: '\.- '
+- replace: "\u22EF"
+  trigger: '\... '
+- replace: "\u2258"
+  trigger: '\(= '
+- replace: "\u27C5"
+  trigger: '\(b '
+- replace: "\u2259"
+  trigger: '\and= '
+- replace: "\u2227"
+  trigger: '\and '
+- replace: "\u2227"
+  trigger: '\an '
+- replace: "\u221F"
+  trigger: '\angle '
+- replace: "\u212B"
+  trigger: '\angstrom '
+- replace: "\u2200"
+  trigger: '\all '
+- replace: "\u2200\u1DA0"
+  trigger: '\allf '
+- replace: "\u2200\u1DA0"
+  trigger: '\all^f '
+- replace: "\u2200\u1D50"
+  trigger: '\allm '
+- replace: "\u2200\u1D50"
+  trigger: '\all^m '
+- replace: "\u03B1"
+  trigger: '\alpha '
+- replace: "\u2135"
+  trigger: '\aleph '
+- replace: "\u204E"
+  trigger: '\asterisk '
+- replace: "\u2217"
+  trigger: '\ast '
+- replace: "\u224D"
+  trigger: '\asymp '
+- replace: "\u2336"
+  trigger: '\apl '
+- replace: "\u224A"
+  trigger: '\approxeq '
+- replace: "\u2248"
+  trigger: '\approx '
+- replace: "\xE5"
+  trigger: '\aa '
+- replace: "\xE6"
+  trigger: '\ae '
+- replace: "\u20B3"
+  trigger: '\austral '
+- replace: "\u060B"
+  trigger: '\afghani '
+- replace: "\u2210"
+  trigger: '\amalg '
+- replace: "\u225A"
+  trigger: '\or= '
+- replace: "\xAA"
+  trigger: '\ordfeminine '
+- replace: "\xBA"
+  trigger: '\ordmasculine '
+- replace: "\u2228"
+  trigger: '\or '
+- replace: "\u2295"
+  trigger: '\oplus '
+- replace: "\u1D52\u1D48"
+  trigger: '\od '
+- replace: "\u1D43\u1D52\u1D56"
+  trigger: '\aop '
+- replace: "\u1D50\u1D52\u1D56"
+  trigger: '\mop '
+- replace: "\u1D52\u1D56"
+  trigger: '\op '
+- replace: "\u2295"
+  trigger: '\o+ '
+- replace: "\u2296"
+  trigger: '\o-- '
+- replace: "\u229D"
+  trigger: '\o- '
+- replace: "\u2297"
+  trigger: '\ox '
+- replace: "\u2298"
+  trigger: '\o/ '
+- replace: "\u2299"
+  trigger: '\o. '
+- replace: "\u229A"
+  trigger: '\oo '
+- replace: "\u2218*"
+  trigger: '\o* '
+- replace: "\u229C"
+  trigger: '\o= '
+- replace: "\u0153"
+  trigger: '\oe '
+- replace: "\U0001F6D1"
+  trigger: '\octagonal '
+- replace: "\u2126"
+  trigger: '\ohm '
+- replace: "\u2125"
+  trigger: '\ounce '
+- replace: "\u03C9"
+  trigger: '\omega '
+- replace: "\u03BF"
+  trigger: '\omicron '
+- replace: "\u2296"
+  trigger: '\ominus '
+- replace: "\u2299"
+  trigger: '\odot '
+- replace: "\u222E"
+  trigger: '\oint '
+- replace: "\u2298"
+  trigger: '\oslash '
+- replace: "\u2297"
+  trigger: '\otimes '
+- replace: "\u225B"
+  trigger: '\*= '
+- replace: "\u225C"
+  trigger: '\t= '
+- replace: "\u25B9"
+  trigger: '\transport '
+- replace: "\u25B9"
+  trigger: '\trans '
+- replace: "\u25BF"
+  trigger: '\triangledown '
+- replace: "\u22B4"
+  trigger: '\trianglelefteq '
+- replace: "\u25C3"
+  trigger: '\triangleleft '
+- replace: "\u225C"
+  trigger: '\triangleq '
+- replace: "\u22B5"
+  trigger: '\trianglerighteq '
+- replace: "\u25B9"
+  trigger: '\triangleright '
+- replace: "\u25B5"
+  trigger: '\triangle '
+- replace: "\u2B1D"
+  trigger: '\tr '
+- replace: "\u25C2"
+  trigger: '\tb '
+- replace: "\u219E"
+  trigger: '\twoheadleftarrow '
+- replace: "\u21A0"
+  trigger: '\twoheadrightarrow '
+- replace: "\u25C3"
+  trigger: '\tw '
+- replace: "\u2040"
+  trigger: '\tie '
+- replace: "\xD7"
+  trigger: '\times '
+- replace: "\u03B8"
+  trigger: '\theta '
+- replace: "\u2234"
+  trigger: '\therefore '
+- replace: "\u2248"
+  trigger: '\thickapprox '
+- replace: "\u223C"
+  trigger: '\thicksim '
+- replace: "\u2121"
+  trigger: '\telephone '
+- replace: "\u20B8"
+  trigger: '\tenge '
+- replace: "\u266A"
+  trigger: '\textmusicalnote '
+- replace: "\xB5"
+  trigger: '\textmu '
+- replace: "\u2044"
+  trigger: '\textfractionsolidus '
+- replace: "\u0E3F"
+  trigger: '\textbaht '
+- replace: "\u271D"
+  trigger: '\textdied '
+- replace: "\u2052"
+  trigger: '\textdiscount '
+- replace: "\u20A1"
+  trigger: '\textcolonmonetary '
+- replace: "\u2117"
+  trigger: '\textcircledP '
+- replace: "\u20A9"
+  trigger: '\textwon '
+- replace: "\u20A6"
+  trigger: '\textnaira '
+- replace: "\u2116"
+  trigger: '\textnumero '
+- replace: "\u20B1"
+  trigger: '\textpeso '
+- replace: "\u2031"
+  trigger: '\textpertenthousand '
+- replace: "\u20A4"
+  trigger: '\textlira '
+- replace: "\u2045"
+  trigger: '\textlquill '
+- replace: "\u211E"
+  trigger: '\textrecipe '
+- replace: "\u203B"
+  trigger: '\textreferencemark '
+- replace: "\u2046"
+  trigger: '\textrquill '
+- replace: "\u203D"
+  trigger: '\textinterrobang '
+- replace: "\u212E"
+  trigger: '\textestimated '
+- replace: "\u25E6"
+  trigger: '\textopenbullet '
+- replace: "\u20AE"
+  trigger: '\tugrik '
+- replace: "\u03C4"
+  trigger: '\tau '
+- replace: "\u22A4"
+  trigger: '\top '
+- replace: "\u2192"
+  trigger: '\to '
+- replace: "\u2192\u2080"
+  trigger: '\to0 '
+- replace: "\u2192\u2080"
+  trigger: '\r0 '
+- replace: "\u2192\u2080"
+  trigger: '\to_0 '
+- replace: "\u2192\u2080"
+  trigger: '\r_0 '
+- replace: "\u2192\u2080"
+  trigger: '\finsupp '
+- replace: "\u2192\u2081"
+  trigger: '\to1 '
+- replace: "\u2192\u2081"
+  trigger: '\r1 '
+- replace: "\u2192\u2081"
+  trigger: '\to_1 '
+- replace: "\u2192\u2081"
+  trigger: '\r_1 '
+- replace: "\u2192\u2081"
+  trigger: '\l1 '
+- replace: "\u2192\u2081\u209B"
+  trigger: '\to1s '
+- replace: "\u2192\u2081\u209B"
+  trigger: '\r1s '
+- replace: "\u2192\u2081\u209B"
+  trigger: '\to_1s '
+- replace: "\u2192\u2081\u209B"
+  trigger: '\r_1s '
+- replace: "\u2192\u2081\u209B"
+  trigger: '\l1simplefunc '
+- replace: "\u2192\u2090"
+  trigger: '\toa '
+- replace: "\u2192\u2090"
+  trigger: '\ra '
+- replace: "\u2192\u2090"
+  trigger: '\to_a '
+- replace: "\u2192\u2090"
+  trigger: '\r_a '
+- replace: "\u2192\u2090"
+  trigger: '\alghom '
+- replace: "\u2192\u1D47"
+  trigger: '\tob '
+- replace: "\u2192\u1D47"
+  trigger: '\rb '
+- replace: "\u2192\u1D47"
+  trigger: '\to^b '
+- replace: "\u2192\u1D47"
+  trigger: '\r^b '
+- replace: "\u2192\u1D47"
+  trigger: '\boundedcontinuousfunction '
+- replace: "\u2192\u2097"
+  trigger: '\tol '
+- replace: "\u2192\u2097"
+  trigger: '\rl '
+- replace: "\u2192\u2097"
+  trigger: '\to_l '
+- replace: "\u2192\u2097"
+  trigger: '\r_l '
+- replace: "\u2192\u2097"
+  trigger: '\linearmap '
+- replace: "\u2192\u2098"
+  trigger: '\tom '
+- replace: "\u2192\u2098"
+  trigger: '\rm '
+- replace: "\u2192\u2098"
+  trigger: '\to_m '
+- replace: "\u2192\u2098"
+  trigger: '\r_m '
+- replace: "\u2192\u2098"
+  trigger: '\aeeqfun '
+- replace: "\u2192\u209A"
+  trigger: '\rp '
+- replace: "\u2192\u209A"
+  trigger: '\to_p '
+- replace: "\u2192\u209A"
+  trigger: '\r_p '
+- replace: "\u2192\u209A"
+  trigger: '\dfinsupp '
+- replace: "\u2192\u209B"
+  trigger: '\tos '
+- replace: "\u2192\u209B"
+  trigger: '\rs '
+- replace: "\u2192\u209B"
+  trigger: '\to_s '
+- replace: "\u2192\u209B"
+  trigger: '\r_s '
+- replace: "\u2192\u209B"
+  trigger: '\simplefunc '
+- replace: "\u22D6"
+  trigger: '\covers '
+- replace: "\u22D6"
+  trigger: '\covby '
+- replace: "\u2A7F"
+  trigger: '\wcovby '
+- replace: "\u2A7F"
+  trigger: '\wcovers '
+- replace: "\u225D"
+  trigger: '\def= '
+- replace: "\u2259"
+  trigger: '\defs '
+- replace: "\xB0"
+  trigger: '\degree '
+- replace: "\u03EF"
+  trigger: '\dei '
+- replace: "\u03B4"
+  trigger: '\delta '
+- replace: "\u2251"
+  trigger: '\doteqdot '
+- replace: "\u2250"
+  trigger: '\doteq '
+- replace: "\u2214"
+  trigger: '\dotplus '
+- replace: "\u22A1"
+  trigger: '\dotsquare '
+- replace: "\u2B1D"
+  trigger: '\dot '
+- replace: "\u20AB"
+  trigger: '\dong '
+- replace: "\u2193"
+  trigger: '\downarrow '
+- replace: "\u21CA"
+  trigger: '\downdownarrows '
+- replace: "\u21C3"
+  trigger: '\downleftharpoon '
+- replace: "\u21C2"
+  trigger: '\downrightharpoon '
+- replace: "\u2198"
+  trigger: '\dr- '
+- replace: "\u21D8"
+  trigger: '\dr= '
+- replace: "\u20AF"
+  trigger: '\drachma '
+- replace: "\u2198"
+  trigger: '\dr '
+- replace: "\u2199"
+  trigger: '\dl- '
+- replace: "\u21D9"
+  trigger: '\dl= '
+- replace: "\u2199"
+  trigger: '\dl '
+- replace: "\u21CA"
+  trigger: '\d-2 '
+- replace: "\u21F5"
+  trigger: '\d-u- '
+- replace: "\u21A7"
+  trigger: '\d-| '
+- replace: "\u2193"
+  trigger: '\d- '
+- replace: "\u27F1"
+  trigger: '\d== '
+- replace: "\u21D3"
+  trigger: '\d= '
+- replace: "\u21A1"
+  trigger: '\dd- '
+- replace: "\u2021"
+  trigger: '\ddagger '
+- replace: "\u2021"
+  trigger: '\ddag '
+- replace: "\u22F1"
+  trigger: '\ddots '
+- replace: "\u21AF"
+  trigger: '\dz '
+- replace: "\u25C6"
+  trigger: '\dib '
+- replace: "\u25C7"
+  trigger: '\diw '
+- replace: "\u25C8"
+  trigger: '\di. '
+- replace: "\u2680"
+  trigger: '\die '
+- replace: "\xF7"
+  trigger: '\division '
+- replace: "\u22C7"
+  trigger: '\divideontimes '
+- replace: "\xF7"
+  trigger: '\div '
+- replace: "\u2300"
+  trigger: '\diameter '
+- replace: "\u2662"
+  trigger: '\diamondsuit '
+- replace: "\u22C4"
+  trigger: '\diamond '
+- replace: "\u03DD"
+  trigger: '\digamma '
+- replace: "\u25C6"
+  trigger: '\di '
+- replace: "\u2020"
+  trigger: '\dagger '
+- replace: "\u2020"
+  trigger: '\dag '
+- replace: "\u2138"
+  trigger: '\daleth '
+- replace: "\u22A3"
+  trigger: '\dashv '
+- replace: "\xF0"
+  trigger: '\dh '
+- replace: "\u225E"
+  trigger: '\m= '
+- replace: "\u2293"
+  trigger: '\meet '
+- replace: "\u2208"
+  trigger: '\member '
+- replace: "\u2208"
+  trigger: '\mem '
+- replace: "\u2221"
+  trigger: '\measuredangle '
+- replace: "\u2642"
+  trigger: '\male '
+- replace: "\u2720"
+  trigger: '\maltese '
+- replace: "\u20BC"
+  trigger: '\manat '
+- replace: "\u21A6"
+  trigger: '\mapsto '
+- replace: "\u2110"
+  trigger: '\mathscr{I} '
+- replace: "\u2212"
+  trigger: '\minus '
+- replace: "\u20A5"
+  trigger: '\mill '
+- replace: "\xB5"
+  trigger: '\micro '
+- replace: "\u2223"
+  trigger: '\mid '
+- replace: "\xD7"
+  trigger: '\multiplication '
+- replace: "\u22B8"
+  trigger: '\multimap '
+- replace: "\u2127"
+  trigger: '\mho '
+- replace: "\u22A7"
+  trigger: '\models '
+- replace: "\u2213"
+  trigger: '\mp '
+- replace: "\u225F"
+  trigger: '\?= '
+- replace: "\u2047"
+  trigger: '\?? '
+- replace: "\u203D"
+  trigger: '\?! '
+- replace: "\U0001F6C7"
+  trigger: '\prohibited '
+- replace: "\u220F"
+  trigger: '\prod '
+- replace: "\u221D"
+  trigger: '\propto '
+- replace: "\u227E"
+  trigger: '\precapprox '
+- replace: "\u227C"
+  trigger: '\preceq '
+- replace: "\u22E8"
+  trigger: '\precnapprox '
+- replace: "\u22E8"
+  trigger: '\precnsim '
+- replace: "\u227E"
+  trigger: '\precsim '
+- replace: "\u227A"
+  trigger: '\prec '
+- replace: "\u207B\xB9'"
+  trigger: '\preim '
+- replace: "\u207B\xB9'"
+  trigger: '\preimage '
+- replace: "\u2032"
+  trigger: '\prime '
+- replace: "\u21A3"
+  trigger: '\pr '
+- replace: "\U0001D4AB"
+  trigger: '\powerset '
+- replace: "\xA3"
+  trigger: '\pounds '
+- replace: "\xA3"
+  trigger: '\pound '
+- replace: "\u25B0"
+  trigger: '\pab '
+- replace: "\u25B1"
+  trigger: '\paw '
+- replace: "\u3250"
+  trigger: '\partnership '
+- replace: "\u2202"
+  trigger: '\partial '
+- replace: "\xB6"
+  trigger: '\paragraph '
+- replace: "\u2225"
+  trigger: '\parallel '
+- replace: "\u2225"
+  trigger: '\fuzzy '
+- replace: "\u25B0"
+  trigger: '\pa '
+- replace: "\xB1"
+  trigger: '\pm '
+- replace: "\u22A5"
+  trigger: '\perp '
+- replace: "\u15EE"
+  trigger: '\^perp '
+- replace: "\u2030"
+  trigger: '\permil '
+- replace: "\u214C"
+  trigger: '\per '
+- replace: "\u20B1"
+  trigger: '\peso '
+- replace: "\u20A7"
+  trigger: '\peseta '
+- replace: "\xB6"
+  trigger: '\pilcrow '
+- replace: "\u22D4"
+  trigger: '\pitchfork '
+- replace: "\u03C8"
+  trigger: '\psi '
+- replace: "\u03C6"
+  trigger: '\phi '
+- replace: "\u2702"
+  trigger: '\8< '
+- replace: "\u2270"
+  trigger: '\leqn '
+- replace: "\u2266"
+  trigger: '\leqq '
+- replace: "\u2264"
+  trigger: '\leqslant '
+- replace: "\u2264"
+  trigger: '\leq '
+- replace: "\u2270"
+  trigger: '\len '
+- replace: "\u219D"
+  trigger: '\leadsto '
+- replace: "\u21A2"
+  trigger: '\leftarrowtail '
+- replace: "\u2190"
+  trigger: '\leftarrow '
+- replace: "\u21BD"
+  trigger: '\leftharpoondown '
+- replace: "\u21BC"
+  trigger: '\leftharpoonup '
+- replace: "\u21C7"
+  trigger: '\leftleftarrows '
+- replace: "\u21C6"
+  trigger: '\leftrightarrows '
+- replace: "\u2194"
+  trigger: '\leftrightarrow '
+- replace: "\u21CB"
+  trigger: '\leftrightharpoons '
+- replace: "\u21AD"
+  trigger: '\leftrightsquigarrow '
+- replace: "\u22CB"
+  trigger: '\leftthreetimes '
+- replace: "\u2272"
+  trigger: '\lessapprox '
+- replace: "\u22D6"
+  trigger: '\lessdot '
+- replace: "\u22DA"
+  trigger: '\lesseqgtr '
+- replace: "\u22DA"
+  trigger: '\lesseqqgtr '
+- replace: "\u2276"
+  trigger: '\lessgtr '
+- replace: "\u2272"
+  trigger: '\lesssim '
+- replace: "\u2264"
+  trigger: '\le '
+- replace: "\u2294"
+  trigger: '\lub '
+- replace: "\u27F7"
+  trigger: '\lr-- '
+- replace: "\u21AE"
+  trigger: '\lr-n '
+- replace: "\u2194"
+  trigger: '\lr- '
+- replace: "\u21CE"
+  trigger: '\lr=n '
+- replace: "\u21D4"
+  trigger: '\lr= '
+- replace: "\u21AD"
+  trigger: '\lr~ '
+- replace: "\u231F"
+  trigger: '\lrcorner '
+- replace: "\u2194"
+  trigger: '\lr '
+- replace: "\u21C7"
+  trigger: '\l-2 '
+- replace: "\u21C6"
+  trigger: '\l-r- '
+- replace: "\u27F5"
+  trigger: '\l-- '
+- replace: "\u219A"
+  trigger: '\l-n '
+- replace: "\u21A4"
+  trigger: '\l-| '
+- replace: "\u21A2"
+  trigger: '\l-> '
+- replace: "\u2190"
+  trigger: '\l- '
+- replace: "\u21DA"
+  trigger: '\l== '
+- replace: "\u21CD"
+  trigger: '\l=n '
+- replace: "\u21D0"
+  trigger: '\l= '
+- replace: "\u219C"
+  trigger: '\l~ '
+- replace: "\u219E"
+  trigger: '\ll- '
+- replace: "\u231E"
+  trigger: '\llcorner '
+- replace: "\u301A"
+  trigger: '\llbracket '
+- replace: "\u226A"
+  trigger: '\ll '
+- replace: "\u27C5"
+  trigger: '\lbag '
+- replace: "\u03BB"
+  trigger: '\lambda '
+- replace: "\u03BB"
+  trigger: '\lamda '
+- replace: "\u03BB"
+  trigger: '\lam '
+- replace: "\u20BE"
+  trigger: '\lari '
+- replace: "\u27E8"
+  trigger: '\langle '
+- replace: "\u20A4"
+  trigger: '\lira '
+- replace: "\u2308"
+  trigger: '\lceil '
+- replace: "\u2026"
+  trigger: '\ldots '
+- replace: "\u201C"
+  trigger: '\ldq '
+- replace: "\u300A"
+  trigger: '\ldata '
+- replace: "\u29CF"
+  trigger: '\lf '
+- replace: "\u29CF"
+  trigger: '\<| '
+- replace: "\u230A"
+  trigger: '\lfloor '
+- replace: "\u25C1"
+  trigger: '\lhd '
+- replace: "\u22E6"
+  trigger: '\lnapprox '
+- replace: "\u2268"
+  trigger: '\lneqq '
+- replace: "\u2268"
+  trigger: '\lneq '
+- replace: "\u22E6"
+  trigger: '\lnsim '
+- replace: "\xAC"
+  trigger: '\lnot '
+- replace: "\u27F5"
+  trigger: '\longleftarrow '
+- replace: "\u27F7"
+  trigger: '\longleftrightarrow '
+- replace: "\u27F6"
+  trigger: '\longrightarrow '
+- replace: "\u21AB"
+  trigger: '\looparrowleft '
+- replace: "\u21AC"
+  trigger: '\looparrowright '
+- replace: "\u2727"
+  trigger: '\lozenge '
+- replace: "\u2018"
+  trigger: '\lq '
+- replace: "\u22C9"
+  trigger: '\ltimes '
+- replace: "\u2268"
+  trigger: '\lvertneqq '
+- replace: "\u2271"
+  trigger: '\geqn '
+- replace: "\u2267"
+  trigger: '\geqq '
+- replace: "\u2265"
+  trigger: '\geqslant '
+- replace: "\u2265"
+  trigger: '\geq '
+- replace: "\u2271"
+  trigger: '\gen '
+- replace: "\u2190"
+  trigger: '\gets '
+- replace: "\u2265"
+  trigger: '\ge '
+- replace: "\u2293"
+  trigger: '\glb '
+- replace: "\u201E"
+  trigger: '\glqq '
+- replace: "\u201A"
+  trigger: '\glq '
+- replace: "\u20B2"
+  trigger: '\guarani '
+- replace: "\u03EB"
+  trigger: '\gangia '
+- replace: "\u03B3"
+  trigger: '\gamma '
+- replace: "\u22D9"
+  trigger: '\ggg '
+- replace: "\u226B"
+  trigger: '\gg '
+- replace: "\u2137"
+  trigger: '\gimel '
+- replace: "\u22E7"
+  trigger: '\gnapprox '
+- replace: "\u2269"
+  trigger: '\gneqq '
+- replace: "\u2269"
+  trigger: '\gneq '
+- replace: "\u22E7"
+  trigger: '\gnsim '
+- replace: "\u2273"
+  trigger: '\gtrapprox '
+- replace: "\u22D7"
+  trigger: '\gtrdot '
+- replace: "\u22DB"
+  trigger: '\gtreqless '
+- replace: "\u22DB"
+  trigger: '\gtreqqless '
+- replace: "\u2277"
+  trigger: '\gtrless '
+- replace: "\u2273"
+  trigger: '\gtrsim '
+- replace: "\u2269"
+  trigger: '\gvertneqq '
+- replace: "\u201C"
+  trigger: '\grqq '
+- replace: "\u2018"
+  trigger: '\grq '
+- replace: "\u2270"
+  trigger: '\<=n '
+- replace: "\u21CE"
+  trigger: '\<=>n '
+- replace: "\u21D4"
+  trigger: '\<=> '
+- replace: "\u2264"
+  trigger: '\<= '
+- replace: "\u226E"
+  trigger: '\<n '
+- replace: "\u2274"
+  trigger: '\<~nn '
+- replace: "\u22E6"
+  trigger: '\<~n '
+- replace: "\u2272"
+  trigger: '\<~ '
+- replace: "\u22D6"
+  trigger: '\<: '
+- replace: "\u22D7"
+  trigger: '\:> '
+- replace: "\u21AE"
+  trigger: '\<->n '
+- replace: "\u2194"
+  trigger: '\<-> '
+- replace: "\u27F7"
+  trigger: '\<--> '
+- replace: "\u27F5"
+  trigger: '\<-- '
+- replace: "\u219A"
+  trigger: '\<-n '
+- replace: "\u2190"
+  trigger: '\<- '
+- replace: "\u27EA"
+  trigger: '\<< '
+- replace: "\u2271"
+  trigger: '\>=n '
+- replace: "\u2265"
+  trigger: '\>= '
+- replace: "\u226F"
+  trigger: '\>n '
+- replace: "\u2275"
+  trigger: '\>~nn '
+- replace: "\u22E7"
+  trigger: '\>~n '
+- replace: "\u2273"
+  trigger: '\>~ '
+- replace: "\u27EB"
+  trigger: '\>> '
+- replace: "\u221A"
+  trigger: '\root '
+- replace: "\u2284"
+  trigger: '\ssubn '
+- replace: "\u2282"
+  trigger: '\ssub '
+- replace: "\u2285"
+  trigger: '\ssupn '
+- replace: "\u2283"
+  trigger: '\ssup '
+- replace: "\u228F"
+  trigger: '\ssqub '
+- replace: "\u2290"
+  trigger: '\ssqup '
+- replace: "\u2286"
+  trigger: '\ss '
+- replace: "\u2288"
+  trigger: '\subn '
+- replace: "\u2286"
+  trigger: '\subseteqq '
+- replace: "\u2286"
+  trigger: '\subseteq '
+- replace: "\u228A"
+  trigger: '\subsetneqq '
+- replace: "\u228A"
+  trigger: '\subsetneq '
+- replace: "\u2282"
+  trigger: '\subset '
+- replace: "\u2286"
+  trigger: '\sub '
+- replace: "\u2289"
+  trigger: '\supn '
+- replace: "\u2287"
+  trigger: '\supseteqq '
+- replace: "\u2287"
+  trigger: '\supseteq '
+- replace: "\u228B"
+  trigger: '\supsetneqq '
+- replace: "\u228B"
+  trigger: '\supsetneq '
+- replace: "\u2283"
+  trigger: '\supset '
+- replace: "\u2294"
+  trigger: '\sup '
+- replace: "\u2A06"
+  trigger: '\supr '
+- replace: "\u221B"
+  trigger: '\surd3 '
+- replace: "\u221C"
+  trigger: '\surd4 '
+- replace: "\u221A"
+  trigger: '\surd '
+- replace: "\u227F"
+  trigger: '\succapprox '
+- replace: "\u227D"
+  trigger: '\succcurlyeq '
+- replace: "\u227D"
+  trigger: '\succeq '
+- replace: "\u22E9"
+  trigger: '\succnapprox '
+- replace: "\u22E9"
+  trigger: '\succnsim '
+- replace: "\u227F"
+  trigger: '\succsim '
+- replace: "\u227B"
+  trigger: '\succ '
+- replace: "\u2211"
+  trigger: '\sum '
+- replace: "\u2933"
+  trigger: '\specializes '
+- replace: "\u2933"
+  trigger: '\~> '
+- replace: "\u22E2"
+  trigger: '\squbn '
+- replace: "\u2291"
+  trigger: '\squb '
+- replace: "\u22E3"
+  trigger: '\squpn '
+- replace: "\u2292"
+  trigger: '\squp '
+- replace: "\u25A1"
+  trigger: '\square '
+- replace: "\u21DD"
+  trigger: '\squigarrowright '
+- replace: "\u25A0"
+  trigger: '\sqb '
+- replace: "\u25A1"
+  trigger: '\sqw '
+- replace: "\u25A3"
+  trigger: '\sq. '
+- replace: "\u25A2"
+  trigger: '\sqo '
+- replace: "\u2293"
+  trigger: '\sqcap '
+- replace: "\u2294"
+  trigger: '\sqcup '
+- replace: "\u221A"
+  trigger: '\sqrt '
+- replace: "\u2291"
+  trigger: '\sqsubseteq '
+- replace: "\u228F"
+  trigger: '\sqsubset '
+- replace: "\u2292"
+  trigger: '\sqsupseteq '
+- replace: "\u2290"
+  trigger: '\sqsupset '
+- replace: "\u25FE"
+  trigger: '\sq '
+- replace: "\u207B\xB9"
+  trigger: '\sy '
+- replace: "\u2726"
+  trigger: '\st4 '
+- replace: "\u2736"
+  trigger: '\st6 '
+- replace: "\u2734"
+  trigger: '\st8 '
+- replace: "\u2739"
+  trigger: '\st12 '
+- replace: "\u03DB"
+  trigger: '\stigma '
+- replace: "\u22C6"
+  trigger: '\star '
+- replace: "\u03C6"
+  trigger: '\straightphi '
+- replace: "\u22C6"
+  trigger: '\st '
+- replace: "\u20B7"
+  trigger: '\spesmilo '
+- replace: "\u2660"
+  trigger: '\spadesuit '
+- replace: "\u2222"
+  trigger: '\sphericalangle '
+- replace: "\xA7"
+  trigger: '\section '
+- replace: "\u2198"
+  trigger: '\searrow '
+- replace: "\u2216"
+  trigger: '\setminus '
+- replace: "\u03FB"
+  trigger: '\san '
+- replace: "\u03E1"
+  trigger: '\sampi '
+- replace: "\u2223"
+  trigger: '\shortmid '
+- replace: "\u2225"
+  trigger: '\shortparallel '
+- replace: "\u03F8"
+  trigger: '\sho '
+- replace: "\u03ED"
+  trigger: '\shima '
+- replace: "\u03E3"
+  trigger: '\shei '
+- replace: "\u266F"
+  trigger: '\sharp '
+- replace: "\u03C3"
+  trigger: '\sigma '
+- replace: "\u2243"
+  trigger: '\simeq '
+- replace: "\u223C"
+  trigger: '\sim '
+- replace: "\uFE68"
+  trigger: '\sbs '
+- replace: "\u2210"
+  trigger: '\smallamalg '
+- replace: "\u2216"
+  trigger: '\smallsetminus '
+- replace: "\u2323"
+  trigger: '\smallsmile '
+- replace: "\u2323"
+  trigger: '\smile '
+- replace: "\u2022"
+  trigger: '\smul '
+- replace: "\u2199"
+  trigger: '\swarrow '
+- replace: "\u25C0"
+  trigger: '\Tr '
+- replace: "\u25C0"
+  trigger: '\Tb '
+- replace: "\u25C1"
+  trigger: '\Tw '
+- replace: "\u03A4"
+  trigger: '\Tau '
+- replace: "\u0398"
+  trigger: '\Theta '
+- replace: "\xDE"
+  trigger: '\TH '
+- replace: "\u222A"
+  trigger: '\union '
+- replace: "\u203F"
+  trigger: '\undertie '
+- replace: "\u2BD1"
+  trigger: '\uncertainty '
+- replace: "\u222A"
+  trigger: '\un '
+- replace: "\u228E"
+  trigger: '\u+ '
+- replace: "\u228D"
+  trigger: '\u. '
+- replace: "\u21A8"
+  trigger: '\ud-| '
+- replace: "\u2195"
+  trigger: '\ud- '
+- replace: "\u21D5"
+  trigger: '\ud= '
+- replace: "\u2195"
+  trigger: '\ud '
+- replace: "\u2196"
+  trigger: '\ul- '
+- replace: "\u21D6"
+  trigger: '\ul= '
+- replace: "\u231C"
+  trigger: '\ulcorner '
+- replace: "\u2196"
+  trigger: '\ul '
+- replace: "\u2197"
+  trigger: '\ur- '
+- replace: "\u21D7"
+  trigger: '\ur= '
+- replace: "\u231D"
+  trigger: '\urcorner '
+- replace: "\u2197"
+  trigger: '\ur '
+- replace: "\u21C8"
+  trigger: '\u-2 '
+- replace: "\u21C5"
+  trigger: '\u-d- '
+- replace: "\u21A5"
+  trigger: '\u-| '
+- replace: "\u2191"
+  trigger: '\u- '
+- replace: "\u27F0"
+  trigger: '\u== '
+- replace: "\u21D1"
+  trigger: '\u= '
+- replace: "\u219F"
+  trigger: '\uu- '
+- replace: "\u03C5"
+  trigger: '\upsilon '
+- replace: "\u2191"
+  trigger: '\uparrow '
+- replace: "\u2195"
+  trigger: '\updownarrow '
+- replace: "\u21BF"
+  trigger: '\upleftharpoon '
+- replace: "\u228E"
+  trigger: '\uplus '
+- replace: "\u21BE"
+  trigger: '\uprightharpoon '
+- replace: "\u21C8"
+  trigger: '\upuparrows '
+- replace: "\u22C0"
+  trigger: '\And '
+- replace: "\xC5"
+  trigger: '\AA '
+- replace: "\xC6"
+  trigger: '\AE '
+- replace: "\u0391"
+  trigger: '\Alpha '
+- replace: "\u22C1"
+  trigger: '\Or '
+- replace: "\u2A01"
+  trigger: '\O+ '
+- replace: "\u2A02"
+  trigger: '\Ox '
+- replace: "\u2A00"
+  trigger: '\O. '
+- replace: "\u235F"
+  trigger: '\O* '
+- replace: "\u0152"
+  trigger: '\OE '
+- replace: "\u03A9"
+  trigger: '\Omega '
+- replace: "\u039F"
+  trigger: '\Omicron '
+- replace: "\u2124"
+  trigger: '\Int '
+- replace: "\u22C2"
+  trigger: '\Inter '
+- replace: "\u22C2"
+  trigger: '\bInter '
+- replace: "\u0399"
+  trigger: '\Iota '
+- replace: "\u2111"
+  trigger: '\Im '
+- replace: "\u22C3"
+  trigger: '\Un '
+- replace: "\u22C3"
+  trigger: '\Union '
+- replace: "\u22C3"
+  trigger: '\bUnion '
+- replace: "\u2A04"
+  trigger: '\U+ '
+- replace: "\u2A03"
+  trigger: '\U. '
+- replace: "\u03A5"
+  trigger: '\Upsilon '
+- replace: "\u21D1"
+  trigger: '\Uparrow '
+- replace: "\u21D5"
+  trigger: '\Updownarrow '
+- replace: "\u019B"
+  trigger: '\Gl- '
+- replace: "\u03BB"
+  trigger: '\Gl '
+- replace: "\u03EA"
+  trigger: '\Gangia '
+- replace: "\u0393"
+  trigger: '\Gamma '
+- replace: "\u2A05"
+  trigger: '\Glb '
+- replace: "\u03B1"
+  trigger: '\Ga '
+- replace: "\u0391"
+  trigger: '\GA '
+- replace: "\u03B2"
+  trigger: '\Gb '
+- replace: "\u0392"
+  trigger: '\GB '
+- replace: "\u03B3"
+  trigger: '\Gg '
+- replace: "\u0393"
+  trigger: '\GG '
+- replace: "\u03B4"
+  trigger: '\Gd '
+- replace: "\u0394"
+  trigger: '\GD '
+- replace: "\u03B5"
+  trigger: '\Ge '
+- replace: "\u0395"
+  trigger: '\GE '
+- replace: "\u03B6"
+  trigger: '\Gz '
+- replace: "\u0396"
+  trigger: '\GZ '
+- replace: "\u03B8"
+  trigger: '\Gth '
+- replace: "\u03C4"
+  trigger: '\Gt '
+- replace: "\u0398"
+  trigger: '\GTH '
+- replace: "\u03A4"
+  trigger: '\GT '
+- replace: "\u03B9"
+  trigger: '\Gi '
+- replace: "\u0399"
+  trigger: '\GI '
+- replace: "\u03BA"
+  trigger: '\Gk '
+- replace: "\u039A"
+  trigger: '\GK '
+- replace: "\u039B"
+  trigger: '\GL '
+- replace: "\u03BC"
+  trigger: '\Gm '
+- replace: "\u039C"
+  trigger: '\GM '
+- replace: "\u03BD"
+  trigger: '\Gn '
+- replace: "\u039D"
+  trigger: '\GN '
+- replace: "\u03BE"
+  trigger: '\Gx '
+- replace: "\u039E"
+  trigger: '\GX '
+- replace: "\u03C1"
+  trigger: '\Gr '
+- replace: "\u03A1"
+  trigger: '\GR '
+- replace: "\u03C3"
+  trigger: '\Gs '
+- replace: "\u03A3"
+  trigger: '\GS '
+- replace: "\u03C5"
+  trigger: '\Gu '
+- replace: "\u03A5"
+  trigger: '\GU '
+- replace: "\u03C6"
+  trigger: '\Gf '
+- replace: "\u03A6"
+  trigger: '\GF '
+- replace: "\u03C7"
+  trigger: '\Gc '
+- replace: "\u03A7"
+  trigger: '\GC '
+- replace: "\u03C8"
+  trigger: '\Gp '
+- replace: "\u03A8"
+  trigger: '\GP '
+- replace: "\u03C9"
+  trigger: '\Go '
+- replace: "\u03A9"
+  trigger: '\GO '
+- replace: "\u2A05"
+  trigger: '\Inf '
+- replace: "\u2A06"
+  trigger: '\Join '
+- replace: "\u2A06"
+  trigger: '\Lub '
+- replace: "\u039B"
+  trigger: '\Lambda '
+- replace: "\u039B"
+  trigger: '\Lamda '
+- replace: "\u21D0"
+  trigger: '\Leftarrow '
+- replace: "\u21D4"
+  trigger: '\Leftrightarrow '
+- replace: "\u2709"
+  trigger: '\Letter '
+- replace: "\u21DA"
+  trigger: '\Lleftarrow '
+- replace: "\u22D8"
+  trigger: '\Ll '
+- replace: "\u21D0"
+  trigger: '\Longleftarrow '
+- replace: "\u21D4"
+  trigger: '\Longleftrightarrow '
+- replace: "\u21D2"
+  trigger: '\Longrightarrow '
+- replace: "\u2A05"
+  trigger: '\Meet '
+- replace: "\u2A06"
+  trigger: '\Sup '
+- replace: "\u2A05"
+  trigger: '\Sqcap '
+- replace: "\u2A06"
+  trigger: '\Sqcup '
+- replace: "\u21B0"
+  trigger: '\Lsh '
+- replace: "\u22AC"
+  trigger: '\|-n '
+- replace: "\u22A2"
+  trigger: '\|- '
+- replace: "\u22AD"
+  trigger: '\|=n '
+- replace: "\u22A8"
+  trigger: '\|= '
+- replace: "\u22AE"
+  trigger: '\||-n '
+- replace: "\u22A9"
+  trigger: '\||- '
+- replace: "\u22AF"
+  trigger: '\||=n '
+- replace: "\u22AB"
+  trigger: '\||= '
+- replace: "\u22AA"
+  trigger: '\|||- '
+- replace: "\u2226"
+  trigger: '\||n '
+- replace: "\u2225"
+  trigger: '\|| '
+- replace: "\u2224"
+  trigger: '\|n '
+- replace: "\u2102"
+  trigger: '\Com '
+- replace: "\u03A7"
+  trigger: '\Chi '
+- replace: "\u22D2"
+  trigger: '\Cap '
+- replace: "\u22D3"
+  trigger: '\Cup '
+- replace: "\u231C"
+  trigger: '\cul '
+- replace: "\u2308"
+  trigger: '\cuL '
+- replace: "\xA4"
+  trigger: '\currency '
+- replace: "\u22DE"
+  trigger: '\curlyeqprec '
+- replace: "\u22DF"
+  trigger: '\curlyeqsucc '
+- replace: "\u227C"
+  trigger: '\curlypreceq '
+- replace: "\u22CE"
+  trigger: '\curlyvee '
+- replace: "\u22CF"
+  trigger: '\curlywedge '
+- replace: "\u21B6"
+  trigger: '\curvearrowleft '
+- replace: "\u21B7"
+  trigger: '\curvearrowright '
+- replace: "\u231D"
+  trigger: '\cur '
+- replace: "\u2309"
+  trigger: '\cuR '
+- replace: "\u222A"
+  trigger: '\cup '
+- replace: "\u231C"
+  trigger: '\cu '
+- replace: "\u231E"
+  trigger: '\cll '
+- replace: "\u230A"
+  trigger: '\clL '
+- replace: "\u231F"
+  trigger: '\clr '
+- replace: "\u230B"
+  trigger: '\clR '
+- replace: "\u2663"
+  trigger: '\clubsuit '
+- replace: "\u231E"
+  trigger: '\cl '
+- replace: "\U0001F6A7"
+  trigger: '\construction '
+- replace: "\u2245"
+  trigger: '\cong '
+- replace: "\u2B1D"
+  trigger: '\con '
+- replace: "\u1D9C"
+  trigger: '\compl '
+- replace: "\u1D9C"
+  trigger: '\complement '
+- replace: "\u2201"
+  trigger: '\complementprefix '
+- replace: "\u2201"
+  trigger: '\Complement '
+- replace: "\u2218"
+  trigger: '\comp '
+- replace: "\u2102"
+  trigger: '\com '
+- replace: "\u2254"
+  trigger: '\coloneq '
+- replace: "\u20A1"
+  trigger: '\colon '
+- replace: "\xA9"
+  trigger: '\copyright '
+- replace: "\u22EF"
+  trigger: '\cdots '
+- replace: "\u2B1D"
+  trigger: '\cdot '
+- replace: "\u25CF"
+  trigger: '\cib '
+- replace: "\u25CB"
+  trigger: '\ciw '
+- replace: "\u25CC"
+  trigger: '\ci.. '
+- replace: "\u25CE"
+  trigger: '\ci. '
+- replace: "\u25EF"
+  trigger: '\ciO '
+- replace: "\u2257"
+  trigger: '\circeq '
+- replace: "\u21BA"
+  trigger: '\circlearrowleft '
+- replace: "\u21BB"
+  trigger: '\circlearrowright '
+- replace: "\xAE"
+  trigger: '\circledR '
+- replace: "\u24C8"
+  trigger: '\circledS '
+- replace: "\u229B"
+  trigger: '\circledast '
+- replace: "\u229A"
+  trigger: '\circledcirc '
+- replace: "\u229D"
+  trigger: '\circleddash '
+- replace: "\u2218"
+  trigger: '\circ '
+- replace: "\u25CF"
+  trigger: '\ci '
+- replace: "\xB7"
+  trigger: '\centerdot '
+- replace: "\xA2"
+  trigger: '\cent '
+- replace: "\u20B5"
+  trigger: '\cedi '
+- replace: "\u2103"
+  trigger: '\celsius '
+- replace: "\u0229"
+  trigger: '\ce '
+- replace: "\u2713"
+  trigger: '\checkmark '
+- replace: "\u03C7"
+  trigger: '\chi '
+- replace: "\u20A2"
+  trigger: '\cruzeiro '
+- replace: "\u2621"
+  trigger: '\caution '
+- replace: "\u2229"
+  trigger: '\cap '
+- replace: "\u220E"
+  trigger: '\qed '
+- replace: "\u2001"
+  trigger: '\quad '
+- replace: "\u29F8"
+  trigger: '\quot '
+- replace: "\u29F8"
+  trigger: '\bigsolidus '
+- replace: "\u29F8"
+  trigger: '\/ '
+- replace: "\u22B9"
+  trigger: '\+  '
+- replace: "\u229E"
+  trigger: '\b+ '
+- replace: "\u229F"
+  trigger: '\b- '
+- replace: "\u22A0"
+  trigger: '\bx '
+- replace: "\u22A1"
+  trigger: '\b. '
+- replace: "\u2115"
+  trigger: '\bn '
+- replace: "\u2124"
+  trigger: '\bz '
+- replace: "\u211A"
+  trigger: '\bq '
+- replace: "\xA6"
+  trigger: '\brokenbar '
+- replace: "\u211D"
+  trigger: '\br '
+- replace: "\u2102"
+  trigger: '\bc '
+- replace: "\u2119"
+  trigger: '\bp '
+- replace: "\U0001D539"
+  trigger: '\bb '
+- replace: "\u2140"
+  trigger: '\bsum '
+- replace: "\U0001D7D8"
+  trigger: '\b0 '
+- replace: "\U0001D7D9"
+  trigger: '\b1 '
+- replace: "\U0001D7DA"
+  trigger: '\b2 '
+- replace: "\U0001D7DB"
+  trigger: '\b3 '
+- replace: "\U0001D7DC"
+  trigger: '\b4 '
+- replace: "\U0001D7DD"
+  trigger: '\b5 '
+- replace: "\U0001D7DE"
+  trigger: '\b6 '
+- replace: "\U0001D7DF"
+  trigger: '\b7 '
+- replace: "\U0001D7E0"
+  trigger: '\b8 '
+- replace: "\U0001D7E1"
+  trigger: '\b9 '
+- replace: "\U0001D7EC"
+  trigger: '\sb0 '
+- replace: "\U0001D7ED"
+  trigger: '\sb1 '
+- replace: "\U0001D7EE"
+  trigger: '\sb2 '
+- replace: "\U0001D7EF"
+  trigger: '\sb3 '
+- replace: "\U0001D7F0"
+  trigger: '\sb4 '
+- replace: "\U0001D7F1"
+  trigger: '\sb5 '
+- replace: "\U0001D7F2"
+  trigger: '\sb6 '
+- replace: "\U0001D7F3"
+  trigger: '\sb7 '
+- replace: "\U0001D7F4"
+  trigger: '\sb8 '
+- replace: "\U0001D7F5"
+  trigger: '\sb9 '
+- replace: "\u2022"
+  trigger: '\bub '
+- replace: "\u25E6"
+  trigger: '\buw '
+- replace: "\u2023"
+  trigger: '\but '
+- replace: "\u224F"
+  trigger: '\bumpeq '
+- replace: "\u2022"
+  trigger: '\bu '
+- replace: "\u2623"
+  trigger: '\biohazard '
+- replace: "\u22C2"
+  trigger: '\bigcap '
+- replace: "\u25EF"
+  trigger: '\bigcirc '
+- replace: "\u2210"
+  trigger: '\bigcoprod '
+- replace: "\u22C3"
+  trigger: '\bigcup '
+- replace: "\u2A05"
+  trigger: '\bigglb '
+- replace: "\u2A05"
+  trigger: '\biginf '
+- replace: "\u2A06"
+  trigger: '\bigjoin '
+- replace: "\u2A06"
+  trigger: '\biglub '
+- replace: "\u2A05"
+  trigger: '\bigmeet '
+- replace: "\u2A05"
+  trigger: '\bigsqcap '
+- replace: "\u2A06"
+  trigger: '\bigsqcup '
+- replace: "\u2605"
+  trigger: '\bigstar '
+- replace: "\u2A06"
+  trigger: '\bigsup '
+- replace: "\u25BD"
+  trigger: '\bigtriangledown '
+- replace: "\u25B3"
+  trigger: '\bigtriangleup '
+- replace: "\u22C1"
+  trigger: '\bigvee '
+- replace: "\u22C0"
+  trigger: '\bigwedge '
+- replace: "\u03B2"
+  trigger: '\beta '
+- replace: "\u2136"
+  trigger: '\beth '
+- replace: "\u226C"
+  trigger: '\between '
+- replace: "\u2235"
+  trigger: '\because '
+- replace: "\u224C"
+  trigger: '\backcong '
+- replace: "\u220D"
+  trigger: '\backepsilon '
+- replace: "\u2035"
+  trigger: '\backprime '
+- replace: "\u22CD"
+  trigger: '\backsimeq '
+- replace: "\u223D"
+  trigger: '\backsim '
+- replace: "\u22BC"
+  trigger: '\barwedge '
+- replace: "\u2726"
+  trigger: '\blacklozenge '
+- replace: "\u25AA"
+  trigger: '\blacksquare '
+- replace: "\u263B"
+  trigger: '\blacksmiley '
+- replace: "\u25BE"
+  trigger: '\blacktriangledown '
+- replace: "\u25C2"
+  trigger: '\blacktriangleleft '
+- replace: "\u25B8"
+  trigger: '\blacktriangleright '
+- replace: "\u25B4"
+  trigger: '\blacktriangle '
+- replace: "\u22A5"
+  trigger: '\bot '
+- replace: "\u15EE"
+  trigger: '\^bot '
+- replace: "\u22C8"
+  trigger: '\bowtie '
+- replace: "\u229F"
+  trigger: '\boxminus '
+- replace: "\u25EB"
+  trigger: '\boxmid '
+- replace: "\u25EB"
+  trigger: '\hcomp '
+- replace: "\u229E"
+  trigger: '\boxplus '
+- replace: "\u22A0"
+  trigger: '\boxtimes '
+- replace: "\u2294"
+  trigger: '\join '
+- replace: "\u21C9"
+  trigger: '\r-2 '
+- replace: "\u21F6"
+  trigger: '\r-3 '
+- replace: "\u21C4"
+  trigger: '\r-l- '
+- replace: "\u27F6"
+  trigger: '\r-- '
+- replace: "\u219B"
+  trigger: '\r-n '
+- replace: "\u21A6"
+  trigger: '\r-| '
+- replace: "\u21A3"
+  trigger: '\r-> '
+- replace: "\u22B8"
+  trigger: '\r-o '
+- replace: "\u2192"
+  trigger: '\r- '
+- replace: "\u21DB"
+  trigger: '\r== '
+- replace: "\u21CF"
+  trigger: '\r=n '
+- replace: "\u21D2"
+  trigger: '\r= '
+- replace: "\u219D"
+  trigger: '\r~ '
+- replace: "\u21A0"
+  trigger: '\rr- '
+- replace: "\u25AC"
+  trigger: '\reb '
+- replace: "\u25AD"
+  trigger: '\rew '
+- replace: "\u211D"
+  trigger: '\real '
+- replace: "\xAE"
+  trigger: '\registered '
+- replace: "\u25AC"
+  trigger: '\re '
+- replace: "\u27C6"
+  trigger: '\rbag '
+- replace: "\u211A"
+  trigger: '\rat '
+- replace: "\u2622"
+  trigger: '\radioactive '
+- replace: "\u27E9"
+  trigger: '\rangle '
+- replace: "\u2019"
+  trigger: '\rq '
+- replace: "\uFDFC"
+  trigger: '\rial '
+- replace: "\u21A3"
+  trigger: '\rightarrowtail '
+- replace: "\u2192"
+  trigger: '\rightarrow '
+- replace: "\u21C1"
+  trigger: '\rightharpoondown '
+- replace: "\u21C0"
+  trigger: '\rightharpoonup '
+- replace: "\u21C4"
+  trigger: '\rightleftarrows '
+- replace: "\u21CC"
+  trigger: '\rightleftharpoons '
+- replace: "\u21C9"
+  trigger: '\rightrightarrows '
+- replace: "\u22CC"
+  trigger: '\rightthreetimes '
+- replace: "\u2253"
+  trigger: '\risingdotseq '
+- replace: "\u20BD"
+  trigger: '\ruble '
+- replace: "\u20A8"
+  trigger: '\rupee '
+- replace: "\u03C1"
+  trigger: '\rho '
+- replace: "\u25B7"
+  trigger: '\rhd '
+- replace: "\u2309"
+  trigger: '\rceil '
+- replace: "\u230B"
+  trigger: '\rfloor '
+- replace: "\u22CA"
+  trigger: '\rtimes '
+- replace: "\u201D"
+  trigger: '\rdq '
+- replace: "\u300B"
+  trigger: '\rdata '
+- replace: "\u2964"
+  trigger: '\functor '
+- replace: "\u03BB"
+  trigger: '\fun '
+- replace: "\xAB"
+  trigger: '\f<< '
+- replace: "\u2039"
+  trigger: '\f< '
+- replace: "\xBB"
+  trigger: '\f>> '
+- replace: "\u203A"
+  trigger: '\f> '
+- replace: "\xBD"
+  trigger: '\frac12 '
+- replace: "\u2153"
+  trigger: '\frac13 '
+- replace: "\xBC"
+  trigger: '\frac14 '
+- replace: "\u2155"
+  trigger: '\frac15 '
+- replace: "\u2159"
+  trigger: '\frac16 '
+- replace: "\u215B"
+  trigger: '\frac18 '
+- replace: "\u215F"
+  trigger: '\frac1 '
+- replace: "\u2154"
+  trigger: '\frac23 '
+- replace: "\u2156"
+  trigger: '\frac25 '
+- replace: "\xBE"
+  trigger: '\frac34 '
+- replace: "\u2157"
+  trigger: '\frac35 '
+- replace: "\u215C"
+  trigger: '\frac38 '
+- replace: "\u2158"
+  trigger: '\frac45 '
+- replace: "\u215A"
+  trigger: '\frac56 '
+- replace: "\u215D"
+  trigger: '\frac58 '
+- replace: "\u215E"
+  trigger: '\frac78 '
+- replace: "\xBC"
+  trigger: '\frac '
+- replace: "\u2322"
+  trigger: '\frown '
+- replace: "\xBB"
+  trigger: '\frqq '
+- replace: "\u203A"
+  trigger: '\frq '
+- replace: "\u2640"
+  trigger: '\female '
+- replace: "\u03E5"
+  trigger: '\fei '
+- replace: "\u213B"
+  trigger: '\facsimile '
+- replace: "\u2252"
+  trigger: '\fallingdotseq '
+- replace: "\u266D"
+  trigger: '\flat '
+- replace: "\xAB"
+  trigger: '\flqq '
+- replace: "\u2039"
+  trigger: '\flq '
+- replace: "\u2200"
+  trigger: '\forall '
+- replace: "\u27C6"
+  trigger: '\)b '
+- replace: "\u27E6"
+  trigger: '\[[ '
+- replace: "\u27E7"
+  trigger: '\]] '
+- replace: "\u2983"
+  trigger: '\{{ '
+- replace: "\u2984"
+  trigger: '\}} '
+- replace: "\u27EE"
+  trigger: '\([ '
+- replace: "\u27EF"
+  trigger: '\]) '
+- replace: "\u039E"
+  trigger: '\Xi '
+- replace: "\u2115"
+  trigger: '\Nat '
+- replace: "\u039D"
+  trigger: '\Nu '
+- replace: "\u0396"
+  trigger: '\Zeta '
+- replace: "\u211A"
+  trigger: '\Rat '
+- replace: "\u211D"
+  trigger: '\Real '
+- replace: "\u211C"
+  trigger: '\Re '
+- replace: "\u03A1"
+  trigger: '\Rho '
+- replace: "\u21D2"
+  trigger: '\Rightarrow '
+- replace: "\u21DB"
+  trigger: '\Rrightarrow '
+- replace: "\u21B1"
+  trigger: '\Rsh '
+- replace: "\u03E4"
+  trigger: '\Fei '
+- replace: "\u2639"
+  trigger: '\Frowny '
+- replace: "\u03E8"
+  trigger: '\Hori '
+- replace: "\u0370"
+  trigger: '\Heta '
+- replace: "\u03E6"
+  trigger: '\Khei '
+- replace: "\u03DE"
+  trigger: '\Koppa '
+- replace: "\u039A"
+  trigger: '\Kappa '
+- replace: "\u1D43"
+  trigger: '\^a '
+- replace: "\u1D47"
+  trigger: '\^b '
+- replace: "\u1D9C"
+  trigger: '\^c '
+- replace: "\u1D48"
+  trigger: '\^d '
+- replace: "\u1D49"
+  trigger: '\^e '
+- replace: "\u1DA0"
+  trigger: '\^f '
+- replace: "\u1D4D"
+  trigger: '\^g '
+- replace: "\u02B0"
+  trigger: '\^h '
+- replace: "\u2071"
+  trigger: '\^i '
+- replace: "\u02B2"
+  trigger: '\^j '
+- replace: "\u1D4F"
+  trigger: '\^k '
+- replace: "\u02E1"
+  trigger: '\^l '
+- replace: "\u1D50"
+  trigger: '\^m '
+- replace: "\u207F"
+  trigger: '\^n '
+- replace: "\u1D52"
+  trigger: '\^o '
+- replace: "\u1D56"
+  trigger: '\^p '
+- replace: "\u02B3"
+  trigger: '\^r '
+- replace: "\u02E2"
+  trigger: '\^s '
+- replace: "\u1D57"
+  trigger: '\^t '
+- replace: "\u1D58"
+  trigger: '\^u '
+- replace: "\u1D5B"
+  trigger: '\^v '
+- replace: "\u02B7"
+  trigger: '\^w '
+- replace: "\u02E3"
+  trigger: '\^x '
+- replace: "\u02B8"
+  trigger: '\^y '
+- replace: "\u1DBB"
+  trigger: '\^z '
+- replace: "\u1D2C"
+  trigger: '\^A '
+- replace: "\u1D2E"
+  trigger: '\^B '
+- replace: "\u1D30"
+  trigger: '\^D '
+- replace: "\u1D31"
+  trigger: '\^E '
+- replace: "\u1D33"
+  trigger: '\^G '
+- replace: "\u1D34"
+  trigger: '\^H '
+- replace: "\u1D35"
+  trigger: '\^I '
+- replace: "\u1D36"
+  trigger: '\^J '
+- replace: "\u1D37"
+  trigger: '\^K '
+- replace: "\u1D38"
+  trigger: '\^L '
+- replace: "\u1D39"
+  trigger: '\^M '
+- replace: "\u1D3A"
+  trigger: '\^N '
+- replace: "\u1D3C"
+  trigger: '\^O '
+- replace: "\u1D3E"
+  trigger: '\^P '
+- replace: "\u1D3F"
+  trigger: '\^R '
+- replace: "\u1D40"
+  trigger: '\^T '
+- replace: "\u1D41"
+  trigger: '\^U '
+- replace: "\u2C7D"
+  trigger: '\^V '
+- replace: "\u1D42"
+  trigger: '\^W '
+- replace: "\u2070"
+  trigger: '\^0 '
+- replace: "\xB9"
+  trigger: '\^1 '
+- replace: "\xB2"
+  trigger: '\^2 '
+- replace: "\xB3"
+  trigger: '\^3 '
+- replace: "\u2074"
+  trigger: '\^4 '
+- replace: "\u2075"
+  trigger: '\^5 '
+- replace: "\u2076"
+  trigger: '\^6 '
+- replace: "\u2077"
+  trigger: '\^7 '
+- replace: "\u2078"
+  trigger: '\^8 '
+- replace: "\u2079"
+  trigger: '\^9 '
+- replace: "\u207E"
+  trigger: '\^) '
+- replace: "\u207D"
+  trigger: '\^( '
+- replace: "\u207C"
+  trigger: '\^= '
+- replace: "\u207A"
+  trigger: '\^+ '
+- replace: "\xBA"
+  trigger: '\^o_ '
+- replace: "\u207B"
+  trigger: '\^- '
+- replace: "\xAA"
+  trigger: '\^a_ '
+- replace: "\uAB5F"
+  trigger: '\^uhook '
+- replace: "\u1DB6"
+  trigger: '\^ubar '
+- replace: "\u1DB7"
+  trigger: '\^upsilon '
+- replace: "\uAB5E"
+  trigger: '\^ltilde '
+- replace: "\uAB5D"
+  trigger: '\^ls '
+- replace: "\u1DAA"
+  trigger: '\^lhook '
+- replace: "\u1DA9"
+  trigger: '\^lretroflexhook '
+- replace: "\uA7F9"
+  trigger: '\^oe '
+- replace: "\uAB5C"
+  trigger: '\^heng '
+- replace: "\u02B1"
+  trigger: '\^hhook '
+- replace: "\u02B1"
+  trigger: '\^hwithhook '
+- replace: "\uA7F8"
+  trigger: '\^Hstroke '
+- replace: "\u1DBF"
+  trigger: '\^theta '
+- replace: "\u1DBA"
+  trigger: '\^turnedv '
+- replace: "\u1DAD"
+  trigger: '\^turnedmleg '
+- replace: "\u1D5A"
+  trigger: '\^turnedm '
+- replace: "\u1DA3"
+  trigger: '\^turnedh '
+- replace: "\u1D9B"
+  trigger: '\^turnedalpha '
+- replace: "\u1D46"
+  trigger: '\^turnedae '
+- replace: "\u1D44"
+  trigger: '\^turneda '
+- replace: "\u1D4E"
+  trigger: '\^turnedi '
+- replace: "\u1D4C"
+  trigger: '\^turnede '
+- replace: "\u02B5"
+  trigger: '\^turnedrhook '
+- replace: "\u02B5"
+  trigger: '\^turnedrwithhook '
+- replace: "\u02B4"
+  trigger: '\^turnedr '
+- replace: "\u1DB5"
+  trigger: '\^twithpalatalhook '
+- replace: "\u1D54"
+  trigger: '\^otop '
+- replace: "\u1DBE"
+  trigger: '\^ezh '
+- replace: "\u1DB4"
+  trigger: '\^esh '
+- replace: "\u1D9E"
+  trigger: '\^eth '
+- replace: "\u1D51"
+  trigger: '\^eng '
+- replace: "\u1DBD"
+  trigger: '\^zcurl '
+- replace: "\u1DBC"
+  trigger: '\^zretroflexhook '
+- replace: "\u1DB9"
+  trigger: '\^vhook '
+- replace: "\u1DA6"
+  trigger: '\^Ismall '
+- replace: "\u1DAB"
+  trigger: '\^Lsmall '
+- replace: "\u1DB0"
+  trigger: '\^Nsmall '
+- replace: "\u1DB8"
+  trigger: '\^Usmall '
+- replace: "\u1DA7"
+  trigger: '\^Istroke '
+- replace: "\u02B6"
+  trigger: '\^Rinverted '
+- replace: "\u1D9D"
+  trigger: '\^ccurl '
+- replace: "\u1D61"
+  trigger: '\^chi '
+- replace: "\u1DB3"
+  trigger: '\^shook '
+- replace: "\u1DA2"
+  trigger: '\^gscript '
+- replace: "\u1D4A"
+  trigger: '\^schwa '
+- replace: "\u1D59"
+  trigger: '\^usideways '
+- replace: "\u1DB2"
+  trigger: '\^phi '
+- replace: "\u1DB1"
+  trigger: '\^obarred '
+- replace: "\u1D5D"
+  trigger: '\^beta '
+- replace: "\u1D55"
+  trigger: '\^obottom '
+- replace: "\u1DAF"
+  trigger: '\^nretroflexhook '
+- replace: "\u1DAE"
+  trigger: '\^nlefthook '
+- replace: "\u1DAC"
+  trigger: '\^mhook '
+- replace: "\u1DA8"
+  trigger: '\^jtail '
+- replace: "\u1DA5"
+  trigger: '\^iota '
+- replace: "\u1DA4"
+  trigger: '\^istroke '
+- replace: "\u1D9F"
+  trigger: '\^ereversedopen '
+- replace: "\u02E4"
+  trigger: '\^stop '
+- replace: "\u1D60"
+  trigger: '\^varphi '
+- replace: "\u1D5E"
+  trigger: '\^vargamma '
+- replace: "\u02E0"
+  trigger: '\^gamma '
+- replace: "\u1D5C"
+  trigger: '\^ain '
+- replace: "\u1D45"
+  trigger: '\^alpha '
+- replace: "\u1D53"
+  trigger: '\^oopen '
+- replace: "\u1D4B"
+  trigger: '\^eopen '
+- replace: "\u1D3D"
+  trigger: '\^Ou '
+- replace: "\u1D3B"
+  trigger: '\^Nreversed '
+- replace: "\u1D32"
+  trigger: '\^Ereversed '
+- replace: "\u1D2F"
+  trigger: '\^Bbarred '
+- replace: "\u1D2D"
+  trigger: '\^Ae '
+- replace: "\u2120"
+  trigger: '\^SM '
+- replace: "\u2121"
+  trigger: '\^TEL '
+- replace: "\u2122"
+  trigger: '\^TM '
+- replace: "\u2090"
+  trigger: '\_a '
+- replace: "\u2091"
+  trigger: '\_e '
+- replace: "\u2095"
+  trigger: '\_h '
+- replace: "\u1D62"
+  trigger: '\_i '
+- replace: "\u2C7C"
+  trigger: '\_j '
+- replace: "\u2096"
+  trigger: '\_k '
+- replace: "\u2097"
+  trigger: '\_l '
+- replace: "\u2098"
+  trigger: '\_m '
+- replace: "\u2099"
+  trigger: '\_n '
+- replace: "\u2092"
+  trigger: '\_o '
+- replace: "\u209A"
+  trigger: '\_p '
+- replace: "\u1D63"
+  trigger: '\_r '
+- replace: "\u209B"
+  trigger: '\_s '
+- replace: "\u209C"
+  trigger: '\_t '
+- replace: "\u1D64"
+  trigger: '\_u '
+- replace: "\u1D65"
+  trigger: '\_v '
+- replace: "\u2093"
+  trigger: '\_x '
+- replace: "\u2080"
+  trigger: '\_0 '
+- replace: "\u2081"
+  trigger: '\_1 '
+- replace: "\u2082"
+  trigger: '\_2 '
+- replace: "\u2083"
+  trigger: '\_3 '
+- replace: "\u2084"
+  trigger: '\_4 '
+- replace: "\u2085"
+  trigger: '\_5 '
+- replace: "\u2086"
+  trigger: '\_6 '
+- replace: "\u2087"
+  trigger: '\_7 '
+- replace: "\u2088"
+  trigger: '\_8 '
+- replace: "\u2089"
+  trigger: '\_9 '
+- replace: "\u208E"
+  trigger: '\_) '
+- replace: "\u208D"
+  trigger: '\_( '
+- replace: "\u208C"
+  trigger: '\_= '
+- replace: "\u208A"
+  trigger: '\_+ '
+- replace: "\u0332"
+  trigger: '\_-- '
+- replace: "\u208B"
+  trigger: '\_- '
+- replace: "\u203C"
+  trigger: '\!! '
+- replace: "\u2049"
+  trigger: '\!? '
+- replace: "\u03FA"
+  trigger: '\San '
+- replace: "\u03E0"
+  trigger: '\Sampi '
+- replace: "\u03F7"
+  trigger: '\Sho '
+- replace: "\u03EC"
+  trigger: '\Shima '
+- replace: "\u03E2"
+  trigger: '\Shei '
+- replace: "\u03DA"
+  trigger: '\Stigma '
+- replace: "\u03A3"
+  trigger: '\Sigma '
+- replace: "\u22D0"
+  trigger: '\Subset '
+- replace: "\u22D1"
+  trigger: '\Supset '
+- replace: "\u263A"
+  trigger: '\Smiley '
+- replace: "\u03A8"
+  trigger: '\Psi '
+- replace: "\u03A6"
+  trigger: '\Phi '
+- replace: "\u03A0"
+  trigger: '\Pi '
+- replace: "\u03A0\u2080"
+  trigger: '\Pi0 '
+- replace: "\u03A0\u2080"
+  trigger: '\P0 '
+- replace: "\u03A0\u2080"
+  trigger: '\Pi_0 '
+- replace: "\u03A0\u2080"
+  trigger: '\P_0 '
+- replace: "\U0001D400"
+  trigger: '\bfA '
+- replace: "\U0001D401"
+  trigger: '\bfB '
+- replace: "\U0001D402"
+  trigger: '\bfC '
+- replace: "\U0001D403"
+  trigger: '\bfD '
+- replace: "\U0001D404"
+  trigger: '\bfE '
+- replace: "\U0001D405"
+  trigger: '\bfF '
+- replace: "\U0001D406"
+  trigger: '\bfG '
+- replace: "\U0001D407"
+  trigger: '\bfH '
+- replace: "\U0001D408"
+  trigger: '\bfI '
+- replace: "\U0001D409"
+  trigger: '\bfJ '
+- replace: "\U0001D40A"
+  trigger: '\bfK '
+- replace: "\U0001D40B"
+  trigger: '\bfL '
+- replace: "\U0001D40C"
+  trigger: '\bfM '
+- replace: "\U0001D40D"
+  trigger: '\bfN '
+- replace: "\U0001D40E"
+  trigger: '\bfO '
+- replace: "\U0001D40F"
+  trigger: '\bfP '
+- replace: "\U0001D410"
+  trigger: '\bfQ '
+- replace: "\U0001D411"
+  trigger: '\bfR '
+- replace: "\U0001D412"
+  trigger: '\bfS '
+- replace: "\U0001D413"
+  trigger: '\bfT '
+- replace: "\U0001D414"
+  trigger: '\bfU '
+- replace: "\U0001D415"
+  trigger: '\bfV '
+- replace: "\U0001D416"
+  trigger: '\bfW '
+- replace: "\U0001D417"
+  trigger: '\bfX '
+- replace: "\U0001D418"
+  trigger: '\bfY '
+- replace: "\U0001D419"
+  trigger: '\bfZ '
+- replace: "\U0001D41A"
+  trigger: '\bfa '
+- replace: "\U0001D41B"
+  trigger: '\bfb '
+- replace: "\U0001D41C"
+  trigger: '\bfc '
+- replace: "\U0001D41D"
+  trigger: '\bfd '
+- replace: "\U0001D41E"
+  trigger: '\bfe '
+- replace: "\U0001D41F"
+  trigger: '\bff '
+- replace: "\U0001D420"
+  trigger: '\bfg '
+- replace: "\U0001D421"
+  trigger: '\bfh '
+- replace: "\U0001D422"
+  trigger: '\bfi '
+- replace: "\U0001D423"
+  trigger: '\bfj '
+- replace: "\U0001D424"
+  trigger: '\bfk '
+- replace: "\U0001D425"
+  trigger: '\bfl '
+- replace: "\U0001D426"
+  trigger: '\bfm '
+- replace: "\U0001D427"
+  trigger: '\bfn '
+- replace: "\U0001D428"
+  trigger: '\bfo '
+- replace: "\U0001D429"
+  trigger: '\bfp '
+- replace: "\U0001D42A"
+  trigger: '\bfq '
+- replace: "\U0001D42B"
+  trigger: '\bfr '
+- replace: "\U0001D42C"
+  trigger: '\bfs '
+- replace: "\U0001D42D"
+  trigger: '\bft '
+- replace: "\U0001D42E"
+  trigger: '\bfu '
+- replace: "\U0001D42F"
+  trigger: '\bfv '
+- replace: "\U0001D430"
+  trigger: '\bfw '
+- replace: "\U0001D431"
+  trigger: '\bfx '
+- replace: "\U0001D432"
+  trigger: '\bfy '
+- replace: "\U0001D433"
+  trigger: '\bfz '
+- replace: "\U0001D434"
+  trigger: '\MiA '
+- replace: "\U0001D435"
+  trigger: '\MiB '
+- replace: "\U0001D436"
+  trigger: '\MiC '
+- replace: "\U0001D437"
+  trigger: '\MiD '
+- replace: "\U0001D438"
+  trigger: '\MiE '
+- replace: "\U0001D439"
+  trigger: '\MiF '
+- replace: "\U0001D43A"
+  trigger: '\MiG '
+- replace: "\U0001D43B"
+  trigger: '\MiH '
+- replace: "\U0001D43C"
+  trigger: '\MiI '
+- replace: "\U0001D43D"
+  trigger: '\MiJ '
+- replace: "\U0001D43E"
+  trigger: '\MiK '
+- replace: "\U0001D43F"
+  trigger: '\MiL '
+- replace: "\U0001D440"
+  trigger: '\MiM '
+- replace: "\U0001D441"
+  trigger: '\MiN '
+- replace: "\U0001D442"
+  trigger: '\MiO '
+- replace: "\U0001D443"
+  trigger: '\MiP '
+- replace: "\U0001D444"
+  trigger: '\MiQ '
+- replace: "\U0001D445"
+  trigger: '\MiR '
+- replace: "\U0001D446"
+  trigger: '\MiS '
+- replace: "\U0001D447"
+  trigger: '\MiT '
+- replace: "\U0001D448"
+  trigger: '\MiU '
+- replace: "\U0001D449"
+  trigger: '\MiV '
+- replace: "\U0001D44A"
+  trigger: '\MiW '
+- replace: "\U0001D44B"
+  trigger: '\MiX '
+- replace: "\U0001D44C"
+  trigger: '\MiY '
+- replace: "\U0001D44D"
+  trigger: '\MiZ '
+- replace: "\U0001D44E"
+  trigger: '\Mia '
+- replace: "\U0001D44F"
+  trigger: '\Mib '
+- replace: "\U0001D450"
+  trigger: '\Mic '
+- replace: "\U0001D451"
+  trigger: '\Mid '
+- replace: "\U0001D452"
+  trigger: '\Mie '
+- replace: "\U0001D453"
+  trigger: '\Mif '
+- replace: "\U0001D454"
+  trigger: '\Mig '
+- replace: "\U0001D456"
+  trigger: '\Mii '
+- replace: "\U0001D457"
+  trigger: '\Mij '
+- replace: "\U0001D458"
+  trigger: '\Mik '
+- replace: "\U0001D459"
+  trigger: '\Mil '
+- replace: "\U0001D45A"
+  trigger: '\Mim '
+- replace: "\U0001D45B"
+  trigger: '\Min '
+- replace: "\U0001D45C"
+  trigger: '\Mio '
+- replace: "\U0001D45D"
+  trigger: '\Mip '
+- replace: "\U0001D45E"
+  trigger: '\Miq '
+- replace: "\U0001D45F"
+  trigger: '\Mir '
+- replace: "\U0001D460"
+  trigger: '\Mis '
+- replace: "\U0001D461"
+  trigger: '\Mit '
+- replace: "\U0001D462"
+  trigger: '\Miu '
+- replace: "\U0001D463"
+  trigger: '\Miv '
+- replace: "\U0001D464"
+  trigger: '\Miw '
+- replace: "\U0001D465"
+  trigger: '\Mix '
+- replace: "\U0001D466"
+  trigger: '\Miy '
+- replace: "\U0001D467"
+  trigger: '\Miz '
+- replace: "\U0001D468"
+  trigger: '\MIA '
+- replace: "\U0001D469"
+  trigger: '\MIB '
+- replace: "\U0001D46A"
+  trigger: '\MIC '
+- replace: "\U0001D46B"
+  trigger: '\MID '
+- replace: "\U0001D46C"
+  trigger: '\MIE '
+- replace: "\U0001D46D"
+  trigger: '\MIF '
+- replace: "\U0001D46E"
+  trigger: '\MIG '
+- replace: "\U0001D46F"
+  trigger: '\MIH '
+- replace: "\U0001D470"
+  trigger: '\MII '
+- replace: "\U0001D471"
+  trigger: '\MIJ '
+- replace: "\U0001D472"
+  trigger: '\MIK '
+- replace: "\U0001D473"
+  trigger: '\MIL '
+- replace: "\U0001D474"
+  trigger: '\MIM '
+- replace: "\U0001D475"
+  trigger: '\MIN '
+- replace: "\U0001D476"
+  trigger: '\MIO '
+- replace: "\U0001D477"
+  trigger: '\MIP '
+- replace: "\U0001D478"
+  trigger: '\MIQ '
+- replace: "\U0001D479"
+  trigger: '\MIR '
+- replace: "\U0001D47A"
+  trigger: '\MIS '
+- replace: "\U0001D47B"
+  trigger: '\MIT '
+- replace: "\U0001D47C"
+  trigger: '\MIU '
+- replace: "\U0001D47D"
+  trigger: '\MIV '
+- replace: "\U0001D47E"
+  trigger: '\MIW '
+- replace: "\U0001D47F"
+  trigger: '\MIX '
+- replace: "\U0001D480"
+  trigger: '\MIY '
+- replace: "\U0001D481"
+  trigger: '\MIZ '
+- replace: "\U0001D482"
+  trigger: '\MIa '
+- replace: "\U0001D483"
+  trigger: '\MIb '
+- replace: "\U0001D484"
+  trigger: '\MIc '
+- replace: "\U0001D485"
+  trigger: '\MId '
+- replace: "\U0001D486"
+  trigger: '\MIe '
+- replace: "\U0001D487"
+  trigger: '\MIf '
+- replace: "\U0001D488"
+  trigger: '\MIg '
+- replace: "\U0001D489"
+  trigger: '\MIh '
+- replace: "\U0001D48A"
+  trigger: '\MIi '
+- replace: "\U0001D48B"
+  trigger: '\MIj '
+- replace: "\U0001D48C"
+  trigger: '\MIk '
+- replace: "\U0001D48D"
+  trigger: '\MIl '
+- replace: "\U0001D48E"
+  trigger: '\MIm '
+- replace: "\U0001D48F"
+  trigger: '\MIn '
+- replace: "\U0001D490"
+  trigger: '\MIo '
+- replace: "\U0001D491"
+  trigger: '\MIp '
+- replace: "\U0001D492"
+  trigger: '\MIq '
+- replace: "\U0001D493"
+  trigger: '\MIr '
+- replace: "\U0001D494"
+  trigger: '\MIs '
+- replace: "\U0001D495"
+  trigger: '\MIt '
+- replace: "\U0001D496"
+  trigger: '\MIu '
+- replace: "\U0001D497"
+  trigger: '\MIv '
+- replace: "\U0001D498"
+  trigger: '\MIw '
+- replace: "\U0001D499"
+  trigger: '\MIx '
+- replace: "\U0001D49A"
+  trigger: '\MIy '
+- replace: "\U0001D49B"
+  trigger: '\MIz '
+- replace: "\U0001D49C"
+  trigger: '\McA '
+- replace: "\u212C"
+  trigger: '\McB '
+- replace: "\U0001D49E"
+  trigger: '\McC '
+- replace: "\U0001D49F"
+  trigger: '\McD '
+- replace: "\u2130"
+  trigger: '\McE '
+- replace: "\u2131"
+  trigger: '\McF '
+- replace: "\U0001D4A2"
+  trigger: '\McG '
+- replace: "\u210B"
+  trigger: '\McH '
+- replace: "\u2110"
+  trigger: '\McI '
+- replace: "\U0001D4A5"
+  trigger: '\McJ '
+- replace: "\U0001D4A6"
+  trigger: '\McK '
+- replace: "\u2112"
+  trigger: '\McL '
+- replace: "\u2133"
+  trigger: '\McM '
+- replace: "\U0001D4A9"
+  trigger: '\McN '
+- replace: "\U0001D4AA"
+  trigger: '\McO '
+- replace: "\U0001D4AB"
+  trigger: '\McP '
+- replace: "\U0001D4AC"
+  trigger: '\McQ '
+- replace: "\u211B"
+  trigger: '\McR '
+- replace: "\U0001D4AE"
+  trigger: '\McS '
+- replace: "\U0001D4AF"
+  trigger: '\McT '
+- replace: "\U0001D4B0"
+  trigger: '\McU '
+- replace: "\U0001D4B1"
+  trigger: '\McV '
+- replace: "\U0001D4B2"
+  trigger: '\McW '
+- replace: "\U0001D4B3"
+  trigger: '\McX '
+- replace: "\U0001D4B4"
+  trigger: '\McY '
+- replace: "\U0001D4B5"
+  trigger: '\McZ '
+- replace: "\U0001D4B6"
+  trigger: '\Mca '
+- replace: "\U0001D4B7"
+  trigger: '\Mcb '
+- replace: "\U0001D4B8"
+  trigger: '\Mcc '
+- replace: "\U0001D4B9"
+  trigger: '\Mcd '
+- replace: "\u212F"
+  trigger: '\Mce '
+- replace: "\U0001D4BB"
+  trigger: '\Mcf '
+- replace: "\u210A"
+  trigger: '\Mcg '
+- replace: "\U0001D4BD"
+  trigger: '\Mch '
+- replace: "\U0001D4BE"
+  trigger: '\Mci '
+- replace: "\U0001D4BF"
+  trigger: '\Mcj '
+- replace: "\U0001D4C0"
+  trigger: '\Mck '
+- replace: "\U0001D4C1"
+  trigger: '\Mcl '
+- replace: "\U0001D4C2"
+  trigger: '\Mcm '
+- replace: "\U0001D4C3"
+  trigger: '\Mcn '
+- replace: "\u2134"
+  trigger: '\Mco '
+- replace: "\U0001D4C5"
+  trigger: '\Mcp '
+- replace: "\U0001D4C6"
+  trigger: '\Mcq '
+- replace: "\U0001D4C7"
+  trigger: '\Mcr '
+- replace: "\U0001D4C8"
+  trigger: '\Mcs '
+- replace: "\U0001D4C9"
+  trigger: '\Mct '
+- replace: "\U0001D4CA"
+  trigger: '\Mcu '
+- replace: "\U0001D4CB"
+  trigger: '\Mcv '
+- replace: "\U0001D4CC"
+  trigger: '\Mcw '
+- replace: "\U0001D4CD"
+  trigger: '\Mcx '
+- replace: "\U0001D4CE"
+  trigger: '\Mcy '
+- replace: "\U0001D4CF"
+  trigger: '\Mcz '
+- replace: "\U0001D4D0"
+  trigger: '\MCA '
+- replace: "\U0001D4D1"
+  trigger: '\MCB '
+- replace: "\U0001D4D2"
+  trigger: '\MCC '
+- replace: "\U0001D4D3"
+  trigger: '\MCD '
+- replace: "\U0001D4D4"
+  trigger: '\MCE '
+- replace: "\U0001D4D5"
+  trigger: '\MCF '
+- replace: "\U0001D4D6"
+  trigger: '\MCG '
+- replace: "\U0001D4D7"
+  trigger: '\MCH '
+- replace: "\U0001D4D8"
+  trigger: '\MCI '
+- replace: "\U0001D4D9"
+  trigger: '\MCJ '
+- replace: "\U0001D4DA"
+  trigger: '\MCK '
+- replace: "\U0001D4DB"
+  trigger: '\MCL '
+- replace: "\U0001D4DC"
+  trigger: '\MCM '
+- replace: "\U0001D4DD"
+  trigger: '\MCN '
+- replace: "\U0001D4DE"
+  trigger: '\MCO '
+- replace: "\U0001D4DF"
+  trigger: '\MCP '
+- replace: "\U0001D4E0"
+  trigger: '\MCQ '
+- replace: "\U0001D4E1"
+  trigger: '\MCR '
+- replace: "\U0001D4E2"
+  trigger: '\MCS '
+- replace: "\U0001D4E3"
+  trigger: '\MCT '
+- replace: "\U0001D4E4"
+  trigger: '\MCU '
+- replace: "\U0001D4E5"
+  trigger: '\MCV '
+- replace: "\U0001D4E6"
+  trigger: '\MCW '
+- replace: "\U0001D4E7"
+  trigger: '\MCX '
+- replace: "\U0001D4E8"
+  trigger: '\MCY '
+- replace: "\U0001D4E9"
+  trigger: '\MCZ '
+- replace: "\U0001D4EA"
+  trigger: '\MCa '
+- replace: "\U0001D4EB"
+  trigger: '\MCb '
+- replace: "\U0001D4EC"
+  trigger: '\MCc '
+- replace: "\U0001D4ED"
+  trigger: '\MCd '
+- replace: "\U0001D4EE"
+  trigger: '\MCe '
+- replace: "\U0001D4EF"
+  trigger: '\MCf '
+- replace: "\U0001D4F0"
+  trigger: '\MCg '
+- replace: "\U0001D4F1"
+  trigger: '\MCh '
+- replace: "\U0001D4F2"
+  trigger: '\MCi '
+- replace: "\U0001D4F3"
+  trigger: '\MCj '
+- replace: "\U0001D4F4"
+  trigger: '\MCk '
+- replace: "\U0001D4F5"
+  trigger: '\MCl '
+- replace: "\U0001D4F6"
+  trigger: '\MCm '
+- replace: "\U0001D4F7"
+  trigger: '\MCn '
+- replace: "\U0001D4F8"
+  trigger: '\MCo '
+- replace: "\U0001D4F9"
+  trigger: '\MCp '
+- replace: "\U0001D4FA"
+  trigger: '\MCq '
+- replace: "\U0001D4FB"
+  trigger: '\MCr '
+- replace: "\U0001D4FC"
+  trigger: '\MCs '
+- replace: "\U0001D4FD"
+  trigger: '\MCt '
+- replace: "\U0001D4FE"
+  trigger: '\MCu '
+- replace: "\U0001D4FF"
+  trigger: '\MCv '
+- replace: "\U0001D500"
+  trigger: '\MCw '
+- replace: "\U0001D501"
+  trigger: '\MCx '
+- replace: "\U0001D502"
+  trigger: '\MCy '
+- replace: "\U0001D503"
+  trigger: '\MCz '
+- replace: "\U0001D504"
+  trigger: '\MfA '
+- replace: "\U0001D505"
+  trigger: '\MfB '
+- replace: "\u212D"
+  trigger: '\MfC '
+- replace: "\U0001D507"
+  trigger: '\MfD '
+- replace: "\U0001D508"
+  trigger: '\MfE '
+- replace: "\U0001D509"
+  trigger: '\MfF '
+- replace: "\U0001D50A"
+  trigger: '\MfG '
+- replace: "\u210C"
+  trigger: '\MfH '
+- replace: "\u2111"
+  trigger: '\MfI '
+- replace: "\U0001D50D"
+  trigger: '\MfJ '
+- replace: "\U0001D50E"
+  trigger: '\MfK '
+- replace: "\U0001D50F"
+  trigger: '\MfL '
+- replace: "\U0001D510"
+  trigger: '\MfM '
+- replace: "\U0001D511"
+  trigger: '\MfN '
+- replace: "\U0001D512"
+  trigger: '\MfO '
+- replace: "\U0001D513"
+  trigger: '\MfP '
+- replace: "\U0001D514"
+  trigger: '\MfQ '
+- replace: "\u211C"
+  trigger: '\MfR '
+- replace: "\U0001D516"
+  trigger: '\MfS '
+- replace: "\U0001D517"
+  trigger: '\MfT '
+- replace: "\U0001D518"
+  trigger: '\MfU '
+- replace: "\U0001D519"
+  trigger: '\MfV '
+- replace: "\U0001D51A"
+  trigger: '\MfW '
+- replace: "\U0001D51B"
+  trigger: '\MfX '
+- replace: "\U0001D51C"
+  trigger: '\MfY '
+- replace: "\u2128"
+  trigger: '\MfZ '
+- replace: "\U0001D51E"
+  trigger: '\Mfa '
+- replace: "\U0001D51F"
+  trigger: '\Mfb '
+- replace: "\U0001D520"
+  trigger: '\Mfc '
+- replace: "\U0001D521"
+  trigger: '\Mfd '
+- replace: "\U0001D522"
+  trigger: '\Mfe '
+- replace: "\U0001D523"
+  trigger: '\Mff '
+- replace: "\U0001D524"
+  trigger: '\Mfg '
+- replace: "\U0001D525"
+  trigger: '\Mfh '
+- replace: "\U0001D526"
+  trigger: '\Mfi '
+- replace: "\U0001D527"
+  trigger: '\Mfj '
+- replace: "\U0001D528"
+  trigger: '\Mfk '
+- replace: "\U0001D529"
+  trigger: '\Mfl '
+- replace: "\U0001D52A"
+  trigger: '\Mfm '
+- replace: "\U0001D52B"
+  trigger: '\Mfn '
+- replace: "\U0001D52C"
+  trigger: '\Mfo '
+- replace: "\U0001D52D"
+  trigger: '\Mfp '
+- replace: "\U0001D52E"
+  trigger: '\Mfq '
+- replace: "\U0001D52F"
+  trigger: '\Mfr '
+- replace: "\U0001D530"
+  trigger: '\Mfs '
+- replace: "\U0001D531"
+  trigger: '\Mft '
+- replace: "\U0001D532"
+  trigger: '\Mfu '
+- replace: "\U0001D533"
+  trigger: '\Mfv '
+- replace: "\U0001D534"
+  trigger: '\Mfw '
+- replace: "\U0001D535"
+  trigger: '\Mfx '
+- replace: "\U0001D536"
+  trigger: '\Mfy '
+- replace: "\U0001D537"
+  trigger: '\Mfz '
+- replace: "\xA5"
+  trigger: '\yen '
+- replace: "\u03F1"
+  trigger: '\varrho '
+- replace: "\u03F0"
+  trigger: '\varkappa '
+- replace: "\u03D7"
+  trigger: '\varkai '
+- replace: "\u03D6"
+  trigger: '\varpi '
+- replace: "\u03D5"
+  trigger: '\varphi '
+- replace: "\u2032"
+  trigger: '\varprime '
+- replace: "\u221D"
+  trigger: '\varpropto '
+- replace: "\u03D1"
+  trigger: '\vartheta '
+- replace: "\u22B2"
+  trigger: '\vartriangleleft '
+- replace: "\u22B3"
+  trigger: '\vartriangleright '
+- replace: "\u03D0"
+  trigger: '\varbeta '
+- replace: "\u03C2"
+  trigger: '\varsigma '
+- replace: "\u22BB"
+  trigger: '\veebar '
+- replace: "\u2228"
+  trigger: '\vee '
+- replace: "\u011B"
+  trigger: '\ve '
+- replace: "\u011A"
+  trigger: '\vE '
+- replace: "\u22A2"
+  trigger: '\vdash '
+- replace: "\u22EE"
+  trigger: '\vdots '
+- replace: "\u010F"
+  trigger: '\vd '
+- replace: "\u22A8"
+  trigger: '\vDash '
+- replace: "\u010E"
+  trigger: '\vD '
+- replace: "\u010D"
+  trigger: '\vc '
+- replace: "\u010C"
+  trigger: '\vC '
+- replace: "\u03DF"
+  trigger: '\koppa '
+- replace: "\u20AD"
+  trigger: '\kip '
+- replace: "\u012F"
+  trigger: '\ki '
+- replace: "\u012E"
+  trigger: '\kI '
+- replace: "\u212A"
+  trigger: '\kelvin '
+- replace: "\u03BA"
+  trigger: '\kappa '
+- replace: "\u03E7"
+  trigger: '\khei '
+- replace: "\u26A0"
+  trigger: '\warning '
+- replace: "\u20A9"
+  trigger: '\won '
+- replace: "\u2227"
+  trigger: '\wedge '
+- replace: "\u2118"
+  trigger: '\wp '
+- replace: "\u2240"
+  trigger: '\wr '
+- replace: "\u03EE"
+  trigger: '\Dei '
+- replace: "\u0394"
+  trigger: '\Delta '
+- replace: "\u03DC"
+  trigger: '\Digamma '
+- replace: "\u25C7"
+  trigger: '\Diamond '
+- replace: "\u21D3"
+  trigger: '\Downarrow '
+- replace: "\xD0"
+  trigger: '\DH '
+- replace: "\u03B6"
+  trigger: '\zeta '
+- replace: "\u0397"
+  trigger: '\Eta '
+- replace: "\u0395"
+  trigger: '\Epsilon '
+- replace: "\u0392"
+  trigger: '\Beta '
+- replace: "\u25A1"
+  trigger: '\Box '
+- replace: "\u224E"
+  trigger: '\Bumpeq '
+- replace: "\U0001D538"
+  trigger: '\bbA '
+- replace: "\U0001D539"
+  trigger: '\bbB '
+- replace: "\u2102"
+  trigger: '\bbC '
+- replace: "\U0001D53B"
+  trigger: '\bbD '
+- replace: "\U0001D53C"
+  trigger: '\bbE '
+- replace: "\U0001D53D"
+  trigger: '\bbF '
+- replace: "\U0001D53E"
+  trigger: '\bbG '
+- replace: "\u210D"
+  trigger: '\bbH '
+- replace: "\U0001D540"
+  trigger: '\bbI '
+- replace: "\U0001D541"
+  trigger: '\bbJ '
+- replace: "\U0001D542"
+  trigger: '\bbK '
+- replace: "\U0001D543"
+  trigger: '\bbL '
+- replace: "\U0001D544"
+  trigger: '\bbM '
+- replace: "\u2115"
+  trigger: '\bbN '
+- replace: "\U0001D546"
+  trigger: '\bbO '
+- replace: "\u2119"
+  trigger: '\bbP '
+- replace: "\u211A"
+  trigger: '\bbQ '
+- replace: "\u211D"
+  trigger: '\bbR '
+- replace: "\U0001D54A"
+  trigger: '\bbS '
+- replace: "\U0001D54B"
+  trigger: '\bbT '
+- replace: "\U0001D54C"
+  trigger: '\bbU '
+- replace: "\U0001D54D"
+  trigger: '\bbV '
+- replace: "\U0001D54E"
+  trigger: '\bbW '
+- replace: "\U0001D54F"
+  trigger: '\bbX '
+- replace: "\U0001D550"
+  trigger: '\bbY '
+- replace: "\u2124"
+  trigger: '\bbZ '
+- replace: "\U0001D552"
+  trigger: '\bba '
+- replace: "\U0001D553"
+  trigger: '\bbb '
+- replace: "\U0001D554"
+  trigger: '\bbc '
+- replace: "\U0001D555"
+  trigger: '\bbd '
+- replace: "\U0001D556"
+  trigger: '\bbe '
+- replace: "\U0001D557"
+  trigger: '\bbf '
+- replace: "\U0001D558"
+  trigger: '\bbg '
+- replace: "\U0001D559"
+  trigger: '\bbh '
+- replace: "\U0001D55A"
+  trigger: '\bbi '
+- replace: "\U0001D55B"
+  trigger: '\bbj '
+- replace: "\U0001D55C"
+  trigger: '\bbk '
+- replace: "\U0001D55D"
+  trigger: '\bbl '
+- replace: "\U0001D55E"
+  trigger: '\bbm '
+- replace: "\U0001D55F"
+  trigger: '\bbn '
+- replace: "\U0001D560"
+  trigger: '\bbo '
+- replace: "\U0001D561"
+  trigger: '\bbp '
+- replace: "\U0001D562"
+  trigger: '\bbq '
+- replace: "\U0001D563"
+  trigger: '\bbr '
+- replace: "\U0001D564"
+  trigger: '\bbs '
+- replace: "\U0001D565"
+  trigger: '\bbt '
+- replace: "\U0001D566"
+  trigger: '\bbu '
+- replace: "\U0001D567"
+  trigger: '\bbv '
+- replace: "\U0001D568"
+  trigger: '\bbw '
+- replace: "\U0001D569"
+  trigger: '\bbx '
+- replace: "\U0001D56A"
+  trigger: '\bby '
+- replace: "\U0001D56B"
+  trigger: '\bbz '
+- replace: "\u211D\u22650"
+  trigger: '\Rge0 '
+- replace: "\u211D\u22650"
+  trigger: '\R>=0 '
+- replace: "\u211D\u22650"
+  trigger: '\nnreal '
+- replace: "\u211D\u22650\u221E"
+  trigger: '\ennreal '
+- replace: "\u2124\u221A"
+  trigger: '\Zsqrt '
+- replace: "\u2124\u221A"
+  trigger: '\zsqrtd '
+- replace: "\u2045"
+  trigger: '\liel '
+- replace: "\u2045"
+  trigger: '\[- '
+- replace: "\u2045"
+  trigger: '\bracketl '
+- replace: "\u2046"
+  trigger: '\lier '
+- replace: "\u2046"
+  trigger: '\-] '
+- replace: "\u2046"
+  trigger: '\bracketr '
+- replace: "\U0001D4DD"
+  trigger: '\nhds '
+- replace: "\U0001D4DD"
+  trigger: '\nbhds '
+- replace: "\u2A2F"
+  trigger: '\X '
+- replace: "\u2A2F"
+  trigger: '\vectorproduct '
+- replace: "\u2A2F"
+  trigger: '\crossproduct '
+- replace: "\u2A3F"
+  trigger: '\coprod '
+- replace: "\u2210"
+  trigger: '\sigmaobj '
+- replace: "\xD7\u1DA0"
+  trigger: '\xf '
+- replace: "\u2203\u1DA0"
+  trigger: '\exf '
+- replace: "\u2983"
+  trigger: '\c[ '
+- replace: "\u2984"
+  trigger: '\c] '
+- replace: "\u037F"
+  trigger: '\Yot '
+- replace: "\u22A2"
+  trigger: '\goal '
+- replace: "\u22A9"
+  trigger: '\Vdash '
+- replace: "\u2016"
+  trigger: '\Vert '
+- replace: "\u22AA"
+  trigger: '\Vvdash '
+- replace: "\u03B6"
+  trigger: '\z '
+- replace: "\u03BA"
+  trigger: '\k '
+- replace: "\u03C2"
+  trigger: '\vs '
+- replace: "\u03C3"
+  trigger: '\s '
+- replace: "\xC0"
+  trigger: '\` '
+- replace: "\xC1"
+  trigger: '\'' '
+- replace: "\xC2"
+  trigger: '\^{A '
+- replace: "\xC2"
+  trigger: '\^{ '
+- replace: "\xC2"
+  trigger: '\^ '
+- replace: "\xC4"
+  trigger: '\" '
+- replace: "\xCA"
+  trigger: '\^{E '
+- replace: "\xCE"
+  trigger: '\^{I '
+- replace: "\xD4"
+  trigger: '\^{O '
+- replace: "\xDB"
+  trigger: '\^{U '
+- replace: "\xE2"
+  trigger: '\^{a '
+- replace: "\xEA"
+  trigger: '\^{e '
+- replace: "\xEE"
+  trigger: '\^{i '
+- replace: "\xF1"
+  trigger: '\~{n '
+- replace: "\xF1"
+  trigger: '\~{ '
+- replace: "\xF4"
+  trigger: '\^{o '
+- replace: "\xFB"
+  trigger: '\^{u '
+- replace: "\u2209"
+  trigger: '\noti '
+- replace: "\xAC"
+  trigger: '\no '
+- replace: "\U0001018E"
+  trigger: '\nomism '
+- replace: "\U0001018E"
+  trigger: '\nomis '
+- replace: "\U0001018E"
+  trigger: '\nomi '
+- replace: "\U0001018E"
+  trigger: '\nom '
+- replace: "\u220C"
+  trigger: '\nn '
+- replace: "\u27F9"
+  trigger: '\nattran '
+- replace: "\u27F9"
+  trigger: '\nattra '
+- replace: "\u27F9"
+  trigger: '\nattr '
+- replace: "\u27F9"
+  trigger: '\natt '
+- replace: "\u27F9"
+  trigger: '\nat_tran '
+- replace: "\u27F9"
+  trigger: '\nat_tra '
+- replace: "\u27F9"
+  trigger: '\nat_tr '
+- replace: "\u27F9"
+  trigger: '\nat_t '
+- replace: "\u27F9"
+  trigger: '\nat_ '
+- replace: "\u266E"
+  trigger: '\natura '
+- replace: "\u266E"
+  trigger: '\natur '
+- replace: "\u266E"
+  trigger: '\natu '
+- replace: "\u2115"
+  trigger: '\na '
+- replace: "\u20A6"
+  trigger: '\nair '
+- replace: "\u20A6"
+  trigger: '\nai '
+- replace: "\u2207"
+  trigger: '\nabl '
+- replace: "\u2207"
+  trigger: '\nab '
+- replace: "\u2249"
+  trigger: '\nappro '
+- replace: "\u2249"
+  trigger: '\nappr '
+- replace: "\u2249"
+  trigger: '\napp '
+- replace: "\u2249"
+  trigger: '\nap '
+- replace: "\u2116"
+  trigger: '\numer '
+- replace: "\u2116"
+  trigger: '\nume '
+- replace: "\u2116"
+  trigger: '\num '
+- replace: "\u21CD"
+  trigger: '\nLeftarro '
+- replace: "\u21CD"
+  trigger: '\nLeftarr '
+- replace: "\u21CD"
+  trigger: '\nLeftar '
+- replace: "\u21CD"
+  trigger: '\nLefta '
+- replace: "\u21CD"
+  trigger: '\nLeft '
+- replace: "\u21CD"
+  trigger: '\nLef '
+- replace: "\u21CD"
+  trigger: '\nLe '
+- replace: "\u21CD"
+  trigger: '\nL '
+- replace: "\u21CE"
+  trigger: '\nLeftrightarro '
+- replace: "\u21CE"
+  trigger: '\nLeftrightarr '
+- replace: "\u21CE"
+  trigger: '\nLeftrightar '
+- replace: "\u21CE"
+  trigger: '\nLeftrighta '
+- replace: "\u21CE"
+  trigger: '\nLeftright '
+- replace: "\u21CE"
+  trigger: '\nLeftrigh '
+- replace: "\u21CE"
+  trigger: '\nLeftrig '
+- replace: "\u21CE"
+  trigger: '\nLeftri '
+- replace: "\u21CE"
+  trigger: '\nLeftr '
+- replace: "\u21CF"
+  trigger: '\nRightarro '
+- replace: "\u21CF"
+  trigger: '\nRightarr '
+- replace: "\u21CF"
+  trigger: '\nRightar '
+- replace: "\u21CF"
+  trigger: '\nRighta '
+- replace: "\u21CF"
+  trigger: '\nRight '
+- replace: "\u21CF"
+  trigger: '\nRigh '
+- replace: "\u21CF"
+  trigger: '\nRig '
+- replace: "\u21CF"
+  trigger: '\nRi '
+- replace: "\u21CF"
+  trigger: '\nR '
+- replace: "\u22AF"
+  trigger: '\nVDas '
+- replace: "\u22AF"
+  trigger: '\nVDa '
+- replace: "\u22AF"
+  trigger: '\nVD '
+- replace: "\u22AF"
+  trigger: '\nV '
+- replace: "\u22AE"
+  trigger: '\nVdas '
+- replace: "\u22AE"
+  trigger: '\nVda '
+- replace: "\u22AE"
+  trigger: '\nVd '
+- replace: "\u2247"
+  trigger: '\ncon '
+- replace: "\u2247"
+  trigger: '\nco '
+- replace: "\u2247"
+  trigger: '\nc '
+- replace: "\u2197"
+  trigger: '\nearro '
+- replace: "\u2197"
+  trigger: '\nearr '
+- replace: "\u2197"
+  trigger: '\near '
+- replace: "\u2197"
+  trigger: '\nea '
+- replace: "\u2262"
+  trigger: '\nequi '
+- replace: "\u2262"
+  trigger: '\nequ '
+- replace: "\u2204"
+  trigger: '\nexist '
+- replace: "\u2204"
+  trigger: '\nexis '
+- replace: "\u2204"
+  trigger: '\nexi '
+- replace: "\u2204"
+  trigger: '\nex '
+- replace: "\u2271"
+  trigger: '\ngeqslan '
+- replace: "\u2271"
+  trigger: '\ngeqsla '
+- replace: "\u2271"
+  trigger: '\ngeqsl '
+- replace: "\u2271"
+  trigger: '\ngeqs '
+- replace: "\u2271"
+  trigger: '\nge '
+- replace: "\u2271"
+  trigger: '\ng '
+- replace: "\u226F"
+  trigger: '\ngt '
+- replace: "\u219A"
+  trigger: '\nleftarro '
+- replace: "\u219A"
+  trigger: '\nleftarr '
+- replace: "\u219A"
+  trigger: '\nleftar '
+- replace: "\u219A"
+  trigger: '\nlefta '
+- replace: "\u219A"
+  trigger: '\nleft '
+- replace: "\u219A"
+  trigger: '\nlef '
+- replace: "\u219A"
+  trigger: '\nle '
+- replace: "\u219A"
+  trigger: '\nl '
+- replace: "\u21AE"
+  trigger: '\nleftrightarro '
+- replace: "\u21AE"
+  trigger: '\nleftrightarr '
+- replace: "\u21AE"
+  trigger: '\nleftrightar '
+- replace: "\u21AE"
+  trigger: '\nleftrighta '
+- replace: "\u21AE"
+  trigger: '\nleftright '
+- replace: "\u21AE"
+  trigger: '\nleftrigh '
+- replace: "\u21AE"
+  trigger: '\nleftrig '
+- replace: "\u21AE"
+  trigger: '\nleftri '
+- replace: "\u21AE"
+  trigger: '\nleftr '
+- replace: "\u2270"
+  trigger: '\nleqslan '
+- replace: "\u2270"
+  trigger: '\nleqsla '
+- replace: "\u2270"
+  trigger: '\nleqsl '
+- replace: "\u2270"
+  trigger: '\nleqs '
+- replace: "\u226E"
+  trigger: '\nles '
+- replace: "\u2224"
+  trigger: '\nmi '
+- replace: "\u2224"
+  trigger: '\nm '
+- replace: "\u2226"
+  trigger: '\nparalle '
+- replace: "\u2226"
+  trigger: '\nparall '
+- replace: "\u2226"
+  trigger: '\nparal '
+- replace: "\u2226"
+  trigger: '\npara '
+- replace: "\u2226"
+  trigger: '\npar '
+- replace: "\u2226"
+  trigger: '\npa '
+- replace: "\u2226"
+  trigger: '\np '
+- replace: "\u22E0"
+  trigger: '\nprece '
+- replace: "\u2280"
+  trigger: '\npre '
+- replace: "\u2280"
+  trigger: '\npr '
+- replace: "\u219B"
+  trigger: '\nrightarro '
+- replace: "\u219B"
+  trigger: '\nrightarr '
+- replace: "\u219B"
+  trigger: '\nrightar '
+- replace: "\u219B"
+  trigger: '\nrighta '
+- replace: "\u219B"
+  trigger: '\nright '
+- replace: "\u219B"
+  trigger: '\nrigh '
+- replace: "\u219B"
+  trigger: '\nrig '
+- replace: "\u219B"
+  trigger: '\nri '
+- replace: "\u219B"
+  trigger: '\nr '
+- replace: "\u2224"
+  trigger: '\nshortmi '
+- replace: "\u2224"
+  trigger: '\nshortm '
+- replace: "\u2224"
+  trigger: '\nshort '
+- replace: "\u2224"
+  trigger: '\nshor '
+- replace: "\u2224"
+  trigger: '\nsho '
+- replace: "\u2224"
+  trigger: '\nsh '
+- replace: "\u2224"
+  trigger: '\ns '
+- replace: "\u2226"
+  trigger: '\nshortparalle '
+- replace: "\u2226"
+  trigger: '\nshortparall '
+- replace: "\u2226"
+  trigger: '\nshortparal '
+- replace: "\u2226"
+  trigger: '\nshortpara '
+- replace: "\u2226"
+  trigger: '\nshortpar '
+- replace: "\u2226"
+  trigger: '\nshortpa '
+- replace: "\u2226"
+  trigger: '\nshortp '
+- replace: "\u2244"
+  trigger: '\nsime '
+- replace: "\u2241"
+  trigger: '\nsi '
+- replace: "\u2288"
+  trigger: '\nsubsete '
+- replace: "\u2284"
+  trigger: '\nsubse '
+- replace: "\u2284"
+  trigger: '\nsubs '
+- replace: "\u2284"
+  trigger: '\nsub '
+- replace: "\u2284"
+  trigger: '\nsu '
+- replace: "\u22E1"
+  trigger: '\nsucce '
+- replace: "\u2281"
+  trigger: '\nsuc '
+- replace: "\u2289"
+  trigger: '\nsupsete '
+- replace: "\u2285"
+  trigger: '\nsupse '
+- replace: "\u2285"
+  trigger: '\nsups '
+- replace: "\u2285"
+  trigger: '\nsup '
+- replace: "\u22EC"
+  trigger: '\ntrianglelefte '
+- replace: "\u22EA"
+  trigger: '\ntrianglelef '
+- replace: "\u22EA"
+  trigger: '\ntrianglele '
+- replace: "\u22EA"
+  trigger: '\ntrianglel '
+- replace: "\u22EA"
+  trigger: '\ntriangle '
+- replace: "\u22EA"
+  trigger: '\ntriangl '
+- replace: "\u22EA"
+  trigger: '\ntriang '
+- replace: "\u22EA"
+  trigger: '\ntrian '
+- replace: "\u22EA"
+  trigger: '\ntria '
+- replace: "\u22EA"
+  trigger: '\ntri '
+- replace: "\u22EA"
+  trigger: '\ntr '
+- replace: "\u22EA"
+  trigger: '\nt '
+- replace: "\u22ED"
+  trigger: '\ntrianglerighte '
+- replace: "\u22EB"
+  trigger: '\ntrianglerigh '
+- replace: "\u22EB"
+  trigger: '\ntrianglerig '
+- replace: "\u22EB"
+  trigger: '\ntriangleri '
+- replace: "\u22EB"
+  trigger: '\ntriangler '
+- replace: "\u22AD"
+  trigger: '\nvDas '
+- replace: "\u22AD"
+  trigger: '\nvDa '
+- replace: "\u22AD"
+  trigger: '\nvD '
+- replace: "\u22AD"
+  trigger: '\nv '
+- replace: "\u22AC"
+  trigger: '\nvdas '
+- replace: "\u22AC"
+  trigger: '\nvda '
+- replace: "\u22AC"
+  trigger: '\nvd '
+- replace: "\u2196"
+  trigger: '\nwarro '
+- replace: "\u2196"
+  trigger: '\nwarr '
+- replace: "\u2196"
+  trigger: '\nwar '
+- replace: "\u2196"
+  trigger: '\nwa '
+- replace: "\u2196"
+  trigger: '\nw '
+- replace: "\u2260"
+  trigger: '\eq '
+- replace: "\u2243"
+  trigger: '\equi '
+- replace: "\u2243"
+  trigger: '\equ '
+- replace: "\u2256"
+  trigger: '\eqcir '
+- replace: "\u2256"
+  trigger: '\eqci '
+- replace: "\u2256"
+  trigger: '\eqc '
+- replace: "\u2255"
+  trigger: '\eqcolo '
+- replace: "\u2255"
+  trigger: '\eqcol '
+- replace: "\u2255"
+  trigger: '\eqco '
+- replace: "\u22DD"
+  trigger: '\eqslantgt '
+- replace: "\u22DD"
+  trigger: '\eqslantg '
+- replace: "\u22DD"
+  trigger: '\eqslant '
+- replace: "\u22DD"
+  trigger: '\eqslan '
+- replace: "\u22DD"
+  trigger: '\eqsla '
+- replace: "\u22DD"
+  trigger: '\eqsl '
+- replace: "\u22DD"
+  trigger: '\eqs '
+- replace: "\u22DC"
+  trigger: '\eqslantles '
+- replace: "\u22DC"
+  trigger: '\eqslantle '
+- replace: "\u22DC"
+  trigger: '\eqslantl '
+- replace: "\u22A2"
+  trigger: '\entail '
+- replace: "\u22A2"
+  trigger: '\entai '
+- replace: "\u22A2"
+  trigger: '\enta '
+- replace: "\u22A2"
+  trigger: '\ent '
+- replace: "\u2203"
+  trigger: '\exist '
+- replace: "\u2203"
+  trigger: '\exis '
+- replace: "\u2203"
+  trigger: '\exi '
+- replace: "\u2205"
+  trigger: '\emptyse '
+- replace: "\u2205"
+  trigger: '\emptys '
+- replace: "\u2205"
+  trigger: '\empt '
+- replace: "\u2205"
+  trigger: '\emp '
+- replace: "\u03B5"
+  trigger: '\epsilo '
+- replace: "\u03B5"
+  trigger: '\epsil '
+- replace: "\u03B5"
+  trigger: '\epsi '
+- replace: "\u20AC"
+  trigger: '\eur '
+- replace: "\u20AC"
+  trigger: '\eu '
+- replace: "\u2113"
+  trigger: '\el '
+- replace: "\u2245"
+  trigger: '\is '
+- replace: "\u2229"
+  trigger: '\inte '
+- replace: "\u22BA"
+  trigger: '\interca '
+- replace: "\u22BA"
+  trigger: '\interc '
+- replace: "\u2229"
+  trigger: '\intersectio '
+- replace: "\u2229"
+  trigger: '\intersecti '
+- replace: "\u2229"
+  trigger: '\intersect '
+- replace: "\u2229"
+  trigger: '\intersec '
+- replace: "\u2229"
+  trigger: '\interse '
+- replace: "\u2229"
+  trigger: '\inters '
+- replace: "\u222B"
+  trigger: '\integra '
+- replace: "\u222B"
+  trigger: '\integr '
+- replace: "\u222B"
+  trigger: '\integ '
+- replace: "\u2206"
+  trigger: '\incremen '
+- replace: "\u2206"
+  trigger: '\increme '
+- replace: "\u2206"
+  trigger: '\increm '
+- replace: "\u2206"
+  trigger: '\incre '
+- replace: "\u2206"
+  trigger: '\incr '
+- replace: "\u2206"
+  trigger: '\inc '
+- replace: "\u221E"
+  trigger: '\inft '
+- replace: "\u2194"
+  trigger: '\if '
+- replace: "\u2192"
+  trigger: '\im '
+- replace: "\u0131"
+  trigger: '\imat '
+- replace: "\u0131"
+  trigger: '\ima '
+- replace: "\u03B9"
+  trigger: '\iot '
+- replace: "\u2260"
+  trigger: '\= '
+- replace: "\u223C"
+  trigger: '\homotop '
+- replace: "\u223C"
+  trigger: '\homoto '
+- replace: "\u223C"
+  trigger: '\homot '
+- replace: "\u223C"
+  trigger: '\homo '
+- replace: "\u27F6"
+  trigger: '\ho '
+- replace: "\u27F6"
+  trigger: '\h '
+- replace: "\u03E9"
+  trigger: '\hor '
+- replace: "\u21A9"
+  trigger: '\hookleftarro '
+- replace: "\u21A9"
+  trigger: '\hookleftarr '
+- replace: "\u21A9"
+  trigger: '\hookleftar '
+- replace: "\u21A9"
+  trigger: '\hooklefta '
+- replace: "\u21A9"
+  trigger: '\hookleft '
+- replace: "\u21A9"
+  trigger: '\hooklef '
+- replace: "\u21A9"
+  trigger: '\hookle '
+- replace: "\u21A9"
+  trigger: '\hookl '
+- replace: "\u21A9"
+  trigger: '\hook '
+- replace: "\u21A9"
+  trigger: '\hoo '
+- replace: "\u21AA"
+  trigger: '\hookrightarro '
+- replace: "\u21AA"
+  trigger: '\hookrightarr '
+- replace: "\u21AA"
+  trigger: '\hookrightar '
+- replace: "\u21AA"
+  trigger: '\hookrighta '
+- replace: "\u21AA"
+  trigger: '\hookright '
+- replace: "\u21AA"
+  trigger: '\hookrigh '
+- replace: "\u21AA"
+  trigger: '\hookrig '
+- replace: "\u21AA"
+  trigger: '\hookri '
+- replace: "\u21AA"
+  trigger: '\hookr '
+- replace: "\u20B4"
+  trigger: '\hryvni '
+- replace: "\u20B4"
+  trigger: '\hryvn '
+- replace: "\u20B4"
+  trigger: '\hryv '
+- replace: "\u20B4"
+  trigger: '\hry '
+- replace: "\u20B4"
+  trigger: '\hr '
+- replace: "\u0371"
+  trigger: '\het '
+- replace: "\u0371"
+  trigger: '\he '
+- replace: "\u2665"
+  trigger: '\heartsui '
+- replace: "\u2665"
+  trigger: '\heartsu '
+- replace: "\u2665"
+  trigger: '\hearts '
+- replace: "\u2665"
+  trigger: '\heart '
+- replace: "\u2665"
+  trigger: '\hear '
+- replace: "\u2665"
+  trigger: '\hea '
+- replace: "\u210F"
+  trigger: '\hba '
+- replace: "\u210F"
+  trigger: '\hb '
+- replace: "\u27F6"
+  trigger: '\-- '
+- replace: "\u22EF"
+  trigger: '\.. '
+- replace: "\u221F"
+  trigger: '\angl '
+- replace: "\u221F"
+  trigger: '\ang '
+- replace: "\u212B"
+  trigger: '\angstro '
+- replace: "\u212B"
+  trigger: '\angstr '
+- replace: "\u212B"
+  trigger: '\angst '
+- replace: "\u212B"
+  trigger: '\angs '
+- replace: "\u2200"
+  trigger: '\al '
+- replace: "\u2200\u1DA0"
+  trigger: '\all^ '
+- replace: "\u03B1"
+  trigger: '\alph '
+- replace: "\u03B1"
+  trigger: '\alp '
+- replace: "\u2135"
+  trigger: '\alep '
+- replace: "\u2135"
+  trigger: '\ale '
+- replace: "\u204E"
+  trigger: '\asteris '
+- replace: "\u204E"
+  trigger: '\asteri '
+- replace: "\u204E"
+  trigger: '\aster '
+- replace: "\u204E"
+  trigger: '\aste '
+- replace: "\u2217"
+  trigger: '\as '
+- replace: "\u224D"
+  trigger: '\asym '
+- replace: "\u224D"
+  trigger: '\asy '
+- replace: "\u2336"
+  trigger: '\ap '
+- replace: "\u224A"
+  trigger: '\approxe '
+- replace: "\u2248"
+  trigger: '\appro '
+- replace: "\u2248"
+  trigger: '\appr '
+- replace: "\u2248"
+  trigger: '\app '
+- replace: "\u20B3"
+  trigger: '\austra '
+- replace: "\u20B3"
+  trigger: '\austr '
+- replace: "\u20B3"
+  trigger: '\aust '
+- replace: "\u20B3"
+  trigger: '\aus '
+- replace: "\u20B3"
+  trigger: '\au '
+- replace: "\u060B"
+  trigger: '\afghan '
+- replace: "\u060B"
+  trigger: '\afgha '
+- replace: "\u060B"
+  trigger: '\afgh '
+- replace: "\u060B"
+  trigger: '\afg '
+- replace: "\u060B"
+  trigger: '\af '
+- replace: "\u2210"
+  trigger: '\amal '
+- replace: "\u2210"
+  trigger: '\ama '
+- replace: "\u2210"
+  trigger: '\am '
+- replace: "\xAA"
+  trigger: '\ordfeminin '
+- replace: "\xAA"
+  trigger: '\ordfemini '
+- replace: "\xAA"
+  trigger: '\ordfemin '
+- replace: "\xAA"
+  trigger: '\ordfemi '
+- replace: "\xAA"
+  trigger: '\ordfem '
+- replace: "\xAA"
+  trigger: '\ordfe '
+- replace: "\xAA"
+  trigger: '\ordf '
+- replace: "\xAA"
+  trigger: '\ord '
+- replace: "\xBA"
+  trigger: '\ordmasculin '
+- replace: "\xBA"
+  trigger: '\ordmasculi '
+- replace: "\xBA"
+  trigger: '\ordmascul '
+- replace: "\xBA"
+  trigger: '\ordmascu '
+- replace: "\xBA"
+  trigger: '\ordmasc '
+- replace: "\xBA"
+  trigger: '\ordmas '
+- replace: "\xBA"
+  trigger: '\ordma '
+- replace: "\xBA"
+  trigger: '\ordm '
+- replace: "\u2295"
+  trigger: '\oplu '
+- replace: "\u2295"
+  trigger: '\opl '
+- replace: "\u1D43\u1D52\u1D56"
+  trigger: '\ao '
+- replace: "\u1D50\u1D52\u1D56"
+  trigger: '\mo '
+- replace: "\U0001F6D1"
+  trigger: '\octagona '
+- replace: "\U0001F6D1"
+  trigger: '\octagon '
+- replace: "\U0001F6D1"
+  trigger: '\octago '
+- replace: "\U0001F6D1"
+  trigger: '\octag '
+- replace: "\U0001F6D1"
+  trigger: '\octa '
+- replace: "\U0001F6D1"
+  trigger: '\oct '
+- replace: "\U0001F6D1"
+  trigger: '\oc '
+- replace: "\u2126"
+  trigger: '\oh '
+- replace: "\u2125"
+  trigger: '\ounc '
+- replace: "\u2125"
+  trigger: '\oun '
+- replace: "\u2125"
+  trigger: '\ou '
+- replace: "\u03C9"
+  trigger: '\omeg '
+- replace: "\u03C9"
+  trigger: '\ome '
+- replace: "\u03BF"
+  trigger: '\omicro '
+- replace: "\u03BF"
+  trigger: '\omicr '
+- replace: "\u03BF"
+  trigger: '\omic '
+- replace: "\u03BF"
+  trigger: '\omi '
+- replace: "\u2296"
+  trigger: '\ominu '
+- replace: "\u2296"
+  trigger: '\omin '
+- replace: "\u2299"
+  trigger: '\odo '
+- replace: "\u222E"
+  trigger: '\oin '
+- replace: "\u222E"
+  trigger: '\oi '
+- replace: "\u2298"
+  trigger: '\oslas '
+- replace: "\u2298"
+  trigger: '\osla '
+- replace: "\u2298"
+  trigger: '\osl '
+- replace: "\u2298"
+  trigger: '\os '
+- replace: "\u2297"
+  trigger: '\otime '
+- replace: "\u2297"
+  trigger: '\otim '
+- replace: "\u2297"
+  trigger: '\oti '
+- replace: "\u2297"
+  trigger: '\ot '
+- replace: "\u25B9"
+  trigger: '\transpor '
+- replace: "\u25B9"
+  trigger: '\transpo '
+- replace: "\u25B9"
+  trigger: '\transp '
+- replace: "\u25B9"
+  trigger: '\tran '
+- replace: "\u25B9"
+  trigger: '\tra '
+- replace: "\u25BF"
+  trigger: '\triangledow '
+- replace: "\u25BF"
+  trigger: '\triangledo '
+- replace: "\u25BF"
+  trigger: '\triangled '
+- replace: "\u22B4"
+  trigger: '\trianglelefte '
+- replace: "\u25C3"
+  trigger: '\trianglelef '
+- replace: "\u25C3"
+  trigger: '\trianglele '
+- replace: "\u25C3"
+  trigger: '\trianglel '
+- replace: "\u22B5"
+  trigger: '\trianglerighte '
+- replace: "\u25B9"
+  trigger: '\trianglerigh '
+- replace: "\u25B9"
+  trigger: '\trianglerig '
+- replace: "\u25B9"
+  trigger: '\triangleri '
+- replace: "\u25B9"
+  trigger: '\triangler '
+- replace: "\u25B5"
+  trigger: '\triangl '
+- replace: "\u25B5"
+  trigger: '\triang '
+- replace: "\u25B5"
+  trigger: '\trian '
+- replace: "\u25B5"
+  trigger: '\tria '
+- replace: "\u25B5"
+  trigger: '\tri '
+- replace: "\u219E"
+  trigger: '\twoheadleftarro '
+- replace: "\u219E"
+  trigger: '\twoheadleftarr '
+- replace: "\u219E"
+  trigger: '\twoheadleftar '
+- replace: "\u219E"
+  trigger: '\twoheadlefta '
+- replace: "\u219E"
+  trigger: '\twoheadleft '
+- replace: "\u219E"
+  trigger: '\twoheadlef '
+- replace: "\u219E"
+  trigger: '\twoheadle '
+- replace: "\u219E"
+  trigger: '\twoheadl '
+- replace: "\u219E"
+  trigger: '\twohead '
+- replace: "\u219E"
+  trigger: '\twohea '
+- replace: "\u219E"
+  trigger: '\twohe '
+- replace: "\u219E"
+  trigger: '\twoh '
+- replace: "\u219E"
+  trigger: '\two '
+- replace: "\u21A0"
+  trigger: '\twoheadrightarro '
+- replace: "\u21A0"
+  trigger: '\twoheadrightarr '
+- replace: "\u21A0"
+  trigger: '\twoheadrightar '
+- replace: "\u21A0"
+  trigger: '\twoheadrighta '
+- replace: "\u21A0"
+  trigger: '\twoheadright '
+- replace: "\u21A0"
+  trigger: '\twoheadrigh '
+- replace: "\u21A0"
+  trigger: '\twoheadrig '
+- replace: "\u21A0"
+  trigger: '\twoheadri '
+- replace: "\u21A0"
+  trigger: '\twoheadr '
+- replace: "\u2040"
+  trigger: '\ti '
+- replace: "\xD7"
+  trigger: '\time '
+- replace: "\xD7"
+  trigger: '\tim '
+- replace: "\u03B8"
+  trigger: '\thet '
+- replace: "\u03B8"
+  trigger: '\the '
+- replace: "\u2234"
+  trigger: '\therefor '
+- replace: "\u2234"
+  trigger: '\therefo '
+- replace: "\u2234"
+  trigger: '\theref '
+- replace: "\u2234"
+  trigger: '\there '
+- replace: "\u2234"
+  trigger: '\ther '
+- replace: "\u2248"
+  trigger: '\thickappro '
+- replace: "\u2248"
+  trigger: '\thickappr '
+- replace: "\u2248"
+  trigger: '\thickapp '
+- replace: "\u2248"
+  trigger: '\thickap '
+- replace: "\u2248"
+  trigger: '\thicka '
+- replace: "\u2248"
+  trigger: '\thick '
+- replace: "\u2248"
+  trigger: '\thic '
+- replace: "\u2248"
+  trigger: '\thi '
+- replace: "\u223C"
+  trigger: '\thicksi '
+- replace: "\u223C"
+  trigger: '\thicks '
+- replace: "\u2121"
+  trigger: '\telephon '
+- replace: "\u2121"
+  trigger: '\telepho '
+- replace: "\u2121"
+  trigger: '\teleph '
+- replace: "\u2121"
+  trigger: '\telep '
+- replace: "\u2121"
+  trigger: '\tele '
+- replace: "\u2121"
+  trigger: '\tel '
+- replace: "\u2121"
+  trigger: '\te '
+- replace: "\u20B8"
+  trigger: '\teng '
+- replace: "\u20B8"
+  trigger: '\ten '
+- replace: "\u266A"
+  trigger: '\textmusicalnot '
+- replace: "\u266A"
+  trigger: '\textmusicalno '
+- replace: "\u266A"
+  trigger: '\textmusicaln '
+- replace: "\u266A"
+  trigger: '\textmusical '
+- replace: "\u266A"
+  trigger: '\textmusica '
+- replace: "\u266A"
+  trigger: '\textmusic '
+- replace: "\u266A"
+  trigger: '\textmusi '
+- replace: "\u266A"
+  trigger: '\textmus '
+- replace: "\xB5"
+  trigger: '\textm '
+- replace: "\xB5"
+  trigger: '\text '
+- replace: "\xB5"
+  trigger: '\tex '
+- replace: "\u2044"
+  trigger: '\textfractionsolidu '
+- replace: "\u2044"
+  trigger: '\textfractionsolid '
+- replace: "\u2044"
+  trigger: '\textfractionsoli '
+- replace: "\u2044"
+  trigger: '\textfractionsol '
+- replace: "\u2044"
+  trigger: '\textfractionso '
+- replace: "\u2044"
+  trigger: '\textfractions '
+- replace: "\u2044"
+  trigger: '\textfraction '
+- replace: "\u2044"
+  trigger: '\textfractio '
+- replace: "\u2044"
+  trigger: '\textfracti '
+- replace: "\u2044"
+  trigger: '\textfract '
+- replace: "\u2044"
+  trigger: '\textfrac '
+- replace: "\u2044"
+  trigger: '\textfra '
+- replace: "\u2044"
+  trigger: '\textfr '
+- replace: "\u2044"
+  trigger: '\textf '
+- replace: "\u0E3F"
+  trigger: '\textbah '
+- replace: "\u0E3F"
+  trigger: '\textba '
+- replace: "\u0E3F"
+  trigger: '\textb '
+- replace: "\u271D"
+  trigger: '\textdie '
+- replace: "\u271D"
+  trigger: '\textdi '
+- replace: "\u271D"
+  trigger: '\textd '
+- replace: "\u2052"
+  trigger: '\textdiscoun '
+- replace: "\u2052"
+  trigger: '\textdiscou '
+- replace: "\u2052"
+  trigger: '\textdisco '
+- replace: "\u2052"
+  trigger: '\textdisc '
+- replace: "\u2052"
+  trigger: '\textdis '
+- replace: "\u20A1"
+  trigger: '\textcolonmonetar '
+- replace: "\u20A1"
+  trigger: '\textcolonmoneta '
+- replace: "\u20A1"
+  trigger: '\textcolonmonet '
+- replace: "\u20A1"
+  trigger: '\textcolonmone '
+- replace: "\u20A1"
+  trigger: '\textcolonmon '
+- replace: "\u20A1"
+  trigger: '\textcolonmo '
+- replace: "\u20A1"
+  trigger: '\textcolonm '
+- replace: "\u20A1"
+  trigger: '\textcolon '
+- replace: "\u20A1"
+  trigger: '\textcolo '
+- replace: "\u20A1"
+  trigger: '\textcol '
+- replace: "\u20A1"
+  trigger: '\textco '
+- replace: "\u20A1"
+  trigger: '\textc '
+- replace: "\u2117"
+  trigger: '\textcircled '
+- replace: "\u2117"
+  trigger: '\textcircle '
+- replace: "\u2117"
+  trigger: '\textcircl '
+- replace: "\u2117"
+  trigger: '\textcirc '
+- replace: "\u2117"
+  trigger: '\textcir '
+- replace: "\u2117"
+  trigger: '\textci '
+- replace: "\u20A9"
+  trigger: '\textwo '
+- replace: "\u20A9"
+  trigger: '\textw '
+- replace: "\u20A6"
+  trigger: '\textnair '
+- replace: "\u20A6"
+  trigger: '\textnai '
+- replace: "\u20A6"
+  trigger: '\textna '
+- replace: "\u20A6"
+  trigger: '\textn '
+- replace: "\u2116"
+  trigger: '\textnumer '
+- replace: "\u2116"
+  trigger: '\textnume '
+- replace: "\u2116"
+  trigger: '\textnum '
+- replace: "\u2116"
+  trigger: '\textnu '
+- replace: "\u20B1"
+  trigger: '\textpes '
+- replace: "\u20B1"
+  trigger: '\textpe '
+- replace: "\u20B1"
+  trigger: '\textp '
+- replace: "\u2031"
+  trigger: '\textpertenthousan '
+- replace: "\u2031"
+  trigger: '\textpertenthousa '
+- replace: "\u2031"
+  trigger: '\textpertenthous '
+- replace: "\u2031"
+  trigger: '\textpertenthou '
+- replace: "\u2031"
+  trigger: '\textpertentho '
+- replace: "\u2031"
+  trigger: '\textpertenth '
+- replace: "\u2031"
+  trigger: '\textpertent '
+- replace: "\u2031"
+  trigger: '\textperten '
+- replace: "\u2031"
+  trigger: '\textperte '
+- replace: "\u2031"
+  trigger: '\textpert '
+- replace: "\u2031"
+  trigger: '\textper '
+- replace: "\u20A4"
+  trigger: '\textlir '
+- replace: "\u20A4"
+  trigger: '\textli '
+- replace: "\u20A4"
+  trigger: '\textl '
+- replace: "\u2045"
+  trigger: '\textlquil '
+- replace: "\u2045"
+  trigger: '\textlqui '
+- replace: "\u2045"
+  trigger: '\textlqu '
+- replace: "\u2045"
+  trigger: '\textlq '
+- replace: "\u211E"
+  trigger: '\textrecip '
+- replace: "\u211E"
+  trigger: '\textreci '
+- replace: "\u211E"
+  trigger: '\textrec '
+- replace: "\u211E"
+  trigger: '\textre '
+- replace: "\u211E"
+  trigger: '\textr '
+- replace: "\u203B"
+  trigger: '\textreferencemar '
+- replace: "\u203B"
+  trigger: '\textreferencema '
+- replace: "\u203B"
+  trigger: '\textreferencem '
+- replace: "\u203B"
+  trigger: '\textreference '
+- replace: "\u203B"
+  trigger: '\textreferenc '
+- replace: "\u203B"
+  trigger: '\textreferen '
+- replace: "\u203B"
+  trigger: '\textrefere '
+- replace: "\u203B"
+  trigger: '\textrefer '
+- replace: "\u203B"
+  trigger: '\textrefe '
+- replace: "\u203B"
+  trigger: '\textref '
+- replace: "\u2046"
+  trigger: '\textrquil '
+- replace: "\u2046"
+  trigger: '\textrqui '
+- replace: "\u2046"
+  trigger: '\textrqu '
+- replace: "\u2046"
+  trigger: '\textrq '
+- replace: "\u203D"
+  trigger: '\textinterroban '
+- replace: "\u203D"
+  trigger: '\textinterroba '
+- replace: "\u203D"
+  trigger: '\textinterrob '
+- replace: "\u203D"
+  trigger: '\textinterro '
+- replace: "\u203D"
+  trigger: '\textinterr '
+- replace: "\u203D"
+  trigger: '\textinter '
+- replace: "\u203D"
+  trigger: '\textinte '
+- replace: "\u203D"
+  trigger: '\textint '
+- replace: "\u203D"
+  trigger: '\textin '
+- replace: "\u203D"
+  trigger: '\texti '
+- replace: "\u212E"
+  trigger: '\textestimate '
+- replace: "\u212E"
+  trigger: '\textestimat '
+- replace: "\u212E"
+  trigger: '\textestima '
+- replace: "\u212E"
+  trigger: '\textestim '
+- replace: "\u212E"
+  trigger: '\textesti '
+- replace: "\u212E"
+  trigger: '\textest '
+- replace: "\u212E"
+  trigger: '\textes '
+- replace: "\u212E"
+  trigger: '\texte '
+- replace: "\u25E6"
+  trigger: '\textopenbulle '
+- replace: "\u25E6"
+  trigger: '\textopenbull '
+- replace: "\u25E6"
+  trigger: '\textopenbul '
+- replace: "\u25E6"
+  trigger: '\textopenbu '
+- replace: "\u25E6"
+  trigger: '\textopenb '
+- replace: "\u25E6"
+  trigger: '\textopen '
+- replace: "\u25E6"
+  trigger: '\textope '
+- replace: "\u25E6"
+  trigger: '\textop '
+- replace: "\u25E6"
+  trigger: '\texto '
+- replace: "\u20AE"
+  trigger: '\tugri '
+- replace: "\u20AE"
+  trigger: '\tugr '
+- replace: "\u20AE"
+  trigger: '\tug '
+- replace: "\u20AE"
+  trigger: '\tu '
+- replace: "\u2192\u2080"
+  trigger: '\to_ '
+- replace: "\u2192\u2080"
+  trigger: '\r_ '
+- replace: "\u2192\u2080"
+  trigger: '\finsup '
+- replace: "\u2192\u2080"
+  trigger: '\finsu '
+- replace: "\u2192\u2080"
+  trigger: '\fins '
+- replace: "\u2192\u2080"
+  trigger: '\fin '
+- replace: "\u2192\u2080"
+  trigger: '\fi '
+- replace: "\u2192\u2080"
+  trigger: '\f '
+- replace: "\u2192\u2081\u209B"
+  trigger: '\l1simplefun '
+- replace: "\u2192\u2081\u209B"
+  trigger: '\l1simplefu '
+- replace: "\u2192\u2081\u209B"
+  trigger: '\l1simplef '
+- replace: "\u2192\u2081\u209B"
+  trigger: '\l1simple '
+- replace: "\u2192\u2081\u209B"
+  trigger: '\l1simpl '
+- replace: "\u2192\u2081\u209B"
+  trigger: '\l1simp '
+- replace: "\u2192\u2081\u209B"
+  trigger: '\l1sim '
+- replace: "\u2192\u2081\u209B"
+  trigger: '\l1si '
+- replace: "\u2192\u2081\u209B"
+  trigger: '\l1s '
+- replace: "\u2192\u2090"
+  trigger: '\algho '
+- replace: "\u2192\u2090"
+  trigger: '\algh '
+- replace: "\u2192\u2090"
+  trigger: '\alg '
+- replace: "\u2192\u1D47"
+  trigger: '\to^ '
+- replace: "\u2192\u1D47"
+  trigger: '\r^ '
+- replace: "\u2192\u1D47"
+  trigger: '\boundedcontinuousfunctio '
+- replace: "\u2192\u1D47"
+  trigger: '\boundedcontinuousfuncti '
+- replace: "\u2192\u1D47"
+  trigger: '\boundedcontinuousfunct '
+- replace: "\u2192\u1D47"
+  trigger: '\boundedcontinuousfunc '
+- replace: "\u2192\u1D47"
+  trigger: '\boundedcontinuousfun '
+- replace: "\u2192\u1D47"
+  trigger: '\boundedcontinuousfu '
+- replace: "\u2192\u1D47"
+  trigger: '\boundedcontinuousf '
+- replace: "\u2192\u1D47"
+  trigger: '\boundedcontinuous '
+- replace: "\u2192\u1D47"
+  trigger: '\boundedcontinuou '
+- replace: "\u2192\u1D47"
+  trigger: '\boundedcontinuo '
+- replace: "\u2192\u1D47"
+  trigger: '\boundedcontinu '
+- replace: "\u2192\u1D47"
+  trigger: '\boundedcontin '
+- replace: "\u2192\u1D47"
+  trigger: '\boundedconti '
+- replace: "\u2192\u1D47"
+  trigger: '\boundedcont '
+- replace: "\u2192\u1D47"
+  trigger: '\boundedcon '
+- replace: "\u2192\u1D47"
+  trigger: '\boundedco '
+- replace: "\u2192\u1D47"
+  trigger: '\boundedc '
+- replace: "\u2192\u1D47"
+  trigger: '\bounded '
+- replace: "\u2192\u1D47"
+  trigger: '\bounde '
+- replace: "\u2192\u1D47"
+  trigger: '\bound '
+- replace: "\u2192\u1D47"
+  trigger: '\boun '
+- replace: "\u2192\u1D47"
+  trigger: '\bou '
+- replace: "\u2192\u1D47"
+  trigger: '\bo '
+- replace: "\u2192\u2097"
+  trigger: '\linearma '
+- replace: "\u2192\u2097"
+  trigger: '\linearm '
+- replace: "\u2192\u2097"
+  trigger: '\linear '
+- replace: "\u2192\u2097"
+  trigger: '\linea '
+- replace: "\u2192\u2097"
+  trigger: '\line '
+- replace: "\u2192\u2097"
+  trigger: '\lin '
+- replace: "\u2192\u2097"
+  trigger: '\li '
+- replace: "\u2192\u2098"
+  trigger: '\aeeqfu '
+- replace: "\u2192\u2098"
+  trigger: '\aeeqf '
+- replace: "\u2192\u2098"
+  trigger: '\aeeq '
+- replace: "\u2192\u2098"
+  trigger: '\aee '
+- replace: "\u2192\u209A"
+  trigger: '\dfinsup '
+- replace: "\u2192\u209A"
+  trigger: '\dfinsu '
+- replace: "\u2192\u209A"
+  trigger: '\dfins '
+- replace: "\u2192\u209A"
+  trigger: '\dfin '
+- replace: "\u2192\u209A"
+  trigger: '\dfi '
+- replace: "\u2192\u209A"
+  trigger: '\df '
+- replace: "\u2192\u209B"
+  trigger: '\simplefun '
+- replace: "\u2192\u209B"
+  trigger: '\simplefu '
+- replace: "\u2192\u209B"
+  trigger: '\simplef '
+- replace: "\u2192\u209B"
+  trigger: '\simple '
+- replace: "\u2192\u209B"
+  trigger: '\simpl '
+- replace: "\u2192\u209B"
+  trigger: '\simp '
+- replace: "\u22D6"
+  trigger: '\cover '
+- replace: "\u22D6"
+  trigger: '\cove '
+- replace: "\u22D6"
+  trigger: '\cov '
+- replace: "\u22D6"
+  trigger: '\co '
+- replace: "\u22D6"
+  trigger: '\covb '
+- replace: "\u2A7F"
+  trigger: '\wcovb '
+- replace: "\u2A7F"
+  trigger: '\wcov '
+- replace: "\u2A7F"
+  trigger: '\wco '
+- replace: "\u2A7F"
+  trigger: '\wc '
+- replace: "\u2A7F"
+  trigger: '\w '
+- replace: "\u2A7F"
+  trigger: '\wcover '
+- replace: "\u2A7F"
+  trigger: '\wcove '
+- replace: "\u225D"
+  trigger: '\def '
+- replace: "\xB0"
+  trigger: '\degre '
+- replace: "\xB0"
+  trigger: '\degr '
+- replace: "\xB0"
+  trigger: '\deg '
+- replace: "\u03B4"
+  trigger: '\delt '
+- replace: "\u03B4"
+  trigger: '\del '
+- replace: "\u2251"
+  trigger: '\doteqdo '
+- replace: "\u2251"
+  trigger: '\doteqd '
+- replace: "\u2250"
+  trigger: '\dote '
+- replace: "\u2214"
+  trigger: '\dotplu '
+- replace: "\u2214"
+  trigger: '\dotpl '
+- replace: "\u2214"
+  trigger: '\dotp '
+- replace: "\u22A1"
+  trigger: '\dotsquar '
+- replace: "\u22A1"
+  trigger: '\dotsqua '
+- replace: "\u22A1"
+  trigger: '\dotsqu '
+- replace: "\u22A1"
+  trigger: '\dotsq '
+- replace: "\u22A1"
+  trigger: '\dots '
+- replace: "\u2B1D"
+  trigger: '\do '
+- replace: "\u20AB"
+  trigger: '\don '
+- replace: "\u2193"
+  trigger: '\downarro '
+- replace: "\u2193"
+  trigger: '\downarr '
+- replace: "\u2193"
+  trigger: '\downar '
+- replace: "\u2193"
+  trigger: '\downa '
+- replace: "\u2193"
+  trigger: '\down '
+- replace: "\u2193"
+  trigger: '\dow '
+- replace: "\u21CA"
+  trigger: '\downdownarrow '
+- replace: "\u21CA"
+  trigger: '\downdownarro '
+- replace: "\u21CA"
+  trigger: '\downdownarr '
+- replace: "\u21CA"
+  trigger: '\downdownar '
+- replace: "\u21CA"
+  trigger: '\downdowna '
+- replace: "\u21CA"
+  trigger: '\downdown '
+- replace: "\u21CA"
+  trigger: '\downdow '
+- replace: "\u21CA"
+  trigger: '\downdo '
+- replace: "\u21CA"
+  trigger: '\downd '
+- replace: "\u21C3"
+  trigger: '\downleftharpoo '
+- replace: "\u21C3"
+  trigger: '\downleftharpo '
+- replace: "\u21C3"
+  trigger: '\downleftharp '
+- replace: "\u21C3"
+  trigger: '\downlefthar '
+- replace: "\u21C3"
+  trigger: '\downleftha '
+- replace: "\u21C3"
+  trigger: '\downlefth '
+- replace: "\u21C3"
+  trigger: '\downleft '
+- replace: "\u21C3"
+  trigger: '\downlef '
+- replace: "\u21C3"
+  trigger: '\downle '
+- replace: "\u21C3"
+  trigger: '\downl '
+- replace: "\u21C2"
+  trigger: '\downrightharpoo '
+- replace: "\u21C2"
+  trigger: '\downrightharpo '
+- replace: "\u21C2"
+  trigger: '\downrightharp '
+- replace: "\u21C2"
+  trigger: '\downrighthar '
+- replace: "\u21C2"
+  trigger: '\downrightha '
+- replace: "\u21C2"
+  trigger: '\downrighth '
+- replace: "\u21C2"
+  trigger: '\downright '
+- replace: "\u21C2"
+  trigger: '\downrigh '
+- replace: "\u21C2"
+  trigger: '\downrig '
+- replace: "\u21C2"
+  trigger: '\downri '
+- replace: "\u21C2"
+  trigger: '\downr '
+- replace: "\u20AF"
+  trigger: '\drachm '
+- replace: "\u20AF"
+  trigger: '\drach '
+- replace: "\u20AF"
+  trigger: '\drac '
+- replace: "\u20AF"
+  trigger: '\dra '
+- replace: "\u21F5"
+  trigger: '\d-u '
+- replace: "\u21A1"
+  trigger: '\dd '
+- replace: "\u2021"
+  trigger: '\ddagge '
+- replace: "\u2021"
+  trigger: '\ddagg '
+- replace: "\u2021"
+  trigger: '\dda '
+- replace: "\u22F1"
+  trigger: '\ddot '
+- replace: "\u22F1"
+  trigger: '\ddo '
+- replace: "\xF7"
+  trigger: '\divisio '
+- replace: "\xF7"
+  trigger: '\divisi '
+- replace: "\xF7"
+  trigger: '\divis '
+- replace: "\xF7"
+  trigger: '\divi '
+- replace: "\u22C7"
+  trigger: '\divideontime '
+- replace: "\u22C7"
+  trigger: '\divideontim '
+- replace: "\u22C7"
+  trigger: '\divideonti '
+- replace: "\u22C7"
+  trigger: '\divideont '
+- replace: "\u22C7"
+  trigger: '\divideon '
+- replace: "\u22C7"
+  trigger: '\divideo '
+- replace: "\u22C7"
+  trigger: '\divide '
+- replace: "\u22C7"
+  trigger: '\divid '
+- replace: "\u2300"
+  trigger: '\diamete '
+- replace: "\u2300"
+  trigger: '\diamet '
+- replace: "\u2300"
+  trigger: '\diame '
+- replace: "\u2300"
+  trigger: '\diam '
+- replace: "\u2300"
+  trigger: '\dia '
+- replace: "\u2662"
+  trigger: '\diamondsui '
+- replace: "\u2662"
+  trigger: '\diamondsu '
+- replace: "\u2662"
+  trigger: '\diamonds '
+- replace: "\u22C4"
+  trigger: '\diamon '
+- replace: "\u22C4"
+  trigger: '\diamo '
+- replace: "\u03DD"
+  trigger: '\digamm '
+- replace: "\u03DD"
+  trigger: '\digam '
+- replace: "\u03DD"
+  trigger: '\diga '
+- replace: "\u03DD"
+  trigger: '\dig '
+- replace: "\u2020"
+  trigger: '\dagge '
+- replace: "\u2020"
+  trigger: '\dagg '
+- replace: "\u2020"
+  trigger: '\da '
+- replace: "\u2138"
+  trigger: '\dalet '
+- replace: "\u2138"
+  trigger: '\dale '
+- replace: "\u2138"
+  trigger: '\dal '
+- replace: "\u22A3"
+  trigger: '\dash '
+- replace: "\u22A3"
+  trigger: '\das '
+- replace: "\u2293"
+  trigger: '\mee '
+- replace: "\u2293"
+  trigger: '\me '
+- replace: "\u2208"
+  trigger: '\membe '
+- replace: "\u2208"
+  trigger: '\memb '
+- replace: "\u2221"
+  trigger: '\measuredangl '
+- replace: "\u2221"
+  trigger: '\measuredang '
+- replace: "\u2221"
+  trigger: '\measuredan '
+- replace: "\u2221"
+  trigger: '\measureda '
+- replace: "\u2221"
+  trigger: '\measured '
+- replace: "\u2221"
+  trigger: '\measure '
+- replace: "\u2221"
+  trigger: '\measur '
+- replace: "\u2221"
+  trigger: '\measu '
+- replace: "\u2221"
+  trigger: '\meas '
+- replace: "\u2221"
+  trigger: '\mea '
+- replace: "\u2642"
+  trigger: '\mal '
+- replace: "\u2642"
+  trigger: '\ma '
+- replace: "\u2720"
+  trigger: '\maltes '
+- replace: "\u2720"
+  trigger: '\malte '
+- replace: "\u2720"
+  trigger: '\malt '
+- replace: "\u20BC"
+  trigger: '\mana '
+- replace: "\u20BC"
+  trigger: '\man '
+- replace: "\u21A6"
+  trigger: '\mapst '
+- replace: "\u21A6"
+  trigger: '\maps '
+- replace: "\u21A6"
+  trigger: '\map '
+- replace: "\u2110"
+  trigger: '\mathscr{I '
+- replace: "\u2110"
+  trigger: '\mathscr{ '
+- replace: "\u2110"
+  trigger: '\mathscr '
+- replace: "\u2110"
+  trigger: '\mathsc '
+- replace: "\u2110"
+  trigger: '\maths '
+- replace: "\u2110"
+  trigger: '\math '
+- replace: "\u2110"
+  trigger: '\mat '
+- replace: "\u2212"
+  trigger: '\minu '
+- replace: "\u2212"
+  trigger: '\min '
+- replace: "\u2212"
+  trigger: '\mi '
+- replace: "\u20A5"
+  trigger: '\mil '
+- replace: "\xB5"
+  trigger: '\micr '
+- replace: "\xB5"
+  trigger: '\mic '
+- replace: "\xD7"
+  trigger: '\multiplicatio '
+- replace: "\xD7"
+  trigger: '\multiplicati '
+- replace: "\xD7"
+  trigger: '\multiplicat '
+- replace: "\xD7"
+  trigger: '\multiplica '
+- replace: "\xD7"
+  trigger: '\multiplic '
+- replace: "\xD7"
+  trigger: '\multipli '
+- replace: "\xD7"
+  trigger: '\multipl '
+- replace: "\xD7"
+  trigger: '\multip '
+- replace: "\xD7"
+  trigger: '\multi '
+- replace: "\xD7"
+  trigger: '\mult '
+- replace: "\xD7"
+  trigger: '\mul '
+- replace: "\u22B8"
+  trigger: '\multima '
+- replace: "\u22B8"
+  trigger: '\multim '
+- replace: "\u2127"
+  trigger: '\mh '
+- replace: "\u22A7"
+  trigger: '\model '
+- replace: "\u22A7"
+  trigger: '\mode '
+- replace: "\u22A7"
+  trigger: '\mod '
+- replace: "\U0001F6C7"
+  trigger: '\prohibite '
+- replace: "\U0001F6C7"
+  trigger: '\prohibit '
+- replace: "\U0001F6C7"
+  trigger: '\prohibi '
+- replace: "\U0001F6C7"
+  trigger: '\prohib '
+- replace: "\U0001F6C7"
+  trigger: '\prohi '
+- replace: "\U0001F6C7"
+  trigger: '\proh '
+- replace: "\U0001F6C7"
+  trigger: '\pro '
+- replace: "\u221D"
+  trigger: '\propt '
+- replace: "\u221D"
+  trigger: '\prop '
+- replace: "\u227E"
+  trigger: '\precappro '
+- replace: "\u227E"
+  trigger: '\precappr '
+- replace: "\u227E"
+  trigger: '\precapp '
+- replace: "\u227E"
+  trigger: '\precap '
+- replace: "\u227E"
+  trigger: '\preca '
+- replace: "\u227C"
+  trigger: '\prece '
+- replace: "\u22E8"
+  trigger: '\precnappro '
+- replace: "\u22E8"
+  trigger: '\precnappr '
+- replace: "\u22E8"
+  trigger: '\precnapp '
+- replace: "\u22E8"
+  trigger: '\precnap '
+- replace: "\u22E8"
+  trigger: '\precna '
+- replace: "\u22E8"
+  trigger: '\precn '
+- replace: "\u22E8"
+  trigger: '\precnsi '
+- replace: "\u22E8"
+  trigger: '\precns '
+- replace: "\u227E"
+  trigger: '\precsi '
+- replace: "\u227E"
+  trigger: '\precs '
+- replace: "\u227A"
+  trigger: '\pre '
+- replace: "\u207B\xB9'"
+  trigger: '\prei '
+- replace: "\u207B\xB9'"
+  trigger: '\preimag '
+- replace: "\u207B\xB9'"
+  trigger: '\preima '
+- replace: "\u2032"
+  trigger: '\prim '
+- replace: "\u2032"
+  trigger: '\pri '
+- replace: "\U0001D4AB"
+  trigger: '\powerse '
+- replace: "\U0001D4AB"
+  trigger: '\powers '
+- replace: "\U0001D4AB"
+  trigger: '\power '
+- replace: "\U0001D4AB"
+  trigger: '\powe '
+- replace: "\U0001D4AB"
+  trigger: '\pow '
+- replace: "\U0001D4AB"
+  trigger: '\po '
+- replace: "\xA3"
+  trigger: '\poun '
+- replace: "\xA3"
+  trigger: '\pou '
+- replace: "\u3250"
+  trigger: '\partnershi '
+- replace: "\u3250"
+  trigger: '\partnersh '
+- replace: "\u3250"
+  trigger: '\partners '
+- replace: "\u3250"
+  trigger: '\partner '
+- replace: "\u3250"
+  trigger: '\partne '
+- replace: "\u3250"
+  trigger: '\partn '
+- replace: "\u3250"
+  trigger: '\part '
+- replace: "\u3250"
+  trigger: '\par '
+- replace: "\u2202"
+  trigger: '\partia '
+- replace: "\u2202"
+  trigger: '\parti '
+- replace: "\xB6"
+  trigger: '\paragrap '
+- replace: "\xB6"
+  trigger: '\paragra '
+- replace: "\xB6"
+  trigger: '\paragr '
+- replace: "\xB6"
+  trigger: '\parag '
+- replace: "\xB6"
+  trigger: '\para '
+- replace: "\u2225"
+  trigger: '\paralle '
+- replace: "\u2225"
+  trigger: '\parall '
+- replace: "\u2225"
+  trigger: '\paral '
+- replace: "\u2225"
+  trigger: '\fuzz '
+- replace: "\u2225"
+  trigger: '\fuz '
+- replace: "\u2225"
+  trigger: '\fu '
+- replace: "\u15EE"
+  trigger: '\^per '
+- replace: "\u15EE"
+  trigger: '\^pe '
+- replace: "\u2030"
+  trigger: '\permi '
+- replace: "\u2030"
+  trigger: '\perm '
+- replace: "\u214C"
+  trigger: '\pe '
+- replace: "\u20B1"
+  trigger: '\pes '
+- replace: "\u20A7"
+  trigger: '\peset '
+- replace: "\u20A7"
+  trigger: '\pese '
+- replace: "\xB6"
+  trigger: '\pilcro '
+- replace: "\xB6"
+  trigger: '\pilcr '
+- replace: "\xB6"
+  trigger: '\pilc '
+- replace: "\xB6"
+  trigger: '\pil '
+- replace: "\u22D4"
+  trigger: '\pitchfor '
+- replace: "\u22D4"
+  trigger: '\pitchfo '
+- replace: "\u22D4"
+  trigger: '\pitchf '
+- replace: "\u22D4"
+  trigger: '\pitch '
+- replace: "\u22D4"
+  trigger: '\pitc '
+- replace: "\u22D4"
+  trigger: '\pit '
+- replace: "\u2264"
+  trigger: '\leqslan '
+- replace: "\u2264"
+  trigger: '\leqsla '
+- replace: "\u2264"
+  trigger: '\leqsl '
+- replace: "\u2264"
+  trigger: '\leqs '
+- replace: "\u219D"
+  trigger: '\leadst '
+- replace: "\u219D"
+  trigger: '\leads '
+- replace: "\u219D"
+  trigger: '\lead '
+- replace: "\u219D"
+  trigger: '\lea '
+- replace: "\u21A2"
+  trigger: '\leftarrowtai '
+- replace: "\u21A2"
+  trigger: '\leftarrowta '
+- replace: "\u21A2"
+  trigger: '\leftarrowt '
+- replace: "\u2190"
+  trigger: '\leftarro '
+- replace: "\u2190"
+  trigger: '\leftarr '
+- replace: "\u2190"
+  trigger: '\leftar '
+- replace: "\u2190"
+  trigger: '\lefta '
+- replace: "\u2190"
+  trigger: '\left '
+- replace: "\u2190"
+  trigger: '\lef '
+- replace: "\u21BD"
+  trigger: '\leftharpoondow '
+- replace: "\u21BD"
+  trigger: '\leftharpoondo '
+- replace: "\u21BD"
+  trigger: '\leftharpoond '
+- replace: "\u21BD"
+  trigger: '\leftharpoon '
+- replace: "\u21BD"
+  trigger: '\leftharpoo '
+- replace: "\u21BD"
+  trigger: '\leftharpo '
+- replace: "\u21BD"
+  trigger: '\leftharp '
+- replace: "\u21BD"
+  trigger: '\lefthar '
+- replace: "\u21BD"
+  trigger: '\leftha '
+- replace: "\u21BD"
+  trigger: '\lefth '
+- replace: "\u21BC"
+  trigger: '\leftharpoonu '
+- replace: "\u21C7"
+  trigger: '\leftleftarrow '
+- replace: "\u21C7"
+  trigger: '\leftleftarro '
+- replace: "\u21C7"
+  trigger: '\leftleftarr '
+- replace: "\u21C7"
+  trigger: '\leftleftar '
+- replace: "\u21C7"
+  trigger: '\leftlefta '
+- replace: "\u21C7"
+  trigger: '\leftleft '
+- replace: "\u21C7"
+  trigger: '\leftlef '
+- replace: "\u21C7"
+  trigger: '\leftle '
+- replace: "\u21C7"
+  trigger: '\leftl '
+- replace: "\u2194"
+  trigger: '\leftrightarro '
+- replace: "\u2194"
+  trigger: '\leftrightarr '
+- replace: "\u2194"
+  trigger: '\leftrightar '
+- replace: "\u2194"
+  trigger: '\leftrighta '
+- replace: "\u2194"
+  trigger: '\leftright '
+- replace: "\u2194"
+  trigger: '\leftrigh '
+- replace: "\u2194"
+  trigger: '\leftrig '
+- replace: "\u2194"
+  trigger: '\leftri '
+- replace: "\u2194"
+  trigger: '\leftr '
+- replace: "\u21CB"
+  trigger: '\leftrightharpoon '
+- replace: "\u21CB"
+  trigger: '\leftrightharpoo '
+- replace: "\u21CB"
+  trigger: '\leftrightharpo '
+- replace: "\u21CB"
+  trigger: '\leftrightharp '
+- replace: "\u21CB"
+  trigger: '\leftrighthar '
+- replace: "\u21CB"
+  trigger: '\leftrightha '
+- replace: "\u21CB"
+  trigger: '\leftrighth '
+- replace: "\u21AD"
+  trigger: '\leftrightsquigarro '
+- replace: "\u21AD"
+  trigger: '\leftrightsquigarr '
+- replace: "\u21AD"
+  trigger: '\leftrightsquigar '
+- replace: "\u21AD"
+  trigger: '\leftrightsquiga '
+- replace: "\u21AD"
+  trigger: '\leftrightsquig '
+- replace: "\u21AD"
+  trigger: '\leftrightsqui '
+- replace: "\u21AD"
+  trigger: '\leftrightsqu '
+- replace: "\u21AD"
+  trigger: '\leftrightsq '
+- replace: "\u21AD"
+  trigger: '\leftrights '
+- replace: "\u22CB"
+  trigger: '\leftthreetime '
+- replace: "\u22CB"
+  trigger: '\leftthreetim '
+- replace: "\u22CB"
+  trigger: '\leftthreeti '
+- replace: "\u22CB"
+  trigger: '\leftthreet '
+- replace: "\u22CB"
+  trigger: '\leftthree '
+- replace: "\u22CB"
+  trigger: '\leftthre '
+- replace: "\u22CB"
+  trigger: '\leftthr '
+- replace: "\u22CB"
+  trigger: '\leftth '
+- replace: "\u22CB"
+  trigger: '\leftt '
+- replace: "\u2272"
+  trigger: '\lessappro '
+- replace: "\u2272"
+  trigger: '\lessappr '
+- replace: "\u2272"
+  trigger: '\lessapp '
+- replace: "\u2272"
+  trigger: '\lessap '
+- replace: "\u2272"
+  trigger: '\lessa '
+- replace: "\u2272"
+  trigger: '\less '
+- replace: "\u2272"
+  trigger: '\les '
+- replace: "\u22D6"
+  trigger: '\lessdo '
+- replace: "\u22D6"
+  trigger: '\lessd '
+- replace: "\u22DA"
+  trigger: '\lesseqgt '
+- replace: "\u22DA"
+  trigger: '\lesseqg '
+- replace: "\u22DA"
+  trigger: '\lesseq '
+- replace: "\u22DA"
+  trigger: '\lesse '
+- replace: "\u22DA"
+  trigger: '\lesseqqgt '
+- replace: "\u22DA"
+  trigger: '\lesseqqg '
+- replace: "\u22DA"
+  trigger: '\lesseqq '
+- replace: "\u2276"
+  trigger: '\lessgt '
+- replace: "\u2276"
+  trigger: '\lessg '
+- replace: "\u2272"
+  trigger: '\lesssi '
+- replace: "\u2272"
+  trigger: '\lesss '
+- replace: "\u2294"
+  trigger: '\lu '
+- replace: "\u231F"
+  trigger: '\lrcorne '
+- replace: "\u231F"
+  trigger: '\lrcorn '
+- replace: "\u231F"
+  trigger: '\lrcor '
+- replace: "\u231F"
+  trigger: '\lrco '
+- replace: "\u231F"
+  trigger: '\lrc '
+- replace: "\u21C6"
+  trigger: '\l-r '
+- replace: "\u231E"
+  trigger: '\llcorne '
+- replace: "\u231E"
+  trigger: '\llcorn '
+- replace: "\u231E"
+  trigger: '\llcor '
+- replace: "\u231E"
+  trigger: '\llco '
+- replace: "\u231E"
+  trigger: '\llc '
+- replace: "\u301A"
+  trigger: '\llbracke '
+- replace: "\u301A"
+  trigger: '\llbrack '
+- replace: "\u301A"
+  trigger: '\llbrac '
+- replace: "\u301A"
+  trigger: '\llbra '
+- replace: "\u301A"
+  trigger: '\llbr '
+- replace: "\u301A"
+  trigger: '\llb '
+- replace: "\u27C5"
+  trigger: '\lba '
+- replace: "\u27C5"
+  trigger: '\lb '
+- replace: "\u03BB"
+  trigger: '\lambd '
+- replace: "\u03BB"
+  trigger: '\lamb '
+- replace: "\u03BB"
+  trigger: '\lamd '
+- replace: "\u20BE"
+  trigger: '\lar '
+- replace: "\u27E8"
+  trigger: '\langl '
+- replace: "\u27E8"
+  trigger: '\lang '
+- replace: "\u27E8"
+  trigger: '\lan '
+- replace: "\u20A4"
+  trigger: '\lir '
+- replace: "\u2308"
+  trigger: '\lcei '
+- replace: "\u2308"
+  trigger: '\lce '
+- replace: "\u2308"
+  trigger: '\lc '
+- replace: "\u2026"
+  trigger: '\ldot '
+- replace: "\u2026"
+  trigger: '\ldo '
+- replace: "\u2026"
+  trigger: '\ld '
+- replace: "\u300A"
+  trigger: '\ldat '
+- replace: "\u300A"
+  trigger: '\lda '
+- replace: "\u230A"
+  trigger: '\lfloo '
+- replace: "\u230A"
+  trigger: '\lflo '
+- replace: "\u230A"
+  trigger: '\lfl '
+- replace: "\u25C1"
+  trigger: '\lh '
+- replace: "\u22E6"
+  trigger: '\lnappro '
+- replace: "\u22E6"
+  trigger: '\lnappr '
+- replace: "\u22E6"
+  trigger: '\lnapp '
+- replace: "\u22E6"
+  trigger: '\lnap '
+- replace: "\u22E6"
+  trigger: '\lna '
+- replace: "\u22E6"
+  trigger: '\ln '
+- replace: "\u2268"
+  trigger: '\lne '
+- replace: "\u22E6"
+  trigger: '\lnsi '
+- replace: "\u22E6"
+  trigger: '\lns '
+- replace: "\xAC"
+  trigger: '\lno '
+- replace: "\u27F5"
+  trigger: '\longleftarro '
+- replace: "\u27F5"
+  trigger: '\longleftarr '
+- replace: "\u27F5"
+  trigger: '\longleftar '
+- replace: "\u27F5"
+  trigger: '\longlefta '
+- replace: "\u27F5"
+  trigger: '\longleft '
+- replace: "\u27F5"
+  trigger: '\longlef '
+- replace: "\u27F5"
+  trigger: '\longle '
+- replace: "\u27F5"
+  trigger: '\longl '
+- replace: "\u27F5"
+  trigger: '\long '
+- replace: "\u27F5"
+  trigger: '\lon '
+- replace: "\u27F5"
+  trigger: '\lo '
+- replace: "\u27F7"
+  trigger: '\longleftrightarro '
+- replace: "\u27F7"
+  trigger: '\longleftrightarr '
+- replace: "\u27F7"
+  trigger: '\longleftrightar '
+- replace: "\u27F7"
+  trigger: '\longleftrighta '
+- replace: "\u27F7"
+  trigger: '\longleftright '
+- replace: "\u27F7"
+  trigger: '\longleftrigh '
+- replace: "\u27F7"
+  trigger: '\longleftrig '
+- replace: "\u27F7"
+  trigger: '\longleftri '
+- replace: "\u27F7"
+  trigger: '\longleftr '
+- replace: "\u27F6"
+  trigger: '\longrightarro '
+- replace: "\u27F6"
+  trigger: '\longrightarr '
+- replace: "\u27F6"
+  trigger: '\longrightar '
+- replace: "\u27F6"
+  trigger: '\longrighta '
+- replace: "\u27F6"
+  trigger: '\longright '
+- replace: "\u27F6"
+  trigger: '\longrigh '
+- replace: "\u27F6"
+  trigger: '\longrig '
+- replace: "\u27F6"
+  trigger: '\longri '
+- replace: "\u27F6"
+  trigger: '\longr '
+- replace: "\u21AB"
+  trigger: '\looparrowlef '
+- replace: "\u21AB"
+  trigger: '\looparrowle '
+- replace: "\u21AB"
+  trigger: '\looparrowl '
+- replace: "\u21AB"
+  trigger: '\looparrow '
+- replace: "\u21AB"
+  trigger: '\looparro '
+- replace: "\u21AB"
+  trigger: '\looparr '
+- replace: "\u21AB"
+  trigger: '\loopar '
+- replace: "\u21AB"
+  trigger: '\loopa '
+- replace: "\u21AB"
+  trigger: '\loop '
+- replace: "\u21AB"
+  trigger: '\loo '
+- replace: "\u21AC"
+  trigger: '\looparrowrigh '
+- replace: "\u21AC"
+  trigger: '\looparrowrig '
+- replace: "\u21AC"
+  trigger: '\looparrowri '
+- replace: "\u21AC"
+  trigger: '\looparrowr '
+- replace: "\u2727"
+  trigger: '\lozeng '
+- replace: "\u2727"
+  trigger: '\lozen '
+- replace: "\u2727"
+  trigger: '\loze '
+- replace: "\u2727"
+  trigger: '\loz '
+- replace: "\u22C9"
+  trigger: '\ltime '
+- replace: "\u22C9"
+  trigger: '\ltim '
+- replace: "\u22C9"
+  trigger: '\lti '
+- replace: "\u22C9"
+  trigger: '\lt '
+- replace: "\u2268"
+  trigger: '\lvertneq '
+- replace: "\u2268"
+  trigger: '\lvertne '
+- replace: "\u2268"
+  trigger: '\lvertn '
+- replace: "\u2268"
+  trigger: '\lvert '
+- replace: "\u2268"
+  trigger: '\lver '
+- replace: "\u2268"
+  trigger: '\lve '
+- replace: "\u2268"
+  trigger: '\lv '
+- replace: "\u2265"
+  trigger: '\geqslan '
+- replace: "\u2265"
+  trigger: '\geqsla '
+- replace: "\u2265"
+  trigger: '\geqsl '
+- replace: "\u2265"
+  trigger: '\geqs '
+- replace: "\u2190"
+  trigger: '\get '
+- replace: "\u2293"
+  trigger: '\gl '
+- replace: "\u20B2"
+  trigger: '\guaran '
+- replace: "\u20B2"
+  trigger: '\guara '
+- replace: "\u20B2"
+  trigger: '\guar '
+- replace: "\u20B2"
+  trigger: '\gua '
+- replace: "\u20B2"
+  trigger: '\gu '
+- replace: "\u03EB"
+  trigger: '\gangi '
+- replace: "\u03EB"
+  trigger: '\gang '
+- replace: "\u03EB"
+  trigger: '\gan '
+- replace: "\u03B3"
+  trigger: '\gamm '
+- replace: "\u03B3"
+  trigger: '\gam '
+- replace: "\u2137"
+  trigger: '\gime '
+- replace: "\u2137"
+  trigger: '\gim '
+- replace: "\u2137"
+  trigger: '\gi '
+- replace: "\u22E7"
+  trigger: '\gnappro '
+- replace: "\u22E7"
+  trigger: '\gnappr '
+- replace: "\u22E7"
+  trigger: '\gnapp '
+- replace: "\u22E7"
+  trigger: '\gnap '
+- replace: "\u22E7"
+  trigger: '\gna '
+- replace: "\u22E7"
+  trigger: '\gn '
+- replace: "\u2269"
+  trigger: '\gne '
+- replace: "\u22E7"
+  trigger: '\gnsi '
+- replace: "\u22E7"
+  trigger: '\gns '
+- replace: "\u2273"
+  trigger: '\gtrappro '
+- replace: "\u2273"
+  trigger: '\gtrappr '
+- replace: "\u2273"
+  trigger: '\gtrapp '
+- replace: "\u2273"
+  trigger: '\gtrap '
+- replace: "\u2273"
+  trigger: '\gtra '
+- replace: "\u2273"
+  trigger: '\gtr '
+- replace: "\u2273"
+  trigger: '\gt '
+- replace: "\u22D7"
+  trigger: '\gtrdo '
+- replace: "\u22D7"
+  trigger: '\gtrd '
+- replace: "\u22DB"
+  trigger: '\gtreqles '
+- replace: "\u22DB"
+  trigger: '\gtreqle '
+- replace: "\u22DB"
+  trigger: '\gtreql '
+- replace: "\u22DB"
+  trigger: '\gtreq '
+- replace: "\u22DB"
+  trigger: '\gtre '
+- replace: "\u22DB"
+  trigger: '\gtreqqles '
+- replace: "\u22DB"
+  trigger: '\gtreqqle '
+- replace: "\u22DB"
+  trigger: '\gtreqql '
+- replace: "\u22DB"
+  trigger: '\gtreqq '
+- replace: "\u2277"
+  trigger: '\gtrles '
+- replace: "\u2277"
+  trigger: '\gtrle '
+- replace: "\u2277"
+  trigger: '\gtrl '
+- replace: "\u2273"
+  trigger: '\gtrsi '
+- replace: "\u2273"
+  trigger: '\gtrs '
+- replace: "\u2269"
+  trigger: '\gvertneq '
+- replace: "\u2269"
+  trigger: '\gvertne '
+- replace: "\u2269"
+  trigger: '\gvertn '
+- replace: "\u2269"
+  trigger: '\gvert '
+- replace: "\u2269"
+  trigger: '\gver '
+- replace: "\u2269"
+  trigger: '\gve '
+- replace: "\u2269"
+  trigger: '\gv '
+- replace: "\u2018"
+  trigger: '\gr '
+- replace: "\u221A"
+  trigger: '\roo '
+- replace: "\u221A"
+  trigger: '\ro '
+- replace: "\u2282"
+  trigger: '\ssu '
+- replace: "\u228F"
+  trigger: '\ssqu '
+- replace: "\u228F"
+  trigger: '\ssq '
+- replace: "\u2286"
+  trigger: '\subsete '
+- replace: "\u228A"
+  trigger: '\subsetne '
+- replace: "\u228A"
+  trigger: '\subsetn '
+- replace: "\u2282"
+  trigger: '\subse '
+- replace: "\u2282"
+  trigger: '\subs '
+- replace: "\u2286"
+  trigger: '\su '
+- replace: "\u2287"
+  trigger: '\supsete '
+- replace: "\u228B"
+  trigger: '\supsetne '
+- replace: "\u228B"
+  trigger: '\supsetn '
+- replace: "\u2283"
+  trigger: '\supse '
+- replace: "\u2283"
+  trigger: '\sups '
+- replace: "\u221A"
+  trigger: '\sur '
+- replace: "\u227F"
+  trigger: '\succappro '
+- replace: "\u227F"
+  trigger: '\succappr '
+- replace: "\u227F"
+  trigger: '\succapp '
+- replace: "\u227F"
+  trigger: '\succap '
+- replace: "\u227F"
+  trigger: '\succa '
+- replace: "\u227D"
+  trigger: '\succcurlye '
+- replace: "\u227D"
+  trigger: '\succcurly '
+- replace: "\u227D"
+  trigger: '\succcurl '
+- replace: "\u227D"
+  trigger: '\succcur '
+- replace: "\u227D"
+  trigger: '\succcu '
+- replace: "\u227D"
+  trigger: '\succc '
+- replace: "\u227D"
+  trigger: '\succe '
+- replace: "\u22E9"
+  trigger: '\succnappro '
+- replace: "\u22E9"
+  trigger: '\succnappr '
+- replace: "\u22E9"
+  trigger: '\succnapp '
+- replace: "\u22E9"
+  trigger: '\succnap '
+- replace: "\u22E9"
+  trigger: '\succna '
+- replace: "\u22E9"
+  trigger: '\succn '
+- replace: "\u22E9"
+  trigger: '\succnsi '
+- replace: "\u22E9"
+  trigger: '\succns '
+- replace: "\u227F"
+  trigger: '\succsi '
+- replace: "\u227F"
+  trigger: '\succs '
+- replace: "\u227B"
+  trigger: '\suc '
+- replace: "\u2933"
+  trigger: '\specialize '
+- replace: "\u2933"
+  trigger: '\specializ '
+- replace: "\u2933"
+  trigger: '\speciali '
+- replace: "\u2933"
+  trigger: '\special '
+- replace: "\u2933"
+  trigger: '\specia '
+- replace: "\u2933"
+  trigger: '\speci '
+- replace: "\u2933"
+  trigger: '\spec '
+- replace: "\u2933"
+  trigger: '\spe '
+- replace: "\u2933"
+  trigger: '\sp '
+- replace: "\u2291"
+  trigger: '\squ '
+- replace: "\u25A1"
+  trigger: '\squar '
+- replace: "\u25A1"
+  trigger: '\squa '
+- replace: "\u21DD"
+  trigger: '\squigarrowrigh '
+- replace: "\u21DD"
+  trigger: '\squigarrowrig '
+- replace: "\u21DD"
+  trigger: '\squigarrowri '
+- replace: "\u21DD"
+  trigger: '\squigarrowr '
+- replace: "\u21DD"
+  trigger: '\squigarrow '
+- replace: "\u21DD"
+  trigger: '\squigarro '
+- replace: "\u21DD"
+  trigger: '\squigarr '
+- replace: "\u21DD"
+  trigger: '\squigar '
+- replace: "\u21DD"
+  trigger: '\squiga '
+- replace: "\u21DD"
+  trigger: '\squig '
+- replace: "\u21DD"
+  trigger: '\squi '
+- replace: "\u2293"
+  trigger: '\sqca '
+- replace: "\u2293"
+  trigger: '\sqc '
+- replace: "\u2294"
+  trigger: '\sqcu '
+- replace: "\u221A"
+  trigger: '\sqr '
+- replace: "\u2291"
+  trigger: '\sqsubsete '
+- replace: "\u228F"
+  trigger: '\sqsubse '
+- replace: "\u228F"
+  trigger: '\sqsubs '
+- replace: "\u228F"
+  trigger: '\sqsub '
+- replace: "\u228F"
+  trigger: '\sqsu '
+- replace: "\u228F"
+  trigger: '\sqs '
+- replace: "\u2292"
+  trigger: '\sqsupsete '
+- replace: "\u2290"
+  trigger: '\sqsupse '
+- replace: "\u2290"
+  trigger: '\sqsups '
+- replace: "\u2290"
+  trigger: '\sqsup '
+- replace: "\u2739"
+  trigger: '\st1 '
+- replace: "\u03DB"
+  trigger: '\stigm '
+- replace: "\u03DB"
+  trigger: '\stig '
+- replace: "\u03DB"
+  trigger: '\sti '
+- replace: "\u22C6"
+  trigger: '\sta '
+- replace: "\u03C6"
+  trigger: '\straightph '
+- replace: "\u03C6"
+  trigger: '\straightp '
+- replace: "\u03C6"
+  trigger: '\straight '
+- replace: "\u03C6"
+  trigger: '\straigh '
+- replace: "\u03C6"
+  trigger: '\straig '
+- replace: "\u03C6"
+  trigger: '\strai '
+- replace: "\u03C6"
+  trigger: '\stra '
+- replace: "\u03C6"
+  trigger: '\str '
+- replace: "\u20B7"
+  trigger: '\spesmil '
+- replace: "\u20B7"
+  trigger: '\spesmi '
+- replace: "\u20B7"
+  trigger: '\spesm '
+- replace: "\u20B7"
+  trigger: '\spes '
+- replace: "\u2660"
+  trigger: '\spadesui '
+- replace: "\u2660"
+  trigger: '\spadesu '
+- replace: "\u2660"
+  trigger: '\spades '
+- replace: "\u2660"
+  trigger: '\spade '
+- replace: "\u2660"
+  trigger: '\spad '
+- replace: "\u2660"
+  trigger: '\spa '
+- replace: "\u2222"
+  trigger: '\sphericalangl '
+- replace: "\u2222"
+  trigger: '\sphericalang '
+- replace: "\u2222"
+  trigger: '\sphericalan '
+- replace: "\u2222"
+  trigger: '\sphericala '
+- replace: "\u2222"
+  trigger: '\spherical '
+- replace: "\u2222"
+  trigger: '\spherica '
+- replace: "\u2222"
+  trigger: '\spheric '
+- replace: "\u2222"
+  trigger: '\spheri '
+- replace: "\u2222"
+  trigger: '\spher '
+- replace: "\u2222"
+  trigger: '\sphe '
+- replace: "\u2222"
+  trigger: '\sph '
+- replace: "\xA7"
+  trigger: '\sectio '
+- replace: "\xA7"
+  trigger: '\secti '
+- replace: "\xA7"
+  trigger: '\sect '
+- replace: "\xA7"
+  trigger: '\sec '
+- replace: "\xA7"
+  trigger: '\se '
+- replace: "\u2198"
+  trigger: '\searro '
+- replace: "\u2198"
+  trigger: '\searr '
+- replace: "\u2198"
+  trigger: '\sear '
+- replace: "\u2198"
+  trigger: '\sea '
+- replace: "\u2216"
+  trigger: '\setminu '
+- replace: "\u2216"
+  trigger: '\setmin '
+- replace: "\u2216"
+  trigger: '\setmi '
+- replace: "\u2216"
+  trigger: '\setm '
+- replace: "\u2216"
+  trigger: '\set '
+- replace: "\u03FB"
+  trigger: '\sa '
+- replace: "\u03E1"
+  trigger: '\samp '
+- replace: "\u03E1"
+  trigger: '\sam '
+- replace: "\u2223"
+  trigger: '\shortmi '
+- replace: "\u2223"
+  trigger: '\shortm '
+- replace: "\u2223"
+  trigger: '\short '
+- replace: "\u2223"
+  trigger: '\shor '
+- replace: "\u2225"
+  trigger: '\shortparalle '
+- replace: "\u2225"
+  trigger: '\shortparall '
+- replace: "\u2225"
+  trigger: '\shortparal '
+- replace: "\u2225"
+  trigger: '\shortpara '
+- replace: "\u2225"
+  trigger: '\shortpar '
+- replace: "\u2225"
+  trigger: '\shortpa '
+- replace: "\u2225"
+  trigger: '\shortp '
+- replace: "\u03F8"
+  trigger: '\sh '
+- replace: "\u03ED"
+  trigger: '\shim '
+- replace: "\u03ED"
+  trigger: '\shi '
+- replace: "\u03E3"
+  trigger: '\she '
+- replace: "\u266F"
+  trigger: '\shar '
+- replace: "\u266F"
+  trigger: '\sha '
+- replace: "\u03C3"
+  trigger: '\sigm '
+- replace: "\u03C3"
+  trigger: '\sig '
+- replace: "\u2243"
+  trigger: '\sime '
+- replace: "\uFE68"
+  trigger: '\sb '
+- replace: "\u2210"
+  trigger: '\smallamal '
+- replace: "\u2210"
+  trigger: '\smallama '
+- replace: "\u2210"
+  trigger: '\smallam '
+- replace: "\u2210"
+  trigger: '\smalla '
+- replace: "\u2210"
+  trigger: '\small '
+- replace: "\u2210"
+  trigger: '\smal '
+- replace: "\u2210"
+  trigger: '\sma '
+- replace: "\u2210"
+  trigger: '\sm '
+- replace: "\u2216"
+  trigger: '\smallsetminu '
+- replace: "\u2216"
+  trigger: '\smallsetmin '
+- replace: "\u2216"
+  trigger: '\smallsetmi '
+- replace: "\u2216"
+  trigger: '\smallsetm '
+- replace: "\u2216"
+  trigger: '\smallset '
+- replace: "\u2216"
+  trigger: '\smallse '
+- replace: "\u2216"
+  trigger: '\smalls '
+- replace: "\u2323"
+  trigger: '\smallsmil '
+- replace: "\u2323"
+  trigger: '\smallsmi '
+- replace: "\u2323"
+  trigger: '\smallsm '
+- replace: "\u2323"
+  trigger: '\smil '
+- replace: "\u2323"
+  trigger: '\smi '
+- replace: "\u2022"
+  trigger: '\smu '
+- replace: "\u2199"
+  trigger: '\swarro '
+- replace: "\u2199"
+  trigger: '\swarr '
+- replace: "\u2199"
+  trigger: '\swar '
+- replace: "\u2199"
+  trigger: '\swa '
+- replace: "\u2199"
+  trigger: '\sw '
+- replace: "\u25C0"
+  trigger: '\T '
+- replace: "\u03A4"
+  trigger: '\Ta '
+- replace: "\u0398"
+  trigger: '\Thet '
+- replace: "\u0398"
+  trigger: '\The '
+- replace: "\u0398"
+  trigger: '\Th '
+- replace: "\u222A"
+  trigger: '\unio '
+- replace: "\u222A"
+  trigger: '\uni '
+- replace: "\u203F"
+  trigger: '\underti '
+- replace: "\u203F"
+  trigger: '\undert '
+- replace: "\u203F"
+  trigger: '\under '
+- replace: "\u203F"
+  trigger: '\unde '
+- replace: "\u203F"
+  trigger: '\und '
+- replace: "\u2BD1"
+  trigger: '\uncertaint '
+- replace: "\u2BD1"
+  trigger: '\uncertain '
+- replace: "\u2BD1"
+  trigger: '\uncertai '
+- replace: "\u2BD1"
+  trigger: '\uncerta '
+- replace: "\u2BD1"
+  trigger: '\uncert '
+- replace: "\u2BD1"
+  trigger: '\uncer '
+- replace: "\u2BD1"
+  trigger: '\unce '
+- replace: "\u2BD1"
+  trigger: '\unc '
+- replace: "\u231C"
+  trigger: '\ulcorne '
+- replace: "\u231C"
+  trigger: '\ulcorn '
+- replace: "\u231C"
+  trigger: '\ulcor '
+- replace: "\u231C"
+  trigger: '\ulco '
+- replace: "\u231C"
+  trigger: '\ulc '
+- replace: "\u231D"
+  trigger: '\urcorne '
+- replace: "\u231D"
+  trigger: '\urcorn '
+- replace: "\u231D"
+  trigger: '\urcor '
+- replace: "\u231D"
+  trigger: '\urco '
+- replace: "\u231D"
+  trigger: '\urc '
+- replace: "\u21C5"
+  trigger: '\u-d '
+- replace: "\u219F"
+  trigger: '\uu '
+- replace: "\u03C5"
+  trigger: '\upsilo '
+- replace: "\u03C5"
+  trigger: '\upsil '
+- replace: "\u03C5"
+  trigger: '\upsi '
+- replace: "\u03C5"
+  trigger: '\ups '
+- replace: "\u03C5"
+  trigger: '\up '
+- replace: "\u2191"
+  trigger: '\uparro '
+- replace: "\u2191"
+  trigger: '\uparr '
+- replace: "\u2191"
+  trigger: '\upar '
+- replace: "\u2191"
+  trigger: '\upa '
+- replace: "\u2195"
+  trigger: '\updownarro '
+- replace: "\u2195"
+  trigger: '\updownarr '
+- replace: "\u2195"
+  trigger: '\updownar '
+- replace: "\u2195"
+  trigger: '\updowna '
+- replace: "\u2195"
+  trigger: '\updown '
+- replace: "\u2195"
+  trigger: '\updow '
+- replace: "\u2195"
+  trigger: '\updo '
+- replace: "\u2195"
+  trigger: '\upd '
+- replace: "\u21BF"
+  trigger: '\upleftharpoo '
+- replace: "\u21BF"
+  trigger: '\upleftharpo '
+- replace: "\u21BF"
+  trigger: '\upleftharp '
+- replace: "\u21BF"
+  trigger: '\uplefthar '
+- replace: "\u21BF"
+  trigger: '\upleftha '
+- replace: "\u21BF"
+  trigger: '\uplefth '
+- replace: "\u21BF"
+  trigger: '\upleft '
+- replace: "\u21BF"
+  trigger: '\uplef '
+- replace: "\u21BF"
+  trigger: '\uple '
+- replace: "\u21BF"
+  trigger: '\upl '
+- replace: "\u228E"
+  trigger: '\uplu '
+- replace: "\u21BE"
+  trigger: '\uprightharpoo '
+- replace: "\u21BE"
+  trigger: '\uprightharpo '
+- replace: "\u21BE"
+  trigger: '\uprightharp '
+- replace: "\u21BE"
+  trigger: '\uprighthar '
+- replace: "\u21BE"
+  trigger: '\uprightha '
+- replace: "\u21BE"
+  trigger: '\uprighth '
+- replace: "\u21BE"
+  trigger: '\upright '
+- replace: "\u21BE"
+  trigger: '\uprigh '
+- replace: "\u21BE"
+  trigger: '\uprig '
+- replace: "\u21BE"
+  trigger: '\upri '
+- replace: "\u21BE"
+  trigger: '\upr '
+- replace: "\u21C8"
+  trigger: '\upuparrow '
+- replace: "\u21C8"
+  trigger: '\upuparro '
+- replace: "\u21C8"
+  trigger: '\upuparr '
+- replace: "\u21C8"
+  trigger: '\upupar '
+- replace: "\u21C8"
+  trigger: '\upupa '
+- replace: "\u21C8"
+  trigger: '\upup '
+- replace: "\u21C8"
+  trigger: '\upu '
+- replace: "\u22C0"
+  trigger: '\An '
+- replace: "\u0391"
+  trigger: '\Alph '
+- replace: "\u0391"
+  trigger: '\Alp '
+- replace: "\u0391"
+  trigger: '\Al '
+- replace: "\u03A9"
+  trigger: '\Omeg '
+- replace: "\u03A9"
+  trigger: '\Ome '
+- replace: "\u03A9"
+  trigger: '\Om '
+- replace: "\u039F"
+  trigger: '\Omicro '
+- replace: "\u039F"
+  trigger: '\Omicr '
+- replace: "\u039F"
+  trigger: '\Omic '
+- replace: "\u039F"
+  trigger: '\Omi '
+- replace: "\u2124"
+  trigger: '\In '
+- replace: "\u22C2"
+  trigger: '\Inte '
+- replace: "\u22C2"
+  trigger: '\bInte '
+- replace: "\u22C2"
+  trigger: '\bInt '
+- replace: "\u22C2"
+  trigger: '\bIn '
+- replace: "\u22C2"
+  trigger: '\bI '
+- replace: "\u0399"
+  trigger: '\Iot '
+- replace: "\u0399"
+  trigger: '\Io '
+- replace: "\u22C3"
+  trigger: '\Unio '
+- replace: "\u22C3"
+  trigger: '\Uni '
+- replace: "\u22C3"
+  trigger: '\bUnio '
+- replace: "\u22C3"
+  trigger: '\bUni '
+- replace: "\u22C3"
+  trigger: '\bUn '
+- replace: "\u22C3"
+  trigger: '\bU '
+- replace: "\u03A5"
+  trigger: '\Upsilo '
+- replace: "\u03A5"
+  trigger: '\Upsil '
+- replace: "\u03A5"
+  trigger: '\Upsi '
+- replace: "\u03A5"
+  trigger: '\Ups '
+- replace: "\u03A5"
+  trigger: '\Up '
+- replace: "\u21D1"
+  trigger: '\Uparro '
+- replace: "\u21D1"
+  trigger: '\Uparr '
+- replace: "\u21D1"
+  trigger: '\Upar '
+- replace: "\u21D1"
+  trigger: '\Upa '
+- replace: "\u21D5"
+  trigger: '\Updownarro '
+- replace: "\u21D5"
+  trigger: '\Updownarr '
+- replace: "\u21D5"
+  trigger: '\Updownar '
+- replace: "\u21D5"
+  trigger: '\Updowna '
+- replace: "\u21D5"
+  trigger: '\Updown '
+- replace: "\u21D5"
+  trigger: '\Updow '
+- replace: "\u21D5"
+  trigger: '\Updo '
+- replace: "\u21D5"
+  trigger: '\Upd '
+- replace: "\u03EA"
+  trigger: '\Gangi '
+- replace: "\u03EA"
+  trigger: '\Gang '
+- replace: "\u03EA"
+  trigger: '\Gan '
+- replace: "\u0393"
+  trigger: '\Gamm '
+- replace: "\u0393"
+  trigger: '\Gam '
+- replace: "\u2A06"
+  trigger: '\Joi '
+- replace: "\u2A06"
+  trigger: '\Jo '
+- replace: "\u2A06"
+  trigger: '\J '
+- replace: "\u2A06"
+  trigger: '\Lu '
+- replace: "\u039B"
+  trigger: '\Lambd '
+- replace: "\u039B"
+  trigger: '\Lamb '
+- replace: "\u039B"
+  trigger: '\Lam '
+- replace: "\u039B"
+  trigger: '\La '
+- replace: "\u039B"
+  trigger: '\Lamd '
+- replace: "\u21D0"
+  trigger: '\Leftarro '
+- replace: "\u21D0"
+  trigger: '\Leftarr '
+- replace: "\u21D0"
+  trigger: '\Leftar '
+- replace: "\u21D0"
+  trigger: '\Lefta '
+- replace: "\u21D0"
+  trigger: '\Left '
+- replace: "\u21D0"
+  trigger: '\Lef '
+- replace: "\u21D0"
+  trigger: '\Le '
+- replace: "\u21D4"
+  trigger: '\Leftrightarro '
+- replace: "\u21D4"
+  trigger: '\Leftrightarr '
+- replace: "\u21D4"
+  trigger: '\Leftrightar '
+- replace: "\u21D4"
+  trigger: '\Leftrighta '
+- replace: "\u21D4"
+  trigger: '\Leftright '
+- replace: "\u21D4"
+  trigger: '\Leftrigh '
+- replace: "\u21D4"
+  trigger: '\Leftrig '
+- replace: "\u21D4"
+  trigger: '\Leftri '
+- replace: "\u21D4"
+  trigger: '\Leftr '
+- replace: "\u2709"
+  trigger: '\Lette '
+- replace: "\u2709"
+  trigger: '\Lett '
+- replace: "\u2709"
+  trigger: '\Let '
+- replace: "\u21DA"
+  trigger: '\Lleftarro '
+- replace: "\u21DA"
+  trigger: '\Lleftarr '
+- replace: "\u21DA"
+  trigger: '\Lleftar '
+- replace: "\u21DA"
+  trigger: '\Llefta '
+- replace: "\u21DA"
+  trigger: '\Lleft '
+- replace: "\u21DA"
+  trigger: '\Llef '
+- replace: "\u21DA"
+  trigger: '\Lle '
+- replace: "\u21D0"
+  trigger: '\Longleftarro '
+- replace: "\u21D0"
+  trigger: '\Longleftarr '
+- replace: "\u21D0"
+  trigger: '\Longleftar '
+- replace: "\u21D0"
+  trigger: '\Longlefta '
+- replace: "\u21D0"
+  trigger: '\Longleft '
+- replace: "\u21D0"
+  trigger: '\Longlef '
+- replace: "\u21D0"
+  trigger: '\Longle '
+- replace: "\u21D0"
+  trigger: '\Longl '
+- replace: "\u21D0"
+  trigger: '\Long '
+- replace: "\u21D0"
+  trigger: '\Lon '
+- replace: "\u21D0"
+  trigger: '\Lo '
+- replace: "\u21D4"
+  trigger: '\Longleftrightarro '
+- replace: "\u21D4"
+  trigger: '\Longleftrightarr '
+- replace: "\u21D4"
+  trigger: '\Longleftrightar '
+- replace: "\u21D4"
+  trigger: '\Longleftrighta '
+- replace: "\u21D4"
+  trigger: '\Longleftright '
+- replace: "\u21D4"
+  trigger: '\Longleftrigh '
+- replace: "\u21D4"
+  trigger: '\Longleftrig '
+- replace: "\u21D4"
+  trigger: '\Longleftri '
+- replace: "\u21D4"
+  trigger: '\Longleftr '
+- replace: "\u21D2"
+  trigger: '\Longrightarro '
+- replace: "\u21D2"
+  trigger: '\Longrightarr '
+- replace: "\u21D2"
+  trigger: '\Longrightar '
+- replace: "\u21D2"
+  trigger: '\Longrighta '
+- replace: "\u21D2"
+  trigger: '\Longright '
+- replace: "\u21D2"
+  trigger: '\Longrigh '
+- replace: "\u21D2"
+  trigger: '\Longrig '
+- replace: "\u21D2"
+  trigger: '\Longri '
+- replace: "\u21D2"
+  trigger: '\Longr '
+- replace: "\u2A05"
+  trigger: '\Mee '
+- replace: "\u2A05"
+  trigger: '\Me '
+- replace: "\u2A05"
+  trigger: '\M '
+- replace: "\u2A06"
+  trigger: '\Su '
+- replace: "\u2A05"
+  trigger: '\Sqca '
+- replace: "\u2A05"
+  trigger: '\Sqc '
+- replace: "\u2A05"
+  trigger: '\Sq '
+- replace: "\u2A06"
+  trigger: '\Sqcu '
+- replace: "\u21B0"
+  trigger: '\Ls '
+- replace: "\u22AA"
+  trigger: '\||| '
+- replace: "\u2102"
+  trigger: '\Co '
+- replace: "\u03A7"
+  trigger: '\Ch '
+- replace: "\u22D2"
+  trigger: '\Ca '
+- replace: "\u22D3"
+  trigger: '\Cu '
+- replace: "\xA4"
+  trigger: '\currenc '
+- replace: "\xA4"
+  trigger: '\curren '
+- replace: "\xA4"
+  trigger: '\curre '
+- replace: "\xA4"
+  trigger: '\curr '
+- replace: "\u22DE"
+  trigger: '\curlyeqpre '
+- replace: "\u22DE"
+  trigger: '\curlyeqpr '
+- replace: "\u22DE"
+  trigger: '\curlyeqp '
+- replace: "\u22DE"
+  trigger: '\curlyeq '
+- replace: "\u22DE"
+  trigger: '\curlye '
+- replace: "\u22DE"
+  trigger: '\curly '
+- replace: "\u22DE"
+  trigger: '\curl '
+- replace: "\u22DF"
+  trigger: '\curlyeqsuc '
+- replace: "\u22DF"
+  trigger: '\curlyeqsu '
+- replace: "\u22DF"
+  trigger: '\curlyeqs '
+- replace: "\u227C"
+  trigger: '\curlyprece '
+- replace: "\u227C"
+  trigger: '\curlyprec '
+- replace: "\u227C"
+  trigger: '\curlypre '
+- replace: "\u227C"
+  trigger: '\curlypr '
+- replace: "\u227C"
+  trigger: '\curlyp '
+- replace: "\u22CE"
+  trigger: '\curlyve '
+- replace: "\u22CE"
+  trigger: '\curlyv '
+- replace: "\u22CF"
+  trigger: '\curlywedg '
+- replace: "\u22CF"
+  trigger: '\curlywed '
+- replace: "\u22CF"
+  trigger: '\curlywe '
+- replace: "\u22CF"
+  trigger: '\curlyw '
+- replace: "\u21B6"
+  trigger: '\curvearrowlef '
+- replace: "\u21B6"
+  trigger: '\curvearrowle '
+- replace: "\u21B6"
+  trigger: '\curvearrowl '
+- replace: "\u21B6"
+  trigger: '\curvearrow '
+- replace: "\u21B6"
+  trigger: '\curvearro '
+- replace: "\u21B6"
+  trigger: '\curvearr '
+- replace: "\u21B6"
+  trigger: '\curvear '
+- replace: "\u21B6"
+  trigger: '\curvea '
+- replace: "\u21B6"
+  trigger: '\curve '
+- replace: "\u21B6"
+  trigger: '\curv '
+- replace: "\u21B7"
+  trigger: '\curvearrowrigh '
+- replace: "\u21B7"
+  trigger: '\curvearrowrig '
+- replace: "\u21B7"
+  trigger: '\curvearrowri '
+- replace: "\u21B7"
+  trigger: '\curvearrowr '
+- replace: "\u2663"
+  trigger: '\clubsui '
+- replace: "\u2663"
+  trigger: '\clubsu '
+- replace: "\u2663"
+  trigger: '\clubs '
+- replace: "\u2663"
+  trigger: '\club '
+- replace: "\u2663"
+  trigger: '\clu '
+- replace: "\U0001F6A7"
+  trigger: '\constructio '
+- replace: "\U0001F6A7"
+  trigger: '\constructi '
+- replace: "\U0001F6A7"
+  trigger: '\construct '
+- replace: "\U0001F6A7"
+  trigger: '\construc '
+- replace: "\U0001F6A7"
+  trigger: '\constru '
+- replace: "\U0001F6A7"
+  trigger: '\constr '
+- replace: "\U0001F6A7"
+  trigger: '\const '
+- replace: "\U0001F6A7"
+  trigger: '\cons '
+- replace: "\u1D9C"
+  trigger: '\complemen '
+- replace: "\u1D9C"
+  trigger: '\compleme '
+- replace: "\u1D9C"
+  trigger: '\complem '
+- replace: "\u1D9C"
+  trigger: '\comple '
+- replace: "\u2201"
+  trigger: '\complementprefi '
+- replace: "\u2201"
+  trigger: '\complementpref '
+- replace: "\u2201"
+  trigger: '\complementpre '
+- replace: "\u2201"
+  trigger: '\complementpr '
+- replace: "\u2201"
+  trigger: '\complementp '
+- replace: "\u2201"
+  trigger: '\Complemen '
+- replace: "\u2201"
+  trigger: '\Compleme '
+- replace: "\u2201"
+  trigger: '\Complem '
+- replace: "\u2201"
+  trigger: '\Comple '
+- replace: "\u2201"
+  trigger: '\Compl '
+- replace: "\u2201"
+  trigger: '\Comp '
+- replace: "\u2254"
+  trigger: '\colone '
+- replace: "\u20A1"
+  trigger: '\colo '
+- replace: "\u20A1"
+  trigger: '\col '
+- replace: "\xA9"
+  trigger: '\copyrigh '
+- replace: "\xA9"
+  trigger: '\copyrig '
+- replace: "\xA9"
+  trigger: '\copyri '
+- replace: "\xA9"
+  trigger: '\copyr '
+- replace: "\xA9"
+  trigger: '\copy '
+- replace: "\xA9"
+  trigger: '\cop '
+- replace: "\u2B1D"
+  trigger: '\cdo '
+- replace: "\u2B1D"
+  trigger: '\cd '
+- replace: "\u2257"
+  trigger: '\circe '
+- replace: "\u21BA"
+  trigger: '\circlearrowlef '
+- replace: "\u21BA"
+  trigger: '\circlearrowle '
+- replace: "\u21BA"
+  trigger: '\circlearrowl '
+- replace: "\u21BA"
+  trigger: '\circlearrow '
+- replace: "\u21BA"
+  trigger: '\circlearro '
+- replace: "\u21BA"
+  trigger: '\circlearr '
+- replace: "\u21BA"
+  trigger: '\circlear '
+- replace: "\u21BA"
+  trigger: '\circlea '
+- replace: "\u21BA"
+  trigger: '\circle '
+- replace: "\u21BA"
+  trigger: '\circl '
+- replace: "\u21BB"
+  trigger: '\circlearrowrigh '
+- replace: "\u21BB"
+  trigger: '\circlearrowrig '
+- replace: "\u21BB"
+  trigger: '\circlearrowri '
+- replace: "\u21BB"
+  trigger: '\circlearrowr '
+- replace: "\xAE"
+  trigger: '\circled '
+- replace: "\u229B"
+  trigger: '\circledas '
+- replace: "\u229B"
+  trigger: '\circleda '
+- replace: "\u229A"
+  trigger: '\circledcir '
+- replace: "\u229A"
+  trigger: '\circledci '
+- replace: "\u229A"
+  trigger: '\circledc '
+- replace: "\u229D"
+  trigger: '\circleddas '
+- replace: "\u229D"
+  trigger: '\circledda '
+- replace: "\u229D"
+  trigger: '\circledd '
+- replace: "\u2218"
+  trigger: '\cir '
+- replace: "\xB7"
+  trigger: '\centerdo '
+- replace: "\xB7"
+  trigger: '\centerd '
+- replace: "\xB7"
+  trigger: '\center '
+- replace: "\xB7"
+  trigger: '\cente '
+- replace: "\xA2"
+  trigger: '\cen '
+- replace: "\u20B5"
+  trigger: '\ced '
+- replace: "\u2103"
+  trigger: '\celsiu '
+- replace: "\u2103"
+  trigger: '\celsi '
+- replace: "\u2103"
+  trigger: '\cels '
+- replace: "\u2103"
+  trigger: '\cel '
+- replace: "\u2713"
+  trigger: '\checkmar '
+- replace: "\u2713"
+  trigger: '\checkma '
+- replace: "\u2713"
+  trigger: '\checkm '
+- replace: "\u2713"
+  trigger: '\check '
+- replace: "\u2713"
+  trigger: '\chec '
+- replace: "\u2713"
+  trigger: '\che '
+- replace: "\u20A2"
+  trigger: '\cruzeir '
+- replace: "\u20A2"
+  trigger: '\cruzei '
+- replace: "\u20A2"
+  trigger: '\cruze '
+- replace: "\u20A2"
+  trigger: '\cruz '
+- replace: "\u20A2"
+  trigger: '\cru '
+- replace: "\u20A2"
+  trigger: '\cr '
+- replace: "\u2621"
+  trigger: '\cautio '
+- replace: "\u2621"
+  trigger: '\cauti '
+- replace: "\u2621"
+  trigger: '\caut '
+- replace: "\u2621"
+  trigger: '\cau '
+- replace: "\u2621"
+  trigger: '\ca '
+- replace: "\u220E"
+  trigger: '\qe '
+- replace: "\u220E"
+  trigger: '\q '
+- replace: "\u2001"
+  trigger: '\qua '
+- replace: "\u2001"
+  trigger: '\qu '
+- replace: "\u29F8"
+  trigger: '\quo '
+- replace: "\u29F8"
+  trigger: '\bigsolidu '
+- replace: "\u29F8"
+  trigger: '\bigsolid '
+- replace: "\u29F8"
+  trigger: '\bigsoli '
+- replace: "\u29F8"
+  trigger: '\bigsol '
+- replace: "\u29F8"
+  trigger: '\bigso '
+- replace: "\u29F8"
+  trigger: '\bigs '
+- replace: "\u29F8"
+  trigger: '\big '
+- replace: "\u29F8"
+  trigger: '\bi '
+- replace: "\u22B9"
+  trigger: '\+ '
+- replace: "\xA6"
+  trigger: '\brokenba '
+- replace: "\xA6"
+  trigger: '\brokenb '
+- replace: "\xA6"
+  trigger: '\broken '
+- replace: "\xA6"
+  trigger: '\broke '
+- replace: "\xA6"
+  trigger: '\brok '
+- replace: "\xA6"
+  trigger: '\bro '
+- replace: "\u2140"
+  trigger: '\bsu '
+- replace: "\u2140"
+  trigger: '\bs '
+- replace: "\u224F"
+  trigger: '\bumpe '
+- replace: "\u224F"
+  trigger: '\bump '
+- replace: "\u224F"
+  trigger: '\bum '
+- replace: "\u2623"
+  trigger: '\biohazar '
+- replace: "\u2623"
+  trigger: '\biohaza '
+- replace: "\u2623"
+  trigger: '\biohaz '
+- replace: "\u2623"
+  trigger: '\bioha '
+- replace: "\u2623"
+  trigger: '\bioh '
+- replace: "\u2623"
+  trigger: '\bio '
+- replace: "\u22C2"
+  trigger: '\bigca '
+- replace: "\u22C2"
+  trigger: '\bigc '
+- replace: "\u25EF"
+  trigger: '\bigcir '
+- replace: "\u25EF"
+  trigger: '\bigci '
+- replace: "\u2210"
+  trigger: '\bigcopro '
+- replace: "\u2210"
+  trigger: '\bigcopr '
+- replace: "\u2210"
+  trigger: '\bigcop '
+- replace: "\u2210"
+  trigger: '\bigco '
+- replace: "\u22C3"
+  trigger: '\bigcu '
+- replace: "\u2A05"
+  trigger: '\biggl '
+- replace: "\u2A05"
+  trigger: '\bigg '
+- replace: "\u2A05"
+  trigger: '\bigin '
+- replace: "\u2A05"
+  trigger: '\bigi '
+- replace: "\u2A06"
+  trigger: '\bigjoi '
+- replace: "\u2A06"
+  trigger: '\bigjo '
+- replace: "\u2A06"
+  trigger: '\bigj '
+- replace: "\u2A06"
+  trigger: '\biglu '
+- replace: "\u2A06"
+  trigger: '\bigl '
+- replace: "\u2A05"
+  trigger: '\bigmee '
+- replace: "\u2A05"
+  trigger: '\bigme '
+- replace: "\u2A05"
+  trigger: '\bigm '
+- replace: "\u2A05"
+  trigger: '\bigsqca '
+- replace: "\u2A05"
+  trigger: '\bigsqc '
+- replace: "\u2A05"
+  trigger: '\bigsq '
+- replace: "\u2A06"
+  trigger: '\bigsqcu '
+- replace: "\u2605"
+  trigger: '\bigsta '
+- replace: "\u2605"
+  trigger: '\bigst '
+- replace: "\u2A06"
+  trigger: '\bigsu '
+- replace: "\u25BD"
+  trigger: '\bigtriangledow '
+- replace: "\u25BD"
+  trigger: '\bigtriangledo '
+- replace: "\u25BD"
+  trigger: '\bigtriangled '
+- replace: "\u25BD"
+  trigger: '\bigtriangle '
+- replace: "\u25BD"
+  trigger: '\bigtriangl '
+- replace: "\u25BD"
+  trigger: '\bigtriang '
+- replace: "\u25BD"
+  trigger: '\bigtrian '
+- replace: "\u25BD"
+  trigger: '\bigtria '
+- replace: "\u25BD"
+  trigger: '\bigtri '
+- replace: "\u25BD"
+  trigger: '\bigtr '
+- replace: "\u25BD"
+  trigger: '\bigt '
+- replace: "\u25B3"
+  trigger: '\bigtriangleu '
+- replace: "\u22C1"
+  trigger: '\bigve '
+- replace: "\u22C1"
+  trigger: '\bigv '
+- replace: "\u22C0"
+  trigger: '\bigwedg '
+- replace: "\u22C0"
+  trigger: '\bigwed '
+- replace: "\u22C0"
+  trigger: '\bigwe '
+- replace: "\u22C0"
+  trigger: '\bigw '
+- replace: "\u03B2"
+  trigger: '\bet '
+- replace: "\u226C"
+  trigger: '\betwee '
+- replace: "\u226C"
+  trigger: '\betwe '
+- replace: "\u226C"
+  trigger: '\betw '
+- replace: "\u2235"
+  trigger: '\becaus '
+- replace: "\u2235"
+  trigger: '\becau '
+- replace: "\u2235"
+  trigger: '\beca '
+- replace: "\u2235"
+  trigger: '\bec '
+- replace: "\u224C"
+  trigger: '\backcon '
+- replace: "\u224C"
+  trigger: '\backco '
+- replace: "\u224C"
+  trigger: '\backc '
+- replace: "\u224C"
+  trigger: '\back '
+- replace: "\u224C"
+  trigger: '\bac '
+- replace: "\u224C"
+  trigger: '\ba '
+- replace: "\u220D"
+  trigger: '\backepsilo '
+- replace: "\u220D"
+  trigger: '\backepsil '
+- replace: "\u220D"
+  trigger: '\backepsi '
+- replace: "\u220D"
+  trigger: '\backeps '
+- replace: "\u220D"
+  trigger: '\backep '
+- replace: "\u220D"
+  trigger: '\backe '
+- replace: "\u2035"
+  trigger: '\backprim '
+- replace: "\u2035"
+  trigger: '\backpri '
+- replace: "\u2035"
+  trigger: '\backpr '
+- replace: "\u2035"
+  trigger: '\backp '
+- replace: "\u22CD"
+  trigger: '\backsime '
+- replace: "\u223D"
+  trigger: '\backsi '
+- replace: "\u223D"
+  trigger: '\backs '
+- replace: "\u22BC"
+  trigger: '\barwedg '
+- replace: "\u22BC"
+  trigger: '\barwed '
+- replace: "\u22BC"
+  trigger: '\barwe '
+- replace: "\u22BC"
+  trigger: '\barw '
+- replace: "\u22BC"
+  trigger: '\bar '
+- replace: "\u2726"
+  trigger: '\blacklozeng '
+- replace: "\u2726"
+  trigger: '\blacklozen '
+- replace: "\u2726"
+  trigger: '\blackloze '
+- replace: "\u2726"
+  trigger: '\blackloz '
+- replace: "\u2726"
+  trigger: '\blacklo '
+- replace: "\u2726"
+  trigger: '\blackl '
+- replace: "\u2726"
+  trigger: '\black '
+- replace: "\u2726"
+  trigger: '\blac '
+- replace: "\u2726"
+  trigger: '\bla '
+- replace: "\u2726"
+  trigger: '\bl '
+- replace: "\u25AA"
+  trigger: '\blacksquar '
+- replace: "\u25AA"
+  trigger: '\blacksqua '
+- replace: "\u25AA"
+  trigger: '\blacksqu '
+- replace: "\u25AA"
+  trigger: '\blacksq '
+- replace: "\u25AA"
+  trigger: '\blacks '
+- replace: "\u263B"
+  trigger: '\blacksmile '
+- replace: "\u263B"
+  trigger: '\blacksmil '
+- replace: "\u263B"
+  trigger: '\blacksmi '
+- replace: "\u263B"
+  trigger: '\blacksm '
+- replace: "\u25BE"
+  trigger: '\blacktriangledow '
+- replace: "\u25BE"
+  trigger: '\blacktriangledo '
+- replace: "\u25BE"
+  trigger: '\blacktriangled '
+- replace: "\u25C2"
+  trigger: '\blacktrianglelef '
+- replace: "\u25C2"
+  trigger: '\blacktrianglele '
+- replace: "\u25C2"
+  trigger: '\blacktrianglel '
+- replace: "\u25B8"
+  trigger: '\blacktrianglerigh '
+- replace: "\u25B8"
+  trigger: '\blacktrianglerig '
+- replace: "\u25B8"
+  trigger: '\blacktriangleri '
+- replace: "\u25B8"
+  trigger: '\blacktriangler '
+- replace: "\u25B4"
+  trigger: '\blacktriangl '
+- replace: "\u25B4"
+  trigger: '\blacktriang '
+- replace: "\u25B4"
+  trigger: '\blacktrian '
+- replace: "\u25B4"
+  trigger: '\blacktria '
+- replace: "\u25B4"
+  trigger: '\blacktri '
+- replace: "\u25B4"
+  trigger: '\blacktr '
+- replace: "\u25B4"
+  trigger: '\blackt '
+- replace: "\u15EE"
+  trigger: '\^bo '
+- replace: "\u22C8"
+  trigger: '\bowti '
+- replace: "\u22C8"
+  trigger: '\bowt '
+- replace: "\u22C8"
+  trigger: '\bow '
+- replace: "\u229F"
+  trigger: '\boxminu '
+- replace: "\u229F"
+  trigger: '\boxmin '
+- replace: "\u229F"
+  trigger: '\boxmi '
+- replace: "\u229F"
+  trigger: '\boxm '
+- replace: "\u229F"
+  trigger: '\box '
+- replace: "\u25EB"
+  trigger: '\hcom '
+- replace: "\u25EB"
+  trigger: '\hco '
+- replace: "\u25EB"
+  trigger: '\hc '
+- replace: "\u229E"
+  trigger: '\boxplu '
+- replace: "\u229E"
+  trigger: '\boxpl '
+- replace: "\u229E"
+  trigger: '\boxp '
+- replace: "\u22A0"
+  trigger: '\boxtime '
+- replace: "\u22A0"
+  trigger: '\boxtim '
+- replace: "\u22A0"
+  trigger: '\boxti '
+- replace: "\u22A0"
+  trigger: '\boxt '
+- replace: "\u2294"
+  trigger: '\joi '
+- replace: "\u2294"
+  trigger: '\jo '
+- replace: "\u2294"
+  trigger: '\j '
+- replace: "\u21C4"
+  trigger: '\r-l '
+- replace: "\u21A0"
+  trigger: '\rr '
+- replace: "\u211D"
+  trigger: '\rea '
+- replace: "\xAE"
+  trigger: '\registere '
+- replace: "\xAE"
+  trigger: '\register '
+- replace: "\xAE"
+  trigger: '\registe '
+- replace: "\xAE"
+  trigger: '\regist '
+- replace: "\xAE"
+  trigger: '\regis '
+- replace: "\xAE"
+  trigger: '\regi '
+- replace: "\xAE"
+  trigger: '\reg '
+- replace: "\u27C6"
+  trigger: '\rba '
+- replace: "\u2622"
+  trigger: '\radioactiv '
+- replace: "\u2622"
+  trigger: '\radioacti '
+- replace: "\u2622"
+  trigger: '\radioact '
+- replace: "\u2622"
+  trigger: '\radioac '
+- replace: "\u2622"
+  trigger: '\radioa '
+- replace: "\u2622"
+  trigger: '\radio '
+- replace: "\u2622"
+  trigger: '\radi '
+- replace: "\u2622"
+  trigger: '\rad '
+- replace: "\u27E9"
+  trigger: '\rangl '
+- replace: "\u27E9"
+  trigger: '\rang '
+- replace: "\u27E9"
+  trigger: '\ran '
+- replace: "\uFDFC"
+  trigger: '\ria '
+- replace: "\uFDFC"
+  trigger: '\ri '
+- replace: "\u21A3"
+  trigger: '\rightarrowtai '
+- replace: "\u21A3"
+  trigger: '\rightarrowta '
+- replace: "\u21A3"
+  trigger: '\rightarrowt '
+- replace: "\u2192"
+  trigger: '\rightarro '
+- replace: "\u2192"
+  trigger: '\rightarr '
+- replace: "\u2192"
+  trigger: '\rightar '
+- replace: "\u2192"
+  trigger: '\righta '
+- replace: "\u2192"
+  trigger: '\right '
+- replace: "\u2192"
+  trigger: '\righ '
+- replace: "\u2192"
+  trigger: '\rig '
+- replace: "\u21C1"
+  trigger: '\rightharpoondow '
+- replace: "\u21C1"
+  trigger: '\rightharpoondo '
+- replace: "\u21C1"
+  trigger: '\rightharpoond '
+- replace: "\u21C1"
+  trigger: '\rightharpoon '
+- replace: "\u21C1"
+  trigger: '\rightharpoo '
+- replace: "\u21C1"
+  trigger: '\rightharpo '
+- replace: "\u21C1"
+  trigger: '\rightharp '
+- replace: "\u21C1"
+  trigger: '\righthar '
+- replace: "\u21C1"
+  trigger: '\rightha '
+- replace: "\u21C1"
+  trigger: '\righth '
+- replace: "\u21C0"
+  trigger: '\rightharpoonu '
+- replace: "\u21C4"
+  trigger: '\rightleftarrow '
+- replace: "\u21C4"
+  trigger: '\rightleftarro '
+- replace: "\u21C4"
+  trigger: '\rightleftarr '
+- replace: "\u21C4"
+  trigger: '\rightleftar '
+- replace: "\u21C4"
+  trigger: '\rightlefta '
+- replace: "\u21C4"
+  trigger: '\rightleft '
+- replace: "\u21C4"
+  trigger: '\rightlef '
+- replace: "\u21C4"
+  trigger: '\rightle '
+- replace: "\u21C4"
+  trigger: '\rightl '
+- replace: "\u21CC"
+  trigger: '\rightleftharpoon '
+- replace: "\u21CC"
+  trigger: '\rightleftharpoo '
+- replace: "\u21CC"
+  trigger: '\rightleftharpo '
+- replace: "\u21CC"
+  trigger: '\rightleftharp '
+- replace: "\u21CC"
+  trigger: '\rightlefthar '
+- replace: "\u21CC"
+  trigger: '\rightleftha '
+- replace: "\u21CC"
+  trigger: '\rightlefth '
+- replace: "\u21C9"
+  trigger: '\rightrightarrow '
+- replace: "\u21C9"
+  trigger: '\rightrightarro '
+- replace: "\u21C9"
+  trigger: '\rightrightarr '
+- replace: "\u21C9"
+  trigger: '\rightrightar '
+- replace: "\u21C9"
+  trigger: '\rightrighta '
+- replace: "\u21C9"
+  trigger: '\rightright '
+- replace: "\u21C9"
+  trigger: '\rightrigh '
+- replace: "\u21C9"
+  trigger: '\rightrig '
+- replace: "\u21C9"
+  trigger: '\rightri '
+- replace: "\u21C9"
+  trigger: '\rightr '
+- replace: "\u22CC"
+  trigger: '\rightthreetime '
+- replace: "\u22CC"
+  trigger: '\rightthreetim '
+- replace: "\u22CC"
+  trigger: '\rightthreeti '
+- replace: "\u22CC"
+  trigger: '\rightthreet '
+- replace: "\u22CC"
+  trigger: '\rightthree '
+- replace: "\u22CC"
+  trigger: '\rightthre '
+- replace: "\u22CC"
+  trigger: '\rightthr '
+- replace: "\u22CC"
+  trigger: '\rightth '
+- replace: "\u22CC"
+  trigger: '\rightt '
+- replace: "\u2253"
+  trigger: '\risingdotse '
+- replace: "\u2253"
+  trigger: '\risingdots '
+- replace: "\u2253"
+  trigger: '\risingdot '
+- replace: "\u2253"
+  trigger: '\risingdo '
+- replace: "\u2253"
+  trigger: '\risingd '
+- replace: "\u2253"
+  trigger: '\rising '
+- replace: "\u2253"
+  trigger: '\risin '
+- replace: "\u2253"
+  trigger: '\risi '
+- replace: "\u2253"
+  trigger: '\ris '
+- replace: "\u20BD"
+  trigger: '\rubl '
+- replace: "\u20BD"
+  trigger: '\rub '
+- replace: "\u20BD"
+  trigger: '\ru '
+- replace: "\u20A8"
+  trigger: '\rupe '
+- replace: "\u20A8"
+  trigger: '\rup '
+- replace: "\u2309"
+  trigger: '\rcei '
+- replace: "\u2309"
+  trigger: '\rce '
+- replace: "\u2309"
+  trigger: '\rc '
+- replace: "\u230B"
+  trigger: '\rfloo '
+- replace: "\u230B"
+  trigger: '\rflo '
+- replace: "\u230B"
+  trigger: '\rfl '
+- replace: "\u230B"
+  trigger: '\rf '
+- replace: "\u22CA"
+  trigger: '\rtime '
+- replace: "\u22CA"
+  trigger: '\rtim '
+- replace: "\u22CA"
+  trigger: '\rti '
+- replace: "\u22CA"
+  trigger: '\rt '
+- replace: "\u201D"
+  trigger: '\rd '
+- replace: "\u300B"
+  trigger: '\rdat '
+- replace: "\u300B"
+  trigger: '\rda '
+- replace: "\u2964"
+  trigger: '\functo '
+- replace: "\u2964"
+  trigger: '\funct '
+- replace: "\u2964"
+  trigger: '\func '
+- replace: "\u2154"
+  trigger: '\frac2 '
+- replace: "\xBE"
+  trigger: '\frac3 '
+- replace: "\u2158"
+  trigger: '\frac4 '
+- replace: "\u215A"
+  trigger: '\frac5 '
+- replace: "\u215E"
+  trigger: '\frac7 '
+- replace: "\xBC"
+  trigger: '\fra '
+- replace: "\xBC"
+  trigger: '\fr '
+- replace: "\u2322"
+  trigger: '\frow '
+- replace: "\u2322"
+  trigger: '\fro '
+- replace: "\u2640"
+  trigger: '\femal '
+- replace: "\u2640"
+  trigger: '\fema '
+- replace: "\u2640"
+  trigger: '\fem '
+- replace: "\u2640"
+  trigger: '\fe '
+- replace: "\u213B"
+  trigger: '\facsimil '
+- replace: "\u213B"
+  trigger: '\facsimi '
+- replace: "\u213B"
+  trigger: '\facsim '
+- replace: "\u213B"
+  trigger: '\facsi '
+- replace: "\u213B"
+  trigger: '\facs '
+- replace: "\u213B"
+  trigger: '\fac '
+- replace: "\u213B"
+  trigger: '\fa '
+- replace: "\u2252"
+  trigger: '\fallingdotse '
+- replace: "\u2252"
+  trigger: '\fallingdots '
+- replace: "\u2252"
+  trigger: '\fallingdot '
+- replace: "\u2252"
+  trigger: '\fallingdo '
+- replace: "\u2252"
+  trigger: '\fallingd '
+- replace: "\u2252"
+  trigger: '\falling '
+- replace: "\u2252"
+  trigger: '\fallin '
+- replace: "\u2252"
+  trigger: '\falli '
+- replace: "\u2252"
+  trigger: '\fall '
+- replace: "\u2252"
+  trigger: '\fal '
+- replace: "\u266D"
+  trigger: '\fla '
+- replace: "\u266D"
+  trigger: '\fl '
+- replace: "\u2200"
+  trigger: '\foral '
+- replace: "\u2200"
+  trigger: '\fora '
+- replace: "\u2200"
+  trigger: '\for '
+- replace: "\u2200"
+  trigger: '\fo '
+- replace: "\u27C6"
+  trigger: '\) '
+- replace: "\u27E7"
+  trigger: '\] '
+- replace: "\u2984"
+  trigger: '\} '
+- replace: "\u2115"
+  trigger: '\Na '
+- replace: "\u0396"
+  trigger: '\Zet '
+- replace: "\u0396"
+  trigger: '\Ze '
+- replace: "\u211A"
+  trigger: '\Ra '
+- replace: "\u211D"
+  trigger: '\Rea '
+- replace: "\u03A1"
+  trigger: '\Rh '
+- replace: "\u21D2"
+  trigger: '\Rightarro '
+- replace: "\u21D2"
+  trigger: '\Rightarr '
+- replace: "\u21D2"
+  trigger: '\Rightar '
+- replace: "\u21D2"
+  trigger: '\Righta '
+- replace: "\u21D2"
+  trigger: '\Right '
+- replace: "\u21D2"
+  trigger: '\Righ '
+- replace: "\u21D2"
+  trigger: '\Rig '
+- replace: "\u21D2"
+  trigger: '\Ri '
+- replace: "\u21DB"
+  trigger: '\Rrightarro '
+- replace: "\u21DB"
+  trigger: '\Rrightarr '
+- replace: "\u21DB"
+  trigger: '\Rrightar '
+- replace: "\u21DB"
+  trigger: '\Rrighta '
+- replace: "\u21DB"
+  trigger: '\Rright '
+- replace: "\u21DB"
+  trigger: '\Rrigh '
+- replace: "\u21DB"
+  trigger: '\Rrig '
+- replace: "\u21DB"
+  trigger: '\Rri '
+- replace: "\u21DB"
+  trigger: '\Rr '
+- replace: "\u21B1"
+  trigger: '\Rs '
+- replace: "\u03E4"
+  trigger: '\Fe '
+- replace: "\u2639"
+  trigger: '\Frown '
+- replace: "\u2639"
+  trigger: '\Frow '
+- replace: "\u2639"
+  trigger: '\Fro '
+- replace: "\u2639"
+  trigger: '\Fr '
+- replace: "\u03E8"
+  trigger: '\Hor '
+- replace: "\u03E8"
+  trigger: '\Ho '
+- replace: "\u0370"
+  trigger: '\Het '
+- replace: "\u0370"
+  trigger: '\He '
+- replace: "\u03E6"
+  trigger: '\Khe '
+- replace: "\u03E6"
+  trigger: '\Kh '
+- replace: "\u03DE"
+  trigger: '\Kopp '
+- replace: "\u03DE"
+  trigger: '\Kop '
+- replace: "\u03DE"
+  trigger: '\Ko '
+- replace: "\u039A"
+  trigger: '\Kapp '
+- replace: "\u039A"
+  trigger: '\Kap '
+- replace: "\u039A"
+  trigger: '\Ka '
+- replace: "\uAB5F"
+  trigger: '\^uhoo '
+- replace: "\uAB5F"
+  trigger: '\^uho '
+- replace: "\uAB5F"
+  trigger: '\^uh '
+- replace: "\u1DB6"
+  trigger: '\^uba '
+- replace: "\u1DB6"
+  trigger: '\^ub '
+- replace: "\u1DB7"
+  trigger: '\^upsilo '
+- replace: "\u1DB7"
+  trigger: '\^upsil '
+- replace: "\u1DB7"
+  trigger: '\^upsi '
+- replace: "\u1DB7"
+  trigger: '\^ups '
+- replace: "\u1DB7"
+  trigger: '\^up '
+- replace: "\uAB5E"
+  trigger: '\^ltild '
+- replace: "\uAB5E"
+  trigger: '\^ltil '
+- replace: "\uAB5E"
+  trigger: '\^lti '
+- replace: "\uAB5E"
+  trigger: '\^lt '
+- replace: "\u1DAA"
+  trigger: '\^lhoo '
+- replace: "\u1DAA"
+  trigger: '\^lho '
+- replace: "\u1DAA"
+  trigger: '\^lh '
+- replace: "\u1DA9"
+  trigger: '\^lretroflexhoo '
+- replace: "\u1DA9"
+  trigger: '\^lretroflexho '
+- replace: "\u1DA9"
+  trigger: '\^lretroflexh '
+- replace: "\u1DA9"
+  trigger: '\^lretroflex '
+- replace: "\u1DA9"
+  trigger: '\^lretrofle '
+- replace: "\u1DA9"
+  trigger: '\^lretrofl '
+- replace: "\u1DA9"
+  trigger: '\^lretrof '
+- replace: "\u1DA9"
+  trigger: '\^lretro '
+- replace: "\u1DA9"
+  trigger: '\^lretr '
+- replace: "\u1DA9"
+  trigger: '\^lret '
+- replace: "\u1DA9"
+  trigger: '\^lre '
+- replace: "\u1DA9"
+  trigger: '\^lr '
+- replace: "\uAB5C"
+  trigger: '\^hen '
+- replace: "\uAB5C"
+  trigger: '\^he '
+- replace: "\u02B1"
+  trigger: '\^hhoo '
+- replace: "\u02B1"
+  trigger: '\^hho '
+- replace: "\u02B1"
+  trigger: '\^hh '
+- replace: "\u02B1"
+  trigger: '\^hwithhoo '
+- replace: "\u02B1"
+  trigger: '\^hwithho '
+- replace: "\u02B1"
+  trigger: '\^hwithh '
+- replace: "\u02B1"
+  trigger: '\^hwith '
+- replace: "\u02B1"
+  trigger: '\^hwit '
+- replace: "\u02B1"
+  trigger: '\^hwi '
+- replace: "\u02B1"
+  trigger: '\^hw '
+- replace: "\uA7F8"
+  trigger: '\^Hstrok '
+- replace: "\uA7F8"
+  trigger: '\^Hstro '
+- replace: "\uA7F8"
+  trigger: '\^Hstr '
+- replace: "\uA7F8"
+  trigger: '\^Hst '
+- replace: "\uA7F8"
+  trigger: '\^Hs '
+- replace: "\u1DBF"
+  trigger: '\^thet '
+- replace: "\u1DBF"
+  trigger: '\^the '
+- replace: "\u1DBF"
+  trigger: '\^th '
+- replace: "\u1DBA"
+  trigger: '\^turned '
+- replace: "\u1DBA"
+  trigger: '\^turne '
+- replace: "\u1DBA"
+  trigger: '\^turn '
+- replace: "\u1DBA"
+  trigger: '\^tur '
+- replace: "\u1DBA"
+  trigger: '\^tu '
+- replace: "\u1DAD"
+  trigger: '\^turnedmle '
+- replace: "\u1DAD"
+  trigger: '\^turnedml '
+- replace: "\u1D9B"
+  trigger: '\^turnedalph '
+- replace: "\u1D9B"
+  trigger: '\^turnedalp '
+- replace: "\u1D9B"
+  trigger: '\^turnedal '
+- replace: "\u02B5"
+  trigger: '\^turnedrhoo '
+- replace: "\u02B5"
+  trigger: '\^turnedrho '
+- replace: "\u02B5"
+  trigger: '\^turnedrh '
+- replace: "\u02B5"
+  trigger: '\^turnedrwithhoo '
+- replace: "\u02B5"
+  trigger: '\^turnedrwithho '
+- replace: "\u02B5"
+  trigger: '\^turnedrwithh '
+- replace: "\u02B5"
+  trigger: '\^turnedrwith '
+- replace: "\u02B5"
+  trigger: '\^turnedrwit '
+- replace: "\u02B5"
+  trigger: '\^turnedrwi '
+- replace: "\u02B5"
+  trigger: '\^turnedrw '
+- replace: "\u1DB5"
+  trigger: '\^twithpalatalhoo '
+- replace: "\u1DB5"
+  trigger: '\^twithpalatalho '
+- replace: "\u1DB5"
+  trigger: '\^twithpalatalh '
+- replace: "\u1DB5"
+  trigger: '\^twithpalatal '
+- replace: "\u1DB5"
+  trigger: '\^twithpalata '
+- replace: "\u1DB5"
+  trigger: '\^twithpalat '
+- replace: "\u1DB5"
+  trigger: '\^twithpala '
+- replace: "\u1DB5"
+  trigger: '\^twithpal '
+- replace: "\u1DB5"
+  trigger: '\^twithpa '
+- replace: "\u1DB5"
+  trigger: '\^twithp '
+- replace: "\u1DB5"
+  trigger: '\^twith '
+- replace: "\u1DB5"
+  trigger: '\^twit '
+- replace: "\u1DB5"
+  trigger: '\^twi '
+- replace: "\u1DB5"
+  trigger: '\^tw '
+- replace: "\u1D54"
+  trigger: '\^oto '
+- replace: "\u1D54"
+  trigger: '\^ot '
+- replace: "\u1DBE"
+  trigger: '\^ez '
+- replace: "\u1DB4"
+  trigger: '\^es '
+- replace: "\u1D9E"
+  trigger: '\^et '
+- replace: "\u1D51"
+  trigger: '\^en '
+- replace: "\u1DBD"
+  trigger: '\^zcur '
+- replace: "\u1DBD"
+  trigger: '\^zcu '
+- replace: "\u1DBD"
+  trigger: '\^zc '
+- replace: "\u1DBC"
+  trigger: '\^zretroflexhoo '
+- replace: "\u1DBC"
+  trigger: '\^zretroflexho '
+- replace: "\u1DBC"
+  trigger: '\^zretroflexh '
+- replace: "\u1DBC"
+  trigger: '\^zretroflex '
+- replace: "\u1DBC"
+  trigger: '\^zretrofle '
+- replace: "\u1DBC"
+  trigger: '\^zretrofl '
+- replace: "\u1DBC"
+  trigger: '\^zretrof '
+- replace: "\u1DBC"
+  trigger: '\^zretro '
+- replace: "\u1DBC"
+  trigger: '\^zretr '
+- replace: "\u1DBC"
+  trigger: '\^zret '
+- replace: "\u1DBC"
+  trigger: '\^zre '
+- replace: "\u1DBC"
+  trigger: '\^zr '
+- replace: "\u1DB9"
+  trigger: '\^vhoo '
+- replace: "\u1DB9"
+  trigger: '\^vho '
+- replace: "\u1DB9"
+  trigger: '\^vh '
+- replace: "\u1DA6"
+  trigger: '\^Ismal '
+- replace: "\u1DA6"
+  trigger: '\^Isma '
+- replace: "\u1DA6"
+  trigger: '\^Ism '
+- replace: "\u1DA6"
+  trigger: '\^Is '
+- replace: "\u1DAB"
+  trigger: '\^Lsmal '
+- replace: "\u1DAB"
+  trigger: '\^Lsma '
+- replace: "\u1DAB"
+  trigger: '\^Lsm '
+- replace: "\u1DAB"
+  trigger: '\^Ls '
+- replace: "\u1DB0"
+  trigger: '\^Nsmal '
+- replace: "\u1DB0"
+  trigger: '\^Nsma '
+- replace: "\u1DB0"
+  trigger: '\^Nsm '
+- replace: "\u1DB0"
+  trigger: '\^Ns '
+- replace: "\u1DB8"
+  trigger: '\^Usmal '
+- replace: "\u1DB8"
+  trigger: '\^Usma '
+- replace: "\u1DB8"
+  trigger: '\^Usm '
+- replace: "\u1DB8"
+  trigger: '\^Us '
+- replace: "\u1DA7"
+  trigger: '\^Istrok '
+- replace: "\u1DA7"
+  trigger: '\^Istro '
+- replace: "\u1DA7"
+  trigger: '\^Istr '
+- replace: "\u1DA7"
+  trigger: '\^Ist '
+- replace: "\u02B6"
+  trigger: '\^Rinverte '
+- replace: "\u02B6"
+  trigger: '\^Rinvert '
+- replace: "\u02B6"
+  trigger: '\^Rinver '
+- replace: "\u02B6"
+  trigger: '\^Rinve '
+- replace: "\u02B6"
+  trigger: '\^Rinv '
+- replace: "\u02B6"
+  trigger: '\^Rin '
+- replace: "\u02B6"
+  trigger: '\^Ri '
+- replace: "\u1D9D"
+  trigger: '\^ccur '
+- replace: "\u1D9D"
+  trigger: '\^ccu '
+- replace: "\u1D9D"
+  trigger: '\^cc '
+- replace: "\u1D61"
+  trigger: '\^ch '
+- replace: "\u1DB3"
+  trigger: '\^shoo '
+- replace: "\u1DB3"
+  trigger: '\^sho '
+- replace: "\u1DB3"
+  trigger: '\^sh '
+- replace: "\u1DA2"
+  trigger: '\^gscrip '
+- replace: "\u1DA2"
+  trigger: '\^gscri '
+- replace: "\u1DA2"
+  trigger: '\^gscr '
+- replace: "\u1DA2"
+  trigger: '\^gsc '
+- replace: "\u1DA2"
+  trigger: '\^gs '
+- replace: "\u1D4A"
+  trigger: '\^schw '
+- replace: "\u1D4A"
+  trigger: '\^sch '
+- replace: "\u1D4A"
+  trigger: '\^sc '
+- replace: "\u1D59"
+  trigger: '\^usideway '
+- replace: "\u1D59"
+  trigger: '\^usidewa '
+- replace: "\u1D59"
+  trigger: '\^usidew '
+- replace: "\u1D59"
+  trigger: '\^uside '
+- replace: "\u1D59"
+  trigger: '\^usid '
+- replace: "\u1D59"
+  trigger: '\^usi '
+- replace: "\u1D59"
+  trigger: '\^us '
+- replace: "\u1DB2"
+  trigger: '\^ph '
+- replace: "\u1DB1"
+  trigger: '\^obarre '
+- replace: "\u1DB1"
+  trigger: '\^obarr '
+- replace: "\u1DB1"
+  trigger: '\^obar '
+- replace: "\u1DB1"
+  trigger: '\^oba '
+- replace: "\u1DB1"
+  trigger: '\^ob '
+- replace: "\u1D5D"
+  trigger: '\^bet '
+- replace: "\u1D5D"
+  trigger: '\^be '
+- replace: "\u1D55"
+  trigger: '\^obotto '
+- replace: "\u1D55"
+  trigger: '\^obott '
+- replace: "\u1D55"
+  trigger: '\^obot '
+- replace: "\u1D55"
+  trigger: '\^obo '
+- replace: "\u1DAF"
+  trigger: '\^nretroflexhoo '
+- replace: "\u1DAF"
+  trigger: '\^nretroflexho '
+- replace: "\u1DAF"
+  trigger: '\^nretroflexh '
+- replace: "\u1DAF"
+  trigger: '\^nretroflex '
+- replace: "\u1DAF"
+  trigger: '\^nretrofle '
+- replace: "\u1DAF"
+  trigger: '\^nretrofl '
+- replace: "\u1DAF"
+  trigger: '\^nretrof '
+- replace: "\u1DAF"
+  trigger: '\^nretro '
+- replace: "\u1DAF"
+  trigger: '\^nretr '
+- replace: "\u1DAF"
+  trigger: '\^nret '
+- replace: "\u1DAF"
+  trigger: '\^nre '
+- replace: "\u1DAF"
+  trigger: '\^nr '
+- replace: "\u1DAE"
+  trigger: '\^nlefthoo '
+- replace: "\u1DAE"
+  trigger: '\^nleftho '
+- replace: "\u1DAE"
+  trigger: '\^nlefth '
+- replace: "\u1DAE"
+  trigger: '\^nleft '
+- replace: "\u1DAE"
+  trigger: '\^nlef '
+- replace: "\u1DAE"
+  trigger: '\^nle '
+- replace: "\u1DAE"
+  trigger: '\^nl '
+- replace: "\u1DAC"
+  trigger: '\^mhoo '
+- replace: "\u1DAC"
+  trigger: '\^mho '
+- replace: "\u1DAC"
+  trigger: '\^mh '
+- replace: "\u1DA8"
+  trigger: '\^jtai '
+- replace: "\u1DA8"
+  trigger: '\^jta '
+- replace: "\u1DA8"
+  trigger: '\^jt '
+- replace: "\u1DA5"
+  trigger: '\^iot '
+- replace: "\u1DA5"
+  trigger: '\^io '
+- replace: "\u1DA4"
+  trigger: '\^istrok '
+- replace: "\u1DA4"
+  trigger: '\^istro '
+- replace: "\u1DA4"
+  trigger: '\^istr '
+- replace: "\u1DA4"
+  trigger: '\^ist '
+- replace: "\u1DA4"
+  trigger: '\^is '
+- replace: "\u1D9F"
+  trigger: '\^ereversedope '
+- replace: "\u1D9F"
+  trigger: '\^ereversedop '
+- replace: "\u1D9F"
+  trigger: '\^ereversedo '
+- replace: "\u1D9F"
+  trigger: '\^ereversed '
+- replace: "\u1D9F"
+  trigger: '\^ereverse '
+- replace: "\u1D9F"
+  trigger: '\^erevers '
+- replace: "\u1D9F"
+  trigger: '\^erever '
+- replace: "\u1D9F"
+  trigger: '\^ereve '
+- replace: "\u1D9F"
+  trigger: '\^erev '
+- replace: "\u1D9F"
+  trigger: '\^ere '
+- replace: "\u1D9F"
+  trigger: '\^er '
+- replace: "\u02E4"
+  trigger: '\^sto '
+- replace: "\u02E4"
+  trigger: '\^st '
+- replace: "\u1D60"
+  trigger: '\^varph '
+- replace: "\u1D60"
+  trigger: '\^varp '
+- replace: "\u1D60"
+  trigger: '\^var '
+- replace: "\u1D60"
+  trigger: '\^va '
+- replace: "\u1D5E"
+  trigger: '\^vargamm '
+- replace: "\u1D5E"
+  trigger: '\^vargam '
+- replace: "\u1D5E"
+  trigger: '\^varga '
+- replace: "\u1D5E"
+  trigger: '\^varg '
+- replace: "\u02E0"
+  trigger: '\^gamm '
+- replace: "\u02E0"
+  trigger: '\^gam '
+- replace: "\u02E0"
+  trigger: '\^ga '
+- replace: "\u1D5C"
+  trigger: '\^ai '
+- replace: "\u1D45"
+  trigger: '\^alph '
+- replace: "\u1D45"
+  trigger: '\^alp '
+- replace: "\u1D45"
+  trigger: '\^al '
+- replace: "\u1D53"
+  trigger: '\^oope '
+- replace: "\u1D53"
+  trigger: '\^oop '
+- replace: "\u1D53"
+  trigger: '\^oo '
+- replace: "\u1D4B"
+  trigger: '\^eope '
+- replace: "\u1D4B"
+  trigger: '\^eop '
+- replace: "\u1D4B"
+  trigger: '\^eo '
+- replace: "\u1D3B"
+  trigger: '\^Nreverse '
+- replace: "\u1D3B"
+  trigger: '\^Nrevers '
+- replace: "\u1D3B"
+  trigger: '\^Nrever '
+- replace: "\u1D3B"
+  trigger: '\^Nreve '
+- replace: "\u1D3B"
+  trigger: '\^Nrev '
+- replace: "\u1D3B"
+  trigger: '\^Nre '
+- replace: "\u1D3B"
+  trigger: '\^Nr '
+- replace: "\u1D32"
+  trigger: '\^Ereverse '
+- replace: "\u1D32"
+  trigger: '\^Erevers '
+- replace: "\u1D32"
+  trigger: '\^Erever '
+- replace: "\u1D32"
+  trigger: '\^Ereve '
+- replace: "\u1D32"
+  trigger: '\^Erev '
+- replace: "\u1D32"
+  trigger: '\^Ere '
+- replace: "\u1D32"
+  trigger: '\^Er '
+- replace: "\u1D2F"
+  trigger: '\^Bbarre '
+- replace: "\u1D2F"
+  trigger: '\^Bbarr '
+- replace: "\u1D2F"
+  trigger: '\^Bbar '
+- replace: "\u1D2F"
+  trigger: '\^Bba '
+- replace: "\u1D2F"
+  trigger: '\^Bb '
+- replace: "\u2120"
+  trigger: '\^S '
+- replace: "\u2121"
+  trigger: '\^TE '
+- replace: "\u2090"
+  trigger: '\_ '
+- replace: "\u03FA"
+  trigger: '\Sa '
+- replace: "\u03E0"
+  trigger: '\Samp '
+- replace: "\u03E0"
+  trigger: '\Sam '
+- replace: "\u03F7"
+  trigger: '\Sh '
+- replace: "\u03EC"
+  trigger: '\Shim '
+- replace: "\u03EC"
+  trigger: '\Shi '
+- replace: "\u03E2"
+  trigger: '\She '
+- replace: "\u03DA"
+  trigger: '\Stigm '
+- replace: "\u03DA"
+  trigger: '\Stig '
+- replace: "\u03DA"
+  trigger: '\Sti '
+- replace: "\u03DA"
+  trigger: '\St '
+- replace: "\u03A3"
+  trigger: '\Sigm '
+- replace: "\u03A3"
+  trigger: '\Sig '
+- replace: "\u03A3"
+  trigger: '\Si '
+- replace: "\u22D0"
+  trigger: '\Subse '
+- replace: "\u22D0"
+  trigger: '\Subs '
+- replace: "\u22D0"
+  trigger: '\Sub '
+- replace: "\u22D1"
+  trigger: '\Supse '
+- replace: "\u22D1"
+  trigger: '\Sups '
+- replace: "\u263A"
+  trigger: '\Smile '
+- replace: "\u263A"
+  trigger: '\Smil '
+- replace: "\u263A"
+  trigger: '\Smi '
+- replace: "\u263A"
+  trigger: '\Sm '
+- replace: "\u03A8"
+  trigger: '\Ps '
+- replace: "\u03A6"
+  trigger: '\Ph '
+- replace: "\u03A0\u2080"
+  trigger: '\Pi_ '
+- replace: "\u03A0\u2080"
+  trigger: '\P_ '
+- replace: "\U0001D400"
+  trigger: '\bf '
+- replace: "\U0001D434"
+  trigger: '\Mi '
+- replace: "\U0001D468"
+  trigger: '\MI '
+- replace: "\U0001D49C"
+  trigger: '\Mc '
+- replace: "\U0001D4D0"
+  trigger: '\MC '
+- replace: "\U0001D504"
+  trigger: '\Mf '
+- replace: "\xA5"
+  trigger: '\ye '
+- replace: "\xA5"
+  trigger: '\y '
+- replace: "\u03F1"
+  trigger: '\varrh '
+- replace: "\u03F1"
+  trigger: '\varr '
+- replace: "\u03F1"
+  trigger: '\var '
+- replace: "\u03F1"
+  trigger: '\va '
+- replace: "\u03F0"
+  trigger: '\varkapp '
+- replace: "\u03F0"
+  trigger: '\varkap '
+- replace: "\u03F0"
+  trigger: '\varka '
+- replace: "\u03F0"
+  trigger: '\vark '
+- replace: "\u03D6"
+  trigger: '\varp '
+- replace: "\u03D5"
+  trigger: '\varph '
+- replace: "\u2032"
+  trigger: '\varprim '
+- replace: "\u2032"
+  trigger: '\varpri '
+- replace: "\u2032"
+  trigger: '\varpr '
+- replace: "\u221D"
+  trigger: '\varpropt '
+- replace: "\u221D"
+  trigger: '\varprop '
+- replace: "\u221D"
+  trigger: '\varpro '
+- replace: "\u03D1"
+  trigger: '\varthet '
+- replace: "\u03D1"
+  trigger: '\varthe '
+- replace: "\u03D1"
+  trigger: '\varth '
+- replace: "\u03D1"
+  trigger: '\vart '
+- replace: "\u22B2"
+  trigger: '\vartrianglelef '
+- replace: "\u22B2"
+  trigger: '\vartrianglele '
+- replace: "\u22B2"
+  trigger: '\vartrianglel '
+- replace: "\u22B2"
+  trigger: '\vartriangle '
+- replace: "\u22B2"
+  trigger: '\vartriangl '
+- replace: "\u22B2"
+  trigger: '\vartriang '
+- replace: "\u22B2"
+  trigger: '\vartrian '
+- replace: "\u22B2"
+  trigger: '\vartria '
+- replace: "\u22B2"
+  trigger: '\vartri '
+- replace: "\u22B2"
+  trigger: '\vartr '
+- replace: "\u22B3"
+  trigger: '\vartrianglerigh '
+- replace: "\u22B3"
+  trigger: '\vartrianglerig '
+- replace: "\u22B3"
+  trigger: '\vartriangleri '
+- replace: "\u22B3"
+  trigger: '\vartriangler '
+- replace: "\u03D0"
+  trigger: '\varbet '
+- replace: "\u03D0"
+  trigger: '\varbe '
+- replace: "\u03D0"
+  trigger: '\varb '
+- replace: "\u03C2"
+  trigger: '\varsigm '
+- replace: "\u03C2"
+  trigger: '\varsig '
+- replace: "\u03C2"
+  trigger: '\varsi '
+- replace: "\u03C2"
+  trigger: '\vars '
+- replace: "\u22BB"
+  trigger: '\veeba '
+- replace: "\u22BB"
+  trigger: '\veeb '
+- replace: "\u22A2"
+  trigger: '\vdas '
+- replace: "\u22A2"
+  trigger: '\vda '
+- replace: "\u22EE"
+  trigger: '\vdot '
+- replace: "\u22EE"
+  trigger: '\vdo '
+- replace: "\u22A8"
+  trigger: '\vDas '
+- replace: "\u22A8"
+  trigger: '\vDa '
+- replace: "\u03DF"
+  trigger: '\kopp '
+- replace: "\u03DF"
+  trigger: '\kop '
+- replace: "\u03DF"
+  trigger: '\ko '
+- replace: "\u212A"
+  trigger: '\kelvi '
+- replace: "\u212A"
+  trigger: '\kelv '
+- replace: "\u212A"
+  trigger: '\kel '
+- replace: "\u212A"
+  trigger: '\ke '
+- replace: "\u03BA"
+  trigger: '\kapp '
+- replace: "\u03BA"
+  trigger: '\kap '
+- replace: "\u03E7"
+  trigger: '\khe '
+- replace: "\u03E7"
+  trigger: '\kh '
+- replace: "\u26A0"
+  trigger: '\warnin '
+- replace: "\u26A0"
+  trigger: '\warni '
+- replace: "\u26A0"
+  trigger: '\warn '
+- replace: "\u26A0"
+  trigger: '\war '
+- replace: "\u26A0"
+  trigger: '\wa '
+- replace: "\u20A9"
+  trigger: '\wo '
+- replace: "\u2227"
+  trigger: '\wedg '
+- replace: "\u2227"
+  trigger: '\wed '
+- replace: "\u2227"
+  trigger: '\we '
+- replace: "\u03EE"
+  trigger: '\De '
+- replace: "\u0394"
+  trigger: '\Delt '
+- replace: "\u0394"
+  trigger: '\Del '
+- replace: "\u03DC"
+  trigger: '\Digamm '
+- replace: "\u03DC"
+  trigger: '\Digam '
+- replace: "\u03DC"
+  trigger: '\Diga '
+- replace: "\u03DC"
+  trigger: '\Dig '
+- replace: "\u03DC"
+  trigger: '\Di '
+- replace: "\u25C7"
+  trigger: '\Diamon '
+- replace: "\u25C7"
+  trigger: '\Diamo '
+- replace: "\u25C7"
+  trigger: '\Diam '
+- replace: "\u25C7"
+  trigger: '\Dia '
+- replace: "\u21D3"
+  trigger: '\Downarro '
+- replace: "\u21D3"
+  trigger: '\Downarr '
+- replace: "\u21D3"
+  trigger: '\Downar '
+- replace: "\u21D3"
+  trigger: '\Downa '
+- replace: "\u21D3"
+  trigger: '\Down '
+- replace: "\u21D3"
+  trigger: '\Dow '
+- replace: "\u21D3"
+  trigger: '\Do '
+- replace: "\u03B6"
+  trigger: '\zet '
+- replace: "\u0397"
+  trigger: '\Et '
+- replace: "\u0397"
+  trigger: '\E '
+- replace: "\u0395"
+  trigger: '\Epsilo '
+- replace: "\u0395"
+  trigger: '\Epsil '
+- replace: "\u0395"
+  trigger: '\Epsi '
+- replace: "\u0395"
+  trigger: '\Eps '
+- replace: "\u0395"
+  trigger: '\Ep '
+- replace: "\u0392"
+  trigger: '\Bet '
+- replace: "\u0392"
+  trigger: '\Be '
+- replace: "\u0392"
+  trigger: '\B '
+- replace: "\u25A1"
+  trigger: '\Bo '
+- replace: "\u224E"
+  trigger: '\Bumpe '
+- replace: "\u224E"
+  trigger: '\Bump '
+- replace: "\u224E"
+  trigger: '\Bum '
+- replace: "\u224E"
+  trigger: '\Bu '
+- replace: "\u211D\u22650"
+  trigger: '\Rge '
+- replace: "\u211D\u22650"
+  trigger: '\Rg '
+- replace: "\u211D\u22650"
+  trigger: '\R>= '
+- replace: "\u211D\u22650"
+  trigger: '\R> '
+- replace: "\u211D\u22650"
+  trigger: '\nnrea '
+- replace: "\u211D\u22650"
+  trigger: '\nnre '
+- replace: "\u211D\u22650"
+  trigger: '\nnr '
+- replace: "\u211D\u22650\u221E"
+  trigger: '\ennrea '
+- replace: "\u211D\u22650\u221E"
+  trigger: '\ennre '
+- replace: "\u211D\u22650\u221E"
+  trigger: '\ennr '
+- replace: "\u211D\u22650\u221E"
+  trigger: '\enn '
+- replace: "\u2124\u221A"
+  trigger: '\Zsqr '
+- replace: "\u2124\u221A"
+  trigger: '\Zsq '
+- replace: "\u2124\u221A"
+  trigger: '\Zs '
+- replace: "\u2124\u221A"
+  trigger: '\zsqrt '
+- replace: "\u2124\u221A"
+  trigger: '\zsqr '
+- replace: "\u2124\u221A"
+  trigger: '\zsq '
+- replace: "\u2124\u221A"
+  trigger: '\zs '
+- replace: "\u2045"
+  trigger: '\lie '
+- replace: "\u2045"
+  trigger: '\bracket '
+- replace: "\u2045"
+  trigger: '\bracke '
+- replace: "\u2045"
+  trigger: '\brack '
+- replace: "\u2045"
+  trigger: '\brac '
+- replace: "\u2045"
+  trigger: '\bra '
+- replace: "\U0001D4DD"
+  trigger: '\nhd '
+- replace: "\U0001D4DD"
+  trigger: '\nh '
+- replace: "\U0001D4DD"
+  trigger: '\nbhd '
+- replace: "\U0001D4DD"
+  trigger: '\nbh '
+- replace: "\U0001D4DD"
+  trigger: '\nb '
+- replace: "\u2A2F"
+  trigger: '\vectorproduc '
+- replace: "\u2A2F"
+  trigger: '\vectorprodu '
+- replace: "\u2A2F"
+  trigger: '\vectorprod '
+- replace: "\u2A2F"
+  trigger: '\vectorpro '
+- replace: "\u2A2F"
+  trigger: '\vectorpr '
+- replace: "\u2A2F"
+  trigger: '\vectorp '
+- replace: "\u2A2F"
+  trigger: '\vector '
+- replace: "\u2A2F"
+  trigger: '\vecto '
+- replace: "\u2A2F"
+  trigger: '\vect '
+- replace: "\u2A2F"
+  trigger: '\vec '
+- replace: "\u2A2F"
+  trigger: '\crossproduc '
+- replace: "\u2A2F"
+  trigger: '\crossprodu '
+- replace: "\u2A2F"
+  trigger: '\crossprod '
+- replace: "\u2A2F"
+  trigger: '\crosspro '
+- replace: "\u2A2F"
+  trigger: '\crosspr '
+- replace: "\u2A2F"
+  trigger: '\crossp '
+- replace: "\u2A2F"
+  trigger: '\cross '
+- replace: "\u2A2F"
+  trigger: '\cros '
+- replace: "\u2A2F"
+  trigger: '\cro '
+- replace: "\u2A3F"
+  trigger: '\copro '
+- replace: "\u2A3F"
+  trigger: '\copr '
+- replace: "\u2210"
+  trigger: '\sigmaob '
+- replace: "\u2210"
+  trigger: '\sigmao '
+- replace: "\u037F"
+  trigger: '\Yo '
+- replace: "\u037F"
+  trigger: '\Y '
+- replace: "\u22A2"
+  trigger: '\goa '
+- replace: "\u22A2"
+  trigger: '\go '
+- replace: "\u22A9"
+  trigger: '\Vdas '
+- replace: "\u22A9"
+  trigger: '\Vda '
+- replace: "\u22A9"
+  trigger: '\Vd '
+- replace: "\u22A9"
+  trigger: '\V '
+- replace: "\u2016"
+  trigger: '\Ver '
+- replace: "\u2016"
+  trigger: '\Ve '
+- replace: "\u22AA"
+  trigger: '\Vvdas '
+- replace: "\u22AA"
+  trigger: '\Vvda '
+- replace: "\u22AA"
+  trigger: '\Vvd '
+- replace: "\u22AA"
+  trigger: '\Vv '

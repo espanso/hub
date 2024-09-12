@@ -1,0 +1,7 @@
+author: yanming zhang
+description: An package to get curl command code snippets
+name: curl
+title: curl Package
+version: 0.1.0
+homepage: "https://github.com/zhangymPerson/espanso-package-curl"
+tags: ["curl", "shell", "development"]

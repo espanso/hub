@@ -1,0 +1,6 @@
+name: "github-emojis-latest"
+title: "GitHub Emojis (Latest)"
+description: "A package that provides the latest emojis supported by GitHub"
+version: 1.0.0
+author: Buwei Liao
+tags: ["Emoji", "Git", "Chat", "Development", "Fun"]
