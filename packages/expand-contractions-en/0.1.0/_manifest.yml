@@ -1,7 +1,0 @@
-name: "expand-contractions-en"
-title: "Expand English Contractions"
-description: "Expand English contractions"
-version: 0.1.0
-author: Lewis Blackburn
-tags: ["english", "expand", 'contractions', 'essay', 'writing']
-homepage: "https://github.com/lewisblackburn/hub/tree/main/packages/expand-contractions-en"
