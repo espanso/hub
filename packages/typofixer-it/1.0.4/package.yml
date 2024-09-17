@@ -5353,6 +5353,10 @@ matches:
   replace: potrei
   propagate_case: true
   word: true
+- trigger: potremi
+  replace: potrei
+  propagate_case: true
+  word: true
 - trigger: potremm
   replace: potremmo
   propagate_case: true
