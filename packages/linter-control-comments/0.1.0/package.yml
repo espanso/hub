@@ -24,3 +24,8 @@ matches:
     replace: "#[deny({{clipboard}})]"
   - trigger: "#clp"
     replace: "#![deny(clippy::pedantic)]" # prone to false positives!
+
+  ### Shell
+  # https://github.com/koalaman/shellcheck/blob/master/shellcheck.1.md#directives
+  - trigger: "#scd"
+    replace: "# shellcheck disable={{clipboard}}"

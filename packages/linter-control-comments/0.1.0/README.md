@@ -1,8 +1,9 @@
 # Linter Control Comments
 
 A collection of linter control comments for
-[Rubocop](https://rubocop.org)/Ruby
-and [Clippy](https://doc.rust-lang.org/stable/clippy/)/Rust
+[Rubocop](https://rubocop.org)/Ruby,
+[Clippy](https://doc.rust-lang.org/stable/clippy/)/Rust,
+and [Shellcheck](https://www.shellcheck.net/)/Shell
 .
 
 ## Trigger composition
@@ -27,3 +28,4 @@ Trigger | Replace
 `#clw` | `#[warn({clipboard})]`
 `#cld` | `#[deny({clipboard})]`
 `#clp` | `#![deny(clippy::pedantic)]`
+`#scd` | `# shellcheck disable={clipboard}`
