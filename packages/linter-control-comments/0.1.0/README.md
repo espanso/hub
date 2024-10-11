@@ -9,6 +9,10 @@ Ruby | [Rubocop](https://rubocop.org)
 Rust | [Clippy](https://doc.rust-lang.org/stable/clippy/)
 Shell | [Shellcheck](https://www.shellcheck.net/)
 
+## How to use
+
+1. Copy a particular linting rule name (from docs, terminal output, etc.).
+1. Triggering the espansion. Most `replace`ments use the `{{clipboard}}`.
 
 ## Trigger composition
 
