@@ -4,6 +4,13 @@ global_vars:
 
 matches:
 
+  ### Go
+  # https://golangci-lint.run/usage/false-positives/#nolint-directive
+  - trigger: "/nol"
+    replace: "//nolint:{{clipboard}}"
+  - trigger: "/noa"
+    replace: "//nolint:all"
+
   ### Ruby
   # https://docs.rubocop.org/rubocop/configuration.html#disabling-cops-within-source-code
   - trigger: "#rcd"

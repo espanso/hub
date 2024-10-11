@@ -1,6 +1,7 @@
 # Linter Control Comments
 
 A collection of linter control comments for
+[Golint](https://golangci-lint.run/)/Go,
 [Rubocop](https://rubocop.org)/Ruby,
 [Clippy](https://doc.rust-lang.org/stable/clippy/)/Rust,
 and [Shellcheck](https://www.shellcheck.net/)/Shell
@@ -21,6 +22,7 @@ from having already used these linters manually.
 
 Trigger | Replace
 -- | --
+`/nl` | `//nolint:{clipboard}`
 `#rcd` | `# rubocop:disable {clipboard}`
 `#rce` | `# rubocop:enable {clipboard}`
 `#rct` | `# rubocop:todo {clipboard}`

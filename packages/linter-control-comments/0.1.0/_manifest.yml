@@ -1,10 +1,11 @@
 name: "linter-control-comments"
 title: "Linter Control Comments"
-description: "A collection of linter control comments (currently: Rubocop, Clippy, and Shellcheck)"
+description: "A collection of linter control comments (currently: Golint, Rubocop, Clippy, and Shellcheck)"
 version: 0.1.0
 author: Katrin Leinweber
 tags:
   - "development"
+  - "go"
   - "ruby"
   - "rust"
   - "shell"
