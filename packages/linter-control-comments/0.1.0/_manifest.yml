@@ -1,0 +1,8 @@
+name: "linter-control-comments"
+title: "Linter Control Comments"
+description: "A collection of linter control comments (currently: Rubocop)"
+version: 0.1.0
+author: Katrin Leinweber
+tags:
+  - "development"
+  - "ruby"

@@ -1,0 +1,8 @@
+global_vars:
+  - name: "clipboard"
+    type: "clipboard"
+
+matches:
+
+  ### Ruby
+  # https://docs.rubocop.org/rubocop/configuration.html#disabling-cops-within-source-code
