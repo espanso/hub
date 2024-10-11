@@ -2,6 +2,7 @@
 
 A collection of linter control comments for
 [Rubocop](https://rubocop.org)/Ruby
+and [Clippy](https://doc.rust-lang.org/stable/clippy/)/Rust
 .
 
 ## Trigger composition
@@ -22,3 +23,7 @@ Trigger | Replace
 `#rcd` | `# rubocop:disable {clipboard}`
 `#rce` | `# rubocop:enable {clipboard}`
 `#rct` | `# rubocop:todo {clipboard}`
+`#cla` | `#[allow({clipboard})]`
+`#clw` | `#[warn({clipboard})]`
+`#cld` | `#[deny({clipboard})]`
+`#clp` | `#![deny(clippy::pedantic)]`

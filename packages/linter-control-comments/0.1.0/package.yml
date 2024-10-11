@@ -11,4 +11,16 @@ matches:
   - trigger: "#rce"
     replace: "# rubocop:enable {{clipboard}}"
   - trigger: "#rct"
-    replace: "# rubocop:todo {clipboard}"
+    replace: "# rubocop:todo {{clipboard}}"
+
+  ### Rust
+  # https://doc.rust-lang.org/stable/clippy/usage.html#lint-configuration
+  # https://github.com/rust-lang/rust-clippy?tab=readme-ov-file#allowingdenying-lints
+  - trigger: "#cla"
+    replace: "#[allow({{clipboard}})]"
+  - trigger: "#clw"
+    replace: "#[warn({{clipboard}})]"
+  - trigger: "#cld"
+    replace: "#[deny({{clipboard}})]"
+  - trigger: "#clp"
+    replace: "#![deny(clippy::pedantic)]" # prone to false positives!
