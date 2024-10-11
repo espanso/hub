@@ -6,3 +6,9 @@ matches:
 
   ### Ruby
   # https://docs.rubocop.org/rubocop/configuration.html#disabling-cops-within-source-code
+  - trigger: "#rcd"
+    replace: "# rubocop:disable {{clipboard}}"
+  - trigger: "#rce"
+    replace: "# rubocop:enable {{clipboard}}"
+  - trigger: "#rct"
+    replace: "# rubocop:todo {clipboard}"

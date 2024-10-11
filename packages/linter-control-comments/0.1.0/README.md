@@ -1,7 +1,8 @@
 # Linter Control Comments
 
 A collection of linter control comments for
-[Rubocop](https://rubocop.org).
+[Rubocop](https://rubocop.org)/Ruby
+.
 
 ## Trigger composition
 
@@ -15,3 +16,9 @@ This hopefully helps to reuse existing muscle memory,
 from having already used these linters manually.
 
 ## Espansions
+
+Trigger | Replace
+-- | --
+`#rcd` | `# rubocop:disable {clipboard}`
+`#rce` | `# rubocop:enable {clipboard}`
+`#rct` | `# rubocop:todo {clipboard}`
