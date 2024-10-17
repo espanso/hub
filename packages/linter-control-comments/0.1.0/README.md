@@ -29,12 +29,13 @@ from having already used these linters manually.
 
 Trigger | Replace
 -- | --
-`/nl` | `//nolint:{clipboard}`
-`#rcd` | `# rubocop:disable {clipboard}`
-`#rce` | `# rubocop:enable {clipboard}`
-`#rct` | `# rubocop:todo {clipboard}`
-`#cla` | `#[allow({clipboard})]`
-`#clw` | `#[warn({clipboard})]`
-`#cld` | `#[deny({clipboard})]`
+`/nol` | `//nolint:{{clipboard}}`
+`/noa` | `//nolint:all`
+`#rcd` | `# rubocop:disable {{clipboard}}`
+`#rce` | `# rubocop:enable {{clipboard}}`
+`#rct` | `# rubocop:todo {{clipboard}}`
+`#cla` | `#[allow({{clipboard}})]`
+`#clw` | `#[warn({{clipboard}})]`
+`#cld` | `#[deny({{clipboard}})]`
 `#clp` | `#![deny(clippy::pedantic)]`
-`#scd` | `# shellcheck disable={clipboard}`
+`#scd` | `# shellcheck disable={{clipboard}}`
