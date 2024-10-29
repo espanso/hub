@@ -1,0 +1,7 @@
+author: Can Mavioğlu
+description: A package to include aspnetboilerplate and aspnet zero shortcut code generation in espanso.
+name: aspnetboilerplate-aspzerohub
+title: Aspnetboilerplate and AspNet Zero Hub
+version: 0.1.1
+homepage: "https://github.com/canmavi/aspboilerplate-aspzerohub"
+tags: ["code", "aspnetboilerplate", "aspnetzero"]
