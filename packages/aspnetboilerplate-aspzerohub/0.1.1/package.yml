@@ -11,39 +11,30 @@ matches:
             data: JSON.stringify()\n
             }).done(function(data) {\n\n
             });"
-    force_clipboard: true
 
   - trigger: "::ns"
-    replace: "abp.notify.success('a message text', 'optional title');"
-    force_clipboard: true
+    replace: "abp.notify.success('a message text', 'optional title');"  
 
   - trigger: "::ni"
-    replace: "abp.notify.info('a message text', 'optional title');"
-    force_clipboard: true
+    replace: "abp.notify.info('a message text', 'optional title');" 
 
   - trigger: "::nw"
-    replace: "abp.notify.warn('a message text', 'optional title');"
-    force_clipboard: true
+    replace: "abp.notify.warn('a message text', 'optional title');"   
 
   - trigger: "::ne"
-    replace: "abp.notify.error('a message text', 'optional title');"
-    force_clipboard: true
+    replace: "abp.notify.error('a message text', 'optional title');"   
 
   - trigger: "::ms"
-    replace: "abp.message.success('some success message', 'some optional title');"
-    force_clipboard: true
+    replace: "abp.message.success('some success message', 'some optional title');"    
 
   - trigger: "::mi"
-    replace: "abp.message.info('some info message', 'some optional title');"
-    force_clipboard: true
+    replace: "abp.message.info('some info message', 'some optional title');"   
 
   - trigger: "::mw"
-    replace: "abp.message.warn('some warning message', 'some optional title');"
-    force_clipboard: true
+    replace: "abp.message.warn('some warning message', 'some optional title');"   
 
   - trigger: "::me"
-    replace: "abp.message.error('some error message', 'some optional title');"
-    force_clipboard: true
+    replace: "abp.message.error('some error message', 'some optional title');"   
 
   - trigger: "::mcon"
     replace: "abp.message.confirm(\n
@@ -52,12 +43,10 @@ matches:
                 if (isConfirmed) {\n\n
                   }\n
                 }\n
-              );"
-    force_clipboard: true
+              );"   
 
   - trigger: "::sbusy"
-    replace: "abp.ui.setBusy('#form');"
-    force_clipboard: true
+    replace: "abp.ui.setBusy('#form');"    
 
   - trigger: "::sclear"
     replace: "abp.ui.clearBusy('#form');"
@@ -66,8 +55,7 @@ matches:
     replace: "abp.ui.setBusy(\n
               $('#form'),\n
               {{output}}\n
-              );"
-    force_clipboard: true
+              );"  
     vars:
       - name: output
         type: match
@@ -75,50 +63,39 @@ matches:
           trigger: "::ajax"
   
   - trigger: "::bpage"
-    replace: "abp.ui.block();"
-    force_clipboard: true
+    replace: "abp.ui.block();"   
 
   - trigger: "::ubpage"
-    replace: "abp.ui.unblock();"
-    force_clipboard: true
+    replace: "abp.ui.unblock();"   
 
   - trigger: "::belm"
-    replace: "abp.ui.block($('#$|$'));"
-    force_clipboard: true
+    replace: "abp.ui.block($('#$|$'));"   
 
   - trigger: "::ubelm"
-    replace: "abp.ui.unblock($('#$|$'));"
-    force_clipboard: true
+    replace: "abp.ui.unblock($('#$|$'));"   
 
   - trigger: "::fstr"
-    replace: "var str = abp.utils.formatString('Hello {0}!', 'World');"
-    force_clipboard: true
+    replace: "var str = abp.utils.formatString('Hello {0}!', 'World');"   
 
   - trigger: "::dlog"
-    replace: "abp.log.debug('$|$');"
-    force_clipboard: true
+    replace: "abp.log.debug('$|$');"    
 
   - trigger: "::ilog"
-    replace: "abp.log.info('$|$');"
-    force_clipboard: true
+    replace: "abp.log.info('$|$');"   
 
   - trigger: "::wlog"
-    replace: "abp.log.warn('$|$');"
-    force_clipboard: true
+    replace: "abp.log.warn('$|$');"   
 
   - trigger: "::elog"
-    replace: "abp.log.error('$|$');"
-    force_clipboard: true
+    replace: "abp.log.error('$|$');" 
 
   - trigger: "::flog"
-    replace: "abp.log.fatal('$|$');"
-    force_clipboard: true
+    replace: "abp.log.fatal('$|$');"  
 
   - trigger: "::getpassive"
     replace: "using (_unitOfWorkManager.Current.DisableFilter(AbpDataFilters.SoftDelete))\n
     {$|$\n
-    }\n"
-    force_clipboard: true
+    }\n"   
 
   - trigger: "::fkatr"
     replace: "[ForeignKey(\"$|$\")]"
@@ -172,13 +149,11 @@ matches:
     replace: "[UnitOfWork(isTransactional: false)]"
 
   - trigger: "::uow"
-    replace: "private readonly IUnitOfWorkManager _unitOfWorkManager;"
-    force_clipboard: true
+    replace: "private readonly IUnitOfWorkManager _unitOfWorkManager;"   
 
   - trigger: "::uow"
     replace: "using (var unitOfWork = _unitOfWorkManager.Begin())\n
-        {\n\nunitOfWork.Complete();\n}"
-    force_clipboard: true
+        {\n\nunitOfWork.Complete();\n}"  
 
   - trigger: "::map"
     replace: "[AutoMapTo(typeof($|$))]"
@@ -190,15 +165,13 @@ matches:
     replace: "[StringLength($|$, MinimumLength = )]"      
 
   - trigger: "::grant"
-    html: "abp.auth.isGranted('$|$');"
-    force_clipboard: true
+    html: "abp.auth.isGranted('$|$');"    
 
   - trigger: "::grant"
     replace: "@if (IsGranted(\"$|$\"))\n{\n\n}\n"
 
   - trigger: "::gloc"
-    html: "app.localize($|$\"\")"
-    force_clipboard: true
+    html: "app.localize($|$\"\")"    
 
   - trigger: "::gloc"
     replace: "@L(\"$|$\")"
@@ -207,30 +180,25 @@ matches:
     replace: "L(\"$|$\")"
 
   - trigger: "::loc"
-    replace: "<text name=\"$|$\" value=\"\" />"
-    force_clipboard: true
+    replace: "<text name=\"$|$\" value=\"\" />"   
 
   - trigger: "::throw"
     replace: "throw new UserFriendlyException(\"$|$\");"
 
   - trigger: "::throw"
-    replace: "throw new Exception(\"$|$\");"
-    force_clipboard: true
+    replace: "throw new Exception(\"$|$\");"    
 
   - trigger: "::disdatenor"
     replace: "[DisableDateTimeNormalization]"
 
   - trigger: "::abpsession"
-    replace: "public IAbpSession AbpSession { get; set; }"
-    force_clipboard: true
+    replace: "public IAbpSession AbpSession { get; set; }"    
 
   - trigger: "::abpsession"
-    replace: "private readonly IAbpSession _session;"
-    force_clipboard: true
+    replace: "private readonly IAbpSession _session;"   
 
   - trigger: "::cache"
-    replace: "private readonly ICacheManager _cacheManager;"
-    force_clipboard: true
+    replace: "private readonly ICacheManager _cacheManager;"   
 
   - trigger: "::dowrap"
     replace: "[WrapResult(WrapOnSuccess = false, WrapOnError = false)]"
