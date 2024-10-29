@@ -2,7 +2,7 @@
 
 A package to include AspNet Boilerplate and AspNet Zero shortcut code generation in espanso.
 
-**Note** : Sometimes it has been observed that the replace process does not work in Visual Studio. Sometimes it has been observed that the replace process does not work in Visual Studio. When you run Espanso as an administrator or set "backend: Clipboard" in "espanso\config" the problem is solved.
+**Note** : Sometimes it has been observed that the replace process does not work in Visual Studio. Sometimes it has been observed that the replace process does not work in Visual Studio. When you run Espanso as an administrator or if you set "backend: Clipboard" in the "default.yml" file located in "espanso\config", the problem is solved.
 
 ## Usage
 
