@@ -1,42 +1,51 @@
 matches:
 
-  #aspbolerplate and aspzero
+   #aspnetboilerplate and aspnetzero
   - trigger: ":bundle"
     replace: "npm run create-bundles"
 
-  - trigger: ";;ajax"
+  - trigger: "::ajax"
     replace: "abp.ajax({\n
             method: '',\n
             url: '',\n
             data: JSON.stringify()\n
             }).done(function(data) {\n\n
             });"
+    force_clipboard: true
 
-  - trigger: ";;ns"
+  - trigger: "::ns"
     replace: "abp.notify.success('a message text', 'optional title');"
+    force_clipboard: true
 
-  - trigger: ";;ni"
+  - trigger: "::ni"
     replace: "abp.notify.info('a message text', 'optional title');"
+    force_clipboard: true
 
-  - trigger: ";;nw"
+  - trigger: "::nw"
     replace: "abp.notify.warn('a message text', 'optional title');"
+    force_clipboard: true
 
-  - trigger: ";;ne"
+  - trigger: "::ne"
     replace: "abp.notify.error('a message text', 'optional title');"
+    force_clipboard: true
 
-  - trigger: ";;ms"
+  - trigger: "::ms"
     replace: "abp.message.success('some success message', 'some optional title');"
+    force_clipboard: true
 
-  - trigger: ";;mi"
+  - trigger: "::mi"
     replace: "abp.message.info('some info message', 'some optional title');"
+    force_clipboard: true
 
-  - trigger: ";;mw"
+  - trigger: "::mw"
     replace: "abp.message.warn('some warning message', 'some optional title');"
+    force_clipboard: true
 
-  - trigger: ";;me"
+  - trigger: "::me"
     replace: "abp.message.error('some error message', 'some optional title');"
+    force_clipboard: true
 
-  - trigger: ";;con"
+  - trigger: "::mcon"
     replace: "abp.message.confirm(\n
                 '$|$','',\n
                 function (isConfirmed) {\n
@@ -44,133 +53,193 @@ matches:
                   }\n
                 }\n
               );"
+    force_clipboard: true
 
-  - trigger: ";;sbusy"
+  - trigger: "::sbusy"
     replace: "abp.ui.setBusy('#form');"
+    force_clipboard: true
 
-  - trigger: ";;sclear"
+  - trigger: "::sclear"
     replace: "abp.ui.clearBusy('#form');"
 
-  - trigger: ";;sbajax"
+  - trigger: "::sbajax"
     replace: "abp.ui.setBusy(\n
               $('#form'),\n
               {{output}}\n
               );"
+    force_clipboard: true
     vars:
       - name: output
         type: match
         params:
-          trigger: ";;ajax"
+          trigger: "::ajax"
   
-  - trigger: ";;bpage"
+  - trigger: "::bpage"
     replace: "abp.ui.block();"
+    force_clipboard: true
 
-  - trigger: ";;ubpage"
+  - trigger: "::ubpage"
     replace: "abp.ui.unblock();"
+    force_clipboard: true
 
-  - trigger: ";;belm"
+  - trigger: "::belm"
     replace: "abp.ui.block($('#$|$'));"
+    force_clipboard: true
 
-  - trigger: ";;ubelm"
+  - trigger: "::ubelm"
     replace: "abp.ui.unblock($('#$|$'));"
+    force_clipboard: true
 
-  - trigger: ";;fstr"
+  - trigger: "::fstr"
     replace: "var str = abp.utils.formatString('Hello {0}!', 'World');"
+    force_clipboard: true
 
-  - trigger: ";;dlog"
+  - trigger: "::dlog"
     replace: "abp.log.debug('$|$');"
+    force_clipboard: true
 
-  - trigger: ";;ilog"
+  - trigger: "::ilog"
     replace: "abp.log.info('$|$');"
+    force_clipboard: true
 
-  - trigger: ";;wlog"
+  - trigger: "::wlog"
     replace: "abp.log.warn('$|$');"
+    force_clipboard: true
 
-  - trigger: ";;elog"
+  - trigger: "::elog"
     replace: "abp.log.error('$|$');"
+    force_clipboard: true
 
-  - trigger: ";;flog"
+  - trigger: "::flog"
     replace: "abp.log.fatal('$|$');"
+    force_clipboard: true
 
-  - trigger: ";;getpassive"
+  - trigger: "::getpassive"
     replace: "using (_unitOfWorkManager.Current.DisableFilter(AbpDataFilters.SoftDelete))\n
     {$|$\n
     }\n"
+    force_clipboard: true
 
-  - trigger: ";;fkatr"
+  - trigger: "::fkatr"
     replace: "[ForeignKey(\"$|$\")]"
 
-  - trigger: ";;autatr"
+  - trigger: "::autatr"
     replace: "[AbpAuthorize]"
 
-  - trigger: ";;autatr"
+  - trigger: "::autatr"
     replace: "[AbpAuthorize(\"$|$\")]"
 
-  - trigger: ";;anonatr"
+  - trigger: "::autatr"
+    replace: "[AbpAuthorize(AppPermissions\"$|$\")]"
+
+  - trigger: "::autatr"
+    replace: "[AbpApiAuthorize(\"$|$\")]"
+
+  - trigger: "::anonatr"
     replace: "[AbpAllowAnonymous]"
 
-  - trigger: ";;anonatr"
+  - trigger: "::anonatr"
     replace: "[AllowAnonymous]"
 
-  - trigger: ";;autatr"
+  - trigger: "::audatr"
     replace: "[Audited]"
 
-  - trigger: ";;autatr"
+  - trigger: "::audatr"
     replace: "[DisableAuditing]"
 
-  - trigger: ";;usecase"
+  - trigger: "::usecase"
     replace: "[UseCase(Description = \"$|$\")]"
 
-  - trigger: ";;remsatr"
+  - trigger: "::remsatr"
     replace: "[RemoteService(IsEnabled = false)]"
 
-  - trigger: ";;remsatr"
+  - trigger: "::remsatr"
     replace: "[RemoteService(IsMetadataEnabled = false)]"
 
-  - trigger: ";;vatr"
+  - trigger: "::vatr"
     replace: "[DisableValidation]"
 
-  - trigger: ";;vatr"
+  - trigger: "::vatr"
     replace: "[EnableValidation]"
 
-  - trigger: ";;uow"
+  - trigger: "::uow"
     replace: "[UnitOfWork]"
 
-  - trigger: ";;uow"
+  - trigger: "::uow"
     replace: "[UnitOfWork(IsDisabled = true)]"
 
-  - trigger: ";;uow"
+  - trigger: "::uow"
     replace: "[UnitOfWork(isTransactional: false)]"
 
-  - trigger: ";;map"
+  - trigger: "::uow"
+    replace: "private readonly IUnitOfWorkManager _unitOfWorkManager;"
+    force_clipboard: true
+
+  - trigger: "::uow"
+    replace: "using (var unitOfWork = _unitOfWorkManager.Begin())\n
+        {\n\nunitOfWork.Complete();\n}"
+    force_clipboard: true
+
+  - trigger: "::map"
     replace: "[AutoMapTo(typeof($|$))]"
 
-  - trigger: ";;slattr"
+  - trigger: "::slattr"
     replace: "[StringLength($|$)]"
 
-  - trigger: ";;slattr"
+  - trigger: "::slattr"
     replace: "[StringLength($|$, MinimumLength = )]"      
 
-  - trigger: ";;grant"
+  - trigger: "::grant"
     html: "abp.auth.isGranted('$|$');"
+    force_clipboard: true
 
-  - trigger: ";;grant"
+  - trigger: "::grant"
     replace: "@if (IsGranted(\"$|$\"))\n{\n\n}\n"
 
-  - trigger: ";;gloc"
+  - trigger: "::gloc"
     html: "app.localize($|$\"\")"
+    force_clipboard: true
 
-  - trigger: ";;gloc"
+  - trigger: "::gloc"
     replace: "@L(\"$|$\")"
 
-  - trigger: ";;gloc"
+  - trigger: "::gloc"
     replace: "L(\"$|$\")"
 
-  - trigger: ";;loc"
+  - trigger: "::loc"
     replace: "<text name=\"$|$\" value=\"\" />"
+    force_clipboard: true
 
-  - trigger: ";;throw"
+  - trigger: "::throw"
     replace: "throw new UserFriendlyException(\"$|$\");"
 
-  - trigger: ";;throw"
+  - trigger: "::throw"
     replace: "throw new Exception(\"$|$\");"
+    force_clipboard: true
+
+  - trigger: "::disdatenor"
+    replace: "[DisableDateTimeNormalization]"
+
+  - trigger: "::abpsession"
+    replace: "public IAbpSession AbpSession { get; set; }"
+    force_clipboard: true
+
+  - trigger: "::abpsession"
+    replace: "private readonly IAbpSession _session;"
+    force_clipboard: true
+
+  - trigger: "::cache"
+    replace: "private readonly ICacheManager _cacheManager;"
+    force_clipboard: true
+
+  - trigger: "::dowrap"
+    replace: "[WrapResult(WrapOnSuccess = false, WrapOnError = false)]"
+
+  - trigger: "::dowrap"
+    replace: "[WrapResult(WrapOnSuccess = true, WrapOnError = false)]"
+
+  - trigger: "::dowrap"
+    replace: "[WrapResult(WrapOnSuccess = false, WrapOnError = true)]"
+
+  - trigger: "::dontwrap"
+    replace: "[DontWrapResult]"
