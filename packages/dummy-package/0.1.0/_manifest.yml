@@ -1,6 +1,7 @@
 name: "dummy-package"
 title: "Dummy package"
 description: A dummy package for testing
+homepage: "https://espanso.org/docs/packages/creating-a-package/#publish-on-the-hub-public"
 version: 0.1.0
 author: Federico Terzi
 tags: ["example"]
