@@ -132,3 +132,6 @@ dmypy.json
 
 # macOS files that should be excluded from git
 .DS_Store
+
+validation_report.md
+
