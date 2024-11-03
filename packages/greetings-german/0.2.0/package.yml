@@ -1,16 +1,14 @@
+global_vars:
+  - name: "clipboard"
+    type: "clipboard"
+
 matches:
 
   - trigger: ",sgf"
     replace: "Sehr geehrte Frau {{clipboard}},\n\n\n"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
 
   - trigger: ",sgh"
     replace: "Sehr geehrter Herr {{clipboard}},\n\n\n"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
 
   - trigger: ",gm"
     replace: "Guten Morgen,\n\n\n"
