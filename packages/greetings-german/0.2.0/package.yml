@@ -4,11 +4,17 @@ global_vars:
 
 matches:
 
+  - trigger: ",sgdh"
+    replace: "Sehr geehrte Dame, Sehr geehrter Herr,\n\n"
+
   - trigger: ",sgf"
     replace: "Sehr geehrte Frau {{clipboard}},\n\n\n"
 
   - trigger: ",sgh"
     replace: "Sehr geehrter Herr {{clipboard}},\n\n\n"
+
+  - trigger: ",sgt"
+    replace: "Sehr geehrtes {{clipboard}}-Team,\n\n\n"
 
   - trigger: ",gm"
     replace: "Guten Morgen,\n\n\n"
