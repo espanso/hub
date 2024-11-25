@@ -1,0 +1,7 @@
+author: Katrin Leinweber
+description: A few greeting snippets
+homepage: https://github.com/espanso/hub/tree/main/packages/greetings-english/0.2.0
+name: greetings-english
+title: Greetings in English
+version: 0.2.0
+tags: ["greetings", "english", "phrases"]
