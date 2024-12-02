@@ -1,0 +1,67 @@
+# Global Variables
+global_vars: 
+  - name: myName
+    type: echo
+    params:
+      echo: "Your Name Here"
+
+matches:
+  # Headers
+  # Generic Header
+  - trigger: ":matHead"
+    form: |
+      %% [[fileName]] - Main
+      % [[Summary]]
+      %
+      %   Author: {{myName}}
+      %   Collaborators: [[Collaborators]]
+      %   Last Modified: :date
+
+      % Start Code
+      clc; clear all; close all;
+    form_fields:
+      text:
+        multiline: true
+
+  # Function Header
+  - trigger: ":matFunc"
+    form: |
+      function [] = [[funcTitle]]()
+      %% [[Summary]]
+      %
+      %   Author: {{myName}}
+      %   Collaborators: [[Collaborators]]
+      %   Last Modified: :date
+      % Inputs:   
+      %
+      % Outputs:  
+      % 
+      % Methodology:
+
+      end;
+    form_fields:
+      text:
+        multiline: true
+
+  # MATLAB Specific Code
+  # Basic Plot Template
+  - trigger: ":matPlot"
+    replace: |
+      % figure()
+      figure(); hold on; grid on; grid minor
+      plot();
+      title(); xlabel(); ylabel()
+      hold off;
+
+  # Print Graphs
+  - trigger: ":matPrnt"
+    replace: "print( ,'-dpng','title.png')"
+
+  # Load in Data
+  - trigger: ":matData"
+    replace: |
+      files = dir('FolderName/');
+      for temp = 3:4
+          long_name = strcat(files(temp).folder,'/',files(temp).name);
+          raw_data.(files(temp).name) = readtable(long_name);
+      end
