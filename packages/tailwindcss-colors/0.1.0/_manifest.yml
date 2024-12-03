@@ -1,0 +1,7 @@
+name: "tailwindcss-colors"
+title: "Tailwind CSS Colors"
+description: "A package that provides TailwindCSS's default color palette as hex color codes for quick access."
+version: 0.1.0
+author: "Paulina Kalicka"
+tags: ["colors", "hex", "tailwindcss"]
+homepage: "https://github.com/paulinek13/.fork.espanso-hub/blob/main/packages/tailwindcss-colors/0.1.0/README.md"
