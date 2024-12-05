@@ -1,0 +1,6 @@
+name: "jekyll yaml metadata"
+title: "Jekyll YAML metadata"
+description: A simple package to add metadata to your jekyll posts before writing.
+version: 0.1.0
+author: mathis
+tags: ["jekyll", "yaml"]

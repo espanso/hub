@@ -1,0 +1,12 @@
+matches:
+  - trigger: ":newpost"
+    replace: "---\ndate: {{mydate}}\nauthor: {{autorname}}\ntags:\ncategory:\ntitle:\n---"
+    vars:
+      - name: autorname
+        type: echo
+        params: 
+          echo: YourName
+      - name: mydate
+        type: date
+        params:
+          format: "%Y-%m-%d"
