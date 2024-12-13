@@ -17,7 +17,7 @@ matches:
   - trigger: :forms
     replace: '{{form_url}}'
     vars:
-      # Read choice-list options from CVS file.
+      # Read choice-list options from CSV file.
       - name: form_names
         type: script
         params:
