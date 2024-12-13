@@ -28,11 +28,12 @@ matches:
               import csv
               with open(r'{{urlcsv}}', newline='') as f:
                 for row in csv.reader(f): print(row[0])
+      # Form
       - name: choice
         type: form
         params:
           layout: |
-            Get link to D65 form:
+            Get link for:
             [[choices]]
           fields:
             choices:
@@ -50,7 +51,4 @@ matches:
               with open(r'{{urlcsv}}', newline='') as f:
                 for row in csv.reader(f):
                   if row[0] == '{{choice.choices}}':
-                    print(row[1])
-                    break
-
-
+                    print(row[1]) ; break

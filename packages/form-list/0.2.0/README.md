@@ -10,7 +10,7 @@ You will need to edit the entries in the `form_urls.csv`. The sample lines are a
 | --- | --- |
 | gmail | https://gmail.com/ |
 
-**Separate the two fields with a comma.** Remember to save the file! Ensure you retain its UTF-8 encoding. Some spreadsheet programs will switch to UTF-8-BOM.
+**Separate the two fields with a comma.** Remember to save the file! Ensure you retain its UTF-8 encoding - spreadsheet programs may switch to UTF-8-BOM.
 
 ## Reuse
 
