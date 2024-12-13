@@ -1,15 +1,23 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/espanso/espanso/dev/schemas/match.schema.json
 
 global_vars:
+  # OS-agnostic derivation of path to CSV file.
   - name: urlcsv
-    type: shell
+    type: script
     params:
-      cmd: echo "$CONFIG/match/packages/form-list/0.2.0/form_urls.csv"
-
+      args:
+        - python
+        - -c
+        - |
+          import os
+          config_path = os.getenv("CONFIG")
+          print(os.path.join(config_path, "match", "packages", "form-list", "0.2.0", "form_urls.csv"))
+      
 matches:
   - trigger: :forms
     replace: '{{form_url}}'
     vars:
+      # Read choice-list options from CVS file.
       - name: form_names
         type: script
         params:
@@ -18,7 +26,7 @@ matches:
             - -c
             - |
               import csv
-              with open('{{urlcsv}}', newline='') as f:
+              with open(r'{{urlcsv}}', newline='') as f:
                 for row in csv.reader(f): print(row[0])
       - name: choice
         type: form
@@ -30,6 +38,7 @@ matches:
             choices:
               type: list
               values: '{{form_names}}'
+      # Return paired item as selected above
       - name: form_url
         type: script
         params:
@@ -38,7 +47,7 @@ matches:
             - -c
             - |
               import csv
-              with open('{{urlcsv}}', newline='') as f:
+              with open(r'{{urlcsv}}', newline='') as f:
                 for row in csv.reader(f):
                   if row[0] == '{{choice.choices}}':
                     print(row[1])
