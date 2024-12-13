@@ -1,0 +1,47 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/espanso/espanso/dev/schemas/match.schema.json
+
+global_vars:
+  - name: urlcsv
+    type: shell
+    params:
+      cmd: echo "$CONFIG/match/packages/form-list/0.2.0/form_urls.csv"
+
+matches:
+  - trigger: :forms
+    replace: '{{form_url}}'
+    vars:
+      - name: form_names
+        type: script
+        params:
+          args:
+            - python
+            - -c
+            - |
+              import csv
+              with open('{{urlcsv}}', newline='') as f:
+                for row in csv.reader(f): print(row[0])
+      - name: choice
+        type: form
+        params:
+          layout: |
+            Get link to D65 form:
+            [[choices]]
+          fields:
+            choices:
+              type: list
+              values: '{{form_names}}'
+      - name: form_url
+        type: script
+        params:
+          args:
+            - python
+            - -c
+            - |
+              import csv
+              with open('{{urlcsv}}', newline='') as f:
+                for row in csv.reader(f):
+                  if row[0] == '{{choice.choices}}':
+                    print(row[1])
+                    break
+
+
