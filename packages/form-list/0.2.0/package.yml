@@ -11,7 +11,7 @@ global_vars:
         - |
           import os
           config_path = os.getenv("CONFIG")
-          print(os.path.join(config_path, "match", "packages", "form-list", "0.2.0", "form_urls.csv"))
+          print(os.path.join(config_path, "match", "packages", "form-list", "form_urls.csv"))
       
 matches:
   - trigger: :forms
