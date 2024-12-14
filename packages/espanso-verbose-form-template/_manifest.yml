@@ -1,0 +1,7 @@
+name: espanso-verbose-form-template
+version: 1.0.0
+author: Omar Elmenawi
+description: Espanso shortcode to create espanso shortcuts with the choice extension
+tags: ["espanso", "shortcut", "template", "choice-extension"]
+
+
