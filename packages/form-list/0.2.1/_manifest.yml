@@ -1,0 +1,7 @@
+name: "form-list"
+title: "Form URLs List"
+description: Uses a CSV to present a list of links and then pastes the chosen URL. 
+version: 0.2.0
+author: Ben Alexander (mistahBen), updated by Stephen Meech (smeech)
+tags: ["utility", "internet", "URL", "CSV", "forms"]
+homepage: https://github.com/smeech
