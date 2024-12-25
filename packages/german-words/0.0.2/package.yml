@@ -549,4 +549,4 @@ matches:
   - trigger: ":pie"
     replace: "torte"
   - trigger: ":icecream"
-    replace: "eiscreme"
+    replace: "eis"
