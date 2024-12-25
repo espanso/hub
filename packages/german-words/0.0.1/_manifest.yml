@@ -1,0 +1,7 @@
+name: "german-words"
+title: "German Wörter"
+description: "A Package that includes the German words."
+author: "Fatih Simsek"
+version: 0.0.1
+homepage: "https://github.com/Fatih5252/German-Words"
+tags: ["German", "Germany"]
