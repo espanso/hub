@@ -482,11 +482,9 @@ matches:
   - trigger: ":farm"
     replace: "bauernhof"
   - trigger: ":barn"
-
     replace: "scheune"
   - trigger: ":crop"
     replace: "ernte"
-
     replace: "kartoffel"
   - trigger: ":fruit"
     replace: "obst"
