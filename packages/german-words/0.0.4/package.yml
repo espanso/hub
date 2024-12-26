@@ -2,13 +2,13 @@
 
 matches:
 
-  - trigger: ":o"
+  - trigger: "::o"
     replace: "ö"
     propagate_case: true
-  - trigger: ":a"
+  - trigger: "::a"
     replace: "ä"
     propagate_case: true
-  - trigger: ":u"
+  - trigger: "::u"
     replace: "ü"
     propagate_case: true
   - trigger: ":good morning"
