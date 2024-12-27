@@ -2,32 +2,792 @@
 
 matches:
 
-  - trigger: "::o"
-    replace: "ö"
-    propagate_case: true
   - trigger: "::a"
     replace: "ä"
     propagate_case: true
+  - trigger: "::o"
+    replace: "ö"
+    propagate_case: true
+  - trigger: "::s"
+    replace: "ß"
+    propagate_case: false
   - trigger: "::u"
     replace: "ü"
     propagate_case: true
-  - trigger: ":good morning"
-    replace: "guten Morgen"
+    
+  - trigger: ":actor"
+    replace: "Schauspieler"
     propagate_case: true
-  - trigger: ":how are you?"
-    replace: "wie geht es dir?"
+  - trigger: ":address"
+    replace: "adresse"
     propagate_case: true
-  - trigger: ":thank you"
-    replace: "dankeschön"
+  - trigger: ":airport"
+    replace: "flughafen"
+    propagate_case: true
+  - trigger: ":angry"
+    replace: "wütend"
+    propagate_case: true
+  - trigger: ":apple"
+    replace: "apfel"
+    propagate_case: true
+  - trigger: ":arrival"
+    replace: "ankunft"
+    propagate_case: true
+  - trigger: ":bag"
+    replace: "tasche"
+    propagate_case: true
+  - trigger: ":baggage"
+    replace: "gepäck"
+    propagate_case: true
+  - trigger: ":baker"
+    replace: "Bäcker"
+    propagate_case: true
+  - trigger: ":barn"
+    replace: "scheune"
+    propagate_case: true
+  - trigger: ":battery"
+    replace: "batterie"
+    propagate_case: true
+  - trigger: ":beautiful"
+    replace: "schön"
+    propagate_case: true
+  - trigger: ":bed"
+    replace: "bett"
+    propagate_case: true
+  - trigger: ":bicycle"
+    replace: "fahrrad"
+    propagate_case: true
+  - trigger: ":big"
+    replace: "groß"
+    propagate_case: true
+  - trigger: ":bird"
+    replace: "vogel"
+    propagate_case: true
+  - trigger: ":boat"
+    replace: "boot"
+    propagate_case: true
+  - trigger: ":book"
+    replace: "buch"
+    propagate_case: true
+  - trigger: ":bottle"
+    replace: "flasche"
+    propagate_case: true
+  - trigger: ":box"
+    replace: "kiste"
+    propagate_case: true
+  - trigger: ":bread"
+    replace: "brot"
+    propagate_case: true
+  - trigger: ":bridge"
+    replace: "brücke"
+    propagate_case: true
+  - trigger: ":bus"
+    replace: "bus"
+    propagate_case: true
+  - trigger: ":but"
+    replace: "aber"
     propagate_case: true
   - trigger: ":bye"
     replace: "tschüss"
     propagate_case: true
+  - trigger: ":cafe"
+    replace: "café"
+    propagate_case: true
+  - trigger: ":cake"
+    replace: "kuchen"
+    propagate_case: true
+  - trigger: ":camera"
+    replace: "kamera"
+    propagate_case: true
+  - trigger: ":car"
+    replace: "auto"
+    propagate_case: true
+  - trigger: ":castle"
+    replace: "schloss"
+    propagate_case: true
+  - trigger: ":cat"
+    replace: "katze"
+    propagate_case: true
+  - trigger: ":ceiling"
+    replace: "decke"
+    propagate_case: true
+  - trigger: ":century"
+    replace: "jahrhundert"
+    propagate_case: true
+  - trigger: ":chair"
+    replace: "stuhl"
+    propagate_case: true
+  - trigger: ":cheese"
+    replace: "käse"
+    propagate_case: true
+  - trigger: ":cherry"
+    replace: "kirsche"
+    propagate_case: true
+  - trigger: ":chicken"
+    replace: "huhn"
+    propagate_case: true
+  - trigger: ":chocolate"
+    replace: "schokolade"
+    propagate_case: true
+  - trigger: ":church"
+    replace: "kirche"
+    propagate_case: true
+  - trigger: ":cinema"
+    replace: "kino"
+    propagate_case: true
+  - trigger: ":city"
+    replace: "stadt"
+    propagate_case: true
+  - trigger: ":cityname"
+    replace: "stadtname"
+    propagate_case: true
+  - trigger: ":clean"
+    replace: "sauber"
+    propagate_case: true
+  - trigger: ":clerk"
+    replace: "Angestellter"
+    propagate_case: true
+  - trigger: ":climate"
+    replace: "klima"
+    propagate_case: true
+  - trigger: ":clock"
+    replace: "uhr"
+    propagate_case: true
+  - trigger: ":clocktime"
+    replace: "uhrzeit"
+    propagate_case: true
+  - trigger: ":close"
+    replace: "zu"
+    propagate_case: true
+  - trigger: ":closed"
+    replace: "geschlossen"
+    propagate_case: true
+  - trigger: ":cloud"
+    replace: "wolke"
+    propagate_case: true
+  - trigger: ":cold"
+    replace: "kalt"
+    propagate_case: true
+  - trigger: ":coldweather"
+    replace: "kalteswetter"
+    propagate_case: true
+  - trigger: ":computer"
+    replace: "computer"
+    propagate_case: true
+  - trigger: ":cookie"
+    replace: "keks"
+    propagate_case: true
+  - trigger: ":cool"
+    replace: "kühl"
+    propagate_case: true
+  - trigger: ":country"
+    replace: "land"
+    propagate_case: true
+  - trigger: ":countryside"
+    replace: "ländlich"
+    propagate_case: true
+  - trigger: ":cow"
+    replace: "kuh"
+    propagate_case: true
+  - trigger: ":crop"
+    replace: "ernte"
+    propagate_case: true
+  - trigger: ":cup"
+    replace: "tasse"
+    propagate_case: true
+  - trigger: ":dance"
+    replace: "tanzen"
+    propagate_case: true
+  - trigger: ":dark"
+    replace: "dunkel"
+    propagate_case: true
+  - trigger: ":date"
+    replace: "dattel"
+    propagate_case: true
+  - trigger: ":date"
+    replace: "datum"
+    propagate_case: true
+  - trigger: ":day"
+    replace: "tag"
+    propagate_case: true
+  - trigger: ":degree"
+    replace: "grad"
+    propagate_case: true
+  - trigger: ":departure"
+    replace: "abfahrt"
+    propagate_case: true
+  - trigger: ":desert"
+    replace: "wüste"
+    propagate_case: true
+  - trigger: ":destination"
+    replace: "ziel"
+    propagate_case: true
+  - trigger: ":dirty"
+    replace: "dreckig"
+    propagate_case: true
+  - trigger: ":diver"
+    replace: "Taucher"
+    propagate_case: true
+  - trigger: ":doctor"
+    replace: "arzt"
+    propagate_case: true
+  - trigger: ":document"
+    replace: "dokument"
+    propagate_case: true
+  - trigger: ":dog"
+    replace: "hund"
+    propagate_case: true
+  - trigger: ":door"
+    replace: "tür"
+    propagate_case: true
+  - trigger: ":drink"
+    replace: "getränk"
+    propagate_case: true
+  - trigger: ":duck"
+    replace: "ente"
+    propagate_case: true
+  - trigger: ":early"
+    replace: "früh"
+    propagate_case: true
+  - trigger: ":earth"
+    replace: "erde"
+    propagate_case: true
+  - trigger: ":easy"
+    replace: "einfach"
+    propagate_case: true
+  - trigger: ":editor"
+    replace: "Redakteur"
+    propagate_case: true
+  - trigger: ":egg"
+    replace: "ei"
+    propagate_case: true
+  - trigger: ":family"
+    replace: "familie"
+    propagate_case: true
+  - trigger: ":farm"
+    replace: "bauernhof"
+    propagate_case: true
+  - trigger: ":farmer"
+    replace: "Bauer"
+    propagate_case: true
+  - trigger: ":fast"
+    replace: "schnell"
+    propagate_case: true
+  - trigger: ":field"
+    replace: "feld"
+    propagate_case: true
+  - trigger: ":file"
+    replace: "datei"
+    propagate_case: true
+  - trigger: ":fire"
+    replace: "feuer"
+    propagate_case: true
+  - trigger: ":fireworkers"
+    replace: "feuerwehrmann"
+    propagate_case: true
+  - trigger: ":fish"
+    replace: "fisch"
+    propagate_case: true
+  - trigger: ":fish"
+    replace: "fisch"
+    propagate_case: true
+  - trigger: ":flight"
+    replace: "flug"
+    propagate_case: true
+  - trigger: ":floor"
+    replace: "boden"
+    propagate_case: true
+  - trigger: ":flower"
+    replace: "blume"
+    propagate_case: true
+  - trigger: ":fly"
+    replace: "fliegen"
+    propagate_case: true
+  - trigger: ":folder"
+    replace: "ordner"
+    propagate_case: true
+  - trigger: ":food"
+    replace: "essen"
+    propagate_case: true
+  - trigger: ":forest"
+    replace: "wald"
+    propagate_case: true
+  - trigger: ":fork"
+    replace: "gabel"
+    propagate_case: true
+  - trigger: ":freeze"
+    replace: "frost"
+    propagate_case: true
+  - trigger: ":friend"
+    replace: "freund"
+    propagate_case: true
+  - trigger: ":from"
+    replace: "von"
+    propagate_case: true
+  - trigger: ":fruit"
+    replace: "obst"
+    propagate_case: true
+  - trigger: ":fruitjuice"
+    replace: "fruchtsaft"
+    propagate_case: true
+  - trigger: ":game"
+    replace: "spiel"
+    propagate_case: true
+  - trigger: ":garden"
+    replace: "garten"
+    propagate_case: true
+  - trigger: ":gardener"
+    replace: "Gärtner"
+    propagate_case: true
+  - trigger: ":good morning"
+    replace: "guten Morgen"
+    propagate_case: true
+  - trigger: ":goose"
+    replace: "gans"
+    propagate_case: true
+  - trigger: ":grape"
+    replace: "traube"
+    propagate_case: true
+  - trigger: ":happy"
+    replace: "glücklich"
+    propagate_case: true
+  - trigger: ":harbor"
+    replace: "hafen"
+    propagate_case: true
+  - trigger: ":hard"
+    replace: "schwer"
+    propagate_case: true
+  - trigger: ":hardware"
+    replace: "hardware"
+    propagate_case: true
+  - trigger: ":healer"
+    replace: "Heiler"
+    propagate_case: true
+  - trigger: ":hello"
+    replace: "hallo"
+    propagate_case: true
   - trigger: ":hi"
     replace: "hallo"
     propagate_case: true
+  - trigger: ":holiday"
+    replace: "urlaub"
+    propagate_case: true
+  - trigger: ":horse"
+    replace: "pferd"
+    propagate_case: true
+  - trigger: ":hospital"
+    replace: "krankenhaus"
+    propagate_case: true
+  - trigger: ":hot"
+    replace: "heiß"
+    propagate_case: true
+  - trigger: ":hotel"
+    replace: "hotel"
+    propagate_case: true
+  - trigger: ":hotweather"
+    replace: "heißeswetter"
+    propagate_case: true
+  - trigger: ":hour"
+    replace: "stunde"
+    propagate_case: true
+  - trigger: ":house"
+    replace: "haus"
+    propagate_case: true
+  - trigger: ":how are you?"
+    replace: "wie geht es dir?"
+    propagate_case: true
+  - trigger: ":hungry"
+    replace: "hungrig"
+    propagate_case: true
+  - trigger: ":ice"
+    replace: "eis"
+    propagate_case: true
+  - trigger: ":internet"
+    replace: "internet"
+    propagate_case: true
+  - trigger: ":inventor"
+    replace: "Erfinder"
+    propagate_case: true
+  - trigger: ":island"
+    replace: "insel"
+    propagate_case: true
+  - trigger: ":island"
+    replace: "insel"
+    propagate_case: true
+  - trigger: ":isle"
+    replace: "insel"
+    propagate_case: true
+  - trigger: ":jacket"
+    replace: "jacke"
+    propagate_case: true
+  - trigger: ":journey"
+    replace: "reise"
+    propagate_case: true
+  - trigger: ":juggler"
+    replace: "Jongleur"
+    propagate_case: true
+  - trigger: ":jump"
+    replace: "springen"
+    propagate_case: true
+  - trigger: ":key"
+    replace: "schlüssel"
+    propagate_case: true
+  - trigger: ":keyboard"
+    replace: "tastatur"
+    propagate_case: true
+  - trigger: ":kite"
+    replace: "drachen"
+    propagate_case: true
+  - trigger: ":knife"
+    replace: "messer"
+    propagate_case: true
+  - trigger: ":knight"
+    replace: "Ritter"
+    propagate_case: true
+  - trigger: ":lamp"
+    replace: "lampe"
+    propagate_case: true
+  - trigger: ":landscape"
+    replace: "landschaft"
+    propagate_case: true
+  - trigger: ":late"
+    replace: "spät"
+    propagate_case: true
+  - trigger: ":lemon"
+    replace: "zitrone"
+    propagate_case: true
+  - trigger: ":letter"
+    replace: "brief"
+    propagate_case: true
+  - trigger: ":librarian"
+    replace: "Bibliothekar"
+    propagate_case: true
+  - trigger: ":library"
+    replace: "bibliothek"
+    propagate_case: true
+  - trigger: ":light"
+    replace: "licht"
+    propagate_case: true
+  - trigger: ":lightning"
+    replace: "blitz"
+    propagate_case: true
+  - trigger: ":love"
+    replace: "liebe"
+    propagate_case: true
+  - trigger: ":map"
+    replace: "karte"
+    propagate_case: true
+  - trigger: ":market"
+    replace: "markt"
+    propagate_case: true
+  - trigger: ":mason"
+    replace: "Maurer"
+    propagate_case: true
+  - trigger: ":meat"
+    replace: "fleisch"
+    propagate_case: true
+  - trigger: ":medicine"
+    replace: "medizin"
+    propagate_case: true
+  - trigger: ":melon"
+    replace: "melone"
+    propagate_case: true
+  - trigger: ":message"
+    replace: "nachricht"
+    propagate_case: true
+  - trigger: ":milk"
+    replace: "milch"
+    propagate_case: true
+  - trigger: ":millennium"
+    replace: "jahrtausend"
+    propagate_case: true
+  - trigger: ":minute"
+    replace: "minute"
+    propagate_case: true
+  - trigger: ":month"
+    replace: "monat"
+    propagate_case: true
+  - trigger: ":moon"
+    replace: "mond"
+    propagate_case: true
+  - trigger: ":mountain"
+    replace: "berg"
+    propagate_case: true
+  - trigger: ":mouse"
+    replace: "maus"
+    propagate_case: true
+  - trigger: ":movie"
+    replace: "film"
+    propagate_case: true
+  - trigger: ":museum"
+    replace: "museum"
+    propagate_case: true
+  - trigger: ":music"
+    replace: "musik"
+    propagate_case: true
+  - trigger: ":name"
+    replace: "name"
+    propagate_case: true
+  - trigger: ":navigator"
+    replace: "Navigator"
+    propagate_case: true
+  - trigger: ":nest"
+    replace: "nest"
+    propagate_case: true
+  - trigger: ":new"
+    replace: "neu"
+    propagate_case: true
+  - trigger: ":night"
+    replace: "nacht"
+    propagate_case: true
+  - trigger: ":no"
+    replace: "nein"
+    propagate_case: true
+  - trigger: ":note"
+    replace: "notiz"
+    propagate_case: true
+  - trigger: ":number"
+    replace: "nummer"
+    propagate_case: true
+  - trigger: ":nurse"
+    replace: "krankenschwester"
+    propagate_case: true
+  - trigger: ":ocean"
+    replace: "ozean"
+    propagate_case: true
+  - trigger: ":officer"
+    replace: "Offizier"
+    propagate_case: true
+  - trigger: ":old"
+    replace: "alt"
+    propagate_case: true
+  - trigger: ":on"
+    replace: "an"
+    propagate_case: true
+  - trigger: ":only"
+    replace: "nur"
+    propagate_case: true
+  - trigger: ":open"
+    replace: "offen"
+    propagate_case: true
+  - trigger: ":package"
+    replace: "paket"
+    propagate_case: true
+  - trigger: ":painter"
+    replace: "Maler"
+    propagate_case: true
+  - trigger: ":paper"
+    replace: "papier"
+    propagate_case: true
+  - trigger: ":park"
+    replace: "park"
+    propagate_case: true
+  - trigger: ":passport"
+    replace: "pass"
+    propagate_case: true
+  - trigger: ":pear"
+    replace: "birne"
+    propagate_case: true
+  - trigger: ":pen"
+    replace: "stift"
+    propagate_case: true
+  - trigger: ":pencil"
+    replace: "bleistift"
+    propagate_case: true
+  - trigger: ":phone"
+    replace: "telefon"
+    propagate_case: true
+  - trigger: ":phonecall"
+    replace: "anruf"
+    propagate_case: true
+  - trigger: ":photograph"
+    replace: "fotografie"
+    propagate_case: true
+  - trigger: ":picture"
+    replace: "bild"
+    propagate_case: true
+  - trigger: ":pie"
+    replace: "torte"
+    propagate_case: true
+  - trigger: ":pig"
+    replace: "schwein"
+    propagate_case: true
+  - trigger: ":plane"
+    replace: "flugzeug"
+    propagate_case: true
+  - trigger: ":plate"
+    replace: "teller"
+    propagate_case: true
+  - trigger: ":play"
+    replace: "spielen"
+    propagate_case: true
+  - trigger: ":police"
+    replace: "polizei"
+    propagate_case: true
+  - trigger: ":poor"
+    replace: "arm"
+    propagate_case: true
+  - trigger: ":potato"
+    replace: "kartoffel"
+    propagate_case: true
+  - trigger: ":printer"
+    replace: "drucker"
+    propagate_case: true
+  - trigger: ":quilt"
+    replace: "steppdecke"
+    propagate_case: true
+  - trigger: ":quilter"
+    replace: "Quilter"
+    propagate_case: true
+  - trigger: ":rabbit"
+    replace: "hase"
+    propagate_case: true
+  - trigger: ":radio"
+    replace: "radio"
+    propagate_case: true
+  - trigger: ":rain"
+    replace: "regen"
+    propagate_case: true
+  - trigger: ":ranger"
+    replace: "Förster"
+    propagate_case: true
+  - trigger: ":read"
+    replace: "lesen"
+    propagate_case: true
+  - trigger: ":restaurant"
+    replace: "restaurant"
+    propagate_case: true
+  - trigger: ":rich"
+    replace: "reich"
+    propagate_case: true
+  - trigger: ":river"
+    replace: "fluss"
+    propagate_case: true
+  - trigger: ":road"
+    replace: "straße"
+    propagate_case: true
+  - trigger: ":room"
+    replace: "zimmer"
+    propagate_case: true
+  - trigger: ":run"
+    replace: "laufen"
+    propagate_case: true
+  - trigger: ":sad"
+    replace: "traurig"
+    propagate_case: true
+  - trigger: ":sailor"
+    replace: "Seemann"
+    propagate_case: true
+  - trigger: ":salad"
+    replace: "salat"
+    propagate_case: true
+  - trigger: ":scanner"
+    replace: "scanner"
+    propagate_case: true
+  - trigger: ":scared"
+    replace: "ängstlich"
+    propagate_case: true
+  - trigger: ":schedule"
+    replace: "zeitplan"
+    propagate_case: true
+  - trigger: ":school"
+    replace: "schule"
+    propagate_case: true
+  - trigger: ":screen"
+    replace: "bildschirm"
+    propagate_case: true
+  - trigger: ":second"
+    replace: "sekunde"
+    propagate_case: true
   - trigger: ":see you next time"
     replace: "aufwiedersehen"
+    propagate_case: true
+  - trigger: ":sheep"
+    replace: "schaf"
+    propagate_case: true
+  - trigger: ":ship"
+    replace: "schiff"
+    propagate_case: true
+  - trigger: ":shop"
+    replace: "geschäft"
+    propagate_case: true
+  - trigger: ":sing"
+    replace: "singen"
+    propagate_case: true
+  - trigger: ":slow"
+    replace: "langsam"
+    propagate_case: true
+  - trigger: ":small"
+    replace: "klein"
+    propagate_case: true
+  - trigger: ":snow"
+    replace: "schnee"
+    propagate_case: true
+  - trigger: ":sofa"
+    replace: "sofa"
+    propagate_case: true
+  - trigger: ":software"
+    replace: "software"
+    propagate_case: true
+  - trigger: ":soup"
+    replace: "suppe"
+    propagate_case: true
+  - trigger: ":spoon"
+    replace: "löffel"
+    propagate_case: true
+  - trigger: ":stable"
+    replace: "stall"
+    propagate_case: true
+  - trigger: ":star"
+    replace: "stern"
+    propagate_case: true
+  - trigger: ":station"
+    replace: "bahnhof"
+    propagate_case: true
+  - trigger: ":storm"
+    replace: "sturm"
+    propagate_case: true
+  - trigger: ":strong"
+    replace: "stark"
+    propagate_case: true
+  - trigger: ":student"
+    replace: "schüler"
+    propagate_case: true
+  - trigger: ":suitcase"
+    replace: "koffer"
+    propagate_case: true
+  - trigger: ":sun"
+    replace: "sonne"
+    propagate_case: true
+  - trigger: ":surprised"
+    replace: "überrascht"
+    propagate_case: true
+  - trigger: ":swim"
+    replace: "schwimmen"
+    propagate_case: true
+  - trigger: ":table"
+    replace: "tisch"
+    propagate_case: true
+  - trigger: ":tailor"
+    replace: "Schneider"
+    propagate_case: true
+  - trigger: ":taxi"
+    replace: "taxi"
+    propagate_case: true
+  - trigger: ":teacher"
+    replace: "lehrer"
+    propagate_case: true
+  - trigger: ":television"
+    replace: "fernseher"
+    propagate_case: true
+  - trigger: ":temperature"
+    replace: "temperatur"
+    propagate_case: true
+  - trigger: ":text"
+    replace: "text"
+    propagate_case: true
+  - trigger: ":thank you"
+    replace: "dankeschön"
     propagate_case: true
   - trigger: ":the1"
     replace: "der"
@@ -38,900 +798,141 @@ matches:
   - trigger: ":the3"
     replace: "das"
     propagate_case: true
-  - trigger: ":yes"
-    replace: "ja"
-    propagate_case: true
-  - trigger: ":no"
-    replace: "nein"
-    propagate_case: true
-  - trigger: ":but"
-    replace: "aber"
-    propagate_case: true
-  - trigger: ":only"
-    replace: "nur"
-    propagate_case: true
-  - trigger: ":on"
-    replace: "an"
-    propagate_case: true
-  - trigger: ":close"
-    replace: "zu"
-    propagate_case: true
-  - trigger: ":from"
-    replace: "von"
-    propagate_case: true
-  - trigger: "::s"
-    replace: "ß"
-    propagate_case: false
-  - trigger: ":apple"
-    replace: "apfel"
-    propagate_case: true
-  - trigger: ":house"
-    replace: "haus"
-    propagate_case: true
-  - trigger: ":book"
-    replace: "buch"
-    propagate_case: true
-  - trigger: ":computer"
-    replace: "computer"
-    propagate_case: true
-  - trigger: ":hello"
-    replace: "hallo"
-    propagate_case: true
-  - trigger: ":world"
-    replace: "welt"
-    propagate_case: true
-  - trigger: ":cat"
-    replace: "katze"
-    propagate_case: true
-  - trigger: ":dog"
-    replace: "hund"
-    propagate_case: true
-  - trigger: ":car"
-    replace: "auto"
-    propagate_case: true
-  - trigger: ":tree"
-    replace: "baum"
-    propagate_case: true
-  - trigger: ":sun"
-    replace: "sonne"
-    propagate_case: true
-  - trigger: ":moon"
-    replace: "mond"
-    propagate_case: true
-  - trigger: ":star"
-    replace: "stern"
-    propagate_case: true
-  - trigger: ":cloud"
-    replace: "wolke"
-    propagate_case: true
-  - trigger: ":rain"
-    replace: "regen"
-    propagate_case: true
-  - trigger: ":wind"
-    replace: "wind"
-    propagate_case: true
-  - trigger: ":water"
-    replace: "wasser"
-    propagate_case: true
-  - trigger: ":fire"
-    replace: "feuer"
-    propagate_case: true
-  - trigger: ":earth"
-    replace: "erde"
-    propagate_case: true
-  - trigger: ":mountain"
-    replace: "berg"
-    propagate_case: true
-  - trigger: ":river"
-    replace: "fluss"
-    propagate_case: true
-  - trigger: ":ocean"
-    replace: "ozean"
-    propagate_case: true
-  - trigger: ":friend"
-    replace: "freund"
-    propagate_case: true
-  - trigger: ":family"
-    replace: "familie"
-    propagate_case: true
-  - trigger: ":school"
-    replace: "schule"
-    propagate_case: true
-  - trigger: ":teacher"
-    replace: "lehrer"
-    propagate_case: true
-  - trigger: ":student"
-    replace: "schüler"
-    propagate_case: true
-  - trigger: ":phone"
-    replace: "telefon"
-    propagate_case: true
-  - trigger: ":food"
-    replace: "essen"
-    propagate_case: true
-  - trigger: ":drink"
-    replace: "getränk"
-    propagate_case: true
-  - trigger: ":music"
-    replace: "musik"
-    propagate_case: true
-  - trigger: ":movie"
-    replace: "film"
-    propagate_case: true
-  - trigger: ":game"
-    replace: "spiel"
-    propagate_case: true
-  - trigger: ":work"
-    replace: "arbeit"
-    propagate_case: true
-  - trigger: ":play"
-    replace: "spielen"
-    propagate_case: true
-  - trigger: ":walk"
-    replace: "gehen"
-    propagate_case: true
-  - trigger: ":run"
-    replace: "laufen"
-    propagate_case: true
-  - trigger: ":jump"
-    replace: "springen"
-    propagate_case: true
-  - trigger: ":fly"
-    replace: "fliegen"
-    propagate_case: true
-  - trigger: ":swim"
-    replace: "schwimmen"
-    propagate_case: true
-  - trigger: ":read"
-    replace: "lesen"
-    propagate_case: true
-  - trigger: ":write"
-    replace: "schreiben"
-    propagate_case: true
-  - trigger: ":sing"
-    replace: "singen"
-    propagate_case: true
-  - trigger: ":dance"
-    replace: "tanzen"
-    propagate_case: true
-  - trigger: ":love"
-    replace: "liebe"
-    propagate_case: true
-  - trigger: ":happy"
-    replace: "glücklich"
-    propagate_case: true
-  - trigger: ":sad"
-    replace: "traurig"
-    propagate_case: true
-  - trigger: ":angry"
-    replace: "wütend"
-    propagate_case: true
-  - trigger: ":surprised"
-    replace: "überrascht"
-    propagate_case: true
-  - trigger: ":scared"
-    replace: "ängstlich"
-    propagate_case: true
-  - trigger: ":tired"
-    replace: "müde"
-    propagate_case: true
-  - trigger: ":hungry"
-    replace: "hungrig"
+  - trigger: ":theater"
+    replace: "theater"
     propagate_case: true
   - trigger: ":thirsty"
     replace: "durstig"
     propagate_case: true
-  - trigger: ":cold"
-    replace: "kalt"
-    propagate_case: true
-  - trigger: ":hot"
-    replace: "heiß"
-    propagate_case: true
-  - trigger: ":clean"
-    replace: "sauber"
-    propagate_case: true
-  - trigger: ":dirty"
-    replace: "dreckig"
-    propagate_case: true
-  - trigger: ":strong"
-    replace: "stark"
-    propagate_case: true
-  - trigger: ":weak"
-    replace: "schwach"
-    propagate_case: true
-  - trigger: ":fast"
-    replace: "schnell"
-    propagate_case: true
-  - trigger: ":slow"
-    replace: "langsam"
-    propagate_case: true
-  - trigger: ":big"
-    replace: "groß"
-    propagate_case: true
-  - trigger: ":small"
-    replace: "klein"
-    propagate_case: true
-  - trigger: ":new"
-    replace: "neu"
-    propagate_case: true
-  - trigger: ":old"
-    replace: "alt"
-    propagate_case: true
-  - trigger: ":young"
-    replace: "jung"
-    propagate_case: true
-  - trigger: ":beautiful"
-    replace: "schön"
-    propagate_case: true
-  - trigger: ":ugly"
-    replace: "hässlich"
-    propagate_case: true
-  - trigger: ":rich"
-    replace: "reich"
-    propagate_case: true
-  - trigger: ":poor"
-    replace: "arm"
-    propagate_case: true
-  - trigger: ":easy"
-    replace: "einfach"
-    propagate_case: true
-  - trigger: ":hard"
-    replace: "schwer"
-    propagate_case: true
-  - trigger: ":open"
-    replace: "offen"
-    propagate_case: true
-  - trigger: ":closed"
-    replace: "geschlossen"
-    propagate_case: true
-  - trigger: ":early"
-    replace: "früh"
-    propagate_case: true
-  - trigger: ":late"
-    replace: "spät"
-    propagate_case: true
-  - trigger: ":light"
-    replace: "licht"
-    propagate_case: true
-  - trigger: ":dark"
-    replace: "dunkel"
-    propagate_case: true
-  - trigger: ":day"
-    replace: "tag"
-    propagate_case: true
-  - trigger: ":night"
-    replace: "nacht"
-    propagate_case: true
-  - trigger: ":garden"
-    replace: "garten"
-    propagate_case: true
-  - trigger: ":flower"
-    replace: "blume"
-    propagate_case: true
-  - trigger: ":bird"
-    replace: "vogel"
-    propagate_case: true
-  - trigger: ":fish"
-    replace: "fisch"
-    propagate_case: true
-  - trigger: ":bridge"
-    replace: "brücke"
-    propagate_case: true
-  - trigger: ":road"
-    replace: "straße"
-    propagate_case: true
-  - trigger: ":door"
-    replace: "tür"
-    propagate_case: true
-  - trigger: ":window"
-    replace: "fenster"
-    propagate_case: true
-  - trigger: ":chair"
-    replace: "stuhl"
-    propagate_case: true
-  - trigger: ":table"
-    replace: "tisch"
-    propagate_case: true
-  - trigger: ":knife"
-    replace: "messer"
-    propagate_case: true
-  - trigger: ":fork"
-    replace: "gabel"
-    propagate_case: true
-  - trigger: ":spoon"
-    replace: "löffel"
-    propagate_case: true
-  - trigger: ":plate"
-    replace: "teller"
-    propagate_case: true
-  - trigger: ":cup"
-    replace: "tasse"
-    propagate_case: true
-  - trigger: ":clock"
-    replace: "uhr"
-    propagate_case: true
-  - trigger: ":wall"
-    replace: "wand"
-    propagate_case: true
-  - trigger: ":floor"
-    replace: "boden"
-    propagate_case: true
-  - trigger: ":ceiling"
-    replace: "decke"
-    propagate_case: true
-  - trigger: ":bottle"
-    replace: "flasche"
-    propagate_case: true
-  - trigger: ":bag"
-    replace: "tasche"
-    propagate_case: true
-  - trigger: ":box"
-    replace: "kiste"
-    propagate_case: true
-  - trigger: ":lamp"
-    replace: "lampe"
-    propagate_case: true
-  - trigger: ":key"
-    replace: "schlüssel"
-    propagate_case: true
-  - trigger: ":pencil"
-    replace: "bleistift"
-    propagate_case: true
-  - trigger: ":pen"
-    replace: "stift"
-    propagate_case: true
-  - trigger: ":paper"
-    replace: "papier"
-    propagate_case: true
-  - trigger: ":note"
-    replace: "notiz"
-    propagate_case: true
-  - trigger: ":letter"
-    replace: "brief"
-    propagate_case: true
-  - trigger: ":package"
-    replace: "paket"
-    propagate_case: true
-  - trigger: ":city"
-    replace: "stadt"
-    propagate_case: true
-  - trigger: ":village"
-    replace: "dorf"
-    propagate_case: true
-  - trigger: ":forest"
-    replace: "wald"
-    propagate_case: true
-  - trigger: ":desert"
-    replace: "wüste"
-    propagate_case: true
-  - trigger: ":island"
-    replace: "insel"
-    propagate_case: true
-  - trigger: ":castle"
-    replace: "schloss"
-    propagate_case: true
-  - trigger: ":church"
-    replace: "kirche"
-    propagate_case: true
-  - trigger: ":plane"
-    replace: "flugzeug"
-    propagate_case: true
-  - trigger: ":train"
-    replace: "zug"
-    propagate_case: true
-  - trigger: ":bicycle"
-    replace: "fahrrad"
-    propagate_case: true
-  - trigger: ":boat"
-    replace: "boot"
-    propagate_case: true
-  - trigger: ":airport"
-    replace: "flughafen"
-    propagate_case: true
-  - trigger: ":station"
-    replace: "bahnhof"
-    propagate_case: true
-  - trigger: ":market"
-    replace: "markt"
-    propagate_case: true
-  - trigger: ":shop"
-    replace: "geschäft"
-    propagate_case: true
-  - trigger: ":restaurant"
-    replace: "restaurant"
-    propagate_case: true
-  - trigger: ":cafe"
-    replace: "café"
-    propagate_case: true
-  - trigger: ":park"
-    replace: "park"
-    propagate_case: true
-  - trigger: ":hospital"
-    replace: "krankenhaus"
-    propagate_case: true
-  - trigger: ":doctor"
-    replace: "arzt"
-    propagate_case: true
-  - trigger: ":nurse"
-    replace: "krankenschwester"
-    propagate_case: true
-  - trigger: ":medicine"
-    replace: "medizin"
-    propagate_case: true
-  - trigger: ":library"
-    replace: "bibliothek"
-    propagate_case: true
-  - trigger: ":museum"
-    replace: "museum"
-    propagate_case: true
-  - trigger: ":theater"
-    replace: "theater"
-    propagate_case: true
-  - trigger: ":cinema"
-    replace: "kino"
-    propagate_case: true
-  - trigger: ":hotel"
-    replace: "hotel"
-    propagate_case: true
-  - trigger: ":room"
-    replace: "zimmer"
-    propagate_case: true
-  - trigger: ":bed"
-    replace: "bett"
-    propagate_case: true
-  - trigger: ":sofa"
-    replace: "sofa"
-    propagate_case: true
-  - trigger: ":television"
-    replace: "fernseher"
-    propagate_case: true
-  - trigger: ":radio"
-    replace: "radio"
-    propagate_case: true
-  - trigger: ":camera"
-    replace: "kamera"
-    propagate_case: true
-  - trigger: ":picture"
-    replace: "bild"
-    propagate_case: true
-  - trigger: ":photograph"
-    replace: "fotografie"
-    propagate_case: true
-  - trigger: ":battery"
-    replace: "batterie"
-    propagate_case: true
-  - trigger: ":phonecall"
-    replace: "anruf"
-    propagate_case: true
-  - trigger: ":message"
-    replace: "nachricht"
-    propagate_case: true
-  - trigger: ":internet"
-    replace: "internet"
-    propagate_case: true
-  - trigger: ":website"
-    replace: "webseite"
-    propagate_case: true
-  - trigger: ":software"
-    replace: "software"
-    propagate_case: true
-  - trigger: ":hardware"
-    replace: "hardware"
-    propagate_case: true
-  - trigger: ":screen"
-    replace: "bildschirm"
-    propagate_case: true
-  - trigger: ":keyboard"
-    replace: "tastatur"
-    propagate_case: true
-  - trigger: ":mouse"
-    replace: "maus"
-    propagate_case: true
-  - trigger: ":printer"
-    replace: "drucker"
-    propagate_case: true
-  - trigger: ":scanner"
-    replace: "scanner"
-    propagate_case: true
-  - trigger: ":file"
-    replace: "datei"
-    propagate_case: true
-  - trigger: ":folder"
-    replace: "ordner"
-    propagate_case: true
-  - trigger: ":document"
-    replace: "dokument"
-    propagate_case: true
-  - trigger: ":text"
-    replace: "text"
-    propagate_case: true
-  - trigger: ":title"
-    replace: "titel"
-    propagate_case: true
-  - trigger: ":name"
-    replace: "name"
-    propagate_case: true
-  - trigger: ":address"
-    replace: "adresse"
-    propagate_case: true
-  - trigger: ":country"
-    replace: "land"
-    propagate_case: true
-  - trigger: ":cityname"
-    replace: "stadtname"
-    propagate_case: true
-  - trigger: ":number"
-    replace: "nummer"
-    propagate_case: true
-  - trigger: ":date"
-    replace: "datum"
-    propagate_case: true
-  - trigger: ":time"
-    replace: "zeit"
-    propagate_case: true
-  - trigger: ":clocktime"
-    replace: "uhrzeit"
-    propagate_case: true
-  - trigger: ":minute"
-    replace: "minute"
-    propagate_case: true
-  - trigger: ":second"
-    replace: "sekunde"
-    propagate_case: true
-  - trigger: ":hour"
-    replace: "stunde"
-    propagate_case: true
-  - trigger: ":week"
-    replace: "woche"
-    propagate_case: true
-  - trigger: ":month"
-    replace: "monat"
-    propagate_case: true
-  - trigger: ":year"
-    replace: "jahr"
-    propagate_case: true
-  - trigger: ":century"
-    replace: "jahrhundert"
-    propagate_case: true
-  - trigger: ":millennium"
-    replace: "jahrtausend"
-    propagate_case: true
-  - trigger: ":weather"
-    replace: "wetter"
-    propagate_case: true
-  - trigger: ":climate"
-    replace: "klima"
-    propagate_case: true
-  - trigger: ":temperature"
-    replace: "temperatur"
-    propagate_case: true
-  - trigger: ":degree"
-    replace: "grad"
-    propagate_case: true
-  - trigger: ":storm"
-    replace: "sturm"
-    propagate_case: true
-  - trigger: ":lightning"
-    replace: "blitz"
-    propagate_case: true
   - trigger: ":thunder"
     replace: "donner"
-    propagate_case: true
-  - trigger: ":snow"
-    replace: "schnee"
-    propagate_case: true
-  - trigger: ":ice"
-    replace: "eis"
-    propagate_case: true
-  - trigger: ":freeze"
-    replace: "frost"
-    propagate_case: true
-  - trigger: ":warm"
-    replace: "warm"
-    propagate_case: true
-  - trigger: ":cool"
-    replace: "kühl"
-    propagate_case: true
-  - trigger: ":hotweather"
-    replace: "heißeswetter"
-    propagate_case: true
-  - trigger: ":coldweather"
-    replace: "kalteswetter"
-    propagate_case: true
-  - trigger: ":holiday"
-    replace: "urlaub"
-    propagate_case: true
-  - trigger: ":vacation"
-    replace: "ferien"
-    propagate_case: true
-  - trigger: ":travel"
-    replace: "reisen"
-    propagate_case: true
-  - trigger: ":journey"
-    replace: "reise"
-    propagate_case: true
-  - trigger: ":flight"
-    replace: "flug"
     propagate_case: true
   - trigger: ":ticket"
     replace: "ticket"
     propagate_case: true
-  - trigger: ":passport"
-    replace: "pass"
+  - trigger: ":time"
+    replace: "zeit"
     propagate_case: true
-  - trigger: ":visa"
-    replace: "visum"
+  - trigger: ":tired"
+    replace: "müde"
     propagate_case: true
-  - trigger: ":baggage"
-    replace: "gepäck"
+  - trigger: ":title"
+    replace: "titel"
     propagate_case: true
-  - trigger: ":suitcase"
-    replace: "koffer"
-    propagate_case: true
-  - trigger: ":map"
-    replace: "karte"
-    propagate_case: true
-  - trigger: ":destination"
-    replace: "ziel"
-    propagate_case: true
-  - trigger: ":arrival"
-    replace: "ankunft"
-    propagate_case: true
-  - trigger: ":departure"
-    replace: "abfahrt"
-    propagate_case: true
-  - trigger: ":schedule"
-    replace: "zeitplan"
-    propagate_case: true
-  - trigger: ":bus"
-    replace: "bus"
+  - trigger: ":train"
+    replace: "zug"
     propagate_case: true
   - trigger: ":tram"
     replace: "straßenbahn"
     propagate_case: true
-  - trigger: ":taxi"
-    replace: "taxi"
-    propagate_case: true
-  - trigger: ":ship"
-    replace: "schiff"
-    propagate_case: true
-  - trigger: ":harbor"
-    replace: "hafen"
-    propagate_case: true
-  - trigger: ":isle"
-    replace: "insel"
-    propagate_case: true
-  - trigger: ":landscape"
-    replace: "landschaft"
-    propagate_case: true
-  - trigger: ":countryside"
-    replace: "ländlich"
-    propagate_case: true
-  - trigger: ":villagepath"
-    replace: "dorfgasse"
-    propagate_case: true
-  - trigger: ":field"
-    replace: "feld"
-    propagate_case: true
-  - trigger: ":farm"
-    replace: "bauernhof"
-    propagate_case: true
-  - trigger: ":barn"
-    replace: "scheune"
-    propagate_case: true
-  - trigger: ":crop"
-    replace: "ernte"
-    propagate_case: true
-  - trigger: ":potato"
-    replace: "kartoffel"
-    propagate_case: true
-  - trigger: ":fruit"
-    replace: "obst"
-    propagate_case: true
-  - trigger: ":vegetable"
-    replace: "gemüse"
-    propagate_case: true
-  - trigger: ":cow"
-    replace: "kuh"
-    propagate_case: true
-  - trigger: ":pig"
-    replace: "schwein"
-    propagate_case: true
-  - trigger: ":chicken"
-    replace: "huhn"
-    propagate_case: true
-  - trigger: ":duck"
-    replace: "ente"
-    propagate_case: true
-  - trigger: ":goose"
-    replace: "gans"
-    propagate_case: true
-  - trigger: ":sheep"
-    replace: "schaf"
-    propagate_case: true
-  - trigger: ":horse"
-    replace: "pferd"
-    propagate_case: true
-  - trigger: ":stable"
-    replace: "stall"
-    propagate_case: true
-  - trigger: ":milk"
-    replace: "milch"
-    propagate_case: true
-  - trigger: ":cheese"
-    replace: "käse"
-    propagate_case: true
-  - trigger: ":bread"
-    replace: "brot"
-    propagate_case: true
-  - trigger: ":meat"
-    replace: "fleisch"
-    propagate_case: true
-  - trigger: ":egg"
-    replace: "ei"
-    propagate_case: true
-  - trigger: ":soup"
-    replace: "suppe"
-    propagate_case: true
-  - trigger: ":salad"
-    replace: "salat"
-    propagate_case: true
-  - trigger: ":fruitjuice"
-    replace: "fruchtsaft"
-    propagate_case: true
-  - trigger: ":chocolate"
-    replace: "schokolade"
-    propagate_case: true
-  - trigger: ":cookie"
-    replace: "keks"
-    propagate_case: true
-  - trigger: ":cake"
-    replace: "kuchen"
-    propagate_case: true
-  - trigger: ":pie"
-    replace: "torte"
-    propagate_case: true
-  - trigger: ":cherry"
-    replace: "kirsche"
-    propagate_case: true
-  - trigger: ":date"
-    replace: "dattel"
-    propagate_case: true
-  - trigger: ":fish"
-    replace: "fisch"
-    propagate_case: true
-  - trigger: ":grape"
-    replace: "traube"
-    propagate_case: true
-  - trigger: ":island"
-    replace: "insel"
-    propagate_case: true
-  - trigger: ":jacket"
-    replace: "jacke"
-    propagate_case: true
-  - trigger: ":kite"
-    replace: "drachen"
-    propagate_case: true
-  - trigger: ":lemon"
-    replace: "zitrone"
-    propagate_case: true
-  - trigger: ":melon"
-    replace: "melone"
-    propagate_case: true
-  - trigger: ":nest"
-    replace: "nest"
-    propagate_case: true
-  - trigger: ":pear"
-    replace: "birne"
-    propagate_case: true
-  - trigger: ":quilt"
-    replace: "steppdecke"
-    propagate_case: true
-  - trigger: ":rabbit"
-    replace: "hase"
+  - trigger: ":travel"
+    replace: "reisen"
     propagate_case: true
   - trigger: ":tree"
     replace: "baum"
     propagate_case: true
+  - trigger: ":tree"
+    replace: "baum"
+    propagate_case: true
+  - trigger: ":ugly"
+    replace: "hässlich"
+    propagate_case: true
   - trigger: ":umbrella"
     replace: "regenschirm"
-    propagate_case: true
-  - trigger: ":vase"
-    replace: "vase"
-    propagate_case: true
-  - trigger: ":wolf"
-    replace: "wolf"
-    propagate_case: true
-  - trigger: ":xylophone"
-    replace: "xylophon"
-    propagate_case: true
-  - trigger: ":yogurt"
-    replace: "joghurt"
-    propagate_case: true
-  - trigger: ":zebra"
-    replace: "zebra"
-    propagate_case: true
-  - trigger: ":actor"
-    replace: "Schauspieler"
-    propagate_case: true
-  - trigger: ":baker"
-    replace: "Bäcker"
-    propagate_case: true
-  - trigger: ":clerk"
-    replace: "Angestellter"
-    propagate_case: true
-  - trigger: ":diver"
-    replace: "Taucher"
-    propagate_case: true
-  - trigger: ":editor"
-    replace: "Redakteur"
-    propagate_case: true
-  - trigger: ":farmer"
-    replace: "Bauer"
-    propagate_case: true
-  - trigger: ":gardener"
-    replace: "Gärtner"
-    propagate_case: true
-  - trigger: ":healer"
-    replace: "Heiler"
-    propagate_case: true
-  - trigger: ":inventor"
-    replace: "Erfinder"
-    propagate_case: true
-  - trigger: ":juggler"
-    replace: "Jongleur"
-    propagate_case: true
-  - trigger: ":knight"
-    replace: "Ritter"
-    propagate_case: true
-  - trigger: ":librarian"
-    replace: "Bibliothekar"
-    propagate_case: true
-  - trigger: ":mason"
-    replace: "Maurer"
-    propagate_case: true
-  - trigger: ":navigator"
-    replace: "Navigator"
-    propagate_case: true
-  - trigger: ":officer"
-    replace: "Offizier"
-    propagate_case: true
-  - trigger: ":painter"
-    replace: "Maler"
-    propagate_case: true
-  - trigger: ":quilter"
-    replace: "Quilter"
-    propagate_case: true
-  - trigger: ":ranger"
-    replace: "Förster"
-    propagate_case: true
-  - trigger: ":sailor"
-    replace: "Seemann"
-    propagate_case: true
-  - trigger: ":tailor"
-    replace: "Schneider"
     propagate_case: true
   - trigger: ":usher"
     replace: "Platzanweiser"
     propagate_case: true
+  - trigger: ":vacation"
+    replace: "ferien"
+    propagate_case: true
+  - trigger: ":vase"
+    replace: "vase"
+    propagate_case: true
+  - trigger: ":vegetable"
+    replace: "gemüse"
+    propagate_case: true
   - trigger: ":vendor"
     replace: "Verkäufer"
+    propagate_case: true
+  - trigger: ":village"
+    replace: "dorf"
+    propagate_case: true
+  - trigger: ":villagepath"
+    replace: "dorfgasse"
+    propagate_case: true
+  - trigger: ":visa"
+    replace: "visum"
+    propagate_case: true
+  - trigger: ":walk"
+    replace: "gehen"
+    propagate_case: true
+  - trigger: ":wall"
+    replace: "wand"
+    propagate_case: true
+  - trigger: ":warm"
+    replace: "warm"
+    propagate_case: true
+  - trigger: ":water"
+    replace: "wasser"
+    propagate_case: true
+  - trigger: ":weak"
+    replace: "schwach"
+    propagate_case: true
+  - trigger: ":weather"
+    replace: "wetter"
     propagate_case: true
   - trigger: ":weaver"
     replace: "Weber"
     propagate_case: true
+  - trigger: ":website"
+    replace: "webseite"
+    propagate_case: true
+  - trigger: ":week"
+    replace: "woche"
+    propagate_case: true
+  - trigger: ":wind"
+    replace: "wind"
+    propagate_case: true
+  - trigger: ":window"
+    replace: "fenster"
+    propagate_case: true
+  - trigger: ":wolf"
+    replace: "wolf"
+    propagate_case: true
+  - trigger: ":work"
+    replace: "arbeit"
+    propagate_case: true
+  - trigger: ":world"
+    replace: "welt"
+    propagate_case: true
+  - trigger: ":write"
+    replace: "schreiben"
+    propagate_case: true
   - trigger: ":xenophile"
     replace: "Fremdenfreund"
+    propagate_case: true
+  - trigger: ":xylophone"
+    replace: "xylophon"
+    propagate_case: true
+  - trigger: ":year"
+    replace: "jahr"
+    propagate_case: true
+  - trigger: ":yes"
+    replace: "ja"
     propagate_case: true
   - trigger: ":yodeler"
     replace: "Jodler"
     propagate_case: true
+  - trigger: ":yogurt"
+    replace: "joghurt"
+    propagate_case: true
+  - trigger: ":young"
+    replace: "jung"
+    propagate_case: true
+  - trigger: ":zebra"
+    replace: "zebra"
+    propagate_case: true
   - trigger: ":zoologist"
     replace: "Zoologe"
-    propagate_case: true
-  - trigger: ":fireworkers"
-    replace: "feuerwehrmann"
-    propagate_case: true
-  - trigger: ":police"
-    replace: "polizei"
     propagate_case: true
