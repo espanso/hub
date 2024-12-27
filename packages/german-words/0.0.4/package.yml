@@ -722,7 +722,7 @@ matches:
   - trigger: ":crop"
     replace: "ernte"
     propagate_case: true
-  - trigger: "potato"
+  - trigger: ":potato"
     replace: "kartoffel"
     propagate_case: true
   - trigger: ":fruit"
