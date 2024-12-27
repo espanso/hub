@@ -59,7 +59,7 @@ matches:
   - trigger: ":from"
     replace: "von"
     propagate_case: true
-  - trigger: ":s"
+  - trigger: "::s"
     replace: "ß"
     propagate_case: false
   - trigger: ":apple"
@@ -662,7 +662,7 @@ matches:
   - trigger: ":visa"
     replace: "visum"
     propagate_case: true
-  - trigger: ":bagage"
+  - trigger: ":baggage"
     replace: "gepäck"
     propagate_case: true
   - trigger: ":suitcase"
