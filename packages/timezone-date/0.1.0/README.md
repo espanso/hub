@@ -12,9 +12,11 @@ Two versions of the match file are included:
 To try the latter, rename the first file to anything you like, with an underscore `_` as its first character so that Espanso ignores it, then *remove* the underscore prefixing the second file's name.
 
 In the middle of each file is a `default:` line, currently:
+
 ```yml
               default: Europe/London
 ```
+
 Once you've tried the trigger, change this timezone value to take you quickly to a part of the list that suits you most - it's a long list!
 
 There is scope to modify the code to:
