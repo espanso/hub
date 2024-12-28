@@ -1,0 +1,7 @@
+name: "date-offset"
+title: "Date Offsets"
+description: A package that uses the date-handling facilities of different scripting languages to return dates variably offset from today, as specified in a regex trigger.
+homepage: "https://github.com/smeech"
+version: 0.1.0
+author: Stephen Meech
+tags: [time, date, python, bash, powershell, pwsh, javascript, node.js]

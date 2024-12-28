@@ -1,0 +1,7 @@
+name: "timezone-date"
+title: "Timezone Date"
+description: A package that uses Python scripts to offer a choice from the full set of worldwide timezones, returning the current date and time there.
+homepage: "https://github.com/smeech"
+version: 0.1.0
+author: Stephen Meech
+tags: [time, date, timezone, python]

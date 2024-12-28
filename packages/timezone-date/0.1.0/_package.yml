@@ -1,0 +1,46 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/espanso/espanso/dev/schemas/match.schema.json
+
+# This version will work on newer (v3.9+) versions of Python
+# and is probably faster than the one which relies on `pytz`
+
+# To use it, rename this file, without the underscore `_` prefix
+# and rename the other WITH an underscore prefix.
+
+# Amend the `default: Europe/London` line 32 to suit yourself
+
+matches:
+  - trigger: :tzdate
+    replace: '{{output}}'
+    vars:
+      - name: zones
+        type: script
+        params:
+          args:
+            - python
+            - -c
+            - |
+              from zoneinfo import available_timezones
+              print("\n".join(sorted(available_timezones())))
+      - name: zone_choice
+        type: form
+        params:
+          layout: 'Pick a time-zone: [[zone]]'
+          fields:
+            zone:
+              type: list
+              values: '{{zones}}'
+              default: Europe/London # Change this to a timezone that suits you
+      - name: output
+        type: script
+        params:
+          args:
+            - python
+            - -c
+            - |
+              from datetime import datetime; from zoneinfo import ZoneInfo
+              timezone = ZoneInfo('{{zone_choice.zone}}')
+              # Get the current UTC time
+              utc_now = datetime.utcnow()
+              # Convert UTC time to the specified timezone
+              local_time = utc_now.astimezone(timezone)
+              print("Current date and time in", timezone, "is:", local_time.strftime('%F %T'))

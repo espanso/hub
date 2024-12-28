@@ -1,0 +1,88 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/espanso/espanso/dev/schemas/match.schema.json
+
+
+# Espanso snippets to return offset date from today
+# Type e.g.: -18d, +2w, -3m, +5y etc.
+
+matches:
+# Bash version
+  - regex: (?P<offset>[+-]\d+)(?P<unit>[dwmy])
+    replace: "{{output}}"
+    label: Bash offset date
+    vars:
+      - name: output
+        type: shell
+        params:
+          shell: bash
+          cmd: |           
+            case {{unit}} in
+                d) date=$(date -d "{{offset}} days" +"%d/%m/%y") ;;
+                w) date=$(date -d "{{offset}} weeks" +"%d/%m/%y") ;;
+                m) date=$(date -d "{{offset}} months" +"%d/%m/%y") ;;
+                y) date=$(date -d "{{offset}} years" +"%d/%m/%y") ;;
+            esac
+            echo "$date"
+
+# PowerShell version
+  - regex: (?P<offset>[+-]\d+)(?P<unit>[dwmy])
+    replace: "{{output}}"
+    label: PowerShell offset date
+    vars:
+      - name: output
+        type: shell
+        params:
+          shell: pwsh
+          cmd: |
+            switch ("{{unit}}") {
+                "d" { $date = (Get-Date).AddDays({{offset}}).ToString("dd/MM/yy") }
+                "w" { $date = (Get-Date).AddDays({{offset}} * 7).ToString("dd/MM/yy") }
+                "m" { $date = (Get-Date).AddMonths({{offset}}).ToString("dd/MM/yy") }
+                "y" { $date = (Get-Date).AddYears({{offset}}).ToString("dd/MM/yy") }
+            }
+            Write-Output $date
+
+# Python version
+  - regex: (?P<offset>[+-]\d+)(?P<unit>[dwmy])
+    replace: "{{output}}"
+    label: Python offset date
+    vars:
+      - name: output
+        type: script
+        params:
+          args:
+            - python
+            - -c
+            - |
+              from datetime import datetime, timedelta
+              from dateutil.relativedelta import relativedelta
+              now = datetime.now()
+              match "{{unit}}":
+                  case "d": date = now + timedelta(days={{offset}})
+                  case "w": date = now + timedelta(weeks={{offset}})
+                  case "m": date = now + relativedelta(months={{offset}})
+                  case "y": date = now + relativedelta(years={{offset}})
+              print(date.strftime("%d/%m/%y"))
+
+# Javascript version
+  - regex: (?P<offset>[+-]\d+)(?P<unit>[dwmy])
+    replace: "{{output}}"
+    label: Javascript offset date
+    vars:
+      - name: output
+        type: script
+        params:
+          args:
+            - node
+            - -e
+            - |
+              let now = new Date();           
+              switch('{{unit}}') {
+                case 'd': date = new Date(now.setDate(now.getDate() + {{offset}})); break;
+                case 'w': date = new Date(now.setDate(now.getDate() + ({{offset}} * 7))); break;
+                case 'm': date = new Date(now.setMonth(now.getMonth() + {{offset}})); break;
+                case 'y': date = new Date(now.setFullYear(now.getFullYear() + {{offset}})); break;
+              }
+              const day = ("0" + date.getDate()).slice(-2);
+              const month = ("0" + (date.getMonth() + 1)).slice(-2);
+              const year = date.getFullYear().toString().slice(-2);
+              console.log(`${day}/${month}/${year}`);
