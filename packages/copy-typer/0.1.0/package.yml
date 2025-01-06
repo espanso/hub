@@ -1,3 +1,6 @@
 matches:
   - trigger: ":paste"
-    replace: "{{clipboard}}"
+    replace: "{{clipb}}"
+    vars:
+      - name: "clipb"
+        type: "clipboard"
