@@ -1,5 +1,7 @@
-# A very dummy package
+# Copy Typer
 
-This Markdown file forms the landing page for your package in the Espanso Hub and is therefore its "shop-window" for anyone browsing.
+**Copy Typer** is a simple [Espanso](https://espanso.org/) package that types out the content currently in your clipboard when you use the `:paste` trigger. This is especially useful in environments where the usual `Ctrl + V` paste functionality is not available, such as Linux terminals in browsers.
 
-Please include some information about what your package does and how to use it. Have a look at the [Hub](https://hub.espanso.org/) for some good and bad examples! as well as the list of `_manifest.yml` `tags:` currently in use.
+## Usage
+
+- Type `:paste` in your terminal or any text input to insert the content of your clipboard.
