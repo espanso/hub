@@ -1,0 +1,7 @@
+name: "copy-typer"
+title: "Copy typer"
+description: This setup is perfect for situations where Ctrl + V isn't an option, like in Linux terminals within a browser
+homepage: "https://github.com/Neoniq/hub"
+version: 0.1.0
+author: Neoniq
+tags: ["Utility", "Shell"]
