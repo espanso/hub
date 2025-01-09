@@ -1,0 +1,748 @@
+matches:
+  - trigger: ":slate50"
+    replace: "#f8fafc"
+    word: true
+  - trigger: ":slate100"
+    replace: "#f1f5f9"
+    word: true
+  - trigger: ":slate200"
+    replace: "#e2e8f0"
+    word: true
+  - trigger: ":slate300"
+    replace: "#cbd5e1"
+    word: true
+  - trigger: ":slate400"
+    replace: "#94a3b8"
+    word: true
+  - trigger: ":slate500"
+    replace: "#64748b"
+    word: true
+  - trigger: ":slate600"
+    replace: "#475569"
+    word: true
+  - trigger: ":slate700"
+    replace: "#334155"
+    word: true
+  - trigger: ":slate800"
+    replace: "#1e293b"
+    word: true
+  - trigger: ":slate900"
+    replace: "#0f172a"
+    word: true
+  - trigger: ":slate950"
+    replace: "#020617"
+    word: true
+
+  - trigger: ":gray50"
+    replace: "#f9fafb"
+    word: true
+  - trigger: ":gray100"
+    replace: "#f3f4f6"
+    word: true
+  - trigger: ":gray200"
+    replace: "#e5e7eb"
+    word: true
+  - trigger: ":gray300"
+    replace: "#d1d5db"
+    word: true
+  - trigger: ":gray400"
+    replace: "#9ca3af"
+    word: true
+  - trigger: ":gray500"
+    replace: "#6b7280"
+    word: true
+  - trigger: ":gray600"
+    replace: "#4b5563"
+    word: true
+  - trigger: ":gray700"
+    replace: "#374151"
+    word: true
+  - trigger: ":gray800"
+    replace: "#1f2937"
+    word: true
+  - trigger: ":gray900"
+    replace: "#111827"
+    word: true
+  - trigger: ":gray950"
+    replace: "#030712"
+    word: true
+
+  - trigger: ":zinc50"
+    replace: "#fafafa"
+    word: true
+  - trigger: ":zinc100"
+    replace: "#f4f4f5"
+    word: true
+  - trigger: ":zinc200"
+    replace: "#e4e4e7"
+    word: true
+  - trigger: ":zinc300"
+    replace: "#d4d4d8"
+    word: true
+  - trigger: ":zinc400"
+    replace: "#a1a1aa"
+    word: true
+  - trigger: ":zinc500"
+    replace: "#71717a"
+    word: true
+  - trigger: ":zinc600"
+    replace: "#52525b"
+    word: true
+  - trigger: ":zinc700"
+    replace: "#3f3f46"
+    word: true
+  - trigger: ":zinc800"
+    replace: "#27272a"
+    word: true
+  - trigger: ":zinc900"
+    replace: "#18181b"
+    word: true
+  - trigger: ":zinc950"
+    replace: "#09090b"
+    word: true
+
+  - trigger: ":neutral50"
+    replace: "#fafafa"
+    word: true
+  - trigger: ":neutral100"
+    replace: "#f5f5f5"
+    word: true
+  - trigger: ":neutral200"
+    replace: "#e5e5e5"
+    word: true
+  - trigger: ":neutral300"
+    replace: "#d4d4d4"
+    word: true
+  - trigger: ":neutral400"
+    replace: "#a3a3a3"
+    word: true
+  - trigger: ":neutral500"
+    replace: "#737373"
+    word: true
+  - trigger: ":neutral600"
+    replace: "#525252"
+    word: true
+  - trigger: ":neutral700"
+    replace: "#404040"
+    word: true
+  - trigger: ":neutral800"
+    replace: "#262626"
+    word: true
+  - trigger: ":neutral900"
+    replace: "#171717"
+    word: true
+  - trigger: ":neutral950"
+    replace: "#0a0a0a"
+    word: true
+
+  - trigger: ":stone50"
+    replace: "#fafaf9"
+    word: true
+  - trigger: ":stone100"
+    replace: "#f5f5f4"
+    word: true
+  - trigger: ":stone200"
+    replace: "#e7e5e4"
+    word: true
+  - trigger: ":stone300"
+    replace: "#d6d3d1"
+    word: true
+  - trigger: ":stone400"
+    replace: "#a8a29e"
+    word: true
+  - trigger: ":stone500"
+    replace: "#78716c"
+    word: true
+  - trigger: ":stone600"
+    replace: "#57534e"
+    word: true
+  - trigger: ":stone700"
+    replace: "#44403c"
+    word: true
+  - trigger: ":stone800"
+    replace: "#292524"
+    word: true
+  - trigger: ":stone900"
+    replace: "#1c1917"
+    word: true
+  - trigger: ":stone950"
+    replace: "#0c0a09"
+    word: true
+
+  - trigger: ":red50"
+    replace: "#fef2f2"
+    word: true
+  - trigger: ":red100"
+    replace: "#fee2e2"
+    word: true
+  - trigger: ":red200"
+    replace: "#fecaca"
+    word: true
+  - trigger: ":red300"
+    replace: "#fca5a5"
+    word: true
+  - trigger: ":red400"
+    replace: "#f87171"
+    word: true
+  - trigger: ":red500"
+    replace: "#ef4444"
+    word: true
+  - trigger: ":red600"
+    replace: "#dc2626"
+    word: true
+  - trigger: ":red700"
+    replace: "#b91c1c"
+    word: true
+  - trigger: ":red800"
+    replace: "#991b1b"
+    word: true
+  - trigger: ":red900"
+    replace: "#7f1d1d"
+    word: true
+  - trigger: ":red950"
+    replace: "#450a0a"
+    word: true
+
+  - trigger: ":orange50"
+    replace: "#fff7ed"
+    word: true
+  - trigger: ":orange100"
+    replace: "#ffedd5"
+    word: true
+  - trigger: ":orange200"
+    replace: "#fed7aa"
+    word: true
+  - trigger: ":orange300"
+    replace: "#fdba74"
+    word: true
+  - trigger: ":orange400"
+    replace: "#fb923c"
+    word: true
+  - trigger: ":orange500"
+    replace: "#f97316"
+    word: true
+  - trigger: ":orange600"
+    replace: "#ea580c"
+    word: true
+  - trigger: ":orange700"
+    replace: "#c2410c"
+    word: true
+  - trigger: ":orange800"
+    replace: "#9a3412"
+    word: true
+  - trigger: ":orange900"
+    replace: "#7c2d12"
+    word: true
+  - trigger: ":orange950"
+    replace: "#431407"
+    word: true
+
+  - trigger: ":amber50"
+    replace: "#fffbeb"
+    word: true
+  - trigger: ":amber100"
+    replace: "#fef3c7"
+    word: true
+  - trigger: ":amber200"
+    replace: "#fde68a"
+    word: true
+  - trigger: ":amber300"
+    replace: "#fcd34d"
+    word: true
+  - trigger: ":amber400"
+    replace: "#fbbf24"
+    word: true
+  - trigger: ":amber500"
+    replace: "#f59e0b"
+    word: true
+  - trigger: ":amber600"
+    replace: "#d97706"
+    word: true
+  - trigger: ":amber700"
+    replace: "#b45309"
+    word: true
+  - trigger: ":amber800"
+    replace: "#92400e"
+    word: true
+  - trigger: ":amber900"
+    replace: "#78350f"
+    word: true
+  - trigger: ":amber950"
+    replace: "#451a03"
+    word: true
+
+  - trigger: ":yellow50"
+    replace: "#fefce8"
+    word: true
+  - trigger: ":yellow100"
+    replace: "#fef9c3"
+    word: true
+  - trigger: ":yellow200"
+    replace: "#fef08a"
+    word: true
+  - trigger: ":yellow300"
+    replace: "#fde047"
+    word: true
+  - trigger: ":yellow400"
+    replace: "#facc15"
+    word: true
+  - trigger: ":yellow500"
+    replace: "#eab308"
+    word: true
+  - trigger: ":yellow600"
+    replace: "#ca8a04"
+    word: true
+  - trigger: ":yellow700"
+    replace: "#a16207"
+    word: true
+  - trigger: ":yellow800"
+    replace: "#854d0e"
+    word: true
+  - trigger: ":yellow900"
+    replace: "#713f12"
+    word: true
+  - trigger: ":yellow950"
+    replace: "#422006"
+    word: true
+
+  - trigger: ":lime50"
+    replace: "#f7fee7"
+    word: true
+  - trigger: ":lime100"
+    replace: "#ecfccb"
+    word: true
+  - trigger: ":lime200"
+    replace: "#d9f99d"
+    word: true
+  - trigger: ":lime300"
+    replace: "#bef264"
+    word: true
+  - trigger: ":lime400"
+    replace: "#a3e635"
+    word: true
+  - trigger: ":lime500"
+    replace: "#84cc16"
+    word: true
+  - trigger: ":lime600"
+    replace: "#65a30d"
+    word: true
+  - trigger: ":lime700"
+    replace: "#4d7c0f"
+    word: true
+  - trigger: ":lime800"
+    replace: "#3f6212"
+    word: true
+  - trigger: ":lime900"
+    replace: "#365314"
+    word: true
+  - trigger: ":lime950"
+    replace: "#1a2e05"
+    word: true
+
+  - trigger: ":green50"
+    replace: "#f0fdf4"
+    word: true
+  - trigger: ":green100"
+    replace: "#dcfce7"
+    word: true
+  - trigger: ":green200"
+    replace: "#bbf7d0"
+    word: true
+  - trigger: ":green300"
+    replace: "#86efac"
+    word: true
+  - trigger: ":green400"
+    replace: "#4ade80"
+    word: true
+  - trigger: ":green500"
+    replace: "#22c55e"
+    word: true
+  - trigger: ":green600"
+    replace: "#16a34a"
+    word: true
+  - trigger: ":green700"
+    replace: "#15803d"
+    word: true
+  - trigger: ":green800"
+    replace: "#166534"
+    word: true
+  - trigger: ":green900"
+    replace: "#14532d"
+    word: true
+  - trigger: ":green950"
+    replace: "#052e16"
+    word: true
+
+  - trigger: ":emerald50"
+    replace: "#ecfdf5"
+    word: true
+  - trigger: ":emerald100"
+    replace: "#d1fae5"
+    word: true
+  - trigger: ":emerald200"
+    replace: "#a7f3d0"
+    word: true
+  - trigger: ":emerald300"
+    replace: "#6ee7b7"
+    word: true
+  - trigger: ":emerald400"
+    replace: "#34d399"
+    word: true
+  - trigger: ":emerald500"
+    replace: "#10b981"
+    word: true
+  - trigger: ":emerald600"
+    replace: "#059669"
+    word: true
+  - trigger: ":emerald700"
+    replace: "#047857"
+    word: true
+  - trigger: ":emerald800"
+    replace: "#065f46"
+    word: true
+  - trigger: ":emerald900"
+    replace: "#064e3b"
+    word: true
+  - trigger: ":emerald950"
+    replace: "#022c22"
+    word: true
+
+  - trigger: ":teal50"
+    replace: "#f0fdfa"
+    word: true
+  - trigger: ":teal100"
+    replace: "#ccfbf1"
+    word: true
+  - trigger: ":teal200"
+    replace: "#99f6e4"
+    word: true
+  - trigger: ":teal300"
+    replace: "#5eead4"
+    word: true
+  - trigger: ":teal400"
+    replace: "#2dd4bf"
+    word: true
+  - trigger: ":teal500"
+    replace: "#14b8a6"
+    word: true
+  - trigger: ":teal600"
+    replace: "#0d9488"
+    word: true
+  - trigger: ":teal700"
+    replace: "#0f766e"
+    word: true
+  - trigger: ":teal800"
+    replace: "#115e59"
+    word: true
+  - trigger: ":teal900"
+    replace: "#134e4a"
+    word: true
+  - trigger: ":teal950"
+    replace: "#042f2e"
+    word: true
+
+  - trigger: ":cyan50"
+    replace: "#ecfeff"
+    word: true
+  - trigger: ":cyan100"
+    replace: "#cffafe"
+    word: true
+  - trigger: ":cyan200"
+    replace: "#a5f3fc"
+    word: true
+  - trigger: ":cyan300"
+    replace: "#67e8f9"
+    word: true
+  - trigger: ":cyan400"
+    replace: "#22d3ee"
+    word: true
+  - trigger: ":cyan500"
+    replace: "#06b6d4"
+    word: true
+  - trigger: ":cyan600"
+    replace: "#0891b2"
+    word: true
+  - trigger: ":cyan700"
+    replace: "#0e7490"
+    word: true
+  - trigger: ":cyan800"
+    replace: "#155e75"
+    word: true
+  - trigger: ":cyan900"
+    replace: "#164e63"
+    word: true
+  - trigger: ":cyan950"
+    replace: "#083344"
+    word: true
+
+  - trigger: ":sky50"
+    replace: "#f0f9ff"
+    word: true
+  - trigger: ":sky100"
+    replace: "#e0f2fe"
+    word: true
+  - trigger: ":sky200"
+    replace: "#bae6fd"
+    word: true
+  - trigger: ":sky300"
+    replace: "#7dd3fc"
+    word: true
+  - trigger: ":sky400"
+    replace: "#38bdf8"
+    word: true
+  - trigger: ":sky500"
+    replace: "#0ea5e9"
+    word: true
+  - trigger: ":sky600"
+    replace: "#0284c7"
+    word: true
+  - trigger: ":sky700"
+    replace: "#0369a1"
+    word: true
+  - trigger: ":sky800"
+    replace: "#075985"
+    word: true
+  - trigger: ":sky900"
+    replace: "#0c4a6e"
+    word: true
+  - trigger: ":sky950"
+    replace: "#082f49"
+    word: true
+
+  - trigger: ":blue50"
+    replace: "#eff6ff"
+    word: true
+  - trigger: ":blue100"
+    replace: "#dbeafe"
+    word: true
+  - trigger: ":blue200"
+    replace: "#bfdbfe"
+    word: true
+  - trigger: ":blue300"
+    replace: "#93c5fd"
+    word: true
+  - trigger: ":blue400"
+    replace: "#60a5fa"
+    word: true
+  - trigger: ":blue500"
+    replace: "#3b82f6"
+    word: true
+  - trigger: ":blue600"
+    replace: "#2563eb"
+    word: true
+  - trigger: ":blue700"
+    replace: "#1d4ed8"
+    word: true
+  - trigger: ":blue800"
+    replace: "#1e40af"
+    word: true
+  - trigger: ":blue900"
+    replace: "#1e3a8a"
+    word: true
+  - trigger: ":blue950"
+    replace: "#172554"
+    word: true
+
+  - trigger: ":indigo50"
+    replace: "#eef2ff"
+    word: true
+  - trigger: ":indigo100"
+    replace: "#e0e7ff"
+    word: true
+  - trigger: ":indigo200"
+    replace: "#c7d2fe"
+    word: true
+  - trigger: ":indigo300"
+    replace: "#a5b4fc"
+    word: true
+  - trigger: ":indigo400"
+    replace: "#818cf8"
+    word: true
+  - trigger: ":indigo500"
+    replace: "#6366f1"
+    word: true
+  - trigger: ":indigo600"
+    replace: "#4f46e5"
+    word: true
+  - trigger: ":indigo700"
+    replace: "#4338ca"
+    word: true
+  - trigger: ":indigo800"
+    replace: "#3730a3"
+    word: true
+  - trigger: ":indigo900"
+    replace: "#312e81"
+    word: true
+  - trigger: ":indigo950"
+    replace: "#1e1b4b"
+    word: true
+
+  - trigger: ":violet50"
+    replace: "#f5f3ff"
+    word: true
+  - trigger: ":violet100"
+    replace: "#ede9fe"
+    word: true
+  - trigger: ":violet200"
+    replace: "#ddd6fe"
+    word: true
+  - trigger: ":violet300"
+    replace: "#c4b5fd"
+    word: true
+  - trigger: ":violet400"
+    replace: "#a78bfa"
+    word: true
+  - trigger: ":violet500"
+    replace: "#8b5cf6"
+    word: true
+  - trigger: ":violet600"
+    replace: "#7c3aed"
+    word: true
+  - trigger: ":violet700"
+    replace: "#6d28d9"
+    word: true
+  - trigger: ":violet800"
+    replace: "#5b21b6"
+    word: true
+  - trigger: ":violet900"
+    replace: "#4c1d95"
+    word: true
+  - trigger: ":violet950"
+    replace: "#2e1065"
+    word: true
+
+  - trigger: ":purple50"
+    replace: "#faf5ff"
+    word: true
+  - trigger: ":purple100"
+    replace: "#f3e8ff"
+    word: true
+  - trigger: ":purple200"
+    replace: "#e9d5ff"
+    word: true
+  - trigger: ":purple300"
+    replace: "#d8b4fe"
+    word: true
+  - trigger: ":purple400"
+    replace: "#c084fc"
+    word: true
+  - trigger: ":purple500"
+    replace: "#a855f7"
+    word: true
+  - trigger: ":purple600"
+    replace: "#9333ea"
+    word: true
+  - trigger: ":purple700"
+    replace: "#7e22ce"
+    word: true
+  - trigger: ":purple800"
+    replace: "#6b21a8"
+    word: true
+  - trigger: ":purple900"
+    replace: "#581c87"
+    word: true
+  - trigger: ":purple950"
+    replace: "#3b0764"
+    word: true
+
+  - trigger: ":fuchsia50"
+    replace: "#fdf4ff"
+    word: true
+  - trigger: ":fuchsia100"
+    replace: "#fae8ff"
+    word: true
+  - trigger: ":fuchsia200"
+    replace: "#f5d0fe"
+    word: true
+  - trigger: ":fuchsia300"
+    replace: "#f0abfc"
+    word: true
+  - trigger: ":fuchsia400"
+    replace: "#e879f9"
+    word: true
+  - trigger: ":fuchsia500"
+    replace: "#d946ef"
+    word: true
+  - trigger: ":fuchsia600"
+    replace: "#c026d3"
+    word: true
+  - trigger: ":fuchsia700"
+    replace: "#a21caf"
+    word: true
+  - trigger: ":fuchsia800"
+    replace: "#86198f"
+    word: true
+  - trigger: ":fuchsia900"
+    replace: "#701a75"
+    word: true
+  - trigger: ":fuchsia950"
+    replace: "#4a044e"
+    word: true
+
+  - trigger: ":pink50"
+    replace: "#fdf2f8"
+    word: true
+  - trigger: ":pink100"
+    replace: "#fce7f3"
+    word: true
+  - trigger: ":pink200"
+    replace: "#fbcfe8"
+    word: true
+  - trigger: ":pink300"
+    replace: "#f9a8d4"
+    word: true
+  - trigger: ":pink400"
+    replace: "#f472b6"
+    word: true
+  - trigger: ":pink500"
+    replace: "#ec4899"
+    word: true
+  - trigger: ":pink600"
+    replace: "#db2777"
+    word: true
+  - trigger: ":pink700"
+    replace: "#be185d"
+    word: true
+  - trigger: ":pink800"
+    replace: "#9d174d"
+    word: true
+  - trigger: ":pink900"
+    replace: "#831843"
+    word: true
+  - trigger: ":pink950"
+    replace: "#500724"
+    word: true
+
+  - trigger: ":rose50"
+    replace: "#fff1f2"
+    word: true
+  - trigger: ":rose100"
+    replace: "#ffe4e6"
+    word: true
+  - trigger: ":rose200"
+    replace: "#fecdd3"
+    word: true
+  - trigger: ":rose300"
+    replace: "#fda4af"
+    word: true
+  - trigger: ":rose400"
+    replace: "#fb7185"
+    word: true
+  - trigger: ":rose500"
+    replace: "#f43f5e"
+    word: true
+  - trigger: ":rose600"
+    replace: "#e11d48"
+    word: true
+  - trigger: ":rose700"
+    replace: "#be123c"
+    word: true
+  - trigger: ":rose800"
+    replace: "#9f1239"
+    word: true
+  - trigger: ":rose900"
+    replace: "#881337"
+    word: true
+  - trigger: ":rose950"
+    replace: "#4c0519"
+    word: true
