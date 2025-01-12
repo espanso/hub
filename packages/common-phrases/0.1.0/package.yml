@@ -1,0 +1,268 @@
+matches:
+  # Basic Greetings
+  - trigger: ":hello"
+    replace: "Hello, how can I help you today?"
+
+  - trigger: ":gm"
+    replace: "Good morning!"
+
+  - trigger: ":gn"
+    replace: "Good night!"
+
+  # Thanks & Welcome
+  - trigger: ":ty"
+    replace: "Thank you!"
+
+  - trigger: ":yw"
+    replace: "You're welcome!"
+
+  - trigger: ":thx"
+    replace: "Thanks!"
+
+  - trigger: ":np"
+    replace: "No problem."
+
+  # Goodbyes & Status
+  - trigger: ":goodbye"
+    replace: "Goodbye! Have a great day!"
+
+  - trigger: ":brb"
+    replace: "Be right back."
+
+  - trigger: ":bbl"
+    replace: "Be back later."
+
+  - trigger: ":gtg"
+    replace: "Got to go."
+
+  - trigger: ":ttyl"
+    replace: "Talk to you later."
+
+  - trigger: ":cu"
+    replace: "See you."
+
+  # Professional Email Closings
+  - trigger: ":regards"
+    replace: "Best regards,"
+
+  - trigger: ":kr"
+    replace: "Kind regards,"
+
+  - trigger: ":vr"
+    replace: "Very respectfully,"
+
+  # Email & Communication
+  - trigger: ":pfa"
+    replace: "Please find attached"
+
+  - trigger: ":prvmail"
+    replace: "Please review and advise."
+
+  - trigger: ":cnfrm"
+    replace: "Please confirm receipt of this message."
+
+  - trigger: ":followup"
+    replace: "Following up on our previous conversation."
+
+  - trigger: ":contact"
+    replace: "Please feel free to contact me if you have any questions."
+
+  - trigger: ":aspp"
+    replace: "At your soonest possible convenience,"
+
+  # Meeting Related
+  - trigger: ":mtg"
+    replace: "Can we schedule a meeting to discuss this?"
+
+  - trigger: ":reschedule"
+    replace: "Would it be possible to reschedule our meeting?"
+
+  - trigger: ":ntm"
+    replace: "Next team meeting"
+
+  # Status Updates
+  - trigger: ":wip"
+    replace: "Work in progress."
+
+  - trigger: ":ooo"
+    replace: "Out of office."
+
+  - trigger: ":wfh"
+    replace: "Working from home."
+
+  - trigger: ":lunch"
+    replace: "Out for lunch, back in an hour."
+
+  - trigger: ":eod"
+    replace: "End of day"
+
+  - trigger: ":eow"
+    replace: "End of week"
+
+  - trigger: ":eomon"
+    replace: "End of month"
+
+  # Common Abbreviations
+  - trigger: ":asap"
+    replace: "As soon as possible."
+
+  - trigger: ":fyi"
+    replace: "For your information."
+
+  - trigger: ":imo"
+    replace: "In my opinion."
+
+  - trigger: ":imho"
+    replace: "In my humble opinion."
+
+  - trigger: ":btw"
+    replace: "By the way."
+
+  - trigger: ":afaik"
+    replace: "As far as I know."
+
+  - trigger: ":tba"
+    replace: "To be announced."
+
+  - trigger: ":tbd"
+    replace: "To be determined."
+
+  - trigger: ":eta"
+    replace: "Estimated time of arrival."
+
+  - trigger: ":tldr"
+    replace: "Too long, didn't read:"
+
+  - trigger: ":irl"
+    replace: "In real life."
+
+  - trigger: ":tbh"
+    replace: "To be honest."
+
+  - trigger: ":fwiw"
+    replace: "For what it's worth"
+
+  - trigger: ":otoh"
+    replace: "On the other hand"
+
+  - trigger: ":aka"
+    replace: "Also known as"
+
+  - trigger: ":atm"
+    replace: "At the moment"
+
+  - trigger: ":iirc"
+    replace: "If I remember correctly"
+
+  # Quick Responses
+  - trigger: ":ack"
+    replace: "Acknowledged, thank you."
+
+  - trigger: ":rgr"
+    replace: "Roger that."
+
+  - trigger: ":ofc"
+    replace: "Of course!"
+
+  - trigger: ":idk"
+    replace: "I don't know."
+
+  - trigger: ":nvm"
+    replace: "Never mind."
+
+  - trigger: ":pls"
+    replace: "Please."
+
+  - trigger: ":lmk"
+    replace: "Let me know."
+
+  # Professional Phrases
+  - trigger: ":urgent"
+    replace: "This is an urgent matter, please address it as soon as possible."
+
+  - trigger: ":reminder"
+    replace: "Just a friendly reminder about our upcoming meeting."
+
+  - trigger: ":sorry"
+    replace: "I'm sorry for the inconvenience."
+
+  - trigger: ":congrats"
+    replace: "Congratulations on your achievement!"
+
+  # Additional Email Phrases
+  - trigger: ":endmsg"
+    replace: "--- End of Message ---"
+
+  - trigger: ":att"
+    replace: "I've attached the following documents:"
+
+  - trigger: ":cta"
+    replace: "Please let me know if you need any clarification."
+
+  - trigger: ":upd"
+    replace: "Here's a quick update:"
+
+  # Additional Professional Phrases
+  - trigger: ":dld"
+    replace: "Due to latest developments,"
+
+  - trigger: ":fup"
+    replace: "I'll follow up with you next week."
+
+  - trigger: ":eta?"
+    replace: "What's your estimated timeline for this?"
+
+  - trigger: ":prio"
+    replace: "This is a high-priority item."
+
+  # Project Management
+  - trigger: ":bloc"
+    replace: "There are some blockers we need to address:"
+
+  - trigger: ":dep"
+    replace: "This is dependent on:"
+
+  - trigger: ":scope"
+    replace: "This is out of scope for the current phase."
+
+  - trigger: ":timeline"
+    replace: "Here's our proposed timeline:"
+
+  # Meeting Notes
+  - trigger: ":ai"
+    replace: "Action items:"
+
+  - trigger: ":nxt"
+    replace: "Next steps:"
+
+  - trigger: ":mins"
+    replace: "Meeting minutes from today's discussion:"
+
+  - trigger: ":agenda"
+    replace: "Proposed agenda items:"
+
+  # Request Phrases
+  - trigger: ":rev"
+    replace: "Could you please review this?"
+
+  - trigger: ":feed"
+    replace: "I would appreciate your feedback on this."
+
+  - trigger: ":help?"
+    replace: "Would you be able to help with this?"
+
+  - trigger: ":asst"
+    replace: "I need some assistance with"
+
+  # Time Management
+  - trigger: ":1hr"
+    replace: "in about an hour"
+
+  - trigger: ":30m"
+    replace: "in 30 minutes"
+
+  - trigger: ":15m"
+    replace: "in 15 minutes"
+
+  - trigger: ":tom"
+    replace: "tomorrow morning"
