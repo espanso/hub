@@ -1,0 +1,7 @@
+name: "common-phrases"
+title: "Common Phrases"
+description: A package for most common phrases used in daily communication.
+homepage: "https://github.com/KarimAL-Shamy/common-phrases"
+version: 0.1.0
+author: Karim Al-Shamy
+tags: ["common", "phrases", "communication"]
