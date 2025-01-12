@@ -117,13 +117,6 @@ A comprehensive collection of commonly used phrases and abbreviations for daily 
 | `:15m` | in 15 minutes |
 | `:tom` | tomorrow morning |
 
-## Installation
-
-```bash
-espanso install commonPhrases
-espanso restart
-```
-
 ## Contributing
 
 Feel free to contribute to this package by submitting issues or pull requests on the GitHub repository.
