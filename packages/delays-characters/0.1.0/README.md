@@ -4,7 +4,7 @@ An Espanso trigger that uses the Python `pynput` library to inject text, *instea
 
 See https://pynput.readthedocs.io/en/latest/keyboard.html#controlling-the-keyboard for details of the keywords, and https://pynput.readthedocs.io/en/latest/keyboard.html#pynput.keyboard.Key for the key names.
 
-If necessary, use `python3 -m pip install pynput` to add pynput to your Python installation.
+If necessary, use `python -m pip install pynput` to add pynput to your Python installation.
 
 Supports keywords "type", "tap", "press", "release", and "sleep".
 
