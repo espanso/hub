@@ -1,0 +1,41 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/espanso/espanso/dev/schemas/match.schema.json
+
+# Supports type, tap, press, release, and sleep.
+
+# For new scripts this file may be copied to the espanso/match directory and edited.
+
+matches:
+  - trigger: :delay    # Remember to include this value in Trig, below.
+    replace: "{{Output}}"
+    vars:
+      - name: Trig
+        type: echo
+        params:
+          echo: :delay # This MUST match the trigger text.
+      - name: Input
+        type: echo
+        params:
+          echo: |      # Amend the contents below to suit, adding variables etc.
+            type Hello, World!
+            tap enter
+            type Pausing for one second
+            tap enter
+            sleep 1 
+            type How are you?
+            tap space
+            press shift
+            type I am a bot
+            release shift
+            tap enter
+            type The trigger was "{{Trig}}"
+            tap enter
+            tap tab
+            type The End.
+      - name: Output
+        type: script
+        params:
+          args:
+            - python
+            - '%CONFIG%/match/packages/delays-characters/parse_pynput.py' 
+            - '{{Trig}}'
+            - '{{Input}}'

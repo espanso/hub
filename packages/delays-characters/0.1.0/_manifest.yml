@@ -1,0 +1,7 @@
+name: delays-characters
+title: Delays and characters
+description: A package to allow delays, and characters not supported by Espanso, to be injected using the Python pynput library.
+homepage: https://github.com/smeech
+version: 0.1.0
+author: Stephen Meech
+tags: [delays, characters, keyboard, control, python]
