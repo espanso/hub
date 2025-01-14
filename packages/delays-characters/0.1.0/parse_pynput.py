@@ -5,7 +5,14 @@
 # Supports type, tap, press, release, and sleep
 
 import argparse, time
-from pynput.keyboard import Controller, Key
+try:
+    from pynput.keyboard import Controller, Key
+except ImportError:
+    import sys
+    print("Error: The 'pynput' library is not installed.", file=sys.stderr)
+    print("Install it using: pip install pynput", file=sys.stderr)
+    sys.exit(1)  # Exit with a non-zero status code to indicate failure
+
 
 # Initialize the keyboard controller
 keyboard = Controller()
