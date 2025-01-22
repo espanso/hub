@@ -3,5 +3,5 @@ title: "Base64 Encoder and Decoder"
 description: Espanso package for encode and decode clipboard content
 version: 0.1.0
 author: Werner Gottschalt
-homepage: "https://github.com/WernerLuiz92/espanso-packages/packages/base64-encoder-decoder/0.1.0"
+homepage: "https://github.com/WernerLuiz92/espanso-packages"
 tags: ["base64", "encode", "decode", "clipboard", "base64encode", "base64decode"]

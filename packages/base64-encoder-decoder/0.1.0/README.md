@@ -11,7 +11,10 @@ To use this package, just copy the text you want to encode or decode to the clip
 
 ### Examples
 
+Encode:
 - `Text to be encoded` -> `:b64e` -> `VGV4dCB0byBiZSBlbmNvZGVk`
+
+Decode:
 - `VGV4dCB0byBiZSBlbmNvZGVk` -> `:b64d` -> `Text to be encoded`
 
 It's simple as that!
