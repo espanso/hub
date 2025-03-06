@@ -1,0 +1,52 @@
+# You can use either :prompt to open a search menu or use the shortcut directly
+matches:
+ - triggers: [:prompt, :pirate]
+   replace: "Speak like a pirate. "
+ - triggers: [:prompt, :helpful]
+   replace: "You are a helpful assistant. "
+
+# Source: https://www.linkedin.com/posts/jeremygrandillon_5-chatgpt-prompt-frameworks-that-make-your-activity-7301956962898837504-NR_i
+ - triggers: [:prompt, :rtf]
+   replace: |
+             Role: $|$
+             Task: 
+             Format:
+   label: "Role - Task - Format"
+
+# Source: https://www.linkedin.com/posts/jeremygrandillon_5-chatgpt-prompt-frameworks-that-make-your-activity-7301956962898837504-NR_i
+ - triggers: [:prompt, :bab]
+   replace: |
+             Before: $|$
+             After:
+             Bridge: outline the steps or actions to bridge the gap.
+   label: "Before - After - Bridge"
+
+# Source: https://www.linkedin.com/posts/jeremygrandillon_5-chatgpt-prompt-frameworks-that-make-your-activity-7301956962898837504-NR_i
+ - triggers: [:prompt, :scqa]
+   replace: |
+             Situation: $|$
+             Complication:
+             Question:
+             Answer: 
+   label: "Situation - Complication - Question - Answer"
+
+# Source: https://www.forbes.com/sites/jodiecook/2024/07/23/5-chatgpt-prompts-to-accelerate-your-success-make-leapfrog-moves/
+ - triggers: [:prompt, :goals]
+   replace: |
+             I want to set new goals. Start by asking me about my current goals, then dismiss them.
+             Tell me in a direct way that they are far too small, and press me with questions, delivered one by one,
+             that require me to create new, bigger goals.
+             Do not stop pressing me on these goals until they are significantly more aspirational than before. 
+
+# Original: https://www.forbes.com/sites/jodiecook/2024/07/23/5-chatgpt-prompts-to-accelerate-your-success-make-leapfrog-moves/
+# modified to avoid Gemini 2 to answer the questions itself, randomize the order of options and focus the analysis and proposals on the outcomes, which lack an abundance mindset
+ - triggers: [:prompt, :abundance]
+   replace: |
+             Context: I believe that acting from a mindset of abundance instead of scarcity will lead to more success.
+             An abundance mindset is grateful, optimistic and believes there is more to go around. 
+             A scarcity mindset operates from lack, and believes in protecting what you have, and playing zero sum games.
+             Step 1: Create a 8 question quiz where you test which mindset I have right now.
+             Use multiple choice questions with 5 options for each answer, ensuring there isn’t an obviously scarce or abundant option and the options randomly mixed.
+             Step 2: Ask for my input and wait for my input. Only proceed after I have given my input. Don't give the input yourself.
+             Step 3: Analyze my input: After I provide my answers, give me the results.
+             Step 4: make an assessment and suggest ways I can act from abundance more often, based on my answers. Propose concrete things to make an abundance mindset a habit for the areas where I have room to improve.
