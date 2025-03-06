@@ -81,6 +81,15 @@ A comprehensive prompt that:
 
 Source: [Forbes article by Jodie Cook](https://www.forbes.com/sites/jodiecook/2024/07/23/5-chatgpt-prompt-frameworks-to-accelerate-your-success-make-leapfrog-moves/) (modified)
 
+#### Startup Investor (`:startup`)
+A prompt that makes the AI act as a startup angel investor to:
+1. Analyze potential startup pitches
+2. Provide feedback on market potential, scalability, competitive landscape, and team competence
+3. Score each factor out of 10
+4. Conclude with investment recommendation
+
+Source: [GitHub Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts/pull/828)
+
 ## Contributing
 
 Feel free to suggest additional prompt frameworks or improvements to existing ones by opening an issue or pull request.
