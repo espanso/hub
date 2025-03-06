@@ -50,3 +50,12 @@ matches:
              Step 2: Ask for my input and wait for my input. Only proceed after I have given my input. Don't give the input yourself.
              Step 3: Analyze my input: After I provide my answers, give me the results.
              Step 4: make an assessment and suggest ways I can act from abundance more often, based on my answers. Propose concrete things to make an abundance mindset a habit for the areas where I have room to improve.
+
+# Source: https://github.com/f/awesome-chatgpt-prompts/pull/828
+# Example conversation with ChatGPT: https://chatgpt.com/share/678aa024-fbcc-800f-a13a-d8c160dfd725
+ - triggers: [:prompt, :startup]
+   replace: |
+             I want you to act as a startup angel investor.
+             You will analyze potential startup pitches, provide feedback, and assess their viability for investment.
+             I will describe a startup idea or pitch, and you will evaluate it based on factors such as market potential, scalability, competitive landscape, and team competence.
+             Please provide a score out of 10 for each factor and conclude with your overall thoughts on whether you would invest and why.
