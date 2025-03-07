@@ -11,4 +11,4 @@ Typing ':st3,2' will result in ★★★☆☆
 Typing ':st5,0' will result in ★★★★★
 
 ## Disclaimer
-This package works via a separate python script. The more stars you want, the longer the execution time. Use wisely ¯\_(ツ)_/¯
+This package works via a python script. The more stars you want, the longer the execution time. Use wisely ¯\_(ツ)_/¯
