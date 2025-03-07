@@ -1,5 +1,4 @@
-matches:
-  - regex: ":st(?P<fstars>\\d+),(?P<estars>\\d+)"
+  - regex: :st(?P<fstars>\d+),(?P<estars>\d+)
     replace: "{{stars}}"
     vars:
       - name: stars
@@ -7,6 +6,11 @@ matches:
         params:
           args:
            - python
-           - "%CONFIG%/match/packages/star-rating/print.py"
-           - "{{fstars}}"
-           - "{{estars}}"
+           - -c
+           - |
+            import sys, codecs
+
+            # Ensure UTF-8 output
+            sys.stdout = codecs.getwriter("utf-8")(sys.stdout.detach())
+
+            print(chr(0x2605)*{{fstars}}+chr(0x2606)*{{estars}})
