@@ -1,0 +1,12 @@
+matches:
+  - regex: ":st(?P<fstars>\\d+),(?P<estars>\\d+)"
+    replace: "{{stars}}"
+    vars:
+      - name: stars
+        type: script
+        params:
+          args:
+           - python
+           - "%CONFIG%/match/packages/star-rating/print.py"
+           - "{{fstars}}"
+           - "{{estars}}"
