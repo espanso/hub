@@ -4,4 +4,4 @@ description: A package with helpful prompts for AI Chat and LLMs like ChatGPT, G
 homepage: 
 version: 0.1.0
 author: Matthias Marschall
-tags: ["AI","LLM", "Prompts"]
+tags: ["AI","LLM", "Prompt", "GenAI"]
