@@ -12,8 +12,6 @@ If you already have Espanso installed, you can install this package with:
 espanso install llm-prompts
 ```
 
-Or manually by cloning this repository into your Espanso packages directory.
-
 ## Usage
 
 You can use these prompts in two ways:
