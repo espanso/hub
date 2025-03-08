@@ -35,7 +35,7 @@ matches:
         type: script
         params:
           args:
-            - python
+            - python3
             - '%CONFIG%/match/packages/delays-characters/parse_pynput.py' 
             - '{{Trig}}'
             - '{{Input}}'
