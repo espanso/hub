@@ -1,3 +1,4 @@
+matches:
   - regex: :st(?P<fstars>\d+),(?P<estars>\d+)
     replace: "{{stars}}"
     vars:
