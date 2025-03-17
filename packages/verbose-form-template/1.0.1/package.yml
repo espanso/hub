@@ -1,0 +1,42 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/espanso/espanso/dev/schemas/match.schema.json
+
+matches:
+
+# Description:
+#   - Allows you to specify:
+#     - form name
+#     - trigger
+#     - variable
+#     - replace
+#     - three starter list options
+
+  - trigger: ':vblf'
+    label: 'Espanso: Form - Verbose'
+    replace: |2-
+        - triggers: ['{{FORM.trigger}}']
+          replace: "{{FORM.replace}} {{{{FORM.form_name}}.{{FORM.variable}}}}"
+          vars:
+            - name: {{FORM.form_name}}
+              type: form
+              params:
+                layout: "{{FORM.variable}}: [[{{FORM.variable}}]]" 
+                fields:
+                  {{FORM.variable}}:
+                    type: list
+                    values:
+                    - {{FORM.list_option_one}}
+                    - {{FORM.list_option_two}}
+                    - {{FORM.list_option_three}}
+    vars:
+      - name: FORM
+        type: form
+        params:
+          layout: |-
+            Trigger: [[trigger]] Replace text: [[replace]] 
+            Form:
+            Name: [[form_name]] Variable: [[variable]]
+            Form list:        
+            Option one: [[list_option_one]] 
+            Option two: [[list_option_two]]
+            Option three: [[list_option_three]]
+

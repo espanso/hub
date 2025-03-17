@@ -1,0 +1,9 @@
+name: verbose-form-template
+title: A form trigger to generate form triggers!
+version: 1.0.1
+author: Omar Elmenawi, reworked by Stephen Meech
+description: Espanso shortcode to create espanso forms with the list extension
+tags: ["shortcut", "template", "form", "yml"]
+homepage: https://github.com/menawi/hub/tree/main/packages
+
+
