@@ -1,0 +1,7 @@
+author: "Herbert Allen"
+description: URL encode/decode clipboard contents
+name: url-encode-decode
+title: URL Encoding Shortcuts
+version: 0.1.0
+homepage: "https://github.com/wdpk"
+tags: ["url", "development", "html","decoding","encoding"]

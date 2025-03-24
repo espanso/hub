@@ -1,0 +1,39 @@
+matches:
+  - trigger: ":urle"
+    replace: "{{output}}"
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+      - name: output
+        type: script
+        params:
+          args: 
+            - python
+            - -c
+            - |
+               from urllib.parse import quote_plus
+               import os
+               import sys
+               sys.stdout.reconfigure(encoding='utf-8')
+               clipboard = os.environ['ESPANSO_clipboard']
+               print(quote_plus(clipboard),end='')
+          trim: false
+  - trigger: ":urld"
+    replace: "{{output}}"
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+      - name: output
+        type: script
+        params:
+          args: 
+            - python
+            - -c
+            - |
+               from urllib.parse import unquote
+               import os
+               import sys
+               sys.stdout.reconfigure(encoding='utf-8')
+               clipboard = os.environ['ESPANSO_clipboard']
+               print(unquote(clipboard),end='')
+          trim: false
