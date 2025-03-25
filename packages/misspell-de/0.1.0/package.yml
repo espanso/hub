@@ -1,0 +1,7849 @@
+matches:
+  - trigger: "Aaachen"
+    replace: "Aachen"
+    propagate_case: true
+    word: true
+  - trigger: "aberufen"
+    replace: "abgerufen"
+    propagate_case: true
+    word: true
+  - trigger: "abgekürtzt"
+    replace: "abgekürzt"
+    propagate_case: true
+    word: true
+  - trigger: "abgeschloßen"
+    replace: "abgeschlossen"
+    propagate_case: true
+    word: true
+  - trigger: "Abhängikeit"
+    replace: "Abhängigkeit"
+    propagate_case: true
+    word: true
+  - trigger: "Abhängkeit"
+    replace: "Abhängigkeit"
+    propagate_case: true
+    word: true
+  - trigger: "abolvieren"
+    replace: "absolvieren"
+    propagate_case: true
+    word: true
+  - trigger: "abolviert"
+    replace: "absolviert"
+    propagate_case: true
+    word: true
+  - trigger: "abschliessen"
+    replace: "abschließen"
+    propagate_case: true
+    word: true
+  - trigger: "abschliessend"
+    replace: "abschließend"
+    propagate_case: true
+    word: true
+  - trigger: "abschliessende"
+    replace: "abschließende"
+    propagate_case: true
+    word: true
+  - trigger: "abschliessenden"
+    replace: "abschließenden"
+    propagate_case: true
+    word: true
+  - trigger: "abschliessender"
+    replace: "abschließender"
+    propagate_case: true
+    word: true
+  - trigger: "abschliesst"
+    replace: "abschließt"
+    propagate_case: true
+    word: true
+  - trigger: "Absorbtion"
+    replace: "Absorption"
+    propagate_case: true
+    word: true
+  - trigger: "abzuschliessen"
+    replace: "abzuschließen"
+    propagate_case: true
+    word: true
+  - trigger: "achsial"
+    replace: "axial"
+    propagate_case: true
+    word: true
+  - trigger: "achzig"
+    replace: "achtzig"
+    propagate_case: true
+    word: true
+  - trigger: "Addresse"
+    replace: "Adresse"
+    propagate_case: true
+    word: true
+  - trigger: "addressiert"
+    replace: "adressiert"
+    propagate_case: true
+    word: true
+  - trigger: "Adjudant"
+    replace: "Adjutant"
+    propagate_case: true
+    word: true
+  - trigger: "Aeropag"
+    replace: "Areopag"
+    propagate_case: true
+    word: true
+  - trigger: "Aeropagos"
+    replace: "Areopag"
+    propagate_case: true
+    word: true
+  - trigger: "afrz"
+    replace: "afrz."
+    propagate_case: true
+    word: true
+  - trigger: "agberufen"
+    replace: "abgerufen"
+    propagate_case: true
+    word: true
+  - trigger: "Agendas"
+    replace: "Agenden"
+    propagate_case: true
+    word: true
+  - trigger: "agerufen"
+    replace: "abgerufen"
+    propagate_case: true
+    word: true
+  - trigger: "agraisch"
+    replace: "agrarisch"
+    propagate_case: true
+    word: true
+  - trigger: "agressiv"
+    replace: "aggressiv"
+    propagate_case: true
+    word: true
+  - trigger: "akkomodieren"
+    replace: "akkommodieren"
+    propagate_case: true
+    word: true
+  - trigger: "Akkustik"
+    replace: "Akustik"
+    propagate_case: true
+    word: true
+  - trigger: "akreditiert"
+    replace: "akkreditiert"
+    propagate_case: true
+    word: true
+  - trigger: "Aktivitiäten"
+    replace: "Aktivitäten"
+    propagate_case: true
+    word: true
+  - trigger: "Aktzeptanz"
+    replace: "Akzeptanz"
+    propagate_case: true
+    word: true
+  - trigger: "alamiert"
+    replace: "alarmiert"
+    propagate_case: true
+    word: true
+  - trigger: "aler"
+    replace: "aller"
+    propagate_case: true
+    word: true
+  - trigger: "alerdings"
+    replace: "allerdings"
+    propagate_case: true
+    word: true
+  - trigger: "Algorhitmus"
+    replace: "Algorithmus"
+    propagate_case: true
+    word: true
+  - trigger: "Algoritmus"
+    replace: "Algorithmus"
+    propagate_case: true
+    word: true
+  - trigger: "aliiert"
+    replace: "alliiert"
+    propagate_case: true
+    word: true
+  - trigger: "allerding"
+    replace: "allerdings"
+    propagate_case: true
+    word: true
+  - trigger: "allgmein"
+    replace: "allgemein"
+    propagate_case: true
+    word: true
+  - trigger: "alliert"
+    replace: "alliiert"
+    propagate_case: true
+    word: true
+  - trigger: "allredings"
+    replace: "allerdings"
+    propagate_case: true
+    word: true
+  - trigger: "all zu"
+    replace: "allzu"
+    propagate_case: true
+    word: true
+  - trigger: "Alstadt"
+    replace: "Altstadt"
+    propagate_case: true
+    word: true
+  - trigger: "am einem"
+    replace: "an einem"
+    propagate_case: true
+    word: true
+  - trigger: "am einem"
+    replace: "am einen"
+    propagate_case: true
+    word: true
+  - trigger: "amerikanich"
+    replace: "amerikanisch"
+    propagate_case: true
+    word: true
+  - trigger: "amerikansch"
+    replace: "amerikanisch"
+    propagate_case: true
+    word: true
+  - trigger: "amerkanisch"
+    replace: "amerikanisch"
+    propagate_case: true
+    word: true
+  - trigger: "am seinem"
+    replace: "an seinem"
+    propagate_case: true
+    word: true
+  - trigger: "Amtsitz"
+    replace: "Amtssitz"
+    propagate_case: true
+    word: true
+  - trigger: "Amtsprache"
+    replace: "Amtssprache"
+    propagate_case: true
+    word: true
+  - trigger: "Amtsprachen"
+    replace: "Amtssprachen"
+    propagate_case: true
+    word: true
+  - trigger: "Anaesthesie"
+    replace: "Anästhesie"
+    propagate_case: true
+    word: true
+  - trigger: "Analen"
+    replace: "Annalen"
+    propagate_case: true
+    word: true
+  - trigger: "anderere"
+    replace: "andere"
+    propagate_case: true
+    word: true
+  - trigger: "andereren"
+    replace: "anderen"
+    propagate_case: true
+    word: true
+  - trigger: "andererer"
+    replace: "anderer"
+    propagate_case: true
+    word: true
+  - trigger: "andereseits"
+    replace: "andererseits"
+    propagate_case: true
+    word: true
+  - trigger: "anders herum"
+    replace: "andersherum"
+    propagate_case: true
+    word: true
+  - trigger: "andersrum"
+    replace: "besser: andersherum"
+    propagate_case: true
+    word: true
+  - trigger: "angelsächisch"
+    replace: "angelsächsisch"
+    propagate_case: true
+    word: true
+  - trigger: "angelsächsiche"
+    replace: "angelsächsische"
+    propagate_case: true
+    word: true
+  - trigger: "angelsächsichen"
+    replace: "angelsächsischen"
+    propagate_case: true
+    word: true
+  - trigger: "angesehendsten"
+    replace: "angesehensten"
+    propagate_case: true
+    word: true
+  - trigger: "anlaesslich"
+    replace: "anlässlich"
+    propagate_case: true
+    word: true
+  - trigger: "anlaeßlich"
+    replace: "anlässlich"
+    propagate_case: true
+    word: true
+  - trigger: "änlich"
+    replace: "ähnlich"
+    propagate_case: true
+    word: true
+  - trigger: "annährend"
+    replace: "annähernd"
+    propagate_case: true
+    word: true
+  - trigger: "Annährung"
+    replace: "Annäherung"
+    propagate_case: true
+    word: true
+  - trigger: "Annektion"
+    replace: "Annexion"
+    propagate_case: true
+    word: true
+  - trigger: "annerkannt"
+    replace: "anerkannt"
+    propagate_case: true
+    word: true
+  - trigger: "annerkannte"
+    replace: "anerkannte"
+    propagate_case: true
+    word: true
+  - trigger: "Annerkennung"
+    replace: "Anerkennung"
+    propagate_case: true
+    word: true
+  - trigger: "annuliert"
+    replace: "annulliert"
+    propagate_case: true
+    word: true
+  - trigger: "Annulierung"
+    replace: "Annullierung"
+    propagate_case: true
+    word: true
+  - trigger: "Anordung"
+    replace: "Anordnung"
+    propagate_case: true
+    word: true
+  - trigger: "Anschaung"
+    replace: "Anschauung"
+    propagate_case: true
+    word: true
+  - trigger: "anschliessen"
+    replace: "anschließen"
+    propagate_case: true
+    word: true
+  - trigger: "anschliessend"
+    replace: "anschließend"
+    propagate_case: true
+    word: true
+  - trigger: "anschliessende"
+    replace: "anschließende"
+    propagate_case: true
+    word: true
+  - trigger: "anschliessenden"
+    replace: "anschließenden"
+    propagate_case: true
+    word: true
+  - trigger: "anschliessender"
+    replace: "anschließender"
+    propagate_case: true
+    word: true
+  - trigger: "anschliessendes"
+    replace: "anschließendes"
+    propagate_case: true
+    word: true
+  - trigger: "anschliesst"
+    replace: "anschließt"
+    propagate_case: true
+    word: true
+  - trigger: "Anstoss"
+    replace: "Anstoß"
+    propagate_case: true
+    word: true
+  - trigger: "anvisiert"
+    replace: "avisiert"
+    propagate_case: true
+    word: true
+  - trigger: "Anwendund"
+    replace: "Anwendung"
+    propagate_case: true
+    word: true
+  - trigger: "Anwort"
+    replace: "Antwort"
+    propagate_case: true
+    word: true
+  - trigger: "Appartment"
+    replace: "Apartment"
+    propagate_case: true
+    word: true
+  - trigger: "Appartment"
+    replace: "Appartement"
+    propagate_case: true
+    word: true
+  - trigger: "aquirieren"
+    replace: "akquirieren"
+    propagate_case: true
+    word: true
+  - trigger: "Aquisition"
+    replace: "Akquisition"
+    propagate_case: true
+    word: true
+  - trigger: "archälogische"
+    replace: "archäologische"
+    propagate_case: true
+    word: true
+  - trigger: "archälogischen"
+    replace: "archäologischen"
+    propagate_case: true
+    word: true
+  - trigger: "Archeologe"
+    replace: "Archäologe"
+    propagate_case: true
+    word: true
+  - trigger: "Argentur"
+    replace: "Agentur"
+    propagate_case: true
+    word: true
+  - trigger: "Arikel"
+    replace: "Artikel"
+    propagate_case: true
+    word: true
+  - trigger: "arithmetrisch"
+    replace: "arithmetisch"
+    propagate_case: true
+    word: true
+  - trigger: "Artzt"
+    replace: "Arzt"
+    propagate_case: true
+    word: true
+  - trigger: "assozial"
+    replace: "asozial"
+    propagate_case: true
+    word: true
+  - trigger: "asymetrisch"
+    replace: "asymmetrisch"
+    propagate_case: true
+    word: true
+  - trigger: "Atacke"
+    replace: "Attacke"
+    propagate_case: true
+    word: true
+  - trigger: "atackieren"
+    replace: "attackieren"
+    propagate_case: true
+    word: true
+  - trigger: "atakieren"
+    replace: "attackieren"
+    propagate_case: true
+    word: true
+  - trigger: "Athleth"
+    replace: "Athlet"
+    propagate_case: true
+    word: true
+  - trigger: "Athmosphäre"
+    replace: "Atmosphäre"
+    propagate_case: true
+    word: true
+  - trigger: "athmosphärisch"
+    replace: "atmosphärisch"
+    propagate_case: true
+    word: true
+  - trigger: "Atrappe"
+    replace: "Attrappe"
+    propagate_case: true
+    word: true
+  - trigger: "attakieren"
+    replace: "attackieren"
+    propagate_case: true
+    word: true
+  - trigger: "Aufällig"
+    replace: "Auffällig"
+    propagate_case: true
+    word: true
+  - trigger: "Aufassung"
+    replace: "Auffassung"
+    propagate_case: true
+    word: true
+  - trigger: "Aufassungen"
+    replace: "Auffassungen"
+    propagate_case: true
+    word: true
+  - trigger: "auf dem ersten Blick"
+    replace: "auf den ersten Blick"
+    propagate_case: true
+    word: true
+  - trigger: "auf eigenem Wunsch"
+    replace: "auf eigenen Wunsch"
+    propagate_case: true
+    word: true
+  - trigger: "auf eigenem Wunsch"
+    replace: "aus eigenem Wunsch"
+    propagate_case: true
+    word: true
+  - trigger: "Aufenhalt"
+    replace: "Aufenthalt"
+    propagate_case: true
+    word: true
+  - trigger: "Aufname"
+    replace: "Aufnahme"
+    propagate_case: true
+    word: true
+  - trigger: "Auforderung"
+    replace: "Aufforderung"
+    propagate_case: true
+    word: true
+  - trigger: "aufrecht erhält"
+    replace: "aufrechterhält"
+    propagate_case: true
+    word: true
+  - trigger: "aufrecht erhalten"
+    replace: "aufrechterhalten"
+    propagate_case: true
+    word: true
+  - trigger: "aufrecht erhielt"
+    replace: "aufrechterhielt"
+    propagate_case: true
+    word: true
+  - trigger: "aufrecht zu erhalten"
+    replace: "aufrechtzuerhalten"
+    propagate_case: true
+    word: true
+  - trigger: "Aufsteig"
+    replace: "Aufstieg"
+    propagate_case: true
+    word: true
+  - trigger: "Auftieg"
+    replace: "Aufstieg"
+    propagate_case: true
+    word: true
+  - trigger: "auftretenen"
+    replace: "auftretenden"
+    propagate_case: true
+    word: true
+  - trigger: "auftretten"
+    replace: "auftreten"
+    propagate_case: true
+    word: true
+  - trigger: "Augenlied"
+    replace: "Augenlid"
+    propagate_case: true
+    word: true
+  - trigger: "augenommen"
+    replace: "aufgenommen"
+    propagate_case: true
+    word: true
+  - trigger: "augenommen"
+    replace: "ausgenommen"
+    propagate_case: true
+    word: true
+  - trigger: "auml"
+    replace: "Ä"
+    propagate_case: true
+    word: true
+  - trigger: "auml"
+    replace: "ä"
+    propagate_case: true
+    word: true
+  - trigger: "Ausage"
+    replace: "Aussage"
+    propagate_case: true
+    word: true
+  - trigger: "Ausagen"
+    replace: "Aussagen"
+    propagate_case: true
+    word: true
+  - trigger: "auschliesslich"
+    replace: "ausschließlich"
+    propagate_case: true
+    word: true
+  - trigger: "auschließlich"
+    replace: "ausschließlich"
+    propagate_case: true
+    word: true
+  - trigger: "auschliessliche"
+    replace: "ausschließliche"
+    propagate_case: true
+    word: true
+  - trigger: "auschliesslichen"
+    replace: "ausschließlichen"
+    propagate_case: true
+    word: true
+  - trigger: "Auseinadersetzung"
+    replace: "Auseinandersetzung"
+    propagate_case: true
+    word: true
+  - trigger: "Auseindersetzung"
+    replace: "Auseinandersetzung"
+    propagate_case: true
+    word: true
+  - trigger: "auserdem"
+    replace: "außerdem"
+    propagate_case: true
+    word: true
+  - trigger: "auserhalb"
+    replace: "außerhalb"
+    propagate_case: true
+    word: true
+  - trigger: "Ausgangpunkt"
+    replace: "Ausgangspunkt"
+    propagate_case: true
+    word: true
+  - trigger: "ausgeschalten"
+    replace: "ausgeschaltet"
+    propagate_case: true
+    word: true
+  - trigger: "Ausicht"
+    replace: "Aussicht"
+    propagate_case: true
+    word: true
+  - trigger: "Ausmass"
+    replace: "Ausmaß"
+    propagate_case: true
+    word: true
+  - trigger: "Ausprache"
+    replace: "Aussprache"
+    propagate_case: true
+    word: true
+  - trigger: "Auspruch"
+    replace: "Ausspruch"
+    propagate_case: true
+    word: true
+  - trigger: "ausschliessen"
+    replace: "ausschließen"
+    propagate_case: true
+    word: true
+  - trigger: "ausschliesslich"
+    replace: "ausschließlich"
+    propagate_case: true
+    word: true
+  - trigger: "ausschliesst"
+    replace: "ausschließt"
+    propagate_case: true
+    word: true
+  - trigger: "Ausschwitz"
+    replace: "Auschwitz"
+    propagate_case: true
+    word: true
+  - trigger: "aussen"
+    replace: "außen"
+    propagate_case: true
+    word: true
+  - trigger: "Aussenminister"
+    replace: "Außenminister"
+    propagate_case: true
+    word: true
+  - trigger: "ausser"
+    replace: "außer"
+    propagate_case: true
+    word: true
+  - trigger: "ausserdem"
+    replace: "außerdem"
+    propagate_case: true
+    word: true
+  - trigger: "äussere"
+    replace: "äußere"
+    propagate_case: true
+    word: true
+  - trigger: "äusseren"
+    replace: "äußeren"
+    propagate_case: true
+    word: true
+  - trigger: "äusserer"
+    replace: "äußerer"
+    propagate_case: true
+    word: true
+  - trigger: "äusseres"
+    replace: "äußeres"
+    propagate_case: true
+    word: true
+  - trigger: "aussergewöhnlich"
+    replace: "außergewöhnlich"
+    propagate_case: true
+    word: true
+  - trigger: "aussergewöhnlichen"
+    replace: "außergewöhnlichen"
+    propagate_case: true
+    word: true
+  - trigger: "ausserhalb"
+    replace: "außerhalb"
+    propagate_case: true
+    word: true
+  - trigger: "ausserirdisch"
+    replace: "außerirdisch"
+    propagate_case: true
+    word: true
+  - trigger: "ausserirdische"
+    replace: "außerirdische"
+    propagate_case: true
+    word: true
+  - trigger: "ausserirdischen"
+    replace: "außerirdischen"
+    propagate_case: true
+    word: true
+  - trigger: "äussern"
+    replace: "äußern"
+    propagate_case: true
+    word: true
+  - trigger: "ausserordentlich"
+    replace: "außerordentlich"
+    propagate_case: true
+    word: true
+  - trigger: "ausserordentliche"
+    replace: "außerordentliche"
+    propagate_case: true
+    word: true
+  - trigger: "ausserordentlichem"
+    replace: "außerordentlichem"
+    propagate_case: true
+    word: true
+  - trigger: "ausserordentlichen"
+    replace: "außerordentlichen"
+    propagate_case: true
+    word: true
+  - trigger: "ausserordentlicher"
+    replace: "außerordentlicher"
+    propagate_case: true
+    word: true
+  - trigger: "ausserordentliches"
+    replace: "außerordentliches"
+    propagate_case: true
+    word: true
+  - trigger: "äusserst"
+    replace: "äußerst"
+    propagate_case: true
+    word: true
+  - trigger: "äusserste"
+    replace: "äußerste"
+    propagate_case: true
+    word: true
+  - trigger: "äussersten"
+    replace: "äußersten"
+    propagate_case: true
+    word: true
+  - trigger: "äusserte"
+    replace: "äußerte"
+    propagate_case: true
+    word: true
+  - trigger: "äusserten"
+    replace: "äußerten"
+    propagate_case: true
+    word: true
+  - trigger: "Äusserung"
+    replace: "Äußerung"
+    propagate_case: true
+    word: true
+  - trigger: "Äusserungen"
+    replace: "Äußerungen"
+    propagate_case: true
+    word: true
+  - trigger: "aussschliesslich"
+    replace: "ausschließlich"
+    propagate_case: true
+    word: true
+  - trigger: "aussschließlich"
+    replace: "ausschließlich"
+    propagate_case: true
+    word: true
+  - trigger: "außschließlich"
+    replace: "ausschließlich"
+    propagate_case: true
+    word: true
+  - trigger: "Austattung"
+    replace: "Ausstattung"
+    propagate_case: true
+    word: true
+  - trigger: "Austellung"
+    replace: "Ausstellung"
+    propagate_case: true
+    word: true
+  - trigger: "Austellungen"
+    replace: "Ausstellungen"
+    propagate_case: true
+    word: true
+  - trigger: "Austerben"
+    replace: "Aussterben"
+    propagate_case: true
+    word: true
+  - trigger: "Auszeichung"
+    replace: "Auszeichnung"
+    propagate_case: true
+    word: true
+  - trigger: "Auszeichungen"
+    replace: "Auszeichnungen"
+    propagate_case: true
+    word: true
+  - trigger: "auszuschliessen"
+    replace: "auszuschließen"
+    propagate_case: true
+    word: true
+  - trigger: "Author des"
+    replace: "Autor des"
+    propagate_case: true
+    word: true
+  - trigger: "authorisieren"
+    replace: "autorisieren"
+    propagate_case: true
+    word: true
+  - trigger: "authorisiert"
+    replace: "autorisiert"
+    propagate_case: true
+    word: true
+  - trigger: "Authorisierung"
+    replace: "Autorisierung"
+    propagate_case: true
+    word: true
+  - trigger: "Authorität"
+    replace: "Autorität"
+    propagate_case: true
+    word: true
+  - trigger: "dem Autoren"
+    replace: "dem Autor"
+    propagate_case: true
+    word: true
+  - trigger: "des Autoren"
+    replace: "des Autors"
+    propagate_case: true
+    word: true
+  - trigger: "vom Autoren"
+    replace: "vom Autor"
+    propagate_case: true
+    word: true
+  - trigger: "Babies"
+    replace: "Babys"
+    propagate_case: true
+    word: true
+  - trigger: "bafand"
+    replace: "befand"
+    propagate_case: true
+    word: true
+  - trigger: "Balett"
+    replace: "Ballett"
+    propagate_case: true
+    word: true
+  - trigger: "bassierend"
+    replace: "basierend"
+    propagate_case: true
+    word: true
+  - trigger: "Batallion"
+    replace: "Bataillon"
+    propagate_case: true
+    word: true
+  - trigger: "Battaillon"
+    replace: "Bataillon"
+    propagate_case: true
+    word: true
+  - trigger: "Battallion"
+    replace: "Bataillon"
+    propagate_case: true
+    word: true
+  - trigger: "Bauerhof"
+    replace: "Bauernhof"
+    propagate_case: true
+    word: true
+  - trigger: "Bauerhöfe"
+    replace: "Bauernhöfe"
+    propagate_case: true
+    word: true
+  - trigger: "bedeudend"
+    replace: "bedeutend"
+    propagate_case: true
+    word: true
+  - trigger: "bedeudende"
+    replace: "bedeutende"
+    propagate_case: true
+    word: true
+  - trigger: "bedeudenden"
+    replace: "bedeutenden"
+    propagate_case: true
+    word: true
+  - trigger: "bedeudender"
+    replace: "bedeutender"
+    propagate_case: true
+    word: true
+  - trigger: "bedeudendes"
+    replace: "bedeutendes"
+    propagate_case: true
+    word: true
+  - trigger: "bedeudet"
+    replace: "bedeutet"
+    propagate_case: true
+    word: true
+  - trigger: "bedeudete"
+    replace: "bedeutete"
+    propagate_case: true
+    word: true
+  - trigger: "bedeutendeste"
+    replace: "bedeutendste"
+    propagate_case: true
+    word: true
+  - trigger: "bedeutenste"
+    replace: "bedeutendste"
+    propagate_case: true
+    word: true
+  - trigger: "bedeutensten"
+    replace: "bedeutendsten"
+    propagate_case: true
+    word: true
+  - trigger: "bedeutenster"
+    replace: "bedeutendster"
+    propagate_case: true
+    word: true
+  - trigger: "bedeutenstes"
+    replace: "bedeutendstes"
+    propagate_case: true
+    word: true
+  - trigger: "bedeutesten"
+    replace: "bedeutendsten"
+    propagate_case: true
+    word: true
+  - trigger: "Bedinung"
+    replace: "Bedingung/Bedienung"
+    propagate_case: true
+    word: true
+  - trigger: "Bedürfniss"
+    replace: "Bedürfnis"
+    propagate_case: true
+    word: true
+  - trigger: "beeinflußen"
+    replace: "beeinflussen"
+    propagate_case: true
+    word: true
+  - trigger: "Beeinflußung"
+    replace: "Beeinflussung"
+    propagate_case: true
+    word: true
+  - trigger: "beeinhalten"
+    replace: "beinhalten"
+    propagate_case: true
+    word: true
+  - trigger: "beeinhaltet"
+    replace: "beinhaltet"
+    propagate_case: true
+    word: true
+  - trigger: "befindet auf"
+    replace: "befindet sich auf"
+    propagate_case: true
+    word: true
+  - trigger: "befindet ein"
+    replace: "befindet sich ein"
+    propagate_case: true
+    word: true
+  - trigger: "befindet in"
+    replace: "befindet sich in"
+    propagate_case: true
+    word: true
+  - trigger: "begang"
+    replace: "beging"
+    propagate_case: true
+    word: true
+  - trigger: "begang"
+    replace: "begann"
+    propagate_case: true
+    word: true
+  - trigger: "beherrbergt"
+    replace: "beherbergt"
+    propagate_case: true
+    word: true
+  - trigger: "beherschen"
+    replace: "beherrschen"
+    propagate_case: true
+    word: true
+  - trigger: "beherscht"
+    replace: "beherrscht"
+    propagate_case: true
+    word: true
+  - trigger: "beherschte"
+    replace: "beherrschte"
+    propagate_case: true
+    word: true
+  - trigger: "beidemale"
+    replace: "beide Male"
+    propagate_case: true
+    word: true
+  - trigger: "beim dem"
+    replace: "bei dem"
+    propagate_case: true
+    word: true
+  - trigger: "beim dem"
+    replace: "beim"
+    propagate_case: true
+    word: true
+  - trigger: "beim der"
+    replace: "bei der"
+    propagate_case: true
+    word: true
+  - trigger: "beim der"
+    replace: "beim"
+    propagate_case: true
+    word: true
+  - trigger: "beim der"
+    replace: "bei dem"
+    propagate_case: true
+    word: true
+  - trigger: "beindrucken"
+    replace: "beeindrucken"
+    propagate_case: true
+    word: true
+  - trigger: "beinflussen"
+    replace: "beeinflussen"
+    propagate_case: true
+    word: true
+  - trigger: "beinflusst"
+    replace: "beeinflusst"
+    propagate_case: true
+    word: true
+  - trigger: "Beipiel"
+    replace: "Beispiel"
+    propagate_case: true
+    word: true
+  - trigger: "Beispeil"
+    replace: "Beispiel"
+    propagate_case: true
+    word: true
+  - trigger: "beispielswiese"
+    replace: "beispielsweise"
+    propagate_case: true
+    word: true
+  - trigger: "beispielweise"
+    replace: "beispielsweise"
+    propagate_case: true
+    word: true
+  - trigger: "Beitag"
+    replace: "Beitrag"
+    propagate_case: true
+    word: true
+  - trigger: "bekammen"
+    replace: "bekamen"
+    propagate_case: true
+    word: true
+  - trigger: "Bekenntniss"
+    replace: "Bekenntnis"
+    propagate_case: true
+    word: true
+  - trigger: "Benefitz"
+    replace: "Benefiz"
+    propagate_case: true
+    word: true
+  - trigger: "bennant"
+    replace: "benannt"
+    propagate_case: true
+    word: true
+  - trigger: "Bennenung"
+    replace: "Benennung"
+    propagate_case: true
+    word: true
+  - trigger: "Berechung"
+    replace: "Berechnung"
+    propagate_case: true
+    word: true
+  - trigger: "bereit gehalten"
+    replace: "bereitgehalten"
+    propagate_case: true
+    word: true
+  - trigger: "bereit gestellt"
+    replace: "bereitgestellt"
+    propagate_case: true
+    word: true
+  - trigger: "bereit hält"
+    replace: "bereithält"
+    propagate_case: true
+    word: true
+  - trigger: "bereit stand"
+    replace: "bereitstand"
+    propagate_case: true
+    word: true
+  - trigger: "bereit stehen"
+    replace: "bereitstehen"
+    propagate_case: true
+    word: true
+  - trigger: "bereit steht"
+    replace: "bereitsteht"
+    propagate_case: true
+    word: true
+  - trigger: "bereit stellt"
+    replace: "bereitstellt"
+    propagate_case: true
+    word: true
+  - trigger: "bereit zu halten"
+    replace: "bereitzuhalten"
+    propagate_case: true
+    word: true
+  - trigger: "bereit zu stellen"
+    replace: "bereitzustellen"
+    propagate_case: true
+    word: true
+  - trigger: "Berfung"
+    replace: "Berufung"
+    propagate_case: true
+    word: true
+  - trigger: "Berreich"
+    replace: "Bereich"
+    propagate_case: true
+    word: true
+  - trigger: "berücksichtig"
+    replace: "berücksichtigt"
+    propagate_case: true
+    word: true
+  - trigger: "berümt"
+    replace: "berühmt"
+    propagate_case: true
+    word: true
+  - trigger: "berümte"
+    replace: "berühmte"
+    propagate_case: true
+    word: true
+  - trigger: "besass"
+    replace: "besaß"
+    propagate_case: true
+    word: true
+  - trigger: "besassen"
+    replace: "besaßen"
+    propagate_case: true
+    word: true
+  - trigger: "besitzten"
+    replace: "besitzen"
+    propagate_case: true
+    word: true
+  - trigger: "Bespiel"
+    replace: "Beispiel"
+    propagate_case: true
+    word: true
+  - trigger: "Bestandsteil"
+    replace: "Bestandteil"
+    propagate_case: true
+    word: true
+  - trigger: "Bestandtteil"
+    replace: "Bestandteil"
+    propagate_case: true
+    word: true
+  - trigger: "bestbezahltest"
+    replace: "bestbezahlt"
+    propagate_case: true
+    word: true
+  - trigger: "bestimmmt"
+    replace: "bestimmt"
+    propagate_case: true
+    word: true
+  - trigger: "bestreitete"
+    replace: "bestritt"
+    propagate_case: true
+    word: true
+  - trigger: "Betreung"
+    replace: "Betreuung"
+    propagate_case: true
+    word: true
+  - trigger: "Betriebsystem"
+    replace: "Betriebssystem"
+    propagate_case: true
+    word: true
+  - trigger: "Bevökerung"
+    replace: "Bevölkerung"
+    propagate_case: true
+    word: true
+  - trigger: "Beweiß"
+    replace: "Beweis"
+    propagate_case: true
+    word: true
+  - trigger: "bezeichent"
+    replace: "bezeichnet"
+    propagate_case: true
+    word: true
+  - trigger: "bezeichet"
+    replace: "bezeichnet"
+    propagate_case: true
+    word: true
+  - trigger: "Bezeichung"
+    replace: "Bezeichnung"
+    propagate_case: true
+    word: true
+  - trigger: "Biograpfie"
+    replace: "Biografie"
+    propagate_case: true
+    word: true
+  - trigger: "bischen"
+    replace: "bisschen"
+    propagate_case: true
+    word: true
+  - trigger: "Bischofsitz"
+    replace: "Bischofssitz"
+    propagate_case: true
+    word: true
+  - trigger: "Bisquit"
+    replace: "Biskuit"
+    propagate_case: true
+    word: true
+  - trigger: "bloss"
+    replace: "bloß"
+    propagate_case: true
+    word: true
+  - trigger: "blosse"
+    replace: "bloße"
+    propagate_case: true
+    word: true
+  - trigger: "blossen"
+    replace: "bloßen"
+    propagate_case: true
+    word: true
+  - trigger: "blosser"
+    replace: "bloßer"
+    propagate_case: true
+    word: true
+  - trigger: "blosses"
+    replace: "bloßes"
+    propagate_case: true
+    word: true
+  - trigger: "an Board"
+    replace: "an Bord"
+    propagate_case: true
+    word: true
+  - trigger: "on Bord"
+    replace: "an Bord"
+    propagate_case: true
+    word: true
+  - trigger: "bombadieren"
+    replace: "bombardieren"
+    propagate_case: true
+    word: true
+  - trigger: "bombadiert"
+    replace: "bombardiert"
+    propagate_case: true
+    word: true
+  - trigger: "Bombadierung"
+    replace: "Bombardierung"
+    propagate_case: true
+    word: true
+  - trigger: "boolsch"
+    replace: "boolesch"
+    propagate_case: true
+    word: true
+  - trigger: "brilliant"
+    replace: "brillant"
+    propagate_case: true
+    word: true
+  - trigger: "britsch"
+    replace: "britisch"
+    propagate_case: true
+    word: true
+  - trigger: "britsche"
+    replace: "britische"
+    propagate_case: true
+    word: true
+  - trigger: "britschen"
+    replace: "britischen"
+    propagate_case: true
+    word: true
+  - trigger: "britscher"
+    replace: "britischer"
+    propagate_case: true
+    word: true
+  - trigger: "britsches"
+    replace: "britisches"
+    propagate_case: true
+    word: true
+  - trigger: "Bronzemedaillie"
+    replace: "Bronzemedaille"
+    propagate_case: true
+    word: true
+  - trigger: "Bronzemedallie"
+    replace: "Bronzemedaille"
+    propagate_case: true
+    word: true
+  - trigger: "Bügermeister"
+    replace: "Bürgermeister"
+    propagate_case: true
+    word: true
+  - trigger: "Bundesaussenminister"
+    replace: "Bundesaußenminister"
+    propagate_case: true
+    word: true
+  - trigger: "Bundesstrasse"
+    replace: "Bundesstraße"
+    propagate_case: true
+    word: true
+  - trigger: "Bundestaat"
+    replace: "Bundesstaat"
+    propagate_case: true
+    word: true
+  - trigger: "Bundestraße"
+    replace: "Bundesstraße"
+    propagate_case: true
+    word: true
+  - trigger: "Bundsandstein"
+    replace: "Buntsandstein"
+    propagate_case: true
+    word: true
+  - trigger: "byzantisch"
+    replace: "byzantinisch"
+    propagate_case: true
+    word: true
+  - trigger: "chinesiche"
+    replace: "chinesische"
+    propagate_case: true
+    word: true
+  - trigger: "chinesichen"
+    replace: "chinesischen"
+    propagate_case: true
+    word: true
+  - trigger: "chinesicher"
+    replace: "chinesischer"
+    propagate_case: true
+    word: true
+  - trigger: "Chirugie"
+    replace: "Chirurgie"
+    propagate_case: true
+    word: true
+  - trigger: "Chonik"
+    replace: "Chronik"
+    propagate_case: true
+    word: true
+  - trigger: "Chonist"
+    replace: "Chronist"
+    propagate_case: true
+    word: true
+  - trigger: "chonologisch"
+    replace: "chronologisch"
+    propagate_case: true
+    word: true
+  - trigger: "cirka"
+    replace: "zirka"
+    propagate_case: true
+    word: true
+  - trigger: "cirka"
+    replace: "circa"
+    propagate_case: true
+    word: true
+  - trigger: "dadruch"
+    replace: "dadurch"
+    propagate_case: true
+    word: true
+  - trigger: "daduch"
+    replace: "dadurch"
+    propagate_case: true
+    word: true
+  - trigger: "danaben"
+    replace: "daneben"
+    propagate_case: true
+    word: true
+  - trigger: "danch"
+    replace: "danach"
+    propagate_case: true
+    word: true
+  - trigger: "dannach"
+    replace: "danach"
+    propagate_case: true
+    word: true
+  - trigger: "deuten daraufhin"
+    replace: "deuten darauf hin"
+    propagate_case: true
+    word: true
+  - trigger: "deutet daraufhin"
+    replace: "deutet darauf hin"
+    propagate_case: true
+    word: true
+  - trigger: "weisen daraufhin"
+    replace: "weisen darauf hin"
+    propagate_case: true
+    word: true
+  - trigger: "weist daraufhin"
+    replace: "weist darauf hin"
+    propagate_case: true
+    word: true
+  - trigger: "darüberhinaus"
+    replace: "darüber hinaus"
+    propagate_case: true
+    word: true
+  - trigger: "daruf"
+    replace: "darauf"
+    propagate_case: true
+    word: true
+  - trigger: "darufhin"
+    replace: "daraufhin"
+    propagate_case: true
+    word: true
+  - trigger: "das es sich bei"
+    replace: "dass es sich bei"
+    propagate_case: true
+    word: true
+  - trigger: "das es sich um"
+    replace: "dass es sich um"
+    propagate_case: true
+    word: true
+  - trigger: "so das der"
+    replace: "so dass der"
+    propagate_case: true
+    word: true
+  - trigger: "so das die"
+    replace: "so dass die"
+    propagate_case: true
+    word: true
+  - trigger: "so das er"
+    replace: "so dass er"
+    propagate_case: true
+    word: true
+  - trigger: "so das sie"
+    replace: "so dass sie"
+    propagate_case: true
+    word: true
+  - trigger: "dass heißt"
+    replace: "das heißt"
+    propagate_case: true
+    word: true
+  - trigger: "dastellt"
+    replace: "darstellt"
+    propagate_case: true
+    word: true
+  - trigger: "dazu gehörige"
+    replace: "dazugehörige"
+    propagate_case: true
+    word: true
+  - trigger: "Debutalbum"
+    replace: "Debütalbum"
+    propagate_case: true
+    word: true
+  - trigger: "Definiton"
+    replace: "Definition"
+    propagate_case: true
+    word: true
+  - trigger: "definitv"
+    replace: "definitiv"
+    propagate_case: true
+    word: true
+  - trigger: "Defintion"
+    replace: "Definition"
+    propagate_case: true
+    word: true
+  - trigger: "deligiert"
+    replace: "delegiert"
+    propagate_case: true
+    word: true
+  - trigger: "dem selben"
+    replace: "demselben"
+    propagate_case: true
+    word: true
+  - trigger: "denoch"
+    replace: "dennoch"
+    propagate_case: true
+    word: true
+  - trigger: "den selben"
+    replace: "denselben"
+    propagate_case: true
+    word: true
+  - trigger: "derem"
+    replace: "deren"
+    propagate_case: true
+    word: true
+  - trigger: "der Niederlanden"
+    replace: "der Niederlande"
+    propagate_case: true
+    word: true
+  - trigger: "der Niederlanden"
+    replace: "den Niederlanden"
+    propagate_case: true
+    word: true
+  - trigger: "der selbe"
+    replace: "derselbe"
+    propagate_case: true
+    word: true
+  - trigger: "der selben"
+    replace: "derselben"
+    propagate_case: true
+    word: true
+  - trigger: "in der USA"
+    replace: "in den USA"
+    propagate_case: true
+    word: true
+  - trigger: "des des"
+    replace: "des"
+    propagate_case: true
+    word: true
+  - trigger: "des eines"
+    replace: "eines"
+    propagate_case: true
+    word: true
+  - trigger: "des eines"
+    replace: "des"
+    propagate_case: true
+    word: true
+  - trigger: "des eines"
+    replace: "der eines"
+    propagate_case: true
+    word: true
+  - trigger: "des eines"
+    replace: "dem eines"
+    propagate_case: true
+    word: true
+  - trigger: "des selben"
+    replace: "desselben"
+    propagate_case: true
+    word: true
+  - trigger: "dessem"
+    replace: "dessen"
+    propagate_case: true
+    word: true
+  - trigger: "desshalb"
+    replace: "deshalb"
+    propagate_case: true
+    word: true
+  - trigger: "desweiteren"
+    replace: "des Weiteren"
+    propagate_case: true
+    word: true
+  - trigger: "desweitern"
+    replace: "des Weiteren"
+    propagate_case: true
+    word: true
+  - trigger: "des Weitern"
+    replace: "des Weiteren"
+    propagate_case: true
+    word: true
+  - trigger: "detailiert"
+    replace: "detailliert"
+    propagate_case: true
+    word: true
+  - trigger: "detalliert"
+    replace: "detailliert"
+    propagate_case: true
+    word: true
+  - trigger: "dezeit"
+    replace: "derzeit"
+    propagate_case: true
+    word: true
+  - trigger: "Dezmber"
+    replace: "Dezember"
+    propagate_case: true
+    word: true
+  - trigger: "die selbe"
+    replace: "dieselbe"
+    propagate_case: true
+    word: true
+  - trigger: "die selben"
+    replace: "dieselben"
+    propagate_case: true
+    word: true
+  - trigger: "Differentation"
+    replace: "Differentiation"
+    propagate_case: true
+    word: true
+  - trigger: "Dikator"
+    replace: "Diktator"
+    propagate_case: true
+    word: true
+  - trigger: "Dikatur"
+    replace: "Diktatur"
+    propagate_case: true
+    word: true
+  - trigger: "Diphterie"
+    replace: "Diphtherie"
+    propagate_case: true
+    word: true
+  - trigger: "Diphtong"
+    replace: "Diphthong"
+    propagate_case: true
+    word: true
+  - trigger: "Dirgent"
+    replace: "Dirigent"
+    propagate_case: true
+    word: true
+  - trigger: "Discografie"
+    replace: "Diskografie"
+    propagate_case: true
+    word: true
+  - trigger: "Discographie"
+    replace: "Diskographie"
+    propagate_case: true
+    word: true
+  - trigger: "diskreminieren"
+    replace: "diskriminieren"
+    propagate_case: true
+    word: true
+  - trigger: "diskrimierend"
+    replace: "diskriminierend"
+    propagate_case: true
+    word: true
+  - trigger: "Diskrimierung"
+    replace: "Diskriminierung"
+    propagate_case: true
+    word: true
+  - trigger: "Diskusion"
+    replace: "Diskussion"
+    propagate_case: true
+    word: true
+  - trigger: "Disseration"
+    replace: "Dissertation"
+    propagate_case: true
+    word: true
+  - trigger: "Divison"
+    replace: "Division"
+    propagate_case: true
+    word: true
+  - trigger: "Divsion"
+    replace: "Division"
+    propagate_case: true
+    word: true
+  - trigger: "Diziplin"
+    replace: "Disziplin"
+    propagate_case: true
+    word: true
+  - trigger: "Dollmetscher"
+    replace: "Dolmetscher"
+    propagate_case: true
+    word: true
+  - trigger: "dort hin"
+    replace: "dorthin"
+    propagate_case: true
+    word: true
+  - trigger: "draufhin"
+    replace: "daraufhin"
+    propagate_case: true
+    word: true
+  - trigger: "draussen"
+    replace: "draußen"
+    propagate_case: true
+    word: true
+  - trigger: "Dreick"
+    replace: "Dreieck"
+    propagate_case: true
+    word: true
+  - trigger: "dreissig"
+    replace: "dreißig"
+    propagate_case: true
+    word: true
+  - trigger: "dreissiger"
+    replace: "dreißiger"
+    propagate_case: true
+    word: true
+  - trigger: "druch"
+    replace: "durch"
+    propagate_case: true
+    word: true
+  - trigger: "druchgeführt"
+    replace: "durchgeführt"
+    propagate_case: true
+    word: true
+  - trigger: "duch"
+    replace: "durch"
+    propagate_case: true
+    word: true
+  - trigger: "duchführen"
+    replace: "durchführen"
+    propagate_case: true
+    word: true
+  - trigger: "Duchführung"
+    replace: "Durchführung"
+    propagate_case: true
+    word: true
+  - trigger: "duchgeführt"
+    replace: "durchgeführt"
+    propagate_case: true
+    word: true
+  - trigger: "Duchschnitt"
+    replace: "Durchschnitt"
+    propagate_case: true
+    word: true
+  - trigger: "durch geführt"
+    replace: "durchgeführt"
+    propagate_case: true
+    word: true
+  - trigger: "Durchschlagkraft"
+    replace: "Durchschlagskraft"
+    propagate_case: true
+    word: true
+  - trigger: "Durchsetztung"
+    replace: "Durchsetzung"
+    propagate_case: true
+    word: true
+  - trigger: "durchstossen"
+    replace: "durchstoßen"
+    propagate_case: true
+    word: true
+  - trigger: "Durschnitt"
+    replace: "Durchschnitt"
+    propagate_case: true
+    word: true
+  - trigger: "durschnittlich"
+    replace: "durchschnittlich"
+    propagate_case: true
+    word: true
+  - trigger: "durschnittliche"
+    replace: "durchschnittliche"
+    propagate_case: true
+    word: true
+  - trigger: "durschnittlichen"
+    replace: "durchschnittlichen"
+    propagate_case: true
+    word: true
+  - trigger: "ebefalls"
+    replace: "ebenfalls"
+    propagate_case: true
+    word: true
+  - trigger: "eben dies"
+    replace: "ebendies"
+    propagate_case: true
+    word: true
+  - trigger: "eben diese"
+    replace: "ebendiese"
+    propagate_case: true
+    word: true
+  - trigger: "eben diesem"
+    replace: "ebendiesem"
+    propagate_case: true
+    word: true
+  - trigger: "eben diesen"
+    replace: "ebendiesen"
+    propagate_case: true
+    word: true
+  - trigger: "eben dieser"
+    replace: "ebendieser"
+    propagate_case: true
+    word: true
+  - trigger: "eben dieses"
+    replace: "ebendieses"
+    propagate_case: true
+    word: true
+  - trigger: "ebendso"
+    replace: "ebenso"
+    propagate_case: true
+    word: true
+  - trigger: "ebenfall"
+    replace: "ebenfalls"
+    propagate_case: true
+    word: true
+  - trigger: "ebenfals"
+    replace: "ebenfalls"
+    propagate_case: true
+    word: true
+  - trigger: "Editon"
+    replace: "Edition"
+    propagate_case: true
+    word: true
+  - trigger: "Edtion"
+    replace: "Edition"
+    propagate_case: true
+    word: true
+  - trigger: "einem eigenem"
+    replace: "einem eigenen"
+    propagate_case: true
+    word: true
+  - trigger: "ihrem eigenem"
+    replace: "ihrem eigenen"
+    propagate_case: true
+    word: true
+  - trigger: "seinem eigenem"
+    replace: "seinem eigenen"
+    propagate_case: true
+    word: true
+  - trigger: "eigenen sich"
+    replace: "eignen sich"
+    propagate_case: true
+    word: true
+  - trigger: "mit einen"
+    replace: "mit einem"
+    propagate_case: true
+    word: true
+  - trigger: "eines des"
+    replace: "eines der"
+    propagate_case: true
+    word: true
+  - trigger: "Einflüße"
+    replace: "Einflüsse"
+    propagate_case: true
+    word: true
+  - trigger: "Einfuss"
+    replace: "Einfluss"
+    propagate_case: true
+    word: true
+  - trigger: "einge"
+    replace: "einige"
+    propagate_case: true
+    word: true
+  - trigger: "eingen"
+    replace: "einigen"
+    propagate_case: true
+    word: true
+  - trigger: "eingentlich"
+    replace: "eigentlich"
+    propagate_case: true
+    word: true
+  - trigger: "einger"
+    replace: "einiger"
+    propagate_case: true
+    word: true
+  - trigger: "einges"
+    replace: "einiges"
+    propagate_case: true
+    word: true
+  - trigger: "eingesetz"
+    replace: "eingesetzt"
+    propagate_case: true
+    word: true
+  - trigger: "eingesetzen"
+    replace: "eingesetzten"
+    propagate_case: true
+    word: true
+  - trigger: "einigemal"
+    replace: "einige Mal"
+    propagate_case: true
+    word: true
+  - trigger: "einklich"
+    replace: "eigentlich"
+    propagate_case: true
+    word: true
+  - trigger: "Einordung"
+    replace: "Einordnung"
+    propagate_case: true
+    word: true
+  - trigger: "einschliessen"
+    replace: "einschließen"
+    propagate_case: true
+    word: true
+  - trigger: "einschliesslich"
+    replace: "einschließlich"
+    propagate_case: true
+    word: true
+  - trigger: "einschliesst"
+    replace: "einschließt"
+    propagate_case: true
+    word: true
+  - trigger: "einzelen"
+    replace: "einzelne"
+    propagate_case: true
+    word: true
+  - trigger: "einzigste"
+    replace: "einzige"
+    propagate_case: true
+    word: true
+  - trigger: "einzigster"
+    replace: "einziger"
+    propagate_case: true
+    word: true
+  - trigger: "einzigstes"
+    replace: "einziges"
+    propagate_case: true
+    word: true
+  - trigger: "ekklektizistisch"
+    replace: "eklektizistisch"
+    propagate_case: true
+    word: true
+  - trigger: "ekstasisch"
+    replace: "ekstatisch"
+    propagate_case: true
+    word: true
+  - trigger: "elekrisch"
+    replace: "elektrisch"
+    propagate_case: true
+    word: true
+  - trigger: "elekronisch"
+    replace: "elektronisch"
+    propagate_case: true
+    word: true
+  - trigger: "eleminieren"
+    replace: "eliminieren"
+    propagate_case: true
+    word: true
+  - trigger: "eleminiert"
+    replace: "eliminiert"
+    propagate_case: true
+    word: true
+  - trigger: "emigiert"
+    replace: "emigriert"
+    propagate_case: true
+    word: true
+  - trigger: "emigiriert"
+    replace: "emigriert"
+    propagate_case: true
+    word: true
+  - trigger: "Emmigrant"
+    replace: "Emigrant"
+    propagate_case: true
+    word: true
+  - trigger: "Emmigration"
+    replace: "Emigration"
+    propagate_case: true
+    word: true
+  - trigger: "emmigriert"
+    replace: "emigriert"
+    propagate_case: true
+    word: true
+  - trigger: "emprisch"
+    replace: "empirisch"
+    propagate_case: true
+    word: true
+  - trigger: "Emsemble"
+    replace: "Ensemble"
+    propagate_case: true
+    word: true
+  - trigger: "endeckt"
+    replace: "entdeckt"
+    propagate_case: true
+    word: true
+  - trigger: "endeckte"
+    replace: "entdeckte"
+    propagate_case: true
+    word: true
+  - trigger: "Endeckung"
+    replace: "Entdeckung"
+    propagate_case: true
+    word: true
+  - trigger: "enfernt"
+    replace: "entfernt"
+    propagate_case: true
+    word: true
+  - trigger: "enfernte"
+    replace: "entfernte"
+    propagate_case: true
+    word: true
+  - trigger: "Enfernung"
+    replace: "Entfernung"
+    propagate_case: true
+    word: true
+  - trigger: "Enfernungen"
+    replace: "Entfernungen"
+    propagate_case: true
+    word: true
+  - trigger: "Engeneering"
+    replace: "Engineering"
+    propagate_case: true
+    word: true
+  - trigger: "englsich"
+    replace: "englisch"
+    propagate_case: true
+    word: true
+  - trigger: "engültig"
+    replace: "endgültig"
+    propagate_case: true
+    word: true
+  - trigger: "enhält"
+    replace: "enthält"
+    propagate_case: true
+    word: true
+  - trigger: "enhalten"
+    replace: "enthalten"
+    propagate_case: true
+    word: true
+  - trigger: "Enscheidung"
+    replace: "Entscheidung"
+    propagate_case: true
+    word: true
+  - trigger: "enstand"
+    replace: "entstand"
+    propagate_case: true
+    word: true
+  - trigger: "enstanden"
+    replace: "entstanden"
+    propagate_case: true
+    word: true
+  - trigger: "enstehen"
+    replace: "entstehen"
+    propagate_case: true
+    word: true
+  - trigger: "ensteht"
+    replace: "entsteht"
+    propagate_case: true
+    word: true
+  - trigger: "Enstehung"
+    replace: "Entstehung"
+    propagate_case: true
+    word: true
+  - trigger: "entgegen gebracht"
+    replace: "entgegengebracht"
+    propagate_case: true
+    word: true
+  - trigger: "entgegen gesetzt"
+    replace: "entgegengesetzt"
+    propagate_case: true
+    word: true
+  - trigger: "entgegen kam"
+    replace: "entgegenkam"
+    propagate_case: true
+    word: true
+  - trigger: "entgegen nahm"
+    replace: "entgegennahm"
+    propagate_case: true
+    word: true
+  - trigger: "entgegen zu gehen"
+    replace: "entgegenzugehen"
+    propagate_case: true
+    word: true
+  - trigger: "entgegen zu kommen"
+    replace: "entgegenzukommen"
+    propagate_case: true
+    word: true
+  - trigger: "entgegen zu nehmen"
+    replace: "entgegenzunehmen"
+    propagate_case: true
+    word: true
+  - trigger: "entgegen zu schleudern"
+    replace: "entgegenzuschleudern"
+    propagate_case: true
+    word: true
+  - trigger: "entgegen zu setzen"
+    replace: "entgegenzusetzen"
+    propagate_case: true
+    word: true
+  - trigger: "entgegen zu stellen"
+    replace: "entgegenzustellen"
+    propagate_case: true
+    word: true
+  - trigger: "entgegen zu treten"
+    replace: "entgegenzutreten"
+    propagate_case: true
+    word: true
+  - trigger: "entgegen zu wirken"
+    replace: "entgegenzuwirken"
+    propagate_case: true
+    word: true
+  - trigger: "Entgeld"
+    replace: "Entgelt"
+    propagate_case: true
+    word: true
+  - trigger: "entgültig"
+    replace: "endgültig"
+    propagate_case: true
+    word: true
+  - trigger: "entlang führt"
+    replace: "entlangführt"
+    propagate_case: true
+    word: true
+  - trigger: "entlang geführt"
+    replace: "entlanggeführt"
+    propagate_case: true
+    word: true
+  - trigger: "entprechend"
+    replace: "entsprechend"
+    propagate_case: true
+    word: true
+  - trigger: "entprechende"
+    replace: "entsprechende"
+    propagate_case: true
+    word: true
+  - trigger: "entprechender"
+    replace: "entsprechender"
+    propagate_case: true
+    word: true
+  - trigger: "entsant"
+    replace: "entsandt"
+    propagate_case: true
+    word: true
+  - trigger: "entscheidene"
+    replace: "entscheidende"
+    propagate_case: true
+    word: true
+  - trigger: "entscheident"
+    replace: "entscheidend"
+    propagate_case: true
+    word: true
+  - trigger: "entschloß"
+    replace: "entschloss"
+    propagate_case: true
+    word: true
+  - trigger: "entspechen"
+    replace: "entsprechen"
+    propagate_case: true
+    word: true
+  - trigger: "entsprechene"
+    replace: "entsprechende"
+    propagate_case: true
+    word: true
+  - trigger: "entsprechenen"
+    replace: "entsprechenden"
+    propagate_case: true
+    word: true
+  - trigger: "entstandt"
+    replace: "entstand"
+    propagate_case: true
+    word: true
+  - trigger: "enwickelt"
+    replace: "entwickelt"
+    propagate_case: true
+    word: true
+  - trigger: "enwickelte"
+    replace: "entwickelte"
+    propagate_case: true
+    word: true
+  - trigger: "enwickelten"
+    replace: "entwickelten"
+    propagate_case: true
+    word: true
+  - trigger: "enwickelter"
+    replace: "entwickelter"
+    propagate_case: true
+    word: true
+  - trigger: "enwickeltes"
+    replace: "entwickeltes"
+    propagate_case: true
+    word: true
+  - trigger: "Enwicklung"
+    replace: "Entwicklung"
+    propagate_case: true
+    word: true
+  - trigger: "Enwicklungen"
+    replace: "Entwicklungen"
+    propagate_case: true
+    word: true
+  - trigger: "ereichen"
+    replace: "erreichen"
+    propagate_case: true
+    word: true
+  - trigger: "ereicht"
+    replace: "erreicht"
+    propagate_case: true
+    word: true
+  - trigger: "ereichte"
+    replace: "erreichte"
+    propagate_case: true
+    word: true
+  - trigger: "Ereignise"
+    replace: "Ereignisse"
+    propagate_case: true
+    word: true
+  - trigger: "Ereignisen"
+    replace: "Ereignissen"
+    propagate_case: true
+    word: true
+  - trigger: "Ereigniss"
+    replace: "Ereignis"
+    propagate_case: true
+    word: true
+  - trigger: "Erfog"
+    replace: "Erfolg"
+    propagate_case: true
+    word: true
+  - trigger: "erfogreich"
+    replace: "erfolgreich"
+    propagate_case: true
+    word: true
+  - trigger: "erfolgslos"
+    replace: "erfolglos"
+    propagate_case: true
+    word: true
+  - trigger: "erfolgsversprechend"
+    replace: "erfolgversprechend"
+    propagate_case: true
+    word: true
+  - trigger: "Erfurcht"
+    replace: "Ehrfurcht"
+    propagate_case: true
+    word: true
+  - trigger: "Ergebniss"
+    replace: "Ergebnis"
+    propagate_case: true
+    word: true
+  - trigger: "Erkentnis"
+    replace: "Erkenntnis"
+    propagate_case: true
+    word: true
+  - trigger: "Erkentnisse"
+    replace: "Erkenntnisse"
+    propagate_case: true
+    word: true
+  - trigger: "erklährt"
+    replace: "erklärt"
+    propagate_case: true
+    word: true
+  - trigger: "ermöglich"
+    replace: "ermöglicht"
+    propagate_case: true
+    word: true
+  - trigger: "ermöglich"
+    replace: "ermöglichen"
+    propagate_case: true
+    word: true
+  - trigger: "erorbert"
+    replace: "erobert"
+    propagate_case: true
+    word: true
+  - trigger: "errinnern"
+    replace: "erinnern"
+    propagate_case: true
+    word: true
+  - trigger: "errinnert"
+    replace: "erinnert"
+    propagate_case: true
+    word: true
+  - trigger: "errreichen"
+    replace: "erreichen"
+    propagate_case: true
+    word: true
+  - trigger: "errreicht"
+    replace: "erreicht"
+    propagate_case: true
+    word: true
+  - trigger: "errreichte"
+    replace: "erreichte"
+    propagate_case: true
+    word: true
+  - trigger: "errrichtet"
+    replace: "errichtet"
+    propagate_case: true
+    word: true
+  - trigger: "dem 19 erschienen"
+    replace: "dem 19 erschienenen"
+    propagate_case: true
+    word: true
+  - trigger: "dem 20 erschienen"
+    replace: "dem 20 erschienenen"
+    propagate_case: true
+    word: true
+  - trigger: "seinem 18 erschienen"
+    replace: "seinem 18 erschienenen"
+    propagate_case: true
+    word: true
+  - trigger: "seinem 19 erschienen"
+    replace: "seinem 19 erschienenen"
+    propagate_case: true
+    word: true
+  - trigger: "seinem 20 erschienen"
+    replace: "seinem 20 erschienenen"
+    propagate_case: true
+    word: true
+  - trigger: "ersmals"
+    replace: "erstmals"
+    propagate_case: true
+    word: true
+  - trigger: "dem erstem"
+    replace: "dem ersten"
+    propagate_case: true
+    word: true
+  - trigger: "im erstem"
+    replace: "im ersten"
+    propagate_case: true
+    word: true
+  - trigger: "erzeilt"
+    replace: "erzielt"
+    propagate_case: true
+    word: true
+  - trigger: "erzeilte"
+    replace: "erzielte"
+    propagate_case: true
+    word: true
+  - trigger: "erziehlen"
+    replace: "erzielen"
+    propagate_case: true
+    word: true
+  - trigger: "erziehlt"
+    replace: "erzielt"
+    propagate_case: true
+    word: true
+  - trigger: "estisch"
+    replace: "estnisch"
+    propagate_case: true
+    word: true
+  - trigger: "Ettikett"
+    replace: "Etikett"
+    propagate_case: true
+    word: true
+  - trigger: "dem europäischem"
+    replace: "dem europäischen"
+    propagate_case: true
+    word: true
+  - trigger: "im europäischem"
+    replace: "im europäischen"
+    propagate_case: true
+    word: true
+  - trigger: "Examplar"
+    replace: "Exemplar"
+    propagate_case: true
+    word: true
+  - trigger: "examplarisch"
+    replace: "exemplarisch"
+    propagate_case: true
+    word: true
+  - trigger: "exellent"
+    replace: "exzellent"
+    propagate_case: true
+    word: true
+  - trigger: "exisitiert"
+    replace: "existiert"
+    propagate_case: true
+    word: true
+  - trigger: "Existens"
+    replace: "Existenz"
+    propagate_case: true
+    word: true
+  - trigger: "Expediton"
+    replace: "Expedition"
+    propagate_case: true
+    word: true
+  - trigger: "experimentiell"
+    replace: "experimentell"
+    propagate_case: true
+    word: true
+  - trigger: "Extase"
+    replace: "Ekstase"
+    propagate_case: true
+    word: true
+  - trigger: "Fahradtour"
+    replace: "Fahrradtour"
+    propagate_case: true
+    word: true
+  - trigger: "fälschlicher Weise"
+    replace: "fälschlicherweise"
+    propagate_case: true
+    word: true
+  - trigger: "familär"
+    replace: "familiär"
+    propagate_case: true
+    word: true
+  - trigger: "Famile"
+    replace: "Familie"
+    propagate_case: true
+    word: true
+  - trigger: "Familen"
+    replace: "Familien"
+    propagate_case: true
+    word: true
+  - trigger: "Famlie"
+    replace: "Familie"
+    propagate_case: true
+    word: true
+  - trigger: "Februrar"
+    replace: "Februar"
+    propagate_case: true
+    word: true
+  - trigger: "Feburar"
+    replace: "Februar"
+    propagate_case: true
+    word: true
+  - trigger: "fern geblieben"
+    replace: "ferngeblieben"
+    propagate_case: true
+    word: true
+  - trigger: "fern gehalten"
+    replace: "ferngehalten"
+    propagate_case: true
+    word: true
+  - trigger: "fern zu halten"
+    replace: "fernzuhalten"
+    propagate_case: true
+    word: true
+  - trigger: "Fersehen"
+    replace: "Fernsehen"
+    propagate_case: true
+    word: true
+  - trigger: "Ferseh"
+    replace: "Fernseh"
+    propagate_case: true
+    word: true
+  - trigger: "fertigestellt"
+    replace: "fertiggestellt"
+    propagate_case: true
+    word: true
+  - trigger: "festellen"
+    replace: "feststellen"
+    propagate_case: true
+    word: true
+  - trigger: "Festellung"
+    replace: "Feststellung"
+    propagate_case: true
+    word: true
+  - trigger: "fidet"
+    replace: "findet"
+    propagate_case: true
+    word: true
+  - trigger: "Fiedrich"
+    replace: "Friedrich"
+    propagate_case: true
+    word: true
+  - trigger: "Flagschiff"
+    replace: "Flaggschiff"
+    propagate_case: true
+    word: true
+  - trigger: "Flektion"
+    replace: "Flexion"
+    propagate_case: true
+    word: true
+  - trigger: "fliessen"
+    replace: "fließen"
+    propagate_case: true
+    word: true
+  - trigger: "fliesst"
+    replace: "fließt"
+    propagate_case: true
+    word: true
+  - trigger: "des Flughafen"
+    replace: "des Flughafens"
+    propagate_case: true
+    word: true
+  - trigger: "Fluß"
+    replace: "Fluss"
+    propagate_case: true
+    word: true
+  - trigger: "Flüße"
+    replace: "Flüsse"
+    propagate_case: true
+    word: true
+  - trigger: "fokusieren"
+    replace: "fokussieren"
+    propagate_case: true
+    word: true
+  - trigger: "fokusiert"
+    replace: "fokussiert"
+    propagate_case: true
+    word: true
+  - trigger: "Fokusierung"
+    replace: "Fokussierung"
+    propagate_case: true
+    word: true
+  - trigger: "Foschung"
+    replace: "Forschung"
+    propagate_case: true
+    word: true
+  - trigger: "Fotographie"
+    replace: "Fotografie"
+    propagate_case: true
+    word: true
+  - trigger: "Fotographie"
+    replace: "Photographie"
+    propagate_case: true
+    word: true
+  - trigger: "Fotographien"
+    replace: "Fotografien"
+    propagate_case: true
+    word: true
+  - trigger: "Fotographien"
+    replace: "Photographien"
+    propagate_case: true
+    word: true
+  - trigger: "fotographiert"
+    replace: "fotografiert"
+    propagate_case: true
+    word: true
+  - trigger: "franösisch"
+    replace: "französisch"
+    propagate_case: true
+    word: true
+  - trigger: "frantösisch"
+    replace: "französisch"
+    propagate_case: true
+    word: true
+  - trigger: "franzöisch"
+    replace: "französisch"
+    propagate_case: true
+    word: true
+  - trigger: "französich"
+    replace: "französisch"
+    propagate_case: true
+    word: true
+  - trigger: "dem französischem"
+    replace: "dem französischen"
+    propagate_case: true
+    word: true
+  - trigger: "einem französischem"
+    replace: "einem französischen"
+    propagate_case: true
+    word: true
+  - trigger: "im französischem"
+    replace: "im französischen"
+    propagate_case: true
+    word: true
+  - trigger: "Freidrich"
+    replace: "Friedrich"
+    propagate_case: true
+    word: true
+  - trigger: "frei gestellt"
+    replace: "freigestellt"
+    propagate_case: true
+    word: true
+  - trigger: "Freimauerei"
+    replace: "Freimaurerei"
+    propagate_case: true
+    word: true
+  - trigger: "Fremsprache"
+    replace: "Fremdsprache"
+    propagate_case: true
+    word: true
+  - trigger: "Friedenschluss"
+    replace: "Friedensschluss"
+    propagate_case: true
+    word: true
+  - trigger: "Friedich"
+    replace: "Friedrich"
+    propagate_case: true
+    word: true
+  - trigger: "Frima"
+    replace: "Firma"
+    propagate_case: true
+    word: true
+  - trigger: "fröhnen"
+    replace: "frönen"
+    propagate_case: true
+    word: true
+  - trigger: "Frühjar"
+    replace: "Frühjahr"
+    propagate_case: true
+    word: true
+  - trigger: "frühre"
+    replace: "frühere"
+    propagate_case: true
+    word: true
+  - trigger: "fuer"
+    replace: "für"
+    propagate_case: true
+    word: true
+  - trigger: "füher"
+    replace: "früher"
+    propagate_case: true
+    word: true
+  - trigger: "füher"
+    replace: "Führer"
+    propagate_case: true
+    word: true
+  - trigger: "Fuktion"
+    replace: "Funktion"
+    propagate_case: true
+    word: true
+  - trigger: "Funier"
+    replace: "Furnier"
+    propagate_case: true
+    word: true
+  - trigger: "für für"
+    replace: "für"
+    propagate_case: true
+    word: true
+  - trigger: "Fuss"
+    replace: "Fuß"
+    propagate_case: true
+    word: true
+  - trigger: "Fussball"
+    replace: "Fußball"
+    propagate_case: true
+    word: true
+  - trigger: "Fussballer"
+    replace: "Fußballer"
+    propagate_case: true
+    word: true
+  - trigger: "Fussballerin"
+    replace: "Fußballerin"
+    propagate_case: true
+    word: true
+  - trigger: "Fussballspieler"
+    replace: "Fußballspieler"
+    propagate_case: true
+    word: true
+  - trigger: "Fussballspielerin"
+    replace: "Fußballspielerin"
+    propagate_case: true
+    word: true
+  - trigger: "Fußballstadium"
+    replace: "Fußballstadion"
+    propagate_case: true
+    word: true
+  - trigger: "Fusse"
+    replace: "Fuße"
+    propagate_case: true
+    word: true
+  - trigger: "Füsse"
+    replace: "Füße"
+    propagate_case: true
+    word: true
+  - trigger: "Füst"
+    replace: "Fürst"
+    propagate_case: true
+    word: true
+  - trigger: "gabe es"
+    replace: "gab es"
+    propagate_case: true
+    word: true
+  - trigger: "Gallerie"
+    replace: "Galerie"
+    propagate_case: true
+    word: true
+  - trigger: "Gallerien"
+    replace: "Galerien"
+    propagate_case: true
+    word: true
+  - trigger: "Gallionsfigur"
+    replace: "Galionsfigur"
+    propagate_case: true
+    word: true
+  - trigger: "garnicht"
+    replace: "gar nicht"
+    propagate_case: true
+    word: true
+  - trigger: "Garnision"
+    replace: "Garnison"
+    propagate_case: true
+    word: true
+  - trigger: "Garnision"
+    replace: "Garnison"
+    propagate_case: true
+    word: true
+  - trigger: "Gebäde"
+    replace: "Gebäude"
+    propagate_case: true
+    word: true
+  - trigger: "Gebahren"
+    replace: "Gebaren"
+    propagate_case: true
+    word: true
+  - trigger: "gebähren"
+    replace: "gebären"
+    propagate_case: true
+    word: true
+  - trigger: "Gebaüde"
+    replace: "Gebäude"
+    propagate_case: true
+    word: true
+  - trigger: "Gebaude"
+    replace: "Gebäude"
+    propagate_case: true
+    word: true
+  - trigger: "Gebäuder"
+    replace: "Gebäude"
+    propagate_case: true
+    word: true
+  - trigger: "gebornen"
+    replace: "geborenen"
+    propagate_case: true
+    word: true
+  - trigger: "Gedult"
+    replace: "Geduld"
+    propagate_case: true
+    word: true
+  - trigger: "Gedänk"
+    replace: "Gedenk"
+    propagate_case: true
+    word: true
+  - trigger: "einem geeignetem"
+    replace: "einem geeigneten"
+    propagate_case: true
+    word: true
+  - trigger: "Gefäss"
+    replace: "Gefäß"
+    propagate_case: true
+    word: true
+  - trigger: "gegebenfalls"
+    replace: "gegebenenfalls"
+    propagate_case: true
+    word: true
+  - trigger: "gegen einander"
+    replace: "gegeneinander"
+    propagate_case: true
+    word: true
+  - trigger: "gegenüber gestellt"
+    replace: "gegenübergestellt"
+    propagate_case: true
+    word: true
+  - trigger: "gegn"
+    replace: "gegen"
+    propagate_case: true
+    word: true
+  - trigger: "gegnüber"
+    replace: "gegenüber"
+    propagate_case: true
+    word: true
+  - trigger: "gehöhren"
+    replace: "gehören"
+    propagate_case: true
+    word: true
+  - trigger: "gehöhrt"
+    replace: "gehört"
+    propagate_case: true
+    word: true
+  - trigger: "gekührt"
+    replace: "gekürt"
+    propagate_case: true
+    word: true
+  - trigger: "gelanden"
+    replace: "geladen"
+    propagate_case: true
+    word: true
+  - trigger: "gemäss"
+    replace: "gemäß"
+    propagate_case: true
+    word: true
+  - trigger: "gemeinsammen"
+    replace: "gemeinsamen"
+    propagate_case: true
+    word: true
+  - trigger: "gemeisam"
+    replace: "gemeinsam"
+    propagate_case: true
+    word: true
+  - trigger: "genant"
+    replace: "genannt"
+    propagate_case: true
+    word: true
+  - trigger: "genanten"
+    replace: "genannten"
+    propagate_case: true
+    word: true
+  - trigger: "Genaral"
+    replace: "General"
+    propagate_case: true
+    word: true
+  - trigger: "geniessen"
+    replace: "genießen"
+    propagate_case: true
+    word: true
+  - trigger: "gennant"
+    replace: "genannt"
+    propagate_case: true
+    word: true
+  - trigger: "gennannt"
+    replace: "genannt"
+    propagate_case: true
+    word: true
+  - trigger: "Gerneral"
+    replace: "General"
+    propagate_case: true
+    word: true
+  - trigger: "gesäht"
+    replace: "gesät"
+    propagate_case: true
+    word: true
+  - trigger: "gesammt"
+    replace: "gesamt"
+    propagate_case: true
+    word: true
+  - trigger: "gesammten"
+    replace: "gesamten"
+    propagate_case: true
+    word: true
+  - trigger: "gesammter"
+    replace: "gesamter"
+    propagate_case: true
+    word: true
+  - trigger: "Gesandschaft"
+    replace: "Gesandtschaft"
+    propagate_case: true
+    word: true
+  - trigger: "Geschichtschreiber"
+    replace: "Geschichtsschreiber"
+    propagate_case: true
+    word: true
+  - trigger: "Geschichtschreibung"
+    replace: "Geschichtsschreibung"
+    propagate_case: true
+    word: true
+  - trigger: "geschiet"
+    replace: "geschieht"
+    propagate_case: true
+    word: true
+  - trigger: "geschlosssen"
+    replace: "geschlossen"
+    propagate_case: true
+    word: true
+  - trigger: "gesetztlich"
+    replace: "gesetzlich"
+    propagate_case: true
+    word: true
+  - trigger: "Gesichtpunkt"
+    replace: "Gesichtspunkt"
+    propagate_case: true
+    word: true
+  - trigger: "gesponsort"
+    replace: "gesponsert"
+    propagate_case: true
+    word: true
+  - trigger: "gesteift"
+    replace: "gestreift"
+    propagate_case: true
+    word: true
+  - trigger: "gewan"
+    replace: "gewann"
+    propagate_case: true
+    word: true
+  - trigger: "gewissermassen"
+    replace: "gewissermaßen"
+    propagate_case: true
+    word: true
+  - trigger: "gewunken"
+    replace: "gewinkt"
+    propagate_case: true
+    word: true
+  - trigger: "Ghandi"
+    replace: "Gandhi"
+    propagate_case: true
+    word: true
+  - trigger: "giebt"
+    replace: "gibt"
+    propagate_case: true
+    word: true
+  - trigger: "Giessen"
+    replace: "Gießen"
+    propagate_case: true
+    word: true
+  - trigger: "gleichbleiben"
+    replace: "gleich bleiben"
+    propagate_case: true
+    word: true
+  - trigger: "gleich zu tun"
+    replace: "gleichzutun"
+    propagate_case: true
+    word: true
+  - trigger: "Gogle"
+    replace: "Google"
+    propagate_case: true
+    word: true
+  - trigger: "Goldmedaillie"
+    replace: "Goldmedaille"
+    propagate_case: true
+    word: true
+  - trigger: "Goldmedallie"
+    replace: "Goldmedaille"
+    propagate_case: true
+    word: true
+  - trigger: "Gothik"
+    replace: "Gotik"
+    propagate_case: true
+    word: true
+  - trigger: "gothisch"
+    replace: "gotisch"
+    propagate_case: true
+    word: true
+  - trigger: "Grabmahl"
+    replace: "Grabmal"
+    propagate_case: true
+    word: true
+  - trigger: "Gradwanderung"
+    replace: "Gratwanderung"
+    propagate_case: true
+    word: true
+  - trigger: "Graftschaft"
+    replace: "Grafschaft"
+    propagate_case: true
+    word: true
+  - trigger: "groesse"
+    replace: "größe"
+    propagate_case: true
+    word: true
+  - trigger: "groeße"
+    replace: "größe"
+    propagate_case: true
+    word: true
+  - trigger: "gröhlen"
+    replace: "grölen"
+    propagate_case: true
+    word: true
+  - trigger: "Grossaufgebot"
+    replace: "Großaufgebot"
+    propagate_case: true
+    word: true
+  - trigger: "Grossbritanien"
+    replace: "Großbritannien"
+    propagate_case: true
+    word: true
+  - trigger: "Großbritanien"
+    replace: "Großbritannien"
+    propagate_case: true
+    word: true
+  - trigger: "Grossbritannien"
+    replace: "Großbritannien"
+    propagate_case: true
+    word: true
+  - trigger: "Grossbrittanien"
+    replace: "Großbritannien"
+    propagate_case: true
+    word: true
+  - trigger: "Großbrittanien"
+    replace: "Großbritannien"
+    propagate_case: true
+    word: true
+  - trigger: "Grossbrittannien"
+    replace: "Großbritannien"
+    propagate_case: true
+    word: true
+  - trigger: "Großbrittannien"
+    replace: "Großbritannien"
+    propagate_case: true
+    word: true
+  - trigger: "grosse"
+    replace: "große"
+    propagate_case: true
+    word: true
+  - trigger: "grösse"
+    replace: "größe"
+    propagate_case: true
+    word: true
+  - trigger: "grossem"
+    replace: "großem"
+    propagate_case: true
+    word: true
+  - trigger: "einem großem"
+    replace: "einem großen"
+    propagate_case: true
+    word: true
+  - trigger: "grossen"
+    replace: "großen"
+    propagate_case: true
+    word: true
+  - trigger: "grossenteils"
+    replace: "großenteils"
+    propagate_case: true
+    word: true
+  - trigger: "größenteils"
+    replace: "größtenteils"
+    propagate_case: true
+    word: true
+  - trigger: "grosser"
+    replace: "großer"
+    propagate_case: true
+    word: true
+  - trigger: "grösser"
+    replace: "größer"
+    propagate_case: true
+    word: true
+  - trigger: "grössere"
+    replace: "größere"
+    propagate_case: true
+    word: true
+  - trigger: "grösserem"
+    replace: "größerem"
+    propagate_case: true
+    word: true
+  - trigger: "grösseren"
+    replace: "größeren"
+    propagate_case: true
+    word: true
+  - trigger: "grösserer"
+    replace: "größerer"
+    propagate_case: true
+    word: true
+  - trigger: "grösseres"
+    replace: "größeres"
+    propagate_case: true
+    word: true
+  - trigger: "grosses"
+    replace: "großes"
+    propagate_case: true
+    word: true
+  - trigger: "grösste"
+    replace: "größte"
+    propagate_case: true
+    word: true
+  - trigger: "Grossteil"
+    replace: "Großteil"
+    propagate_case: true
+    word: true
+  - trigger: "grossteils"
+    replace: "großteils"
+    propagate_case: true
+    word: true
+  - trigger: "grössten"
+    replace: "größten"
+    propagate_case: true
+    word: true
+  - trigger: "grösstenteils"
+    replace: "größtenteils"
+    propagate_case: true
+    word: true
+  - trigger: "grösster"
+    replace: "größter"
+    propagate_case: true
+    word: true
+  - trigger: "grösstes"
+    replace: "größtes"
+    propagate_case: true
+    word: true
+  - trigger: "Gründstück"
+    replace: "Grundstück"
+    propagate_case: true
+    word: true
+  - trigger: "einem grünem"
+    replace: "einem grünen"
+    propagate_case: true
+    word: true
+  - trigger: "Guerrillakampf"
+    replace: "Guerillakampf"
+    propagate_case: true
+    word: true
+  - trigger: "Guiness"
+    replace: "Guinness"
+    propagate_case: true
+    word: true
+  - trigger: "Guiseppe"
+    replace: "Giuseppe"
+    propagate_case: true
+    word: true
+  - trigger: "einem gutem"
+    replace: "einem guten"
+    propagate_case: true
+    word: true
+  - trigger: "Güterloh"
+    replace: "Gütersloh"
+    propagate_case: true
+    word: true
+  - trigger: "Häckchen"
+    replace: "Häkchen"
+    propagate_case: true
+    word: true
+  - trigger: "haetten"
+    replace: "hätten"
+    propagate_case: true
+    word: true
+  - trigger: "Handelschiff"
+    replace: "Handelsschiff"
+    propagate_case: true
+    word: true
+  - trigger: "Handies"
+    replace: "Handys"
+    propagate_case: true
+    word: true
+  - trigger: "hahnebüchen"
+    replace: "hanebüchen"
+    propagate_case: true
+    word: true
+  - trigger: "hattte"
+    replace: "hatte"
+    propagate_case: true
+    word: true
+  - trigger: "hattte"
+    replace: "hatten"
+    propagate_case: true
+    word: true
+  - trigger: "Haupstadt"
+    replace: "Hauptstadt"
+    propagate_case: true
+    word: true
+  - trigger: "haupsächlich"
+    replace: "hauptsächlich"
+    propagate_case: true
+    word: true
+  - trigger: "Haupstädte"
+    replace: "Hauptstädte"
+    propagate_case: true
+    word: true
+  - trigger: "des Haus"
+    replace: "des Hauses"
+    propagate_case: true
+    word: true
+  - trigger: "heiratetet"
+    replace: "heiratet"
+    propagate_case: true
+    word: true
+  - trigger: "heiss"
+    replace: "heiß"
+    propagate_case: true
+    word: true
+  - trigger: "heisser"
+    replace: "heißer"
+    propagate_case: true
+    word: true
+  - trigger: "heisst"
+    replace: "heißt"
+    propagate_case: true
+    word: true
+  - trigger: "heraus gebracht"
+    replace: "herausgebracht"
+    propagate_case: true
+    word: true
+  - trigger: "herausragenste"
+    replace: "herausragendste"
+    propagate_case: true
+    word: true
+  - trigger: "Herausvorderung"
+    replace: "Herausforderung"
+    propagate_case: true
+    word: true
+  - trigger: "herraus"
+    replace: "heraus"
+    propagate_case: true
+    word: true
+  - trigger: "herrausragend"
+    replace: "herausragend"
+    propagate_case: true
+    word: true
+  - trigger: "Herrrschaft"
+    replace: "Herrschaft"
+    propagate_case: true
+    word: true
+  - trigger: "Herrrscher"
+    replace: "Herrscher"
+    propagate_case: true
+    word: true
+  - trigger: "Herschaft"
+    replace: "Herrschaft"
+    propagate_case: true
+    word: true
+  - trigger: "Herscher"
+    replace: "Herrscher"
+    propagate_case: true
+    word: true
+  - trigger: "hervoragen"
+    replace: "hervorragen"
+    propagate_case: true
+    word: true
+  - trigger: "hervoragend"
+    replace: "hervorragend"
+    propagate_case: true
+    word: true
+  - trigger: "hervor gegangen"
+    replace: "hervorgegangen"
+    propagate_case: true
+    word: true
+  - trigger: "hervor ging"
+    replace: "hervorging"
+    propagate_case: true
+    word: true
+  - trigger: "hervorragenste"
+    replace: "hervorragendste"
+    propagate_case: true
+    word: true
+  - trigger: "Hierachie"
+    replace: "Hierarchie"
+    propagate_case: true
+    word: true
+  - trigger: "hierachisch"
+    replace: "hierarchisch"
+    propagate_case: true
+    word: true
+  - trigger: "hiess"
+    replace: "hieß"
+    propagate_case: true
+    word: true
+  - trigger: "hinaus gehende"
+    replace: "hinausgehende"
+    propagate_case: true
+    word: true
+  - trigger: "hingegegen"
+    replace: "hingegen"
+    propagate_case: true
+    word: true
+  - trigger: "Hintegrund"
+    replace: "Hintergrund"
+    propagate_case: true
+    word: true
+  - trigger: "Hintergund"
+    replace: "Hintergrund"
+    propagate_case: true
+    word: true
+  - trigger: "hinterliess"
+    replace: "hinterließ"
+    propagate_case: true
+    word: true
+  - trigger: "hinterliessen"
+    replace: "hinterließen"
+    propagate_case: true
+    word: true
+  - trigger: "hinweg täuschen"
+    replace: "hinwegtäuschen"
+    propagate_case: true
+    word: true
+  - trigger: "hinzu gefügt"
+    replace: "hinzugefügt"
+    propagate_case: true
+    word: true
+  - trigger: "hinzu gekommen"
+    replace: "hinzugekommen"
+    propagate_case: true
+    word: true
+  - trigger: "Hobbies"
+    replace: "Hobbys"
+    propagate_case: true
+    word: true
+  - trigger: "Hochaus"
+    replace: "Hochhaus"
+    propagate_case: true
+    word: true
+  - trigger: "Hochäuser"
+    replace: "Hochhäuser"
+    propagate_case: true
+    word: true
+  - trigger: "höchst gelegene"
+    replace: "höchstgelegene"
+    propagate_case: true
+    word: true
+  - trigger: "Hofffnung"
+    replace: "Hoffnung"
+    propagate_case: true
+    word: true
+  - trigger: "Hoffung"
+    replace: "Hoffnung"
+    propagate_case: true
+    word: true
+  - trigger: "höherere"
+    replace: "höhere"
+    propagate_case: true
+    word: true
+  - trigger: "höherwertigere"
+    replace: "höherwertige"
+    propagate_case: true
+    word: true
+  - trigger: "höhren"
+    replace: "hören"
+    propagate_case: true
+    word: true
+  - trigger: "höhren"
+    replace: "höheren"
+    propagate_case: true
+    word: true
+  - trigger: "höhrt"
+    replace: "hört"
+    propagate_case: true
+    word: true
+  - trigger: "Homage"
+    replace: "Hommage"
+    propagate_case: true
+    word: true
+  - trigger: "hunderste"
+    replace: "hundertste"
+    propagate_case: true
+    word: true
+  - trigger: "idendifiziert"
+    replace: "identifiziert"
+    propagate_case: true
+    word: true
+  - trigger: "idenfiziert"
+    replace: "identifiziert"
+    propagate_case: true
+    word: true
+  - trigger: "idiopatisch"
+    replace: "idiopathisch"
+    propagate_case: true
+    word: true
+  - trigger: "im besonderen Maße"
+    replace: "in besonderem Maße"
+    propagate_case: true
+    word: true
+  - trigger: "im Bezug auf"
+    replace: "in Bezug auf"
+    propagate_case: true
+    word: true
+  - trigger: "Imbus"
+    replace: "Inbus"
+    propagate_case: true
+    word: true
+  - trigger: "im dem"
+    replace: "in dem"
+    propagate_case: true
+    word: true
+  - trigger: "im dem"
+    replace: "im"
+    propagate_case: true
+    word: true
+  - trigger: "im den"
+    replace: "in den"
+    propagate_case: true
+    word: true
+  - trigger: "im den"
+    replace: "in dem"
+    propagate_case: true
+    word: true
+  - trigger: "im den"
+    replace: "ihm den"
+    propagate_case: true
+    word: true
+  - trigger: "im der"
+    replace: "in der"
+    propagate_case: true
+    word: true
+  - trigger: "im der"
+    replace: "im"
+    propagate_case: true
+    word: true
+  - trigger: "im der"
+    replace: "ihm der"
+    propagate_case: true
+    word: true
+  - trigger: "im deutschsprachigem"
+    replace: "im deutschsprachigen"
+    propagate_case: true
+    word: true
+  - trigger: "im einem"
+    replace: "in einem"
+    propagate_case: true
+    word: true
+  - trigger: "im großem"
+    replace: "in großem"
+    propagate_case: true
+    word: true
+  - trigger: "im großem"
+    replace: "im großen"
+    propagate_case: true
+    word: true
+  - trigger: "im großen Umfang"
+    replace: "in großem Umfang"
+    propagate_case: true
+    word: true
+  - trigger: "im hohen Maße"
+    replace: "in hohem Maße"
+    propagate_case: true
+    word: true
+  - trigger: "immernoch"
+    replace: "immer noch"
+    propagate_case: true
+    word: true
+  - trigger: "immmer"
+    replace: "immer"
+    propagate_case: true
+    word: true
+  - trigger: "Impendanz"
+    replace: "Impedanz"
+    propagate_case: true
+    word: true
+  - trigger: "im seinem"
+    replace: "in seinem"
+    propagate_case: true
+    word: true
+  - trigger: "im selbem"
+    replace: "im selben"
+    propagate_case: true
+    word: true
+  - trigger: "inbesondere"
+    replace: "insbesondere"
+    propagate_case: true
+    word: true
+  - trigger: "inclusive"
+    replace: "inklusive"
+    propagate_case: true
+    word: true
+  - trigger: "Independet"
+    replace: "Independent"
+    propagate_case: true
+    word: true
+  - trigger: "indeß"
+    replace: "indes"
+    propagate_case: true
+    word: true
+  - trigger: "individiuell"
+    replace: "individuell"
+    propagate_case: true
+    word: true
+  - trigger: "Industie"
+    replace: "Industrie"
+    propagate_case: true
+    word: true
+  - trigger: "Industriealisierung"
+    replace: "Industrialisierung"
+    propagate_case: true
+    word: true
+  - trigger: "in englisch"
+    replace: "in Englisch"
+    propagate_case: true
+    word: true
+  - trigger: "inerhalb"
+    replace: "innerhalb"
+    propagate_case: true
+    word: true
+  - trigger: "Infantrie"
+    replace: "Infanterie"
+    propagate_case: true
+    word: true
+  - trigger: "infiszieren"
+    replace: "infizieren"
+    propagate_case: true
+    word: true
+  - trigger: "in Folge"
+    replace: "infolge"
+    propagate_case: true
+    word: true
+  - trigger: "in Folge der"
+    replace: "infolge der"
+    propagate_case: true
+    word: true
+  - trigger: "in Folge des"
+    replace: "infolge des"
+    propagate_case: true
+    word: true
+  - trigger: "in Folge einer"
+    replace: "infolge einer"
+    propagate_case: true
+    word: true
+  - trigger: "in Folge eines"
+    replace: "infolge eines"
+    propagate_case: true
+    word: true
+  - trigger: "in Folge von"
+    replace: "infolge von"
+    propagate_case: true
+    word: true
+  - trigger: "in Folge dessen"
+    replace: "infolgedessen"
+    propagate_case: true
+    word: true
+  - trigger: "in Folge dessen"
+    replace: "infolge dessen"
+    propagate_case: true
+    word: true
+  - trigger: "in Folge dessen"
+    replace: "in dessen Folge"
+    propagate_case: true
+    word: true
+  - trigger: "Ingeneur"
+    replace: "Ingenieur"
+    propagate_case: true
+    word: true
+  - trigger: "ingesamt"
+    replace: "insgesamt"
+    propagate_case: true
+    word: true
+  - trigger: "Ingredenzien"
+    replace: "Ingredienzien"
+    propagate_case: true
+    word: true
+  - trigger: "Inhaltstoff"
+    replace: "Inhaltsstoff"
+    propagate_case: true
+    word: true
+  - trigger: "Initation"
+    replace: "Initiation"
+    propagate_case: true
+    word: true
+  - trigger: "Initation"
+    replace: "Imitation"
+    propagate_case: true
+    word: true
+  - trigger: "Initative"
+    replace: "Initiative"
+    propagate_case: true
+    word: true
+  - trigger: "Initator"
+    replace: "Initiator"
+    propagate_case: true
+    word: true
+  - trigger: "Initialie"
+    replace: "Initiale"
+    propagate_case: true
+    word: true
+  - trigger: "Initialien"
+    replace: "Initialen"
+    propagate_case: true
+    word: true
+  - trigger: "initieren"
+    replace: "initiieren"
+    propagate_case: true
+    word: true
+  - trigger: "initiert"
+    replace: "initiiert"
+    propagate_case: true
+    word: true
+  - trigger: "Inititative"
+    replace: "Initiative"
+    propagate_case: true
+    word: true
+  - trigger: "Iniziative"
+    replace: "Initiative"
+    propagate_case: true
+    word: true
+  - trigger: "in mitten"
+    replace: "inmitten"
+    propagate_case: true
+    word: true
+  - trigger: "inne gehabt"
+    replace: "innegehabt"
+    propagate_case: true
+    word: true
+  - trigger: "inne haben"
+    replace: "innehaben"
+    propagate_case: true
+    word: true
+  - trigger: "inne hat"
+    replace: "innehat"
+    propagate_case: true
+    word: true
+  - trigger: "inne hatte"
+    replace: "innehatte"
+    propagate_case: true
+    word: true
+  - trigger: "inne hatten"
+    replace: "innehatten"
+    propagate_case: true
+    word: true
+  - trigger: "Innenaustattung"
+    replace: "Innenausstattung"
+    propagate_case: true
+    word: true
+  - trigger: "innnerhalb"
+    replace: "innerhalb"
+    propagate_case: true
+    word: true
+  - trigger: "Insbruck"
+    replace: "Innsbruck"
+    propagate_case: true
+    word: true
+  - trigger: "in selben Jahr"
+    replace: "im selben Jahr"
+    propagate_case: true
+    word: true
+  - trigger: "insgeamt"
+    replace: "insgesamt"
+    propagate_case: true
+    word: true
+  - trigger: "insgesammt"
+    replace: "insgesamt"
+    propagate_case: true
+    word: true
+  - trigger: "Insitut"
+    replace: "Institut"
+    propagate_case: true
+    word: true
+  - trigger: "Insitution"
+    replace: "Institution"
+    propagate_case: true
+    word: true
+  - trigger: "in so fern"
+    replace: "insofern"
+    propagate_case: true
+    word: true
+  - trigger: "in sofern"
+    replace: "insofern"
+    propagate_case: true
+    word: true
+  - trigger: "instandgehalten"
+    replace: "instand gehalten"
+    propagate_case: true
+    word: true
+  - trigger: "instandgehalten"
+    replace: "in Stand gehalten"
+    propagate_case: true
+    word: true
+  - trigger: "instandgesetzt"
+    replace: "instand gesetzt"
+    propagate_case: true
+    word: true
+  - trigger: "instandgesetzt"
+    replace: "in Stand gesetzt"
+    propagate_case: true
+    word: true
+  - trigger: "instandhalten"
+    replace: "instand halten"
+    propagate_case: true
+    word: true
+  - trigger: "instandhalten"
+    replace: "in Stand halten"
+    propagate_case: true
+    word: true
+  - trigger: "instandsetzen"
+    replace: "instand setzen"
+    propagate_case: true
+    word: true
+  - trigger: "instandsetzen"
+    replace: "in Stand setzen"
+    propagate_case: true
+    word: true
+  - trigger: "instandzusetzen"
+    replace: "instand zu setzen"
+    propagate_case: true
+    word: true
+  - trigger: "instandzusetzen"
+    replace: "in Stand zu setzen"
+    propagate_case: true
+    word: true
+  - trigger: "Instituion"
+    replace: "Institution"
+    propagate_case: true
+    word: true
+  - trigger: "Instiut"
+    replace: "Institut"
+    propagate_case: true
+    word: true
+  - trigger: "Instiution"
+    replace: "Institution"
+    propagate_case: true
+    word: true
+  - trigger: "Instutition"
+    replace: "Institution"
+    propagate_case: true
+    word: true
+  - trigger: "inszinieren"
+    replace: "inszenieren"
+    propagate_case: true
+    word: true
+  - trigger: "Inszinierung"
+    replace: "Inszenierung"
+    propagate_case: true
+    word: true
+  - trigger: "integiert"
+    replace: "integriert"
+    propagate_case: true
+    word: true
+  - trigger: "intelektuell"
+    replace: "intellektuell"
+    propagate_case: true
+    word: true
+  - trigger: "intenational"
+    replace: "international"
+    propagate_case: true
+    word: true
+  - trigger: "intepretiert"
+    replace: "interpretiert"
+    propagate_case: true
+    word: true
+  - trigger: "Interese"
+    replace: "Interesse"
+    propagate_case: true
+    word: true
+  - trigger: "interesiert"
+    replace: "interessiert"
+    propagate_case: true
+    word: true
+  - trigger: "Intergration"
+    replace: "Integration"
+    propagate_case: true
+    word: true
+  - trigger: "intergriert"
+    replace: "integriert"
+    propagate_case: true
+    word: true
+  - trigger: "Internetpräsens"
+    replace: "Internetpräsenz"
+    propagate_case: true
+    word: true
+  - trigger: "interresiert"
+    replace: "interessiert"
+    propagate_case: true
+    word: true
+  - trigger: "Interresse"
+    replace: "Interesse"
+    propagate_case: true
+    word: true
+  - trigger: "interressiert"
+    replace: "interessiert"
+    propagate_case: true
+    word: true
+  - trigger: "Intiative"
+    replace: "Initiative"
+    propagate_case: true
+    word: true
+  - trigger: "intressiert"
+    replace: "interessiert"
+    propagate_case: true
+    word: true
+  - trigger: "Intrument"
+    replace: "Instrument"
+    propagate_case: true
+    word: true
+  - trigger: "Inverstor"
+    replace: "Investor"
+    propagate_case: true
+    word: true
+  - trigger: "in wie weit"
+    replace: "inwieweit"
+    propagate_case: true
+    word: true
+  - trigger: "in wieweit"
+    replace: "inwieweit"
+    propagate_case: true
+    word: true
+  - trigger: "inwischen"
+    replace: "inzwischen"
+    propagate_case: true
+    word: true
+  - trigger: "irgend ein"
+    replace: "irgendein"
+    propagate_case: true
+    word: true
+  - trigger: "irgend eine"
+    replace: "irgendeine"
+    propagate_case: true
+    word: true
+  - trigger: "irgend einem"
+    replace: "irgendeinem"
+    propagate_case: true
+    word: true
+  - trigger: "irgend einen"
+    replace: "irgendeinen"
+    propagate_case: true
+    word: true
+  - trigger: "irgend einer"
+    replace: "irgendeiner"
+    propagate_case: true
+    word: true
+  - trigger: "irgend eines"
+    replace: "irgendeines"
+    propagate_case: true
+    word: true
+  - trigger: "irgentwie"
+    replace: "irgendwie"
+    propagate_case: true
+    word: true
+  - trigger: "irrtümlicher Weise"
+    replace: "irrtümlicherweise"
+    propagate_case: true
+    word: true
+  - trigger: "ist meis"
+    replace: "ist meist"
+    propagate_case: true
+    word: true
+  - trigger: "ist meisten"
+    replace: "ist meistens"
+    propagate_case: true
+    word: true
+  - trigger: "italenisch"
+    replace: "italienisch"
+    propagate_case: true
+    word: true
+  - trigger: "italiensch"
+    replace: "italienisch"
+    propagate_case: true
+    word: true
+  - trigger: "italiensich"
+    replace: "italienisch"
+    propagate_case: true
+    word: true
+  - trigger: "Jägerbatallion"
+    replace: "Jägerbataillon"
+    propagate_case: true
+    word: true
+  - trigger: "Jahhundert"
+    replace: "Jahrhundert"
+    propagate_case: true
+    word: true
+  - trigger: "Jahhunderte"
+    replace: "Jahrhunderte"
+    propagate_case: true
+    word: true
+  - trigger: "Jahhunderts"
+    replace: "Jahrhunderts"
+    propagate_case: true
+    word: true
+  - trigger: "des Jahre"
+    replace: "des Jahres"
+    propagate_case: true
+    word: true
+  - trigger: "Jahrhudert"
+    replace: "Jahrhundert"
+    propagate_case: true
+    word: true
+  - trigger: "Jahrhunder"
+    replace: "Jahrhundert"
+    propagate_case: true
+    word: true
+  - trigger: "Jahrundert"
+    replace: "Jahrhundert"
+    propagate_case: true
+    word: true
+  - trigger: "Jahrunderte"
+    replace: "Jahrhunderte"
+    propagate_case: true
+    word: true
+  - trigger: "Jahrunderts"
+    replace: "Jahrhunderts"
+    propagate_case: true
+    word: true
+  - trigger: "Jahrzent"
+    replace: "Jahrzehnt"
+    propagate_case: true
+    word: true
+  - trigger: "Jahrzente"
+    replace: "Jahrzehnte"
+    propagate_case: true
+    word: true
+  - trigger: "Jahundert"
+    replace: "Jahrhundert"
+    propagate_case: true
+    word: true
+  - trigger: "Jahunderte"
+    replace: "Jahrhunderte"
+    propagate_case: true
+    word: true
+  - trigger: "Jahunderts"
+    replace: "Jahrhunderts"
+    propagate_case: true
+    word: true
+  - trigger: "Jäner"
+    replace: "Jänner"
+    propagate_case: true
+    word: true
+  - trigger: "Janur"
+    replace: "Januar"
+    propagate_case: true
+    word: true
+  - trigger: "Jarh"
+    replace: "Jahr"
+    propagate_case: true
+    word: true
+  - trigger: "Jarhundert"
+    replace: "Jahrhundert"
+    propagate_case: true
+    word: true
+  - trigger: "Jarhunderte"
+    replace: "Jahrhunderte"
+    propagate_case: true
+    word: true
+  - trigger: "Jarhunderts"
+    replace: "Jahrhunderts"
+    propagate_case: true
+    word: true
+  - trigger: "jdoch"
+    replace: "jedoch"
+    propagate_case: true
+    word: true
+  - trigger: "jedch"
+    replace: "jedoch"
+    propagate_case: true
+    word: true
+  - trigger: "jeoch"
+    replace: "jedoch"
+    propagate_case: true
+    word: true
+  - trigger: "jeodch"
+    replace: "jedoch"
+    propagate_case: true
+    word: true
+  - trigger: "jeweil"
+    replace: "jeweils"
+    propagate_case: true
+    word: true
+  - trigger: "jeweis"
+    replace: "jeweils"
+    propagate_case: true
+    word: true
+  - trigger: "Jounalist"
+    replace: "Journalist"
+    propagate_case: true
+    word: true
+  - trigger: "Joyces"
+    replace: "Joyce’"
+    propagate_case: true
+    word: true
+  - trigger: "Jubiliäum"
+    replace: "Jubiläum"
+    propagate_case: true
+    word: true
+  - trigger: "Jungend"
+    replace: "Jugend"
+    propagate_case: true
+    word: true
+  - trigger: "Justitz"
+    replace: "Justiz"
+    propagate_case: true
+    word: true
+  - trigger: "Kabaret"
+    replace: "Kabarett"
+    propagate_case: true
+    word: true
+  - trigger: "Kaiserlautern"
+    replace: "Kaiserslautern"
+    propagate_case: true
+    word: true
+  - trigger: "Kandidad"
+    replace: "Kandidat"
+    propagate_case: true
+    word: true
+  - trigger: "Kanditat"
+    replace: "Kandidat"
+    propagate_case: true
+    word: true
+  - trigger: "Kappelle"
+    replace: "Kapelle"
+    propagate_case: true
+    word: true
+  - trigger: "Karierre"
+    replace: "Karriere"
+    propagate_case: true
+    word: true
+  - trigger: "Karrikaturist"
+    replace: "Karikaturist"
+    propagate_case: true
+    word: true
+  - trigger: "karrikieren"
+    replace: "karikieren"
+    propagate_case: true
+    word: true
+  - trigger: "Kasette"
+    replace: "Kassette"
+    propagate_case: true
+    word: true
+  - trigger: "kathegorisch"
+    replace: "kategorisch"
+    propagate_case: true
+    word: true
+  - trigger: "Kenntnise"
+    replace: "Kenntnis"
+    propagate_case: true
+    word: true
+  - trigger: "Kenntniss"
+    replace: "Kenntnis"
+    propagate_case: true
+    word: true
+  - trigger: "Kennzeichnug"
+    replace: "Kennzeichnung"
+    propagate_case: true
+    word: true
+  - trigger: "Kentnis"
+    replace: "Kenntnis"
+    propagate_case: true
+    word: true
+  - trigger: "Kentnisse"
+    replace: "Kenntnisse"
+    propagate_case: true
+    word: true
+  - trigger: "Kirchtum"
+    replace: "Kirchturm"
+    propagate_case: true
+    word: true
+  - trigger: "klassich"
+    replace: "klassisch"
+    propagate_case: true
+    word: true
+  - trigger: "klassiche"
+    replace: "klassische"
+    propagate_case: true
+    word: true
+  - trigger: "klassichen"
+    replace: "klassischen"
+    propagate_case: true
+    word: true
+  - trigger: "klassicher"
+    replace: "klassischer"
+    propagate_case: true
+    word: true
+  - trigger: "Klink"
+    replace: "Klinik"
+    propagate_case: true
+    word: true
+  - trigger: "des Kloster"
+    replace: "des Klosters"
+    propagate_case: true
+    word: true
+  - trigger: "km2"
+    replace: "km²"
+    propagate_case: true
+    word: true
+  - trigger: "kmh"
+    replace: "km/h"
+    propagate_case: true
+    word: true
+  - trigger: "Kofession"
+    replace: "Konfession"
+    propagate_case: true
+    word: true
+  - trigger: "Kollission"
+    replace: "Kollision"
+    propagate_case: true
+    word: true
+  - trigger: "Kollonade"
+    replace: "Kolonnade"
+    propagate_case: true
+    word: true
+  - trigger: "Komandant"
+    replace: "Kommandant"
+    propagate_case: true
+    word: true
+  - trigger: "Komandanten"
+    replace: "Kommandanten"
+    propagate_case: true
+    word: true
+  - trigger: "Komando"
+    replace: "Kommando"
+    propagate_case: true
+    word: true
+  - trigger: "Komandos"
+    replace: "Kommandos"
+    propagate_case: true
+    word: true
+  - trigger: "komerziell"
+    replace: "kommerziell"
+    propagate_case: true
+    word: true
+  - trigger: "Komissar"
+    replace: "Kommissar"
+    propagate_case: true
+    word: true
+  - trigger: "Komissariat"
+    replace: "Kommissariat"
+    propagate_case: true
+    word: true
+  - trigger: "komissarisch"
+    replace: "kommissarisch"
+    propagate_case: true
+    word: true
+  - trigger: "Komission"
+    replace: "Kommission"
+    propagate_case: true
+    word: true
+  - trigger: "komlett"
+    replace: "komplett"
+    propagate_case: true
+    word: true
+  - trigger: "Kommilitionen"
+    replace: "Kommilitonen"
+    propagate_case: true
+    word: true
+  - trigger: "Kommision"
+    replace: "Kommission"
+    propagate_case: true
+    word: true
+  - trigger: "Kommitee"
+    replace: "Komitee"
+    propagate_case: true
+    word: true
+  - trigger: "Kommittee"
+    replace: "Komitee"
+    propagate_case: true
+    word: true
+  - trigger: "kommmen"
+    replace: "kommen"
+    propagate_case: true
+    word: true
+  - trigger: "Kommunkation"
+    replace: "Kommunikation"
+    propagate_case: true
+    word: true
+  - trigger: "Kompentenz"
+    replace: "Kompetenz"
+    propagate_case: true
+    word: true
+  - trigger: "Könföderierte"
+    replace: "Konföderierte"
+    propagate_case: true
+    word: true
+  - trigger: "Konförderierte"
+    replace: "Konföderierte"
+    propagate_case: true
+    word: true
+  - trigger: "könglich"
+    replace: "königlich"
+    propagate_case: true
+    word: true
+  - trigger: "Köngreich"
+    replace: "Königreich"
+    propagate_case: true
+    word: true
+  - trigger: "Königsreich"
+    replace: "Königreich"
+    propagate_case: true
+    word: true
+  - trigger: "Königstum"
+    replace: "Königtum"
+    propagate_case: true
+    word: true
+  - trigger: "Konkurenz"
+    replace: "Konkurrenz"
+    propagate_case: true
+    word: true
+  - trigger: "konkurieren"
+    replace: "konkurrieren"
+    propagate_case: true
+    word: true
+  - trigger: "konkuriert"
+    replace: "konkurriert"
+    propagate_case: true
+    word: true
+  - trigger: "könnnen"
+    replace: "können"
+    propagate_case: true
+    word: true
+  - trigger: "könnnen"
+    replace: "Können"
+    propagate_case: true
+    word: true
+  - trigger: "Konservationslexikon"
+    replace: "Konversationslexikon"
+    propagate_case: true
+    word: true
+  - trigger: "Kontak"
+    replace: "Kontakt"
+    propagate_case: true
+    word: true
+  - trigger: "konte"
+    replace: "konnte"
+    propagate_case: true
+    word: true
+  - trigger: "Kontigent"
+    replace: "Kontingent"
+    propagate_case: true
+    word: true
+  - trigger: "konventionnell"
+    replace: "konventionell"
+    propagate_case: true
+    word: true
+  - trigger: "korregieren"
+    replace: "korrigieren"
+    propagate_case: true
+    word: true
+  - trigger: "korregiert"
+    replace: "korrigiert"
+    propagate_case: true
+    word: true
+  - trigger: "Krankeit"
+    replace: "Krankheit"
+    propagate_case: true
+    word: true
+  - trigger: "Krankenaus"
+    replace: "Krankenhaus"
+    propagate_case: true
+    word: true
+  - trigger: "Kreuzug"
+    replace: "Kreuzung"
+    propagate_case: true
+    word: true
+  - trigger: "Kreuzug"
+    replace: "Kreuzzug"
+    propagate_case: true
+    word: true
+  - trigger: "Kriche"
+    replace: "Kirche"
+    propagate_case: true
+    word: true
+  - trigger: "Kriegschiff"
+    replace: "Kriegsschiff"
+    propagate_case: true
+    word: true
+  - trigger: "kummulieren"
+    replace: "kumulieren"
+    propagate_case: true
+    word: true
+  - trigger: "Kunsstoff"
+    replace: "Kunststoff"
+    propagate_case: true
+    word: true
+  - trigger: "Kunstaustellung"
+    replace: "Kunstausstellung"
+    propagate_case: true
+    word: true
+  - trigger: "Kunstoff"
+    replace: "Kunststoff"
+    propagate_case: true
+    word: true
+  - trigger: "Kunstoffe"
+    replace: "Kunststoffe"
+    propagate_case: true
+    word: true
+  - trigger: "Kurfüst"
+    replace: "Kurfürst"
+    propagate_case: true
+    word: true
+  - trigger: "kurzeitig"
+    replace: "kurzzeitig"
+    propagate_case: true
+    word: true
+  - trigger: "läd"
+    replace: "lädt"
+    propagate_case: true
+    word: true
+  - trigger: "Landesaustellung"
+    replace: "Landesausstellung"
+    propagate_case: true
+    word: true
+  - trigger: "Landesprache"
+    replace: "Landessprache"
+    propagate_case: true
+    word: true
+  - trigger: "Landwirschaft"
+    replace: "Landwirtschaft"
+    propagate_case: true
+    word: true
+  - trigger: "landwirschaftlich"
+    replace: "landwirtschaftlich"
+    propagate_case: true
+    word: true
+  - trigger: "langläufig"
+    replace: "landläufig"
+    propagate_case: true
+    word: true
+  - trigger: "Lapalie"
+    replace: "Lappalie"
+    propagate_case: true
+    word: true
+  - trigger: "Lassithi"
+    replace: "Lasithi"
+    propagate_case: true
+    word: true
+  - trigger: "läst"
+    replace: "lässt"
+    propagate_case: true
+    word: true
+  - trigger: "lateinsch"
+    replace: "lateinisch"
+    propagate_case: true
+    word: true
+  - trigger: "lateinsche"
+    replace: "lateinische"
+    propagate_case: true
+    word: true
+  - trigger: "lateinschen"
+    replace: "lateinischen"
+    propagate_case: true
+    word: true
+  - trigger: "lateinscher"
+    replace: "lateinischer"
+    propagate_case: true
+    word: true
+  - trigger: "lateinsches"
+    replace: "lateinisches"
+    propagate_case: true
+    word: true
+  - trigger: "Lebenstil"
+    replace: "Lebensstil"
+    propagate_case: true
+    word: true
+  - trigger: "Lebenweise"
+    replace: "Lebensweise"
+    propagate_case: true
+    word: true
+  - trigger: "legänder"
+    replace: "legendär"
+    propagate_case: true
+    word: true
+  - trigger: "Leibzig"
+    replace: "Leipzig"
+    propagate_case: true
+    word: true
+  - trigger: "Leichathlet"
+    replace: "Leichtathlet"
+    propagate_case: true
+    word: true
+  - trigger: "Leichnahm"
+    replace: "Leichnam"
+    propagate_case: true
+    word: true
+  - trigger: "letze"
+    replace: "letzte"
+    propagate_case: true
+    word: true
+  - trigger: "letzem"
+    replace: "letztem"
+    propagate_case: true
+    word: true
+  - trigger: "letzen"
+    replace: "letzten"
+    propagate_case: true
+    word: true
+  - trigger: "letzendlich"
+    replace: "letztendlich"
+    propagate_case: true
+    word: true
+  - trigger: "letzer"
+    replace: "letzter"
+    propagate_case: true
+    word: true
+  - trigger: "letzere"
+    replace: "letztere"
+    propagate_case: true
+    word: true
+  - trigger: "letzerem"
+    replace: "letzterem"
+    propagate_case: true
+    word: true
+  - trigger: "letzeren"
+    replace: "letzteren"
+    propagate_case: true
+    word: true
+  - trigger: "letzerer"
+    replace: "letzterer"
+    propagate_case: true
+    word: true
+  - trigger: "letzeres"
+    replace: "letzteres"
+    propagate_case: true
+    word: true
+  - trigger: "letzes"
+    replace: "letztes"
+    propagate_case: true
+    word: true
+  - trigger: "letzlich"
+    replace: "letztlich"
+    propagate_case: true
+    word: true
+  - trigger: "letztenendes"
+    replace: "letzten Endes"
+    propagate_case: true
+    word: true
+  - trigger: "Lexikas"
+    replace: "Lexika"
+    propagate_case: true
+    word: true
+  - trigger: "Liason"
+    replace: "Liaison"
+    propagate_case: true
+    word: true
+  - trigger: "liess"
+    replace: "ließ"
+    propagate_case: true
+    word: true
+  - trigger: "liesse"
+    replace: "ließe"
+    propagate_case: true
+    word: true
+  - trigger: "liessen"
+    replace: "ließen"
+    propagate_case: true
+    word: true
+  - trigger: "ließt"
+    replace: "er/sie/es liest; ließ; fließt"
+    propagate_case: true
+    word: true
+  - trigger: "Lilliputaner"
+    replace: "Liliputaner"
+    propagate_case: true
+    word: true
+  - trigger: "literaisch"
+    replace: "literarisch"
+    propagate_case: true
+    word: true
+  - trigger: "literatisch"
+    replace: "literarisch"
+    propagate_case: true
+    word: true
+  - trigger: "lizensieren"
+    replace: "lizenzieren"
+    propagate_case: true
+    word: true
+  - trigger: "lizensiert"
+    replace: "lizenziert"
+    propagate_case: true
+    word: true
+  - trigger: "lizensierte"
+    replace: "lizenzierte"
+    propagate_case: true
+    word: true
+  - trigger: "lizensiertem"
+    replace: "lizenziertem"
+    propagate_case: true
+    word: true
+  - trigger: "lizensierten"
+    replace: "lizenzierten"
+    propagate_case: true
+    word: true
+  - trigger: "lizensierter"
+    replace: "lizenzierter"
+    propagate_case: true
+    word: true
+  - trigger: "lizensiertes"
+    replace: "lizenziertes"
+    propagate_case: true
+    word: true
+  - trigger: "Lizensierung"
+    replace: "Lizenzierung"
+    propagate_case: true
+    word: true
+  - trigger: "los zu werden"
+    replace: "loszuwerden"
+    propagate_case: true
+    word: true
+  - trigger: "Louisana"
+    replace: "Louisiana"
+    propagate_case: true
+    word: true
+  - trigger: "Lousiana"
+    replace: "Louisiana"
+    propagate_case: true
+    word: true
+  - trigger: "Luwig"
+    replace: "Ludwig"
+    propagate_case: true
+    word: true
+  - trigger: "Lybien"
+    replace: "Libyen"
+    propagate_case: true
+    word: true
+  - trigger: "lybisch"
+    replace: "libysch"
+    propagate_case: true
+    word: true
+  - trigger: "lybische"
+    replace: "libysche"
+    propagate_case: true
+    word: true
+  - trigger: "lybischem"
+    replace: "libyschem"
+    propagate_case: true
+    word: true
+  - trigger: "lybischen"
+    replace: "libyschen"
+    propagate_case: true
+    word: true
+  - trigger: "lybischer"
+    replace: "libyscher"
+    propagate_case: true
+    word: true
+  - trigger: "lybisches"
+    replace: "libysches"
+    propagate_case: true
+    word: true
+  - trigger: "machmal"
+    replace: "manchmal"
+    propagate_case: true
+    word: true
+  - trigger: "Manhatan"
+    replace: "Manhattan"
+    propagate_case: true
+    word: true
+  - trigger: "Manhatta"
+    replace: "Manhattan"
+    propagate_case: true
+    word: true
+  - trigger: "Manhatten"
+    replace: "Manhattan"
+    propagate_case: true
+    word: true
+  - trigger: "Manhetten"
+    replace: "Manhattan"
+    propagate_case: true
+    word: true
+  - trigger: "Manschaft"
+    replace: "Mannschaft"
+    propagate_case: true
+    word: true
+  - trigger: "Manmschaft"
+    replace: "Mannschaft"
+    propagate_case: true
+    word: true
+  - trigger: "Mannhattan"
+    replace: "Manhattan"
+    propagate_case: true
+    word: true
+  - trigger: "Mannöver"
+    replace: "Manöver"
+    propagate_case: true
+    word: true
+  - trigger: "Mannschaf"
+    replace: "Mannschaft"
+    propagate_case: true
+    word: true
+  - trigger: "Mannschaftt"
+    replace: "Mannschaft"
+    propagate_case: true
+    word: true
+  - trigger: "Mannshcaft"
+    replace: "Mannschaft"
+    propagate_case: true
+    word: true
+  - trigger: "Mansardach"
+    replace: "Mansarddach"
+    propagate_case: true
+    word: true
+  - trigger: "Mansardendach"
+    replace: "Mansarddach"
+    propagate_case: true
+    word: true
+  - trigger: "Mansnchaften"
+    replace: "Mannschaft"
+    propagate_case: true
+    word: true
+  - trigger: "Manssarddach"
+    replace: "Mansarddach"
+    propagate_case: true
+    word: true
+  - trigger: "marrokanisch"
+    replace: "marokkanisch"
+    propagate_case: true
+    word: true
+  - trigger: "marrokkanisch"
+    replace: "marokkanisch"
+    propagate_case: true
+    word: true
+  - trigger: "Marrokko"
+    replace: "Marokko"
+    propagate_case: true
+    word: true
+  - trigger: "Marroko"
+    replace: "Marokko"
+    propagate_case: true
+    word: true
+  - trigger: "Marylin"
+    replace: "meist Marilyn"
+    propagate_case: true
+    word: true
+  - trigger: "Marytrium"
+    replace: "Martyrium"
+    propagate_case: true
+    word: true
+  - trigger: "Märtyrium"
+    replace: "Martyrium"
+    propagate_case: true
+    word: true
+  - trigger: "Maschiene"
+    replace: "Maschine"
+    propagate_case: true
+    word: true
+  - trigger: "Maschienen"
+    replace: "Maschinen"
+    propagate_case: true
+    word: true
+  - trigger: "mässig"
+    replace: "mäßig"
+    propagate_case: true
+    word: true
+  - trigger: "mässige"
+    replace: "mäßige"
+    propagate_case: true
+    word: true
+  - trigger: "mässigem"
+    replace: "mäßigem"
+    propagate_case: true
+    word: true
+  - trigger: "mässigen"
+    replace: "mäßigen"
+    propagate_case: true
+    word: true
+  - trigger: "mässiger"
+    replace: "mäßiger"
+    propagate_case: true
+    word: true
+  - trigger: "mässiges"
+    replace: "mäßiges"
+    propagate_case: true
+    word: true
+  - trigger: "Mass"
+    replace: "Maß"
+    propagate_case: true
+    word: true
+  - trigger: "Massgabe"
+    replace: "Maßgabe"
+    propagate_case: true
+    word: true
+  - trigger: "Massgaben"
+    replace: "Maßgaben"
+    propagate_case: true
+    word: true
+  - trigger: "massgebend"
+    replace: "maßgebend"
+    propagate_case: true
+    word: true
+  - trigger: "massgebende"
+    replace: "maßgebende"
+    propagate_case: true
+    word: true
+  - trigger: "massgebendem"
+    replace: "maßgebendem"
+    propagate_case: true
+    word: true
+  - trigger: "massgebenden"
+    replace: "maßgebenden"
+    propagate_case: true
+    word: true
+  - trigger: "massgebender"
+    replace: "maßgebender"
+    propagate_case: true
+    word: true
+  - trigger: "massgebendes"
+    replace: "maßgebendes"
+    propagate_case: true
+    word: true
+  - trigger: "massgeblich"
+    replace: "maßgeblich"
+    propagate_case: true
+    word: true
+  - trigger: "massgebliche"
+    replace: "maßgebliche"
+    propagate_case: true
+    word: true
+  - trigger: "massgeblichem"
+    replace: "maßgeblichem"
+    propagate_case: true
+    word: true
+  - trigger: "massgeblichen"
+    replace: "maßgeblichen"
+    propagate_case: true
+    word: true
+  - trigger: "massgeblicher"
+    replace: "maßgeblicher"
+    propagate_case: true
+    word: true
+  - trigger: "massgebliches"
+    replace: "maßgebliches"
+    propagate_case: true
+    word: true
+  - trigger: "masslos"
+    replace: "maßlos"
+    propagate_case: true
+    word: true
+  - trigger: "masslose"
+    replace: "maßlose"
+    propagate_case: true
+    word: true
+  - trigger: "masslosen"
+    replace: "maßlosen"
+    propagate_case: true
+    word: true
+  - trigger: "massloser"
+    replace: "maßloser"
+    propagate_case: true
+    word: true
+  - trigger: "massloses"
+    replace: "maßloses"
+    propagate_case: true
+    word: true
+  - trigger: "Massnahme"
+    replace: "Maßnahme"
+    propagate_case: true
+    word: true
+  - trigger: "Massnahmen"
+    replace: "Maßnahmen"
+    propagate_case: true
+    word: true
+  - trigger: "Matraze"
+    replace: "Matratze"
+    propagate_case: true
+    word: true
+  - trigger: "Matritze"
+    replace: "Matrize"
+    propagate_case: true
+    word: true
+  - trigger: "Matritze"
+    replace: "Matrix"
+    propagate_case: true
+    word: true
+  - trigger: "Maximillian"
+    replace: "meist Maximilian"
+    propagate_case: true
+    word: true
+  - trigger: "Medailie"
+    replace: "Medaille"
+    propagate_case: true
+    word: true
+  - trigger: "Medaillie"
+    replace: "Medaille"
+    propagate_case: true
+    word: true
+  - trigger: "Medailliengewinner"
+    replace: "Medaillengewinner"
+    propagate_case: true
+    word: true
+  - trigger: "Medailliengewinnerin"
+    replace: "Medaillengewinnerin"
+    propagate_case: true
+    word: true
+  - trigger: "Medallie"
+    replace: "Medaille"
+    propagate_case: true
+    word: true
+  - trigger: "Medalliengewinner"
+    replace: "Medaillengewinner"
+    propagate_case: true
+    word: true
+  - trigger: "Medalliengewinnerin"
+    replace: "Medaillengewinnerin"
+    propagate_case: true
+    word: true
+  - trigger: "medizinsch"
+    replace: "medizinisch"
+    propagate_case: true
+    word: true
+  - trigger: "medizisch"
+    replace: "medizinisch"
+    propagate_case: true
+    word: true
+  - trigger: "medizische"
+    replace: "medizinische"
+    propagate_case: true
+    word: true
+  - trigger: "medizischem"
+    replace: "medizinischem"
+    propagate_case: true
+    word: true
+  - trigger: "medizischen"
+    replace: "medizinischen"
+    propagate_case: true
+    word: true
+  - trigger: "medizischer"
+    replace: "medizinischer"
+    propagate_case: true
+    word: true
+  - trigger: "medizisches"
+    replace: "medizinisches"
+    propagate_case: true
+    word: true
+  - trigger: "Meerespiegel"
+    replace: "Meeresspiegel"
+    propagate_case: true
+    word: true
+  - trigger: "Meeresspegel"
+    replace: "Meeresspiegel"
+    propagate_case: true
+    word: true
+  - trigger: "mehere"
+    replace: "mehrere"
+    propagate_case: true
+    word: true
+  - trigger: "meheren"
+    replace: "mehreren"
+    propagate_case: true
+    word: true
+  - trigger: "meherer"
+    replace: "mehrerer"
+    propagate_case: true
+    word: true
+  - trigger: "mehre"
+    replace: "meist mehrere"
+    propagate_case: true
+    word: true
+  - trigger: "mehren"
+    replace: "gelegentlich mehreren"
+    propagate_case: true
+    word: true
+  - trigger: "mehrer"
+    replace: "häufig mehrerer"
+    propagate_case: true
+    word: true
+  - trigger: "mehrer"
+    replace: "mehrere"
+    propagate_case: true
+    word: true
+  - trigger: "mehrerere"
+    replace: "mehrere"
+    propagate_case: true
+    word: true
+  - trigger: "mehrtätige"
+    replace: "mehrtägige"
+    propagate_case: true
+    word: true
+  - trigger: "meisst"
+    replace: "meist"
+    propagate_case: true
+    word: true
+  - trigger: "meißt"
+    replace: "meist"
+    propagate_case: true
+    word: true
+  - trigger: "meißten"
+    replace: "meisten"
+    propagate_case: true
+    word: true
+  - trigger: "meißtens"
+    replace: "meistens"
+    propagate_case: true
+    word: true
+  - trigger: "meistbesuchtesten"
+    replace: "meistbesuchten"
+    propagate_case: true
+    word: true
+  - trigger: "meist gelesene"
+    replace: "meistgelesene"
+    propagate_case: true
+    word: true
+  - trigger: "meist gesehene"
+    replace: "meistgesehene"
+    propagate_case: true
+    word: true
+  - trigger: "meist gesuchte"
+    replace: "meistgesuchte"
+    propagate_case: true
+    word: true
+  - trigger: "meits"
+    replace: "meist"
+    propagate_case: true
+    word: true
+  - trigger: "mengemässig"
+    replace: "mengenmäßig"
+    propagate_case: true
+    word: true
+  - trigger: "mengenmässig"
+    replace: "mengenmäßig"
+    propagate_case: true
+    word: true
+  - trigger: "Mensche"
+    replace: "Menschen"
+    propagate_case: true
+    word: true
+  - trigger: "Menscheit"
+    replace: "Menschheit"
+    propagate_case: true
+    word: true
+  - trigger: "Menschens"
+    replace: "Menschen"
+    propagate_case: true
+    word: true
+  - trigger: "Meßgerät"
+    replace: "Messgerät"
+    propagate_case: true
+    word: true
+  - trigger: "Meßgeräte"
+    replace: "Messgeräte"
+    propagate_case: true
+    word: true
+  - trigger: "Messystem"
+    replace: "Messsystem"
+    propagate_case: true
+    word: true
+  - trigger: "Meßsystem"
+    replace: "Messsystem"
+    propagate_case: true
+    word: true
+  - trigger: "Metallegierung"
+    replace: "Metalllegierung"
+    propagate_case: true
+    word: true
+  - trigger: "Metereologe"
+    replace: "Meteorologe"
+    propagate_case: true
+    word: true
+  - trigger: "Metereologie"
+    replace: "Meteorologie"
+    propagate_case: true
+    word: true
+  - trigger: "metereologisch"
+    replace: "meteorologisch"
+    propagate_case: true
+    word: true
+  - trigger: "Meterologie"
+    replace: "Meteorologie"
+    propagate_case: true
+    word: true
+  - trigger: "meterologisch"
+    replace: "meteorologisch"
+    propagate_case: true
+    word: true
+  - trigger: "Mettal"
+    replace: "Metall"
+    propagate_case: true
+    word: true
+  - trigger: "mhd"
+    replace: "mittelhochdeutsch"
+    propagate_case: true
+    word: true
+  - trigger: "Micheal"
+    replace: "meist Michael"
+    propagate_case: true
+    word: true
+  - trigger: "Miglied"
+    replace: "Mitglied"
+    propagate_case: true
+    word: true
+  - trigger: "Milionen"
+    replace: "Millionen"
+    propagate_case: true
+    word: true
+  - trigger: "Militärdikatur"
+    replace: "Militärdiktatur"
+    propagate_case: true
+    word: true
+  - trigger: "Millarde"
+    replace: "Milliarde"
+    propagate_case: true
+    word: true
+  - trigger: "Millarden"
+    replace: "Milliarden"
+    propagate_case: true
+    word: true
+  - trigger: "Millenium"
+    replace: "Millennium"
+    propagate_case: true
+    word: true
+  - trigger: "Millione"
+    replace: "Millionen"
+    propagate_case: true
+    word: true
+  - trigger: "Millitär"
+    replace: "Militär"
+    propagate_case: true
+    word: true
+  - trigger: "millitärisch"
+    replace: "militärisch"
+    propagate_case: true
+    word: true
+  - trigger: "eine Millionen"
+    replace: "eine Million"
+    propagate_case: true
+    word: true
+  - trigger: "Millon"
+    replace: "Million"
+    propagate_case: true
+    word: true
+  - trigger: "Millonen"
+    replace: "Millionen"
+    propagate_case: true
+    word: true
+  - trigger: "Miltär"
+    replace: "Militär"
+    propagate_case: true
+    word: true
+  - trigger: "miltärisch"
+    replace: "militärisch"
+    propagate_case: true
+    word: true
+  - trigger: "Miltitär"
+    replace: "Militär"
+    propagate_case: true
+    word: true
+  - trigger: "miltitärisch"
+    replace: "militärisch"
+    propagate_case: true
+    word: true
+  - trigger: "minimalste"
+    replace: "minimale"
+    propagate_case: true
+    word: true
+  - trigger: "minimalster"
+    replace: "minimaler"
+    propagate_case: true
+    word: true
+  - trigger: "minimalstes"
+    replace: "minimales"
+    propagate_case: true
+    word: true
+  - trigger: "Ministerpäsident"
+    replace: "Ministerpräsident"
+    propagate_case: true
+    word: true
+  - trigger: "mit einander"
+    replace: "miteinander"
+    propagate_case: true
+    word: true
+  - trigger: "Mitgleid"
+    replace: "Mitglied"
+    propagate_case: true
+    word: true
+  - trigger: "mitlerweile"
+    replace: "mittlerweile"
+    propagate_case: true
+    word: true
+  - trigger: "mittlerweilen"
+    replace: "mittlerweile"
+    propagate_case: true
+    word: true
+  - trigger: "Mitlgiled"
+    replace: "Mitglied"
+    propagate_case: true
+    word: true
+  - trigger: "Mitlied"
+    replace: "Mitglied"
+    propagate_case: true
+    word: true
+  - trigger: "mit samt"
+    replace: "mitsamt"
+    propagate_case: true
+    word: true
+  - trigger: "Mittelater"
+    replace: "Mittelalter"
+    propagate_case: true
+    word: true
+  - trigger: "mittelaterlich"
+    replace: "mittelalterlich"
+    propagate_case: true
+    word: true
+  - trigger: "mittelständige"
+    replace: "mittelständische"
+    propagate_case: true
+    word: true
+  - trigger: "mittelständigen"
+    replace: "mittelständischen"
+    propagate_case: true
+    word: true
+  - trigger: "mittelständiger"
+    replace: "mittelständischer"
+    propagate_case: true
+    word: true
+  - trigger: "mittelständiges"
+    replace: "mittelständisches"
+    propagate_case: true
+    word: true
+  - trigger: "Mitteralter"
+    replace: "Mittelalter"
+    propagate_case: true
+    word: true
+  - trigger: "mitteralterlich"
+    replace: "mittelalterlich"
+    propagate_case: true
+    word: true
+  - trigger: "Mitterand"
+    replace: "Mitterrand"
+    propagate_case: true
+    word: true
+  - trigger: "Mittglied"
+    replace: "Mitglied"
+    propagate_case: true
+    word: true
+  - trigger: "Mittschnitt"
+    replace: "Mitschnitt"
+    propagate_case: true
+    word: true
+  - trigger: "mnachmal"
+    replace: "manchmal"
+    propagate_case: true
+    word: true
+  - trigger: "Mobiletelefon"
+    replace: "Mobiltelefon"
+    propagate_case: true
+    word: true
+  - trigger: "moeglich"
+    replace: "möglich"
+    propagate_case: true
+    word: true
+  - trigger: "moegliche"
+    replace: "mögliche"
+    propagate_case: true
+    word: true
+  - trigger: "moeglichen"
+    replace: "möglichen"
+    propagate_case: true
+    word: true
+  - trigger: "moeglicher"
+    replace: "möglicher"
+    propagate_case: true
+    word: true
+  - trigger: "moegliches"
+    replace: "mögliches"
+    propagate_case: true
+    word: true
+  - trigger: "möglicht"
+    replace: "möglich"
+    propagate_case: true
+    word: true
+  - trigger: "möglicht"
+    replace: "möglichst"
+    propagate_case: true
+    word: true
+  - trigger: "mordern"
+    replace: "modern"
+    propagate_case: true
+    word: true
+  - trigger: "morderne"
+    replace: "moderne"
+    propagate_case: true
+    word: true
+  - trigger: "mordernen"
+    replace: "modernen"
+    propagate_case: true
+    word: true
+  - trigger: "morderner"
+    replace: "moderner"
+    propagate_case: true
+    word: true
+  - trigger: "mordernes"
+    replace: "modernes"
+    propagate_case: true
+    word: true
+  - trigger: "morgentlich"
+    replace: "morgendlich"
+    propagate_case: true
+    word: true
+  - trigger: "morgends"
+    replace: "morgens"
+    propagate_case: true
+    word: true
+  - trigger: "muß"
+    replace: "muss"
+    propagate_case: true
+    word: true
+  - trigger: "mußte"
+    replace: "musste"
+    propagate_case: true
+    word: true
+  - trigger: "mußten"
+    replace: "mussten"
+    propagate_case: true
+    word: true
+  - trigger: "Museeum"
+    replace: "Museum"
+    propagate_case: true
+    word: true
+  - trigger: "mutmasslich"
+    replace: "mutmaßlich"
+    propagate_case: true
+    word: true
+  - trigger: "mutmassliche"
+    replace: "mutmaßliche"
+    propagate_case: true
+    word: true
+  - trigger: "mutmasslichem"
+    replace: "mutmaßlichem"
+    propagate_case: true
+    word: true
+  - trigger: "mutmasslichen"
+    replace: "mutmaßlichen"
+    propagate_case: true
+    word: true
+  - trigger: "mutmasslicher"
+    replace: "mutmaßlicher"
+    propagate_case: true
+    word: true
+  - trigger: "mutmassliches"
+    replace: "mutmaßliches"
+    propagate_case: true
+    word: true
+  - trigger: "nachdem Krieg"
+    replace: "nach dem Krieg"
+    propagate_case: true
+    word: true
+  - trigger: "Nachkommens"
+    replace: "Nachkommen"
+    propagate_case: true
+    word: true
+  - trigger: "nächst gelegene"
+    replace: "nächstgelegene"
+    propagate_case: true
+    word: true
+  - trigger: "nächst größere"
+    replace: "nächstgrößere"
+    propagate_case: true
+    word: true
+  - trigger: "nächst höhere"
+    replace: "nächsthöhere"
+    propagate_case: true
+    word: true
+  - trigger: "nächst kleinere"
+    replace: "nächstkleinere"
+    propagate_case: true
+    word: true
+  - trigger: "nächst niedrigere"
+    replace: "nächstniedrigere"
+    propagate_case: true
+    word: true
+  - trigger: "nächst tiefere"
+    replace: "nächsttiefere"
+    propagate_case: true
+    word: true
+  - trigger: "Nahaufname"
+    replace: "Nahaufnahme"
+    propagate_case: true
+    word: true
+  - trigger: "nahegelegenste"
+    replace: "nächstgelegene"
+    propagate_case: true
+    word: true
+  - trigger: "naheste"
+    replace: "nächste"
+    propagate_case: true
+    word: true
+  - trigger: "nahesten"
+    replace: "nächsten"
+    propagate_case: true
+    word: true
+  - trigger: "nähmlich"
+    replace: "nämlich - besser ganz darauf verzichten"
+    propagate_case: true
+    word: true
+  - trigger: "namenlich"
+    replace: "namentlich"
+    propagate_case: true
+    word: true
+  - trigger: "namenslos"
+    replace: "namenlos"
+    propagate_case: true
+    word: true
+  - trigger: "des Names"
+    replace: "des Namens"
+    propagate_case: true
+    word: true
+  - trigger: "Namne"
+    replace: "Namen"
+    propagate_case: true
+    word: true
+  - trigger: "narzistisch"
+    replace: "narzisstisch"
+    propagate_case: true
+    word: true
+  - trigger: "Natiomnal"
+    replace: "National"
+    propagate_case: true
+    word: true
+  - trigger: "Nazionalsoz"
+    replace: "Nationalsoz"
+    propagate_case: true
+    word: true
+  - trigger: "nciht"
+    replace: "nicht"
+    propagate_case: true
+    word: true
+  - trigger: "Nervösität"
+    replace: "Nervosität"
+    propagate_case: true
+    word: true
+  - trigger: "nich"
+    replace: "nicht"
+    propagate_case: true
+    word: true
+  - trigger: "die Niederlanden"
+    replace: "die Niederlande"
+    propagate_case: true
+    word: true
+  - trigger: "niedersächisch"
+    replace: "niedersächsisch"
+    propagate_case: true
+    word: true
+  - trigger: "niedersächsiche"
+    replace: "niedersächsische"
+    propagate_case: true
+    word: true
+  - trigger: "niedersächsichen"
+    replace: "niedersächsischen"
+    propagate_case: true
+    word: true
+  - trigger: "niedrieg"
+    replace: "niedrig"
+    propagate_case: true
+    word: true
+  - trigger: "Niesche"
+    replace: "Nische"
+    propagate_case: true
+    word: true
+  - trigger: "nihct"
+    replace: "nicht"
+    propagate_case: true
+    word: true
+  - trigger: "nix"
+    replace: "nichts"
+    propagate_case: true
+    word: true
+  - trigger: "nocheinmal"
+    replace: "noch einmal"
+    propagate_case: true
+    word: true
+  - trigger: "nordeutsch"
+    replace: "norddeutsch"
+    propagate_case: true
+    word: true
+  - trigger: "Nordeutschland"
+    replace: "Norddeutschland"
+    propagate_case: true
+    word: true
+  - trigger: "nordlich"
+    replace: "nördlich"
+    propagate_case: true
+    word: true
+  - trigger: "nördöstlich"
+    replace: "nordöstlich"
+    propagate_case: true
+    word: true
+  - trigger: "nördwestlich"
+    replace: "nordwestlich"
+    propagate_case: true
+    word: true
+  - trigger: "normanisch"
+    replace: "normannisch"
+    propagate_case: true
+    word: true
+  - trigger: "notwenig"
+    replace: "notwendig"
+    propagate_case: true
+    word: true
+  - trigger: "numehr"
+    replace: "nunmehr"
+    propagate_case: true
+    word: true
+  - trigger: "Numerus Clausus"
+    replace: "Numerus clausus"
+    propagate_case: true
+    word: true
+  - trigger: "objekiv"
+    replace: "objektiv"
+    propagate_case: true
+    word: true
+  - trigger: "obrige"
+    replace: "obige"
+    propagate_case: true
+    word: true
+  - trigger: "obrigen"
+    replace: "obigen"
+    propagate_case: true
+    word: true
+  - trigger: "obriger"
+    replace: "obiger"
+    propagate_case: true
+    word: true
+  - trigger: "offizell"
+    replace: "offiziell"
+    propagate_case: true
+    word: true
+  - trigger: "Offizer"
+    replace: "Offizier"
+    propagate_case: true
+    word: true
+  - trigger: "offiziel"
+    replace: "offiziell"
+    propagate_case: true
+    word: true
+  - trigger: "offiziele"
+    replace: "offizielle"
+    propagate_case: true
+    word: true
+  - trigger: "offziell"
+    replace: "offiziell"
+    propagate_case: true
+    word: true
+  - trigger: "offzielle"
+    replace: "offizielle"
+    propagate_case: true
+    word: true
+  - trigger: "ofiziell"
+    replace: "offiziell"
+    propagate_case: true
+    word: true
+  - trigger: "Olympiamedaillie"
+    replace: "Olympiamedaille"
+    propagate_case: true
+    word: true
+  - trigger: "Olympiamedallie"
+    replace: "Olympiamedaille"
+    propagate_case: true
+    word: true
+  - trigger: "Olympische Bronzemedaille"
+    replace: "olympische Bronzemedaille"
+    propagate_case: true
+    word: true
+  - trigger: "Olympische Goldmedaille"
+    replace: "olympische Goldmedaille"
+    propagate_case: true
+    word: true
+  - trigger: "Olympische Silbermedaille"
+    replace: "olympische Silbermedaille"
+    propagate_case: true
+    word: true
+  - trigger: "Omlett"
+    replace: "Omelett"
+    propagate_case: true
+    word: true
+  - trigger: "optimalste"
+    replace: "optimale"
+    propagate_case: true
+    word: true
+  - trigger: "optimalster"
+    replace: "optimaler"
+    propagate_case: true
+    word: true
+  - trigger: "optimalstes"
+    replace: "optimales"
+    propagate_case: true
+    word: true
+  - trigger: "Ordnug"
+    replace: "Ordnung"
+    propagate_case: true
+    word: true
+  - trigger: "Ordung"
+    replace: "Ordnung"
+    propagate_case: true
+    word: true
+  - trigger: "Orgeon"
+    replace: "Oregon"
+    propagate_case: true
+    word: true
+  - trigger: "Organistion"
+    replace: "Organisation"
+    propagate_case: true
+    word: true
+  - trigger: "Organsiation"
+    replace: "Organisation"
+    propagate_case: true
+    word: true
+  - trigger: "organsich"
+    replace: "organisch"
+    propagate_case: true
+    word: true
+  - trigger: "Organsisation"
+    replace: "Organisation"
+    propagate_case: true
+    word: true
+  - trigger: "organisert"
+    replace: "organisiert"
+    propagate_case: true
+    word: true
+  - trigger: "orginal"
+    replace: "original"
+    propagate_case: true
+    word: true
+  - trigger: "orginale"
+    replace: "originale"
+    propagate_case: true
+    word: true
+  - trigger: "orginalen"
+    replace: "originalen"
+    propagate_case: true
+    word: true
+  - trigger: "orginell"
+    replace: "originell"
+    propagate_case: true
+    word: true
+  - trigger: "orignal"
+    replace: "original"
+    propagate_case: true
+    word: true
+  - trigger: "orignell"
+    replace: "originell"
+    propagate_case: true
+    word: true
+  - trigger: "Orsteil"
+    replace: "Ortsteil"
+    propagate_case: true
+    word: true
+  - trigger: "Orsteile"
+    replace: "Ortsteile"
+    propagate_case: true
+    word: true
+  - trigger: "Ortteil"
+    replace: "Ortsteil"
+    propagate_case: true
+    word: true
+  - trigger: "ouml"
+    replace: "Ö/ö"
+    propagate_case: true
+    word: true
+  - trigger: "Overtüre"
+    replace: "Ouvertüre"
+    propagate_case: true
+    word: true
+  - trigger: "öffenlich"
+    replace: "öffentlich"
+    propagate_case: true
+    word: true
+  - trigger: "Ökö"
+    replace: "Öko"
+    propagate_case: true
+    word: true
+  - trigger: "Östereich"
+    replace: "Österreich"
+    propagate_case: true
+    word: true
+  - trigger: "Österrreich"
+    replace: "Österreich"
+    propagate_case: true
+    word: true
+  - trigger: "Österreisch"
+    replace: "Österreich"
+    propagate_case: true
+    word: true
+  - trigger: "östereichisch"
+    replace: "österreichisch"
+    propagate_case: true
+    word: true
+  - trigger: "österreichich"
+    replace: "österreichisch"
+    propagate_case: true
+    word: true
+  - trigger: "Packet"
+    replace: "Paket"
+    propagate_case: true
+    word: true
+  - trigger: "palästinesisch"
+    replace: "palästinensisch"
+    propagate_case: true
+    word: true
+  - trigger: "Palete"
+    replace: "Palette"
+    propagate_case: true
+    word: true
+  - trigger: "Paleten"
+    replace: "Paletten"
+    propagate_case: true
+    word: true
+  - trigger: "Pallete"
+    replace: "Palette"
+    propagate_case: true
+    word: true
+  - trigger: "Palleten"
+    replace: "Paletten"
+    propagate_case: true
+    word: true
+  - trigger: "Pallette"
+    replace: "Palette"
+    propagate_case: true
+    word: true
+  - trigger: "Palletten"
+    replace: "Paletten"
+    propagate_case: true
+    word: true
+  - trigger: "paralell"
+    replace: "parallel"
+    propagate_case: true
+    word: true
+  - trigger: "Parcour"
+    replace: "Parcours"
+    propagate_case: true
+    word: true
+  - trigger: "parralel"
+    replace: "parallel"
+    propagate_case: true
+    word: true
+  - trigger: "parrallel"
+    replace: "parallel"
+    propagate_case: true
+    word: true
+  - trigger: "Päsident"
+    replace: "Präsident"
+    propagate_case: true
+    word: true
+  - trigger: "patroullieren"
+    replace: "patrouillieren"
+    propagate_case: true
+    word: true
+  - trigger: "patroulliert"
+    replace: "patrouilliert"
+    propagate_case: true
+    word: true
+  - trigger: "Pavillion"
+    replace: "Pavillon"
+    propagate_case: true
+    word: true
+  - trigger: "Peleponnes"
+    replace: "Peloponnes"
+    propagate_case: true
+    word: true
+  - trigger: "Pepperoni"
+    replace: "Peperoni"
+    propagate_case: true
+    word: true
+  - trigger: "Perlmut"
+    replace: "Perlmutt"
+    propagate_case: true
+    word: true
+  - trigger: "perönlich"
+    replace: "persönlich"
+    propagate_case: true
+    word: true
+  - trigger: "persöhnlich"
+    replace: "persönlich"
+    propagate_case: true
+    word: true
+  - trigger: "Persönlichleit"
+    replace: "Persönlichkeit"
+    propagate_case: true
+    word: true
+  - trigger: "Philantrop"
+    replace: "Philanthrop"
+    propagate_case: true
+    word: true
+  - trigger: "Philipinen"
+    replace: "Philippinen"
+    propagate_case: true
+    word: true
+  - trigger: "Philipinisch"
+    replace: "Philippinisch"
+    propagate_case: true
+    word: true
+  - trigger: "philipinischer"
+    replace: "philippinischer"
+    propagate_case: true
+    word: true
+  - trigger: "Philippienen"
+    replace: "Philippinen"
+    propagate_case: true
+    word: true
+  - trigger: "Philisoph"
+    replace: "Philosoph"
+    propagate_case: true
+    word: true
+  - trigger: "Philisophie"
+    replace: "Philosophie"
+    propagate_case: true
+    word: true
+  - trigger: "philisophisch"
+    replace: "philosophisch"
+    propagate_case: true
+    word: true
+  - trigger: "Phillipinen"
+    replace: "Philippinen"
+    propagate_case: true
+    word: true
+  - trigger: "Philosopie"
+    replace: "Philosophie"
+    propagate_case: true
+    word: true
+  - trigger: "Philosph"
+    replace: "Philosoph"
+    propagate_case: true
+    word: true
+  - trigger: "Philosphie"
+    replace: "Philosophie"
+    propagate_case: true
+    word: true
+  - trigger: "philosphisch"
+    replace: "philosophisch"
+    propagate_case: true
+    word: true
+  - trigger: "Philsophie"
+    replace: "Philosophie"
+    propagate_case: true
+    word: true
+  - trigger: "philsophisch"
+    replace: "philosophisch"
+    propagate_case: true
+    word: true
+  - trigger: "photografiert"
+    replace: "fotografiert"
+    propagate_case: true
+    word: true
+  - trigger: "photografiert"
+    replace: "photographiert"
+    propagate_case: true
+    word: true
+  - trigger: "piktoresk"
+    replace: "pittoresk"
+    propagate_case: true
+    word: true
+  - trigger: "Planze"
+    replace: "Pflanze"
+    propagate_case: true
+    word: true
+  - trigger: "Planzen"
+    replace: "Pflanzen"
+    propagate_case: true
+    word: true
+  - trigger: "Politk"
+    replace: "Politik"
+    propagate_case: true
+    word: true
+  - trigger: "Politker"
+    replace: "Politiker"
+    propagate_case: true
+    word: true
+  - trigger: "politsch"
+    replace: "politisch"
+    propagate_case: true
+    word: true
+  - trigger: "politsche"
+    replace: "politische"
+    propagate_case: true
+    word: true
+  - trigger: "politschen"
+    replace: "politischen"
+    propagate_case: true
+    word: true
+  - trigger: "politscher"
+    replace: "politischer"
+    propagate_case: true
+    word: true
+  - trigger: "politsches"
+    replace: "politisches"
+    propagate_case: true
+    word: true
+  - trigger: "poltisch"
+    replace: "politisch"
+    propagate_case: true
+    word: true
+  - trigger: "portugiesich"
+    replace: "portugiesisch"
+    propagate_case: true
+    word: true
+  - trigger: "Positon"
+    replace: "Position"
+    propagate_case: true
+    word: true
+  - trigger: "postiv"
+    replace: "positiv"
+    propagate_case: true
+    word: true
+  - trigger: "prinzipell"
+    replace: "prinzipiell"
+    propagate_case: true
+    word: true
+  - trigger: "Prinzipen"
+    replace: "Prinzipien"
+    propagate_case: true
+    word: true
+  - trigger: "Priveleg"
+    replace: "Privileg"
+    propagate_case: true
+    word: true
+  - trigger: "priveligiert"
+    replace: "privilegiert"
+    propagate_case: true
+    word: true
+  - trigger: "Priviligien"
+    replace: "Privilegien"
+    propagate_case: true
+    word: true
+  - trigger: "priviligiert"
+    replace: "privilegiert"
+    propagate_case: true
+    word: true
+  - trigger: "Progrom"
+    replace: "Pogrom"
+    propagate_case: true
+    word: true
+  - trigger: "projezieren"
+    replace: "projizieren"
+    propagate_case: true
+    word: true
+  - trigger: "projeziert"
+    replace: "projiziert"
+    propagate_case: true
+    word: true
+  - trigger: "Prophezeihung"
+    replace: "Prophezeiung"
+    propagate_case: true
+    word: true
+  - trigger: "Provinzhaupstadt"
+    replace: "Provinzhauptstadt"
+    propagate_case: true
+    word: true
+  - trigger: "Prozeße"
+    replace: "Prozesse"
+    propagate_case: true
+    word: true
+  - trigger: "Psychatrie"
+    replace: "Psychiatrie"
+    propagate_case: true
+    word: true
+  - trigger: "pysikalisch"
+    replace: "physikalisch"
+    propagate_case: true
+    word: true
+  - trigger: "Quattrologie"
+    replace: "Tetralogie"
+    propagate_case: true
+    word: true
+  - trigger: "Ralley"
+    replace: "Rallye"
+    propagate_case: true
+    word: true
+  - trigger: "Ralleyfahrer"
+    replace: "Rallyefahrer"
+    propagate_case: true
+    word: true
+  - trigger: "rechlich"
+    replace: "rechtlich"
+    propagate_case: true
+    word: true
+  - trigger: "Rechtsprache"
+    replace: "Rechtssprache"
+    propagate_case: true
+    word: true
+  - trigger: "Rechtspruch"
+    replace: "Rechtsspruch"
+    propagate_case: true
+    word: true
+  - trigger: "Rechtssprechung"
+    replace: "Rechtsprechung"
+    propagate_case: true
+    word: true
+  - trigger: "Rechtstaat"
+    replace: "Rechtsstaat"
+    propagate_case: true
+    word: true
+  - trigger: "rechtstaatlich"
+    replace: "rechtsstaatlich"
+    propagate_case: true
+    word: true
+  - trigger: "rechtwinklich"
+    replace: "rechtwinklig"
+    propagate_case: true
+    word: true
+  - trigger: "rechtwinkling"
+    replace: "rechtwinklig"
+    propagate_case: true
+    word: true
+  - trigger: "rechzeitig"
+    replace: "rechtzeitig"
+    propagate_case: true
+    word: true
+  - trigger: "Reeling"
+    replace: "Reling"
+    propagate_case: true
+    word: true
+  - trigger: "Reflektion"
+    replace: "Reflexion"
+    propagate_case: true
+    word: true
+  - trigger: "regelmässig"
+    replace: "regelmäßig"
+    propagate_case: true
+    word: true
+  - trigger: "regelmässige"
+    replace: "regelmäßige"
+    propagate_case: true
+    word: true
+  - trigger: "regelmässigen"
+    replace: "regelmäßigen"
+    propagate_case: true
+    word: true
+  - trigger: "regelmässiger"
+    replace: "regelmäßiger"
+    propagate_case: true
+    word: true
+  - trigger: "regelmässiges"
+    replace: "regelmäßiges"
+    propagate_case: true
+    word: true
+  - trigger: "Reichtags"
+    replace: "Reichstags"
+    propagate_case: true
+    word: true
+  - trigger: "Relgion"
+    replace: "Religion"
+    propagate_case: true
+    word: true
+  - trigger: "relgiös"
+    replace: "religiös"
+    propagate_case: true
+    word: true
+  - trigger: "Religiösität"
+    replace: "Religiosität"
+    propagate_case: true
+    word: true
+  - trigger: "Religon"
+    replace: "Religion"
+    propagate_case: true
+    word: true
+  - trigger: "Religonen"
+    replace: "Religionen"
+    propagate_case: true
+    word: true
+  - trigger: "religös"
+    replace: "religiös"
+    propagate_case: true
+    word: true
+  - trigger: "religösen"
+    replace: "religiösen"
+    propagate_case: true
+    word: true
+  - trigger: "Relion"
+    replace: "Religion"
+    propagate_case: true
+    word: true
+  - trigger: "reliösen"
+    replace: "religiösen"
+    propagate_case: true
+    word: true
+  - trigger: "Remineszenz"
+    replace: "Reminiszenz"
+    propagate_case: true
+    word: true
+  - trigger: "Rendevous"
+    replace: "Rendezvous"
+    propagate_case: true
+    word: true
+  - trigger: "Rennaisance"
+    replace: "Renaissance"
+    propagate_case: true
+    word: true
+  - trigger: "Rennaissance"
+    replace: "Renaissance"
+    propagate_case: true
+    word: true
+  - trigger: "des Rennes"
+    replace: "des Rennens"
+    propagate_case: true
+    word: true
+  - trigger: "Renomee"
+    replace: "Renommee"
+    propagate_case: true
+    word: true
+  - trigger: "renomiert"
+    replace: "renommiert"
+    propagate_case: true
+    word: true
+  - trigger: "Renomme"
+    replace: "Renommee"
+    propagate_case: true
+    word: true
+  - trigger: "repäsentieren"
+    replace: "repräsentieren"
+    propagate_case: true
+    word: true
+  - trigger: "repäsentiert"
+    replace: "repräsentiert"
+    propagate_case: true
+    word: true
+  - trigger: "Reperatur"
+    replace: "Reparatur"
+    propagate_case: true
+    word: true
+  - trigger: "Resourcen"
+    replace: "Ressourcen"
+    propagate_case: true
+    word: true
+  - trigger: "Rhytmen"
+    replace: "Rhythmen"
+    propagate_case: true
+    word: true
+  - trigger: "rhytmisch"
+    replace: "rhythmisch"
+    propagate_case: true
+    word: true
+  - trigger: "rhytmische"
+    replace: "rhythmische"
+    propagate_case: true
+    word: true
+  - trigger: "Rhytmus"
+    replace: "Rhythmus"
+    propagate_case: true
+    word: true
+  - trigger: "Richtline"
+    replace: "Richtlinie"
+    propagate_case: true
+    word: true
+  - trigger: "Richung"
+    replace: "Richtung"
+    propagate_case: true
+    word: true
+  - trigger: "rigde"
+    replace: "ridge"
+    propagate_case: true
+    word: true
+  - trigger: "rihgt"
+    replace: "right"
+    propagate_case: true
+    word: true
+  - trigger: "Riskio"
+    replace: "Risiko"
+    propagate_case: true
+    word: true
+  - trigger: "Risko"
+    replace: "Risiko"
+    propagate_case: true
+    word: true
+  - trigger: "Rossevelt"
+    replace: "Roosevelt"
+    propagate_case: true
+    word: true
+  - trigger: "Rückgrad"
+    replace: "Rückgrat"
+    propagate_case: true
+    word: true
+  - trigger: "Rückrad"
+    replace: "Rückgrat"
+    propagate_case: true
+    word: true
+  - trigger: "Rückrat"
+    replace: "Rückgrat"
+    propagate_case: true
+    word: true
+  - trigger: "russich"
+    replace: "russisch"
+    propagate_case: true
+    word: true
+  - trigger: "russiche"
+    replace: "russische"
+    propagate_case: true
+    word: true
+  - trigger: "russichen"
+    replace: "russischen"
+    propagate_case: true
+    word: true
+  - trigger: "russicher"
+    replace: "russischer"
+    propagate_case: true
+    word: true
+  - trigger: "russsich"
+    replace: "russisch"
+    propagate_case: true
+    word: true
+  - trigger: "russsisch"
+    replace: "russisch"
+    propagate_case: true
+    word: true
+  - trigger: "russsische"
+    replace: "russische"
+    propagate_case: true
+    word: true
+  - trigger: "russsischen"
+    replace: "russischen"
+    propagate_case: true
+    word: true
+  - trigger: "Rythmen"
+    replace: "Rhythmen"
+    propagate_case: true
+    word: true
+  - trigger: "rythmisch"
+    replace: "rhythmisch"
+    propagate_case: true
+    word: true
+  - trigger: "rythmische"
+    replace: "rhythmische"
+    propagate_case: true
+    word: true
+  - trigger: "Rythmus"
+    replace: "Rhythmus"
+    propagate_case: true
+    word: true
+  - trigger: "sächisch"
+    replace: "sächsisch"
+    propagate_case: true
+    word: true
+  - trigger: "sächsich"
+    replace: "sächsisch"
+    propagate_case: true
+    word: true
+  - trigger: "sächsiche"
+    replace: "sächsische"
+    propagate_case: true
+    word: true
+  - trigger: "sächsichen"
+    replace: "sächsischen"
+    propagate_case: true
+    word: true
+  - trigger: "Santiago de Compostella"
+    replace: "Santiago de Compostela"
+    propagate_case: true
+    word: true
+  - trigger: "Sarkopharg"
+    replace: "Sarkophag"
+    propagate_case: true
+    word: true
+  - trigger: "sassen"
+    replace: "saßen"
+    propagate_case: true
+    word: true
+  - trigger: "satzungsgemäss"
+    replace: "satzungsgemäß"
+    propagate_case: true
+    word: true
+  - trigger: "S-Bahnstation"
+    replace: "S-Bahn-Station"
+    propagate_case: true
+    word: true
+  - trigger: "schafte"
+    replace: "schaffte"
+    propagate_case: true
+    word: true
+  - trigger: "Schaupiel"
+    replace: "Schauspiel"
+    propagate_case: true
+    word: true
+  - trigger: "Scheiz"
+    replace: "Schweiz"
+    propagate_case: true
+    word: true
+  - trigger: "schillernste"
+    replace: "schillerndste"
+    propagate_case: true
+    word: true
+  - trigger: "schliessen"
+    replace: "schließen"
+    propagate_case: true
+    word: true
+  - trigger: "schliesslich"
+    replace: "schließlich"
+    propagate_case: true
+    word: true
+  - trigger: "schliesst"
+    replace: "schließt"
+    propagate_case: true
+    word: true
+  - trigger: "Schrifsteller"
+    replace: "Schriftsteller"
+    propagate_case: true
+    word: true
+  - trigger: "Schriftseller"
+    replace: "Schriftsteller"
+    propagate_case: true
+    word: true
+  - trigger: "schweizer"
+    replace: "Schweizer"
+    propagate_case: true
+    word: true
+  - trigger: "Seeman"
+    replace: "Seemann"
+    propagate_case: true
+    word: true
+  - trigger: "seemänisch"
+    replace: "seemännisch"
+    propagate_case: true
+    word: true
+  - trigger: "sehenwert"
+    replace: "sehenswert"
+    propagate_case: true
+    word: true
+  - trigger: "Sehenwürdigkeit"
+    replace: "Sehenswürdigkeit"
+    propagate_case: true
+    word: true
+  - trigger: "Sehenwürdigkeiten"
+    replace: "Sehenswürdigkeiten"
+    propagate_case: true
+    word: true
+  - trigger: "seit dem"
+    replace: "seitdem"
+    propagate_case: true
+    word: true
+  - trigger: "seit dem die"
+    replace: "seitdem die"
+    propagate_case: true
+    word: true
+  - trigger: "seit dem ein"
+    replace: "seitdem ein"
+    propagate_case: true
+    word: true
+  - trigger: "seit dem hat"
+    replace: "seitdem hat"
+    propagate_case: true
+    word: true
+  - trigger: "seit dem ist"
+    replace: "seitdem ist"
+    propagate_case: true
+    word: true
+  - trigger: "seit dem war"
+    replace: "seitdem war"
+    propagate_case: true
+    word: true
+  - trigger: "seperat"
+    replace: "separat"
+    propagate_case: true
+    word: true
+  - trigger: "seperate"
+    replace: "separate"
+    propagate_case: true
+    word: true
+  - trigger: "seperatem"
+    replace: "separatem"
+    propagate_case: true
+    word: true
+  - trigger: "seperaten"
+    replace: "separaten"
+    propagate_case: true
+    word: true
+  - trigger: "Seperation"
+    replace: "Separation"
+    propagate_case: true
+    word: true
+  - trigger: "Seperatist"
+    replace: "Separatist"
+    propagate_case: true
+    word: true
+  - trigger: "Septmber"
+    replace: "September"
+    propagate_case: true
+    word: true
+  - trigger: "Septmeber"
+    replace: "September"
+    propagate_case: true
+    word: true
+  - trigger: "Seriösität"
+    replace: "Seriosität"
+    propagate_case: true
+    word: true
+  - trigger: "sicher gestellt"
+    replace: "sichergestellt"
+    propagate_case: true
+    word: true
+  - trigger: "sich er sich"
+    replace: "er sich"
+    propagate_case: true
+    word: true
+  - trigger: "sicher stellen"
+    replace: "sicherstellen"
+    propagate_case: true
+    word: true
+  - trigger: "sicher stellt"
+    replace: "sicherstellt"
+    propagate_case: true
+    word: true
+  - trigger: "sicher zu stellen"
+    replace: "sicherzustellen"
+    propagate_case: true
+    word: true
+  - trigger: "Silbermedaillie"
+    replace: "Silbermedaille"
+    propagate_case: true
+    word: true
+  - trigger: "Silbermedallie"
+    replace: "Silbermedaille"
+    propagate_case: true
+    word: true
+  - trigger: "Siluette"
+    replace: "Silhouette"
+    propagate_case: true
+    word: true
+  - trigger: "sinvoll"
+    replace: "sinnvoll"
+    propagate_case: true
+    word: true
+  - trigger: "Situtation"
+    replace: "Situation"
+    propagate_case: true
+    word: true
+  - trigger: "Skagerak"
+    replace: "Skagerrak"
+    propagate_case: true
+    word: true
+  - trigger: "sobald wie möglich"
+    replace: "so bald wie möglich"
+    propagate_case: true
+    word: true
+  - trigger: "sobald als möglich"
+    replace: "so bald als möglich"
+    propagate_case: true
+    word: true
+  - trigger: "sodas"
+    replace: "sodass"
+    propagate_case: true
+    word: true
+  - trigger: "sodas"
+    replace: "so dass"
+    propagate_case: true
+    word: true
+  - trigger: "sodaß"
+    replace: "sodass"
+    propagate_case: true
+    word: true
+  - trigger: "sodaß"
+    replace: "so dass"
+    propagate_case: true
+    word: true
+  - trigger: "sogenante"
+    replace: "sogenannte"
+    propagate_case: true
+    word: true
+  - trigger: "sogenanten"
+    replace: "sogenannten"
+    propagate_case: true
+    word: true
+  - trigger: "sonder"
+    replace: "sondern"
+    propagate_case: true
+    word: true
+  - trigger: "Souveranität"
+    replace: "Souveränität"
+    propagate_case: true
+    word: true
+  - trigger: "soweit wie"
+    replace: "so weit wie"
+    propagate_case: true
+    word: true
+  - trigger: "Sowietunion"
+    replace: "Sowjetunion"
+    propagate_case: true
+    word: true
+  - trigger: "spezialiseren"
+    replace: "spezialisieren"
+    propagate_case: true
+    word: true
+  - trigger: "spezialisert"
+    replace: "spezialisiert"
+    propagate_case: true
+    word: true
+  - trigger: "speziel"
+    replace: "speziell"
+    propagate_case: true
+    word: true
+  - trigger: "sponsorte"
+    replace: "sponserte"
+    propagate_case: true
+    word: true
+  - trigger: "Spritualität"
+    replace: "Spiritualität"
+    propagate_case: true
+    word: true
+  - trigger: "sprituell"
+    replace: "spirituell"
+    propagate_case: true
+    word: true
+  - trigger: "Staatstreich"
+    replace: "Staatsstreich"
+    propagate_case: true
+    word: true
+  - trigger: "Stadbild"
+    replace: "Stadtbild"
+    propagate_case: true
+    word: true
+  - trigger: "Staddteil"
+    replace: "Stadtteil"
+    propagate_case: true
+    word: true
+  - trigger: "Stadteil"
+    replace: "Stadtteil"
+    propagate_case: true
+    word: true
+  - trigger: "Stadteile"
+    replace: "Stadtteile"
+    propagate_case: true
+    word: true
+  - trigger: "Stadteilen"
+    replace: "Stadtteilen"
+    propagate_case: true
+    word: true
+  - trigger: "Stadteils"
+    replace: "Stadtteils"
+    propagate_case: true
+    word: true
+  - trigger: "Standart"
+    replace: "Standard"
+    propagate_case: true
+    word: true
+  - trigger: "Standarts"
+    replace: "Standards"
+    propagate_case: true
+    word: true
+  - trigger: "statt fand"
+    replace: "stattfand"
+    propagate_case: true
+    word: true
+  - trigger: "statt finden"
+    replace: "stattfinden"
+    propagate_case: true
+    word: true
+  - trigger: "statt findet"
+    replace: "stattfindet"
+    propagate_case: true
+    word: true
+  - trigger: "statt gegeben"
+    replace: "stattgegeben"
+    propagate_case: true
+    word: true
+  - trigger: "Stehgreif"
+    replace: "Stegreif"
+    propagate_case: true
+    word: true
+  - trigger: "stellverteten"
+    replace: "stellvertreten"
+    propagate_case: true
+    word: true
+  - trigger: "Stellverteter"
+    replace: "Stellvertreter"
+    propagate_case: true
+    word: true
+  - trigger: "stiess"
+    replace: "stieß"
+    propagate_case: true
+    word: true
+  - trigger: "Stimmulation"
+    replace: "Stimulation"
+    propagate_case: true
+    word: true
+  - trigger: "Stömung"
+    replace: "Strömung"
+    propagate_case: true
+    word: true
+  - trigger: "Stoss"
+    replace: "Stoß"
+    propagate_case: true
+    word: true
+  - trigger: "stossen"
+    replace: "stoßen"
+    propagate_case: true
+    word: true
+  - trigger: "Stossfänger"
+    replace: "Stoßfänger"
+    propagate_case: true
+    word: true
+  - trigger: "Stossstange"
+    replace: "Stoßstange"
+    propagate_case: true
+    word: true
+  - trigger: "stösst"
+    replace: "stößt"
+    propagate_case: true
+    word: true
+  - trigger: "Strasse"
+    replace: "Straße"
+    propagate_case: true
+    word: true
+  - trigger: "strukur"
+    replace: "struktur"
+    propagate_case: true
+    word: true
+  - trigger: "subsummieren"
+    replace: "subsumieren"
+    propagate_case: true
+    word: true
+  - trigger: "subsummiert"
+    replace: "subsumiert"
+    propagate_case: true
+    word: true
+  - trigger: "sumieren"
+    replace: "summieren"
+    propagate_case: true
+    word: true
+  - trigger: "sumiert"
+    replace: "summiert"
+    propagate_case: true
+    word: true
+  - trigger: "symetrisch"
+    replace: "symmetrisch"
+    propagate_case: true
+    word: true
+  - trigger: "symphatisiert"
+    replace: "sympathisiert"
+    propagate_case: true
+    word: true
+  - trigger: "Synomym"
+    replace: "Synonym"
+    propagate_case: true
+    word: true
+  - trigger: "Synomyn"
+    replace: "Synonym"
+    propagate_case: true
+    word: true
+  - trigger: "Syphon"
+    replace: "Siphon"
+    propagate_case: true
+    word: true
+  - trigger: "Sytem"
+    replace: "System"
+    propagate_case: true
+    word: true
+  - trigger: "Sytematik"
+    replace: "Systematik"
+    propagate_case: true
+    word: true
+  - trigger: "sytematisch"
+    replace: "systematisch"
+    propagate_case: true
+    word: true
+  - trigger: "Tag- und Nachtgleiche"
+    replace: "Tagundnachtgleiche"
+    propagate_case: true
+    word: true
+  - trigger: "Tag- und Nachtgleiche"
+    replace: "Tag-und-Nacht-Gleiche"
+    propagate_case: true
+    word: true
+  - trigger: "Taiwanese"
+    replace: "Taiwaner"
+    propagate_case: true
+    word: true
+  - trigger: "Taiwanesen"
+    replace: "Taiwaner"
+    propagate_case: true
+    word: true
+  - trigger: "tasächlich"
+    replace: "tatsächlich"
+    propagate_case: true
+    word: true
+  - trigger: "tatächlich"
+    replace: "tatsächlich"
+    propagate_case: true
+    word: true
+  - trigger: "Teakwondo"
+    replace: "Taekwondo"
+    propagate_case: true
+    word: true
+  - trigger: "teiweise"
+    replace: "teilweise"
+    propagate_case: true
+    word: true
+  - trigger: "Temparatur"
+    replace: "Temperatur"
+    propagate_case: true
+    word: true
+  - trigger: "tendentiell"
+    replace: "tendenziell"
+    propagate_case: true
+    word: true
+  - trigger: "Terasse"
+    replace: "Terrasse"
+    propagate_case: true
+    word: true
+  - trigger: "Terassen"
+    replace: "Terrassen"
+    propagate_case: true
+    word: true
+  - trigger: "Terrabyte"
+    replace: "Terabyte"
+    propagate_case: true
+    word: true
+  - trigger: "Tocher"
+    replace: "Tochter"
+    propagate_case: true
+    word: true
+  - trigger: "Tolleranz"
+    replace: "Toleranz"
+    propagate_case: true
+    word: true
+  - trigger: "tollerieren"
+    replace: "tolerieren"
+    propagate_case: true
+    word: true
+  - trigger: "tolleriert"
+    replace: "toleriert"
+    propagate_case: true
+    word: true
+  - trigger: "Tradion"
+    replace: "Tradition"
+    propagate_case: true
+    word: true
+  - trigger: "traditionel"
+    replace: "traditionell"
+    propagate_case: true
+    word: true
+  - trigger: "Traditon"
+    replace: "Tradition"
+    propagate_case: true
+    word: true
+  - trigger: "Tradtion"
+    replace: "Tradition"
+    propagate_case: true
+    word: true
+  - trigger: "Trainig"
+    replace: "Training"
+    propagate_case: true
+    word: true
+  - trigger: "Transskri"
+    replace: "Transkript"
+    propagate_case: true
+    word: true
+  - trigger: "Triologie"
+    replace: "Trilogie"
+    propagate_case: true
+    word: true
+  - trigger: "Triumpf"
+    replace: "Triumph"
+    propagate_case: true
+    word: true
+  - trigger: "trotzdessen"
+    replace: "trotzdem"
+    propagate_case: true
+    word: true
+  - trigger: "trozdem"
+    replace: "trotzdem"
+    propagate_case: true
+    word: true
+  - trigger: "Tryptichon"
+    replace: "Triptychon"
+    propagate_case: true
+    word: true
+  - trigger: "Triptichon"
+    replace: "Triptychon"
+    propagate_case: true
+    word: true
+  - trigger: "Tryptychon"
+    replace: "Triptychon"
+    propagate_case: true
+    word: true
+  - trigger: "Tunier"
+    replace: "Turnier"
+    propagate_case: true
+    word: true
+  - trigger: "Turismus"
+    replace: "Tourismus"
+    propagate_case: true
+    word: true
+  - trigger: "Turist"
+    replace: "Tourist"
+    propagate_case: true
+    word: true
+  - trigger: "U-Bahnnetz"
+    replace: "U-Bahn-Netz"
+    propagate_case: true
+    word: true
+  - trigger: "U-Bahnstation"
+    replace: "U-Bahn-Station"
+    propagate_case: true
+    word: true
+  - trigger: "U-Bahntunnel"
+    replace: "U-Bahn-Tunnel"
+    propagate_case: true
+    word: true
+  - trigger: "überarbeitetet"
+    replace: "überarbeitet"
+    propagate_case: true
+    word: true
+  - trigger: "überlegende"
+    replace: "überlegene"
+    propagate_case: true
+    word: true
+  - trigger: "überlegenden"
+    replace: "überlegenen"
+    propagate_case: true
+    word: true
+  - trigger: "überlicherweise"
+    replace: "üblicherweise"
+    propagate_case: true
+    word: true
+  - trigger: "Überwachungstaat"
+    replace: "Überwachungsstaat"
+    propagate_case: true
+    word: true
+  - trigger: "U-Bootkrieg"
+    replace: "U-Boot-Krieg"
+    propagate_case: true
+    word: true
+  - trigger: "umbennen"
+    replace: "umbenennen"
+    propagate_case: true
+    word: true
+  - trigger: "umbennenen"
+    replace: "umbenennen"
+    propagate_case: true
+    word: true
+  - trigger: "umbennennen"
+    replace: "umbenennen"
+    propagate_case: true
+    word: true
+  - trigger: "umbennant"
+    replace: "umbenannt"
+    propagate_case: true
+    word: true
+  - trigger: "Umbennennung"
+    replace: "Umbenennung"
+    propagate_case: true
+    word: true
+  - trigger: "Umbennenung"
+    replace: "Umbenennung"
+    propagate_case: true
+    word: true
+  - trigger: "Umbennung"
+    replace: "Umbenennung"
+    propagate_case: true
+    word: true
+  - trigger: "Umbennung"
+    replace: "Umnennung"
+    propagate_case: true
+    word: true
+  - trigger: "umd"
+    replace: "und"
+    propagate_case: true
+    word: true
+  - trigger: "umd"
+    replace: "um"
+    propagate_case: true
+    word: true
+  - trigger: "Umgangsprache"
+    replace: "Umgangssprache"
+    propagate_case: true
+    word: true
+  - trigger: "umgangsprachlich"
+    replace: "umgangssprachlich"
+    propagate_case: true
+    word: true
+  - trigger: "umgangsprachliche"
+    replace: "umgangssprachliche"
+    propagate_case: true
+    word: true
+  - trigger: "umgangsprachlicher"
+    replace: "umgangssprachlicher"
+    propagate_case: true
+    word: true
+  - trigger: "umgenannt"
+    replace: "umbenannt"
+    propagate_case: true
+    word: true
+  - trigger: "umittelbar"
+    replace: "unmittelbar"
+    propagate_case: true
+    word: true
+  - trigger: "umstrittend"
+    replace: "umstritten"
+    propagate_case: true
+    word: true
+  - trigger: "umzubennen"
+    replace: "umzubenennen"
+    propagate_case: true
+    word: true
+  - trigger: "umzubennen"
+    replace: "umzunennen"
+    propagate_case: true
+    word: true
+  - trigger: "Unabhängikeit"
+    replace: "Unabhängigkeit"
+    propagate_case: true
+    word: true
+  - trigger: "Unabhängkeit"
+    replace: "Unabhängigkeit"
+    propagate_case: true
+    word: true
+  - trigger: "unabhänig"
+    replace: "unabhängig"
+    propagate_case: true
+    word: true
+  - trigger: "Unabhänigkeit"
+    replace: "Unabhängigkeit"
+    propagate_case: true
+    word: true
+  - trigger: "unauthorisiert"
+    replace: "unautorisiert"
+    propagate_case: true
+    word: true
+  - trigger: "unbenannt wurde"
+    replace: "umbenannt wurde"
+    propagate_case: true
+    word: true
+  - trigger: "und sowie"
+    replace: "und/sowie"
+    propagate_case: true
+    word: true
+  - trigger: "und und"
+    replace: "und"
+    propagate_case: true
+    word: true
+  - trigger: "Unfang"
+    replace: "Umfang"
+    propagate_case: true
+    word: true
+  - trigger: "ungekehrt"
+    replace: "umgekehrt"
+    propagate_case: true
+    word: true
+  - trigger: "Univerität"
+    replace: "Universität"
+    propagate_case: true
+    word: true
+  - trigger: "Universiät"
+    replace: "Universität"
+    propagate_case: true
+    word: true
+  - trigger: "Universtät"
+    replace: "Universität"
+    propagate_case: true
+    word: true
+  - trigger: "Universtität"
+    replace: "Universität"
+    propagate_case: true
+    word: true
+  - trigger: "unsymetrisch"
+    replace: "unsymmetrisch"
+    propagate_case: true
+    word: true
+  - trigger: "unteranderem"
+    replace: "unter anderem"
+    propagate_case: true
+    word: true
+  - trigger: "Untergund"
+    replace: "Untergrund"
+    propagate_case: true
+    word: true
+  - trigger: "Untericht"
+    replace: "Unterricht"
+    propagate_case: true
+    word: true
+  - trigger: "unterichtet"
+    replace: "unterrichtet"
+    propagate_case: true
+    word: true
+  - trigger: "unteriridisch"
+    replace: "unterirdisch"
+    propagate_case: true
+    word: true
+  - trigger: "Unternehmes"
+    replace: "Unternehmens"
+    propagate_case: true
+    word: true
+  - trigger: "Unternehms"
+    replace: "Unternehmens"
+    propagate_case: true
+    word: true
+  - trigger: "unterstüzt"
+    replace: "unterstützt"
+    propagate_case: true
+    word: true
+  - trigger: "Unterstüzung"
+    replace: "Unterstützung"
+    propagate_case: true
+    word: true
+  - trigger: "Unversität"
+    replace: "Universität"
+    propagate_case: true
+    word: true
+  - trigger: "unwegbar"
+    replace: "unwägbar"
+    propagate_case: true
+    word: true
+  - trigger: "unwegbar"
+    replace: "unwegsam"
+    propagate_case: true
+    word: true
+  - trigger: "Urprung"
+    replace: "Ursprung"
+    propagate_case: true
+    word: true
+  - trigger: "urprünglich"
+    replace: "ursprünglich"
+    propagate_case: true
+    word: true
+  - trigger: "ürsprünglich"
+    replace: "ursprünglich"
+    propagate_case: true
+    word: true
+  - trigger: "urspünglich"
+    replace: "ursprünglich"
+    propagate_case: true
+    word: true
+  - trigger: "Ursurpator"
+    replace: "Usurpator"
+    propagate_case: true
+    word: true
+  - trigger: "us-amerikanischen"
+    replace: "US-amerikanischen"
+    propagate_case: true
+    word: true
+  - trigger: "us-amerikanischen"
+    replace: "amerikanischen"
+    propagate_case: true
+    word: true
+  - trigger: "usprünglich"
+    replace: "ursprünglich"
+    propagate_case: true
+    word: true
+  - trigger: "variert"
+    replace: "variiert"
+    propagate_case: true
+    word: true
+  - trigger: "varrieren"
+    replace: "variieren"
+    propagate_case: true
+    word: true
+  - trigger: "Vehrkehr"
+    replace: "Verkehr"
+    propagate_case: true
+    word: true
+  - trigger: "Vekehr"
+    replace: "Verkehr"
+    propagate_case: true
+    word: true
+  - trigger: "venezuelanisch"
+    replace: "venezolanisch"
+    propagate_case: true
+    word: true
+  - trigger: "venizianisch"
+    replace: "venezianisch"
+    propagate_case: true
+    word: true
+  - trigger: "verabeitet"
+    replace: "verarbeitet"
+    propagate_case: true
+    word: true
+  - trigger: "Verabeitung"
+    replace: "Verarbeitung"
+    propagate_case: true
+    word: true
+  - trigger: "veraltert"
+    replace: "veraltet"
+    propagate_case: true
+    word: true
+  - trigger: "verantworlich"
+    replace: "verantwortlich"
+    propagate_case: true
+    word: true
+  - trigger: "Veranwtortung"
+    replace: "Verantwortung"
+    propagate_case: true
+    word: true
+  - trigger: "Verbauch"
+    replace: "Verbrauch"
+    propagate_case: true
+    word: true
+  - trigger: "verbeitet"
+    replace: "verbreitet"
+    propagate_case: true
+    word: true
+  - trigger: "Verbeitung"
+    replace: "Verbreitung"
+    propagate_case: true
+    word: true
+  - trigger: "verbreiteste"
+    replace: "verbreitetste"
+    propagate_case: true
+    word: true
+  - trigger: "verbreiteteste"
+    replace: "verbreitetste"
+    propagate_case: true
+    word: true
+  - trigger: "vereingt"
+    replace: "vereinigt"
+    propagate_case: true
+    word: true
+  - trigger: "vereiningt"
+    replace: "vereinigt"
+    propagate_case: true
+    word: true
+  - trigger: "vergleichweise"
+    replace: "vergleichsweise"
+    propagate_case: true
+    word: true
+  - trigger: "vergößert"
+    replace: "vergrößert"
+    propagate_case: true
+    word: true
+  - trigger: "Vergößerung"
+    replace: "Vergrößerung"
+    propagate_case: true
+    word: true
+  - trigger: "vergrössern"
+    replace: "vergrößern"
+    propagate_case: true
+    word: true
+  - trigger: "vergrössert"
+    replace: "vergrößert"
+    propagate_case: true
+    word: true
+  - trigger: "vergrösserte"
+    replace: "vergrößerte"
+    propagate_case: true
+    word: true
+  - trigger: "vergrösserten"
+    replace: "vergrößerten"
+    propagate_case: true
+    word: true
+  - trigger: "vergrösserter"
+    replace: "vergrößerter"
+    propagate_case: true
+    word: true
+  - trigger: "Vergrösserung"
+    replace: "Vergrößerung"
+    propagate_case: true
+    word: true
+  - trigger: "verhaeltnismaessig"
+    replace: "verhältnismäßig"
+    propagate_case: true
+    word: true
+  - trigger: "verhältnismässig"
+    replace: "verhältnismäßig"
+    propagate_case: true
+    word: true
+  - trigger: "verheiratetet"
+    replace: "verheiratet"
+    propagate_case: true
+    word: true
+  - trigger: "verkündetet"
+    replace: "verkündet"
+    propagate_case: true
+    word: true
+  - trigger: "verliess"
+    replace: "verließ"
+    propagate_case: true
+    word: true
+  - trigger: "veröffendlicht"
+    replace: "veröffentlicht"
+    propagate_case: true
+    word: true
+  - trigger: "Veröffendlichung"
+    replace: "Veröffentlichung"
+    propagate_case: true
+    word: true
+  - trigger: "veröffentlich"
+    replace: "veröffentlicht"
+    propagate_case: true
+    word: true
+  - trigger: "verplichtet"
+    replace: "verpflichtet"
+    propagate_case: true
+    word: true
+  - trigger: "verschiedende"
+    replace: "verschiedene"
+    propagate_case: true
+    word: true
+  - trigger: "verschiedendste"
+    replace: "verschiedenste"
+    propagate_case: true
+    word: true
+  - trigger: "Verschleiss"
+    replace: "Verschleiß"
+    propagate_case: true
+    word: true
+  - trigger: "verschohnen"
+    replace: "verschonen"
+    propagate_case: true
+    word: true
+  - trigger: "verspühren"
+    replace: "verspüren"
+    propagate_case: true
+    word: true
+  - trigger: "verspührt"
+    replace: "verspürt"
+    propagate_case: true
+    word: true
+  - trigger: "Verständis"
+    replace: "Verständnis"
+    propagate_case: true
+    word: true
+  - trigger: "Vertäge"
+    replace: "Verträge"
+    propagate_case: true
+    word: true
+  - trigger: "vertaglich"
+    replace: "vertraglich"
+    propagate_case: true
+    word: true
+  - trigger: "Verteidung"
+    replace: "Verteidigung"
+    propagate_case: true
+    word: true
+  - trigger: "Verwaltungsitz"
+    replace: "Verwaltungssitz"
+    propagate_case: true
+    word: true
+  - trigger: "Verwandschaft"
+    replace: "Verwandtschaft"
+    propagate_case: true
+    word: true
+  - trigger: "verwandschaftlich"
+    replace: "verwandtschaftlich"
+    propagate_case: true
+    word: true
+  - trigger: "Vetrag"
+    replace: "Vertrag"
+    propagate_case: true
+    word: true
+  - trigger: "Veträge"
+    replace: "Verträge"
+    propagate_case: true
+    word: true
+  - trigger: "vetraglich"
+    replace: "vertraglich"
+    propagate_case: true
+    word: true
+  - trigger: "vetraut"
+    replace: "vertraut"
+    propagate_case: true
+    word: true
+  - trigger: "vieleicht"
+    replace: "vielleicht"
+    propagate_case: true
+    word: true
+  - trigger: "vom dem"
+    replace: "von dem"
+    propagate_case: true
+    word: true
+  - trigger: "vom dem"
+    replace: "vom"
+    propagate_case: true
+    word: true
+  - trigger: "vom der"
+    replace: "von der"
+    propagate_case: true
+    word: true
+  - trigger: "vom der"
+    replace: "vom"
+    propagate_case: true
+    word: true
+  - trigger: "vom der"
+    replace: "der"
+    propagate_case: true
+    word: true
+  - trigger: "von einander"
+    replace: "voneinander"
+    propagate_case: true
+    word: true
+  - trigger: "getrennt von einander"
+    replace: "getrennt voneinander"
+    propagate_case: true
+    word: true
+  - trigger: "unabhängig von einander"
+    replace: "unabhängig voneinander"
+    propagate_case: true
+    word: true
+  - trigger: "von einander entfernt"
+    replace: "voneinander entfernt"
+    propagate_case: true
+    word: true
+  - trigger: "von einander getrennt"
+    replace: "voneinander getrennt"
+    propagate_case: true
+    word: true
+  - trigger: "von einander unterscheiden"
+    replace: "voneinander unterscheiden"
+    propagate_case: true
+    word: true
+  - trigger: "von einander unterschieden"
+    replace: "voneinander unterschieden"
+    propagate_case: true
+    word: true
+  - trigger: "von einander zu"
+    replace: "voneinander zu"
+    propagate_case: true
+    word: true
+  - trigger: "von nöten"
+    replace: "vonnöten"
+    propagate_case: true
+    word: true
+  - trigger: "von statten"
+    replace: "vonstatten"
+    propagate_case: true
+    word: true
+  - trigger: "von von"
+    replace: "von"
+    propagate_case: true
+    word: true
+  - trigger: "vorallem"
+    replace: "vor allem"
+    propagate_case: true
+    word: true
+  - trigger: "vorallen"
+    replace: "vor allem"
+    propagate_case: true
+    word: true
+  - trigger: "vor allen in"
+    replace: "vor allem in"
+    propagate_case: true
+    word: true
+  - trigger: "voran bringen"
+    replace: "voranbringen"
+    propagate_case: true
+    word: true
+  - trigger: "Vorang"
+    replace: "Vorrang"
+    propagate_case: true
+    word: true
+  - trigger: "voran gegangen"
+    replace: "vorangegangen"
+    propagate_case: true
+    word: true
+  - trigger: "vorangig"
+    replace: "vorrangig"
+    propagate_case: true
+    word: true
+  - trigger: "voran zu bringen"
+    replace: "voranzubringen"
+    propagate_case: true
+    word: true
+  - trigger: "voran zu treiben"
+    replace: "voranzutreiben"
+    propagate_case: true
+    word: true
+  - trigger: "Vorausetzung"
+    replace: "Voraussetzung"
+    propagate_case: true
+    word: true
+  - trigger: "Vorausetzungen"
+    replace: "Voraussetzungen"
+    propagate_case: true
+    word: true
+  - trigger: "voraus gegangen"
+    replace: "vorausgegangen"
+    propagate_case: true
+    word: true
+  - trigger: "vorausichtlich"
+    replace: "voraussichtlich"
+    propagate_case: true
+    word: true
+  - trigger: "Vorfahrens"
+    replace: "Vorfahren"
+    propagate_case: true
+    word: true
+  - trigger: "Vorgesetze"
+    replace: "Vorgesetzte"
+    propagate_case: true
+    word: true
+  - trigger: "vorkommene"
+    replace: "vorkommende"
+    propagate_case: true
+    word: true
+  - trigger: "Vormachtsstellung"
+    replace: "Vormachtstellung"
+    propagate_case: true
+    word: true
+  - trigger: "vorranging"
+    replace: "vorrangig"
+    propagate_case: true
+    word: true
+  - trigger: "vorraus"
+    replace: "voraus"
+    propagate_case: true
+    word: true
+  - trigger: "vorrüber"
+    replace: "vorüber"
+    propagate_case: true
+    word: true
+  - trigger: "vorweg genommen"
+    replace: "vorweggenommen"
+    propagate_case: true
+    word: true
+  - trigger: "Wachholder"
+    replace: "Wacholder"
+    propagate_case: true
+    word: true
+  - trigger: "wachesen"
+    replace: "wachsen"
+    propagate_case: true
+    word: true
+  - trigger: "währe"
+    replace: "wäre"
+    propagate_case: true
+    word: true
+  - trigger: "währendessen"
+    replace: "währenddessen"
+    propagate_case: true
+    word: true
+  - trigger: "wahr genommen"
+    replace: "wahrgenommen"
+    propagate_case: true
+    word: true
+  - trigger: "Walfahrer"
+    replace: "Wallfahrer"
+    propagate_case: true
+    word: true
+  - trigger: "Walfahrt"
+    replace: "Wallfahrt"
+    propagate_case: true
+    word: true
+  - trigger: "Walfahrtskirche"
+    replace: "Wallfahrtskirche"
+    propagate_case: true
+    word: true
+  - trigger: "Walfahrtsort"
+    replace: "Wallfahrtsort"
+    propagate_case: true
+    word: true
+  - trigger: "wärend"
+    replace: "während"
+    propagate_case: true
+    word: true
+  - trigger: "Warheit"
+    replace: "Wahrheit"
+    propagate_case: true
+    word: true
+  - trigger: "warscheinlich"
+    replace: "wahrscheinlich"
+    propagate_case: true
+    word: true
+  - trigger: "Webblog"
+    replace: "Weblog"
+    propagate_case: true
+    word: true
+  - trigger: "Webpräsens"
+    replace: "Webpräsenz"
+    propagate_case: true
+    word: true
+  - trigger: "Wehrmutstropfen"
+    replace: "Wermutstropfen"
+    propagate_case: true
+    word: true
+  - trigger: "weiss"
+    replace: "weiß"
+    propagate_case: true
+    word: true
+  - trigger: "Weisswein"
+    replace: "Weißwein"
+    propagate_case: true
+    word: true
+  - trigger: "einem weiterem"
+    replace: "einem weiteren"
+    propagate_case: true
+    word: true
+  - trigger: "im weiterem"
+    replace: "im weiteren"
+    propagate_case: true
+    word: true
+  - trigger: "weiterere"
+    replace: "weitere"
+    propagate_case: true
+    word: true
+  - trigger: "weitereren"
+    replace: "weiteren"
+    propagate_case: true
+    word: true
+  - trigger: "weitesgehend"
+    replace: "weitestgehend"
+    propagate_case: true
+    word: true
+  - trigger: "Weltanschaung"
+    replace: "Weltanschauung"
+    propagate_case: true
+    word: true
+  - trigger: "Wepräsenz"
+    replace: "Webpräsenz"
+    propagate_case: true
+    word: true
+  - trigger: "wesendlich"
+    replace: "wesentlich"
+    propagate_case: true
+    word: true
+  - trigger: "im Wesentlichem"
+    replace: "im Wesentlichen"
+    propagate_case: true
+    word: true
+  - trigger: "wichig"
+    replace: "wichtig"
+    propagate_case: true
+    word: true
+  - trigger: "wichtigeste"
+    replace: "wichtigste"
+    propagate_case: true
+    word: true
+  - trigger: "Widerstandkämpfer"
+    replace: "Widerstandskämpfer"
+    propagate_case: true
+    word: true
+  - trigger: "widerum"
+    replace: "wiederum"
+    propagate_case: true
+    word: true
+  - trigger: "Wiedererichtung"
+    replace: "Wiedererrichtung"
+    propagate_case: true
+    word: true
+  - trigger: "wieder kehrend"
+    replace: "wiederkehrend"
+    propagate_case: true
+    word: true
+  - trigger: "Wiedersacher"
+    replace: "Widersacher"
+    propagate_case: true
+    word: true
+  - trigger: "wiedersetzen"
+    replace: "widersetzen"
+    propagate_case: true
+    word: true
+  - trigger: "wiederspiegeln"
+    replace: "widerspiegeln"
+    propagate_case: true
+    word: true
+  - trigger: "wiederspiegelt"
+    replace: "widerspiegelt"
+    propagate_case: true
+    word: true
+  - trigger: "wiederspiegelte"
+    replace: "widerspiegelte"
+    propagate_case: true
+    word: true
+  - trigger: "wiederspiegelten"
+    replace: "widerspiegelten"
+    propagate_case: true
+    word: true
+  - trigger: "wiedersprechen"
+    replace: "widersprechen"
+    propagate_case: true
+    word: true
+  - trigger: "wiedersprechend"
+    replace: "widersprechend"
+    propagate_case: true
+    word: true
+  - trigger: "wiedersprechende"
+    replace: "widersprechende"
+    propagate_case: true
+    word: true
+  - trigger: "Wiederspruch"
+    replace: "Widerspruch"
+    propagate_case: true
+    word: true
+  - trigger: "Wiedersprüche"
+    replace: "Widersprüche"
+    propagate_case: true
+    word: true
+  - trigger: "wiedersprüchlich"
+    replace: "widersprüchlich"
+    propagate_case: true
+    word: true
+  - trigger: "wiedersprüchliche"
+    replace: "widersprüchliche"
+    propagate_case: true
+    word: true
+  - trigger: "wiedersprüchlichen"
+    replace: "widersprüchlichen"
+    propagate_case: true
+    word: true
+  - trigger: "Wiederstand"
+    replace: "Widerstand"
+    propagate_case: true
+    word: true
+  - trigger: "Wiederstandskampf"
+    replace: "Widerstandskampf"
+    propagate_case: true
+    word: true
+  - trigger: "wiederstehen"
+    replace: "widerstehen"
+    propagate_case: true
+    word: true
+  - trigger: "wiederzuspiegeln"
+    replace: "widerzuspiegeln"
+    propagate_case: true
+    word: true
+  - trigger: "Wihelm"
+    replace: "Wilhelm"
+    propagate_case: true
+    word: true
+  - trigger: "Wikipeda"
+    replace: "Wikipedia"
+    propagate_case: true
+    word: true
+  - trigger: "Wikpedia"
+    replace: "Wikipedia"
+    propagate_case: true
+    word: true
+  - trigger: "wirtschaflich"
+    replace: "wirtschaftlich"
+    propagate_case: true
+    word: true
+  - trigger: "wissenschaflich"
+    replace: "wissenschaftlich"
+    propagate_case: true
+    word: true
+  - trigger: "wissenschafltich"
+    replace: "wissenschaftlich"
+    propagate_case: true
+    word: true
+  - trigger: "Wissentschaft"
+    replace: "Wissenschaft"
+    propagate_case: true
+    word: true
+  - trigger: "wissentschaftlich"
+    replace: "wissenschaftlich"
+    propagate_case: true
+    word: true
+  - trigger: "Wochende"
+    replace: "Wochenende"
+    propagate_case: true
+    word: true
+  - trigger: "woduch"
+    replace: "wodurch"
+    propagate_case: true
+    word: true
+  - trigger: "Wolfang"
+    replace: "Wolfgang"
+    propagate_case: true
+    word: true
+  - trigger: "wurd"
+    replace: "wurde"
+    propagate_case: true
+    word: true
+  - trigger: "wurde wurde"
+    replace: "wurde"
+    propagate_case: true
+    word: true
+  - trigger: "Würtemberg"
+    replace: "Württemberg"
+    propagate_case: true
+    word: true
+  - trigger: "würtembergische"
+    replace: "württembergische"
+    propagate_case: true
+    word: true
+  - trigger: "zahreich"
+    replace: "zahlreich"
+    propagate_case: true
+    word: true
+  - trigger: "zeimlich"
+    replace: "ziemlich"
+    propagate_case: true
+    word: true
+  - trigger: "der Zeit seines Lebens"
+    replace: "der zeit seines Lebens"
+    propagate_case: true
+    word: true
+  - trigger: "er Zeit seines Lebens"
+    replace: "er zeit seines Lebens"
+    propagate_case: true
+    word: true
+  - trigger: "sie Zeit ihres Lebens"
+    replace: "sie zeit ihres Lebens"
+    propagate_case: true
+    word: true
+  - trigger: "war Zeit ihres Lebens"
+    replace: "war zeit ihres Lebens"
+    propagate_case: true
+    word: true
+  - trigger: "war Zeit seines Lebens"
+    replace: "war zeit seines Lebens"
+    propagate_case: true
+    word: true
+  - trigger: "zeitgenösisch"
+    replace: "zeitgenössisch"
+    propagate_case: true
+    word: true
+  - trigger: "zeitgenössich"
+    replace: "zeitgenössisch"
+    propagate_case: true
+    word: true
+  - trigger: "zerissen"
+    replace: "zerrissen"
+    propagate_case: true
+    word: true
+  - trigger: "Ziffernblatt"
+    replace: "Zifferblatt"
+    propagate_case: true
+    word: true
+  - trigger: "Zohne"
+    replace: "Zone"
+    propagate_case: true
+    word: true
+  - trigger: "zu allererst"
+    replace: "zuallererst"
+    propagate_case: true
+    word: true
+  - trigger: "zuammen"
+    replace: "zusammen"
+    propagate_case: true
+    word: true
+  - trigger: "Zuammenhang"
+    replace: "Zusammenhang"
+    propagate_case: true
+    word: true
+  - trigger: "zueigen"
+    replace: "zu eigen"
+    propagate_case: true
+    word: true
+  - trigger: "zuende"
+    replace: "zu Ende"
+    propagate_case: true
+    word: true
+  - trigger: "zu Folge"
+    replace: "zufolge"
+    propagate_case: true
+    word: true
+  - trigger: "zu Folge"
+    replace: "zur Folge"
+    propagate_case: true
+    word: true
+  - trigger: "zufrieden geben"
+    replace: "zufriedengeben"
+    propagate_case: true
+    word: true
+  - trigger: "zugrundeliegen"
+    replace: "zugrunde liegen"
+    propagate_case: true
+    word: true
+  - trigger: "zugrundeliegen"
+    replace: "zu Grunde liegen"
+    propagate_case: true
+    word: true
+  - trigger: "zugrundeliegt"
+    replace: "zugrunde liegt"
+    propagate_case: true
+    word: true
+  - trigger: "zugrundeliegt"
+    replace: "zu Grunde liegt"
+    propagate_case: true
+    word: true
+  - trigger: "zu letzt"
+    replace: "zuletzt"
+    propagate_case: true
+    word: true
+  - trigger: "zum dem"
+    replace: "zu dem"
+    propagate_case: true
+    word: true
+  - trigger: "zum dem"
+    replace: "zum"
+    propagate_case: true
+    word: true
+  - trigger: "zum den"
+    replace: "zu den"
+    propagate_case: true
+    word: true
+  - trigger: "zum den"
+    replace: "zu dem"
+    propagate_case: true
+    word: true
+  - trigger: "zum den"
+    replace: "zum"
+    propagate_case: true
+    word: true
+  - trigger: "zum erstem"
+    replace: "zum ersten"
+    propagate_case: true
+    word: true
+  - trigger: "zumindestens"
+    replace: "zumindest"
+    propagate_case: true
+    word: true
+  - trigger: "in zunehmenden Maße"
+    replace: "in zunehmendem Maße"
+    propagate_case: true
+    word: true
+  - trigger: "mit zunehmenden Alter"
+    replace: "mit zunehmendem Alter"
+    propagate_case: true
+    word: true
+  - trigger: "zunehmends"
+    replace: "zunehmend"
+    propagate_case: true
+    word: true
+  - trigger: "zur der"
+    replace: "zu der"
+    propagate_case: true
+    word: true
+  - trigger: "zur der"
+    replace: "zur"
+    propagate_case: true
+    word: true
+  - trigger: "zur dieser"
+    replace: "zu dieser"
+    propagate_case: true
+    word: true
+  - trigger: "zur einem"
+    replace: "zu einem"
+    propagate_case: true
+    word: true
+  - trigger: "zur einer"
+    replace: "zu einer"
+    propagate_case: true
+    word: true
+  - trigger: "zur einer"
+    replace: "zur"
+    propagate_case: true
+    word: true
+  - trigger: "zur ihr"
+    replace: "zu ihr"
+    propagate_case: true
+    word: true
+  - trigger: "zur ihrem"
+    replace: "zu ihrem"
+    propagate_case: true
+    word: true
+  - trigger: "zur ihren"
+    replace: "zu ihren"
+    propagate_case: true
+    word: true
+  - trigger: "zur ihrer"
+    replace: "zu ihrer"
+    propagate_case: true
+    word: true
+  - trigger: "zur ihrer"
+    replace: "zur"
+    propagate_case: true
+    word: true
+  - trigger: "zur seiner"
+    replace: "zu seiner"
+    propagate_case: true
+    word: true
+  - trigger: "zur seiner"
+    replace: "zur"
+    propagate_case: true
+    word: true
+  - trigger: "zurecht"
+    replace: "zurecht"
+    propagate_case: true
+    word: true
+  - trigger: "zurecht finden"
+    replace: "zurechtfinden"
+    propagate_case: true
+    word: true
+  - trigger: "zurecht kam"
+    replace: "zurechtkam"
+    propagate_case: true
+    word: true
+  - trigger: "zurecht kommen"
+    replace: "zurechtkommen"
+    propagate_case: true
+    word: true
+  - trigger: "zurecht kommt"
+    replace: "zurechtkommt"
+    propagate_case: true
+    word: true
+  - trigger: "zurecht zu finden"
+    replace: "zurechtzufinden"
+    propagate_case: true
+    word: true
+  - trigger: "zurecht zu kommen"
+    replace: "zurechtzukommen"
+    propagate_case: true
+    word: true
+  - trigger: "zurfolge"
+    replace: "zur Folge"
+    propagate_case: true
+    word: true
+  - trigger: "zurfolge"
+    replace: "zufolge"
+    propagate_case: true
+    word: true
+  - trigger: "zurück ge"
+    replace: "zurückge"
+    propagate_case: true
+    word: true
+  - trigger: "zurück gebaut"
+    replace: "zurückgebaut"
+    propagate_case: true
+    word: true
+  - trigger: "zurück geblieben"
+    replace: "zurückgeblieben"
+    propagate_case: true
+    word: true
+  - trigger: "zurück gebracht"
+    replace: "zurückgebracht"
+    propagate_case: true
+    word: true
+  - trigger: "zurück gedrängt"
+    replace: "zurückgedrängt"
+    propagate_case: true
+    word: true
+  - trigger: "zurück gegangen"
+    replace: "zurückgegangen"
+    propagate_case: true
+    word: true
+  - trigger: "zurück gegeben"
+    replace: "zurückgegeben"
+    propagate_case: true
+    word: true
+  - trigger: "zurück geholt"
+    replace: "zurückgeholt"
+    propagate_case: true
+    word: true
+  - trigger: "zurück gekehrt"
+    replace: "zurückgekehrt"
+    propagate_case: true
+    word: true
+  - trigger: "zurück gelegt"
+    replace: "zurückgelegt"
+    propagate_case: true
+    word: true
+  - trigger: "zurück gewiesen"
+    replace: "zurückgewiesen"
+    propagate_case: true
+    word: true
+  - trigger: "zurück gewonnen"
+    replace: "zurückgewonnen"
+    propagate_case: true
+    word: true
+  - trigger: "zurück gezogen"
+    replace: "zurückgezogen"
+    propagate_case: true
+    word: true
+  - trigger: "zurück blicken"
+    replace: "zurückblicken"
+    propagate_case: true
+    word: true
+  - trigger: "zurück erobert"
+    replace: "zurückerobert"
+    propagate_case: true
+    word: true
+  - trigger: "zurück gehen"
+    replace: "zurückgehen"
+    propagate_case: true
+    word: true
+  - trigger: "zurück geht"
+    replace: "zurückgeht"
+    propagate_case: true
+    word: true
+  - trigger: "zurück gewinnen"
+    replace: "zurückgewinnen"
+    propagate_case: true
+    word: true
+  - trigger: "zurück ging"
+    replace: "zurückging"
+    propagate_case: true
+    word: true
+  - trigger: "zurück greif"
+    replace: "zurückgreif"
+    propagate_case: true
+    word: true
+  - trigger: "zurück kehrte"
+    replace: "zurückkehrte"
+    propagate_case: true
+    word: true
+  - trigger: "zurück trat"
+    replace: "zurücktrat"
+    propagate_case: true
+    word: true
+  - trigger: "zurück verfolgen"
+    replace: "zurückverfolgen"
+    propagate_case: true
+    word: true
+  - trigger: "zurück verfolgt"
+    replace: "zurückverfolgt"
+    propagate_case: true
+    word: true
+  - trigger: "zurück ziehen"
+    replace: "zurückziehen"
+    propagate_case: true
+    word: true
+  - trigger: "zurück zog"
+    replace: "zurückzog"
+    propagate_case: true
+    word: true
+  - trigger: "zurück zu bekommen"
+    replace: "zurückzubekommen"
+    propagate_case: true
+    word: true
+  - trigger: "zurück zu bringen"
+    replace: "zurückzubringen"
+    propagate_case: true
+    word: true
+  - trigger: "zurück zu drängen"
+    replace: "zurückzudrängen"
+    propagate_case: true
+    word: true
+  - trigger: "zurück zu erobern"
+    replace: "zurückzuerobern"
+    propagate_case: true
+    word: true
+  - trigger: "zurück zu führen"
+    replace: "zurückzuführen"
+    propagate_case: true
+    word: true
+  - trigger: "zurück zuführen"
+    replace: "zurückzuführen"
+    propagate_case: true
+    word: true
+  - trigger: "zurück zu gewinnen"
+    replace: "zurückzugewinnen"
+    propagate_case: true
+    word: true
+  - trigger: "zurück zu holen"
+    replace: "zurückzuholen"
+    propagate_case: true
+    word: true
+  - trigger: "zurück zu kehren"
+    replace: "zurückzukehren"
+    propagate_case: true
+    word: true
+  - trigger: "zurück zu ziehen"
+    replace: "zurückzuziehen"
+    propagate_case: true
+    word: true
+  - trigger: "zusamen"
+    replace: "zusammen"
+    propagate_case: true
+    word: true
+  - trigger: "Zusamenhang"
+    replace: "Zusammenhang"
+    propagate_case: true
+    word: true
+  - trigger: "zusammen arbeiten"
+    replace: "zusammenarbeiten"
+    propagate_case: true
+    word: true
+  - trigger: "zusammen arbeitete"
+    replace: "zusammenarbeitete"
+    propagate_case: true
+    word: true
+  - trigger: "zusammen arbeiteten"
+    replace: "zusammenarbeiteten"
+    propagate_case: true
+    word: true
+  - trigger: "zusammen gearbeitet"
+    replace: "zusammengearbeitet"
+    propagate_case: true
+    word: true
+  - trigger: "zusammen gefasst"
+    replace: "zusammengefasst"
+    propagate_case: true
+    word: true
+  - trigger: "zusammen geschlossen"
+    replace: "zusammengeschlossen"
+    propagate_case: true
+    word: true
+  - trigger: "zusammen schloss"
+    replace: "zusammenschloss"
+    propagate_case: true
+    word: true
+  - trigger: "zusammen zu arbeiten"
+    replace: "zusammenzuarbeiten"
+    propagate_case: true
+    word: true
+  - trigger: "zusammen zu schließen"
+    replace: "zusammenzuschließen"
+    propagate_case: true
+    word: true
+  - trigger: "zusammmen"
+    replace: "zusammen"
+    propagate_case: true
+    word: true
+  - trigger: "zusätlich"
+    replace: "zusätzlich"
+    propagate_case: true
+    word: true
+  - trigger: "zusehens"
+    replace: "zusehends"
+    propagate_case: true
+    word: true
+  - trigger: "zustandegekommen"
+    replace: "zustande gekommen"
+    propagate_case: true
+    word: true
+  - trigger: "zustandegekommen"
+    replace: "zu Stande gekommen"
+    propagate_case: true
+    word: true
+  - trigger: "zustandekam"
+    replace: "zustande kam"
+    propagate_case: true
+    word: true
+  - trigger: "zustandekam"
+    replace: "zu Stande kam"
+    propagate_case: true
+    word: true
+  - trigger: "zustandekommt"
+    replace: "zustande kommt"
+    propagate_case: true
+    word: true
+  - trigger: "zustandekommt"
+    replace: "zu Stande kommt"
+    propagate_case: true
+    word: true
+  - trigger: "zustätzlich"
+    replace: "zusätzlich"
+    propagate_case: true
+    word: true
+  - trigger: "zu teil werden"
+    replace: "zuteilwerden"
+    propagate_case: true
+    word: true
+  - trigger: "zu teil wird"
+    replace: "zuteilwird"
+    propagate_case: true
+    word: true
+  - trigger: "zu teil wurde"
+    replace: "zuteilwurde"
+    propagate_case: true
+    word: true
+  - trigger: "zu zu"
+    replace: "zu"
+    propagate_case: true
+    word: true
+  - trigger: "zu zu"
+    replace: "zuzu"
+    propagate_case: true
+    word: true
+  - trigger: "zu zuordnen"
+    replace: "zuzuordnen"
+    propagate_case: true
+    word: true
+  - trigger: "zu zuwenden"
+    replace: "zuzuwenden"
+    propagate_case: true
+    word: true
+  - trigger: "Zweidrittel"
+    replace: "zwei Drittel"
+    propagate_case: true
+    word: true
+  - trigger: "Zweidrittel-Mehrheit"
+    replace: "Zweidrittelmehrheit"
+    propagate_case: true
+    word: true
+  - trigger: "Zweiliga"
+    replace: "Zweitliga"
+    propagate_case: true
+    word: true
+  - trigger: "dem zweitem"
+    replace: "dem zweiten"
+    propagate_case: true
+    word: true
+  - trigger: "im zweitem"
+    replace: "im zweiten"
+    propagate_case: true
+    word: true
