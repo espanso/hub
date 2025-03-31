@@ -3,4 +3,4 @@ title: "Misspell DE"
 description: Replace commonly misspelled German words
 version: 0.1.0
 author: Axel Schnitger
-tags: ["spell-correction", "german"]
+tags: ["spell-correction", "german", "typofixer"]
