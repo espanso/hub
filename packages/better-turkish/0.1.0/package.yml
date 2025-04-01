@@ -1,0 +1,46 @@
+matches:
+  # Cedillas
+  - trigger: ",,C"
+    replace: "Ç"
+  - trigger: ",,c"
+    replace: "ç"
+  - trigger: ",,S"
+    replace: "Ş"
+  - trigger: ",,s"
+    replace: "ş"
+
+  # Umlauts
+  - trigger: "..O"
+    replace: "Ö"
+  - trigger: "..o"
+    replace: "ö"
+  - trigger: "..U"
+    replace: "Ü"
+  - trigger: "..u"
+    replace: "ü"
+
+  # Breves
+  - trigger: "--G"
+    replace: "Ğ"
+  - trigger: "--g"
+    replace: "ğ"
+
+  # Dotless/Dotted
+  - trigger: "!!i"
+    replace: "ı"
+  - trigger: "..I"
+    replace: "İ"
+
+  # Circumflex
+  - trigger: "^A"
+    replace: "Â"
+  - trigger: "^a"
+    replace: "â"
+  - trigger: "^I"
+    replace: "Î"
+  - trigger: "^i"
+    replace: "î"
+  - trigger: "^U"
+    replace: "Û"
+  - trigger: "^u"
+    replace: "û"

@@ -128,6 +128,9 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# JetBrains IDEs
+.idea/
+
 .vscode/
 
 # macOS files that should be excluded from git

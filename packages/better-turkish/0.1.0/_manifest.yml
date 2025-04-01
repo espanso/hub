@@ -1,0 +1,7 @@
+name: "better-turkish"
+title: "Better Turkish accents"
+description: "A package that provides (opinionatedly) intuitive triggers for the accented letters in the Turkish alphabet."
+version: "0.1.0"
+author: "Inan Hira"
+homepage: "https://github.com/inan-hira/espanso-hub"
+tags: ["turkish", "languages", "accents"]
