@@ -1,0 +1,7 @@
+name: "zipcodes-german"
+title: "German Zip Codes"
+description: German Zip Codes
+homepage: "https://github.com/MegaTraveller/espanso-hub/tree/main/packages"
+version: 0.1.0
+author: MegaTraveller
+tags: ["zip", "german", "plz", "postal-codes"]
