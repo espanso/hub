@@ -1,6 +1,7 @@
 import glob
 import os
 import sys
+
 from validate import validate_package
 
 report_errors = []
