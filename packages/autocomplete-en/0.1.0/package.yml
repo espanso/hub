@@ -1,3 +1,4 @@
+matches:
   - trigger: "aba\t"
     replace: "abandon"
   - trigger: "aban\t"
