@@ -1,11 +1,11 @@
 # Espanso icdm10-codes-2025
 
-Transform ICDM10 codes to their detailed descriptions.
+Transform ICD10 codes to their detailed descriptions.
 
 ## Installation
 
 ```
-espanso install icdm10-codes
+espanso install icd10-codes
 ```
 
 ## Usage
