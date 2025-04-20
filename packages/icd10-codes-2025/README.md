@@ -5,7 +5,7 @@ Transform ICD10 codes to their detailed descriptions.
 ## Installation
 
 ```
-espanso install icd10-codes
+espanso install icd10-codes-2025
 ```
 
 ## Usage
