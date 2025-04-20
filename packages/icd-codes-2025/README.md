@@ -1,4 +1,4 @@
-# Espanso icdm10-codes-2025
+# Espanso icd10-codes-2025
 
 Transform ICD10 codes to their detailed descriptions.
 
