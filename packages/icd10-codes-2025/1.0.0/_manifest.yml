@@ -1,0 +1,7 @@
+name: icd10-codes-2025
+title: ICD 10 Codes 2025
+version: 1.0.0
+author: spklk
+homepage: https://github.com/spklk/hub/tree/main
+description: Transforms ICD10 codes to their detailed descriptions.
+tags: ["english", "icd10", "codes", "2025"]
