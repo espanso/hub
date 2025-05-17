@@ -1,3 +1,11 @@
+####################
+# global variables #
+####################
+
+global_vars:
+  - name: clipb
+    type: clipboard
+
 matches:
 
   ##################
@@ -35,58 +43,34 @@ matches:
   - trigger: :pclip
     label: "clipboard: source IP"
     replace: "( addr.src in '{{clipb}}' )"
-    vars:
-      - name: "clipb"
-        type: "clipboard"
 
   - trigger: :pclip
     label: "clipboard: destionation IP" 
     replace: "( addr.dst in '{{clipb}}' )"
-    vars:
-      - name: "clipb"
-        type: "clipboard"
 
   - trigger: :pclip
     label: "clipboard: source user"
     replace: "( user.src in '{{clipb}}' )"
-    vars:
-      - name: "clipb"
-        type: "clipboard"
 
   - trigger: :pclip
     label: "clipboard: destination user" 
     replace: "( user.dst in '{{clipb}}' )"
-    vars:
-      - name: "clipb"
-        type: "clipboard"
 
   - trigger: :pclip
     label: "clipboard: source port" 
     replace: "( port.src in '{{clipb}}' )"
-    vars:
-      - name: "clipb"
-        type: "clipboard"
 
   - trigger: :pclip
     label: "clipboard: destination port" 
     replace: "( port.dst in '{{clipb}}' )"
-    vars:
-      - name: "clipb"
-        type: "clipboard"
 
   - trigger: :pclip
     label: "clipboard: source zone" 
     replace: "( zone.src in '{{clipb}}' )"
-    vars:
-      - name: "clipb"
-        type: "clipboard"
 
   - trigger: :pclip
     label: "clipboard: destnation zone" 
     replace: "( zone.dst in '{{clipb}}' )"
-    vars:
-      - name: "clipb"
-        type: "clipboard"
   ### clipboard block end ###
 
 
@@ -262,12 +246,6 @@ matches:
             Path: [[path]]
             Port: [[port]]
           fields:
-            user:
-              default: ""
-            host:
-              default: ""
-            path:
-              default: ""
             port:
               default: "22"
 
@@ -284,12 +262,6 @@ matches:
             Path: [[path]]
             Port: [[port]]
           fields:
-            user:
-              default: ""
-            host:
-              default: ""
-            path:
-              default: ""
             port:
               default: "22"
 

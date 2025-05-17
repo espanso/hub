@@ -8,13 +8,13 @@ An [espanso](https://espanso.org/) package for generating
 
 for Palo Alto Networks Next Generation Firewalls and Panorama.
 
-Espanso is a text expander. 
+Espanso is a text expander.
 
 The goal is to save time for daily troubleshooting and admin tasks. Triggers should also work, if you do them in a remote session, because it's just like you'd type the characters yourself.
 
-All triggers start with `:p` followed by a keyword. For this README file the following convention is used: 
+All triggers start with `:p` followed by a keyword. For this README file the following convention is used:
 
-- `:p` trigger identifier for this Espanso package 
+- `:p` trigger identifier for this Espanso package
 - `keyword` followed by keyword to trigger the specific action. Goal: Easy to remember
 - `<dynamic>` (only required for a few triggers) dynamic regex part that is required for the completion to work.
 
@@ -40,7 +40,7 @@ Example: `:plcip` offers a choice, and then it uses your clipboard content to bu
 
 ### source and destination actions
 
-Syntax: `:psrcip` or `pdstip` or `:psrczone` or ...
+Syntax: `:psrcip` or `:pdstip` or `:psrczone` or ...
 
 Example: `psrcip` will be replaced by `( addr.src in '' )` with the cursor position in quotes.
 
@@ -48,14 +48,14 @@ Example: `psrcip` will be replaced by `( addr.src in '' )` with the cursor posit
 
 ### filter for specific traffic
 
-Syntax: `:pallow`, `:pdeny`, `:paction`, `p0b`
+Syntax: `:pallow`, `:pdeny`, `:paction`, `:p0b`
 
 Example: `:pallow` expands to ( action eq 'allow' )
 ![](https://github.com/itsamemarkus/espanso-pan/raw/main/assets/pallow-etc.gif)
 
-## Examples: Filter Policies 
+## Examples: Filter Policies
 
-Syntax: `:pdisabled`, `pnolog`, `pname`
+Syntax: `:pdisabled`, `:pnolog`, `:pname`
 
 Example: `:pnolog` expands to `(log-end eq 'no')` to show policies with no logging enabled
 
@@ -67,7 +67,7 @@ Example: `:pnolog` expands to `(log-end eq 'no')` to show policies with no loggi
 
 `:pcapfiles` expands to
 
-```
+```text
 debug dataplane packet-diag set capture stage receive file 2025-05-14_00-24_rc
 debug dataplane packet-diag set capture stage firewall file 2025-05-14_00-24_fw
 debug dataplane packet-diag set capture stage transmit file 2025-05-14_00-24_tm
@@ -80,9 +80,9 @@ where the filename contains the current date and time.
 
 ### Set packet capture filter with CIDR source and/or destination range
 
-`:pcapfilter` opens a form and expands to 
+`:pcapfilter` opens a form and expands to
 
-```
+```text
 debug dataplane packet-diag set filter match source 10.13.37.42 source-netmask 24 destination 9.9.9.9 destination-netmask 32
 ```
 
@@ -98,7 +98,7 @@ debug dataplane packet-diag set filter match source 10.13.37.42 source-netmask 2
 
 ### lookup route in FIB
 
-`:proutelookup` expands to `test routing fib-lookup virtual-router default ip `
+`:proutelookup` expands to `test routing fib-lookup virtual-router default ip`
 
 ### export TSF file
 
@@ -106,11 +106,11 @@ debug dataplane packet-diag set filter match source 10.13.37.42 source-netmask 2
 
 ![](https://github.com/itsamemarkus/espanso-pan/raw/main/assets/ptsf.gif)
 
-and expands to the command that exports the tech support file via scp. 
+and expands to the command that exports the tech support file via scp.
 
 ### MISC commands
 
-`:ptopm` top for management-plane expands to `show system resources follow` 
+`:ptopm` top for management-plane expands to `show system resources follow`
 
 `:ptopd` top for data-plane expands to `show running resource-monitor`
 
@@ -132,7 +132,7 @@ When I initially had the idea to use [Espanso](https://espanso.org/) for this, I
 
 I noticed quite fast that those triggers are harder to remember and decided to just prepend everything with `:p` and then use very easy to remember names, if possible I used keywords from the original syntax and I even preferred slightly longer ones, like `:pallow` over `:pall` (or so). I'm trying to include commands that might be used very frequently by the majority of admins and troubleshooters.
 
-Although Espanso [shell extensions](https://espanso.org/docs/matches/extensions/#shell-extension) can be very powerful, I'm trying to avoid using them, so that everything works universally on Linux, Mac and Windows and with no dependencies. 
+Although Espanso [shell extensions](https://espanso.org/docs/matches/extensions/#shell-extension) can be very powerful, I'm trying to avoid using them, so that everything works universally on Linux, Mac and Windows and with no dependencies.
 
 I'm also trying to not include any destructive commands like clearing firewall logs,shutting down the firewall or resetting sc3. You can easily extend your own config with those, if you need them frequently.
 
