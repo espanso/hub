@@ -1,0 +1,305 @@
+####################
+# global variables #
+####################
+
+global_vars:
+  - name: clipb
+    type: clipboard
+
+matches:
+
+  ##################
+  # Filter Monitor #
+  ##################
+
+  - regex: ":pleq(?P<hour>\\d{2})(?P<minute>\\d{2})"
+    # label: less equal time, regex time extraction. Example: :pleq2035
+    replace: "( receive_time leq '{{datetime}}' )"
+    vars:
+      - name: today
+        type: date
+        params:
+          format: "%Y/%m/%d"
+      - name: datetime
+        type: echo
+        params:
+          echo: "{{today}} {{hour}}:{{minute}}:00"
+
+  - regex: ":pgeq(?P<hour>\\d{2})(?P<minute>\\d{2})"
+    # label: greater equal time, regex time extraction. Example: pgeq2145
+    replace: "( receive_time geq '{{datetime}}' )"
+    vars:
+      - name: today
+        type: date
+        params:
+          format: "%Y/%m/%d"
+      - name: datetime
+        type: echo
+        params:
+          echo: "{{today}} {{hour}}:{{minute}}:00"
+
+
+  ### clipboard block start ###
+  - trigger: :pclip
+    label: "clipboard: source IP"
+    replace: "( addr.src in '{{clipb}}' )"
+
+  - trigger: :pclip
+    label: "clipboard: destionation IP" 
+    replace: "( addr.dst in '{{clipb}}' )"
+
+  - trigger: :pclip
+    label: "clipboard: source user"
+    replace: "( user.src in '{{clipb}}' )"
+
+  - trigger: :pclip
+    label: "clipboard: destination user" 
+    replace: "( user.dst in '{{clipb}}' )"
+
+  - trigger: :pclip
+    label: "clipboard: source port" 
+    replace: "( port.src in '{{clipb}}' )"
+
+  - trigger: :pclip
+    label: "clipboard: destination port" 
+    replace: "( port.dst in '{{clipb}}' )"
+
+  - trigger: :pclip
+    label: "clipboard: source zone" 
+    replace: "( zone.src in '{{clipb}}' )"
+
+  - trigger: :pclip
+    label: "clipboard: destnation zone" 
+    replace: "( zone.dst in '{{clipb}}' )"
+  ### clipboard block end ###
+
+
+  - trigger: :psrcip
+    # label: Sourcçe IP
+    replace: "( addr.src in '$|$' )"
+
+  - trigger: :pdstip
+    # label: Destination IP
+    replace: "( addr.dst in '$|$' )"
+
+  - trigger: :psrcuser
+    # label: Username
+    replace: "(user.src eq '$|$')"
+
+  - trigger: :pdstuser
+    # label: Username
+    replace: "(user.dst eq '$|$')"
+
+  - trigger: :psrcport
+    # label: Source Port
+    replace: "(port.src eq '$|$')"
+
+  - trigger: :pdstport
+    # label: Destination Port
+    replace: "(port.dst eq '$|$')"
+
+  - trigger: :psrczone
+    # label: Source Zone
+    replace: "(zone.src eq '$|$')"
+
+  - trigger: :pdstzone
+    # label: Destionation Zone
+    replace: "(zone.dst eq '$|$')"
+ 
+  - trigger: :papp
+    # label: App
+    replace: "(app eq '$|$')"
+
+  - trigger: :pdecrypt
+    # label: Decrypted Traffic
+    replace: "( flags has proxy )"
+
+  - trigger: :pnodecrypt
+    # label: Traffic that is not decrypted
+    replace: "!( flags has proxy )"
+
+  - trigger: :pallow
+    # label: Allowed Traffic
+    replace: ( action eq 'allow' )
+
+  - trigger: :pdeny
+    # label: Denied traffic
+    replace: "( action eq 'deny' )"
+
+  - trigger: ":paction"
+    # label: Traffic action
+    replace: "( action eq {{form1.action_type}} )"
+    vars:
+      - name: form1
+        type: form
+        params:
+          layout: |
+            Which Action?
+            Action: [[action_type]]
+          fields:
+            action_type:
+              type: choice
+              values:
+                - allow
+                - deny
+                - drop
+                - reset-client
+                - reset-server
+                - reset-both
+                - drop-icmp
+
+  - trigger: ":p0b"
+    # label: Sessions with no return traffic
+    replace: "( bytes_received eq '0' )"
+
+
+  ####################
+  # Filter  Policies #
+  ####################
+
+  - trigger: :pdisabled
+    replace: "(disabled eq 'yes' )"
+
+  - trigger: :pnolog
+    # label: only show policies where traffic at session end is disabled
+    replace: "(log-end eq 'no')"
+
+  - trigger: ":pname"
+    # label: Shows policies containing string
+    replace: "(name contains '$|$')"
+
+
+  #######
+  # CLI #
+  #######
+
+  - trigger: ":pcapfiles"
+    label: "PAN Terminal: capture files >> debug dataplane packet-diag set capture stage..." 
+    # sets filenames for all capture stages: receive, firewall, transmit and drop
+    replace: |
+      debug dataplane packet-diag set capture stage receive file {{mydate}}_rc
+      debug dataplane packet-diag set capture stage firewall file {{mydate}}_fw
+      debug dataplane packet-diag set capture stage transmit file {{mydate}}_tm
+      debug dataplane packet-diag set capture stage drop file {{mydate}}_dr
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%Y-%m-%d_%H-%M"
+
+  - trigger: ":pcapfilter"
+    label: "PAN Terminal: capture filter >> debug dataplane packet-diag set filter..."
+    # interactively sets the capture filter, compared to web UI it's possible to set a subnet mask here
+    replace: "debug dataplane packet-diag set filter match source {{form1.src}} source-netmask {{form1.srcnetmask}} destination {{form1.dst}} destination-netmask {{form1.dstnetmask}}"
+    vars:
+      - name: form1
+        type: form
+        params:
+          layout: |
+            Source IP: [[src]]
+            Source Netmask (CIDR): [[srcnetmask]]
+            Destination IP: [[dst]]
+            Destination Netmask: [[dstnetmask]]
+
+  - trigger: ":pcapcounter"
+    label: "PAN Terminal: capture counter >> show counter global filter packet-filter yes delta yes"
+    replace: "show counter global filter packet-filter yes delta yes"
+
+  - trigger: ":pcapon"
+    label: "PAN Terminal: capture on >> debug dataplane packet-diag set capture on"
+    replace: debug dataplane packet-diag set capture on
+
+  - trigger: ":pcapoff"
+    label: "PAN Terminal: Capture off >> debug dataplane packet-diag set capture off"
+    replace: debug dataplane packet-diag set capture off
+
+  - trigger: ":pcapclear"
+    label: "PAN Terminal: Capture clear settings >> debug dataplane packet-diag clear all"
+    replace: debug dataplane packet-diag clear all
+
+  - trigger: ":pcapmgmt"
+    label: "PAN Terminal: Capture mgmt plane >> tcpdump"
+    replace: "tcpdump snaplen 0 filter 'src net {{form1.src}}/{{form1.srcnetmask}} and port {{form1.dstport}}'"
+    vars:
+      - name: form1
+        type: form
+        params:
+          layout: |
+            Source IP: [[src]]
+            Source Netmask: [[srcnetmask]]
+            Destination port: [[dstport]]
+
+  - trigger: ":proutelookup"
+    label: "PAN Terminal: route >> test routing fib-lookup virtual-router default ip"
+    replace: "test routing fib-lookup virtual-router default ip $|$"
+
+  - trigger: ":plogexport"
+    label: "PAN Terminal: Export log files"
+    replace: "scp export log-file management remote-port {{form1.port}} to {{form1.user}}@{{form1.host}}:{{form1.path}}"
+    vars:
+      - name: form1
+        type: form
+        params:
+          layout: |
+            User: [[user]]
+            Host: [[host]]
+            Path: [[path]]
+            Port: [[port]]
+          fields:
+            port:
+              default: "22"
+
+  - trigger: ":ptsf"
+    label: "PAN Terminal: Export tech support file"
+    replace: "scp export tech-support remote-port {{form1.port}} to {{form1.user}}@{{form1.host}}:{{form1.path}}"
+    vars:
+      - name: form1
+        type: form
+        params:
+          layout: |
+            User: [[user]]
+            Host: [[host]]
+            Path: [[path]]
+            Port: [[port]]
+          fields:
+            port:
+              default: "22"
+
+
+  - trigger: ":ptopm"
+    replace: "show system resources follow"
+
+  - trigger: ":ptopd"
+    replace: "show running resource-monitor"
+
+  - trigger: :pjobs
+    replace: "show jobs all"
+
+  - trigger: :plicense
+    replace: "show license info"
+
+  - trigger: :pps
+    replace: "show system software status"
+
+  - trigger: ":pdhcp"
+    replace:  "show dhcp server lease interface all"
+
+  - trigger: ":ppbf"
+    replace:  "show session packet-buffer-protection"
+
+  - trigger: ":pdisk"
+    replace: "show system disk-space"
+
+  - trigger: ":pike"
+    replace: "show vpn ike-sa gateway"
+
+  - trigger: ":pipsec"
+    replace: "show vpn ipsec-sa tunnel"
+
+  - trigger: ":pgroups"
+    replace: "show user group list"
+
+  - trigger: ":pfqdn"
+    replace: "show dns-proxy fqdn all"
+
+

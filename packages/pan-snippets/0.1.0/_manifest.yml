@@ -1,0 +1,7 @@
+name: "pan-snippets"
+title: "PAN snippets"
+description: Snippets for Palo Alto Networks Firewalls and Panorama
+homepage: "https://github.com/itsamemarkus/espanso-pan"
+version: 0.1.0
+author: Markus Schapdick
+tags: ["utility", "palo-alto-networks", "firewall", "ngfw", "networking", "infosec"]
