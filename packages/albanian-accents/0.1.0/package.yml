@@ -1,0 +1,9 @@
+matches:
+  - trigger: ":Cww"
+    replace: "Ç"
+  - trigger: ":cww"
+    replace: "ç"
+  - trigger: ":wwE"
+    replace: "Ë"
+  - trigger: ":wwe"
+    replace: "ë"

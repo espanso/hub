@@ -1,0 +1,7 @@
+name: "albanian-accents"
+title: "Albanian Accent characters"
+description: Useful for typing Albanian accented characters (eg: ww + e -> ë and so on)
+homepage: "https://espanso.org/docs/packages/creating-a-package/#publish-on-the-hub-public"
+version: 0.1.0
+author: Frederik Nosi
+tags: ["accents", "letters", "characters", "albanian", "shqip"]
