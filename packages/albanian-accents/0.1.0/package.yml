@@ -1,9 +1,20 @@
 matches:
-  - trigger: ":Cww"
-    replace: "Ç"
-  - trigger: ":cww"
-    replace: "ç"
-  - trigger: ":wwE"
-    replace: "Ë"
-  - trigger: ":wwe"
+  - trigger: "wwe"
     replace: "ë"
+  - trigger: "wwE"
+    replace: "Ë"
+  - trigger: "wwc"
+    replace: "ç"
+  - trigger: "wwC"
+    replace: "Ç"
+  
+  # Alternative triggers
+  - trigger: "qqe"
+    replace: "ë"
+  - trigger: "qqE"
+    replace: "Ë"
+  - trigger: "qqc"
+    replace: "ç"
+  - trigger: "qqC"
+    replace: "Ç"
+

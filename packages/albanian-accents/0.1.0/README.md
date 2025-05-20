@@ -1,10 +1,25 @@
-### **Albanian accented characters**
+### **Albanian Accented Characters**
 
-just put two 'w' characters before the desired one, indeed, as there are just a fiew, below is the complete list:
+Type Albanian accented letters easily using one of two trigger styles:
 
-wwc -> ç
-wwC -> Ç
-wwe -> ë
-wwE -> Ë
+- `ww` + letter (default: fast, natural, and ergonomic)
+- `qq` + letter (alternative: just as effective, slightly less common)
+
+**Substitutions:**
+
+
+```
+wwe → ë
+qqe → ë
+wwE → Ë
+qqE → Ë
+wwc → ç
+qqc → ç
+wwC → Ç
+qqC → Ç
+```
+
+
+Quick and practical for typing in Shqip on any keyboard — no Albanian layout needed.
 
 
