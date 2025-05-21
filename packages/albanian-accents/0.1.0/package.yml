@@ -1,0 +1,9 @@
+matches:
+  - triggers: ["wwe", "qqe"]
+    replace: "ë"
+  - triggers: ["wwE", "qqE"]
+    replace: "Ë"
+  - triggers: ["wwc", "qqc"]
+    replace: "ç"
+  - triggers: ["wwC", "qqC"]
+    replace: "Ç"
