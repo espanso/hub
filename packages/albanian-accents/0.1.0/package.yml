@@ -5,5 +5,5 @@ matches:
     replace: "Ë"
   - triggers: ["wwc", "qqc"]
     replace: "ç"
-  - triggers: ["wwC", "qqC]"
+  - triggers: ["wwC", "qqC"]
     replace: "Ç"
