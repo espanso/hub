@@ -1,0 +1,19 @@
+# Updated version to try and ensure the version in the Hub
+# has a "matches:" line at the top.
+matches:
+  - regex: :st(?P<fstars>\d+),(?P<estars>\d+)
+    replace: "{{stars}}"
+    vars:
+      - name: stars
+        type: script
+        params:
+          args:
+           - python
+           - -c
+           - |
+            import sys, codecs
+
+            # Ensure UTF-8 output
+            sys.stdout = codecs.getwriter("utf-8")(sys.stdout.detach())
+
+            print(chr(0x2605)*{{fstars}}+chr(0x2606)*{{estars}})

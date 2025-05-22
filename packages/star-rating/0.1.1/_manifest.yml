@@ -1,0 +1,7 @@
+author: Jacob Fresco
+description: "Display a star rating. However you want, wherever you want. You decide"
+name: star-rating
+title: Star Rating
+version: 0.1.1
+homepage: "https://github.com/jacobfresco/star-rating/"
+tags: ["fun", "emoji", "ascii"]
