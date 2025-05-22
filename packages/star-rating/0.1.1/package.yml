@@ -1,3 +1,5 @@
+# Updated version to try and ensure the version in the Hub
+# has a "matches:" line at the top.
 matches:
   - regex: :st(?P<fstars>\d+),(?P<estars>\d+)
     replace: "{{stars}}"
