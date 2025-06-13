@@ -5,7 +5,7 @@ matches:
       - name: "prompt"
         type: "form"
         params:
-          layout: "What would you like to ask the Artificial intelligence/LLM?\n\n[[text]]"
+          layout: "What would you like to ask the Artificial intelligence LLM today?\n\n[[text]]"
           fields:
             text:
               multiline: true
