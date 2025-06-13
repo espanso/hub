@@ -1,0 +1,7 @@
+name: "espanso-llm-ask-ai"
+title: "Espanso LLM ask AI"
+description: "An Espanso package that enables users to quickly send prompts to a local (e.g. Ollama or LM Studio) or remote LLM API calls (OpenAI standard) and insert the AI-generated response directly into any text field."
+version: "0.1.0"
+author: "Bernhard Enders"
+homepage: "https://github.com/bgeneto/espanso-llm-ask-ai"
+tags: ["LLM", "AI", "artificial intelligence", "prompt", "Espanso", "Ollama", "OpenAI"]
