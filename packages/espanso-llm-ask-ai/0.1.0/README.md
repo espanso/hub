@@ -57,5 +57,5 @@ Bernhard Enders
 
 ## Links
 
-- [Homepage](https://github.com/bgeneto/espanso-llm-ask-ai-tasks)
+- [Homepage](https://github.com/bgeneto/espanso-llm-ask-ai)
 - [Espanso Documentation](https://espanso.org/docs/)
