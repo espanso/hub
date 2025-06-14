@@ -26,8 +26,8 @@ MODEL=llama3.2
 ## Usage
 
 - Type the Espanso trigger for this package (`:ask:ai`) in any text field.
-- Enter your prompt when asked.
-- The AI-generated response will be inserted automatically (this can take several seconds, so choose a small and low latency model).
+- Enter your desired AI prompt when asked.
+- The AI-generated response will be inserted automatically (this can take several seconds, so choose a small and low latency LLM model).
 
 ### Example
 
@@ -45,6 +45,7 @@ Press the "Submit" button or "CTRL + Enter" to send the request. The response fr
 
 - Make sure Python is available globally on your system's PATH environment variable and that the required packages are installed.
 - Check that your BASE_URL endpoint, MODEL and API_KEY are correctly set in the `.env` file (located in the Espanso config directory: `%CONFIG%/match/packages/espanso-llm-ask-ai/.env`).
+- After sending the request, make sure the cursor doesn’t lose focus and remains blinking at the correct insertion point. If it doesn’t, just click to place it right after the trigger string like this **:ask:ai|**
 - Review Espanso logs for errors.
 
 ## License
