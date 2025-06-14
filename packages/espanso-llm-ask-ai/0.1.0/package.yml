@@ -1,0 +1,18 @@
+matches:
+  - trigger: ":ask:ai"
+    replace: "{{output}}"
+    vars:
+      - name: "prompt"
+        type: "form"
+        params:
+          layout: "What would you like to ask the Artificial intelligence LLM today?\n\n[[text]]"
+          fields:
+            text:
+              multiline: true
+      - name: "output"
+        type: "script"
+        params:
+          args:
+            - python
+            - "%CONFIG%/match/packages/espanso-llm-ask-ai/ask-ai.py"
+            - "{{prompt.text}}"
