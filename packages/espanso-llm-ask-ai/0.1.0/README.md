@@ -44,7 +44,7 @@ Press the "Submit" button or "CTRL + Enter" to send the request. The response fr
 ## Troubleshooting
 
 - Make sure `python` (not `python3`) executable is available globally on your system's PATH environment variable and that the required packages are installed.
-- Certain Linux distributions, such as Debian, use only a `python3` executable and don't include a `python` executable or symlink. In this case, you may need to create a symbolic link or run a command like this:
+- Certain Linux distributions, such as Debian, use only a `python3` executable and don't include a `python` executable or symlink. In this case, you may need to install the `python-is-python3` package, create a symbolic link, or run a command like this:
   ```bash
   sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 10
   ```
