@@ -1,4 +1,4 @@
-# espanso-llm-ask-ai
+# llm-ask-ai
 
 An Espanso package that enables users to quickly send prompts to a local (e.g. Ollama or LM Studio) or remote LLM API calls (OpenAI standard) and insert the AI-generated response directly into any text field.
 
@@ -44,13 +44,13 @@ Press the "Submit" button or "CTRL + Enter" to send the request. The response fr
 ## Troubleshooting
 
 - Make sure `python` (not `python3`) executable is available globally on your system's PATH environment variable and that the required packages are installed.
-- Certain Linux distributions, such as Debian, use only a `python3` executable and don't include a `python` executable or symlink. In this case, you may need to install the `python-is-python3` package, create a symbolic link, or run a command like this:
+- Certain Linux distributions, such as Debian, use only a `python3` executable and don't include a `python` executable or symlink. In this case, you may need to install the `python-is-python3` package (recommended), create a symbolic link, or run a command like this:
   ```bash
   sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 10
   ```
 
 - Make sure you have the necessary Python packages installed globally, either by running `pip install openai python-dotenv` or by using a command like `sudo apt install python3-openai python3-dotenv`.
-- Check that your BASE_URL endpoint, MODEL and API_KEY are correctly set in the `.env` file (located in the Espanso config directory: `%CONFIG%/match/packages/espanso-llm-ask-ai/.env`).
+- Check that your BASE_URL endpoint, MODEL and API_KEY are correctly set in the `.env` file (located in the Espanso config directory: `%CONFIG%/match/packages/llm-ask-ai/.env`).
 - After sending the request, make sure the cursor doesn’t lose focus and remains blinking at the correct insertion point. If it doesn’t, just click to place it right after the trigger string like this **:ask:ai|**
 - Review Espanso logs for errors.
 

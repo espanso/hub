@@ -14,5 +14,5 @@ matches:
         params:
           args:
             - python
-            - "%CONFIG%/match/packages/espanso-llm-ask-ai/ask-ai.py"
+            - "%CONFIG%/match/packages/llm-ask-ai/ask-ai.py"
             - "{{prompt.text}}"
