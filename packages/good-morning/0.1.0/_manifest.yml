@@ -1,6 +1,7 @@
 name: "good-morning"
 title: "Good Morning"
 description: Uses python to create personalized greetings that look like they were manually typed
+homepage: "https://github.com/josh-reeves/espanso-hub/tree/main/packages/good-morning/0.1.0"
 version: 0.1.0
 author: Joshua Reeves
 tags: ["greetings", "python"]

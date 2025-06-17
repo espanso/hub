@@ -1,18 +1,6 @@
-global_vars:
-  - name: sep
-    type: script
-    params:
-      args:
-        - python
-        - -c
-        - |
-          import os
-
-          print(os.path.sep)
-
 matches:
   - trigger: ":img-morning"
-    image_path: "$CONFIG{{sep}}match{{sep}}packages{{sep}}good-morning{{sep}}resources{{sep}}tmp.gif"
+    image_path: "$CONFIG/match/packages/good-morning/resources/tmp.gif"
 
   - trigger: ":morning"
     replace: "{{output}}"
@@ -22,4 +10,4 @@ matches:
         params:
           args:
             - python
-            - "%CONFIG%{{sep}}match{{sep}}packages{{sep}}good-morning{{sep}}resources{{sep}}good_morning.py"
+            - "%CONFIG%/match/packages/good-morning/resources/good_morning.py"

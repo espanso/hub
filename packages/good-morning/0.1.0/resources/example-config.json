@@ -1,7 +1,7 @@
 {
-    "downloadImage": false,
-    "repo": "{owner}/{repo}",
-    "path": "",
+    "downloadImage": true,
+    "repo": "josh-reeves/good-morning-espanso-package",
+    "path": "images",
     "branch": "",
     "personalGreetings": 
     [

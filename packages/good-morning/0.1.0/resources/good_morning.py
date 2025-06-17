@@ -53,6 +53,9 @@ class LinkedList:
         if (self.head is None):
             self.head = node
             self.tail = self.head
+
+            while (self.tail.next is not None):
+                self.tail = self.tail.next
   
             return
         
@@ -135,15 +138,18 @@ else:
 if (config["downloadImage"]):
     # Uses GitHub API to pull list of images in gif directory of repository. This can be used to dynamically obtain the total number of 
     # images in the directory later:
+
     try:
-        gifList = json.loads(subprocess.run(["curl", f"https://api.github.com/repos/{config["repo"]}/contents/{config["path"]}{f"?ref={config["branch"]}" if config["branch"] != "" else ""}" , "-s"], capture_output=True).stdout.decode())
+        listURL =  "https://api.github.com/repos/" + config["repo"] + "/contents" + f"/{config["path"]}" if config["path"] != "" else "" + f"?ref={config["branch"]}" if config["branch"] != "" else ""
+        gifList = json.loads(subprocess.run(["curl", "-s", listURL, "-H", "Accept: application/json"], capture_output=True).stdout.decode())
     
     except Exception as ex:
-        print(f"Failed to download list of GIFs:\n{ex}")
+        print(f"Failed to download list of repository content. Check \"repo\" and \"path\" values in config.json:\n{ex}")
 
     # Attempt to curl a random gif from the gif directory
     try:
-        subprocess.run(["curl", gifList[random.randint(1, gifList.__len__() - 1)]["download_url"], "-s", "-o", os.path.join(os.path.dirname(__file__), "tmp.gif")])
+        downloadURL = gifList[random.randint(1, gifList.__len__() - 1)]["download_url"] 
+        subprocess.run(["curl", "-s", downloadURL, "-H", "Accept: image/*","-o", os.path.join(os.path.dirname(__file__), "tmp.gif")])
 
     except Exception as ex:
         print(f"Failed to download GIF image:\n{ex}")

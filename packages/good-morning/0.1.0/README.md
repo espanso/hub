@@ -2,7 +2,7 @@
 *A simple python-powered match that creates personalized greetings that look like they were manually typed.*
 
 ## Summary
-Each time the **:morning** match is called the script will generate a list of greetings for each name in the names.txt file. Names that include the tag character from the script will be prioritized in the order they apepar. Other names will be added to the list in a semi-random order.
+Each time the **:morning** match is called the script will generate a list of greetings for each name in the names.txt file. Names that include the tag character from the script (:) will be prioritized in the order they appear. Other names will be added to the list in a semi-random order.
 
 A random greeting will then be appended to the output depending on the day of the week.
 
@@ -26,6 +26,16 @@ The script and configuration files are located in the resources folder:
     * **weekdayGreetings** - Greetings that will be used on each weekday unless otherwise specified.
     * **mondayGreetings** - Greetings that will be used on Mondays.
     * **fridayGreetings** - Greetings that will be used on Frindays.
+
+Greetings for each category can be added to the arrays their respective fields.
+
+For security reasons, downloading images is disabled by default. In order to enable this functionality, the following must be configured:
+* downloadImage must be set to **true**.
+* repo must be configured with the owner and repository portions of the **GitHub repository url from which you would like to download images**.
+* If the images reside in a subdirectory of the repository, the path must be specified with the path option.
+* If the images reside in a specific branch of the repository, the branch must be specified by name via the branch option.
+
+*For convenience, an example configuration with image downloading enabled has been provided via the example-config.json file.*
 
 ## Example
 Good morning, Tom!<br>
