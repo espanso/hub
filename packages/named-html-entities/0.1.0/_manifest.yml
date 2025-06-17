@@ -1,0 +1,7 @@
+name: "named-html-entities"
+title: "Named HTML Entities"
+description: Replace HTML named entity references with their corresponding characters
+homepage: "https://github.com/mrled/espanso-named-html-entities"
+version: 0.1.0
+author: Micah R Ledbetter
+tags: ["html", "unicode", "symbols", "characters"]
