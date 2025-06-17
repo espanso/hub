@@ -40,7 +40,11 @@ class LinkedList:
         self.head = node
         self.head.next = temp
 
-        self.tail = self.head
+        if (self.tail is None):        
+            self.tail = self.head
+
+        while (self.tail.next is not None):
+            self.tail = self.tail.next
 
         return
 
