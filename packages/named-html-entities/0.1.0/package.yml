@@ -1,0 +1,8504 @@
+{
+  "matches": [
+    {
+      "trigger": ":Aacute;",
+      "replace": "Á"
+    },
+    {
+      "trigger": ":aacute;",
+      "replace": "á"
+    },
+    {
+      "trigger": ":Abreve;",
+      "replace": "Ă"
+    },
+    {
+      "trigger": ":abreve;",
+      "replace": "ă"
+    },
+    {
+      "trigger": ":ac;",
+      "replace": "∾"
+    },
+    {
+      "trigger": ":acd;",
+      "replace": "∿"
+    },
+    {
+      "trigger": ":acE;",
+      "replace": "∾̳"
+    },
+    {
+      "trigger": ":Acirc;",
+      "replace": "Â"
+    },
+    {
+      "trigger": ":acirc;",
+      "replace": "â"
+    },
+    {
+      "trigger": ":acute;",
+      "replace": "´"
+    },
+    {
+      "trigger": ":Acy;",
+      "replace": "А"
+    },
+    {
+      "trigger": ":acy;",
+      "replace": "а"
+    },
+    {
+      "trigger": ":AElig;",
+      "replace": "Æ"
+    },
+    {
+      "trigger": ":aelig;",
+      "replace": "æ"
+    },
+    {
+      "trigger": ":af;",
+      "replace": "⁡"
+    },
+    {
+      "trigger": ":Afr;",
+      "replace": "𝔄"
+    },
+    {
+      "trigger": ":afr;",
+      "replace": "𝔞"
+    },
+    {
+      "trigger": ":Agrave;",
+      "replace": "À"
+    },
+    {
+      "trigger": ":agrave;",
+      "replace": "à"
+    },
+    {
+      "trigger": ":alefsym;",
+      "replace": "ℵ"
+    },
+    {
+      "trigger": ":aleph;",
+      "replace": "ℵ"
+    },
+    {
+      "trigger": ":Alpha;",
+      "replace": "Α"
+    },
+    {
+      "trigger": ":alpha;",
+      "replace": "α"
+    },
+    {
+      "trigger": ":Amacr;",
+      "replace": "Ā"
+    },
+    {
+      "trigger": ":amacr;",
+      "replace": "ā"
+    },
+    {
+      "trigger": ":amalg;",
+      "replace": "⨿"
+    },
+    {
+      "trigger": ":AMP;",
+      "replace": "&"
+    },
+    {
+      "trigger": ":amp;",
+      "replace": "&"
+    },
+    {
+      "trigger": ":And;",
+      "replace": "⩓"
+    },
+    {
+      "trigger": ":and;",
+      "replace": "∧"
+    },
+    {
+      "trigger": ":andand;",
+      "replace": "⩕"
+    },
+    {
+      "trigger": ":andd;",
+      "replace": "⩜"
+    },
+    {
+      "trigger": ":andslope;",
+      "replace": "⩘"
+    },
+    {
+      "trigger": ":andv;",
+      "replace": "⩚"
+    },
+    {
+      "trigger": ":ang;",
+      "replace": "∠"
+    },
+    {
+      "trigger": ":ange;",
+      "replace": "⦤"
+    },
+    {
+      "trigger": ":angle;",
+      "replace": "∠"
+    },
+    {
+      "trigger": ":angmsd;",
+      "replace": "∡"
+    },
+    {
+      "trigger": ":angmsdaa;",
+      "replace": "⦨"
+    },
+    {
+      "trigger": ":angmsdab;",
+      "replace": "⦩"
+    },
+    {
+      "trigger": ":angmsdac;",
+      "replace": "⦪"
+    },
+    {
+      "trigger": ":angmsdad;",
+      "replace": "⦫"
+    },
+    {
+      "trigger": ":angmsdae;",
+      "replace": "⦬"
+    },
+    {
+      "trigger": ":angmsdaf;",
+      "replace": "⦭"
+    },
+    {
+      "trigger": ":angmsdag;",
+      "replace": "⦮"
+    },
+    {
+      "trigger": ":angmsdah;",
+      "replace": "⦯"
+    },
+    {
+      "trigger": ":angrt;",
+      "replace": "∟"
+    },
+    {
+      "trigger": ":angrtvb;",
+      "replace": "⊾"
+    },
+    {
+      "trigger": ":angrtvbd;",
+      "replace": "⦝"
+    },
+    {
+      "trigger": ":angsph;",
+      "replace": "∢"
+    },
+    {
+      "trigger": ":angst;",
+      "replace": "Å"
+    },
+    {
+      "trigger": ":angzarr;",
+      "replace": "⍼"
+    },
+    {
+      "trigger": ":Aogon;",
+      "replace": "Ą"
+    },
+    {
+      "trigger": ":aogon;",
+      "replace": "ą"
+    },
+    {
+      "trigger": ":Aopf;",
+      "replace": "𝔸"
+    },
+    {
+      "trigger": ":aopf;",
+      "replace": "𝕒"
+    },
+    {
+      "trigger": ":ap;",
+      "replace": "≈"
+    },
+    {
+      "trigger": ":apacir;",
+      "replace": "⩯"
+    },
+    {
+      "trigger": ":apE;",
+      "replace": "⩰"
+    },
+    {
+      "trigger": ":ape;",
+      "replace": "≊"
+    },
+    {
+      "trigger": ":apid;",
+      "replace": "≋"
+    },
+    {
+      "trigger": ":apos;",
+      "replace": "'"
+    },
+    {
+      "trigger": ":ApplyFunction;",
+      "replace": "⁡"
+    },
+    {
+      "trigger": ":approx;",
+      "replace": "≈"
+    },
+    {
+      "trigger": ":approxeq;",
+      "replace": "≊"
+    },
+    {
+      "trigger": ":Aring;",
+      "replace": "Å"
+    },
+    {
+      "trigger": ":aring;",
+      "replace": "å"
+    },
+    {
+      "trigger": ":Ascr;",
+      "replace": "𝒜"
+    },
+    {
+      "trigger": ":ascr;",
+      "replace": "𝒶"
+    },
+    {
+      "trigger": ":Assign;",
+      "replace": "≔"
+    },
+    {
+      "trigger": ":ast;",
+      "replace": "*"
+    },
+    {
+      "trigger": ":asymp;",
+      "replace": "≈"
+    },
+    {
+      "trigger": ":asympeq;",
+      "replace": "≍"
+    },
+    {
+      "trigger": ":Atilde;",
+      "replace": "Ã"
+    },
+    {
+      "trigger": ":atilde;",
+      "replace": "ã"
+    },
+    {
+      "trigger": ":Auml;",
+      "replace": "Ä"
+    },
+    {
+      "trigger": ":auml;",
+      "replace": "ä"
+    },
+    {
+      "trigger": ":awconint;",
+      "replace": "∳"
+    },
+    {
+      "trigger": ":awint;",
+      "replace": "⨑"
+    },
+    {
+      "trigger": ":backcong;",
+      "replace": "≌"
+    },
+    {
+      "trigger": ":backepsilon;",
+      "replace": "϶"
+    },
+    {
+      "trigger": ":backprime;",
+      "replace": "‵"
+    },
+    {
+      "trigger": ":backsim;",
+      "replace": "∽"
+    },
+    {
+      "trigger": ":backsimeq;",
+      "replace": "⋍"
+    },
+    {
+      "trigger": ":Backslash;",
+      "replace": "∖"
+    },
+    {
+      "trigger": ":Barv;",
+      "replace": "⫧"
+    },
+    {
+      "trigger": ":barvee;",
+      "replace": "⊽"
+    },
+    {
+      "trigger": ":Barwed;",
+      "replace": "⌆"
+    },
+    {
+      "trigger": ":barwed;",
+      "replace": "⌅"
+    },
+    {
+      "trigger": ":barwedge;",
+      "replace": "⌅"
+    },
+    {
+      "trigger": ":bbrk;",
+      "replace": "⎵"
+    },
+    {
+      "trigger": ":bbrktbrk;",
+      "replace": "⎶"
+    },
+    {
+      "trigger": ":bcong;",
+      "replace": "≌"
+    },
+    {
+      "trigger": ":Bcy;",
+      "replace": "Б"
+    },
+    {
+      "trigger": ":bcy;",
+      "replace": "б"
+    },
+    {
+      "trigger": ":bdquo;",
+      "replace": "„"
+    },
+    {
+      "trigger": ":becaus;",
+      "replace": "∵"
+    },
+    {
+      "trigger": ":Because;",
+      "replace": "∵"
+    },
+    {
+      "trigger": ":because;",
+      "replace": "∵"
+    },
+    {
+      "trigger": ":bemptyv;",
+      "replace": "⦰"
+    },
+    {
+      "trigger": ":bepsi;",
+      "replace": "϶"
+    },
+    {
+      "trigger": ":bernou;",
+      "replace": "ℬ"
+    },
+    {
+      "trigger": ":Bernoullis;",
+      "replace": "ℬ"
+    },
+    {
+      "trigger": ":Beta;",
+      "replace": "Β"
+    },
+    {
+      "trigger": ":beta;",
+      "replace": "β"
+    },
+    {
+      "trigger": ":beth;",
+      "replace": "ℶ"
+    },
+    {
+      "trigger": ":between;",
+      "replace": "≬"
+    },
+    {
+      "trigger": ":Bfr;",
+      "replace": "𝔅"
+    },
+    {
+      "trigger": ":bfr;",
+      "replace": "𝔟"
+    },
+    {
+      "trigger": ":bigcap;",
+      "replace": "⋂"
+    },
+    {
+      "trigger": ":bigcirc;",
+      "replace": "◯"
+    },
+    {
+      "trigger": ":bigcup;",
+      "replace": "⋃"
+    },
+    {
+      "trigger": ":bigodot;",
+      "replace": "⨀"
+    },
+    {
+      "trigger": ":bigoplus;",
+      "replace": "⨁"
+    },
+    {
+      "trigger": ":bigotimes;",
+      "replace": "⨂"
+    },
+    {
+      "trigger": ":bigsqcup;",
+      "replace": "⨆"
+    },
+    {
+      "trigger": ":bigstar;",
+      "replace": "★"
+    },
+    {
+      "trigger": ":bigtriangledown;",
+      "replace": "▽"
+    },
+    {
+      "trigger": ":bigtriangleup;",
+      "replace": "△"
+    },
+    {
+      "trigger": ":biguplus;",
+      "replace": "⨄"
+    },
+    {
+      "trigger": ":bigvee;",
+      "replace": "⋁"
+    },
+    {
+      "trigger": ":bigwedge;",
+      "replace": "⋀"
+    },
+    {
+      "trigger": ":bkarow;",
+      "replace": "⤍"
+    },
+    {
+      "trigger": ":blacklozenge;",
+      "replace": "⧫"
+    },
+    {
+      "trigger": ":blacksquare;",
+      "replace": "▪"
+    },
+    {
+      "trigger": ":blacktriangle;",
+      "replace": "▴"
+    },
+    {
+      "trigger": ":blacktriangledown;",
+      "replace": "▾"
+    },
+    {
+      "trigger": ":blacktriangleleft;",
+      "replace": "◂"
+    },
+    {
+      "trigger": ":blacktriangleright;",
+      "replace": "▸"
+    },
+    {
+      "trigger": ":blank;",
+      "replace": "␣"
+    },
+    {
+      "trigger": ":blk12;",
+      "replace": "▒"
+    },
+    {
+      "trigger": ":blk14;",
+      "replace": "░"
+    },
+    {
+      "trigger": ":blk34;",
+      "replace": "▓"
+    },
+    {
+      "trigger": ":block;",
+      "replace": "█"
+    },
+    {
+      "trigger": ":bne;",
+      "replace": "=⃥"
+    },
+    {
+      "trigger": ":bnequiv;",
+      "replace": "≡⃥"
+    },
+    {
+      "trigger": ":bNot;",
+      "replace": "⫭"
+    },
+    {
+      "trigger": ":bnot;",
+      "replace": "⌐"
+    },
+    {
+      "trigger": ":Bopf;",
+      "replace": "𝔹"
+    },
+    {
+      "trigger": ":bopf;",
+      "replace": "𝕓"
+    },
+    {
+      "trigger": ":bot;",
+      "replace": "⊥"
+    },
+    {
+      "trigger": ":bottom;",
+      "replace": "⊥"
+    },
+    {
+      "trigger": ":bowtie;",
+      "replace": "⋈"
+    },
+    {
+      "trigger": ":boxbox;",
+      "replace": "⧉"
+    },
+    {
+      "trigger": ":boxDL;",
+      "replace": "╗"
+    },
+    {
+      "trigger": ":boxDl;",
+      "replace": "╖"
+    },
+    {
+      "trigger": ":boxdL;",
+      "replace": "╕"
+    },
+    {
+      "trigger": ":boxdl;",
+      "replace": "┐"
+    },
+    {
+      "trigger": ":boxDR;",
+      "replace": "╔"
+    },
+    {
+      "trigger": ":boxDr;",
+      "replace": "╓"
+    },
+    {
+      "trigger": ":boxdR;",
+      "replace": "╒"
+    },
+    {
+      "trigger": ":boxdr;",
+      "replace": "┌"
+    },
+    {
+      "trigger": ":boxH;",
+      "replace": "═"
+    },
+    {
+      "trigger": ":boxh;",
+      "replace": "─"
+    },
+    {
+      "trigger": ":boxHD;",
+      "replace": "╦"
+    },
+    {
+      "trigger": ":boxHd;",
+      "replace": "╤"
+    },
+    {
+      "trigger": ":boxhD;",
+      "replace": "╥"
+    },
+    {
+      "trigger": ":boxhd;",
+      "replace": "┬"
+    },
+    {
+      "trigger": ":boxHU;",
+      "replace": "╩"
+    },
+    {
+      "trigger": ":boxHu;",
+      "replace": "╧"
+    },
+    {
+      "trigger": ":boxhU;",
+      "replace": "╨"
+    },
+    {
+      "trigger": ":boxhu;",
+      "replace": "┴"
+    },
+    {
+      "trigger": ":boxminus;",
+      "replace": "⊟"
+    },
+    {
+      "trigger": ":boxplus;",
+      "replace": "⊞"
+    },
+    {
+      "trigger": ":boxtimes;",
+      "replace": "⊠"
+    },
+    {
+      "trigger": ":boxUL;",
+      "replace": "╝"
+    },
+    {
+      "trigger": ":boxUl;",
+      "replace": "╜"
+    },
+    {
+      "trigger": ":boxuL;",
+      "replace": "╛"
+    },
+    {
+      "trigger": ":boxul;",
+      "replace": "┘"
+    },
+    {
+      "trigger": ":boxUR;",
+      "replace": "╚"
+    },
+    {
+      "trigger": ":boxUr;",
+      "replace": "╙"
+    },
+    {
+      "trigger": ":boxuR;",
+      "replace": "╘"
+    },
+    {
+      "trigger": ":boxur;",
+      "replace": "└"
+    },
+    {
+      "trigger": ":boxV;",
+      "replace": "║"
+    },
+    {
+      "trigger": ":boxv;",
+      "replace": "│"
+    },
+    {
+      "trigger": ":boxVH;",
+      "replace": "╬"
+    },
+    {
+      "trigger": ":boxVh;",
+      "replace": "╫"
+    },
+    {
+      "trigger": ":boxvH;",
+      "replace": "╪"
+    },
+    {
+      "trigger": ":boxvh;",
+      "replace": "┼"
+    },
+    {
+      "trigger": ":boxVL;",
+      "replace": "╣"
+    },
+    {
+      "trigger": ":boxVl;",
+      "replace": "╢"
+    },
+    {
+      "trigger": ":boxvL;",
+      "replace": "╡"
+    },
+    {
+      "trigger": ":boxvl;",
+      "replace": "┤"
+    },
+    {
+      "trigger": ":boxVR;",
+      "replace": "╠"
+    },
+    {
+      "trigger": ":boxVr;",
+      "replace": "╟"
+    },
+    {
+      "trigger": ":boxvR;",
+      "replace": "╞"
+    },
+    {
+      "trigger": ":boxvr;",
+      "replace": "├"
+    },
+    {
+      "trigger": ":bprime;",
+      "replace": "‵"
+    },
+    {
+      "trigger": ":Breve;",
+      "replace": "˘"
+    },
+    {
+      "trigger": ":breve;",
+      "replace": "˘"
+    },
+    {
+      "trigger": ":brvbar;",
+      "replace": "¦"
+    },
+    {
+      "trigger": ":Bscr;",
+      "replace": "ℬ"
+    },
+    {
+      "trigger": ":bscr;",
+      "replace": "𝒷"
+    },
+    {
+      "trigger": ":bsemi;",
+      "replace": "⁏"
+    },
+    {
+      "trigger": ":bsim;",
+      "replace": "∽"
+    },
+    {
+      "trigger": ":bsime;",
+      "replace": "⋍"
+    },
+    {
+      "trigger": ":bsol;",
+      "replace": "\\"
+    },
+    {
+      "trigger": ":bsolb;",
+      "replace": "⧅"
+    },
+    {
+      "trigger": ":bsolhsub;",
+      "replace": "⟈"
+    },
+    {
+      "trigger": ":bull;",
+      "replace": "•"
+    },
+    {
+      "trigger": ":bullet;",
+      "replace": "•"
+    },
+    {
+      "trigger": ":bump;",
+      "replace": "≎"
+    },
+    {
+      "trigger": ":bumpE;",
+      "replace": "⪮"
+    },
+    {
+      "trigger": ":bumpe;",
+      "replace": "≏"
+    },
+    {
+      "trigger": ":Bumpeq;",
+      "replace": "≎"
+    },
+    {
+      "trigger": ":bumpeq;",
+      "replace": "≏"
+    },
+    {
+      "trigger": ":Cacute;",
+      "replace": "Ć"
+    },
+    {
+      "trigger": ":cacute;",
+      "replace": "ć"
+    },
+    {
+      "trigger": ":Cap;",
+      "replace": "⋒"
+    },
+    {
+      "trigger": ":cap;",
+      "replace": "∩"
+    },
+    {
+      "trigger": ":capand;",
+      "replace": "⩄"
+    },
+    {
+      "trigger": ":capbrcup;",
+      "replace": "⩉"
+    },
+    {
+      "trigger": ":capcap;",
+      "replace": "⩋"
+    },
+    {
+      "trigger": ":capcup;",
+      "replace": "⩇"
+    },
+    {
+      "trigger": ":capdot;",
+      "replace": "⩀"
+    },
+    {
+      "trigger": ":CapitalDifferentialD;",
+      "replace": "ⅅ"
+    },
+    {
+      "trigger": ":caps;",
+      "replace": "∩︀"
+    },
+    {
+      "trigger": ":caret;",
+      "replace": "⁁"
+    },
+    {
+      "trigger": ":caron;",
+      "replace": "ˇ"
+    },
+    {
+      "trigger": ":Cayleys;",
+      "replace": "ℭ"
+    },
+    {
+      "trigger": ":ccaps;",
+      "replace": "⩍"
+    },
+    {
+      "trigger": ":Ccaron;",
+      "replace": "Č"
+    },
+    {
+      "trigger": ":ccaron;",
+      "replace": "č"
+    },
+    {
+      "trigger": ":Ccedil;",
+      "replace": "Ç"
+    },
+    {
+      "trigger": ":ccedil;",
+      "replace": "ç"
+    },
+    {
+      "trigger": ":Ccirc;",
+      "replace": "Ĉ"
+    },
+    {
+      "trigger": ":ccirc;",
+      "replace": "ĉ"
+    },
+    {
+      "trigger": ":Cconint;",
+      "replace": "∰"
+    },
+    {
+      "trigger": ":ccups;",
+      "replace": "⩌"
+    },
+    {
+      "trigger": ":ccupssm;",
+      "replace": "⩐"
+    },
+    {
+      "trigger": ":Cdot;",
+      "replace": "Ċ"
+    },
+    {
+      "trigger": ":cdot;",
+      "replace": "ċ"
+    },
+    {
+      "trigger": ":cedil;",
+      "replace": "¸"
+    },
+    {
+      "trigger": ":Cedilla;",
+      "replace": "¸"
+    },
+    {
+      "trigger": ":cemptyv;",
+      "replace": "⦲"
+    },
+    {
+      "trigger": ":cent;",
+      "replace": "¢"
+    },
+    {
+      "trigger": ":CenterDot;",
+      "replace": "·"
+    },
+    {
+      "trigger": ":centerdot;",
+      "replace": "·"
+    },
+    {
+      "trigger": ":Cfr;",
+      "replace": "ℭ"
+    },
+    {
+      "trigger": ":cfr;",
+      "replace": "𝔠"
+    },
+    {
+      "trigger": ":CHcy;",
+      "replace": "Ч"
+    },
+    {
+      "trigger": ":chcy;",
+      "replace": "ч"
+    },
+    {
+      "trigger": ":check;",
+      "replace": "✓"
+    },
+    {
+      "trigger": ":checkmark;",
+      "replace": "✓"
+    },
+    {
+      "trigger": ":Chi;",
+      "replace": "Χ"
+    },
+    {
+      "trigger": ":chi;",
+      "replace": "χ"
+    },
+    {
+      "trigger": ":cir;",
+      "replace": "○"
+    },
+    {
+      "trigger": ":circ;",
+      "replace": "ˆ"
+    },
+    {
+      "trigger": ":circeq;",
+      "replace": "≗"
+    },
+    {
+      "trigger": ":circlearrowleft;",
+      "replace": "↺"
+    },
+    {
+      "trigger": ":circlearrowright;",
+      "replace": "↻"
+    },
+    {
+      "trigger": ":circledast;",
+      "replace": "⊛"
+    },
+    {
+      "trigger": ":circledcirc;",
+      "replace": "⊚"
+    },
+    {
+      "trigger": ":circleddash;",
+      "replace": "⊝"
+    },
+    {
+      "trigger": ":CircleDot;",
+      "replace": "⊙"
+    },
+    {
+      "trigger": ":circledR;",
+      "replace": "®"
+    },
+    {
+      "trigger": ":circledS;",
+      "replace": "Ⓢ"
+    },
+    {
+      "trigger": ":CircleMinus;",
+      "replace": "⊖"
+    },
+    {
+      "trigger": ":CirclePlus;",
+      "replace": "⊕"
+    },
+    {
+      "trigger": ":CircleTimes;",
+      "replace": "⊗"
+    },
+    {
+      "trigger": ":cirE;",
+      "replace": "⧃"
+    },
+    {
+      "trigger": ":cire;",
+      "replace": "≗"
+    },
+    {
+      "trigger": ":cirfnint;",
+      "replace": "⨐"
+    },
+    {
+      "trigger": ":cirmid;",
+      "replace": "⫯"
+    },
+    {
+      "trigger": ":cirscir;",
+      "replace": "⧂"
+    },
+    {
+      "trigger": ":ClockwiseContourIntegral;",
+      "replace": "∲"
+    },
+    {
+      "trigger": ":CloseCurlyDoubleQuote;",
+      "replace": "”"
+    },
+    {
+      "trigger": ":CloseCurlyQuote;",
+      "replace": "’"
+    },
+    {
+      "trigger": ":clubs;",
+      "replace": "♣"
+    },
+    {
+      "trigger": ":clubsuit;",
+      "replace": "♣"
+    },
+    {
+      "trigger": ":Colon;",
+      "replace": "∷"
+    },
+    {
+      "trigger": ":colon;",
+      "replace": ":"
+    },
+    {
+      "trigger": ":Colone;",
+      "replace": "⩴"
+    },
+    {
+      "trigger": ":colone;",
+      "replace": "≔"
+    },
+    {
+      "trigger": ":coloneq;",
+      "replace": "≔"
+    },
+    {
+      "trigger": ":comma;",
+      "replace": ","
+    },
+    {
+      "trigger": ":commat;",
+      "replace": "@"
+    },
+    {
+      "trigger": ":comp;",
+      "replace": "∁"
+    },
+    {
+      "trigger": ":compfn;",
+      "replace": "∘"
+    },
+    {
+      "trigger": ":complement;",
+      "replace": "∁"
+    },
+    {
+      "trigger": ":complexes;",
+      "replace": "ℂ"
+    },
+    {
+      "trigger": ":cong;",
+      "replace": "≅"
+    },
+    {
+      "trigger": ":congdot;",
+      "replace": "⩭"
+    },
+    {
+      "trigger": ":Congruent;",
+      "replace": "≡"
+    },
+    {
+      "trigger": ":Conint;",
+      "replace": "∯"
+    },
+    {
+      "trigger": ":conint;",
+      "replace": "∮"
+    },
+    {
+      "trigger": ":ContourIntegral;",
+      "replace": "∮"
+    },
+    {
+      "trigger": ":Copf;",
+      "replace": "ℂ"
+    },
+    {
+      "trigger": ":copf;",
+      "replace": "𝕔"
+    },
+    {
+      "trigger": ":coprod;",
+      "replace": "∐"
+    },
+    {
+      "trigger": ":Coproduct;",
+      "replace": "∐"
+    },
+    {
+      "trigger": ":COPY;",
+      "replace": "©"
+    },
+    {
+      "trigger": ":copy;",
+      "replace": "©"
+    },
+    {
+      "trigger": ":copysr;",
+      "replace": "℗"
+    },
+    {
+      "trigger": ":CounterClockwiseContourIntegral;",
+      "replace": "∳"
+    },
+    {
+      "trigger": ":crarr;",
+      "replace": "↵"
+    },
+    {
+      "trigger": ":Cross;",
+      "replace": "⨯"
+    },
+    {
+      "trigger": ":cross;",
+      "replace": "✗"
+    },
+    {
+      "trigger": ":Cscr;",
+      "replace": "𝒞"
+    },
+    {
+      "trigger": ":cscr;",
+      "replace": "𝒸"
+    },
+    {
+      "trigger": ":csub;",
+      "replace": "⫏"
+    },
+    {
+      "trigger": ":csube;",
+      "replace": "⫑"
+    },
+    {
+      "trigger": ":csup;",
+      "replace": "⫐"
+    },
+    {
+      "trigger": ":csupe;",
+      "replace": "⫒"
+    },
+    {
+      "trigger": ":ctdot;",
+      "replace": "⋯"
+    },
+    {
+      "trigger": ":cudarrl;",
+      "replace": "⤸"
+    },
+    {
+      "trigger": ":cudarrr;",
+      "replace": "⤵"
+    },
+    {
+      "trigger": ":cuepr;",
+      "replace": "⋞"
+    },
+    {
+      "trigger": ":cuesc;",
+      "replace": "⋟"
+    },
+    {
+      "trigger": ":cularr;",
+      "replace": "↶"
+    },
+    {
+      "trigger": ":cularrp;",
+      "replace": "⤽"
+    },
+    {
+      "trigger": ":Cup;",
+      "replace": "⋓"
+    },
+    {
+      "trigger": ":cup;",
+      "replace": "∪"
+    },
+    {
+      "trigger": ":cupbrcap;",
+      "replace": "⩈"
+    },
+    {
+      "trigger": ":CupCap;",
+      "replace": "≍"
+    },
+    {
+      "trigger": ":cupcap;",
+      "replace": "⩆"
+    },
+    {
+      "trigger": ":cupcup;",
+      "replace": "⩊"
+    },
+    {
+      "trigger": ":cupdot;",
+      "replace": "⊍"
+    },
+    {
+      "trigger": ":cupor;",
+      "replace": "⩅"
+    },
+    {
+      "trigger": ":cups;",
+      "replace": "∪︀"
+    },
+    {
+      "trigger": ":curarr;",
+      "replace": "↷"
+    },
+    {
+      "trigger": ":curarrm;",
+      "replace": "⤼"
+    },
+    {
+      "trigger": ":curlyeqprec;",
+      "replace": "⋞"
+    },
+    {
+      "trigger": ":curlyeqsucc;",
+      "replace": "⋟"
+    },
+    {
+      "trigger": ":curlyvee;",
+      "replace": "⋎"
+    },
+    {
+      "trigger": ":curlywedge;",
+      "replace": "⋏"
+    },
+    {
+      "trigger": ":curren;",
+      "replace": "¤"
+    },
+    {
+      "trigger": ":curvearrowleft;",
+      "replace": "↶"
+    },
+    {
+      "trigger": ":curvearrowright;",
+      "replace": "↷"
+    },
+    {
+      "trigger": ":cuvee;",
+      "replace": "⋎"
+    },
+    {
+      "trigger": ":cuwed;",
+      "replace": "⋏"
+    },
+    {
+      "trigger": ":cwconint;",
+      "replace": "∲"
+    },
+    {
+      "trigger": ":cwint;",
+      "replace": "∱"
+    },
+    {
+      "trigger": ":cylcty;",
+      "replace": "⌭"
+    },
+    {
+      "trigger": ":Dagger;",
+      "replace": "‡"
+    },
+    {
+      "trigger": ":dagger;",
+      "replace": "†"
+    },
+    {
+      "trigger": ":daleth;",
+      "replace": "ℸ"
+    },
+    {
+      "trigger": ":Darr;",
+      "replace": "↡"
+    },
+    {
+      "trigger": ":dArr;",
+      "replace": "⇓"
+    },
+    {
+      "trigger": ":darr;",
+      "replace": "↓"
+    },
+    {
+      "trigger": ":dash;",
+      "replace": "‐"
+    },
+    {
+      "trigger": ":Dashv;",
+      "replace": "⫤"
+    },
+    {
+      "trigger": ":dashv;",
+      "replace": "⊣"
+    },
+    {
+      "trigger": ":dbkarow;",
+      "replace": "⤏"
+    },
+    {
+      "trigger": ":dblac;",
+      "replace": "˝"
+    },
+    {
+      "trigger": ":Dcaron;",
+      "replace": "Ď"
+    },
+    {
+      "trigger": ":dcaron;",
+      "replace": "ď"
+    },
+    {
+      "trigger": ":Dcy;",
+      "replace": "Д"
+    },
+    {
+      "trigger": ":dcy;",
+      "replace": "д"
+    },
+    {
+      "trigger": ":DD;",
+      "replace": "ⅅ"
+    },
+    {
+      "trigger": ":dd;",
+      "replace": "ⅆ"
+    },
+    {
+      "trigger": ":ddagger;",
+      "replace": "‡"
+    },
+    {
+      "trigger": ":ddarr;",
+      "replace": "⇊"
+    },
+    {
+      "trigger": ":DDotrahd;",
+      "replace": "⤑"
+    },
+    {
+      "trigger": ":ddotseq;",
+      "replace": "⩷"
+    },
+    {
+      "trigger": ":deg;",
+      "replace": "°"
+    },
+    {
+      "trigger": ":Del;",
+      "replace": "∇"
+    },
+    {
+      "trigger": ":Delta;",
+      "replace": "Δ"
+    },
+    {
+      "trigger": ":delta;",
+      "replace": "δ"
+    },
+    {
+      "trigger": ":demptyv;",
+      "replace": "⦱"
+    },
+    {
+      "trigger": ":dfisht;",
+      "replace": "⥿"
+    },
+    {
+      "trigger": ":Dfr;",
+      "replace": "𝔇"
+    },
+    {
+      "trigger": ":dfr;",
+      "replace": "𝔡"
+    },
+    {
+      "trigger": ":dHar;",
+      "replace": "⥥"
+    },
+    {
+      "trigger": ":dharl;",
+      "replace": "⇃"
+    },
+    {
+      "trigger": ":dharr;",
+      "replace": "⇂"
+    },
+    {
+      "trigger": ":DiacriticalAcute;",
+      "replace": "´"
+    },
+    {
+      "trigger": ":DiacriticalDot;",
+      "replace": "˙"
+    },
+    {
+      "trigger": ":DiacriticalDoubleAcute;",
+      "replace": "˝"
+    },
+    {
+      "trigger": ":DiacriticalGrave;",
+      "replace": "`"
+    },
+    {
+      "trigger": ":DiacriticalTilde;",
+      "replace": "˜"
+    },
+    {
+      "trigger": ":diam;",
+      "replace": "⋄"
+    },
+    {
+      "trigger": ":Diamond;",
+      "replace": "⋄"
+    },
+    {
+      "trigger": ":diamond;",
+      "replace": "⋄"
+    },
+    {
+      "trigger": ":diamondsuit;",
+      "replace": "♦"
+    },
+    {
+      "trigger": ":diams;",
+      "replace": "♦"
+    },
+    {
+      "trigger": ":die;",
+      "replace": "¨"
+    },
+    {
+      "trigger": ":DifferentialD;",
+      "replace": "ⅆ"
+    },
+    {
+      "trigger": ":digamma;",
+      "replace": "ϝ"
+    },
+    {
+      "trigger": ":disin;",
+      "replace": "⋲"
+    },
+    {
+      "trigger": ":div;",
+      "replace": "÷"
+    },
+    {
+      "trigger": ":divide;",
+      "replace": "÷"
+    },
+    {
+      "trigger": ":divideontimes;",
+      "replace": "⋇"
+    },
+    {
+      "trigger": ":divonx;",
+      "replace": "⋇"
+    },
+    {
+      "trigger": ":DJcy;",
+      "replace": "Ђ"
+    },
+    {
+      "trigger": ":djcy;",
+      "replace": "ђ"
+    },
+    {
+      "trigger": ":dlcorn;",
+      "replace": "⌞"
+    },
+    {
+      "trigger": ":dlcrop;",
+      "replace": "⌍"
+    },
+    {
+      "trigger": ":dollar;",
+      "replace": "$"
+    },
+    {
+      "trigger": ":Dopf;",
+      "replace": "𝔻"
+    },
+    {
+      "trigger": ":dopf;",
+      "replace": "𝕕"
+    },
+    {
+      "trigger": ":Dot;",
+      "replace": "¨"
+    },
+    {
+      "trigger": ":dot;",
+      "replace": "˙"
+    },
+    {
+      "trigger": ":DotDot;",
+      "replace": "◌⃜"
+    },
+    {
+      "trigger": ":doteq;",
+      "replace": "≐"
+    },
+    {
+      "trigger": ":doteqdot;",
+      "replace": "≑"
+    },
+    {
+      "trigger": ":DotEqual;",
+      "replace": "≐"
+    },
+    {
+      "trigger": ":dotminus;",
+      "replace": "∸"
+    },
+    {
+      "trigger": ":dotplus;",
+      "replace": "∔"
+    },
+    {
+      "trigger": ":dotsquare;",
+      "replace": "⊡"
+    },
+    {
+      "trigger": ":doublebarwedge;",
+      "replace": "⌆"
+    },
+    {
+      "trigger": ":DoubleContourIntegral;",
+      "replace": "∯"
+    },
+    {
+      "trigger": ":DoubleDot;",
+      "replace": "¨"
+    },
+    {
+      "trigger": ":DoubleDownArrow;",
+      "replace": "⇓"
+    },
+    {
+      "trigger": ":DoubleLeftArrow;",
+      "replace": "⇐"
+    },
+    {
+      "trigger": ":DoubleLeftRightArrow;",
+      "replace": "⇔"
+    },
+    {
+      "trigger": ":DoubleLeftTee;",
+      "replace": "⫤"
+    },
+    {
+      "trigger": ":DoubleLongLeftArrow;",
+      "replace": "⟸"
+    },
+    {
+      "trigger": ":DoubleLongLeftRightArrow;",
+      "replace": "⟺"
+    },
+    {
+      "trigger": ":DoubleLongRightArrow;",
+      "replace": "⟹"
+    },
+    {
+      "trigger": ":DoubleRightArrow;",
+      "replace": "⇒"
+    },
+    {
+      "trigger": ":DoubleRightTee;",
+      "replace": "⊨"
+    },
+    {
+      "trigger": ":DoubleUpArrow;",
+      "replace": "⇑"
+    },
+    {
+      "trigger": ":DoubleUpDownArrow;",
+      "replace": "⇕"
+    },
+    {
+      "trigger": ":DoubleVerticalBar;",
+      "replace": "∥"
+    },
+    {
+      "trigger": ":DownArrow;",
+      "replace": "↓"
+    },
+    {
+      "trigger": ":Downarrow;",
+      "replace": "⇓"
+    },
+    {
+      "trigger": ":downarrow;",
+      "replace": "↓"
+    },
+    {
+      "trigger": ":DownArrowBar;",
+      "replace": "⤓"
+    },
+    {
+      "trigger": ":DownArrowUpArrow;",
+      "replace": "⇵"
+    },
+    {
+      "trigger": ":DownBreve;",
+      "replace": "◌̑"
+    },
+    {
+      "trigger": ":downdownarrows;",
+      "replace": "⇊"
+    },
+    {
+      "trigger": ":downharpoonleft;",
+      "replace": "⇃"
+    },
+    {
+      "trigger": ":downharpoonright;",
+      "replace": "⇂"
+    },
+    {
+      "trigger": ":DownLeftRightVector;",
+      "replace": "⥐"
+    },
+    {
+      "trigger": ":DownLeftTeeVector;",
+      "replace": "⥞"
+    },
+    {
+      "trigger": ":DownLeftVector;",
+      "replace": "↽"
+    },
+    {
+      "trigger": ":DownLeftVectorBar;",
+      "replace": "⥖"
+    },
+    {
+      "trigger": ":DownRightTeeVector;",
+      "replace": "⥟"
+    },
+    {
+      "trigger": ":DownRightVector;",
+      "replace": "⇁"
+    },
+    {
+      "trigger": ":DownRightVectorBar;",
+      "replace": "⥗"
+    },
+    {
+      "trigger": ":DownTee;",
+      "replace": "⊤"
+    },
+    {
+      "trigger": ":DownTeeArrow;",
+      "replace": "↧"
+    },
+    {
+      "trigger": ":drbkarow;",
+      "replace": "⤐"
+    },
+    {
+      "trigger": ":drcorn;",
+      "replace": "⌟"
+    },
+    {
+      "trigger": ":drcrop;",
+      "replace": "⌌"
+    },
+    {
+      "trigger": ":Dscr;",
+      "replace": "𝒟"
+    },
+    {
+      "trigger": ":dscr;",
+      "replace": "𝒹"
+    },
+    {
+      "trigger": ":DScy;",
+      "replace": "Ѕ"
+    },
+    {
+      "trigger": ":dscy;",
+      "replace": "ѕ"
+    },
+    {
+      "trigger": ":dsol;",
+      "replace": "⧶"
+    },
+    {
+      "trigger": ":Dstrok;",
+      "replace": "Đ"
+    },
+    {
+      "trigger": ":dstrok;",
+      "replace": "đ"
+    },
+    {
+      "trigger": ":dtdot;",
+      "replace": "⋱"
+    },
+    {
+      "trigger": ":dtri;",
+      "replace": "▿"
+    },
+    {
+      "trigger": ":dtrif;",
+      "replace": "▾"
+    },
+    {
+      "trigger": ":duarr;",
+      "replace": "⇵"
+    },
+    {
+      "trigger": ":duhar;",
+      "replace": "⥯"
+    },
+    {
+      "trigger": ":dwangle;",
+      "replace": "⦦"
+    },
+    {
+      "trigger": ":DZcy;",
+      "replace": "Џ"
+    },
+    {
+      "trigger": ":dzcy;",
+      "replace": "џ"
+    },
+    {
+      "trigger": ":dzigrarr;",
+      "replace": "⟿"
+    },
+    {
+      "trigger": ":Eacute;",
+      "replace": "É"
+    },
+    {
+      "trigger": ":eacute;",
+      "replace": "é"
+    },
+    {
+      "trigger": ":easter;",
+      "replace": "⩮"
+    },
+    {
+      "trigger": ":Ecaron;",
+      "replace": "Ě"
+    },
+    {
+      "trigger": ":ecaron;",
+      "replace": "ě"
+    },
+    {
+      "trigger": ":ecir;",
+      "replace": "≖"
+    },
+    {
+      "trigger": ":Ecirc;",
+      "replace": "Ê"
+    },
+    {
+      "trigger": ":ecirc;",
+      "replace": "ê"
+    },
+    {
+      "trigger": ":ecolon;",
+      "replace": "≕"
+    },
+    {
+      "trigger": ":Ecy;",
+      "replace": "Э"
+    },
+    {
+      "trigger": ":ecy;",
+      "replace": "э"
+    },
+    {
+      "trigger": ":eDDot;",
+      "replace": "⩷"
+    },
+    {
+      "trigger": ":Edot;",
+      "replace": "Ė"
+    },
+    {
+      "trigger": ":eDot;",
+      "replace": "≑"
+    },
+    {
+      "trigger": ":edot;",
+      "replace": "ė"
+    },
+    {
+      "trigger": ":ee;",
+      "replace": "ⅇ"
+    },
+    {
+      "trigger": ":efDot;",
+      "replace": "≒"
+    },
+    {
+      "trigger": ":Efr;",
+      "replace": "𝔈"
+    },
+    {
+      "trigger": ":efr;",
+      "replace": "𝔢"
+    },
+    {
+      "trigger": ":eg;",
+      "replace": "⪚"
+    },
+    {
+      "trigger": ":Egrave;",
+      "replace": "È"
+    },
+    {
+      "trigger": ":egrave;",
+      "replace": "è"
+    },
+    {
+      "trigger": ":egs;",
+      "replace": "⪖"
+    },
+    {
+      "trigger": ":egsdot;",
+      "replace": "⪘"
+    },
+    {
+      "trigger": ":el;",
+      "replace": "⪙"
+    },
+    {
+      "trigger": ":Element;",
+      "replace": "∈"
+    },
+    {
+      "trigger": ":elinters;",
+      "replace": "⏧"
+    },
+    {
+      "trigger": ":ell;",
+      "replace": "ℓ"
+    },
+    {
+      "trigger": ":els;",
+      "replace": "⪕"
+    },
+    {
+      "trigger": ":elsdot;",
+      "replace": "⪗"
+    },
+    {
+      "trigger": ":Emacr;",
+      "replace": "Ē"
+    },
+    {
+      "trigger": ":emacr;",
+      "replace": "ē"
+    },
+    {
+      "trigger": ":empty;",
+      "replace": "∅"
+    },
+    {
+      "trigger": ":emptyset;",
+      "replace": "∅"
+    },
+    {
+      "trigger": ":EmptySmallSquare;",
+      "replace": "◻"
+    },
+    {
+      "trigger": ":emptyv;",
+      "replace": "∅"
+    },
+    {
+      "trigger": ":EmptyVerySmallSquare;",
+      "replace": "▫"
+    },
+    {
+      "trigger": ":emsp;",
+      "replace": " "
+    },
+    {
+      "trigger": ":emsp13;",
+      "replace": " "
+    },
+    {
+      "trigger": ":emsp14;",
+      "replace": " "
+    },
+    {
+      "trigger": ":ENG;",
+      "replace": "Ŋ"
+    },
+    {
+      "trigger": ":eng;",
+      "replace": "ŋ"
+    },
+    {
+      "trigger": ":ensp;",
+      "replace": " "
+    },
+    {
+      "trigger": ":Eogon;",
+      "replace": "Ę"
+    },
+    {
+      "trigger": ":eogon;",
+      "replace": "ę"
+    },
+    {
+      "trigger": ":Eopf;",
+      "replace": "𝔼"
+    },
+    {
+      "trigger": ":eopf;",
+      "replace": "𝕖"
+    },
+    {
+      "trigger": ":epar;",
+      "replace": "⋕"
+    },
+    {
+      "trigger": ":eparsl;",
+      "replace": "⧣"
+    },
+    {
+      "trigger": ":eplus;",
+      "replace": "⩱"
+    },
+    {
+      "trigger": ":epsi;",
+      "replace": "ε"
+    },
+    {
+      "trigger": ":Epsilon;",
+      "replace": "Ε"
+    },
+    {
+      "trigger": ":epsilon;",
+      "replace": "ε"
+    },
+    {
+      "trigger": ":epsiv;",
+      "replace": "ϵ"
+    },
+    {
+      "trigger": ":eqcirc;",
+      "replace": "≖"
+    },
+    {
+      "trigger": ":eqcolon;",
+      "replace": "≕"
+    },
+    {
+      "trigger": ":eqsim;",
+      "replace": "≂"
+    },
+    {
+      "trigger": ":eqslantgtr;",
+      "replace": "⪖"
+    },
+    {
+      "trigger": ":eqslantless;",
+      "replace": "⪕"
+    },
+    {
+      "trigger": ":Equal;",
+      "replace": "⩵"
+    },
+    {
+      "trigger": ":equals;",
+      "replace": "="
+    },
+    {
+      "trigger": ":EqualTilde;",
+      "replace": "≂"
+    },
+    {
+      "trigger": ":equest;",
+      "replace": "≟"
+    },
+    {
+      "trigger": ":Equilibrium;",
+      "replace": "⇌"
+    },
+    {
+      "trigger": ":equiv;",
+      "replace": "≡"
+    },
+    {
+      "trigger": ":equivDD;",
+      "replace": "⩸"
+    },
+    {
+      "trigger": ":eqvparsl;",
+      "replace": "⧥"
+    },
+    {
+      "trigger": ":erarr;",
+      "replace": "⥱"
+    },
+    {
+      "trigger": ":erDot;",
+      "replace": "≓"
+    },
+    {
+      "trigger": ":Escr;",
+      "replace": "ℰ"
+    },
+    {
+      "trigger": ":escr;",
+      "replace": "ℯ"
+    },
+    {
+      "trigger": ":esdot;",
+      "replace": "≐"
+    },
+    {
+      "trigger": ":Esim;",
+      "replace": "⩳"
+    },
+    {
+      "trigger": ":esim;",
+      "replace": "≂"
+    },
+    {
+      "trigger": ":Eta;",
+      "replace": "Η"
+    },
+    {
+      "trigger": ":eta;",
+      "replace": "η"
+    },
+    {
+      "trigger": ":ETH;",
+      "replace": "Ð"
+    },
+    {
+      "trigger": ":eth;",
+      "replace": "ð"
+    },
+    {
+      "trigger": ":Euml;",
+      "replace": "Ë"
+    },
+    {
+      "trigger": ":euml;",
+      "replace": "ë"
+    },
+    {
+      "trigger": ":euro;",
+      "replace": "€"
+    },
+    {
+      "trigger": ":excl;",
+      "replace": "!"
+    },
+    {
+      "trigger": ":exist;",
+      "replace": "∃"
+    },
+    {
+      "trigger": ":Exists;",
+      "replace": "∃"
+    },
+    {
+      "trigger": ":expectation;",
+      "replace": "ℰ"
+    },
+    {
+      "trigger": ":ExponentialE;",
+      "replace": "ⅇ"
+    },
+    {
+      "trigger": ":exponentiale;",
+      "replace": "ⅇ"
+    },
+    {
+      "trigger": ":fallingdotseq;",
+      "replace": "≒"
+    },
+    {
+      "trigger": ":Fcy;",
+      "replace": "Ф"
+    },
+    {
+      "trigger": ":fcy;",
+      "replace": "ф"
+    },
+    {
+      "trigger": ":female;",
+      "replace": "♀"
+    },
+    {
+      "trigger": ":ffilig;",
+      "replace": "ﬃ"
+    },
+    {
+      "trigger": ":fflig;",
+      "replace": "ﬀ"
+    },
+    {
+      "trigger": ":ffllig;",
+      "replace": "ﬄ"
+    },
+    {
+      "trigger": ":Ffr;",
+      "replace": "𝔉"
+    },
+    {
+      "trigger": ":ffr;",
+      "replace": "𝔣"
+    },
+    {
+      "trigger": ":filig;",
+      "replace": "ﬁ"
+    },
+    {
+      "trigger": ":FilledSmallSquare;",
+      "replace": "◼"
+    },
+    {
+      "trigger": ":FilledVerySmallSquare;",
+      "replace": "▪"
+    },
+    {
+      "trigger": ":fjlig;",
+      "replace": "fj"
+    },
+    {
+      "trigger": ":flat;",
+      "replace": "♭"
+    },
+    {
+      "trigger": ":fllig;",
+      "replace": "ﬂ"
+    },
+    {
+      "trigger": ":fltns;",
+      "replace": "▱"
+    },
+    {
+      "trigger": ":fnof;",
+      "replace": "ƒ"
+    },
+    {
+      "trigger": ":Fopf;",
+      "replace": "𝔽"
+    },
+    {
+      "trigger": ":fopf;",
+      "replace": "𝕗"
+    },
+    {
+      "trigger": ":ForAll;",
+      "replace": "∀"
+    },
+    {
+      "trigger": ":forall;",
+      "replace": "∀"
+    },
+    {
+      "trigger": ":fork;",
+      "replace": "⋔"
+    },
+    {
+      "trigger": ":forkv;",
+      "replace": "⫙"
+    },
+    {
+      "trigger": ":Fouriertrf;",
+      "replace": "ℱ"
+    },
+    {
+      "trigger": ":fpartint;",
+      "replace": "⨍"
+    },
+    {
+      "trigger": ":frac12;",
+      "replace": "½"
+    },
+    {
+      "trigger": ":frac13;",
+      "replace": "⅓"
+    },
+    {
+      "trigger": ":frac14;",
+      "replace": "¼"
+    },
+    {
+      "trigger": ":frac15;",
+      "replace": "⅕"
+    },
+    {
+      "trigger": ":frac16;",
+      "replace": "⅙"
+    },
+    {
+      "trigger": ":frac18;",
+      "replace": "⅛"
+    },
+    {
+      "trigger": ":frac23;",
+      "replace": "⅔"
+    },
+    {
+      "trigger": ":frac25;",
+      "replace": "⅖"
+    },
+    {
+      "trigger": ":frac34;",
+      "replace": "¾"
+    },
+    {
+      "trigger": ":frac35;",
+      "replace": "⅗"
+    },
+    {
+      "trigger": ":frac38;",
+      "replace": "⅜"
+    },
+    {
+      "trigger": ":frac45;",
+      "replace": "⅘"
+    },
+    {
+      "trigger": ":frac56;",
+      "replace": "⅚"
+    },
+    {
+      "trigger": ":frac58;",
+      "replace": "⅝"
+    },
+    {
+      "trigger": ":frac78;",
+      "replace": "⅞"
+    },
+    {
+      "trigger": ":frasl;",
+      "replace": "⁄"
+    },
+    {
+      "trigger": ":frown;",
+      "replace": "⌢"
+    },
+    {
+      "trigger": ":Fscr;",
+      "replace": "ℱ"
+    },
+    {
+      "trigger": ":fscr;",
+      "replace": "𝒻"
+    },
+    {
+      "trigger": ":gacute;",
+      "replace": "ǵ"
+    },
+    {
+      "trigger": ":Gamma;",
+      "replace": "Γ"
+    },
+    {
+      "trigger": ":gamma;",
+      "replace": "γ"
+    },
+    {
+      "trigger": ":Gammad;",
+      "replace": "Ϝ"
+    },
+    {
+      "trigger": ":gammad;",
+      "replace": "ϝ"
+    },
+    {
+      "trigger": ":gap;",
+      "replace": "⪆"
+    },
+    {
+      "trigger": ":Gbreve;",
+      "replace": "Ğ"
+    },
+    {
+      "trigger": ":gbreve;",
+      "replace": "ğ"
+    },
+    {
+      "trigger": ":Gcedil;",
+      "replace": "Ģ"
+    },
+    {
+      "trigger": ":Gcirc;",
+      "replace": "Ĝ"
+    },
+    {
+      "trigger": ":gcirc;",
+      "replace": "ĝ"
+    },
+    {
+      "trigger": ":Gcy;",
+      "replace": "Г"
+    },
+    {
+      "trigger": ":gcy;",
+      "replace": "г"
+    },
+    {
+      "trigger": ":Gdot;",
+      "replace": "Ġ"
+    },
+    {
+      "trigger": ":gdot;",
+      "replace": "ġ"
+    },
+    {
+      "trigger": ":gE;",
+      "replace": "≧"
+    },
+    {
+      "trigger": ":ge;",
+      "replace": "≥"
+    },
+    {
+      "trigger": ":gEl;",
+      "replace": "⪌"
+    },
+    {
+      "trigger": ":gel;",
+      "replace": "⋛"
+    },
+    {
+      "trigger": ":geq;",
+      "replace": "≥"
+    },
+    {
+      "trigger": ":geqq;",
+      "replace": "≧"
+    },
+    {
+      "trigger": ":geqslant;",
+      "replace": "⩾"
+    },
+    {
+      "trigger": ":ges;",
+      "replace": "⩾"
+    },
+    {
+      "trigger": ":gescc;",
+      "replace": "⪩"
+    },
+    {
+      "trigger": ":gesdot;",
+      "replace": "⪀"
+    },
+    {
+      "trigger": ":gesdoto;",
+      "replace": "⪂"
+    },
+    {
+      "trigger": ":gesdotol;",
+      "replace": "⪄"
+    },
+    {
+      "trigger": ":gesl;",
+      "replace": "⋛︀"
+    },
+    {
+      "trigger": ":gesles;",
+      "replace": "⪔"
+    },
+    {
+      "trigger": ":Gfr;",
+      "replace": "𝔊"
+    },
+    {
+      "trigger": ":gfr;",
+      "replace": "𝔤"
+    },
+    {
+      "trigger": ":Gg;",
+      "replace": "⋙"
+    },
+    {
+      "trigger": ":gg;",
+      "replace": "≫"
+    },
+    {
+      "trigger": ":ggg;",
+      "replace": "⋙"
+    },
+    {
+      "trigger": ":gimel;",
+      "replace": "ℷ"
+    },
+    {
+      "trigger": ":GJcy;",
+      "replace": "Ѓ"
+    },
+    {
+      "trigger": ":gjcy;",
+      "replace": "ѓ"
+    },
+    {
+      "trigger": ":gl;",
+      "replace": "≷"
+    },
+    {
+      "trigger": ":gla;",
+      "replace": "⪥"
+    },
+    {
+      "trigger": ":glE;",
+      "replace": "⪒"
+    },
+    {
+      "trigger": ":glj;",
+      "replace": "⪤"
+    },
+    {
+      "trigger": ":gnap;",
+      "replace": "⪊"
+    },
+    {
+      "trigger": ":gnapprox;",
+      "replace": "⪊"
+    },
+    {
+      "trigger": ":gnE;",
+      "replace": "≩"
+    },
+    {
+      "trigger": ":gne;",
+      "replace": "⪈"
+    },
+    {
+      "trigger": ":gneq;",
+      "replace": "⪈"
+    },
+    {
+      "trigger": ":gneqq;",
+      "replace": "≩"
+    },
+    {
+      "trigger": ":gnsim;",
+      "replace": "⋧"
+    },
+    {
+      "trigger": ":Gopf;",
+      "replace": "𝔾"
+    },
+    {
+      "trigger": ":gopf;",
+      "replace": "𝕘"
+    },
+    {
+      "trigger": ":grave;",
+      "replace": "`"
+    },
+    {
+      "trigger": ":GreaterEqual;",
+      "replace": "≥"
+    },
+    {
+      "trigger": ":GreaterEqualLess;",
+      "replace": "⋛"
+    },
+    {
+      "trigger": ":GreaterFullEqual;",
+      "replace": "≧"
+    },
+    {
+      "trigger": ":GreaterGreater;",
+      "replace": "⪢"
+    },
+    {
+      "trigger": ":GreaterLess;",
+      "replace": "≷"
+    },
+    {
+      "trigger": ":GreaterSlantEqual;",
+      "replace": "⩾"
+    },
+    {
+      "trigger": ":GreaterTilde;",
+      "replace": "≳"
+    },
+    {
+      "trigger": ":Gscr;",
+      "replace": "𝒢"
+    },
+    {
+      "trigger": ":gscr;",
+      "replace": "ℊ"
+    },
+    {
+      "trigger": ":gsim;",
+      "replace": "≳"
+    },
+    {
+      "trigger": ":gsime;",
+      "replace": "⪎"
+    },
+    {
+      "trigger": ":gsiml;",
+      "replace": "⪐"
+    },
+    {
+      "trigger": ":GT;",
+      "replace": ">"
+    },
+    {
+      "trigger": ":Gt;",
+      "replace": "≫"
+    },
+    {
+      "trigger": ":gt;",
+      "replace": ">"
+    },
+    {
+      "trigger": ":gtcc;",
+      "replace": "⪧"
+    },
+    {
+      "trigger": ":gtcir;",
+      "replace": "⩺"
+    },
+    {
+      "trigger": ":gtdot;",
+      "replace": "⋗"
+    },
+    {
+      "trigger": ":gtlPar;",
+      "replace": "⦕"
+    },
+    {
+      "trigger": ":gtquest;",
+      "replace": "⩼"
+    },
+    {
+      "trigger": ":gtrapprox;",
+      "replace": "⪆"
+    },
+    {
+      "trigger": ":gtrarr;",
+      "replace": "⥸"
+    },
+    {
+      "trigger": ":gtrdot;",
+      "replace": "⋗"
+    },
+    {
+      "trigger": ":gtreqless;",
+      "replace": "⋛"
+    },
+    {
+      "trigger": ":gtreqqless;",
+      "replace": "⪌"
+    },
+    {
+      "trigger": ":gtrless;",
+      "replace": "≷"
+    },
+    {
+      "trigger": ":gtrsim;",
+      "replace": "≳"
+    },
+    {
+      "trigger": ":gvertneqq;",
+      "replace": "≩︀"
+    },
+    {
+      "trigger": ":gvnE;",
+      "replace": "≩︀"
+    },
+    {
+      "trigger": ":Hacek;",
+      "replace": "ˇ"
+    },
+    {
+      "trigger": ":hairsp;",
+      "replace": " "
+    },
+    {
+      "trigger": ":half;",
+      "replace": "½"
+    },
+    {
+      "trigger": ":hamilt;",
+      "replace": "ℋ"
+    },
+    {
+      "trigger": ":HARDcy;",
+      "replace": "Ъ"
+    },
+    {
+      "trigger": ":hardcy;",
+      "replace": "ъ"
+    },
+    {
+      "trigger": ":hArr;",
+      "replace": "⇔"
+    },
+    {
+      "trigger": ":harr;",
+      "replace": "↔"
+    },
+    {
+      "trigger": ":harrcir;",
+      "replace": "⥈"
+    },
+    {
+      "trigger": ":harrw;",
+      "replace": "↭"
+    },
+    {
+      "trigger": ":Hat;",
+      "replace": "^"
+    },
+    {
+      "trigger": ":hbar;",
+      "replace": "ℏ"
+    },
+    {
+      "trigger": ":Hcirc;",
+      "replace": "Ĥ"
+    },
+    {
+      "trigger": ":hcirc;",
+      "replace": "ĥ"
+    },
+    {
+      "trigger": ":hearts;",
+      "replace": "♥"
+    },
+    {
+      "trigger": ":heartsuit;",
+      "replace": "♥"
+    },
+    {
+      "trigger": ":hellip;",
+      "replace": "…"
+    },
+    {
+      "trigger": ":hercon;",
+      "replace": "⊹"
+    },
+    {
+      "trigger": ":Hfr;",
+      "replace": "ℌ"
+    },
+    {
+      "trigger": ":hfr;",
+      "replace": "𝔥"
+    },
+    {
+      "trigger": ":HilbertSpace;",
+      "replace": "ℋ"
+    },
+    {
+      "trigger": ":hksearow;",
+      "replace": "⤥"
+    },
+    {
+      "trigger": ":hkswarow;",
+      "replace": "⤦"
+    },
+    {
+      "trigger": ":hoarr;",
+      "replace": "⇿"
+    },
+    {
+      "trigger": ":homtht;",
+      "replace": "∻"
+    },
+    {
+      "trigger": ":hookleftarrow;",
+      "replace": "↩"
+    },
+    {
+      "trigger": ":hookrightarrow;",
+      "replace": "↪"
+    },
+    {
+      "trigger": ":Hopf;",
+      "replace": "ℍ"
+    },
+    {
+      "trigger": ":hopf;",
+      "replace": "𝕙"
+    },
+    {
+      "trigger": ":horbar;",
+      "replace": "―"
+    },
+    {
+      "trigger": ":HorizontalLine;",
+      "replace": "─"
+    },
+    {
+      "trigger": ":Hscr;",
+      "replace": "ℋ"
+    },
+    {
+      "trigger": ":hscr;",
+      "replace": "𝒽"
+    },
+    {
+      "trigger": ":hslash;",
+      "replace": "ℏ"
+    },
+    {
+      "trigger": ":Hstrok;",
+      "replace": "Ħ"
+    },
+    {
+      "trigger": ":hstrok;",
+      "replace": "ħ"
+    },
+    {
+      "trigger": ":HumpDownHump;",
+      "replace": "≎"
+    },
+    {
+      "trigger": ":HumpEqual;",
+      "replace": "≏"
+    },
+    {
+      "trigger": ":hybull;",
+      "replace": "⁃"
+    },
+    {
+      "trigger": ":hyphen;",
+      "replace": "‐"
+    },
+    {
+      "trigger": ":Iacute;",
+      "replace": "Í"
+    },
+    {
+      "trigger": ":iacute;",
+      "replace": "í"
+    },
+    {
+      "trigger": ":ic;",
+      "replace": "⁣"
+    },
+    {
+      "trigger": ":Icirc;",
+      "replace": "Î"
+    },
+    {
+      "trigger": ":icirc;",
+      "replace": "î"
+    },
+    {
+      "trigger": ":Icy;",
+      "replace": "И"
+    },
+    {
+      "trigger": ":icy;",
+      "replace": "и"
+    },
+    {
+      "trigger": ":Idot;",
+      "replace": "İ"
+    },
+    {
+      "trigger": ":IEcy;",
+      "replace": "Е"
+    },
+    {
+      "trigger": ":iecy;",
+      "replace": "е"
+    },
+    {
+      "trigger": ":iexcl;",
+      "replace": "¡"
+    },
+    {
+      "trigger": ":iff;",
+      "replace": "⇔"
+    },
+    {
+      "trigger": ":Ifr;",
+      "replace": "ℑ"
+    },
+    {
+      "trigger": ":ifr;",
+      "replace": "𝔦"
+    },
+    {
+      "trigger": ":Igrave;",
+      "replace": "Ì"
+    },
+    {
+      "trigger": ":igrave;",
+      "replace": "ì"
+    },
+    {
+      "trigger": ":ii;",
+      "replace": "ⅈ"
+    },
+    {
+      "trigger": ":iiiint;",
+      "replace": "⨌"
+    },
+    {
+      "trigger": ":iiint;",
+      "replace": "∭"
+    },
+    {
+      "trigger": ":iinfin;",
+      "replace": "⧜"
+    },
+    {
+      "trigger": ":iiota;",
+      "replace": "℩"
+    },
+    {
+      "trigger": ":IJlig;",
+      "replace": "Ĳ"
+    },
+    {
+      "trigger": ":ijlig;",
+      "replace": "ĳ"
+    },
+    {
+      "trigger": ":Im;",
+      "replace": "ℑ"
+    },
+    {
+      "trigger": ":Imacr;",
+      "replace": "Ī"
+    },
+    {
+      "trigger": ":imacr;",
+      "replace": "ī"
+    },
+    {
+      "trigger": ":image;",
+      "replace": "ℑ"
+    },
+    {
+      "trigger": ":ImaginaryI;",
+      "replace": "ⅈ"
+    },
+    {
+      "trigger": ":imagline;",
+      "replace": "ℐ"
+    },
+    {
+      "trigger": ":imagpart;",
+      "replace": "ℑ"
+    },
+    {
+      "trigger": ":imath;",
+      "replace": "ı"
+    },
+    {
+      "trigger": ":imof;",
+      "replace": "⊷"
+    },
+    {
+      "trigger": ":imped;",
+      "replace": "Ƶ"
+    },
+    {
+      "trigger": ":Implies;",
+      "replace": "⇒"
+    },
+    {
+      "trigger": ":in;",
+      "replace": "∈"
+    },
+    {
+      "trigger": ":incare;",
+      "replace": "℅"
+    },
+    {
+      "trigger": ":infin;",
+      "replace": "∞"
+    },
+    {
+      "trigger": ":infintie;",
+      "replace": "⧝"
+    },
+    {
+      "trigger": ":inodot;",
+      "replace": "ı"
+    },
+    {
+      "trigger": ":Int;",
+      "replace": "∬"
+    },
+    {
+      "trigger": ":int;",
+      "replace": "∫"
+    },
+    {
+      "trigger": ":intcal;",
+      "replace": "⊺"
+    },
+    {
+      "trigger": ":integers;",
+      "replace": "ℤ"
+    },
+    {
+      "trigger": ":Integral;",
+      "replace": "∫"
+    },
+    {
+      "trigger": ":intercal;",
+      "replace": "⊺"
+    },
+    {
+      "trigger": ":Intersection;",
+      "replace": "⋂"
+    },
+    {
+      "trigger": ":intlarhk;",
+      "replace": "⨗"
+    },
+    {
+      "trigger": ":intprod;",
+      "replace": "⨼"
+    },
+    {
+      "trigger": ":InvisibleComma;",
+      "replace": "⁣"
+    },
+    {
+      "trigger": ":InvisibleTimes;",
+      "replace": "⁢"
+    },
+    {
+      "trigger": ":IOcy;",
+      "replace": "Ё"
+    },
+    {
+      "trigger": ":iocy;",
+      "replace": "ё"
+    },
+    {
+      "trigger": ":Iogon;",
+      "replace": "Į"
+    },
+    {
+      "trigger": ":iogon;",
+      "replace": "į"
+    },
+    {
+      "trigger": ":Iopf;",
+      "replace": "𝕀"
+    },
+    {
+      "trigger": ":iopf;",
+      "replace": "𝕚"
+    },
+    {
+      "trigger": ":Iota;",
+      "replace": "Ι"
+    },
+    {
+      "trigger": ":iota;",
+      "replace": "ι"
+    },
+    {
+      "trigger": ":iprod;",
+      "replace": "⨼"
+    },
+    {
+      "trigger": ":iquest;",
+      "replace": "¿"
+    },
+    {
+      "trigger": ":Iscr;",
+      "replace": "ℐ"
+    },
+    {
+      "trigger": ":iscr;",
+      "replace": "𝒾"
+    },
+    {
+      "trigger": ":isin;",
+      "replace": "∈"
+    },
+    {
+      "trigger": ":isindot;",
+      "replace": "⋵"
+    },
+    {
+      "trigger": ":isinE;",
+      "replace": "⋹"
+    },
+    {
+      "trigger": ":isins;",
+      "replace": "⋴"
+    },
+    {
+      "trigger": ":isinsv;",
+      "replace": "⋳"
+    },
+    {
+      "trigger": ":isinv;",
+      "replace": "∈"
+    },
+    {
+      "trigger": ":it;",
+      "replace": "⁢"
+    },
+    {
+      "trigger": ":Itilde;",
+      "replace": "Ĩ"
+    },
+    {
+      "trigger": ":itilde;",
+      "replace": "ĩ"
+    },
+    {
+      "trigger": ":Iukcy;",
+      "replace": "І"
+    },
+    {
+      "trigger": ":iukcy;",
+      "replace": "і"
+    },
+    {
+      "trigger": ":Iuml;",
+      "replace": "Ï"
+    },
+    {
+      "trigger": ":iuml;",
+      "replace": "ï"
+    },
+    {
+      "trigger": ":Jcirc;",
+      "replace": "Ĵ"
+    },
+    {
+      "trigger": ":jcirc;",
+      "replace": "ĵ"
+    },
+    {
+      "trigger": ":Jcy;",
+      "replace": "Й"
+    },
+    {
+      "trigger": ":jcy;",
+      "replace": "й"
+    },
+    {
+      "trigger": ":Jfr;",
+      "replace": "𝔍"
+    },
+    {
+      "trigger": ":jfr;",
+      "replace": "𝔧"
+    },
+    {
+      "trigger": ":jmath;",
+      "replace": "ȷ"
+    },
+    {
+      "trigger": ":Jopf;",
+      "replace": "𝕁"
+    },
+    {
+      "trigger": ":jopf;",
+      "replace": "𝕛"
+    },
+    {
+      "trigger": ":Jscr;",
+      "replace": "𝒥"
+    },
+    {
+      "trigger": ":jscr;",
+      "replace": "𝒿"
+    },
+    {
+      "trigger": ":Jsercy;",
+      "replace": "Ј"
+    },
+    {
+      "trigger": ":jsercy;",
+      "replace": "ј"
+    },
+    {
+      "trigger": ":Jukcy;",
+      "replace": "Є"
+    },
+    {
+      "trigger": ":jukcy;",
+      "replace": "є"
+    },
+    {
+      "trigger": ":Kappa;",
+      "replace": "Κ"
+    },
+    {
+      "trigger": ":kappa;",
+      "replace": "κ"
+    },
+    {
+      "trigger": ":kappav;",
+      "replace": "ϰ"
+    },
+    {
+      "trigger": ":Kcedil;",
+      "replace": "Ķ"
+    },
+    {
+      "trigger": ":kcedil;",
+      "replace": "ķ"
+    },
+    {
+      "trigger": ":Kcy;",
+      "replace": "К"
+    },
+    {
+      "trigger": ":kcy;",
+      "replace": "к"
+    },
+    {
+      "trigger": ":Kfr;",
+      "replace": "𝔎"
+    },
+    {
+      "trigger": ":kfr;",
+      "replace": "𝔨"
+    },
+    {
+      "trigger": ":kgreen;",
+      "replace": "ĸ"
+    },
+    {
+      "trigger": ":KHcy;",
+      "replace": "Х"
+    },
+    {
+      "trigger": ":khcy;",
+      "replace": "х"
+    },
+    {
+      "trigger": ":KJcy;",
+      "replace": "Ќ"
+    },
+    {
+      "trigger": ":kjcy;",
+      "replace": "ќ"
+    },
+    {
+      "trigger": ":Kopf;",
+      "replace": "𝕂"
+    },
+    {
+      "trigger": ":kopf;",
+      "replace": "𝕜"
+    },
+    {
+      "trigger": ":Kscr;",
+      "replace": "𝒦"
+    },
+    {
+      "trigger": ":kscr;",
+      "replace": "𝓀"
+    },
+    {
+      "trigger": ":lAarr;",
+      "replace": "⇚"
+    },
+    {
+      "trigger": ":Lacute;",
+      "replace": "Ĺ"
+    },
+    {
+      "trigger": ":lacute;",
+      "replace": "ĺ"
+    },
+    {
+      "trigger": ":laemptyv;",
+      "replace": "⦴"
+    },
+    {
+      "trigger": ":lagran;",
+      "replace": "ℒ"
+    },
+    {
+      "trigger": ":Lambda;",
+      "replace": "Λ"
+    },
+    {
+      "trigger": ":lambda;",
+      "replace": "λ"
+    },
+    {
+      "trigger": ":Lang;",
+      "replace": "⟪"
+    },
+    {
+      "trigger": ":lang;",
+      "replace": "⟨"
+    },
+    {
+      "trigger": ":langd;",
+      "replace": "⦑"
+    },
+    {
+      "trigger": ":langle;",
+      "replace": "⟨"
+    },
+    {
+      "trigger": ":lap;",
+      "replace": "⪅"
+    },
+    {
+      "trigger": ":Laplacetrf;",
+      "replace": "ℒ"
+    },
+    {
+      "trigger": ":laquo;",
+      "replace": "«"
+    },
+    {
+      "trigger": ":Larr;",
+      "replace": "↞"
+    },
+    {
+      "trigger": ":lArr;",
+      "replace": "⇐"
+    },
+    {
+      "trigger": ":larr;",
+      "replace": "←"
+    },
+    {
+      "trigger": ":larrb;",
+      "replace": "⇤"
+    },
+    {
+      "trigger": ":larrbfs;",
+      "replace": "⤟"
+    },
+    {
+      "trigger": ":larrfs;",
+      "replace": "⤝"
+    },
+    {
+      "trigger": ":larrhk;",
+      "replace": "↩"
+    },
+    {
+      "trigger": ":larrlp;",
+      "replace": "↫"
+    },
+    {
+      "trigger": ":larrpl;",
+      "replace": "⤹"
+    },
+    {
+      "trigger": ":larrsim;",
+      "replace": "⥳"
+    },
+    {
+      "trigger": ":larrtl;",
+      "replace": "↢"
+    },
+    {
+      "trigger": ":lat;",
+      "replace": "⪫"
+    },
+    {
+      "trigger": ":lAtail;",
+      "replace": "⤛"
+    },
+    {
+      "trigger": ":latail;",
+      "replace": "⤙"
+    },
+    {
+      "trigger": ":late;",
+      "replace": "⪭"
+    },
+    {
+      "trigger": ":lates;",
+      "replace": "⪭︀"
+    },
+    {
+      "trigger": ":lBarr;",
+      "replace": "⤎"
+    },
+    {
+      "trigger": ":lbarr;",
+      "replace": "⤌"
+    },
+    {
+      "trigger": ":lbbrk;",
+      "replace": "❲"
+    },
+    {
+      "trigger": ":lbrace;",
+      "replace": "{"
+    },
+    {
+      "trigger": ":lbrack;",
+      "replace": "["
+    },
+    {
+      "trigger": ":lbrke;",
+      "replace": "⦋"
+    },
+    {
+      "trigger": ":lbrksld;",
+      "replace": "⦏"
+    },
+    {
+      "trigger": ":lbrkslu;",
+      "replace": "⦍"
+    },
+    {
+      "trigger": ":Lcaron;",
+      "replace": "Ľ"
+    },
+    {
+      "trigger": ":lcaron;",
+      "replace": "ľ"
+    },
+    {
+      "trigger": ":Lcedil;",
+      "replace": "Ļ"
+    },
+    {
+      "trigger": ":lcedil;",
+      "replace": "ļ"
+    },
+    {
+      "trigger": ":lceil;",
+      "replace": "⌈"
+    },
+    {
+      "trigger": ":lcub;",
+      "replace": "{"
+    },
+    {
+      "trigger": ":Lcy;",
+      "replace": "Л"
+    },
+    {
+      "trigger": ":lcy;",
+      "replace": "л"
+    },
+    {
+      "trigger": ":ldca;",
+      "replace": "⤶"
+    },
+    {
+      "trigger": ":ldquo;",
+      "replace": "“"
+    },
+    {
+      "trigger": ":ldquor;",
+      "replace": "„"
+    },
+    {
+      "trigger": ":ldrdhar;",
+      "replace": "⥧"
+    },
+    {
+      "trigger": ":ldrushar;",
+      "replace": "⥋"
+    },
+    {
+      "trigger": ":ldsh;",
+      "replace": "↲"
+    },
+    {
+      "trigger": ":lE;",
+      "replace": "≦"
+    },
+    {
+      "trigger": ":le;",
+      "replace": "≤"
+    },
+    {
+      "trigger": ":LeftAngleBracket;",
+      "replace": "⟨"
+    },
+    {
+      "trigger": ":LeftArrow;",
+      "replace": "←"
+    },
+    {
+      "trigger": ":Leftarrow;",
+      "replace": "⇐"
+    },
+    {
+      "trigger": ":leftarrow;",
+      "replace": "←"
+    },
+    {
+      "trigger": ":LeftArrowBar;",
+      "replace": "⇤"
+    },
+    {
+      "trigger": ":LeftArrowRightArrow;",
+      "replace": "⇆"
+    },
+    {
+      "trigger": ":leftarrowtail;",
+      "replace": "↢"
+    },
+    {
+      "trigger": ":LeftCeiling;",
+      "replace": "⌈"
+    },
+    {
+      "trigger": ":LeftDoubleBracket;",
+      "replace": "⟦"
+    },
+    {
+      "trigger": ":LeftDownTeeVector;",
+      "replace": "⥡"
+    },
+    {
+      "trigger": ":LeftDownVector;",
+      "replace": "⇃"
+    },
+    {
+      "trigger": ":LeftDownVectorBar;",
+      "replace": "⥙"
+    },
+    {
+      "trigger": ":LeftFloor;",
+      "replace": "⌊"
+    },
+    {
+      "trigger": ":leftharpoondown;",
+      "replace": "↽"
+    },
+    {
+      "trigger": ":leftharpoonup;",
+      "replace": "↼"
+    },
+    {
+      "trigger": ":leftleftarrows;",
+      "replace": "⇇"
+    },
+    {
+      "trigger": ":LeftRightArrow;",
+      "replace": "↔"
+    },
+    {
+      "trigger": ":Leftrightarrow;",
+      "replace": "⇔"
+    },
+    {
+      "trigger": ":leftrightarrow;",
+      "replace": "↔"
+    },
+    {
+      "trigger": ":leftrightarrows;",
+      "replace": "⇆"
+    },
+    {
+      "trigger": ":leftrightharpoons;",
+      "replace": "⇋"
+    },
+    {
+      "trigger": ":leftrightsquigarrow;",
+      "replace": "↭"
+    },
+    {
+      "trigger": ":LeftRightVector;",
+      "replace": "⥎"
+    },
+    {
+      "trigger": ":LeftTee;",
+      "replace": "⊣"
+    },
+    {
+      "trigger": ":LeftTeeArrow;",
+      "replace": "↤"
+    },
+    {
+      "trigger": ":LeftTeeVector;",
+      "replace": "⥚"
+    },
+    {
+      "trigger": ":leftthreetimes;",
+      "replace": "⋋"
+    },
+    {
+      "trigger": ":LeftTriangle;",
+      "replace": "⊲"
+    },
+    {
+      "trigger": ":LeftTriangleBar;",
+      "replace": "⧏"
+    },
+    {
+      "trigger": ":LeftTriangleEqual;",
+      "replace": "⊴"
+    },
+    {
+      "trigger": ":LeftUpDownVector;",
+      "replace": "⥑"
+    },
+    {
+      "trigger": ":LeftUpTeeVector;",
+      "replace": "⥠"
+    },
+    {
+      "trigger": ":LeftUpVector;",
+      "replace": "↿"
+    },
+    {
+      "trigger": ":LeftUpVectorBar;",
+      "replace": "⥘"
+    },
+    {
+      "trigger": ":LeftVector;",
+      "replace": "↼"
+    },
+    {
+      "trigger": ":LeftVectorBar;",
+      "replace": "⥒"
+    },
+    {
+      "trigger": ":lEg;",
+      "replace": "⪋"
+    },
+    {
+      "trigger": ":leg;",
+      "replace": "⋚"
+    },
+    {
+      "trigger": ":leq;",
+      "replace": "≤"
+    },
+    {
+      "trigger": ":leqq;",
+      "replace": "≦"
+    },
+    {
+      "trigger": ":leqslant;",
+      "replace": "⩽"
+    },
+    {
+      "trigger": ":les;",
+      "replace": "⩽"
+    },
+    {
+      "trigger": ":lescc;",
+      "replace": "⪨"
+    },
+    {
+      "trigger": ":lesdot;",
+      "replace": "⩿"
+    },
+    {
+      "trigger": ":lesdoto;",
+      "replace": "⪁"
+    },
+    {
+      "trigger": ":lesdotor;",
+      "replace": "⪃"
+    },
+    {
+      "trigger": ":lesg;",
+      "replace": "⋚︀"
+    },
+    {
+      "trigger": ":lesges;",
+      "replace": "⪓"
+    },
+    {
+      "trigger": ":lessapprox;",
+      "replace": "⪅"
+    },
+    {
+      "trigger": ":lessdot;",
+      "replace": "⋖"
+    },
+    {
+      "trigger": ":lesseqgtr;",
+      "replace": "⋚"
+    },
+    {
+      "trigger": ":lesseqqgtr;",
+      "replace": "⪋"
+    },
+    {
+      "trigger": ":LessEqualGreater;",
+      "replace": "⋚"
+    },
+    {
+      "trigger": ":LessFullEqual;",
+      "replace": "≦"
+    },
+    {
+      "trigger": ":LessGreater;",
+      "replace": "≶"
+    },
+    {
+      "trigger": ":lessgtr;",
+      "replace": "≶"
+    },
+    {
+      "trigger": ":LessLess;",
+      "replace": "⪡"
+    },
+    {
+      "trigger": ":lesssim;",
+      "replace": "≲"
+    },
+    {
+      "trigger": ":LessSlantEqual;",
+      "replace": "⩽"
+    },
+    {
+      "trigger": ":LessTilde;",
+      "replace": "≲"
+    },
+    {
+      "trigger": ":lfisht;",
+      "replace": "⥼"
+    },
+    {
+      "trigger": ":lfloor;",
+      "replace": "⌊"
+    },
+    {
+      "trigger": ":Lfr;",
+      "replace": "𝔏"
+    },
+    {
+      "trigger": ":lfr;",
+      "replace": "𝔩"
+    },
+    {
+      "trigger": ":lg;",
+      "replace": "≶"
+    },
+    {
+      "trigger": ":lgE;",
+      "replace": "⪑"
+    },
+    {
+      "trigger": ":lHar;",
+      "replace": "⥢"
+    },
+    {
+      "trigger": ":lhard;",
+      "replace": "↽"
+    },
+    {
+      "trigger": ":lharu;",
+      "replace": "↼"
+    },
+    {
+      "trigger": ":lharul;",
+      "replace": "⥪"
+    },
+    {
+      "trigger": ":lhblk;",
+      "replace": "▄"
+    },
+    {
+      "trigger": ":LJcy;",
+      "replace": "Љ"
+    },
+    {
+      "trigger": ":ljcy;",
+      "replace": "љ"
+    },
+    {
+      "trigger": ":Ll;",
+      "replace": "⋘"
+    },
+    {
+      "trigger": ":ll;",
+      "replace": "≪"
+    },
+    {
+      "trigger": ":llarr;",
+      "replace": "⇇"
+    },
+    {
+      "trigger": ":llcorner;",
+      "replace": "⌞"
+    },
+    {
+      "trigger": ":Lleftarrow;",
+      "replace": "⇚"
+    },
+    {
+      "trigger": ":llhard;",
+      "replace": "⥫"
+    },
+    {
+      "trigger": ":lltri;",
+      "replace": "◺"
+    },
+    {
+      "trigger": ":Lmidot;",
+      "replace": "Ŀ"
+    },
+    {
+      "trigger": ":lmidot;",
+      "replace": "ŀ"
+    },
+    {
+      "trigger": ":lmoust;",
+      "replace": "⎰"
+    },
+    {
+      "trigger": ":lmoustache;",
+      "replace": "⎰"
+    },
+    {
+      "trigger": ":lnap;",
+      "replace": "⪉"
+    },
+    {
+      "trigger": ":lnapprox;",
+      "replace": "⪉"
+    },
+    {
+      "trigger": ":lnE;",
+      "replace": "≨"
+    },
+    {
+      "trigger": ":lne;",
+      "replace": "⪇"
+    },
+    {
+      "trigger": ":lneq;",
+      "replace": "⪇"
+    },
+    {
+      "trigger": ":lneqq;",
+      "replace": "≨"
+    },
+    {
+      "trigger": ":lnsim;",
+      "replace": "⋦"
+    },
+    {
+      "trigger": ":loang;",
+      "replace": "⟬"
+    },
+    {
+      "trigger": ":loarr;",
+      "replace": "⇽"
+    },
+    {
+      "trigger": ":lobrk;",
+      "replace": "⟦"
+    },
+    {
+      "trigger": ":LongLeftArrow;",
+      "replace": "⟵"
+    },
+    {
+      "trigger": ":Longleftarrow;",
+      "replace": "⟸"
+    },
+    {
+      "trigger": ":longleftarrow;",
+      "replace": "⟵"
+    },
+    {
+      "trigger": ":LongLeftRightArrow;",
+      "replace": "⟷"
+    },
+    {
+      "trigger": ":Longleftrightarrow;",
+      "replace": "⟺"
+    },
+    {
+      "trigger": ":longleftrightarrow;",
+      "replace": "⟷"
+    },
+    {
+      "trigger": ":longmapsto;",
+      "replace": "⟼"
+    },
+    {
+      "trigger": ":LongRightArrow;",
+      "replace": "⟶"
+    },
+    {
+      "trigger": ":Longrightarrow;",
+      "replace": "⟹"
+    },
+    {
+      "trigger": ":longrightarrow;",
+      "replace": "⟶"
+    },
+    {
+      "trigger": ":looparrowleft;",
+      "replace": "↫"
+    },
+    {
+      "trigger": ":looparrowright;",
+      "replace": "↬"
+    },
+    {
+      "trigger": ":lopar;",
+      "replace": "⦅"
+    },
+    {
+      "trigger": ":Lopf;",
+      "replace": "𝕃"
+    },
+    {
+      "trigger": ":lopf;",
+      "replace": "𝕝"
+    },
+    {
+      "trigger": ":loplus;",
+      "replace": "⨭"
+    },
+    {
+      "trigger": ":lotimes;",
+      "replace": "⨴"
+    },
+    {
+      "trigger": ":lowast;",
+      "replace": "∗"
+    },
+    {
+      "trigger": ":lowbar;",
+      "replace": "_"
+    },
+    {
+      "trigger": ":LowerLeftArrow;",
+      "replace": "↙"
+    },
+    {
+      "trigger": ":LowerRightArrow;",
+      "replace": "↘"
+    },
+    {
+      "trigger": ":loz;",
+      "replace": "◊"
+    },
+    {
+      "trigger": ":lozenge;",
+      "replace": "◊"
+    },
+    {
+      "trigger": ":lozf;",
+      "replace": "⧫"
+    },
+    {
+      "trigger": ":lpar;",
+      "replace": "("
+    },
+    {
+      "trigger": ":lparlt;",
+      "replace": "⦓"
+    },
+    {
+      "trigger": ":lrarr;",
+      "replace": "⇆"
+    },
+    {
+      "trigger": ":lrcorner;",
+      "replace": "⌟"
+    },
+    {
+      "trigger": ":lrhar;",
+      "replace": "⇋"
+    },
+    {
+      "trigger": ":lrhard;",
+      "replace": "⥭"
+    },
+    {
+      "trigger": ":lrm;",
+      "replace": "‎"
+    },
+    {
+      "trigger": ":lrtri;",
+      "replace": "⊿"
+    },
+    {
+      "trigger": ":lsaquo;",
+      "replace": "‹"
+    },
+    {
+      "trigger": ":Lscr;",
+      "replace": "ℒ"
+    },
+    {
+      "trigger": ":lscr;",
+      "replace": "𝓁"
+    },
+    {
+      "trigger": ":Lsh;",
+      "replace": "↰"
+    },
+    {
+      "trigger": ":lsh;",
+      "replace": "↰"
+    },
+    {
+      "trigger": ":lsim;",
+      "replace": "≲"
+    },
+    {
+      "trigger": ":lsime;",
+      "replace": "⪍"
+    },
+    {
+      "trigger": ":lsimg;",
+      "replace": "⪏"
+    },
+    {
+      "trigger": ":lsqb;",
+      "replace": "["
+    },
+    {
+      "trigger": ":lsquo;",
+      "replace": "‘"
+    },
+    {
+      "trigger": ":lsquor;",
+      "replace": "‚"
+    },
+    {
+      "trigger": ":Lstrok;",
+      "replace": "Ł"
+    },
+    {
+      "trigger": ":lstrok;",
+      "replace": "ł"
+    },
+    {
+      "trigger": ":LT;",
+      "replace": "<"
+    },
+    {
+      "trigger": ":Lt;",
+      "replace": "≪"
+    },
+    {
+      "trigger": ":lt;",
+      "replace": "<"
+    },
+    {
+      "trigger": ":ltcc;",
+      "replace": "⪦"
+    },
+    {
+      "trigger": ":ltcir;",
+      "replace": "⩹"
+    },
+    {
+      "trigger": ":ltdot;",
+      "replace": "⋖"
+    },
+    {
+      "trigger": ":lthree;",
+      "replace": "⋋"
+    },
+    {
+      "trigger": ":ltimes;",
+      "replace": "⋉"
+    },
+    {
+      "trigger": ":ltlarr;",
+      "replace": "⥶"
+    },
+    {
+      "trigger": ":ltquest;",
+      "replace": "⩻"
+    },
+    {
+      "trigger": ":ltri;",
+      "replace": "◃"
+    },
+    {
+      "trigger": ":ltrie;",
+      "replace": "⊴"
+    },
+    {
+      "trigger": ":ltrif;",
+      "replace": "◂"
+    },
+    {
+      "trigger": ":ltrPar;",
+      "replace": "⦖"
+    },
+    {
+      "trigger": ":lurdshar;",
+      "replace": "⥊"
+    },
+    {
+      "trigger": ":luruhar;",
+      "replace": "⥦"
+    },
+    {
+      "trigger": ":lvertneqq;",
+      "replace": "≨︀"
+    },
+    {
+      "trigger": ":lvnE;",
+      "replace": "≨︀"
+    },
+    {
+      "trigger": ":macr;",
+      "replace": "¯"
+    },
+    {
+      "trigger": ":male;",
+      "replace": "♂"
+    },
+    {
+      "trigger": ":malt;",
+      "replace": "✠"
+    },
+    {
+      "trigger": ":maltese;",
+      "replace": "✠"
+    },
+    {
+      "trigger": ":Map;",
+      "replace": "⤅"
+    },
+    {
+      "trigger": ":map;",
+      "replace": "↦"
+    },
+    {
+      "trigger": ":mapsto;",
+      "replace": "↦"
+    },
+    {
+      "trigger": ":mapstodown;",
+      "replace": "↧"
+    },
+    {
+      "trigger": ":mapstoleft;",
+      "replace": "↤"
+    },
+    {
+      "trigger": ":mapstoup;",
+      "replace": "↥"
+    },
+    {
+      "trigger": ":marker;",
+      "replace": "▮"
+    },
+    {
+      "trigger": ":mcomma;",
+      "replace": "⨩"
+    },
+    {
+      "trigger": ":Mcy;",
+      "replace": "М"
+    },
+    {
+      "trigger": ":mcy;",
+      "replace": "м"
+    },
+    {
+      "trigger": ":mdash;",
+      "replace": "—"
+    },
+    {
+      "trigger": ":mDDot;",
+      "replace": "∺"
+    },
+    {
+      "trigger": ":measuredangle;",
+      "replace": "∡"
+    },
+    {
+      "trigger": ":MediumSpace;",
+      "replace": " "
+    },
+    {
+      "trigger": ":Mellintrf;",
+      "replace": "ℳ"
+    },
+    {
+      "trigger": ":Mfr;",
+      "replace": "𝔐"
+    },
+    {
+      "trigger": ":mfr;",
+      "replace": "𝔪"
+    },
+    {
+      "trigger": ":mho;",
+      "replace": "℧"
+    },
+    {
+      "trigger": ":micro;",
+      "replace": "µ"
+    },
+    {
+      "trigger": ":mid;",
+      "replace": "∣"
+    },
+    {
+      "trigger": ":midast;",
+      "replace": "*"
+    },
+    {
+      "trigger": ":midcir;",
+      "replace": "⫰"
+    },
+    {
+      "trigger": ":middot;",
+      "replace": "·"
+    },
+    {
+      "trigger": ":minus;",
+      "replace": "−"
+    },
+    {
+      "trigger": ":minusb;",
+      "replace": "⊟"
+    },
+    {
+      "trigger": ":minusd;",
+      "replace": "∸"
+    },
+    {
+      "trigger": ":minusdu;",
+      "replace": "⨪"
+    },
+    {
+      "trigger": ":MinusPlus;",
+      "replace": "∓"
+    },
+    {
+      "trigger": ":mlcp;",
+      "replace": "⫛"
+    },
+    {
+      "trigger": ":mldr;",
+      "replace": "…"
+    },
+    {
+      "trigger": ":mnplus;",
+      "replace": "∓"
+    },
+    {
+      "trigger": ":models;",
+      "replace": "⊧"
+    },
+    {
+      "trigger": ":Mopf;",
+      "replace": "𝕄"
+    },
+    {
+      "trigger": ":mopf;",
+      "replace": "𝕞"
+    },
+    {
+      "trigger": ":mp;",
+      "replace": "∓"
+    },
+    {
+      "trigger": ":Mscr;",
+      "replace": "ℳ"
+    },
+    {
+      "trigger": ":mscr;",
+      "replace": "𝓂"
+    },
+    {
+      "trigger": ":mstpos;",
+      "replace": "∾"
+    },
+    {
+      "trigger": ":Mu;",
+      "replace": "Μ"
+    },
+    {
+      "trigger": ":mu;",
+      "replace": "μ"
+    },
+    {
+      "trigger": ":multimap;",
+      "replace": "⊸"
+    },
+    {
+      "trigger": ":mumap;",
+      "replace": "⊸"
+    },
+    {
+      "trigger": ":nabla;",
+      "replace": "∇"
+    },
+    {
+      "trigger": ":Nacute;",
+      "replace": "Ń"
+    },
+    {
+      "trigger": ":nacute;",
+      "replace": "ń"
+    },
+    {
+      "trigger": ":nang;",
+      "replace": "∠⃒"
+    },
+    {
+      "trigger": ":nap;",
+      "replace": "≉"
+    },
+    {
+      "trigger": ":napE;",
+      "replace": "⩰̸"
+    },
+    {
+      "trigger": ":napid;",
+      "replace": "≋̸"
+    },
+    {
+      "trigger": ":napos;",
+      "replace": "ŉ"
+    },
+    {
+      "trigger": ":napprox;",
+      "replace": "≉"
+    },
+    {
+      "trigger": ":natur;",
+      "replace": "♮"
+    },
+    {
+      "trigger": ":natural;",
+      "replace": "♮"
+    },
+    {
+      "trigger": ":naturals;",
+      "replace": "ℕ"
+    },
+    {
+      "trigger": ":nbsp;",
+      "replace": " "
+    },
+    {
+      "trigger": ":nbump;",
+      "replace": "≎̸"
+    },
+    {
+      "trigger": ":nbumpe;",
+      "replace": "≏̸"
+    },
+    {
+      "trigger": ":ncap;",
+      "replace": "⩃"
+    },
+    {
+      "trigger": ":Ncaron;",
+      "replace": "Ň"
+    },
+    {
+      "trigger": ":ncaron;",
+      "replace": "ň"
+    },
+    {
+      "trigger": ":Ncedil;",
+      "replace": "Ņ"
+    },
+    {
+      "trigger": ":ncedil;",
+      "replace": "ņ"
+    },
+    {
+      "trigger": ":ncong;",
+      "replace": "≇"
+    },
+    {
+      "trigger": ":ncongdot;",
+      "replace": "⩭̸"
+    },
+    {
+      "trigger": ":ncup;",
+      "replace": "⩂"
+    },
+    {
+      "trigger": ":Ncy;",
+      "replace": "Н"
+    },
+    {
+      "trigger": ":ncy;",
+      "replace": "н"
+    },
+    {
+      "trigger": ":ndash;",
+      "replace": "–"
+    },
+    {
+      "trigger": ":ne;",
+      "replace": "≠"
+    },
+    {
+      "trigger": ":nearhk;",
+      "replace": "⤤"
+    },
+    {
+      "trigger": ":neArr;",
+      "replace": "⇗"
+    },
+    {
+      "trigger": ":nearr;",
+      "replace": "↗"
+    },
+    {
+      "trigger": ":nearrow;",
+      "replace": "↗"
+    },
+    {
+      "trigger": ":nedot;",
+      "replace": "≐̸"
+    },
+    {
+      "trigger": ":NegativeMediumSpace;",
+      "replace": "​"
+    },
+    {
+      "trigger": ":NegativeThickSpace;",
+      "replace": "​"
+    },
+    {
+      "trigger": ":NegativeThinSpace;",
+      "replace": "​"
+    },
+    {
+      "trigger": ":NegativeVeryThinSpace;",
+      "replace": "​"
+    },
+    {
+      "trigger": ":nequiv;",
+      "replace": "≢"
+    },
+    {
+      "trigger": ":nesear;",
+      "replace": "⤨"
+    },
+    {
+      "trigger": ":nesim;",
+      "replace": "≂̸"
+    },
+    {
+      "trigger": ":NestedGreaterGreater;",
+      "replace": "≫"
+    },
+    {
+      "trigger": ":NestedLessLess;",
+      "replace": "≪"
+    },
+    {
+      "trigger": ":NewLine;",
+      "replace": "␊"
+    },
+    {
+      "trigger": ":nexist;",
+      "replace": "∄"
+    },
+    {
+      "trigger": ":nexists;",
+      "replace": "∄"
+    },
+    {
+      "trigger": ":Nfr;",
+      "replace": "𝔑"
+    },
+    {
+      "trigger": ":nfr;",
+      "replace": "𝔫"
+    },
+    {
+      "trigger": ":ngE;",
+      "replace": "≧̸"
+    },
+    {
+      "trigger": ":nge;",
+      "replace": "≱"
+    },
+    {
+      "trigger": ":ngeq;",
+      "replace": "≱"
+    },
+    {
+      "trigger": ":ngeqq;",
+      "replace": "≧̸"
+    },
+    {
+      "trigger": ":ngeqslant;",
+      "replace": "⩾̸"
+    },
+    {
+      "trigger": ":nges;",
+      "replace": "⩾̸"
+    },
+    {
+      "trigger": ":nGg;",
+      "replace": "⋙̸"
+    },
+    {
+      "trigger": ":ngsim;",
+      "replace": "≵"
+    },
+    {
+      "trigger": ":nGt;",
+      "replace": "≫⃒"
+    },
+    {
+      "trigger": ":ngt;",
+      "replace": "≯"
+    },
+    {
+      "trigger": ":ngtr;",
+      "replace": "≯"
+    },
+    {
+      "trigger": ":nGtv;",
+      "replace": "≫̸"
+    },
+    {
+      "trigger": ":nhArr;",
+      "replace": "⇎"
+    },
+    {
+      "trigger": ":nharr;",
+      "replace": "↮"
+    },
+    {
+      "trigger": ":nhpar;",
+      "replace": "⫲"
+    },
+    {
+      "trigger": ":ni;",
+      "replace": "∋"
+    },
+    {
+      "trigger": ":nis;",
+      "replace": "⋼"
+    },
+    {
+      "trigger": ":nisd;",
+      "replace": "⋺"
+    },
+    {
+      "trigger": ":niv;",
+      "replace": "∋"
+    },
+    {
+      "trigger": ":NJcy;",
+      "replace": "Њ"
+    },
+    {
+      "trigger": ":njcy;",
+      "replace": "њ"
+    },
+    {
+      "trigger": ":nlArr;",
+      "replace": "⇍"
+    },
+    {
+      "trigger": ":nlarr;",
+      "replace": "↚"
+    },
+    {
+      "trigger": ":nldr;",
+      "replace": "‥"
+    },
+    {
+      "trigger": ":nlE;",
+      "replace": "≦̸"
+    },
+    {
+      "trigger": ":nle;",
+      "replace": "≰"
+    },
+    {
+      "trigger": ":nLeftarrow;",
+      "replace": "⇍"
+    },
+    {
+      "trigger": ":nleftarrow;",
+      "replace": "↚"
+    },
+    {
+      "trigger": ":nLeftrightarrow;",
+      "replace": "⇎"
+    },
+    {
+      "trigger": ":nleftrightarrow;",
+      "replace": "↮"
+    },
+    {
+      "trigger": ":nleq;",
+      "replace": "≰"
+    },
+    {
+      "trigger": ":nleqq;",
+      "replace": "≦̸"
+    },
+    {
+      "trigger": ":nleqslant;",
+      "replace": "⩽̸"
+    },
+    {
+      "trigger": ":nles;",
+      "replace": "⩽̸"
+    },
+    {
+      "trigger": ":nless;",
+      "replace": "≮"
+    },
+    {
+      "trigger": ":nLl;",
+      "replace": "⋘̸"
+    },
+    {
+      "trigger": ":nlsim;",
+      "replace": "≴"
+    },
+    {
+      "trigger": ":nLt;",
+      "replace": "≪⃒"
+    },
+    {
+      "trigger": ":nlt;",
+      "replace": "≮"
+    },
+    {
+      "trigger": ":nltri;",
+      "replace": "⋪"
+    },
+    {
+      "trigger": ":nltrie;",
+      "replace": "⋬"
+    },
+    {
+      "trigger": ":nLtv;",
+      "replace": "≪̸"
+    },
+    {
+      "trigger": ":nmid;",
+      "replace": "∤"
+    },
+    {
+      "trigger": ":NoBreak;",
+      "replace": "⁠"
+    },
+    {
+      "trigger": ":NonBreakingSpace;",
+      "replace": " "
+    },
+    {
+      "trigger": ":Nopf;",
+      "replace": "ℕ"
+    },
+    {
+      "trigger": ":nopf;",
+      "replace": "𝕟"
+    },
+    {
+      "trigger": ":Not;",
+      "replace": "⫬"
+    },
+    {
+      "trigger": ":not;",
+      "replace": "¬"
+    },
+    {
+      "trigger": ":NotCongruent;",
+      "replace": "≢"
+    },
+    {
+      "trigger": ":NotCupCap;",
+      "replace": "≭"
+    },
+    {
+      "trigger": ":NotDoubleVerticalBar;",
+      "replace": "∦"
+    },
+    {
+      "trigger": ":NotElement;",
+      "replace": "∉"
+    },
+    {
+      "trigger": ":NotEqual;",
+      "replace": "≠"
+    },
+    {
+      "trigger": ":NotEqualTilde;",
+      "replace": "≂̸"
+    },
+    {
+      "trigger": ":NotExists;",
+      "replace": "∄"
+    },
+    {
+      "trigger": ":NotGreater;",
+      "replace": "≯"
+    },
+    {
+      "trigger": ":NotGreaterEqual;",
+      "replace": "≱"
+    },
+    {
+      "trigger": ":NotGreaterFullEqual;",
+      "replace": "≧̸"
+    },
+    {
+      "trigger": ":NotGreaterGreater;",
+      "replace": "≫̸"
+    },
+    {
+      "trigger": ":NotGreaterLess;",
+      "replace": "≹"
+    },
+    {
+      "trigger": ":NotGreaterSlantEqual;",
+      "replace": "⩾̸"
+    },
+    {
+      "trigger": ":NotGreaterTilde;",
+      "replace": "≵"
+    },
+    {
+      "trigger": ":NotHumpDownHump;",
+      "replace": "≎̸"
+    },
+    {
+      "trigger": ":NotHumpEqual;",
+      "replace": "≏̸"
+    },
+    {
+      "trigger": ":notin;",
+      "replace": "∉"
+    },
+    {
+      "trigger": ":notindot;",
+      "replace": "⋵̸"
+    },
+    {
+      "trigger": ":notinE;",
+      "replace": "⋹̸"
+    },
+    {
+      "trigger": ":notinva;",
+      "replace": "∉"
+    },
+    {
+      "trigger": ":notinvb;",
+      "replace": "⋷"
+    },
+    {
+      "trigger": ":notinvc;",
+      "replace": "⋶"
+    },
+    {
+      "trigger": ":NotLeftTriangle;",
+      "replace": "⋪"
+    },
+    {
+      "trigger": ":NotLeftTriangleBar;",
+      "replace": "⧏̸"
+    },
+    {
+      "trigger": ":NotLeftTriangleEqual;",
+      "replace": "⋬"
+    },
+    {
+      "trigger": ":NotLess;",
+      "replace": "≮"
+    },
+    {
+      "trigger": ":NotLessEqual;",
+      "replace": "≰"
+    },
+    {
+      "trigger": ":NotLessGreater;",
+      "replace": "≸"
+    },
+    {
+      "trigger": ":NotLessLess;",
+      "replace": "≪̸"
+    },
+    {
+      "trigger": ":NotLessSlantEqual;",
+      "replace": "⩽̸"
+    },
+    {
+      "trigger": ":NotLessTilde;",
+      "replace": "≴"
+    },
+    {
+      "trigger": ":NotNestedGreaterGreater;",
+      "replace": "⪢̸"
+    },
+    {
+      "trigger": ":NotNestedLessLess;",
+      "replace": "⪡̸"
+    },
+    {
+      "trigger": ":notni;",
+      "replace": "∌"
+    },
+    {
+      "trigger": ":notniva;",
+      "replace": "∌"
+    },
+    {
+      "trigger": ":notnivb;",
+      "replace": "⋾"
+    },
+    {
+      "trigger": ":notnivc;",
+      "replace": "⋽"
+    },
+    {
+      "trigger": ":NotPrecedes;",
+      "replace": "⊀"
+    },
+    {
+      "trigger": ":NotPrecedesEqual;",
+      "replace": "⪯̸"
+    },
+    {
+      "trigger": ":NotPrecedesSlantEqual;",
+      "replace": "⋠"
+    },
+    {
+      "trigger": ":NotReverseElement;",
+      "replace": "∌"
+    },
+    {
+      "trigger": ":NotRightTriangle;",
+      "replace": "⋫"
+    },
+    {
+      "trigger": ":NotRightTriangleBar;",
+      "replace": "⧐̸"
+    },
+    {
+      "trigger": ":NotRightTriangleEqual;",
+      "replace": "⋭"
+    },
+    {
+      "trigger": ":NotSquareSubset;",
+      "replace": "⊏̸"
+    },
+    {
+      "trigger": ":NotSquareSubsetEqual;",
+      "replace": "⋢"
+    },
+    {
+      "trigger": ":NotSquareSuperset;",
+      "replace": "⊐̸"
+    },
+    {
+      "trigger": ":NotSquareSupersetEqual;",
+      "replace": "⋣"
+    },
+    {
+      "trigger": ":NotSubset;",
+      "replace": "⊂⃒"
+    },
+    {
+      "trigger": ":NotSubsetEqual;",
+      "replace": "⊈"
+    },
+    {
+      "trigger": ":NotSucceeds;",
+      "replace": "⊁"
+    },
+    {
+      "trigger": ":NotSucceedsEqual;",
+      "replace": "⪰̸"
+    },
+    {
+      "trigger": ":NotSucceedsSlantEqual;",
+      "replace": "⋡"
+    },
+    {
+      "trigger": ":NotSucceedsTilde;",
+      "replace": "≿̸"
+    },
+    {
+      "trigger": ":NotSuperset;",
+      "replace": "⊃⃒"
+    },
+    {
+      "trigger": ":NotSupersetEqual;",
+      "replace": "⊉"
+    },
+    {
+      "trigger": ":NotTilde;",
+      "replace": "≁"
+    },
+    {
+      "trigger": ":NotTildeEqual;",
+      "replace": "≄"
+    },
+    {
+      "trigger": ":NotTildeFullEqual;",
+      "replace": "≇"
+    },
+    {
+      "trigger": ":NotTildeTilde;",
+      "replace": "≉"
+    },
+    {
+      "trigger": ":NotVerticalBar;",
+      "replace": "∤"
+    },
+    {
+      "trigger": ":npar;",
+      "replace": "∦"
+    },
+    {
+      "trigger": ":nparallel;",
+      "replace": "∦"
+    },
+    {
+      "trigger": ":nparsl;",
+      "replace": "⫽⃥"
+    },
+    {
+      "trigger": ":npart;",
+      "replace": "∂̸"
+    },
+    {
+      "trigger": ":npolint;",
+      "replace": "⨔"
+    },
+    {
+      "trigger": ":npr;",
+      "replace": "⊀"
+    },
+    {
+      "trigger": ":nprcue;",
+      "replace": "⋠"
+    },
+    {
+      "trigger": ":npre;",
+      "replace": "⪯̸"
+    },
+    {
+      "trigger": ":nprec;",
+      "replace": "⊀"
+    },
+    {
+      "trigger": ":npreceq;",
+      "replace": "⪯̸"
+    },
+    {
+      "trigger": ":nrArr;",
+      "replace": "⇏"
+    },
+    {
+      "trigger": ":nrarr;",
+      "replace": "↛"
+    },
+    {
+      "trigger": ":nrarrc;",
+      "replace": "⤳̸"
+    },
+    {
+      "trigger": ":nrarrw;",
+      "replace": "↝̸"
+    },
+    {
+      "trigger": ":nRightarrow;",
+      "replace": "⇏"
+    },
+    {
+      "trigger": ":nrightarrow;",
+      "replace": "↛"
+    },
+    {
+      "trigger": ":nrtri;",
+      "replace": "⋫"
+    },
+    {
+      "trigger": ":nrtrie;",
+      "replace": "⋭"
+    },
+    {
+      "trigger": ":nsc;",
+      "replace": "⊁"
+    },
+    {
+      "trigger": ":nsccue;",
+      "replace": "⋡"
+    },
+    {
+      "trigger": ":nsce;",
+      "replace": "⪰̸"
+    },
+    {
+      "trigger": ":Nscr;",
+      "replace": "𝒩"
+    },
+    {
+      "trigger": ":nscr;",
+      "replace": "𝓃"
+    },
+    {
+      "trigger": ":nshortmid;",
+      "replace": "∤"
+    },
+    {
+      "trigger": ":nshortparallel;",
+      "replace": "∦"
+    },
+    {
+      "trigger": ":nsim;",
+      "replace": "≁"
+    },
+    {
+      "trigger": ":nsime;",
+      "replace": "≄"
+    },
+    {
+      "trigger": ":nsimeq;",
+      "replace": "≄"
+    },
+    {
+      "trigger": ":nsmid;",
+      "replace": "∤"
+    },
+    {
+      "trigger": ":nspar;",
+      "replace": "∦"
+    },
+    {
+      "trigger": ":nsqsube;",
+      "replace": "⋢"
+    },
+    {
+      "trigger": ":nsqsupe;",
+      "replace": "⋣"
+    },
+    {
+      "trigger": ":nsub;",
+      "replace": "⊄"
+    },
+    {
+      "trigger": ":nsubE;",
+      "replace": "⫅̸"
+    },
+    {
+      "trigger": ":nsube;",
+      "replace": "⊈"
+    },
+    {
+      "trigger": ":nsubset;",
+      "replace": "⊂⃒"
+    },
+    {
+      "trigger": ":nsubseteq;",
+      "replace": "⊈"
+    },
+    {
+      "trigger": ":nsubseteqq;",
+      "replace": "⫅̸"
+    },
+    {
+      "trigger": ":nsucc;",
+      "replace": "⊁"
+    },
+    {
+      "trigger": ":nsucceq;",
+      "replace": "⪰̸"
+    },
+    {
+      "trigger": ":nsup;",
+      "replace": "⊅"
+    },
+    {
+      "trigger": ":nsupE;",
+      "replace": "⫆̸"
+    },
+    {
+      "trigger": ":nsupe;",
+      "replace": "⊉"
+    },
+    {
+      "trigger": ":nsupset;",
+      "replace": "⊃⃒"
+    },
+    {
+      "trigger": ":nsupseteq;",
+      "replace": "⊉"
+    },
+    {
+      "trigger": ":nsupseteqq;",
+      "replace": "⫆̸"
+    },
+    {
+      "trigger": ":ntgl;",
+      "replace": "≹"
+    },
+    {
+      "trigger": ":Ntilde;",
+      "replace": "Ñ"
+    },
+    {
+      "trigger": ":ntilde;",
+      "replace": "ñ"
+    },
+    {
+      "trigger": ":ntlg;",
+      "replace": "≸"
+    },
+    {
+      "trigger": ":ntriangleleft;",
+      "replace": "⋪"
+    },
+    {
+      "trigger": ":ntrianglelefteq;",
+      "replace": "⋬"
+    },
+    {
+      "trigger": ":ntriangleright;",
+      "replace": "⋫"
+    },
+    {
+      "trigger": ":ntrianglerighteq;",
+      "replace": "⋭"
+    },
+    {
+      "trigger": ":Nu;",
+      "replace": "Ν"
+    },
+    {
+      "trigger": ":nu;",
+      "replace": "ν"
+    },
+    {
+      "trigger": ":num;",
+      "replace": "#"
+    },
+    {
+      "trigger": ":numero;",
+      "replace": "№"
+    },
+    {
+      "trigger": ":numsp;",
+      "replace": " "
+    },
+    {
+      "trigger": ":nvap;",
+      "replace": "≍⃒"
+    },
+    {
+      "trigger": ":nVDash;",
+      "replace": "⊯"
+    },
+    {
+      "trigger": ":nVdash;",
+      "replace": "⊮"
+    },
+    {
+      "trigger": ":nvDash;",
+      "replace": "⊭"
+    },
+    {
+      "trigger": ":nvdash;",
+      "replace": "⊬"
+    },
+    {
+      "trigger": ":nvge;",
+      "replace": "≥⃒"
+    },
+    {
+      "trigger": ":nvgt;",
+      "replace": ">⃒"
+    },
+    {
+      "trigger": ":nvHarr;",
+      "replace": "⤄"
+    },
+    {
+      "trigger": ":nvinfin;",
+      "replace": "⧞"
+    },
+    {
+      "trigger": ":nvlArr;",
+      "replace": "⤂"
+    },
+    {
+      "trigger": ":nvle;",
+      "replace": "≤⃒"
+    },
+    {
+      "trigger": ":nvlt;",
+      "replace": "<⃒"
+    },
+    {
+      "trigger": ":nvltrie;",
+      "replace": "⊴⃒"
+    },
+    {
+      "trigger": ":nvrArr;",
+      "replace": "⤃"
+    },
+    {
+      "trigger": ":nvrtrie;",
+      "replace": "⊵⃒"
+    },
+    {
+      "trigger": ":nvsim;",
+      "replace": "∼⃒"
+    },
+    {
+      "trigger": ":nwarhk;",
+      "replace": "⤣"
+    },
+    {
+      "trigger": ":nwArr;",
+      "replace": "⇖"
+    },
+    {
+      "trigger": ":nwarr;",
+      "replace": "↖"
+    },
+    {
+      "trigger": ":nwarrow;",
+      "replace": "↖"
+    },
+    {
+      "trigger": ":nwnear;",
+      "replace": "⤧"
+    },
+    {
+      "trigger": ":Oacute;",
+      "replace": "Ó"
+    },
+    {
+      "trigger": ":oacute;",
+      "replace": "ó"
+    },
+    {
+      "trigger": ":oast;",
+      "replace": "⊛"
+    },
+    {
+      "trigger": ":ocir;",
+      "replace": "⊚"
+    },
+    {
+      "trigger": ":Ocirc;",
+      "replace": "Ô"
+    },
+    {
+      "trigger": ":ocirc;",
+      "replace": "ô"
+    },
+    {
+      "trigger": ":Ocy;",
+      "replace": "О"
+    },
+    {
+      "trigger": ":ocy;",
+      "replace": "о"
+    },
+    {
+      "trigger": ":odash;",
+      "replace": "⊝"
+    },
+    {
+      "trigger": ":Odblac;",
+      "replace": "Ő"
+    },
+    {
+      "trigger": ":odblac;",
+      "replace": "ő"
+    },
+    {
+      "trigger": ":odiv;",
+      "replace": "⨸"
+    },
+    {
+      "trigger": ":odot;",
+      "replace": "⊙"
+    },
+    {
+      "trigger": ":odsold;",
+      "replace": "⦼"
+    },
+    {
+      "trigger": ":OElig;",
+      "replace": "Œ"
+    },
+    {
+      "trigger": ":oelig;",
+      "replace": "œ"
+    },
+    {
+      "trigger": ":ofcir;",
+      "replace": "⦿"
+    },
+    {
+      "trigger": ":Ofr;",
+      "replace": "𝔒"
+    },
+    {
+      "trigger": ":ofr;",
+      "replace": "𝔬"
+    },
+    {
+      "trigger": ":ogon;",
+      "replace": "˛"
+    },
+    {
+      "trigger": ":Ograve;",
+      "replace": "Ò"
+    },
+    {
+      "trigger": ":ograve;",
+      "replace": "ò"
+    },
+    {
+      "trigger": ":ogt;",
+      "replace": "⧁"
+    },
+    {
+      "trigger": ":ohbar;",
+      "replace": "⦵"
+    },
+    {
+      "trigger": ":ohm;",
+      "replace": "Ω"
+    },
+    {
+      "trigger": ":oint;",
+      "replace": "∮"
+    },
+    {
+      "trigger": ":olarr;",
+      "replace": "↺"
+    },
+    {
+      "trigger": ":olcir;",
+      "replace": "⦾"
+    },
+    {
+      "trigger": ":olcross;",
+      "replace": "⦻"
+    },
+    {
+      "trigger": ":oline;",
+      "replace": "‾"
+    },
+    {
+      "trigger": ":olt;",
+      "replace": "⧀"
+    },
+    {
+      "trigger": ":Omacr;",
+      "replace": "Ō"
+    },
+    {
+      "trigger": ":omacr;",
+      "replace": "ō"
+    },
+    {
+      "trigger": ":Omega;",
+      "replace": "Ω"
+    },
+    {
+      "trigger": ":omega;",
+      "replace": "ω"
+    },
+    {
+      "trigger": ":Omicron;",
+      "replace": "Ο"
+    },
+    {
+      "trigger": ":omicron;",
+      "replace": "ο"
+    },
+    {
+      "trigger": ":omid;",
+      "replace": "⦶"
+    },
+    {
+      "trigger": ":ominus;",
+      "replace": "⊖"
+    },
+    {
+      "trigger": ":Oopf;",
+      "replace": "𝕆"
+    },
+    {
+      "trigger": ":oopf;",
+      "replace": "𝕠"
+    },
+    {
+      "trigger": ":opar;",
+      "replace": "⦷"
+    },
+    {
+      "trigger": ":OpenCurlyDoubleQuote;",
+      "replace": "“"
+    },
+    {
+      "trigger": ":OpenCurlyQuote;",
+      "replace": "‘"
+    },
+    {
+      "trigger": ":operp;",
+      "replace": "⦹"
+    },
+    {
+      "trigger": ":oplus;",
+      "replace": "⊕"
+    },
+    {
+      "trigger": ":Or;",
+      "replace": "⩔"
+    },
+    {
+      "trigger": ":or;",
+      "replace": "∨"
+    },
+    {
+      "trigger": ":orarr;",
+      "replace": "↻"
+    },
+    {
+      "trigger": ":ord;",
+      "replace": "⩝"
+    },
+    {
+      "trigger": ":order;",
+      "replace": "ℴ"
+    },
+    {
+      "trigger": ":orderof;",
+      "replace": "ℴ"
+    },
+    {
+      "trigger": ":ordf;",
+      "replace": "ª"
+    },
+    {
+      "trigger": ":ordm;",
+      "replace": "º"
+    },
+    {
+      "trigger": ":origof;",
+      "replace": "⊶"
+    },
+    {
+      "trigger": ":oror;",
+      "replace": "⩖"
+    },
+    {
+      "trigger": ":orslope;",
+      "replace": "⩗"
+    },
+    {
+      "trigger": ":orv;",
+      "replace": "⩛"
+    },
+    {
+      "trigger": ":oS;",
+      "replace": "Ⓢ"
+    },
+    {
+      "trigger": ":Oscr;",
+      "replace": "𝒪"
+    },
+    {
+      "trigger": ":oscr;",
+      "replace": "ℴ"
+    },
+    {
+      "trigger": ":Oslash;",
+      "replace": "Ø"
+    },
+    {
+      "trigger": ":oslash;",
+      "replace": "ø"
+    },
+    {
+      "trigger": ":osol;",
+      "replace": "⊘"
+    },
+    {
+      "trigger": ":Otilde;",
+      "replace": "Õ"
+    },
+    {
+      "trigger": ":otilde;",
+      "replace": "õ"
+    },
+    {
+      "trigger": ":Otimes;",
+      "replace": "⨷"
+    },
+    {
+      "trigger": ":otimes;",
+      "replace": "⊗"
+    },
+    {
+      "trigger": ":otimesas;",
+      "replace": "⨶"
+    },
+    {
+      "trigger": ":Ouml;",
+      "replace": "Ö"
+    },
+    {
+      "trigger": ":ouml;",
+      "replace": "ö"
+    },
+    {
+      "trigger": ":ovbar;",
+      "replace": "⌽"
+    },
+    {
+      "trigger": ":OverBar;",
+      "replace": "‾"
+    },
+    {
+      "trigger": ":OverBrace;",
+      "replace": "⏞"
+    },
+    {
+      "trigger": ":OverBracket;",
+      "replace": "⎴"
+    },
+    {
+      "trigger": ":OverParenthesis;",
+      "replace": "⏜"
+    },
+    {
+      "trigger": ":par;",
+      "replace": "∥"
+    },
+    {
+      "trigger": ":para;",
+      "replace": "¶"
+    },
+    {
+      "trigger": ":parallel;",
+      "replace": "∥"
+    },
+    {
+      "trigger": ":parsim;",
+      "replace": "⫳"
+    },
+    {
+      "trigger": ":parsl;",
+      "replace": "⫽"
+    },
+    {
+      "trigger": ":part;",
+      "replace": "∂"
+    },
+    {
+      "trigger": ":PartialD;",
+      "replace": "∂"
+    },
+    {
+      "trigger": ":Pcy;",
+      "replace": "П"
+    },
+    {
+      "trigger": ":pcy;",
+      "replace": "п"
+    },
+    {
+      "trigger": ":percnt;",
+      "replace": "%"
+    },
+    {
+      "trigger": ":period;",
+      "replace": "."
+    },
+    {
+      "trigger": ":permil;",
+      "replace": "‰"
+    },
+    {
+      "trigger": ":perp;",
+      "replace": "⊥"
+    },
+    {
+      "trigger": ":pertenk;",
+      "replace": "‱"
+    },
+    {
+      "trigger": ":Pfr;",
+      "replace": "𝔓"
+    },
+    {
+      "trigger": ":pfr;",
+      "replace": "𝔭"
+    },
+    {
+      "trigger": ":Phi;",
+      "replace": "Φ"
+    },
+    {
+      "trigger": ":phi;",
+      "replace": "φ"
+    },
+    {
+      "trigger": ":phiv;",
+      "replace": "ϕ"
+    },
+    {
+      "trigger": ":phmmat;",
+      "replace": "ℳ"
+    },
+    {
+      "trigger": ":phone;",
+      "replace": "☎"
+    },
+    {
+      "trigger": ":Pi;",
+      "replace": "Π"
+    },
+    {
+      "trigger": ":pi;",
+      "replace": "π"
+    },
+    {
+      "trigger": ":pitchfork;",
+      "replace": "⋔"
+    },
+    {
+      "trigger": ":piv;",
+      "replace": "ϖ"
+    },
+    {
+      "trigger": ":planck;",
+      "replace": "ℏ"
+    },
+    {
+      "trigger": ":planckh;",
+      "replace": "ℎ"
+    },
+    {
+      "trigger": ":plankv;",
+      "replace": "ℏ"
+    },
+    {
+      "trigger": ":plus;",
+      "replace": "+"
+    },
+    {
+      "trigger": ":plusacir;",
+      "replace": "⨣"
+    },
+    {
+      "trigger": ":plusb;",
+      "replace": "⊞"
+    },
+    {
+      "trigger": ":pluscir;",
+      "replace": "⨢"
+    },
+    {
+      "trigger": ":plusdo;",
+      "replace": "∔"
+    },
+    {
+      "trigger": ":plusdu;",
+      "replace": "⨥"
+    },
+    {
+      "trigger": ":pluse;",
+      "replace": "⩲"
+    },
+    {
+      "trigger": ":PlusMinus;",
+      "replace": "±"
+    },
+    {
+      "trigger": ":plusmn;",
+      "replace": "±"
+    },
+    {
+      "trigger": ":plussim;",
+      "replace": "⨦"
+    },
+    {
+      "trigger": ":plustwo;",
+      "replace": "⨧"
+    },
+    {
+      "trigger": ":pm;",
+      "replace": "±"
+    },
+    {
+      "trigger": ":Poincareplane;",
+      "replace": "ℌ"
+    },
+    {
+      "trigger": ":pointint;",
+      "replace": "⨕"
+    },
+    {
+      "trigger": ":Popf;",
+      "replace": "ℙ"
+    },
+    {
+      "trigger": ":popf;",
+      "replace": "𝕡"
+    },
+    {
+      "trigger": ":pound;",
+      "replace": "£"
+    },
+    {
+      "trigger": ":Pr;",
+      "replace": "⪻"
+    },
+    {
+      "trigger": ":pr;",
+      "replace": "≺"
+    },
+    {
+      "trigger": ":prap;",
+      "replace": "⪷"
+    },
+    {
+      "trigger": ":prcue;",
+      "replace": "≼"
+    },
+    {
+      "trigger": ":prE;",
+      "replace": "⪳"
+    },
+    {
+      "trigger": ":pre;",
+      "replace": "⪯"
+    },
+    {
+      "trigger": ":prec;",
+      "replace": "≺"
+    },
+    {
+      "trigger": ":precapprox;",
+      "replace": "⪷"
+    },
+    {
+      "trigger": ":preccurlyeq;",
+      "replace": "≼"
+    },
+    {
+      "trigger": ":Precedes;",
+      "replace": "≺"
+    },
+    {
+      "trigger": ":PrecedesEqual;",
+      "replace": "⪯"
+    },
+    {
+      "trigger": ":PrecedesSlantEqual;",
+      "replace": "≼"
+    },
+    {
+      "trigger": ":PrecedesTilde;",
+      "replace": "≾"
+    },
+    {
+      "trigger": ":preceq;",
+      "replace": "⪯"
+    },
+    {
+      "trigger": ":precnapprox;",
+      "replace": "⪹"
+    },
+    {
+      "trigger": ":precneqq;",
+      "replace": "⪵"
+    },
+    {
+      "trigger": ":precnsim;",
+      "replace": "⋨"
+    },
+    {
+      "trigger": ":precsim;",
+      "replace": "≾"
+    },
+    {
+      "trigger": ":Prime;",
+      "replace": "″"
+    },
+    {
+      "trigger": ":prime;",
+      "replace": "′"
+    },
+    {
+      "trigger": ":primes;",
+      "replace": "ℙ"
+    },
+    {
+      "trigger": ":prnap;",
+      "replace": "⪹"
+    },
+    {
+      "trigger": ":prnE;",
+      "replace": "⪵"
+    },
+    {
+      "trigger": ":prnsim;",
+      "replace": "⋨"
+    },
+    {
+      "trigger": ":prod;",
+      "replace": "∏"
+    },
+    {
+      "trigger": ":Product;",
+      "replace": "∏"
+    },
+    {
+      "trigger": ":profalar;",
+      "replace": "⌮"
+    },
+    {
+      "trigger": ":profline;",
+      "replace": "⌒"
+    },
+    {
+      "trigger": ":profsurf;",
+      "replace": "⌓"
+    },
+    {
+      "trigger": ":prop;",
+      "replace": "∝"
+    },
+    {
+      "trigger": ":Proportion;",
+      "replace": "∷"
+    },
+    {
+      "trigger": ":Proportional;",
+      "replace": "∝"
+    },
+    {
+      "trigger": ":propto;",
+      "replace": "∝"
+    },
+    {
+      "trigger": ":prsim;",
+      "replace": "≾"
+    },
+    {
+      "trigger": ":prurel;",
+      "replace": "⊰"
+    },
+    {
+      "trigger": ":Pscr;",
+      "replace": "𝒫"
+    },
+    {
+      "trigger": ":pscr;",
+      "replace": "𝓅"
+    },
+    {
+      "trigger": ":Psi;",
+      "replace": "Ψ"
+    },
+    {
+      "trigger": ":psi;",
+      "replace": "ψ"
+    },
+    {
+      "trigger": ":puncsp;",
+      "replace": " "
+    },
+    {
+      "trigger": ":Qfr;",
+      "replace": "𝔔"
+    },
+    {
+      "trigger": ":qfr;",
+      "replace": "𝔮"
+    },
+    {
+      "trigger": ":qint;",
+      "replace": "⨌"
+    },
+    {
+      "trigger": ":Qopf;",
+      "replace": "ℚ"
+    },
+    {
+      "trigger": ":qopf;",
+      "replace": "𝕢"
+    },
+    {
+      "trigger": ":qprime;",
+      "replace": "⁗"
+    },
+    {
+      "trigger": ":Qscr;",
+      "replace": "𝒬"
+    },
+    {
+      "trigger": ":qscr;",
+      "replace": "𝓆"
+    },
+    {
+      "trigger": ":quaternions;",
+      "replace": "ℍ"
+    },
+    {
+      "trigger": ":quatint;",
+      "replace": "⨖"
+    },
+    {
+      "trigger": ":quest;",
+      "replace": "?"
+    },
+    {
+      "trigger": ":questeq;",
+      "replace": "≟"
+    },
+    {
+      "trigger": ":QUOT;",
+      "replace": "\""
+    },
+    {
+      "trigger": ":quot;",
+      "replace": "\""
+    },
+    {
+      "trigger": ":rAarr;",
+      "replace": "⇛"
+    },
+    {
+      "trigger": ":race;",
+      "replace": "∽̱"
+    },
+    {
+      "trigger": ":Racute;",
+      "replace": "Ŕ"
+    },
+    {
+      "trigger": ":racute;",
+      "replace": "ŕ"
+    },
+    {
+      "trigger": ":radic;",
+      "replace": "√"
+    },
+    {
+      "trigger": ":raemptyv;",
+      "replace": "⦳"
+    },
+    {
+      "trigger": ":Rang;",
+      "replace": "⟫"
+    },
+    {
+      "trigger": ":rang;",
+      "replace": "⟩"
+    },
+    {
+      "trigger": ":rangd;",
+      "replace": "⦒"
+    },
+    {
+      "trigger": ":range;",
+      "replace": "⦥"
+    },
+    {
+      "trigger": ":rangle;",
+      "replace": "⟩"
+    },
+    {
+      "trigger": ":raquo;",
+      "replace": "»"
+    },
+    {
+      "trigger": ":Rarr;",
+      "replace": "↠"
+    },
+    {
+      "trigger": ":rArr;",
+      "replace": "⇒"
+    },
+    {
+      "trigger": ":rarr;",
+      "replace": "→"
+    },
+    {
+      "trigger": ":rarrap;",
+      "replace": "⥵"
+    },
+    {
+      "trigger": ":rarrb;",
+      "replace": "⇥"
+    },
+    {
+      "trigger": ":rarrbfs;",
+      "replace": "⤠"
+    },
+    {
+      "trigger": ":rarrc;",
+      "replace": "⤳"
+    },
+    {
+      "trigger": ":rarrfs;",
+      "replace": "⤞"
+    },
+    {
+      "trigger": ":rarrhk;",
+      "replace": "↪"
+    },
+    {
+      "trigger": ":rarrlp;",
+      "replace": "↬"
+    },
+    {
+      "trigger": ":rarrpl;",
+      "replace": "⥅"
+    },
+    {
+      "trigger": ":rarrsim;",
+      "replace": "⥴"
+    },
+    {
+      "trigger": ":Rarrtl;",
+      "replace": "⤖"
+    },
+    {
+      "trigger": ":rarrtl;",
+      "replace": "↣"
+    },
+    {
+      "trigger": ":rarrw;",
+      "replace": "↝"
+    },
+    {
+      "trigger": ":rAtail;",
+      "replace": "⤜"
+    },
+    {
+      "trigger": ":ratail;",
+      "replace": "⤚"
+    },
+    {
+      "trigger": ":ratio;",
+      "replace": "∶"
+    },
+    {
+      "trigger": ":rationals;",
+      "replace": "ℚ"
+    },
+    {
+      "trigger": ":RBarr;",
+      "replace": "⤐"
+    },
+    {
+      "trigger": ":rBarr;",
+      "replace": "⤏"
+    },
+    {
+      "trigger": ":rbarr;",
+      "replace": "⤍"
+    },
+    {
+      "trigger": ":rbbrk;",
+      "replace": "❳"
+    },
+    {
+      "trigger": ":rbrace;",
+      "replace": "}"
+    },
+    {
+      "trigger": ":rbrack;",
+      "replace": "]"
+    },
+    {
+      "trigger": ":rbrke;",
+      "replace": "⦌"
+    },
+    {
+      "trigger": ":rbrksld;",
+      "replace": "⦎"
+    },
+    {
+      "trigger": ":rbrkslu;",
+      "replace": "⦐"
+    },
+    {
+      "trigger": ":Rcaron;",
+      "replace": "Ř"
+    },
+    {
+      "trigger": ":rcaron;",
+      "replace": "ř"
+    },
+    {
+      "trigger": ":Rcedil;",
+      "replace": "Ŗ"
+    },
+    {
+      "trigger": ":rcedil;",
+      "replace": "ŗ"
+    },
+    {
+      "trigger": ":rceil;",
+      "replace": "⌉"
+    },
+    {
+      "trigger": ":rcub;",
+      "replace": "}"
+    },
+    {
+      "trigger": ":Rcy;",
+      "replace": "Р"
+    },
+    {
+      "trigger": ":rcy;",
+      "replace": "р"
+    },
+    {
+      "trigger": ":rdca;",
+      "replace": "⤷"
+    },
+    {
+      "trigger": ":rdldhar;",
+      "replace": "⥩"
+    },
+    {
+      "trigger": ":rdquo;",
+      "replace": "”"
+    },
+    {
+      "trigger": ":rdquor;",
+      "replace": "”"
+    },
+    {
+      "trigger": ":rdsh;",
+      "replace": "↳"
+    },
+    {
+      "trigger": ":Re;",
+      "replace": "ℜ"
+    },
+    {
+      "trigger": ":real;",
+      "replace": "ℜ"
+    },
+    {
+      "trigger": ":realine;",
+      "replace": "ℛ"
+    },
+    {
+      "trigger": ":realpart;",
+      "replace": "ℜ"
+    },
+    {
+      "trigger": ":reals;",
+      "replace": "ℝ"
+    },
+    {
+      "trigger": ":rect;",
+      "replace": "▭"
+    },
+    {
+      "trigger": ":REG;",
+      "replace": "®"
+    },
+    {
+      "trigger": ":reg;",
+      "replace": "®"
+    },
+    {
+      "trigger": ":ReverseElement;",
+      "replace": "∋"
+    },
+    {
+      "trigger": ":ReverseEquilibrium;",
+      "replace": "⇋"
+    },
+    {
+      "trigger": ":ReverseUpEquilibrium;",
+      "replace": "⥯"
+    },
+    {
+      "trigger": ":rfisht;",
+      "replace": "⥽"
+    },
+    {
+      "trigger": ":rfloor;",
+      "replace": "⌋"
+    },
+    {
+      "trigger": ":Rfr;",
+      "replace": "ℜ"
+    },
+    {
+      "trigger": ":rfr;",
+      "replace": "𝔯"
+    },
+    {
+      "trigger": ":rHar;",
+      "replace": "⥤"
+    },
+    {
+      "trigger": ":rhard;",
+      "replace": "⇁"
+    },
+    {
+      "trigger": ":rharu;",
+      "replace": "⇀"
+    },
+    {
+      "trigger": ":rharul;",
+      "replace": "⥬"
+    },
+    {
+      "trigger": ":Rho;",
+      "replace": "Ρ"
+    },
+    {
+      "trigger": ":rho;",
+      "replace": "ρ"
+    },
+    {
+      "trigger": ":rhov;",
+      "replace": "ϱ"
+    },
+    {
+      "trigger": ":RightAngleBracket;",
+      "replace": "⟩"
+    },
+    {
+      "trigger": ":RightArrow;",
+      "replace": "→"
+    },
+    {
+      "trigger": ":Rightarrow;",
+      "replace": "⇒"
+    },
+    {
+      "trigger": ":rightarrow;",
+      "replace": "→"
+    },
+    {
+      "trigger": ":RightArrowBar;",
+      "replace": "⇥"
+    },
+    {
+      "trigger": ":RightArrowLeftArrow;",
+      "replace": "⇄"
+    },
+    {
+      "trigger": ":rightarrowtail;",
+      "replace": "↣"
+    },
+    {
+      "trigger": ":RightCeiling;",
+      "replace": "⌉"
+    },
+    {
+      "trigger": ":RightDoubleBracket;",
+      "replace": "⟧"
+    },
+    {
+      "trigger": ":RightDownTeeVector;",
+      "replace": "⥝"
+    },
+    {
+      "trigger": ":RightDownVector;",
+      "replace": "⇂"
+    },
+    {
+      "trigger": ":RightDownVectorBar;",
+      "replace": "⥕"
+    },
+    {
+      "trigger": ":RightFloor;",
+      "replace": "⌋"
+    },
+    {
+      "trigger": ":rightharpoondown;",
+      "replace": "⇁"
+    },
+    {
+      "trigger": ":rightharpoonup;",
+      "replace": "⇀"
+    },
+    {
+      "trigger": ":rightleftarrows;",
+      "replace": "⇄"
+    },
+    {
+      "trigger": ":rightleftharpoons;",
+      "replace": "⇌"
+    },
+    {
+      "trigger": ":rightrightarrows;",
+      "replace": "⇉"
+    },
+    {
+      "trigger": ":rightsquigarrow;",
+      "replace": "↝"
+    },
+    {
+      "trigger": ":RightTee;",
+      "replace": "⊢"
+    },
+    {
+      "trigger": ":RightTeeArrow;",
+      "replace": "↦"
+    },
+    {
+      "trigger": ":RightTeeVector;",
+      "replace": "⥛"
+    },
+    {
+      "trigger": ":rightthreetimes;",
+      "replace": "⋌"
+    },
+    {
+      "trigger": ":RightTriangle;",
+      "replace": "⊳"
+    },
+    {
+      "trigger": ":RightTriangleBar;",
+      "replace": "⧐"
+    },
+    {
+      "trigger": ":RightTriangleEqual;",
+      "replace": "⊵"
+    },
+    {
+      "trigger": ":RightUpDownVector;",
+      "replace": "⥏"
+    },
+    {
+      "trigger": ":RightUpTeeVector;",
+      "replace": "⥜"
+    },
+    {
+      "trigger": ":RightUpVector;",
+      "replace": "↾"
+    },
+    {
+      "trigger": ":RightUpVectorBar;",
+      "replace": "⥔"
+    },
+    {
+      "trigger": ":RightVector;",
+      "replace": "⇀"
+    },
+    {
+      "trigger": ":RightVectorBar;",
+      "replace": "⥓"
+    },
+    {
+      "trigger": ":ring;",
+      "replace": "˚"
+    },
+    {
+      "trigger": ":risingdotseq;",
+      "replace": "≓"
+    },
+    {
+      "trigger": ":rlarr;",
+      "replace": "⇄"
+    },
+    {
+      "trigger": ":rlhar;",
+      "replace": "⇌"
+    },
+    {
+      "trigger": ":rlm;",
+      "replace": "‏"
+    },
+    {
+      "trigger": ":rmoust;",
+      "replace": "⎱"
+    },
+    {
+      "trigger": ":rmoustache;",
+      "replace": "⎱"
+    },
+    {
+      "trigger": ":rnmid;",
+      "replace": "⫮"
+    },
+    {
+      "trigger": ":roang;",
+      "replace": "⟭"
+    },
+    {
+      "trigger": ":roarr;",
+      "replace": "⇾"
+    },
+    {
+      "trigger": ":robrk;",
+      "replace": "⟧"
+    },
+    {
+      "trigger": ":ropar;",
+      "replace": "⦆"
+    },
+    {
+      "trigger": ":Ropf;",
+      "replace": "ℝ"
+    },
+    {
+      "trigger": ":ropf;",
+      "replace": "𝕣"
+    },
+    {
+      "trigger": ":roplus;",
+      "replace": "⨮"
+    },
+    {
+      "trigger": ":rotimes;",
+      "replace": "⨵"
+    },
+    {
+      "trigger": ":RoundImplies;",
+      "replace": "⥰"
+    },
+    {
+      "trigger": ":rpar;",
+      "replace": ")"
+    },
+    {
+      "trigger": ":rpargt;",
+      "replace": "⦔"
+    },
+    {
+      "trigger": ":rppolint;",
+      "replace": "⨒"
+    },
+    {
+      "trigger": ":rrarr;",
+      "replace": "⇉"
+    },
+    {
+      "trigger": ":Rrightarrow;",
+      "replace": "⇛"
+    },
+    {
+      "trigger": ":rsaquo;",
+      "replace": "›"
+    },
+    {
+      "trigger": ":Rscr;",
+      "replace": "ℛ"
+    },
+    {
+      "trigger": ":rscr;",
+      "replace": "𝓇"
+    },
+    {
+      "trigger": ":Rsh;",
+      "replace": "↱"
+    },
+    {
+      "trigger": ":rsh;",
+      "replace": "↱"
+    },
+    {
+      "trigger": ":rsqb;",
+      "replace": "]"
+    },
+    {
+      "trigger": ":rsquo;",
+      "replace": "’"
+    },
+    {
+      "trigger": ":rsquor;",
+      "replace": "’"
+    },
+    {
+      "trigger": ":rthree;",
+      "replace": "⋌"
+    },
+    {
+      "trigger": ":rtimes;",
+      "replace": "⋊"
+    },
+    {
+      "trigger": ":rtri;",
+      "replace": "▹"
+    },
+    {
+      "trigger": ":rtrie;",
+      "replace": "⊵"
+    },
+    {
+      "trigger": ":rtrif;",
+      "replace": "▸"
+    },
+    {
+      "trigger": ":rtriltri;",
+      "replace": "⧎"
+    },
+    {
+      "trigger": ":RuleDelayed;",
+      "replace": "⧴"
+    },
+    {
+      "trigger": ":ruluhar;",
+      "replace": "⥨"
+    },
+    {
+      "trigger": ":rx;",
+      "replace": "℞"
+    },
+    {
+      "trigger": ":Sacute;",
+      "replace": "Ś"
+    },
+    {
+      "trigger": ":sacute;",
+      "replace": "ś"
+    },
+    {
+      "trigger": ":sbquo;",
+      "replace": "‚"
+    },
+    {
+      "trigger": ":Sc;",
+      "replace": "⪼"
+    },
+    {
+      "trigger": ":sc;",
+      "replace": "≻"
+    },
+    {
+      "trigger": ":scap;",
+      "replace": "⪸"
+    },
+    {
+      "trigger": ":Scaron;",
+      "replace": "Š"
+    },
+    {
+      "trigger": ":scaron;",
+      "replace": "š"
+    },
+    {
+      "trigger": ":sccue;",
+      "replace": "≽"
+    },
+    {
+      "trigger": ":scE;",
+      "replace": "⪴"
+    },
+    {
+      "trigger": ":sce;",
+      "replace": "⪰"
+    },
+    {
+      "trigger": ":Scedil;",
+      "replace": "Ş"
+    },
+    {
+      "trigger": ":scedil;",
+      "replace": "ş"
+    },
+    {
+      "trigger": ":Scirc;",
+      "replace": "Ŝ"
+    },
+    {
+      "trigger": ":scirc;",
+      "replace": "ŝ"
+    },
+    {
+      "trigger": ":scnap;",
+      "replace": "⪺"
+    },
+    {
+      "trigger": ":scnE;",
+      "replace": "⪶"
+    },
+    {
+      "trigger": ":scnsim;",
+      "replace": "⋩"
+    },
+    {
+      "trigger": ":scpolint;",
+      "replace": "⨓"
+    },
+    {
+      "trigger": ":scsim;",
+      "replace": "≿"
+    },
+    {
+      "trigger": ":Scy;",
+      "replace": "С"
+    },
+    {
+      "trigger": ":scy;",
+      "replace": "с"
+    },
+    {
+      "trigger": ":sdot;",
+      "replace": "⋅"
+    },
+    {
+      "trigger": ":sdotb;",
+      "replace": "⊡"
+    },
+    {
+      "trigger": ":sdote;",
+      "replace": "⩦"
+    },
+    {
+      "trigger": ":searhk;",
+      "replace": "⤥"
+    },
+    {
+      "trigger": ":seArr;",
+      "replace": "⇘"
+    },
+    {
+      "trigger": ":searr;",
+      "replace": "↘"
+    },
+    {
+      "trigger": ":searrow;",
+      "replace": "↘"
+    },
+    {
+      "trigger": ":sect;",
+      "replace": "§"
+    },
+    {
+      "trigger": ":semi;",
+      "replace": ";"
+    },
+    {
+      "trigger": ":seswar;",
+      "replace": "⤩"
+    },
+    {
+      "trigger": ":setminus;",
+      "replace": "∖"
+    },
+    {
+      "trigger": ":setmn;",
+      "replace": "∖"
+    },
+    {
+      "trigger": ":sext;",
+      "replace": "✶"
+    },
+    {
+      "trigger": ":Sfr;",
+      "replace": "𝔖"
+    },
+    {
+      "trigger": ":sfr;",
+      "replace": "𝔰"
+    },
+    {
+      "trigger": ":sfrown;",
+      "replace": "⌢"
+    },
+    {
+      "trigger": ":sharp;",
+      "replace": "♯"
+    },
+    {
+      "trigger": ":SHCHcy;",
+      "replace": "Щ"
+    },
+    {
+      "trigger": ":shchcy;",
+      "replace": "щ"
+    },
+    {
+      "trigger": ":SHcy;",
+      "replace": "Ш"
+    },
+    {
+      "trigger": ":shcy;",
+      "replace": "ш"
+    },
+    {
+      "trigger": ":ShortDownArrow;",
+      "replace": "↓"
+    },
+    {
+      "trigger": ":ShortLeftArrow;",
+      "replace": "←"
+    },
+    {
+      "trigger": ":shortmid;",
+      "replace": "∣"
+    },
+    {
+      "trigger": ":shortparallel;",
+      "replace": "∥"
+    },
+    {
+      "trigger": ":ShortRightArrow;",
+      "replace": "→"
+    },
+    {
+      "trigger": ":ShortUpArrow;",
+      "replace": "↑"
+    },
+    {
+      "trigger": ":shy;",
+      "replace": "­"
+    },
+    {
+      "trigger": ":Sigma;",
+      "replace": "Σ"
+    },
+    {
+      "trigger": ":sigma;",
+      "replace": "σ"
+    },
+    {
+      "trigger": ":sigmaf;",
+      "replace": "ς"
+    },
+    {
+      "trigger": ":sigmav;",
+      "replace": "ς"
+    },
+    {
+      "trigger": ":sim;",
+      "replace": "∼"
+    },
+    {
+      "trigger": ":simdot;",
+      "replace": "⩪"
+    },
+    {
+      "trigger": ":sime;",
+      "replace": "≃"
+    },
+    {
+      "trigger": ":simeq;",
+      "replace": "≃"
+    },
+    {
+      "trigger": ":simg;",
+      "replace": "⪞"
+    },
+    {
+      "trigger": ":simgE;",
+      "replace": "⪠"
+    },
+    {
+      "trigger": ":siml;",
+      "replace": "⪝"
+    },
+    {
+      "trigger": ":simlE;",
+      "replace": "⪟"
+    },
+    {
+      "trigger": ":simne;",
+      "replace": "≆"
+    },
+    {
+      "trigger": ":simplus;",
+      "replace": "⨤"
+    },
+    {
+      "trigger": ":simrarr;",
+      "replace": "⥲"
+    },
+    {
+      "trigger": ":slarr;",
+      "replace": "←"
+    },
+    {
+      "trigger": ":SmallCircle;",
+      "replace": "∘"
+    },
+    {
+      "trigger": ":smallsetminus;",
+      "replace": "∖"
+    },
+    {
+      "trigger": ":smashp;",
+      "replace": "⨳"
+    },
+    {
+      "trigger": ":smeparsl;",
+      "replace": "⧤"
+    },
+    {
+      "trigger": ":smid;",
+      "replace": "∣"
+    },
+    {
+      "trigger": ":smile;",
+      "replace": "⌣"
+    },
+    {
+      "trigger": ":smt;",
+      "replace": "⪪"
+    },
+    {
+      "trigger": ":smte;",
+      "replace": "⪬"
+    },
+    {
+      "trigger": ":smtes;",
+      "replace": "⪬︀"
+    },
+    {
+      "trigger": ":SOFTcy;",
+      "replace": "Ь"
+    },
+    {
+      "trigger": ":softcy;",
+      "replace": "ь"
+    },
+    {
+      "trigger": ":sol;",
+      "replace": "/"
+    },
+    {
+      "trigger": ":solb;",
+      "replace": "⧄"
+    },
+    {
+      "trigger": ":solbar;",
+      "replace": "⌿"
+    },
+    {
+      "trigger": ":Sopf;",
+      "replace": "𝕊"
+    },
+    {
+      "trigger": ":sopf;",
+      "replace": "𝕤"
+    },
+    {
+      "trigger": ":spades;",
+      "replace": "♠"
+    },
+    {
+      "trigger": ":spadesuit;",
+      "replace": "♠"
+    },
+    {
+      "trigger": ":spar;",
+      "replace": "∥"
+    },
+    {
+      "trigger": ":sqcap;",
+      "replace": "⊓"
+    },
+    {
+      "trigger": ":sqcaps;",
+      "replace": "⊓︀"
+    },
+    {
+      "trigger": ":sqcup;",
+      "replace": "⊔"
+    },
+    {
+      "trigger": ":sqcups;",
+      "replace": "⊔︀"
+    },
+    {
+      "trigger": ":Sqrt;",
+      "replace": "√"
+    },
+    {
+      "trigger": ":sqsub;",
+      "replace": "⊏"
+    },
+    {
+      "trigger": ":sqsube;",
+      "replace": "⊑"
+    },
+    {
+      "trigger": ":sqsubset;",
+      "replace": "⊏"
+    },
+    {
+      "trigger": ":sqsubseteq;",
+      "replace": "⊑"
+    },
+    {
+      "trigger": ":sqsup;",
+      "replace": "⊐"
+    },
+    {
+      "trigger": ":sqsupe;",
+      "replace": "⊒"
+    },
+    {
+      "trigger": ":sqsupset;",
+      "replace": "⊐"
+    },
+    {
+      "trigger": ":sqsupseteq;",
+      "replace": "⊒"
+    },
+    {
+      "trigger": ":squ;",
+      "replace": "□"
+    },
+    {
+      "trigger": ":Square;",
+      "replace": "□"
+    },
+    {
+      "trigger": ":square;",
+      "replace": "□"
+    },
+    {
+      "trigger": ":SquareIntersection;",
+      "replace": "⊓"
+    },
+    {
+      "trigger": ":SquareSubset;",
+      "replace": "⊏"
+    },
+    {
+      "trigger": ":SquareSubsetEqual;",
+      "replace": "⊑"
+    },
+    {
+      "trigger": ":SquareSuperset;",
+      "replace": "⊐"
+    },
+    {
+      "trigger": ":SquareSupersetEqual;",
+      "replace": "⊒"
+    },
+    {
+      "trigger": ":SquareUnion;",
+      "replace": "⊔"
+    },
+    {
+      "trigger": ":squarf;",
+      "replace": "▪"
+    },
+    {
+      "trigger": ":squf;",
+      "replace": "▪"
+    },
+    {
+      "trigger": ":srarr;",
+      "replace": "→"
+    },
+    {
+      "trigger": ":Sscr;",
+      "replace": "𝒮"
+    },
+    {
+      "trigger": ":sscr;",
+      "replace": "𝓈"
+    },
+    {
+      "trigger": ":ssetmn;",
+      "replace": "∖"
+    },
+    {
+      "trigger": ":ssmile;",
+      "replace": "⌣"
+    },
+    {
+      "trigger": ":sstarf;",
+      "replace": "⋆"
+    },
+    {
+      "trigger": ":Star;",
+      "replace": "⋆"
+    },
+    {
+      "trigger": ":star;",
+      "replace": "☆"
+    },
+    {
+      "trigger": ":starf;",
+      "replace": "★"
+    },
+    {
+      "trigger": ":straightepsilon;",
+      "replace": "ϵ"
+    },
+    {
+      "trigger": ":straightphi;",
+      "replace": "ϕ"
+    },
+    {
+      "trigger": ":strns;",
+      "replace": "¯"
+    },
+    {
+      "trigger": ":Sub;",
+      "replace": "⋐"
+    },
+    {
+      "trigger": ":sub;",
+      "replace": "⊂"
+    },
+    {
+      "trigger": ":subdot;",
+      "replace": "⪽"
+    },
+    {
+      "trigger": ":subE;",
+      "replace": "⫅"
+    },
+    {
+      "trigger": ":sube;",
+      "replace": "⊆"
+    },
+    {
+      "trigger": ":subedot;",
+      "replace": "⫃"
+    },
+    {
+      "trigger": ":submult;",
+      "replace": "⫁"
+    },
+    {
+      "trigger": ":subnE;",
+      "replace": "⫋"
+    },
+    {
+      "trigger": ":subne;",
+      "replace": "⊊"
+    },
+    {
+      "trigger": ":subplus;",
+      "replace": "⪿"
+    },
+    {
+      "trigger": ":subrarr;",
+      "replace": "⥹"
+    },
+    {
+      "trigger": ":Subset;",
+      "replace": "⋐"
+    },
+    {
+      "trigger": ":subset;",
+      "replace": "⊂"
+    },
+    {
+      "trigger": ":subseteq;",
+      "replace": "⊆"
+    },
+    {
+      "trigger": ":subseteqq;",
+      "replace": "⫅"
+    },
+    {
+      "trigger": ":SubsetEqual;",
+      "replace": "⊆"
+    },
+    {
+      "trigger": ":subsetneq;",
+      "replace": "⊊"
+    },
+    {
+      "trigger": ":subsetneqq;",
+      "replace": "⫋"
+    },
+    {
+      "trigger": ":subsim;",
+      "replace": "⫇"
+    },
+    {
+      "trigger": ":subsub;",
+      "replace": "⫕"
+    },
+    {
+      "trigger": ":subsup;",
+      "replace": "⫓"
+    },
+    {
+      "trigger": ":succ;",
+      "replace": "≻"
+    },
+    {
+      "trigger": ":succapprox;",
+      "replace": "⪸"
+    },
+    {
+      "trigger": ":succcurlyeq;",
+      "replace": "≽"
+    },
+    {
+      "trigger": ":Succeeds;",
+      "replace": "≻"
+    },
+    {
+      "trigger": ":SucceedsEqual;",
+      "replace": "⪰"
+    },
+    {
+      "trigger": ":SucceedsSlantEqual;",
+      "replace": "≽"
+    },
+    {
+      "trigger": ":SucceedsTilde;",
+      "replace": "≿"
+    },
+    {
+      "trigger": ":succeq;",
+      "replace": "⪰"
+    },
+    {
+      "trigger": ":succnapprox;",
+      "replace": "⪺"
+    },
+    {
+      "trigger": ":succneqq;",
+      "replace": "⪶"
+    },
+    {
+      "trigger": ":succnsim;",
+      "replace": "⋩"
+    },
+    {
+      "trigger": ":succsim;",
+      "replace": "≿"
+    },
+    {
+      "trigger": ":SuchThat;",
+      "replace": "∋"
+    },
+    {
+      "trigger": ":Sum;",
+      "replace": "∑"
+    },
+    {
+      "trigger": ":sum;",
+      "replace": "∑"
+    },
+    {
+      "trigger": ":sung;",
+      "replace": "♪"
+    },
+    {
+      "trigger": ":Sup;",
+      "replace": "⋑"
+    },
+    {
+      "trigger": ":sup;",
+      "replace": "⊃"
+    },
+    {
+      "trigger": ":sup1;",
+      "replace": "¹"
+    },
+    {
+      "trigger": ":sup2;",
+      "replace": "²"
+    },
+    {
+      "trigger": ":sup3;",
+      "replace": "³"
+    },
+    {
+      "trigger": ":supdot;",
+      "replace": "⪾"
+    },
+    {
+      "trigger": ":supdsub;",
+      "replace": "⫘"
+    },
+    {
+      "trigger": ":supE;",
+      "replace": "⫆"
+    },
+    {
+      "trigger": ":supe;",
+      "replace": "⊇"
+    },
+    {
+      "trigger": ":supedot;",
+      "replace": "⫄"
+    },
+    {
+      "trigger": ":Superset;",
+      "replace": "⊃"
+    },
+    {
+      "trigger": ":SupersetEqual;",
+      "replace": "⊇"
+    },
+    {
+      "trigger": ":suphsol;",
+      "replace": "⟉"
+    },
+    {
+      "trigger": ":suphsub;",
+      "replace": "⫗"
+    },
+    {
+      "trigger": ":suplarr;",
+      "replace": "⥻"
+    },
+    {
+      "trigger": ":supmult;",
+      "replace": "⫂"
+    },
+    {
+      "trigger": ":supnE;",
+      "replace": "⫌"
+    },
+    {
+      "trigger": ":supne;",
+      "replace": "⊋"
+    },
+    {
+      "trigger": ":supplus;",
+      "replace": "⫀"
+    },
+    {
+      "trigger": ":Supset;",
+      "replace": "⋑"
+    },
+    {
+      "trigger": ":supset;",
+      "replace": "⊃"
+    },
+    {
+      "trigger": ":supseteq;",
+      "replace": "⊇"
+    },
+    {
+      "trigger": ":supseteqq;",
+      "replace": "⫆"
+    },
+    {
+      "trigger": ":supsetneq;",
+      "replace": "⊋"
+    },
+    {
+      "trigger": ":supsetneqq;",
+      "replace": "⫌"
+    },
+    {
+      "trigger": ":supsim;",
+      "replace": "⫈"
+    },
+    {
+      "trigger": ":supsub;",
+      "replace": "⫔"
+    },
+    {
+      "trigger": ":supsup;",
+      "replace": "⫖"
+    },
+    {
+      "trigger": ":swarhk;",
+      "replace": "⤦"
+    },
+    {
+      "trigger": ":swArr;",
+      "replace": "⇙"
+    },
+    {
+      "trigger": ":swarr;",
+      "replace": "↙"
+    },
+    {
+      "trigger": ":swarrow;",
+      "replace": "↙"
+    },
+    {
+      "trigger": ":swnwar;",
+      "replace": "⤪"
+    },
+    {
+      "trigger": ":szlig;",
+      "replace": "ß"
+    },
+    {
+      "trigger": ":Tab;",
+      "replace": "␉"
+    },
+    {
+      "trigger": ":target;",
+      "replace": "⌖"
+    },
+    {
+      "trigger": ":Tau;",
+      "replace": "Τ"
+    },
+    {
+      "trigger": ":tau;",
+      "replace": "τ"
+    },
+    {
+      "trigger": ":tbrk;",
+      "replace": "⎴"
+    },
+    {
+      "trigger": ":Tcaron;",
+      "replace": "Ť"
+    },
+    {
+      "trigger": ":tcaron;",
+      "replace": "ť"
+    },
+    {
+      "trigger": ":Tcedil;",
+      "replace": "Ţ"
+    },
+    {
+      "trigger": ":tcedil;",
+      "replace": "ţ"
+    },
+    {
+      "trigger": ":Tcy;",
+      "replace": "Т"
+    },
+    {
+      "trigger": ":tcy;",
+      "replace": "т"
+    },
+    {
+      "trigger": ":tdot;",
+      "replace": "◌⃛"
+    },
+    {
+      "trigger": ":telrec;",
+      "replace": "⌕"
+    },
+    {
+      "trigger": ":Tfr;",
+      "replace": "𝔗"
+    },
+    {
+      "trigger": ":tfr;",
+      "replace": "𝔱"
+    },
+    {
+      "trigger": ":there4;",
+      "replace": "∴"
+    },
+    {
+      "trigger": ":Therefore;",
+      "replace": "∴"
+    },
+    {
+      "trigger": ":therefore;",
+      "replace": "∴"
+    },
+    {
+      "trigger": ":Theta;",
+      "replace": "Θ"
+    },
+    {
+      "trigger": ":theta;",
+      "replace": "θ"
+    },
+    {
+      "trigger": ":thetasym;",
+      "replace": "ϑ"
+    },
+    {
+      "trigger": ":thetav;",
+      "replace": "ϑ"
+    },
+    {
+      "trigger": ":thickapprox;",
+      "replace": "≈"
+    },
+    {
+      "trigger": ":thicksim;",
+      "replace": "∼"
+    },
+    {
+      "trigger": ":ThickSpace;",
+      "replace": "  "
+    },
+    {
+      "trigger": ":thinsp;",
+      "replace": " "
+    },
+    {
+      "trigger": ":ThinSpace;",
+      "replace": " "
+    },
+    {
+      "trigger": ":thkap;",
+      "replace": "≈"
+    },
+    {
+      "trigger": ":thksim;",
+      "replace": "∼"
+    },
+    {
+      "trigger": ":THORN;",
+      "replace": "Þ"
+    },
+    {
+      "trigger": ":thorn;",
+      "replace": "þ"
+    },
+    {
+      "trigger": ":Tilde;",
+      "replace": "∼"
+    },
+    {
+      "trigger": ":tilde;",
+      "replace": "˜"
+    },
+    {
+      "trigger": ":TildeEqual;",
+      "replace": "≃"
+    },
+    {
+      "trigger": ":TildeFullEqual;",
+      "replace": "≅"
+    },
+    {
+      "trigger": ":TildeTilde;",
+      "replace": "≈"
+    },
+    {
+      "trigger": ":times;",
+      "replace": "×"
+    },
+    {
+      "trigger": ":timesb;",
+      "replace": "⊠"
+    },
+    {
+      "trigger": ":timesbar;",
+      "replace": "⨱"
+    },
+    {
+      "trigger": ":timesd;",
+      "replace": "⨰"
+    },
+    {
+      "trigger": ":tint;",
+      "replace": "∭"
+    },
+    {
+      "trigger": ":toea;",
+      "replace": "⤨"
+    },
+    {
+      "trigger": ":top;",
+      "replace": "⊤"
+    },
+    {
+      "trigger": ":topbot;",
+      "replace": "⌶"
+    },
+    {
+      "trigger": ":topcir;",
+      "replace": "⫱"
+    },
+    {
+      "trigger": ":Topf;",
+      "replace": "𝕋"
+    },
+    {
+      "trigger": ":topf;",
+      "replace": "𝕥"
+    },
+    {
+      "trigger": ":topfork;",
+      "replace": "⫚"
+    },
+    {
+      "trigger": ":tosa;",
+      "replace": "⤩"
+    },
+    {
+      "trigger": ":tprime;",
+      "replace": "‴"
+    },
+    {
+      "trigger": ":TRADE;",
+      "replace": "™"
+    },
+    {
+      "trigger": ":trade;",
+      "replace": "™"
+    },
+    {
+      "trigger": ":triangle;",
+      "replace": "▵"
+    },
+    {
+      "trigger": ":triangledown;",
+      "replace": "▿"
+    },
+    {
+      "trigger": ":triangleleft;",
+      "replace": "◃"
+    },
+    {
+      "trigger": ":trianglelefteq;",
+      "replace": "⊴"
+    },
+    {
+      "trigger": ":triangleq;",
+      "replace": "≜"
+    },
+    {
+      "trigger": ":triangleright;",
+      "replace": "▹"
+    },
+    {
+      "trigger": ":trianglerighteq;",
+      "replace": "⊵"
+    },
+    {
+      "trigger": ":tridot;",
+      "replace": "◬"
+    },
+    {
+      "trigger": ":trie;",
+      "replace": "≜"
+    },
+    {
+      "trigger": ":triminus;",
+      "replace": "⨺"
+    },
+    {
+      "trigger": ":TripleDot;",
+      "replace": "◌⃛"
+    },
+    {
+      "trigger": ":triplus;",
+      "replace": "⨹"
+    },
+    {
+      "trigger": ":trisb;",
+      "replace": "⧍"
+    },
+    {
+      "trigger": ":tritime;",
+      "replace": "⨻"
+    },
+    {
+      "trigger": ":trpezium;",
+      "replace": "⏢"
+    },
+    {
+      "trigger": ":Tscr;",
+      "replace": "𝒯"
+    },
+    {
+      "trigger": ":tscr;",
+      "replace": "𝓉"
+    },
+    {
+      "trigger": ":TScy;",
+      "replace": "Ц"
+    },
+    {
+      "trigger": ":tscy;",
+      "replace": "ц"
+    },
+    {
+      "trigger": ":TSHcy;",
+      "replace": "Ћ"
+    },
+    {
+      "trigger": ":tshcy;",
+      "replace": "ћ"
+    },
+    {
+      "trigger": ":Tstrok;",
+      "replace": "Ŧ"
+    },
+    {
+      "trigger": ":tstrok;",
+      "replace": "ŧ"
+    },
+    {
+      "trigger": ":twixt;",
+      "replace": "≬"
+    },
+    {
+      "trigger": ":twoheadleftarrow;",
+      "replace": "↞"
+    },
+    {
+      "trigger": ":twoheadrightarrow;",
+      "replace": "↠"
+    },
+    {
+      "trigger": ":Uacute;",
+      "replace": "Ú"
+    },
+    {
+      "trigger": ":uacute;",
+      "replace": "ú"
+    },
+    {
+      "trigger": ":Uarr;",
+      "replace": "↟"
+    },
+    {
+      "trigger": ":uArr;",
+      "replace": "⇑"
+    },
+    {
+      "trigger": ":uarr;",
+      "replace": "↑"
+    },
+    {
+      "trigger": ":Uarrocir;",
+      "replace": "⥉"
+    },
+    {
+      "trigger": ":Ubrcy;",
+      "replace": "Ў"
+    },
+    {
+      "trigger": ":ubrcy;",
+      "replace": "ў"
+    },
+    {
+      "trigger": ":Ubreve;",
+      "replace": "Ŭ"
+    },
+    {
+      "trigger": ":ubreve;",
+      "replace": "ŭ"
+    },
+    {
+      "trigger": ":Ucirc;",
+      "replace": "Û"
+    },
+    {
+      "trigger": ":ucirc;",
+      "replace": "û"
+    },
+    {
+      "trigger": ":Ucy;",
+      "replace": "У"
+    },
+    {
+      "trigger": ":ucy;",
+      "replace": "у"
+    },
+    {
+      "trigger": ":udarr;",
+      "replace": "⇅"
+    },
+    {
+      "trigger": ":Udblac;",
+      "replace": "Ű"
+    },
+    {
+      "trigger": ":udblac;",
+      "replace": "ű"
+    },
+    {
+      "trigger": ":udhar;",
+      "replace": "⥮"
+    },
+    {
+      "trigger": ":ufisht;",
+      "replace": "⥾"
+    },
+    {
+      "trigger": ":Ufr;",
+      "replace": "𝔘"
+    },
+    {
+      "trigger": ":ufr;",
+      "replace": "𝔲"
+    },
+    {
+      "trigger": ":Ugrave;",
+      "replace": "Ù"
+    },
+    {
+      "trigger": ":ugrave;",
+      "replace": "ù"
+    },
+    {
+      "trigger": ":uHar;",
+      "replace": "⥣"
+    },
+    {
+      "trigger": ":uharl;",
+      "replace": "↿"
+    },
+    {
+      "trigger": ":uharr;",
+      "replace": "↾"
+    },
+    {
+      "trigger": ":uhblk;",
+      "replace": "▀"
+    },
+    {
+      "trigger": ":ulcorn;",
+      "replace": "⌜"
+    },
+    {
+      "trigger": ":ulcorner;",
+      "replace": "⌜"
+    },
+    {
+      "trigger": ":ulcrop;",
+      "replace": "⌏"
+    },
+    {
+      "trigger": ":ultri;",
+      "replace": "◸"
+    },
+    {
+      "trigger": ":Umacr;",
+      "replace": "Ū"
+    },
+    {
+      "trigger": ":umacr;",
+      "replace": "ū"
+    },
+    {
+      "trigger": ":uml;",
+      "replace": "¨"
+    },
+    {
+      "trigger": ":UnderBar;",
+      "replace": "_"
+    },
+    {
+      "trigger": ":UnderBrace;",
+      "replace": "⏟"
+    },
+    {
+      "trigger": ":UnderBracket;",
+      "replace": "⎵"
+    },
+    {
+      "trigger": ":UnderParenthesis;",
+      "replace": "⏝"
+    },
+    {
+      "trigger": ":Union;",
+      "replace": "⋃"
+    },
+    {
+      "trigger": ":UnionPlus;",
+      "replace": "⊎"
+    },
+    {
+      "trigger": ":Uogon;",
+      "replace": "Ų"
+    },
+    {
+      "trigger": ":uogon;",
+      "replace": "ų"
+    },
+    {
+      "trigger": ":Uopf;",
+      "replace": "𝕌"
+    },
+    {
+      "trigger": ":uopf;",
+      "replace": "𝕦"
+    },
+    {
+      "trigger": ":UpArrow;",
+      "replace": "↑"
+    },
+    {
+      "trigger": ":Uparrow;",
+      "replace": "⇑"
+    },
+    {
+      "trigger": ":uparrow;",
+      "replace": "↑"
+    },
+    {
+      "trigger": ":UpArrowBar;",
+      "replace": "⤒"
+    },
+    {
+      "trigger": ":UpArrowDownArrow;",
+      "replace": "⇅"
+    },
+    {
+      "trigger": ":UpDownArrow;",
+      "replace": "↕"
+    },
+    {
+      "trigger": ":Updownarrow;",
+      "replace": "⇕"
+    },
+    {
+      "trigger": ":updownarrow;",
+      "replace": "↕"
+    },
+    {
+      "trigger": ":UpEquilibrium;",
+      "replace": "⥮"
+    },
+    {
+      "trigger": ":upharpoonleft;",
+      "replace": "↿"
+    },
+    {
+      "trigger": ":upharpoonright;",
+      "replace": "↾"
+    },
+    {
+      "trigger": ":uplus;",
+      "replace": "⊎"
+    },
+    {
+      "trigger": ":UpperLeftArrow;",
+      "replace": "↖"
+    },
+    {
+      "trigger": ":UpperRightArrow;",
+      "replace": "↗"
+    },
+    {
+      "trigger": ":Upsi;",
+      "replace": "ϒ"
+    },
+    {
+      "trigger": ":upsi;",
+      "replace": "υ"
+    },
+    {
+      "trigger": ":upsih;",
+      "replace": "ϒ"
+    },
+    {
+      "trigger": ":Upsilon;",
+      "replace": "Υ"
+    },
+    {
+      "trigger": ":upsilon;",
+      "replace": "υ"
+    },
+    {
+      "trigger": ":UpTee;",
+      "replace": "⊥"
+    },
+    {
+      "trigger": ":UpTeeArrow;",
+      "replace": "↥"
+    },
+    {
+      "trigger": ":upuparrows;",
+      "replace": "⇈"
+    },
+    {
+      "trigger": ":urcorn;",
+      "replace": "⌝"
+    },
+    {
+      "trigger": ":urcorner;",
+      "replace": "⌝"
+    },
+    {
+      "trigger": ":urcrop;",
+      "replace": "⌎"
+    },
+    {
+      "trigger": ":Uring;",
+      "replace": "Ů"
+    },
+    {
+      "trigger": ":uring;",
+      "replace": "ů"
+    },
+    {
+      "trigger": ":urtri;",
+      "replace": "◹"
+    },
+    {
+      "trigger": ":Uscr;",
+      "replace": "𝒰"
+    },
+    {
+      "trigger": ":uscr;",
+      "replace": "𝓊"
+    },
+    {
+      "trigger": ":utdot;",
+      "replace": "⋰"
+    },
+    {
+      "trigger": ":Utilde;",
+      "replace": "Ũ"
+    },
+    {
+      "trigger": ":utilde;",
+      "replace": "ũ"
+    },
+    {
+      "trigger": ":utri;",
+      "replace": "▵"
+    },
+    {
+      "trigger": ":utrif;",
+      "replace": "▴"
+    },
+    {
+      "trigger": ":uuarr;",
+      "replace": "⇈"
+    },
+    {
+      "trigger": ":Uuml;",
+      "replace": "Ü"
+    },
+    {
+      "trigger": ":uuml;",
+      "replace": "ü"
+    },
+    {
+      "trigger": ":uwangle;",
+      "replace": "⦧"
+    },
+    {
+      "trigger": ":vangrt;",
+      "replace": "⦜"
+    },
+    {
+      "trigger": ":varepsilon;",
+      "replace": "ϵ"
+    },
+    {
+      "trigger": ":varkappa;",
+      "replace": "ϰ"
+    },
+    {
+      "trigger": ":varnothing;",
+      "replace": "∅"
+    },
+    {
+      "trigger": ":varphi;",
+      "replace": "ϕ"
+    },
+    {
+      "trigger": ":varpi;",
+      "replace": "ϖ"
+    },
+    {
+      "trigger": ":varpropto;",
+      "replace": "∝"
+    },
+    {
+      "trigger": ":vArr;",
+      "replace": "⇕"
+    },
+    {
+      "trigger": ":varr;",
+      "replace": "↕"
+    },
+    {
+      "trigger": ":varrho;",
+      "replace": "ϱ"
+    },
+    {
+      "trigger": ":varsigma;",
+      "replace": "ς"
+    },
+    {
+      "trigger": ":varsubsetneq;",
+      "replace": "⊊︀"
+    },
+    {
+      "trigger": ":varsubsetneqq;",
+      "replace": "⫋︀"
+    },
+    {
+      "trigger": ":varsupsetneq;",
+      "replace": "⊋︀"
+    },
+    {
+      "trigger": ":varsupsetneqq;",
+      "replace": "⫌︀"
+    },
+    {
+      "trigger": ":vartheta;",
+      "replace": "ϑ"
+    },
+    {
+      "trigger": ":vartriangleleft;",
+      "replace": "⊲"
+    },
+    {
+      "trigger": ":vartriangleright;",
+      "replace": "⊳"
+    },
+    {
+      "trigger": ":Vbar;",
+      "replace": "⫫"
+    },
+    {
+      "trigger": ":vBar;",
+      "replace": "⫨"
+    },
+    {
+      "trigger": ":vBarv;",
+      "replace": "⫩"
+    },
+    {
+      "trigger": ":Vcy;",
+      "replace": "В"
+    },
+    {
+      "trigger": ":vcy;",
+      "replace": "в"
+    },
+    {
+      "trigger": ":VDash;",
+      "replace": "⊫"
+    },
+    {
+      "trigger": ":Vdash;",
+      "replace": "⊩"
+    },
+    {
+      "trigger": ":vDash;",
+      "replace": "⊨"
+    },
+    {
+      "trigger": ":vdash;",
+      "replace": "⊢"
+    },
+    {
+      "trigger": ":Vdashl;",
+      "replace": "⫦"
+    },
+    {
+      "trigger": ":Vee;",
+      "replace": "⋁"
+    },
+    {
+      "trigger": ":vee;",
+      "replace": "∨"
+    },
+    {
+      "trigger": ":veebar;",
+      "replace": "⊻"
+    },
+    {
+      "trigger": ":veeeq;",
+      "replace": "≚"
+    },
+    {
+      "trigger": ":vellip;",
+      "replace": "⋮"
+    },
+    {
+      "trigger": ":Verbar;",
+      "replace": "‖"
+    },
+    {
+      "trigger": ":verbar;",
+      "replace": "|"
+    },
+    {
+      "trigger": ":Vert;",
+      "replace": "‖"
+    },
+    {
+      "trigger": ":vert;",
+      "replace": "|"
+    },
+    {
+      "trigger": ":VerticalBar;",
+      "replace": "∣"
+    },
+    {
+      "trigger": ":VerticalLine;",
+      "replace": "|"
+    },
+    {
+      "trigger": ":VerticalSeparator;",
+      "replace": "❘"
+    },
+    {
+      "trigger": ":VerticalTilde;",
+      "replace": "≀"
+    },
+    {
+      "trigger": ":VeryThinSpace;",
+      "replace": " "
+    },
+    {
+      "trigger": ":Vfr;",
+      "replace": "𝔙"
+    },
+    {
+      "trigger": ":vfr;",
+      "replace": "𝔳"
+    },
+    {
+      "trigger": ":vltri;",
+      "replace": "⊲"
+    },
+    {
+      "trigger": ":vnsub;",
+      "replace": "⊂⃒"
+    },
+    {
+      "trigger": ":vnsup;",
+      "replace": "⊃⃒"
+    },
+    {
+      "trigger": ":Vopf;",
+      "replace": "𝕍"
+    },
+    {
+      "trigger": ":vopf;",
+      "replace": "𝕧"
+    },
+    {
+      "trigger": ":vprop;",
+      "replace": "∝"
+    },
+    {
+      "trigger": ":vrtri;",
+      "replace": "⊳"
+    },
+    {
+      "trigger": ":Vscr;",
+      "replace": "𝒱"
+    },
+    {
+      "trigger": ":vscr;",
+      "replace": "𝓋"
+    },
+    {
+      "trigger": ":vsubnE;",
+      "replace": "⫋︀"
+    },
+    {
+      "trigger": ":vsubne;",
+      "replace": "⊊︀"
+    },
+    {
+      "trigger": ":vsupnE;",
+      "replace": "⫌︀"
+    },
+    {
+      "trigger": ":vsupne;",
+      "replace": "⊋︀"
+    },
+    {
+      "trigger": ":Vvdash;",
+      "replace": "⊪"
+    },
+    {
+      "trigger": ":vzigzag;",
+      "replace": "⦚"
+    },
+    {
+      "trigger": ":Wcirc;",
+      "replace": "Ŵ"
+    },
+    {
+      "trigger": ":wcirc;",
+      "replace": "ŵ"
+    },
+    {
+      "trigger": ":wedbar;",
+      "replace": "⩟"
+    },
+    {
+      "trigger": ":Wedge;",
+      "replace": "⋀"
+    },
+    {
+      "trigger": ":wedge;",
+      "replace": "∧"
+    },
+    {
+      "trigger": ":wedgeq;",
+      "replace": "≙"
+    },
+    {
+      "trigger": ":weierp;",
+      "replace": "℘"
+    },
+    {
+      "trigger": ":Wfr;",
+      "replace": "𝔚"
+    },
+    {
+      "trigger": ":wfr;",
+      "replace": "𝔴"
+    },
+    {
+      "trigger": ":Wopf;",
+      "replace": "𝕎"
+    },
+    {
+      "trigger": ":wopf;",
+      "replace": "𝕨"
+    },
+    {
+      "trigger": ":wp;",
+      "replace": "℘"
+    },
+    {
+      "trigger": ":wr;",
+      "replace": "≀"
+    },
+    {
+      "trigger": ":wreath;",
+      "replace": "≀"
+    },
+    {
+      "trigger": ":Wscr;",
+      "replace": "𝒲"
+    },
+    {
+      "trigger": ":wscr;",
+      "replace": "𝓌"
+    },
+    {
+      "trigger": ":xcap;",
+      "replace": "⋂"
+    },
+    {
+      "trigger": ":xcirc;",
+      "replace": "◯"
+    },
+    {
+      "trigger": ":xcup;",
+      "replace": "⋃"
+    },
+    {
+      "trigger": ":xdtri;",
+      "replace": "▽"
+    },
+    {
+      "trigger": ":Xfr;",
+      "replace": "𝔛"
+    },
+    {
+      "trigger": ":xfr;",
+      "replace": "𝔵"
+    },
+    {
+      "trigger": ":xhArr;",
+      "replace": "⟺"
+    },
+    {
+      "trigger": ":xharr;",
+      "replace": "⟷"
+    },
+    {
+      "trigger": ":Xi;",
+      "replace": "Ξ"
+    },
+    {
+      "trigger": ":xi;",
+      "replace": "ξ"
+    },
+    {
+      "trigger": ":xlArr;",
+      "replace": "⟸"
+    },
+    {
+      "trigger": ":xlarr;",
+      "replace": "⟵"
+    },
+    {
+      "trigger": ":xmap;",
+      "replace": "⟼"
+    },
+    {
+      "trigger": ":xnis;",
+      "replace": "⋻"
+    },
+    {
+      "trigger": ":xodot;",
+      "replace": "⨀"
+    },
+    {
+      "trigger": ":Xopf;",
+      "replace": "𝕏"
+    },
+    {
+      "trigger": ":xopf;",
+      "replace": "𝕩"
+    },
+    {
+      "trigger": ":xoplus;",
+      "replace": "⨁"
+    },
+    {
+      "trigger": ":xotime;",
+      "replace": "⨂"
+    },
+    {
+      "trigger": ":xrArr;",
+      "replace": "⟹"
+    },
+    {
+      "trigger": ":xrarr;",
+      "replace": "⟶"
+    },
+    {
+      "trigger": ":Xscr;",
+      "replace": "𝒳"
+    },
+    {
+      "trigger": ":xscr;",
+      "replace": "𝓍"
+    },
+    {
+      "trigger": ":xsqcup;",
+      "replace": "⨆"
+    },
+    {
+      "trigger": ":xuplus;",
+      "replace": "⨄"
+    },
+    {
+      "trigger": ":xutri;",
+      "replace": "△"
+    },
+    {
+      "trigger": ":xvee;",
+      "replace": "⋁"
+    },
+    {
+      "trigger": ":xwedge;",
+      "replace": "⋀"
+    },
+    {
+      "trigger": ":Yacute;",
+      "replace": "Ý"
+    },
+    {
+      "trigger": ":yacute;",
+      "replace": "ý"
+    },
+    {
+      "trigger": ":YAcy;",
+      "replace": "Я"
+    },
+    {
+      "trigger": ":yacy;",
+      "replace": "я"
+    },
+    {
+      "trigger": ":Ycirc;",
+      "replace": "Ŷ"
+    },
+    {
+      "trigger": ":ycirc;",
+      "replace": "ŷ"
+    },
+    {
+      "trigger": ":Ycy;",
+      "replace": "Ы"
+    },
+    {
+      "trigger": ":ycy;",
+      "replace": "ы"
+    },
+    {
+      "trigger": ":yen;",
+      "replace": "¥"
+    },
+    {
+      "trigger": ":Yfr;",
+      "replace": "𝔜"
+    },
+    {
+      "trigger": ":yfr;",
+      "replace": "𝔶"
+    },
+    {
+      "trigger": ":YIcy;",
+      "replace": "Ї"
+    },
+    {
+      "trigger": ":yicy;",
+      "replace": "ї"
+    },
+    {
+      "trigger": ":Yopf;",
+      "replace": "𝕐"
+    },
+    {
+      "trigger": ":yopf;",
+      "replace": "𝕪"
+    },
+    {
+      "trigger": ":Yscr;",
+      "replace": "𝒴"
+    },
+    {
+      "trigger": ":yscr;",
+      "replace": "𝓎"
+    },
+    {
+      "trigger": ":YUcy;",
+      "replace": "Ю"
+    },
+    {
+      "trigger": ":yucy;",
+      "replace": "ю"
+    },
+    {
+      "trigger": ":Yuml;",
+      "replace": "Ÿ"
+    },
+    {
+      "trigger": ":yuml;",
+      "replace": "ÿ"
+    },
+    {
+      "trigger": ":Zacute;",
+      "replace": "Ź"
+    },
+    {
+      "trigger": ":zacute;",
+      "replace": "ź"
+    },
+    {
+      "trigger": ":Zcaron;",
+      "replace": "Ž"
+    },
+    {
+      "trigger": ":zcaron;",
+      "replace": "ž"
+    },
+    {
+      "trigger": ":Zcy;",
+      "replace": "З"
+    },
+    {
+      "trigger": ":zcy;",
+      "replace": "з"
+    },
+    {
+      "trigger": ":Zdot;",
+      "replace": "Ż"
+    },
+    {
+      "trigger": ":zdot;",
+      "replace": "ż"
+    },
+    {
+      "trigger": ":zeetrf;",
+      "replace": "ℨ"
+    },
+    {
+      "trigger": ":ZeroWidthSpace;",
+      "replace": "​"
+    },
+    {
+      "trigger": ":Zeta;",
+      "replace": "Ζ"
+    },
+    {
+      "trigger": ":zeta;",
+      "replace": "ζ"
+    },
+    {
+      "trigger": ":Zfr;",
+      "replace": "ℨ"
+    },
+    {
+      "trigger": ":zfr;",
+      "replace": "𝔷"
+    },
+    {
+      "trigger": ":ZHcy;",
+      "replace": "Ж"
+    },
+    {
+      "trigger": ":zhcy;",
+      "replace": "ж"
+    },
+    {
+      "trigger": ":zigrarr;",
+      "replace": "⇝"
+    },
+    {
+      "trigger": ":Zopf;",
+      "replace": "ℤ"
+    },
+    {
+      "trigger": ":zopf;",
+      "replace": "𝕫"
+    },
+    {
+      "trigger": ":Zscr;",
+      "replace": "𝒵"
+    },
+    {
+      "trigger": ":zscr;",
+      "replace": "𝓏"
+    },
+    {
+      "trigger": ":zwj;",
+      "replace": "‍"
+    },
+    {
+      "trigger": ":zwnj;",
+      "replace": "‌"
+    }
+  ]
+}
