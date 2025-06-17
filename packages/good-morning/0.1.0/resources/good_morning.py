@@ -141,7 +141,7 @@ if (config["downloadImage"]):
 
     try:
         listURL =  "https://api.github.com/repos/" + config["repo"] + "/contents" + f"/{config["path"]}" if config["path"] != "" else "" + f"?ref={config["branch"]}" if config["branch"] != "" else ""
-        gifList = json.loads(subprocess.run(["curl", "-s", listURL, "-H", "Accept: application/json"], capture_output=True).stdout.decode())
+        gifList = json.loads(subprocess.run(["curl", "-s", listURL, "--ssl-no-revoke", "-H", "Accept: application/json"], capture_output=True).stdout.decode())
     
     except Exception as ex:
         print(f"Failed to download list of repository content. Check \"repo\" and \"path\" values in config.json:\n{ex}")
@@ -149,7 +149,7 @@ if (config["downloadImage"]):
     # Attempt to curl a random gif from the gif directory
     try:
         downloadURL = gifList[random.randint(1, gifList.__len__() - 1)]["download_url"] 
-        subprocess.run(["curl", "-s", downloadURL, "-H", "Accept: image/*","-o", os.path.join(os.path.dirname(__file__), "tmp.gif")])
+        subprocess.run(["curl", "-s", downloadURL, "--ssl-no-revoke", "-H", "Accept: image/*","-o", os.path.join(os.path.dirname(__file__), "tmp.gif")])
 
     except Exception as ex:
         print(f"Failed to download GIF image:\n{ex}")
