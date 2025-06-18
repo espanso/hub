@@ -93,17 +93,12 @@ class LinkedListIterator:
 # endregion
 
 # region Main Program
-tagChar: str = ':'
+config = json.loads(open(file=os.path.join(os.path.dirname(__file__), "config.json"), encoding="utf-8-sig").read())
+
+tagChar: str = config["tagChar"]
 
 tagged: LinkedList = LinkedList()
 shuffle: LinkedList = LinkedList()
-
-personalGreetings = list()
-generalGreetings = list()
-mondayGreetings = list()
-fridayGreetings = list()
-
-config = json.loads(open(file=os.path.join(os.path.dirname(__file__), "config.json"), encoding="utf-8-sig").read())
 
 # For each name in the names file, check to see if the name includes tagChr. If the name is tagged, add it to the tagged list in the 
 # order it appears in the original file. Otherwise, either append or prepend the name to the shuffle list depending on whether a 
@@ -117,17 +112,10 @@ for name in open(file=os.path.join(os.path.dirname(__file__), "names.txt"), enco
     else:
         shuffle.prepend(name.rstrip())
 
-for greeting in config["personalGreetings"]:
-    personalGreetings.append(greeting.rstrip())
-
-for greeting in config["weekdayGreetings"]:
-    generalGreetings.append(greeting.rstrip())
-
-for greeting in config["mondayGreetings"]:
-    mondayGreetings.append(greeting.rstrip())
-
-for greeting in config["fridayGreetings"]:
-    fridayGreetings.append(greeting.rstrip())
+personalGreetings = config["personalGreetings"]
+weekdayGreetings = config["weekdayGreetings"]
+mondayGreetings = config["mondayGreetings"]
+fridayGreetings = config["fridayGreetings"]
 
 for name in (tagged + shuffle):
     print(f"{personalGreetings[random.randint(0, personalGreetings.__len__() - 1)]} {name}!")
@@ -137,14 +125,13 @@ if (datetime.date.today().weekday() == 0):
 elif (datetime.date.today().weekday() == 4):
     print(f"\n{fridayGreetings[random.randint(0, fridayGreetings.__len__() - 1)]}")    
 else:
-    print(f"\n{generalGreetings[0]}")
+    print(f"\n{weekdayGreetings[0]}")
 
 if (config["downloadImage"]):
     # Uses GitHub API to pull list of images in gif directory of repository. This can be used to dynamically obtain the total number of 
     # images in the directory later:
-
     try:
-        listURL =  "https://api.github.com/repos/" + config["repo"] + "/contents" + f"/{config["path"]}" if config["path"] != "" else "" + f"?ref={config["branch"]}" if config["branch"] != "" else ""
+        listURL =  "https://api.github.com/repos/" + config['repo'] + "/contents" + f"/{config['path']}" if config['path'] != "" else "" + f"?ref={config['branch']}" if config['branch'] != "" else ""
         gifList = json.loads(subprocess.run(["curl", "-s", listURL, "--ssl-no-revoke", "-H", "Accept: application/json"], capture_output=True).stdout.decode())
     
     except Exception as ex:

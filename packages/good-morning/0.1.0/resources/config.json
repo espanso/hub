@@ -1,6 +1,7 @@
 {
+    "tagChar": ":",
     "downloadImage": false,
-    "repo": "{owner}/{repo}",
+    "repo": "{owner}/{repository}",
     "path": "",
     "branch": "",
     "personalGreetings": 
