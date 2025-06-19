@@ -1,0 +1,29 @@
+{
+    "tagChar": ":",
+    "downloadImage": true,
+    "repo": "josh-reeves/good-morning-espanso-package",
+    "path": "images",
+    "branch": "",
+    "personalGreetings": 
+    [
+        "Good morning,"
+    ],
+    "weekdayGreetings": 
+    [
+        "It's going to be a great day!"
+    ],
+    "mondayGreetings": 
+    [
+        "It's going to be a great week!",
+        "Hope you all had a great weekend!",
+        "How was everyone's weekend?"
+    ],
+    "fridayGreetings": 
+    [
+        "We made it!",
+        "It's Friday!",
+        "Happy Friday!",
+        "One more day and we're done for the week!"
+    ]
+
+}

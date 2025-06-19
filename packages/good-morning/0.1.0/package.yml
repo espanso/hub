@@ -1,0 +1,13 @@
+matches:
+  - trigger: ":img-morning"
+    image_path: "$CONFIG/match/packages/good-morning/resources/tmp.gif"
+
+  - trigger: ":morning"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: script
+        params:
+          args:
+            - python
+            - "%CONFIG%/match/packages/good-morning/resources/good_morning.py"
