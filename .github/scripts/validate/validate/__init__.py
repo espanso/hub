@@ -1,12 +1,13 @@
-from collections import namedtuple
 import os
+from collections import namedtuple
 from typing import List
-from .rules.missing_mandatory_files import MissingMandatoryFiles
-from .rules.invalid_version_path import InvalidVersionPath
-from .rules.invalid_package_name import InvalidPackageName
+
 from .rules.incoherent_path import IncoherentPath
-from .rules.missing_manifest_fields import MissingManifestFields
+from .rules.invalid_package_name import InvalidPackageName
+from .rules.invalid_version_path import InvalidVersionPath
 from .rules.invalid_yaml import InvalidYAML
+from .rules.missing_mandatory_files import MissingMandatoryFiles
+from .rules.missing_manifest_fields import MissingManifestFields
 from .rules.no_yaml_extension import NoYAMLExtension
 
 RULES = [
