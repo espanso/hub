@@ -1,0 +1,7 @@
+name: "html-entities-unicode"
+title: "HTML Named Entities"
+description: A character entity decoder, converting HTML/XML named character entities into their corresponding Unicode characters.
+homepage: "https://github.com/kijeEnki"
+version: 0.1.0
+author: enky, package built by Stephen Meech
+tags: ["html", "unicode", "symbols", "characters"]
