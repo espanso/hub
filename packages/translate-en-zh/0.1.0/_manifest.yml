@@ -3,6 +3,5 @@ description: A proof-of-concept package for English-Chinese translation.
 name: "translate-en-zh"
 title: "English-Chinese translation"
 version: 0.1.0
-homepage: "https://github.com/FoxxMD/espanso-all-emojis"
 tags: ["languages", "chinese", "mandarin", "english", "translation", "dictionary"]
 homepage: "https://github.com/james-s-w-clark/espanso-translate-generator/tree/main/chinese-english"
