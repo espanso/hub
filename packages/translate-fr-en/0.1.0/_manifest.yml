@@ -4,3 +4,4 @@ description: A proof-of-concept package for bidirectional French-English transla
 version: 0.1.0
 author: James Clark
 tags: ["languages", "french", "english", "translation", "dictionary"]
+homepage: "https://github.com/james-s-w-clark/espanso-translate-generator/tree/main/french-english"
