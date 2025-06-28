@@ -14,9 +14,46 @@ matches:
                from urllib.parse import quote_plus
                import sys
                sys.stdout.reconfigure(encoding='utf-8')
-               print(quote_plus({{clipboard}}),end='')
+               safe = quote_plus(r'{{clipboard}}',safe='/',encoding='utf-8',errors='xmlcharrefreplace')
+               print(safe,end='')
+          trim: false
+  - trigger: ":urlE"
+    replace: "{{output}}"
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+      - name: output
+        type: script
+        params:
+          args: 
+            - python
+            - -c
+            - |
+               from urllib.parse import quote
+               import sys
+               sys.stdout.reconfigure(encoding='utf-8')
+               safe = quote(r'{{clipboard}}',safe='/',encoding='utf-8',errors='xmlcharrefreplace')
+               print(safe,end='')
           trim: false
   - trigger: ":urld"
+    replace: "{{output}}"
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+      - name: output
+        type: script
+        params:
+          args: 
+            - python
+            - -c
+            - |
+               from urllib.parse import unquote_plus
+               import sys
+               sys.stdout.reconfigure(encoding='utf-8')
+               url = unquote_plus(r'{{clipboard}}',encoding='utf-8',errors='replace')
+               print(url,end='')
+          trim: false
+  - trigger: ":urlD"
     replace: "{{output}}"
     vars:
       - name: "clipboard"
@@ -31,5 +68,6 @@ matches:
                from urllib.parse import unquote
                import sys
                sys.stdout.reconfigure(encoding='utf-8')
-               print(unquote({{clipboard}}),end='')
+               url = unquote(r'{{clipboard}}',encoding='utf-8',errors='replace')
+               print(url,end='')
           trim: false
