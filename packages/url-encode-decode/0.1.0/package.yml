@@ -12,9 +12,9 @@ matches:
             - -c
             - |
                from urllib.parse import quote_plus
-               import sys
+               import sys, os
                sys.stdout.reconfigure(encoding='utf-8')
-               safe = quote_plus(r'{{clipboard}}',safe='/',encoding='utf-8',errors='xmlcharrefreplace')
+               safe = quote_plus(os.environ['ESPANSO_clipboard'],safe='/',encoding='utf-8',errors='xmlcharrefreplace')
                print(safe,end='')
           trim: false
   - trigger: ":urlE"
@@ -30,9 +30,9 @@ matches:
             - -c
             - |
                from urllib.parse import quote
-               import sys
+               import sys, os
                sys.stdout.reconfigure(encoding='utf-8')
-               safe = quote(r'{{clipboard}}',safe='/',encoding='utf-8',errors='xmlcharrefreplace')
+               safe = quote(os.environ['ESPANSO_clipboard'],safe='/',encoding='utf-8',errors='xmlcharrefreplace')
                print(safe,end='')
           trim: false
   - trigger: ":urld"
@@ -48,9 +48,9 @@ matches:
             - -c
             - |
                from urllib.parse import unquote_plus
-               import sys
+               import sys, os
                sys.stdout.reconfigure(encoding='utf-8')
-               url = unquote_plus(r'{{clipboard}}',encoding='utf-8',errors='replace')
+               url = unquote_plus(os.environ['ESPANSO_clipboard'],encoding='utf-8',errors='replace')
                print(url,end='')
           trim: false
   - trigger: ":urlD"
@@ -66,8 +66,8 @@ matches:
             - -c
             - |
                from urllib.parse import unquote
-               import sys
+               import sys,os
                sys.stdout.reconfigure(encoding='utf-8')
-               url = unquote(r'{{clipboard}}',encoding='utf-8',errors='replace')
+               url = unquote(os.environ['ESPANSO_clipboard'],encoding='utf-8',errors='replace')
                print(url,end='')
           trim: false
