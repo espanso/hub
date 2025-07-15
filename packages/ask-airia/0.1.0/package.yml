@@ -1,0 +1,39 @@
+matches:
+  - trigger: "<ai"
+    replace: "{{output}}"
+    vars:
+      - name: agent_names
+        type: script
+        params:
+          args:
+            - python3
+            - -c
+            - |
+              import os
+              import json
+              config_path = os.path.join("%CONFIG%/match/packages/ask-airia/agent_config.json")
+              if not os.path.exists(config_path):
+                  raise FileNotFoundError(f"❌ Error: Missing agent configuration file in %CONFIG%/match/packages/ask-airia/agent_config.json")
+              with open(config_path, 'r') as f:
+                  agents = json.load(f)
+              for agent in agents:
+                  print(agent.get("name"))        
+      - name: "prompt"
+        type: "form"
+        params:
+          layout: "[[text]]\n\nInput\n\n[[choices]]"
+          fields:
+            text:
+              multiline: true
+            choices:
+              type: choice
+              values: |
+                {{agent_names}}
+      - name: "output"
+        type: "script"
+        params:
+          args:
+            - python3
+            - "%CONFIG%/match/packages/ask-airia/ask-airia.py"
+            - "{{prompt.choices}}"
+            - "{{prompt.text}}"
