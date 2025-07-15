@@ -23,6 +23,7 @@ import os
 import sys
 import json
 import requests
+import re
 from dotenv import load_dotenv
 
 
@@ -38,13 +39,9 @@ def load_info():
 
     if not os.getenv("AIRIA_API_KEY"):
         raise ValueError("❌ Error: AIRIA_API_KEY is not set in the .env file.")
-    global API_KEY
-    API_KEY = os.getenv("AIRIA_API_KEY")
 
     if not os.getenv("BASE_URL"):
         raise ValueError("❌ Error: BASE_URL is not set in the .env file.")
-    global BASE_URL
-    BASE_URL = os.getenv("BASE_URL")
     
 
 def get_agent_id(agent_name: str) -> str:
@@ -90,7 +87,7 @@ def ask_airia(prompt: str, agent_name: str) -> str:
     agent_id = get_agent_id(agent_name)
     load_info()
     headers = {
-        "X-API-KEY": API_KEY,
+        "X-API-KEY": os.getenv("AIRIA_API_KEY"),
         "Content-Type": "application/json"
     }    
     data = {
@@ -98,7 +95,7 @@ def ask_airia(prompt: str, agent_name: str) -> str:
         "asyncOutput": False,
     }
     response = requests.post(
-        f"{BASE_URL}/v2/PipelineExecution/{agent_id}",
+        f'{os.getenv("BASE_URL")}/v2/PipelineExecution/{agent_id}',
         headers=headers,
         json=data
     )
@@ -122,13 +119,20 @@ def main() -> None:
     if not input.strip():
         print("❌ Error: No prompt text provided!")
         return
+    if len(input) > 1000:
+        raise ValueError("❌ Error: Input is too long (max 1000 characters).")
+    if re.search(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]", input):
+        raise ValueError("❌ Error: Input contains invalid control characters.")
+    
     agent_name = sys.argv[1]
     if not agent_name.strip():
         print("❌ Error: No agent NAME provided!")
         return
+    if not re.match(r"^[\w\-]{1,50}$", agent_name):
+        raise ValueError("❌ Error: Agent name contains invalid characters or is too long.")
 
     
-    print(ouptput := ask_airia(input, agent_name))
+    print(output := ask_airia(input, agent_name))
 
 
 if __name__ == "__main__":
