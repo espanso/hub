@@ -1,0 +1,17 @@
+
+[{
+        "name": "Slack-Agent",
+        "description": "Creates slack messages",
+        "id": "1826b5a4-7976-4566-b0f1-df66d56782ae"
+    },
+    {
+        "name": "Email-Agent",
+        "description": "Creates email messages",
+        "id": "0f6b11c0-a943-4715-89c6-b04c42762797"
+    },
+    {
+        "name": "FollowUp-Agent",
+        "description": "Follow up on previous messages",
+        "id": "b1201116-aa38-4f6f-92b5-9565d78b5ae8"
+    }
+]
