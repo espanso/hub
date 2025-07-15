@@ -7,27 +7,32 @@
 - Run Airia Agents from Espanso using custom triggers.
 - Easily configure and manage multiple Airia Agents.
 
+## Requirements
+
+- **Python 3.8+** must be installed on your system.
+- **python-dotenv** is required for environment variable management.
+- **requests** is required to do HTTP requests to Airia
+
+To install `python-dotenv`, run:
+```
+python3 -m pip install requests python-dotenv
+
+```
+
 ## Installation
 
-1. **Copy or clone this package** into your Espanso match packages directory:
+To install from espanso hub: 
 
-    - On Linux:
-      ```
-      ~/.config/espanso/match/packages/
-      ```
-    - On macOS:
-      ```
-      ~/Library/Application Support/espanso/match/packages/
-      ```
+```
+espanso install ask-airia
 
-2. **Install dependencies:**  
-   Ensure all packages listed in `requirements.txt` are installed and valid.
+```
 
-3. **Configure your agents:**  
+1. **Configure your agents:**  
    Edit the `agent_config.json` file to add your Agent IDs and descriptions.  
    You can add or remove agents as needed following same structure
 
-4. **Set up environment variables:**  
+2. **Set up environment variables:**  
    Create a `.env` file in this folder and add your Airia domain and API key. Follow the `example.env` for more details
 
 5. **Restart Espanso:**  
@@ -37,6 +42,11 @@
    ```
 6. **Run the extension** 
     Use *"<ai"* to trigger this extension or modify the trigger from the `package.yml` file
+
+    ```
+    <ai
+
+    ```
 
 ## Support
 
