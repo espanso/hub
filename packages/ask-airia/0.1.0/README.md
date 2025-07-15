@@ -13,7 +13,7 @@
 - **python-dotenv** is required for environment variable management.
 - **requests** is required to do HTTP requests to Airia
 
-To install `python-dotenv`, run:
+To install `python-dotenv`, and `requqests` run:
 ```
 python3 -m pip install requests python-dotenv
 
@@ -35,12 +35,7 @@ espanso install ask-airia
 2. **Set up environment variables:**  
    Create a `.env` file in this folder and add your Airia domain and API key. Follow the `example.env` for more details
 
-5. **Restart Espanso:**  
-   Apply your changes by restarting Espanso:
-   ```
-   espanso restart
-   ```
-6. **Run the extension** 
+3. **Run the extension** 
     Use *"<ai"* to trigger this extension or modify the trigger from the `package.yml` file
 
     ```
