@@ -1,0 +1,7 @@
+name: "ask-airia"
+title: "Ask Airia Agent"
+description: "An Espanso package that enables users to quickly send prompts to Airia Agents."
+version: "0.1.0"
+author: "Carles Ferrater"
+homepage: "www.airia.com"
+tags: ["LLM", "AI", "artificial intelligence", "prompt", "Espanso", "Airia", "agent"]

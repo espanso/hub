@@ -1,0 +1,6 @@
+requests
+python-dotenv
+
+
+
+Hi there! I hope you're doing well today. Let me know if there's anything I can assist you with.
