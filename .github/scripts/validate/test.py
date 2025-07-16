@@ -1,6 +1,7 @@
-import unittest
-from validate import validate_package
 import os
+import unittest
+
+from validate import validate_package
 
 TEST_PACKAGES_DIR = os.path.join(os.path.dirname(__file__), "test_packages")
 
