@@ -1,0 +1,73 @@
+matches:
+  - trigger: ":urle"
+    replace: "{{output}}"
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+      - name: output
+        type: script
+        params:
+          args: 
+            - python
+            - -c
+            - |
+               from urllib.parse import quote_plus
+               import sys, os
+               sys.stdout.reconfigure(encoding='utf-8')
+               safe = quote_plus(os.environ['ESPANSO_clipboard'],safe='/',encoding='utf-8',errors='xmlcharrefreplace')
+               print(safe,end='')
+          trim: false
+  - trigger: ":urlE"
+    replace: "{{output}}"
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+      - name: output
+        type: script
+        params:
+          args: 
+            - python
+            - -c
+            - |
+               from urllib.parse import quote
+               import sys, os
+               sys.stdout.reconfigure(encoding='utf-8')
+               safe = quote(os.environ['ESPANSO_clipboard'],safe='/',encoding='utf-8',errors='xmlcharrefreplace')
+               print(safe,end='')
+          trim: false
+  - trigger: ":urld"
+    replace: "{{output}}"
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+      - name: output
+        type: script
+        params:
+          args: 
+            - python
+            - -c
+            - |
+               from urllib.parse import unquote_plus
+               import sys, os
+               sys.stdout.reconfigure(encoding='utf-8')
+               url = unquote_plus(os.environ['ESPANSO_clipboard'],encoding='utf-8',errors='replace')
+               print(url,end='')
+          trim: false
+  - trigger: ":urlD"
+    replace: "{{output}}"
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+      - name: output
+        type: script
+        params:
+          args: 
+            - python
+            - -c
+            - |
+               from urllib.parse import unquote
+               import sys,os
+               sys.stdout.reconfigure(encoding='utf-8')
+               url = unquote(os.environ['ESPANSO_clipboard'],encoding='utf-8',errors='replace')
+               print(url,end='')
+          trim: false
