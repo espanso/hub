@@ -34,7 +34,7 @@ This package replaces the listed keywords with listed quotes while typing.
 | ``` :'*' ``` | ❛ | heavy single turned comma quotation mark ornament
 | ``` :'*, ``` | ❜ | heavy single comma quotation mark ornament
 | ``` :"*' ``` | ❝ | heavy double turned comma quotation mark ornament
-| ``` :", ``` | ❞ | heavy double comma quotation mark ornament
+| ``` :"*, ``` | ❞ | heavy double comma quotation mark ornament
 | ``` :"!' ``` | 🙶 | sans-serif heavy double turned comma quotation mark ornament
 | ``` :"!, ``` | 🙷 | sans-serif heavy double comma quotation mark ornament
 | ``` :"!_, ``` | 🙸 | sans-serif heavy low double comma quotation mark ornament
