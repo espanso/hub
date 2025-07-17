@@ -63,7 +63,7 @@ matches:
   - trigger: ":\"*'"
     replace: "❝"
   # heavy double comma quotation mark ornament
-  - trigger: ":\","
+  - trigger: ":\"*,"
     replace: "❞"
   # sans-serif heavy double turned comma quotation mark ornament
   - trigger: ":\"!'"
