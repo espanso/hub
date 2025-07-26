@@ -2,8 +2,12 @@
 
 This package has commands you can use to generate [espanso](https://espanso.org/) functions.
 Instead of writing out the functions yourself, this will do it for you.
+Version 0.1.0
 
 ### Usage
+
+Paste this command in a terminal to install this package:
+`espanso install verbose-form-template`
 
 The following commands currently exist in this package:
 
