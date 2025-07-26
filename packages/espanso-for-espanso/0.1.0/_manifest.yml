@@ -1,0 +1,7 @@
+name: "espanso-for-espanso"
+title: "espanso-for-espanso"
+description: Espanso package for espanso productivity and formulae
+version: 0.1.0
+author: Jude
+homepage: "https://github.com/quibble42/espansoForEspanso"
+tags: ["espanso", "trigger", "yaml", "replace"]
