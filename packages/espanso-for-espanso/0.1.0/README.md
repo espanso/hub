@@ -7,6 +7,7 @@ Version 0.1.0
 ### Usage
 
 Paste this command in a terminal to install this package:
+
 `espanso install verbose-form-template`
 
 The following commands currently exist in this package:
