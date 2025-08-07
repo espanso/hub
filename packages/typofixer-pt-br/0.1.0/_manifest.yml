@@ -4,4 +4,4 @@ description: A package for correcting common mistakes when writing some Brazilia
 homepage: "https://github.com/rapha-au/typofixer-pt-br"
 version: 0.1.0
 author: Raphael Augusto
-tags: ["typofixer", "typofixer-pt-br", "brazilian", "pt-br", "languages", "spelling"]
+tags: ["typofixer", "brazilian", "pt-br", "languages", "spelling"]
