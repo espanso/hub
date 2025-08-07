@@ -1,0 +1,7 @@
+name: "typofixer-pt-br"
+title: "Typo Fixer pt-br"
+description: A package for correcting common mistakes when writing some Brazilian Portuguese words.
+homepage: "https://github.com/rapha-au/typofixer-pt-br"
+version: 0.1.0
+author: Raphael Augusto
+tags: ["typofixer", "brazilian", "pt-br", "languages", "spell-correction"]
