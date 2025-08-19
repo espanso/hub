@@ -1,0 +1,7 @@
+author: Dickson Law
+description: Easily configure custom snippets without manually editing the Espanso configs directory.
+name: snipbank
+title: SnipBank
+version: 1.0.0
+homepage: "https://github.com/dicksonlaw583/espanso-snipbank"
+tags: ["clipboard", "utility"]
