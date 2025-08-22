@@ -4,110 +4,215 @@
 # Chaos: :rnsipsum (random 1–4 sentences), :rpnsipsum (random 1–4 paragraphs)
 
 # Global sentence pool (YAML anchor; Espanso ignores unknown top-level keys)
+# Latin to English translations are provided as comments for clarity.
+# Note: The sentences are intentionally whimsical and not meant to be grammatically correct.
 ns_pool: &NS_SENTENCES
 - "Lorem routerum sub netstat magna; packeti per VLAN et OSPF fluunt."
+  # The router speaks loudly under netstat; packets flow through VLANs and OSPF.
 - "EIGRP canes metricos mordent, dum DUAL algorithm pacem quaerit."
+  # EIGRP dogs bite at metrics while the DUAL algorithm seeks peace.
 - "STP pontes flammatos servat, BPDU quasi oracula transmittens."
+  # Spanning Tree saves burning bridges, BPDUs transmit like oracles.
 - "DNS sanctum est, sed TTL brevis; ARP spectra latent donec tcpdump lumen ferat."
+  # DNS is sacred, but TTL is short; ARP ghosts hide until tcpdump brings light.
 - "BGP graviter sapit super backbone, dum route reflector sermonem repetit."
+  # BGP weighs heavily on the backbone, while the route reflector repeats the sermon.
 - "QoS oracula decernunt quis packetum primus transeat; VoIP tamen praeferendum est."
+  # QoS oracles decide which packet passes first; VoIP is always preferred.
 - "SIEM omnia videt; syslog nuntius primus saepe pervenit."
+  # The SIEM sees all; syslog is often the first messenger.
 - "Regex daemonium potens, sed in ASA configuratione parcum esse oportet."
+  # Regex is a powerful demon, but in ASA configs it must be used sparingly.
 - "Access-list extenditur prudenter; regulae initio negant, deinde parcunt."
+  # Access lists must be extended wisely; deny first, then allow sparingly.
 - "IPv6 terra promissa est, sed multi adhuc castellum IPv4 defendunt."
+  # IPv6 is the promised land, but many still defend the IPv4 castle.
 - "Cloudflare draco occidentalis est, flammas DDoS ante portam extinguit."
+  # Cloudflare is the western dragon, extinguishing DDoS flames at the gate.
 - "Packet Tracer visiones ostendit, sed verus IOS iudicium fert."
+  # Packet Tracer shows visions, but real IOS delivers judgment.
 - "IDS vigilans somniat signaturas veteres et novas comparat."
+  # The IDS dreams of old signatures and compares them with new ones.
 - "IPS malum trafficum sine mora intercipit."
+  # The IPS intercepts bad traffic without delay.
 - "Honeypot dulcis deceptio est, malware quasi apes attrahens."
+  # A honeypot is a sweet deception, attracting malware like bees.
 - "WireGuard tunellos simplices sternit super mare publicum."
+  # WireGuard lays simple tunnels over the public sea.
 - "OpenVPN lorica veterana est; configuratio tamen gravis manet."
+  # OpenVPN is veteran armor; its configuration remains heavy.
 - "Tor stratis cepae lacrimas parit; anonymitas pretium est."
+  # Tor's onion layers bring tears; anonymity has its price.
 - "Hashcat nocte rugit; confessio SHA1 matutina venit."
+  # Hashcat roars at night; SHA1 confesses by morning.
 - "Hydra portas pulsans authenticationes infirmas deprehendere conatur."
+  # Hydra knocks on ports, trying to discover weak authentications.
 - "Impetus brute force ad portas computatrales clamant; rate limiting respondet."
+  # Brute force attacks cry at the computer gates; rate limiting responds.
 - "802.11 frames aerem regunt; rogue APs se occultant."
+  # 802.11 frames rule the air; rogue APs hide themselves.
 - "CCNA discipulus ping confidit, sed 'show run' veritatem dicit."
+  # The CCNA student trusts ping, but 'show run' tells the truth.
 - "Prometheus metricas colligit quasi sacerdos numerorum."
+  # Prometheus gathers metrics like a priest of numbers.
 - "Graylog annales scribit; quaestiones lucem ferunt."
+  # Graylog writes chronicles; queries bring light.
 - "SNMP v3 secreta sussurrat, securius quam maiores fratres."
+  # SNMPv3 whispers secrets, more securely than its older brothers.
 - "NetFlow tributum traffici numerat in aerarium SIEM."
+  # NetFlow counts the tax of traffic into the SIEM treasury.
 - "Zabbix omnia scrutatur; alert fatigue disciplina mitigat."
+  # Zabbix examines everything; discipline mitigates alert fatigue.
 - "Nagios vigil senex est; quandoque clamat nimis."
+  # Nagios is an old watchman; sometimes he cries too much.
 - "SolarWinds oracula dat; prudentia usum moderetur."
+  # SolarWinds gives oracles; prudence should govern its use.
 - "Unraid paritatem custodit ne chaos redeat."
+  # Unraid guards parity so chaos does not return.
 - "Backupum heri fecisti? Futurus tu tibi gratias aget."
+  # Did you back up yesterday? Your future self will thank you.
 - "Config-register 0x2102 configurationem rite exordiri iubet."
+  # Config-register 0x2102 commands the configuration to start properly.
 - "AAA trinitas est: authentication, authorization, accounting."
+  # AAA is a trinity: authentication, authorization, accounting.
 - "802.1X ianuam claudit nisi supplicant rite loquitur."
+  # 802.1X closes the door unless the supplicant speaks correctly.
 - "Console cable caeruleus pontem discipulo cum machina iungit."
+  # The blue console cable is a bridge between student and machine.
 - "HSRP duo reges unam coronam IP portant."
+  # HSRP has two kings sharing one IP crown.
 - "VXLAN fabricam extendit; EVPN pacem fert inter L2 et L3."
+  # VXLAN extends the fabric; EVPN brings peace between L2 and L3.
 - "GRE tunellos simplices ostendit; fragmentatio caveatur."
+  # GRE shows simple tunnels; beware of fragmentation.
 - "MPLS inscriptiones leves tradit; VRF universos parallelos fingit."
+  # MPLS delivers light labels; VRFs create parallel universes.
 - "DMVPN triangulos secat; NHRP itineraria susurrat."
+  # DMVPN cuts across triangles; NHRP whispers routes.
 - "Catalyst pontes sedent quasi senatores veteres."
+  # Catalyst switches sit like old senators.
 - "NX-OS in fabricis alta voce loquitur."
+  # NX-OS speaks loudly in the fabrics.
 - "WLC episcopus WLANum regit; SSID multi, accessus moderatus."
+  # The WLC is bishop of WLAN, ruling many SSIDs with moderated access.
 - "Zero-trust disciplina rogat: 'fide numquam, verifica semper.'"
+  # Zero-trust discipline asks: "never trust, always verify."
 - "Certificate magisterium PKI claves renovat ante occasum."
+  # Certificate authority renews keys before sunset.
 - "SLO et SLI in tabulis aureis scribuntur; alertae sobrie mittantur."
+  # SLOs and SLIs are written on golden tablets; alerts should be sent soberly.
 - "Change window Veneris vesperi non commendatur."
+  # A Friday evening change window is not recommended.
 - "Documentatio diligens est scutum adversus oblivionem."
+  # Careful documentation is a shield against forgetfulness.
 - "Routing table plenus est, sed null route in fine omnia devorat."
+  # The routing table is full, but the null route devours everything in the end.
 - "Sysadmin senex dixit: prius ping, postea precare."
+  # The old sysadmin said: first ping, then pray.
 - "Spanning Tree electiones saepe pacem, interdum bellum afferunt."
+  # Spanning Tree elections often bring peace, sometimes war.
 - "OSPF adjacencies nascuntur in hello packetibus sicut amicitiae."
+  # OSPF adjacencies are born in hello packets like friendships.
 - "EIGRP metricas componit, bandwidth et delay quasi sponsi sunt."
+  # EIGRP composes metrics; bandwidth and delay are like spouses.
 - "Static routes inflexibiles sunt, sed fide dignae."
+  # Static routes are inflexible, but trustworthy.
 - "Default gateway pater est qui domum ducit."
+  # The default gateway is the father who leads home.
 - "NTP horologium universum in sync servat, ne chaos logorum oriatur."
+  # NTP keeps the world's clocks in sync so log chaos does not arise.
 - "Syslog level VII est clamor puerorum; level 0 vox deorum."
+  # Syslog level VII is the cry of children; level 0 is the voice of gods.
 - "Switchport accessus simplex est; trunk multiplex arcana portat."
+  # An access switchport is simple; a trunk carries multiple mysteries.
 - "EtherChannel viam latam dat, sed negotiationem inter socios postulat."
+  # EtherChannel provides a wide road, but requires negotiation among partners.
 - "HSRP standby patienter exspectat coronam."
+  # HSRP standby patiently awaits the crown.
 - "VRRP democraticus est; electiones iustas praestat."
+  # VRRP is democratic; it provides fair elections.
 - "BGP communities quasi nota marginalia sunt ad consilium."
+  # BGP communities are like marginal notes for policy.
 - "BGP flapping medici 'route dampening' medelam afferunt."
+  # Doctors prescribe 'route dampening' for BGP flapping.
 - "Firewall lineae quasi murus est; config tamen rimis plenum."
+  # Firewall lines are like a wall; configs are still full of cracks.
 - "Content filter vigilat, sed aliqui semper vias novas inveniunt."
+  # The content filter watches, but people always find new paths.
 - "Proxy in umbra operatur, clientem celat."
+  # The proxy works in the shadows, hiding the client.
 - "Captive portal portas interneti pro peregrinis custodit."
+  # The captive portal guards internet doors for strangers.
 - "NAC magister accessum regit, maculae detectae excluduntur."
+  # NAC is the master of access; unpatched devices are excluded.
 - "IPS sigilla trafficum suspectum velut gladius excidit."
+  # The IPS cuts off suspicious traffic like a sword.
 - "SIEM correlationes texit quasi tela araneae."
+  # The SIEM weaves correlations like a spider web.
 - "Runbook sacrum est; incidenta eo moderantur."
+  # The runbook is sacred; incidents are governed by it.
 - "Post-mortem confessiones culpam non quaerunt sed meliora promittunt."
+  # Post-mortems do not seek blame, but promise improvements.
 - "Load balancer iustitiam distribuit, nisi unus servus cadit."
+  # The load balancer distributes justice, unless one server falls.
 - "High availability par redundancy est; sine eo silentium fit."
+  # High availability is like redundancy; without it comes silence.
 - "QoS liturgia latitudinem sanctificat."
+  # QoS liturgy sanctifies bandwidth.
 - "MTU discordia fragmenta parit."
+  # MTU discord breeds fragments.
 - "LACP vincula fideles in unum colligit."
+  # LACP joins faithful links into one.
 - "Port mirroring speculum magicum est ad arcana revelanda."
+  # Port mirroring is a magic mirror for revealing secrets.
 - "SPAN portum duplicat; investigator gaudet."
+  # SPAN duplicates the port; the investigator rejoices.
 - "Packet capture confessiones in Wireshark aperit."
+  # Packet capture opens confessions in Wireshark.
 - "CAP theorem disputatio in microservitiis perpetua est."
+  # CAP theorem debate is eternal in microservices.
 - "DevOps evangelium praedicat: qui codicem scribit, idem deployet."
+  # DevOps preaches: whoever writes the code, also deploys it.
 - "CI/CD flumen continuum est, merge conflicts cataractas efficiunt."
+  # The CI/CD stream is continuous; merge conflicts form waterfalls.
 - "Infrastructure as Code in tabulis YAML scribitur quasi liturgia."
+  # Infrastructure as Code is written on YAML tablets like a liturgy.
 - "Terraform terras novas creat, Ansible ritus cotidianos gerit."
+  # Terraform creates new lands; Ansible performs daily rites.
 - "Kubernetes orchestrator chaos in harmoniam convertit."
+  # Kubernetes orchestrates chaos into harmony.
 - "Pod lifecycle reincarnationem simulat."
+  # The pod lifecycle simulates reincarnation.
 - "Helm chartae mappae thesauri sunt."
+  # Helm charts are treasure maps.
 - "Service mesh nervus systematis microservitiorum est."
+  # A service mesh is the nervous system of microservices.
 - "API gateway custos portae digitalis est."
+  # The API gateway is the guardian of the digital gate.
 - "Rate limiting patientiam postulat."
+  # Rate limiting requires patience.
 - "JWT tokens aureae tesserae sunt; expiratio mors certa est."
+  # JWT tokens are golden tickets; expiration is certain death.
 - "OAuth dans claves, sed scopum limitat."
+  # OAuth gives keys, but limits the scope.
 - "SAML assertiones sunt epistolae fidei."
+  # SAML assertions are letters of faith.
 - "Kerberos tickets per tempus ardet; AS et TGS vigilantes sunt."
+  # Kerberos tickets burn through time; the AS and TGS keep watch.
 - "LDAP arbores ramis distinguit; DN radix omnium est."
+  # LDAP distinguishes branches with trees; the DN is the root of all.
 - "DNSSEC signa in caelo scribit; trust anchor initium est."
+  # DNSSEC writes signs in the sky; the trust anchor is the beginning.
 - "Anycast servitium ubique simul praebet."
+  # Anycast provides service everywhere at once.
 - "CDN scaccos geographicos ludit ad contentum cito ferendum."
+  # A CDN plays geographic chess to deliver content quickly.
 - "Latency occultus hostis est; RTT in numeris psalmos canit."
+  # Latency is a hidden enemy; RTT sings psalms in numbers.
 - "Packet loss tragedia communis est in bandwidth carentia."
+  # Packet loss is a common tragedy in bandwidth shortage.
 - "Bufferbloat morbosus inflatus est, lateness gignens."
+  # Bufferbloat is a diseased swelling, producing lateness.
 
 matches:
   # -------- Sentences --------
