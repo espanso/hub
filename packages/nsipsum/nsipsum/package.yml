@@ -1,0 +1,422 @@
+# nsIPsum — Network Security Ipsum for Espanso
+# Sentences: :nsipsum, :2nsipsum, :3nsipsum, :4nsipsum
+# Paragraphs (≥5 sentences each): :pnsipsum, :2pnsipsum, :3pnsipsum, :4pnsipsum
+# Chaos: :rnsipsum (random 1–4 sentences), :rpnsipsum (random 1–4 paragraphs)
+
+# Global sentence pool (YAML anchor; Espanso ignores unknown top-level keys)
+ns_pool: &NS_SENTENCES
+- "Lorem routerum sub netstat magna; packeti per VLAN et OSPF fluunt."
+- "EIGRP canes metricos mordent, dum DUAL algorithm pacem quaerit."
+- "STP pontes flammatos servat, BPDU quasi oracula transmittens."
+- "DNS sanctum est, sed TTL brevis; ARP spectra latent donec tcpdump lumen ferat."
+- "BGP graviter sapit super backbone, dum route reflector sermonem repetit."
+- "QoS oracula decernunt quis packetum primus transeat; VoIP tamen praeferendum est."
+- "SIEM omnia videt; syslog nuntius primus saepe pervenit."
+- "Regex daemonium potens, sed in ASA configuratione parcum esse oportet."
+- "Access-list extenditur prudenter; regulae initio negant, deinde parcunt."
+- "IPv6 terra promissa est, sed multi adhuc castellum IPv4 defendunt."
+- "Cloudflare draco occidentalis est, flammas DDoS ante portam extinguit."
+- "Packet Tracer visiones ostendit, sed verus IOS iudicium fert."
+- "IDS vigilans somniat signaturas veteres et novas comparat."
+- "IPS malum trafficum sine mora intercipit."
+- "Honeypot dulcis deceptio est, malware quasi apes attrahens."
+- "WireGuard tunellos simplices sternit super mare publicum."
+- "OpenVPN lorica veterana est; configuratio tamen gravis manet."
+- "Tor stratis cepae lacrimas parit; anonymitas pretium est."
+- "Hashcat nocte rugit; confessio SHA1 matutina venit."
+- "Hydra portas pulsans authenticationes infirmas deprehendere conatur."
+- "Impetus brute force ad portas computatrales clamant; rate limiting respondet."
+- "802.11 frames aerem regunt; rogue APs se occultant."
+- "CCNA discipulus ping confidit, sed 'show run' veritatem dicit."
+- "Prometheus metricas colligit quasi sacerdos numerorum."
+- "Graylog annales scribit; quaestiones lucem ferunt."
+- "SNMP v3 secreta sussurrat, securius quam maiores fratres."
+- "NetFlow tributum traffici numerat in aerarium SIEM."
+- "Zabbix omnia scrutatur; alert fatigue disciplina mitigat."
+- "Nagios vigil senex est; quandoque clamat nimis."
+- "SolarWinds oracula dat; prudentia usum moderetur."
+- "Unraid paritatem custodit ne chaos redeat."
+- "Backupum heri fecisti? Futurus tu tibi gratias aget."
+- "Config-register 0x2102 configurationem rite exordiri iubet."
+- "AAA trinitas est: authentication, authorization, accounting."
+- "802.1X ianuam claudit nisi supplicant rite loquitur."
+- "Console cable caeruleus pontem discipulo cum machina iungit."
+- "HSRP duo reges unam coronam IP portant."
+- "VXLAN fabricam extendit; EVPN pacem fert inter L2 et L3."
+- "GRE tunellos simplices ostendit; fragmentatio caveatur."
+- "MPLS inscriptiones leves tradit; VRF universos parallelos fingit."
+- "DMVPN triangulos secat; NHRP itineraria susurrat."
+- "Catalyst pontes sedent quasi senatores veteres."
+- "NX-OS in fabricis alta voce loquitur."
+- "WLC episcopus WLANum regit; SSID multi, accessus moderatus."
+- "Zero-trust disciplina rogat: 'fide numquam, verifica semper.'"
+- "Certificate magisterium PKI claves renovat ante occasum."
+- "SLO et SLI in tabulis aureis scribuntur; alertae sobrie mittantur."
+- "Change window Veneris vesperi non commendatur."
+- "Documentatio diligens est scutum adversus oblivionem."
+- "Routing table plenus est, sed null route in fine omnia devorat."
+- "Sysadmin senex dixit: prius ping, postea precare."
+- "Spanning Tree electiones saepe pacem, interdum bellum afferunt."
+- "OSPF adjacencies nascuntur in hello packetibus sicut amicitiae."
+- "EIGRP metricas componit, bandwidth et delay quasi sponsi sunt."
+- "Static routes inflexibiles sunt, sed fide dignae."
+- "Default gateway pater est qui domum ducit."
+- "NTP horologium universum in sync servat, ne chaos logorum oriatur."
+- "Syslog level VII est clamor puerorum; level 0 vox deorum."
+- "Switchport accessus simplex est; trunk multiplex arcana portat."
+- "EtherChannel viam latam dat, sed negotiationem inter socios postulat."
+- "HSRP standby patienter exspectat coronam."
+- "VRRP democraticus est; electiones iustas praestat."
+- "BGP communities quasi nota marginalia sunt ad consilium."
+- "BGP flapping medici 'route dampening' medelam afferunt."
+- "Firewall lineae quasi murus est; config tamen rimis plenum."
+- "Content filter vigilat, sed aliqui semper vias novas inveniunt."
+- "Proxy in umbra operatur, clientem celat."
+- "Captive portal portas interneti pro peregrinis custodit."
+- "NAC magister accessum regit, maculae detectae excluduntur."
+- "IPS sigilla trafficum suspectum velut gladius excidit."
+- "SIEM correlationes texit quasi tela araneae."
+- "Runbook sacrum est; incidenta eo moderantur."
+- "Post-mortem confessiones culpam non quaerunt sed meliora promittunt."
+- "Load balancer iustitiam distribuit, nisi unus servus cadit."
+- "High availability par redundancy est; sine eo silentium fit."
+- "QoS liturgia latitudinem sanctificat."
+- "MTU discordia fragmenta parit."
+- "LACP vincula fideles in unum colligit."
+- "Port mirroring speculum magicum est ad arcana revelanda."
+- "SPAN portum duplicat; investigator gaudet."
+- "Packet capture confessiones in Wireshark aperit."
+- "CAP theorem disputatio in microservitiis perpetua est."
+- "DevOps evangelium praedicat: qui codicem scribit, idem deployet."
+- "CI/CD flumen continuum est, merge conflicts cataractas efficiunt."
+- "Infrastructure as Code in tabulis YAML scribitur quasi liturgia."
+- "Terraform terras novas creat, Ansible ritus cotidianos gerit."
+- "Kubernetes orchestrator chaos in harmoniam convertit."
+- "Pod lifecycle reincarnationem simulat."
+- "Helm chartae mappae thesauri sunt."
+- "Service mesh nervus systematis microservitiorum est."
+- "API gateway custos portae digitalis est."
+- "Rate limiting patientiam postulat."
+- "JWT tokens aureae tesserae sunt; expiratio mors certa est."
+- "OAuth dans claves, sed scopum limitat."
+- "SAML assertiones sunt epistolae fidei."
+- "Kerberos tickets per tempus ardet; AS et TGS vigilantes sunt."
+- "LDAP arbores ramis distinguit; DN radix omnium est."
+- "DNSSEC signa in caelo scribit; trust anchor initium est."
+- "Anycast servitium ubique simul praebet."
+- "CDN scaccos geographicos ludit ad contentum cito ferendum."
+- "Latency occultus hostis est; RTT in numeris psalmos canit."
+- "Packet loss tragedia communis est in bandwidth carentia."
+- "Bufferbloat morbosus inflatus est, lateness gignens."
+
+matches:
+  # -------- Sentences --------
+  - trigger: ":nsipsum"
+    replace: "{{s}}"
+    vars:
+      - name: s
+        type: random
+        params: { choices: *NS_SENTENCES }
+
+  - trigger: ":2nsipsum"
+    replace: "{{s1}} {{s2}}"
+    vars:
+      - name: s1
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: s2
+        type: random
+        params: { choices: *NS_SENTENCES }
+
+  - trigger: ":3nsipsum"
+    replace: "{{s1}} {{s2}} {{s3}}"
+    vars:
+      - name: s1
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: s2
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: s3
+        type: random
+        params: { choices: *NS_SENTENCES }
+
+  - trigger: ":4nsipsum"
+    replace: "{{s1}} {{s2}} {{s3}} {{s4}}"
+    vars:
+      - name: s1
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: s2
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: s3
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: s4
+        type: random
+        params: { choices: *NS_SENTENCES }
+
+  # -------- Paragraphs (≥5 sentences) --------
+  - trigger: ":pnsipsum"
+    replace: "{{a1}} {{a2}} {{a3}} {{a4}} {{a5}}"
+    vars:
+      - name: a1
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: a2
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: a3
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: a4
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: a5
+        type: random
+        params: { choices: *NS_SENTENCES }
+
+  - trigger: ":2pnsipsum"
+    replace: "{{p1a}} {{p1b}} {{p1c}} {{p1d}} {{p1e}}\n\n{{p2a}} {{p2b}} {{p2c}} {{p2d}} {{p2e}}"
+    vars:
+      - name: p1a
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p1b
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p1c
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p1d
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p1e
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p2a
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p2b
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p2c
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p2d
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p2e
+        type: random
+        params: { choices: *NS_SENTENCES }
+
+  - trigger: ":3pnsipsum"
+    replace: "{{p1a}} {{p1b}} {{p1c}} {{p1d}} {{p1e}}\n\n{{p2a}} {{p2b}} {{p2c}} {{p2d}} {{p2e}}\n\n{{p3a}} {{p3b}} {{p3c}} {{p3d}} {{p3e}}"
+    vars:
+      - name: p1a
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p1b
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p1c
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p1d
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p1e
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p2a
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p2b
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p2c
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p2d
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p2e
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p3a
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p3b
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p3c
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p3d
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p3e
+        type: random
+        params: { choices: *NS_SENTENCES }
+
+  - trigger: ":4pnsipsum"
+    replace: "{{p1a}} {{p1b}} {{p1c}} {{p1d}} {{p1e}}\n\n{{p2a}} {{p2b}} {{p2c}} {{p2d}} {{p2e}}\n\n{{p3a}} {{p3b}} {{p3c}} {{p3d}} {{p3e}}\n\n{{p4a}} {{p4b}} {{p4c}} {{p4d}} {{p4e}}"
+    vars:
+      - name: p1a
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p1b
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p1c
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p1d
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p1e
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p2a
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p2b
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p2c
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p2d
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p2e
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p3a
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p3b
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p3c
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p3d
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p3e
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p4a
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p4b
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p4c
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p4d
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: p4e
+        type: random
+        params: { choices: *NS_SENTENCES }
+
+  # -------- Chaos modes --------
+  - trigger: ":rnsipsum"
+    replace: "{{pick}}"
+    vars:
+      - name: s1
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: s2
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: s3
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: s4
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: pick
+        type: random
+        params:
+          choices:
+            - "{{s1}}"
+            - "{{s1}} {{s2}}"
+            - "{{s1}} {{s2}} {{s3}}"
+            - "{{s1}} {{s2}} {{s3}} {{s4}}"
+
+  - trigger: ":rpnsipsum"
+    replace: "{{ppick}}"
+    vars:
+      - name: q1a
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: q1b
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: q1c
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: q1d
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: q1e
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: q2a
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: q2b
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: q2c
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: q2d
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: q2e
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: q3a
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: q3b
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: q3c
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: q3d
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: q3e
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: q4a
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: q4b
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: q4c
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: q4d
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: q4e
+        type: random
+        params: { choices: *NS_SENTENCES }
+      - name: ppick
+        type: random
+        params:
+          choices:
+            - "{{q1a}} {{q1b}} {{q1c}} {{q1d}} {{q1e}}"
+            - "{{q1a}} {{q1b}} {{q1c}} {{q1d}} {{q1e}}\n\n{{q2a}} {{q2b}} {{q2c}} {{q2d}} {{q2e}}"
+            - "{{q1a}} {{q1b}} {{q1c}} {{q1d}} {{q1e}}\n\n{{q2a}} {{q2b}} {{q2c}} {{q2d}} {{q2e}}\n\n{{q3a}} {{q3b}} {{q3c}} {{q3d}} {{q3e}}"
+            - "{{q1a}} {{q1b}} {{q1c}} {{q1d}} {{q1e}}\n\n{{q2a}} {{q2b}} {{q2c}} {{q2d}} {{q2e}}\n\n{{q3a}} {{q3b}} {{q3c}} {{q3d}} {{q3e}}\n\n{{q4a}} {{q4b}} {{q4c}} {{q4d}} {{q4e}}"
