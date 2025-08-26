@@ -1,4 +1,5 @@
 import os
+
 from . import ValidationRule
 
 REQUIRED_FILES = ["package.yml", "README.md", "_manifest.yml"]

@@ -4,3 +4,4 @@ description: A proof-of-concept package for bidirectional Spanish-English transl
 version: 0.1.0
 author: James Clark
 tags: ["languages", "spanish", "english", "translation", "dictionary"]
+homepage: "https://github.com/james-s-w-clark/espanso-translate-generator/tree/main/spanish-english"

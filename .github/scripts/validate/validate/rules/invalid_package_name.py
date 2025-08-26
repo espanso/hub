@@ -1,4 +1,5 @@
 import re
+
 from . import ValidationRule
 
 VALIDATE_REGEX = re.compile(r"^[a-z0-9\-]+$")
