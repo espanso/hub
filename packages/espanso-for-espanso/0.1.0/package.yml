@@ -1,0 +1,70 @@
+matches:
+#ESPANSO HELPFUL COMMANDS
+
+
+  # trigger text
+  - trigger: ":trig"
+    replace: |
+      - trigger: "$|$"
+        replace: ""
+
+  #OUTPUT:
+  #- trigger: ""
+  #  replace: ""
+  # (the cursor is put in the trigger quotes)
+
+#--------------------------------------------------------------------------------
+
+  #If making code via the above, simpler method doesn't quick work, you can try this method.
+  #This command does the same thing, but the code it creates passes your result through a variable.
+  #It is also good code if you need a variable for any reason. 
+  - trigger: ":output"
+    replace: |
+      - trigger: ":email"
+          replace: "\{\{output\}\}"
+          vars:
+            - name: output
+              type: shell
+              params:
+                cmd: 'echo {{clipboard}}'
+    vars:
+      - name: clipboard
+        type: shell
+        params:
+          # Platform-specific command below ⬇
+          cmd: powershell -Command "Get-Clipboard -Raw" # Windows example
+          # Replace (windows) "powershell Get-Clipboard" with:
+          # pbpaste for macOS
+          # xclip -selection clipboard -o for Linux X11
+          # wl-paste for Linux Wayland
+          # ask chatGPT for more information about the flags, I don't know
+
+  #output, if "apple" is copied to the clipboard:
+  #- trigger: ":email"
+  #  replace: "{{output}}"
+  #  vars:
+  #    - name: output
+  #      type: shell
+  #      params:
+  #        cmd: 'echo apple'
+
+
+#--------------------------------------------------------------------------------
+
+
+#Simple regex formula; you can input variables with the :trigger command
+  - trigger: ":inputfunc"
+    replace: |
+      - regex: ":hi\\s+(?P<person>.*)\\s+"
+        replace: "Hey \{\{person\}\}!"
+
+#output
+#  - regex: ":hi\\s+(?P<person>.*)\\s+"
+#    replace: "Hey {{person}}!"
+# works like: ":hi name " → "Hey name!"
+# input should be : ":hi Name ". The space after is important so ":hi " doesn't trigger it.
+# use \s for one space, \s+ for multiple. \\ is an escaped backslash.
+
+
+
+
