@@ -1,25 +1,16 @@
 name: uuid
-title: UUID Generator (:uuid)
-description: Inserts a newly-generated UUIDv4, lowercas, uppercase, even non-dash. [Requires python3.]
+title: UUID Generator
+description: Inserts a newly-generated UUIDv4, lowercase, uppercase, even non-dash.
 version: "1.0.0"
 author: Arylen
 homepage: "https://github.com/Arylen/espanso-uuid"
 tags: [
   "code",
-  "dev",
   "developer",
-  "development",
   "generator",
   "guid",
-  "guidv4",
   "id",
-  "programmer",
-  "programming",
-  "random",
   "tools",
-  "uid",
-  "unique",
   "utility",
   "uuid",
-  "uuidv4"
 ]
