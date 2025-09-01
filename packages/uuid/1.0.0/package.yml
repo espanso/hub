@@ -1,0 +1,36 @@
+matches:
+  # UUID, lowercase.
+  - trigger: ":uuid"
+    replace: "{{uuid}}"
+    vars:
+      - name: uuid
+        type: shell
+        params:
+          cmd: python3 -c "import uuid; print(uuid.uuid4())"
+
+  # UUID, uppercase.
+  - trigger: ":UUID"
+    replace: "{{uuid_upper}}"
+    vars:
+      - name: uuid_upper
+        type: shell
+        params:
+          cmd: python3 -c "import uuid; print(str(uuid.uuid4()).upper())"
+
+  # Non-dashed UUID, lowercase.
+  - trigger: ":nuuid"
+    replace: "{{uuid_nodash}}"
+    vars:
+      - name: uuid_nodash
+        type: shell
+        params:
+          cmd: python3 -c "import uuid; print(str(uuid.uuid4()).replace('-', ''))"
+
+  # Non-dashed UUID, uppercase.
+  - trigger: ":NUUID"
+    replace: "{{uuid_upper_nodash}}"
+    vars:
+      - name: uuid_upper_nodash
+        type: shell
+        params:
+          cmd: python3 -c "import uuid; print(str(uuid.uuid4()).upper().replace('-', ''))"
