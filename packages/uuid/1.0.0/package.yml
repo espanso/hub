@@ -1,7 +1,9 @@
 matches:
-  # UUID, lowercase.
+  # Standard UUID.
   - trigger: ":uuid"
     replace: "{{uuid}}"
+    propagate_case: true
+    uppercase_style: uppercase
     vars:
       - name: uuid
         type: script
@@ -13,23 +15,11 @@ matches:
               import uuid
               print(str(uuid.uuid4()))
 
-  # UUID, uppercase.
-  - trigger: ":UUID"
-    replace: "{{uuid_upper}}"
-    vars:
-      - name: uuid_upper
-        type: script
-        params:
-          args:
-            - python3
-            - -c
-            - |
-              import uuid
-              print(str(uuid.uuid4()).upper())
-
-  # Non-dashed UUID, lowercase.
+  # Non-dashed UUID.
   - trigger: ":nuuid"
     replace: "{{uuid_nodash}}"
+    propagate_case: true
+    uppercase_style: uppercase
     vars:
       - name: uuid_nodash
         type: script
@@ -40,17 +30,3 @@ matches:
             - |
               import uuid
               print(str(uuid.uuid4()).replace('-', ''))
-
-  # Non-dashed UUID, uppercase.
-  - trigger: ":NUUID"
-    replace: "{{uuid_upper_nodash}}"
-    vars:
-      - name: uuid_upper_nodash
-        type: script
-        params:
-          args:
-            - python3
-            - -c
-            - |
-              import uuid
-              print(str(uuid.uuid4()).upper().replace('-', ''))
