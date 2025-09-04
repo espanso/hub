@@ -13,7 +13,7 @@ matches:
             - -c
             - |
               import uuid
-              print(str(uuid.uuid4()))
+              print(uuid.uuid4())
 
   # Non-dashed UUID.
   - trigger: ":nuuid"
