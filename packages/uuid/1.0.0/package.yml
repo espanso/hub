@@ -9,7 +9,7 @@ matches:
         type: script
         params:
           args:
-            - python3
+            - python
             - -c
             - |
               import uuid
@@ -25,7 +25,7 @@ matches:
         type: script
         params:
           args:
-            - python3
+            - python
             - -c
             - |
               import uuid
