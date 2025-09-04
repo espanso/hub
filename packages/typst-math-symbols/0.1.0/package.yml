@@ -1,0 +1,2836 @@
+matches:
+  - triggers:
+      - "AA	"
+    replace: "𝔸"
+  - triggers:
+      - "Alpha	"
+    replace: "Α"
+  - triggers:
+      - "BB	"
+    replace: "𝔹"
+  - triggers:
+      - "Beta	"
+    replace: "Β"
+  - triggers:
+      - "CC	"
+    replace: "ℂ"
+  - triggers:
+      - "Chi	"
+    replace: "Χ"
+  - triggers:
+      - "DD	"
+    replace: "𝔻"
+  - triggers:
+      - "Delta	"
+    replace: "Δ"
+  - triggers:
+      - "EE	"
+    replace: "𝔼"
+  - triggers:
+      - "Epsilon	"
+    replace: "Ε"
+  - triggers:
+      - "Eta	"
+    replace: "Η"
+  - triggers:
+      - "FF	"
+    replace: "𝔽"
+  - triggers:
+      - "GG	"
+    replace: "𝔾"
+  - triggers:
+      - "Gamma	"
+    replace: "Γ"
+  - triggers:
+      - "HH	"
+    replace: "ℍ"
+  - triggers:
+      - "II	"
+    replace: "𝕀"
+  - triggers:
+      - "Im	"
+    replace: "ℑ"
+  - triggers:
+      - "Iota	"
+    replace: "Ι"
+  - triggers:
+      - "JJ	"
+    replace: "𝕁"
+  - triggers:
+      - "KK	"
+    replace: "𝕂"
+  - triggers:
+      - "Kai	"
+    replace: "Ϗ"
+  - triggers:
+      - "Kappa	"
+    replace: "Κ"
+  - triggers:
+      - "LL	"
+    replace: "𝕃"
+  - triggers:
+      - "Lambda	"
+    replace: "Λ"
+  - triggers:
+      - "MM	"
+    replace: "𝕄"
+  - triggers:
+      - "Mu	"
+    replace: "Μ"
+  - triggers:
+      - "NN	"
+    replace: "ℕ"
+  - triggers:
+      - "Nu	"
+    replace: "Ν"
+  - triggers:
+      - "OO	"
+    replace: "𝕆"
+  - triggers:
+      - "Omega	"
+    replace: "Ω"
+  - triggers:
+      - "Omega.inv	"
+    replace: "℧"
+  - triggers:
+      - "Omicron	"
+    replace: "Ο"
+  - triggers:
+      - "PP	"
+    replace: "ℙ"
+  - triggers:
+      - "Phi	"
+    replace: "Φ"
+  - triggers:
+      - "Pi	"
+    replace: "Π"
+  - triggers:
+      - "Psi	"
+    replace: "Ψ"
+  - triggers:
+      - "QQ	"
+    replace: "ℚ"
+  - triggers:
+      - "RR	"
+    replace: "ℝ"
+  - triggers:
+      - "Re	"
+    replace: "ℜ"
+  - triggers:
+      - "Rho	"
+    replace: "Ρ"
+  - triggers:
+      - "SS	"
+    replace: "𝕊"
+  - triggers:
+      - "Sigma	"
+    replace: "Σ"
+  - triggers:
+      - "TT	"
+    replace: "𝕋"
+  - triggers:
+      - "Tau	"
+    replace: "Τ"
+  - triggers:
+      - "Theta	"
+    replace: "Θ"
+  - triggers:
+      - "UU	"
+    replace: "𝕌"
+  - triggers:
+      - "Upsilon	"
+    replace: "Υ"
+  - triggers:
+      - "VV	"
+    replace: "𝕍"
+  - triggers:
+      - "WW	"
+    replace: "𝕎"
+  - triggers:
+      - "XX	"
+    replace: "𝕏"
+  - triggers:
+      - "Xi	"
+    replace: "Ξ"
+  - triggers:
+      - "YY	"
+    replace: "𝕐"
+  - triggers:
+      - "ZZ	"
+    replace: "ℤ"
+  - triggers:
+      - "Zeta	"
+    replace: "Ζ"
+  - triggers:
+      - "acute	"
+    replace: "´"
+  - triggers:
+      - "acute.double	"
+    replace: "˝"
+  - triggers:
+      - "alef	"
+    replace: "א"
+  - triggers:
+      - "aleph	"
+    replace: "א"
+  - triggers:
+      - "alpha	"
+    replace: "α"
+  - triggers:
+      - "amp.inv	"
+    replace: "⅋"
+  - triggers:
+      - "and	"
+    replace: "∧"
+  - triggers:
+      - "and.big	"
+    replace: "⋀"
+  - triggers:
+      - "and.curly	"
+    replace: "⋏"
+  - triggers:
+      - "and.dot	"
+    replace: "⟑"
+  - triggers:
+      - "and.double	"
+    replace: "⩓"
+  - triggers:
+      - "angle	"
+    replace: "∠"
+  - triggers:
+      - "angle.l	"
+    replace: "⟨"
+  - triggers:
+      - "angle.l.curly	"
+    replace: "⧼"
+  - triggers:
+      - "angle.l.dot	"
+    replace: "⦑"
+  - triggers:
+      - "angle.l.double	"
+    replace: "⟪"
+  - triggers:
+      - "angle.r	"
+    replace: "⟩"
+  - triggers:
+      - "angle.r.curly	"
+    replace: "⧽"
+  - triggers:
+      - "angle.r.dot	"
+    replace: "⦒"
+  - triggers:
+      - "angle.r.double	"
+    replace: "⟫"
+  - triggers:
+      - "angle.acute	"
+    replace: "⦟"
+  - triggers:
+      - "angle.arc	"
+    replace: "∡"
+  - triggers:
+      - "angle.arc.rev	"
+    replace: "⦛"
+  - triggers:
+      - "angle.oblique	"
+    replace: "⦦"
+  - triggers:
+      - "angle.rev	"
+    replace: "⦣"
+  - triggers:
+      - "angle.right	"
+    replace: "∟"
+  - triggers:
+      - "angle.right.rev	"
+    replace: "⯾"
+  - triggers:
+      - "angle.right.arc	"
+    replace: "⊾"
+  - triggers:
+      - "angle.right.dot	"
+    replace: "⦝"
+  - triggers:
+      - "angle.right.sq	"
+    replace: "⦜"
+  - triggers:
+      - "angle.s	"
+    replace: "⦞"
+  - triggers:
+      - "angle.spatial	"
+    replace: "⟀"
+  - triggers:
+      - "angle.spheric	"
+    replace: "∢"
+  - triggers:
+      - "angle.spheric.rev	"
+    replace: "⦠"
+  - triggers:
+      - "angle.spheric.top	"
+    replace: "⦡"
+  - triggers:
+      - "angstrom	"
+    replace: "Å"
+  - triggers:
+      - "approx	"
+    replace: "≈"
+  - triggers:
+      - "approx.eq	"
+    replace: "≊"
+  - triggers:
+      - "approx.not	"
+    replace: "≉"
+  - triggers:
+      - "arrow.r	"
+    replace: "→"
+  - triggers:
+      - "arrow.r.long.bar	"
+    replace: "⟼"
+  - triggers:
+      - "arrow.r.bar	"
+    replace: "↦"
+  - triggers:
+      - "arrow.r.curve	"
+    replace: "⤷"
+  - triggers:
+      - "arrow.r.turn	"
+    replace: "⮎"
+  - triggers:
+      - "arrow.r.dashed	"
+    replace: "⇢"
+  - triggers:
+      - "arrow.r.dotted	"
+    replace: "⤑"
+  - triggers:
+      - "arrow.r.double	"
+    replace: "⇒"
+  - triggers:
+      - "arrow.r.double.bar	"
+    replace: "⤇"
+  - triggers:
+      - "arrow.r.double.long	"
+    replace: "⟹"
+  - triggers:
+      - "arrow.r.double.long.bar	"
+    replace: "⟾"
+  - triggers:
+      - "arrow.r.double.not	"
+    replace: "⇏"
+  - triggers:
+      - "arrow.r.filled	"
+    replace: "➡"
+  - triggers:
+      - "arrow.r.hook	"
+    replace: "↪"
+  - triggers:
+      - "arrow.r.long	"
+    replace: "⟶"
+  - triggers:
+      - "arrow.r.long.squiggly	"
+    replace: "⟿"
+  - triggers:
+      - "arrow.r.loop	"
+    replace: "↬"
+  - triggers:
+      - "arrow.r.not	"
+    replace: "↛"
+  - triggers:
+      - "arrow.r.quad	"
+    replace: "⭆"
+  - triggers:
+      - "arrow.r.squiggly	"
+    replace: "⇝"
+  - triggers:
+      - "arrow.r.stop	"
+    replace: "⇥"
+  - triggers:
+      - "arrow.r.stroked	"
+    replace: "⇨"
+  - triggers:
+      - "arrow.r.tail	"
+    replace: "↣"
+  - triggers:
+      - "arrow.r.tilde	"
+    replace: "⥲"
+  - triggers:
+      - "arrow.r.triple	"
+    replace: "⇛"
+  - triggers:
+      - "arrow.r.twohead.bar	"
+    replace: "⤅"
+  - triggers:
+      - "arrow.r.twohead	"
+    replace: "↠"
+  - triggers:
+      - "arrow.r.wave	"
+    replace: "↝"
+  - triggers:
+      - "arrow.l	"
+    replace: "←"
+  - triggers:
+      - "arrow.l.bar	"
+    replace: "↤"
+  - triggers:
+      - "arrow.l.curve	"
+    replace: "⤶"
+  - triggers:
+      - "arrow.l.turn	"
+    replace: "⮌"
+  - triggers:
+      - "arrow.l.dashed	"
+    replace: "⇠"
+  - triggers:
+      - "arrow.l.dotted	"
+    replace: "⬸"
+  - triggers:
+      - "arrow.l.double	"
+    replace: "⇐"
+  - triggers:
+      - "arrow.l.double.bar	"
+    replace: "⤆"
+  - triggers:
+      - "arrow.l.double.long	"
+    replace: "⟸"
+  - triggers:
+      - "arrow.l.double.long.bar	"
+    replace: "⟽"
+  - triggers:
+      - "arrow.l.double.not	"
+    replace: "⇍"
+  - triggers:
+      - "arrow.l.filled	"
+    replace: "⬅"
+  - triggers:
+      - "arrow.l.hook	"
+    replace: "↩"
+  - triggers:
+      - "arrow.l.long	"
+    replace: "⟵"
+  - triggers:
+      - "arrow.l.long.bar	"
+    replace: "⟻"
+  - triggers:
+      - "arrow.l.long.squiggly	"
+    replace: "⬳"
+  - triggers:
+      - "arrow.l.loop	"
+    replace: "↫"
+  - triggers:
+      - "arrow.l.not	"
+    replace: "↚"
+  - triggers:
+      - "arrow.l.quad	"
+    replace: "⭅"
+  - triggers:
+      - "arrow.l.squiggly	"
+    replace: "⇜"
+  - triggers:
+      - "arrow.l.stop	"
+    replace: "⇤"
+  - triggers:
+      - "arrow.l.stroked	"
+    replace: "⇦"
+  - triggers:
+      - "arrow.l.tail	"
+    replace: "↢"
+  - triggers:
+      - "arrow.l.tilde	"
+    replace: "⭉"
+  - triggers:
+      - "arrow.l.triple	"
+    replace: "⇚"
+  - triggers:
+      - "arrow.l.twohead.bar	"
+    replace: "⬶"
+  - triggers:
+      - "arrow.l.twohead	"
+    replace: "↞"
+  - triggers:
+      - "arrow.l.wave	"
+    replace: "↜"
+  - triggers:
+      - "arrow.t	"
+    replace: "↑"
+  - triggers:
+      - "arrow.t.bar	"
+    replace: "↥"
+  - triggers:
+      - "arrow.t.curve	"
+    replace: "⤴"
+  - triggers:
+      - "arrow.t.turn	"
+    replace: "⮍"
+  - triggers:
+      - "arrow.t.dashed	"
+    replace: "⇡"
+  - triggers:
+      - "arrow.t.double	"
+    replace: "⇑"
+  - triggers:
+      - "arrow.t.filled	"
+    replace: "⬆"
+  - triggers:
+      - "arrow.t.quad	"
+    replace: "⟰"
+  - triggers:
+      - "arrow.t.stop	"
+    replace: "⤒"
+  - triggers:
+      - "arrow.t.stroked	"
+    replace: "⇧"
+  - triggers:
+      - "arrow.t.triple	"
+    replace: "⤊"
+  - triggers:
+      - "arrow.t.twohead	"
+    replace: "↟"
+  - triggers:
+      - "arrow.b	"
+    replace: "↓"
+  - triggers:
+      - "arrow.b.bar	"
+    replace: "↧"
+  - triggers:
+      - "arrow.b.curve	"
+    replace: "⤵"
+  - triggers:
+      - "arrow.b.turn	"
+    replace: "⮏"
+  - triggers:
+      - "arrow.b.dashed	"
+    replace: "⇣"
+  - triggers:
+      - "arrow.b.double	"
+    replace: "⇓"
+  - triggers:
+      - "arrow.b.filled	"
+    replace: "⬇"
+  - triggers:
+      - "arrow.b.quad	"
+    replace: "⟱"
+  - triggers:
+      - "arrow.b.stop	"
+    replace: "⤓"
+  - triggers:
+      - "arrow.b.stroked	"
+    replace: "⇩"
+  - triggers:
+      - "arrow.b.triple	"
+    replace: "⤋"
+  - triggers:
+      - "arrow.b.twohead	"
+    replace: "↡"
+  - triggers:
+      - "arrow.l.r	"
+    replace: "↔"
+  - triggers:
+      - "arrow.l.r.double	"
+    replace: "⇔"
+  - triggers:
+      - "arrow.l.r.double.long	"
+    replace: "⟺"
+  - triggers:
+      - "arrow.l.r.double.not	"
+    replace: "⇎"
+  - triggers:
+      - "arrow.l.r.filled	"
+    replace: "⬌"
+  - triggers:
+      - "arrow.l.r.long	"
+    replace: "⟷"
+  - triggers:
+      - "arrow.l.r.not	"
+    replace: "↮"
+  - triggers:
+      - "arrow.l.r.stroked	"
+    replace: "⬄"
+  - triggers:
+      - "arrow.l.r.wave	"
+    replace: "↭"
+  - triggers:
+      - "arrow.t.b	"
+    replace: "↕"
+  - triggers:
+      - "arrow.t.b.double	"
+    replace: "⇕"
+  - triggers:
+      - "arrow.t.b.filled	"
+    replace: "⬍"
+  - triggers:
+      - "arrow.t.b.stroked	"
+    replace: "⇳"
+  - triggers:
+      - "arrow.tr	"
+    replace: "↗"
+  - triggers:
+      - "arrow.tr.double	"
+    replace: "⇗"
+  - triggers:
+      - "arrow.tr.filled	"
+    replace: "⬈"
+  - triggers:
+      - "arrow.tr.hook	"
+    replace: "⤤"
+  - triggers:
+      - "arrow.tr.stroked	"
+    replace: "⬀"
+  - triggers:
+      - "arrow.br	"
+    replace: "↘"
+  - triggers:
+      - "arrow.br.double	"
+    replace: "⇘"
+  - triggers:
+      - "arrow.br.filled	"
+    replace: "⬊"
+  - triggers:
+      - "arrow.br.hook	"
+    replace: "⤥"
+  - triggers:
+      - "arrow.br.stroked	"
+    replace: "⬂"
+  - triggers:
+      - "arrow.tl	"
+    replace: "↖"
+  - triggers:
+      - "arrow.tl.double	"
+    replace: "⇖"
+  - triggers:
+      - "arrow.tl.filled	"
+    replace: "⬉"
+  - triggers:
+      - "arrow.tl.hook	"
+    replace: "⤣"
+  - triggers:
+      - "arrow.tl.stroked	"
+    replace: "⬁"
+  - triggers:
+      - "arrow.bl	"
+    replace: "↙"
+  - triggers:
+      - "arrow.bl.double	"
+    replace: "⇙"
+  - triggers:
+      - "arrow.bl.filled	"
+    replace: "⬋"
+  - triggers:
+      - "arrow.bl.hook	"
+    replace: "⤦"
+  - triggers:
+      - "arrow.bl.stroked	"
+    replace: "⬃"
+  - triggers:
+      - "arrow.tl.br	"
+    replace: "⤡"
+  - triggers:
+      - "arrow.tr.bl	"
+    replace: "⤢"
+  - triggers:
+      - "arrow.ccw	"
+    replace: "↺"
+  - triggers:
+      - "arrow.ccw.half	"
+    replace: "↶"
+  - triggers:
+      - "arrow.cw	"
+    replace: "↻"
+  - triggers:
+      - "arrow.cw.half	"
+    replace: "↷"
+  - triggers:
+      - "arrow.zigzag	"
+    replace: "↯"
+  - triggers:
+      - "arrowhead.t	"
+    replace: "⌃"
+  - triggers:
+      - "arrowhead.b	"
+    replace: "⌄"
+  - triggers:
+      - "arrows.rr	"
+    replace: "⇉"
+  - triggers:
+      - "arrows.ll	"
+    replace: "⇇"
+  - triggers:
+      - "arrows.tt	"
+    replace: "⇈"
+  - triggers:
+      - "arrows.bb	"
+    replace: "⇊"
+  - triggers:
+      - "arrows.lr	"
+    replace: "⇆"
+  - triggers:
+      - "arrows.lr.stop	"
+    replace: "↹"
+  - triggers:
+      - "arrows.rl	"
+    replace: "⇄"
+  - triggers:
+      - "arrows.tb	"
+    replace: "⇅"
+  - triggers:
+      - "arrows.bt	"
+    replace: "⇵"
+  - triggers:
+      - "arrows.rrr	"
+    replace: "⇶"
+  - triggers:
+      - "arrows.lll	"
+    replace: "⬱"
+  - triggers:
+      - "ast.op	"
+    replace: "∗"
+  - triggers:
+      - "ast.low	"
+    replace: "⁎"
+  - triggers:
+      - "ast.double	"
+    replace: "⁑"
+  - triggers:
+      - "ast.triple	"
+    replace: "⁂"
+  - triggers:
+      - "ast.small	"
+    replace: "﹡"
+  - triggers:
+      - "ast.circle	"
+    replace: "⊛"
+  - triggers:
+      - "ast.square	"
+    replace: "⧆"
+  - triggers:
+      - "asymp	"
+    replace: "≍"
+  - triggers:
+      - "asymp.not	"
+    replace: "≭"
+  - triggers:
+      - "backslash.circle	"
+    replace: "⦸"
+  - triggers:
+      - "backslash.not	"
+    replace: "⧷"
+  - triggers:
+      - "ballot	"
+    replace: "☐"
+  - triggers:
+      - "ballot.cross	"
+    replace: "☒"
+  - triggers:
+      - "ballot.check	"
+    replace: "☑"
+  - triggers:
+      - "ballot.check.heavy	"
+    replace: "🗹"
+  - triggers:
+      - "bar.v.double	"
+    replace: "‖"
+  - triggers:
+      - "bar.v.triple	"
+    replace: "⦀"
+  - triggers:
+      - "bar.v.broken	"
+    replace: "¦"
+  - triggers:
+      - "bar.v.circle	"
+    replace: "⦶"
+  - triggers:
+      - "bar.h	"
+    replace: "―"
+  - triggers:
+      - "because	"
+    replace: "∵"
+  - triggers:
+      - "bet	"
+    replace: "ב"
+  - triggers:
+      - "beta	"
+    replace: "β"
+  - triggers:
+      - "beta.alt	"
+    replace: "ϐ"
+  - triggers:
+      - "beth	"
+    replace: "ב"
+  - triggers:
+      - "bitcoin	"
+    replace: "₿"
+  - triggers:
+      - "bot	"
+    replace: "⊥"
+  - triggers:
+      - "brace.l.double	"
+    replace: "⦃"
+  - triggers:
+      - "brace.r.double	"
+    replace: "⦄"
+  - triggers:
+      - "brace.t	"
+    replace: "⏞"
+  - triggers:
+      - "brace.b	"
+    replace: "⏟"
+  - triggers:
+      - "bracket.l.double	"
+    replace: "⟦"
+  - triggers:
+      - "bracket.r.double	"
+    replace: "⟧"
+  - triggers:
+      - "bracket.t	"
+    replace: "⎴"
+  - triggers:
+      - "bracket.b	"
+    replace: "⎵"
+  - triggers:
+      - "breve	"
+    replace: "˘"
+  - triggers:
+      - "bullet	"
+    replace: "•"
+  - triggers:
+      - "caret	"
+    replace: "‸"
+  - triggers:
+      - "caron	"
+    replace: "ˇ"
+  - triggers:
+      - "ceil.l	"
+    replace: "⌈"
+  - triggers:
+      - "ceil.r	"
+    replace: "⌉"
+  - triggers:
+      - "checkmark	"
+    replace: "✓"
+  - triggers:
+      - "checkmark.light	"
+    replace: "🗸"
+  - triggers:
+      - "checkmark.heavy	"
+    replace: "✔"
+  - triggers:
+      - "chi	"
+    replace: "χ"
+  - triggers:
+      - "circle.stroked	"
+    replace: "○"
+  - triggers:
+      - "circle.stroked.tiny	"
+    replace: "∘"
+  - triggers:
+      - "circle.stroked.small	"
+    replace: "⚬"
+  - triggers:
+      - "circle.stroked.big	"
+    replace: "◯"
+  - triggers:
+      - "circle.filled	"
+    replace: "●"
+  - triggers:
+      - "circle.filled.tiny	"
+    replace: "⦁"
+  - triggers:
+      - "circle.filled.small	"
+    replace: "∙"
+  - triggers:
+      - "circle.filled.big	"
+    replace: "⬤"
+  - triggers:
+      - "circle.dotted	"
+    replace: "◌"
+  - triggers:
+      - "circle.nested	"
+    replace: "⊚"
+  - triggers:
+      - "co	"
+    replace: "℅"
+  - triggers:
+      - "colon.double	"
+    replace: "∷"
+  - triggers:
+      - "colon.tri	"
+    replace: "⁝"
+  - triggers:
+      - "colon.tri.op	"
+    replace: "⫶"
+  - triggers:
+      - "colon.eq	"
+    replace: "≔"
+  - triggers:
+      - "colon.double.eq	"
+    replace: "⩴"
+  - triggers:
+      - "complement	"
+    replace: "∁"
+  - triggers:
+      - "compose	"
+    replace: "∘"
+  - triggers:
+      - "convolve	"
+    replace: "∗"
+  - triggers:
+      - "copyleft	"
+    replace: "🄯"
+  - triggers:
+      - "copyright	"
+    replace: "©"
+  - triggers:
+      - "copyright.sound	"
+    replace: "℗"
+  - triggers:
+      - "crossmark	"
+    replace: "✗"
+  - triggers:
+      - "crossmark.heavy	"
+    replace: "✘"
+  - triggers:
+      - "dagger	"
+    replace: "†"
+  - triggers:
+      - "dagger.double	"
+    replace: "‡"
+  - triggers:
+      - "dagger.triple	"
+    replace: "⹋"
+  - triggers:
+      - "dagger.l	"
+    replace: "⸶"
+  - triggers:
+      - "dagger.r	"
+    replace: "⸷"
+  - triggers:
+      - "dagger.inv	"
+    replace: "⸸"
+  - triggers:
+      - "dalet	"
+    replace: "ד"
+  - triggers:
+      - "daleth	"
+    replace: "ד"
+  - triggers:
+      - "dash.en	"
+    replace: "–"
+  - triggers:
+      - "dash.em	"
+    replace: "—"
+  - triggers:
+      - "dash.em.two	"
+    replace: "⸺"
+  - triggers:
+      - "dash.em.three	"
+    replace: "⸻"
+  - triggers:
+      - "dash.fig	"
+    replace: "‒"
+  - triggers:
+      - "dash.wave	"
+    replace: "〜"
+  - triggers:
+      - "dash.colon	"
+    replace: "∹"
+  - triggers:
+      - "dash.circle	"
+    replace: "⊝"
+  - triggers:
+      - "dash.wave.double	"
+    replace: "〰"
+  - triggers:
+      - "degree	"
+    replace: "°"
+  - triggers:
+      - "delta	"
+    replace: "δ"
+  - triggers:
+      - "diaer	"
+    replace: "¨"
+  - triggers:
+      - "diameter	"
+    replace: "⌀"
+  - triggers:
+      - "diamond.stroked	"
+    replace: "◇"
+  - triggers:
+      - "diamond.stroked.small	"
+    replace: "⋄"
+  - triggers:
+      - "diamond.stroked.medium	"
+    replace: "⬦"
+  - triggers:
+      - "diamond.stroked.dot	"
+    replace: "⟐"
+  - triggers:
+      - "diamond.filled	"
+    replace: "◆"
+  - triggers:
+      - "diamond.filled.medium	"
+    replace: "⬥"
+  - triggers:
+      - "diamond.filled.small	"
+    replace: "⬩"
+  - triggers:
+      - "die.six	"
+    replace: "⚅"
+  - triggers:
+      - "die.five	"
+    replace: "⚄"
+  - triggers:
+      - "die.four	"
+    replace: "⚃"
+  - triggers:
+      - "die.three	"
+    replace: "⚂"
+  - triggers:
+      - "die.two	"
+    replace: "⚁"
+  - triggers:
+      - "die.one	"
+    replace: "⚀"
+  - triggers:
+      - "diff	"
+    replace: "∂"
+  - triggers:
+      - "div	"
+    replace: "÷"
+  - triggers:
+      - "div.circle	"
+    replace: "⨸"
+  - triggers:
+      - "divides	"
+    replace: "∣"
+  - triggers:
+      - "divides.not	"
+    replace: "∤"
+  - triggers:
+      - "divides.not.rev	"
+    replace: "⫮"
+  - triggers:
+      - "divides.struck	"
+    replace: "⟊"
+  - triggers:
+      - "dot.op	"
+    replace: "⋅"
+  - triggers:
+      - "dot.c	"
+    replace: "·"
+  - triggers:
+      - "dot.circle	"
+    replace: "⊙"
+  - triggers:
+      - "dot.circle.big	"
+    replace: "⨀"
+  - triggers:
+      - "dot.square	"
+    replace: "⊡"
+  - triggers:
+      - "dot.double	"
+    replace: "¨"
+  - triggers:
+      - "dot.triple	"
+    replace: "⃛"
+  - triggers:
+      - "dot.quad	"
+    replace: "⃜"
+  - triggers:
+      - "dotless.i	"
+    replace: "ı"
+  - triggers:
+      - "dotless.j	"
+    replace: "ȷ"
+  - triggers:
+      - "dots.h.c	"
+    replace: "⋯"
+  - triggers:
+      - "dots.h	"
+    replace: "…"
+  - triggers:
+      - "dots.v	"
+    replace: "⋮"
+  - triggers:
+      - "dots.down	"
+    replace: "⋱"
+  - triggers:
+      - "dots.up	"
+    replace: "⋰"
+  - triggers:
+      - "ell	"
+    replace: "ℓ"
+  - triggers:
+      - "ellipse.stroked.h	"
+    replace: "⬭"
+  - triggers:
+      - "ellipse.stroked.v	"
+    replace: "⬯"
+  - triggers:
+      - "ellipse.filled.h	"
+    replace: "⬬"
+  - triggers:
+      - "ellipse.filled.v	"
+    replace: "⬮"
+  - triggers:
+      - "emptyset	"
+    replace: "∅"
+  - triggers:
+      - "emptyset.arrow.r	"
+    replace: "⦳"
+  - triggers:
+      - "emptyset.arrow.l	"
+    replace: "⦴"
+  - triggers:
+      - "emptyset.bar	"
+    replace: "⦱"
+  - triggers:
+      - "emptyset.circle	"
+    replace: "⦲"
+  - triggers:
+      - "emptyset.rev	"
+    replace: "⦰"
+  - triggers:
+      - "epsilon	"
+    replace: "ε"
+  - triggers:
+      - "epsilon.alt	"
+    replace: "ϵ"
+  - triggers:
+      - "eq.star	"
+    replace: "≛"
+  - triggers:
+      - "eq.circle	"
+    replace: "⊜"
+  - triggers:
+      - "eq.colon	"
+    replace: "≕"
+  - triggers:
+      - "eq.dots	"
+    replace: "≑"
+  - triggers:
+      - "eq.dots.down	"
+    replace: "≒"
+  - triggers:
+      - "eq.dots.up	"
+    replace: "≓"
+  - triggers:
+      - "eq.def	"
+    replace: "≝"
+  - triggers:
+      - "eq.delta	"
+    replace: "≜"
+  - triggers:
+      - "eq.equi	"
+    replace: "≚"
+  - triggers:
+      - "eq.est	"
+    replace: "≙"
+  - triggers:
+      - "eq.gt	"
+    replace: "⋝"
+  - triggers:
+      - "eq.lt	"
+    replace: "⋜"
+  - triggers:
+      - "eq.m	"
+    replace: "≞"
+  - triggers:
+      - "eq.not	"
+    replace: "≠"
+  - triggers:
+      - "eq.prec	"
+    replace: "⋞"
+  - triggers:
+      - "eq.quest	"
+    replace: "≟"
+  - triggers:
+      - "eq.small	"
+    replace: "﹦"
+  - triggers:
+      - "eq.succ	"
+    replace: "⋟"
+  - triggers:
+      - "eq.triple	"
+    replace: "≡"
+  - triggers:
+      - "eq.triple.not	"
+    replace: "≢"
+  - triggers:
+      - "eq.quad	"
+    replace: "≣"
+  - triggers:
+      - "equiv	"
+    replace: "≡"
+  - triggers:
+      - "equiv.not	"
+    replace: "≢"
+  - triggers:
+      - "errorbar.square.stroked	"
+    replace: "⧮"
+  - triggers:
+      - "errorbar.square.filled	"
+    replace: "⧯"
+  - triggers:
+      - "errorbar.diamond.stroked	"
+    replace: "⧰"
+  - triggers:
+      - "errorbar.diamond.filled	"
+    replace: "⧱"
+  - triggers:
+      - "errorbar.circle.stroked	"
+    replace: "⧲"
+  - triggers:
+      - "errorbar.circle.filled	"
+    replace: "⧳"
+  - triggers:
+      - "eta	"
+    replace: "η"
+  - triggers:
+      - "euro	"
+    replace: "€"
+  - triggers:
+      - "excl.double	"
+    replace: "‼"
+  - triggers:
+      - "excl.inv	"
+    replace: "¡"
+  - triggers:
+      - "excl.quest	"
+    replace: "⁉"
+  - triggers:
+      - "exists	"
+    replace: "∃"
+  - triggers:
+      - "exists.not	"
+    replace: "∄"
+  - triggers:
+      - "fence.l	"
+    replace: "⧘"
+  - triggers:
+      - "fence.l.double	"
+    replace: "⧚"
+  - triggers:
+      - "fence.r	"
+    replace: "⧙"
+  - triggers:
+      - "fence.r.double	"
+    replace: "⧛"
+  - triggers:
+      - "fence.dotted	"
+    replace: "⦙"
+  - triggers:
+      - "flat	"
+    replace: "♭"
+  - triggers:
+      - "flat.t	"
+    replace: "𝄬"
+  - triggers:
+      - "flat.b	"
+    replace: "𝄭"
+  - triggers:
+      - "flat.double	"
+    replace: "𝄫"
+  - triggers:
+      - "flat.quarter	"
+    replace: "𝄳"
+  - triggers:
+      - "floor.l	"
+    replace: "⌊"
+  - triggers:
+      - "floor.r	"
+    replace: "⌋"
+  - triggers:
+      - "floral	"
+    replace: "❦"
+  - triggers:
+      - "floral.l	"
+    replace: "☙"
+  - triggers:
+      - "floral.r	"
+    replace: "❧"
+  - triggers:
+      - "forall	"
+    replace: "∀"
+  - triggers:
+      - "forces	"
+    replace: "⊩"
+  - triggers:
+      - "forces.not	"
+    replace: "⊮"
+  - triggers:
+      - "franc	"
+    replace: "₣"
+  - triggers:
+      - "gamma	"
+    replace: "γ"
+  - triggers:
+      - "gimel	"
+    replace: "ג"
+  - triggers:
+      - "gimmel	"
+    replace: "ג"
+  - triggers:
+      - "gradient	"
+    replace: "∇"
+  - triggers:
+      - "gt.circle	"
+    replace: "⧁"
+  - triggers:
+      - "gt.dot	"
+    replace: "⋗"
+  - triggers:
+      - "gt.approx	"
+    replace: "⪆"
+  - triggers:
+      - "gt.double	"
+    replace: "≫"
+  - triggers:
+      - "gt.eq	"
+    replace: "≥"
+  - triggers:
+      - "gt.eq.slant	"
+    replace: "⩾"
+  - triggers:
+      - "gt.eq.lt	"
+    replace: "⋛"
+  - triggers:
+      - "gt.eq.not	"
+    replace: "≱"
+  - triggers:
+      - "gt.equiv	"
+    replace: "≧"
+  - triggers:
+      - "gt.lt	"
+    replace: "≷"
+  - triggers:
+      - "gt.lt.not	"
+    replace: "≹"
+  - triggers:
+      - "gt.neq	"
+    replace: "⪈"
+  - triggers:
+      - "gt.napprox	"
+    replace: "⪊"
+  - triggers:
+      - "gt.nequiv	"
+    replace: "≩"
+  - triggers:
+      - "gt.not	"
+    replace: "≯"
+  - triggers:
+      - "gt.ntilde	"
+    replace: "⋧"
+  - triggers:
+      - "gt.small	"
+    replace: "﹥"
+  - triggers:
+      - "gt.tilde	"
+    replace: "≳"
+  - triggers:
+      - "gt.tilde.not	"
+    replace: "≵"
+  - triggers:
+      - "gt.tri	"
+    replace: "⊳"
+  - triggers:
+      - "gt.tri.eq	"
+    replace: "⊵"
+  - triggers:
+      - "gt.tri.eq.not	"
+    replace: "⋭"
+  - triggers:
+      - "gt.tri.not	"
+    replace: "⋫"
+  - triggers:
+      - "gt.triple	"
+    replace: "⋙"
+  - triggers:
+      - "gt.triple.nested	"
+    replace: "⫸"
+  - triggers:
+      - "harpoon.rt	"
+    replace: "⇀"
+  - triggers:
+      - "harpoon.rt.bar	"
+    replace: "⥛"
+  - triggers:
+      - "harpoon.rt.stop	"
+    replace: "⥓"
+  - triggers:
+      - "harpoon.rb	"
+    replace: "⇁"
+  - triggers:
+      - "harpoon.rb.bar	"
+    replace: "⥟"
+  - triggers:
+      - "harpoon.rb.stop	"
+    replace: "⥗"
+  - triggers:
+      - "harpoon.lt	"
+    replace: "↼"
+  - triggers:
+      - "harpoon.lt.bar	"
+    replace: "⥚"
+  - triggers:
+      - "harpoon.lt.stop	"
+    replace: "⥒"
+  - triggers:
+      - "harpoon.lb	"
+    replace: "↽"
+  - triggers:
+      - "harpoon.lb.bar	"
+    replace: "⥞"
+  - triggers:
+      - "harpoon.lb.stop	"
+    replace: "⥖"
+  - triggers:
+      - "harpoon.tl	"
+    replace: "↿"
+  - triggers:
+      - "harpoon.tl.bar	"
+    replace: "⥠"
+  - triggers:
+      - "harpoon.tl.stop	"
+    replace: "⥘"
+  - triggers:
+      - "harpoon.tr	"
+    replace: "↾"
+  - triggers:
+      - "harpoon.tr.bar	"
+    replace: "⥜"
+  - triggers:
+      - "harpoon.tr.stop	"
+    replace: "⥔"
+  - triggers:
+      - "harpoon.bl	"
+    replace: "⇃"
+  - triggers:
+      - "harpoon.bl.bar	"
+    replace: "⥡"
+  - triggers:
+      - "harpoon.bl.stop	"
+    replace: "⥙"
+  - triggers:
+      - "harpoon.br	"
+    replace: "⇂"
+  - triggers:
+      - "harpoon.br.bar	"
+    replace: "⥝"
+  - triggers:
+      - "harpoon.br.stop	"
+    replace: "⥕"
+  - triggers:
+      - "harpoon.lt.rt	"
+    replace: "⥎"
+  - triggers:
+      - "harpoon.lb.rb	"
+    replace: "⥐"
+  - triggers:
+      - "harpoon.lb.rt	"
+    replace: "⥋"
+  - triggers:
+      - "harpoon.lt.rb	"
+    replace: "⥊"
+  - triggers:
+      - "harpoon.tl.bl	"
+    replace: "⥑"
+  - triggers:
+      - "harpoon.tr.br	"
+    replace: "⥏"
+  - triggers:
+      - "harpoon.tl.br	"
+    replace: "⥍"
+  - triggers:
+      - "harpoon.tr.bl	"
+    replace: "⥌"
+  - triggers:
+      - "harpoons.rtrb	"
+    replace: "⥤"
+  - triggers:
+      - "harpoons.blbr	"
+    replace: "⥥"
+  - triggers:
+      - "harpoons.bltr	"
+    replace: "⥯"
+  - triggers:
+      - "harpoons.lbrb	"
+    replace: "⥧"
+  - triggers:
+      - "harpoons.ltlb	"
+    replace: "⥢"
+  - triggers:
+      - "harpoons.ltrb	"
+    replace: "⇋"
+  - triggers:
+      - "harpoons.ltrt	"
+    replace: "⥦"
+  - triggers:
+      - "harpoons.rblb	"
+    replace: "⥩"
+  - triggers:
+      - "harpoons.rtlb	"
+    replace: "⇌"
+  - triggers:
+      - "harpoons.rtlt	"
+    replace: "⥨"
+  - triggers:
+      - "harpoons.tlbr	"
+    replace: "⥮"
+  - triggers:
+      - "harpoons.tltr	"
+    replace: "⥣"
+  - triggers:
+      - "hexa.stroked	"
+    replace: "⬡"
+  - triggers:
+      - "hexa.filled	"
+    replace: "⬢"
+  - triggers:
+      - "hourglass.stroked	"
+    replace: "⧖"
+  - triggers:
+      - "hourglass.filled	"
+    replace: "⧗"
+  - triggers:
+      - "hyph	"
+    replace: "‐"
+  - triggers:
+      - "hyph.nobreak	"
+    replace: "‑"
+  - triggers:
+      - "hyph.point	"
+    replace: "‧"
+  - triggers:
+      - "hyph.soft	"
+    replace: "­"
+  - triggers:
+      - "image	"
+    replace: "⊷"
+  - triggers:
+      - "in	"
+    replace: "∈"
+  - triggers:
+      - "in.not	"
+    replace: "∉"
+  - triggers:
+      - "in.rev	"
+    replace: "∋"
+  - triggers:
+      - "in.rev.not	"
+    replace: "∌"
+  - triggers:
+      - "in.rev.small	"
+    replace: "∍"
+  - triggers:
+      - "in.small	"
+    replace: "∊"
+  - triggers:
+      - "infinity	"
+    replace: "∞"
+  - triggers:
+      - "infinity.bar	"
+    replace: "⧞"
+  - triggers:
+      - "infinity.incomplete	"
+    replace: "⧜"
+  - triggers:
+      - "infinity.tie	"
+    replace: "⧝"
+  - triggers:
+      - "integral	"
+    replace: "∫"
+  - triggers:
+      - "integral.arrow.hook	"
+    replace: "⨗"
+  - triggers:
+      - "integral.ccw	"
+    replace: "⨑"
+  - triggers:
+      - "integral.cont	"
+    replace: "∮"
+  - triggers:
+      - "integral.cont.ccw	"
+    replace: "∳"
+  - triggers:
+      - "integral.cont.cw	"
+    replace: "∲"
+  - triggers:
+      - "integral.cw	"
+    replace: "∱"
+  - triggers:
+      - "integral.dash	"
+    replace: "⨍"
+  - triggers:
+      - "integral.dash.double	"
+    replace: "⨎"
+  - triggers:
+      - "integral.double	"
+    replace: "∬"
+  - triggers:
+      - "integral.quad	"
+    replace: "⨌"
+  - triggers:
+      - "integral.inter	"
+    replace: "⨙"
+  - triggers:
+      - "integral.sect	"
+    replace: "⨙"
+  - triggers:
+      - "integral.slash	"
+    replace: "⨏"
+  - triggers:
+      - "integral.square	"
+    replace: "⨖"
+  - triggers:
+      - "integral.surf	"
+    replace: "∯"
+  - triggers:
+      - "integral.times	"
+    replace: "⨘"
+  - triggers:
+      - "integral.triple	"
+    replace: "∭"
+  - triggers:
+      - "integral.union	"
+    replace: "⨚"
+  - triggers:
+      - "integral.vol	"
+    replace: "∰"
+  - triggers:
+      - "inter	"
+    replace: "∩"
+  - triggers:
+      - "inter.and	"
+    replace: "⩄"
+  - triggers:
+      - "inter.big	"
+    replace: "⋂"
+  - triggers:
+      - "inter.dot	"
+    replace: "⩀"
+  - triggers:
+      - "inter.double	"
+    replace: "⋒"
+  - triggers:
+      - "inter.sq	"
+    replace: "⊓"
+  - triggers:
+      - "inter.sq.big	"
+    replace: "⨅"
+  - triggers:
+      - "inter.sq.double	"
+    replace: "⩎"
+  - triggers:
+      - "interleave	"
+    replace: "⫴"
+  - triggers:
+      - "interleave.big	"
+    replace: "⫼"
+  - triggers:
+      - "interleave.struck	"
+    replace: "⫵"
+  - triggers:
+      - "interrobang	"
+    replace: "‽"
+  - triggers:
+      - "iota	"
+    replace: "ι"
+  - triggers:
+      - "join	"
+    replace: "⨝"
+  - triggers:
+      - "join.r	"
+    replace: "⟖"
+  - triggers:
+      - "join.l	"
+    replace: "⟕"
+  - triggers:
+      - "join.l.r	"
+    replace: "⟗"
+  - triggers:
+      - "kai	"
+    replace: "ϗ"
+  - triggers:
+      - "kappa	"
+    replace: "κ"
+  - triggers:
+      - "kappa.alt	"
+    replace: "ϰ"
+  - triggers:
+      - "lambda	"
+    replace: "λ"
+  - triggers:
+      - "laplace	"
+    replace: "∆"
+  - triggers:
+      - "lat	"
+    replace: "⪫"
+  - triggers:
+      - "lat.eq	"
+    replace: "⪭"
+  - triggers:
+      - "lira	"
+    replace: "₺"
+  - triggers:
+      - "lozenge.stroked	"
+    replace: "◊"
+  - triggers:
+      - "lozenge.stroked.small	"
+    replace: "⬫"
+  - triggers:
+      - "lozenge.stroked.medium	"
+    replace: "⬨"
+  - triggers:
+      - "lozenge.filled	"
+    replace: "⧫"
+  - triggers:
+      - "lozenge.filled.small	"
+    replace: "⬪"
+  - triggers:
+      - "lozenge.filled.medium	"
+    replace: "⬧"
+  - triggers:
+      - "lrm	"
+    replace: "‎"
+  - triggers:
+      - "lt.circle	"
+    replace: "⧀"
+  - triggers:
+      - "lt.dot	"
+    replace: "⋖"
+  - triggers:
+      - "lt.approx	"
+    replace: "⪅"
+  - triggers:
+      - "lt.double	"
+    replace: "≪"
+  - triggers:
+      - "lt.eq	"
+    replace: "≤"
+  - triggers:
+      - "lt.eq.slant	"
+    replace: "⩽"
+  - triggers:
+      - "lt.eq.gt	"
+    replace: "⋚"
+  - triggers:
+      - "lt.eq.not	"
+    replace: "≰"
+  - triggers:
+      - "lt.equiv	"
+    replace: "≦"
+  - triggers:
+      - "lt.gt	"
+    replace: "≶"
+  - triggers:
+      - "lt.gt.not	"
+    replace: "≸"
+  - triggers:
+      - "lt.neq	"
+    replace: "⪇"
+  - triggers:
+      - "lt.napprox	"
+    replace: "⪉"
+  - triggers:
+      - "lt.nequiv	"
+    replace: "≨"
+  - triggers:
+      - "lt.not	"
+    replace: "≮"
+  - triggers:
+      - "lt.ntilde	"
+    replace: "⋦"
+  - triggers:
+      - "lt.small	"
+    replace: "﹤"
+  - triggers:
+      - "lt.tilde	"
+    replace: "≲"
+  - triggers:
+      - "lt.tilde.not	"
+    replace: "≴"
+  - triggers:
+      - "lt.tri	"
+    replace: "⊲"
+  - triggers:
+      - "lt.tri.eq	"
+    replace: "⊴"
+  - triggers:
+      - "lt.tri.eq.not	"
+    replace: "⋬"
+  - triggers:
+      - "lt.tri.not	"
+    replace: "⋪"
+  - triggers:
+      - "lt.triple	"
+    replace: "⋘"
+  - triggers:
+      - "lt.triple.nested	"
+    replace: "⫷"
+  - triggers:
+      - "macron	"
+    replace: "¯"
+  - triggers:
+      - "maltese	"
+    replace: "✠"
+  - triggers:
+      - "mapsto	"
+    replace: "↦"
+  - triggers:
+      - "mapsto.long	"
+    replace: "⟼"
+  - triggers:
+      - "minus	"
+    replace: "−"
+  - triggers:
+      - "minus.circle	"
+    replace: "⊖"
+  - triggers:
+      - "minus.dot	"
+    replace: "∸"
+  - triggers:
+      - "minus.plus	"
+    replace: "∓"
+  - triggers:
+      - "minus.square	"
+    replace: "⊟"
+  - triggers:
+      - "minus.tilde	"
+    replace: "≂"
+  - triggers:
+      - "minus.triangle	"
+    replace: "⨺"
+  - triggers:
+      - "miny	"
+    replace: "⧿"
+  - triggers:
+      - "models	"
+    replace: "⊧"
+  - triggers:
+      - "mu	"
+    replace: "μ"
+  - triggers:
+      - "multimap	"
+    replace: "⊸"
+  - triggers:
+      - "multimap.double	"
+    replace: "⧟"
+  - triggers:
+      - "nabla	"
+    replace: "∇"
+  - triggers:
+      - "natural	"
+    replace: "♮"
+  - triggers:
+      - "natural.t	"
+    replace: "𝄮"
+  - triggers:
+      - "natural.b	"
+    replace: "𝄯"
+  - triggers:
+      - "not	"
+    replace: "¬"
+  - triggers:
+      - "note.up	"
+    replace: "🎜"
+  - triggers:
+      - "note.down	"
+    replace: "🎝"
+  - triggers:
+      - "note.whole	"
+    replace: "𝅝"
+  - triggers:
+      - "note.half	"
+    replace: "𝅗𝅥"
+  - triggers:
+      - "note.quarter	"
+    replace: "𝅘𝅥"
+  - triggers:
+      - "note.quarter.alt	"
+    replace: "♩"
+  - triggers:
+      - "note.eighth	"
+    replace: "𝅘𝅥𝅮"
+  - triggers:
+      - "note.eighth.alt	"
+    replace: "♪"
+  - triggers:
+      - "note.eighth.beamed	"
+    replace: "♫"
+  - triggers:
+      - "note.sixteenth	"
+    replace: "𝅘𝅥𝅯"
+  - triggers:
+      - "note.sixteenth.beamed	"
+    replace: "♬"
+  - triggers:
+      - "note.grace	"
+    replace: "𝆕"
+  - triggers:
+      - "note.grace.slash	"
+    replace: "𝆔"
+  - triggers:
+      - "nothing	"
+    replace: "∅"
+  - triggers:
+      - "nothing.arrow.r	"
+    replace: "⦳"
+  - triggers:
+      - "nothing.arrow.l	"
+    replace: "⦴"
+  - triggers:
+      - "nothing.bar	"
+    replace: "⦱"
+  - triggers:
+      - "nothing.circle	"
+    replace: "⦲"
+  - triggers:
+      - "nothing.rev	"
+    replace: "⦰"
+  - triggers:
+      - "nu	"
+    replace: "ν"
+  - triggers:
+      - "numero	"
+    replace: "№"
+  - triggers:
+      - "omega	"
+    replace: "ω"
+  - triggers:
+      - "omicron	"
+    replace: "ο"
+  - triggers:
+      - "oo	"
+    replace: "∞"
+  - triggers:
+      - "or	"
+    replace: "∨"
+  - triggers:
+      - "or.big	"
+    replace: "⋁"
+  - triggers:
+      - "or.curly	"
+    replace: "⋎"
+  - triggers:
+      - "or.dot	"
+    replace: "⟇"
+  - triggers:
+      - "or.double	"
+    replace: "⩔"
+  - triggers:
+      - "original	"
+    replace: "⊶"
+  - triggers:
+      - "parallel	"
+    replace: "∥"
+  - triggers:
+      - "parallel.struck	"
+    replace: "⫲"
+  - triggers:
+      - "parallel.circle	"
+    replace: "⦷"
+  - triggers:
+      - "parallel.eq	"
+    replace: "⋕"
+  - triggers:
+      - "parallel.equiv	"
+    replace: "⩨"
+  - triggers:
+      - "parallel.not	"
+    replace: "∦"
+  - triggers:
+      - "parallel.slanted.eq	"
+    replace: "⧣"
+  - triggers:
+      - "parallel.slanted.eq.tilde	"
+    replace: "⧤"
+  - triggers:
+      - "parallel.slanted.equiv	"
+    replace: "⧥"
+  - triggers:
+      - "parallel.tilde	"
+    replace: "⫳"
+  - triggers:
+      - "parallelogram.stroked	"
+    replace: "▱"
+  - triggers:
+      - "parallelogram.filled	"
+    replace: "▰"
+  - triggers:
+      - "paren.l.double	"
+    replace: "⦅"
+  - triggers:
+      - "paren.r.double	"
+    replace: "⦆"
+  - triggers:
+      - "paren.t	"
+    replace: "⏜"
+  - triggers:
+      - "paren.b	"
+    replace: "⏝"
+  - triggers:
+      - "partial	"
+    replace: "∂"
+  - triggers:
+      - "penta.stroked	"
+    replace: "⬠"
+  - triggers:
+      - "penta.filled	"
+    replace: "⬟"
+  - triggers:
+      - "permille	"
+    replace: "‰"
+  - triggers:
+      - "perp	"
+    replace: "⟂"
+  - triggers:
+      - "perp.circle	"
+    replace: "⦹"
+  - triggers:
+      - "peso	"
+    replace: "₱"
+  - triggers:
+      - "phi	"
+    replace: "φ"
+  - triggers:
+      - "phi.alt	"
+    replace: "ϕ"
+  - triggers:
+      - "pi	"
+    replace: "π"
+  - triggers:
+      - "pi.alt	"
+    replace: "ϖ"
+  - triggers:
+      - "pilcrow	"
+    replace: "¶"
+  - triggers:
+      - "pilcrow.rev	"
+    replace: "⁋"
+  - triggers:
+      - "planck	"
+    replace: "ℎ"
+  - triggers:
+      - "planck.reduce	"
+    replace: "ℏ"
+  - triggers:
+      - "plus.circle	"
+    replace: "⊕"
+  - triggers:
+      - "plus.circle.arrow	"
+    replace: "⟴"
+  - triggers:
+      - "plus.circle.big	"
+    replace: "⨁"
+  - triggers:
+      - "plus.dot	"
+    replace: "∔"
+  - triggers:
+      - "plus.double	"
+    replace: "⧺"
+  - triggers:
+      - "plus.minus	"
+    replace: "±"
+  - triggers:
+      - "plus.small	"
+    replace: "﹢"
+  - triggers:
+      - "plus.square	"
+    replace: "⊞"
+  - triggers:
+      - "plus.triangle	"
+    replace: "⨹"
+  - triggers:
+      - "plus.triple	"
+    replace: "⧻"
+  - triggers:
+      - "pound	"
+    replace: "£"
+  - triggers:
+      - "prec	"
+    replace: "≺"
+  - triggers:
+      - "prec.approx	"
+    replace: "⪷"
+  - triggers:
+      - "prec.curly.eq	"
+    replace: "≼"
+  - triggers:
+      - "prec.curly.eq.not	"
+    replace: "⋠"
+  - triggers:
+      - "prec.double	"
+    replace: "⪻"
+  - triggers:
+      - "prec.eq	"
+    replace: "⪯"
+  - triggers:
+      - "prec.equiv	"
+    replace: "⪳"
+  - triggers:
+      - "prec.napprox	"
+    replace: "⪹"
+  - triggers:
+      - "prec.neq	"
+    replace: "⪱"
+  - triggers:
+      - "prec.nequiv	"
+    replace: "⪵"
+  - triggers:
+      - "prec.not	"
+    replace: "⊀"
+  - triggers:
+      - "prec.ntilde	"
+    replace: "⋨"
+  - triggers:
+      - "prec.tilde	"
+    replace: "≾"
+  - triggers:
+      - "prime	"
+    replace: "′"
+  - triggers:
+      - "prime.rev	"
+    replace: "‵"
+  - triggers:
+      - "prime.double	"
+    replace: "″"
+  - triggers:
+      - "prime.double.rev	"
+    replace: "‶"
+  - triggers:
+      - "prime.triple	"
+    replace: "‴"
+  - triggers:
+      - "prime.triple.rev	"
+    replace: "‷"
+  - triggers:
+      - "prime.quad	"
+    replace: "⁗"
+  - triggers:
+      - "product	"
+    replace: "∏"
+  - triggers:
+      - "product.co	"
+    replace: "∐"
+  - triggers:
+      - "prop	"
+    replace: "∝"
+  - triggers:
+      - "psi	"
+    replace: "ψ"
+  - triggers:
+      - "qed	"
+    replace: "∎"
+  - triggers:
+      - "quest.double	"
+    replace: "⁇"
+  - triggers:
+      - "quest.excl	"
+    replace: "⁈"
+  - triggers:
+      - "quest.inv	"
+    replace: "¿"
+  - triggers:
+      - "quote.l.double	"
+    replace: "“"
+  - triggers:
+      - "quote.l.single	"
+    replace: "‘"
+  - triggers:
+      - "quote.r.double	"
+    replace: "”"
+  - triggers:
+      - "quote.r.single	"
+    replace: "’"
+  - triggers:
+      - "quote.angle.l.double	"
+    replace: "«"
+  - triggers:
+      - "quote.angle.l.single	"
+    replace: "‹"
+  - triggers:
+      - "quote.angle.r.double	"
+    replace: "»"
+  - triggers:
+      - "quote.angle.r.single	"
+    replace: "›"
+  - triggers:
+      - "quote.high.double	"
+    replace: "‟"
+  - triggers:
+      - "quote.high.single	"
+    replace: "‛"
+  - triggers:
+      - "quote.low.double	"
+    replace: "„"
+  - triggers:
+      - "quote.low.single	"
+    replace: "‚"
+  - triggers:
+      - "ratio	"
+    replace: "∶"
+  - triggers:
+      - "rect.stroked.h	"
+    replace: "▭"
+  - triggers:
+      - "rect.stroked.v	"
+    replace: "▯"
+  - triggers:
+      - "rect.filled.h	"
+    replace: "▬"
+  - triggers:
+      - "rect.filled.v	"
+    replace: "▮"
+  - triggers:
+      - "refmark	"
+    replace: "※"
+  - triggers:
+      - "rest.whole	"
+    replace: "𝄻"
+  - triggers:
+      - "rest.multiple	"
+    replace: "𝄺"
+  - triggers:
+      - "rest.multiple.measure	"
+    replace: "𝄩"
+  - triggers:
+      - "rest.half	"
+    replace: "𝄼"
+  - triggers:
+      - "rest.quarter	"
+    replace: "𝄽"
+  - triggers:
+      - "rest.eighth	"
+    replace: "𝄾"
+  - triggers:
+      - "rest.sixteenth	"
+    replace: "𝄿"
+  - triggers:
+      - "rho	"
+    replace: "ρ"
+  - triggers:
+      - "rho.alt	"
+    replace: "ϱ"
+  - triggers:
+      - "rlm	"
+    replace: "‏"
+  - triggers:
+      - "ruble	"
+    replace: "₽"
+  - triggers:
+      - "rupee	"
+    replace: "₹"
+  - triggers:
+      - "sect	"
+    replace: "∩"
+  - triggers:
+      - "sect.and	"
+    replace: "⩄"
+  - triggers:
+      - "sect.big	"
+    replace: "⋂"
+  - triggers:
+      - "sect.dot	"
+    replace: "⩀"
+  - triggers:
+      - "sect.double	"
+    replace: "⋒"
+  - triggers:
+      - "sect.sq	"
+    replace: "⊓"
+  - triggers:
+      - "sect.sq.big	"
+    replace: "⨅"
+  - triggers:
+      - "sect.sq.double	"
+    replace: "⩎"
+  - triggers:
+      - "section	"
+    replace: "§"
+  - triggers:
+      - "semi.rev	"
+    replace: "⁏"
+  - triggers:
+      - "sharp	"
+    replace: "♯"
+  - triggers:
+      - "sharp.t	"
+    replace: "𝄰"
+  - triggers:
+      - "sharp.b	"
+    replace: "𝄱"
+  - triggers:
+      - "sharp.double	"
+    replace: "𝄪"
+  - triggers:
+      - "sharp.quarter	"
+    replace: "𝄲"
+  - triggers:
+      - "shell.l	"
+    replace: "❲"
+  - triggers:
+      - "shell.l.double	"
+    replace: "⟬"
+  - triggers:
+      - "shell.r	"
+    replace: "❳"
+  - triggers:
+      - "shell.r.double	"
+    replace: "⟭"
+  - triggers:
+      - "shell.t	"
+    replace: "⏠"
+  - triggers:
+      - "shell.b	"
+    replace: "⏡"
+  - triggers:
+      - "shin	"
+    replace: "ש"
+  - triggers:
+      - "sigma	"
+    replace: "σ"
+  - triggers:
+      - "sigma.alt	"
+    replace: "ς"
+  - triggers:
+      - "slash.double	"
+    replace: "⫽"
+  - triggers:
+      - "slash.triple	"
+    replace: "⫻"
+  - triggers:
+      - "slash.big	"
+    replace: "⧸"
+  - triggers:
+      - "smash	"
+    replace: "⨳"
+  - triggers:
+      - "smt	"
+    replace: "⪪"
+  - triggers:
+      - "smt.eq	"
+    replace: "⪬"
+  - triggers:
+      - "space.nobreak	"
+    replace: " "
+  - triggers:
+      - "space.nobreak.narrow	"
+    replace: " "
+  - triggers:
+      - "space.en	"
+    replace: " "
+  - triggers:
+      - "space.quad	"
+    replace: " "
+  - triggers:
+      - "space.third	"
+    replace: " "
+  - triggers:
+      - "space.quarter	"
+    replace: " "
+  - triggers:
+      - "space.sixth	"
+    replace: " "
+  - triggers:
+      - "space.med	"
+    replace: " "
+  - triggers:
+      - "space.fig	"
+    replace: " "
+  - triggers:
+      - "space.punct	"
+    replace: " "
+  - triggers:
+      - "space.thin	"
+    replace: " "
+  - triggers:
+      - "space.hair	"
+    replace: " "
+  - triggers:
+      - "square.stroked	"
+    replace: "□"
+  - triggers:
+      - "square.stroked.tiny	"
+    replace: "▫"
+  - triggers:
+      - "square.stroked.small	"
+    replace: "◽"
+  - triggers:
+      - "square.stroked.medium	"
+    replace: "◻"
+  - triggers:
+      - "square.stroked.big	"
+    replace: "⬜"
+  - triggers:
+      - "square.stroked.dotted	"
+    replace: "⬚"
+  - triggers:
+      - "square.stroked.rounded	"
+    replace: "▢"
+  - triggers:
+      - "square.filled	"
+    replace: "■"
+  - triggers:
+      - "square.filled.tiny	"
+    replace: "▪"
+  - triggers:
+      - "square.filled.small	"
+    replace: "◾"
+  - triggers:
+      - "square.filled.medium	"
+    replace: "◼"
+  - triggers:
+      - "square.filled.big	"
+    replace: "⬛"
+  - triggers:
+      - "star.op	"
+    replace: "⋆"
+  - triggers:
+      - "star.stroked	"
+    replace: "☆"
+  - triggers:
+      - "star.filled	"
+    replace: "★"
+  - triggers:
+      - "subset	"
+    replace: "⊂"
+  - triggers:
+      - "subset.dot	"
+    replace: "⪽"
+  - triggers:
+      - "subset.double	"
+    replace: "⋐"
+  - triggers:
+      - "subset.eq	"
+    replace: "⊆"
+  - triggers:
+      - "subset.eq.not	"
+    replace: "⊈"
+  - triggers:
+      - "subset.eq.sq	"
+    replace: "⊑"
+  - triggers:
+      - "subset.eq.sq.not	"
+    replace: "⋢"
+  - triggers:
+      - "subset.neq	"
+    replace: "⊊"
+  - triggers:
+      - "subset.not	"
+    replace: "⊄"
+  - triggers:
+      - "subset.sq	"
+    replace: "⊏"
+  - triggers:
+      - "subset.sq.neq	"
+    replace: "⋤"
+  - triggers:
+      - "succ	"
+    replace: "≻"
+  - triggers:
+      - "succ.approx	"
+    replace: "⪸"
+  - triggers:
+      - "succ.curly.eq	"
+    replace: "≽"
+  - triggers:
+      - "succ.curly.eq.not	"
+    replace: "⋡"
+  - triggers:
+      - "succ.double	"
+    replace: "⪼"
+  - triggers:
+      - "succ.eq	"
+    replace: "⪰"
+  - triggers:
+      - "succ.equiv	"
+    replace: "⪴"
+  - triggers:
+      - "succ.napprox	"
+    replace: "⪺"
+  - triggers:
+      - "succ.neq	"
+    replace: "⪲"
+  - triggers:
+      - "succ.nequiv	"
+    replace: "⪶"
+  - triggers:
+      - "succ.not	"
+    replace: "⊁"
+  - triggers:
+      - "succ.ntilde	"
+    replace: "⋩"
+  - triggers:
+      - "succ.tilde	"
+    replace: "≿"
+  - triggers:
+      - "suit.club.filled	"
+    replace: "♣"
+  - triggers:
+      - "suit.club.stroked	"
+    replace: "♧"
+  - triggers:
+      - "suit.diamond.filled	"
+    replace: "♦"
+  - triggers:
+      - "suit.diamond.stroked	"
+    replace: "♢"
+  - triggers:
+      - "suit.heart.filled	"
+    replace: "♥"
+  - triggers:
+      - "suit.heart.stroked	"
+    replace: "♡"
+  - triggers:
+      - "suit.spade.filled	"
+    replace: "♠"
+  - triggers:
+      - "suit.spade.stroked	"
+    replace: "♤"
+  - triggers:
+      - "sum	"
+    replace: "∑"
+  - triggers:
+      - "sum.integral	"
+    replace: "⨋"
+  - triggers:
+      - "supset	"
+    replace: "⊃"
+  - triggers:
+      - "supset.dot	"
+    replace: "⪾"
+  - triggers:
+      - "supset.double	"
+    replace: "⋑"
+  - triggers:
+      - "supset.eq	"
+    replace: "⊇"
+  - triggers:
+      - "supset.eq.not	"
+    replace: "⊉"
+  - triggers:
+      - "supset.eq.sq	"
+    replace: "⊒"
+  - triggers:
+      - "supset.eq.sq.not	"
+    replace: "⋣"
+  - triggers:
+      - "supset.neq	"
+    replace: "⊋"
+  - triggers:
+      - "supset.not	"
+    replace: "⊅"
+  - triggers:
+      - "supset.sq	"
+    replace: "⊐"
+  - triggers:
+      - "supset.sq.neq	"
+    replace: "⋥"
+  - triggers:
+      - "tack.r	"
+    replace: "⊢"
+  - triggers:
+      - "tack.r.not	"
+    replace: "⊬"
+  - triggers:
+      - "tack.r.long	"
+    replace: "⟝"
+  - triggers:
+      - "tack.r.short	"
+    replace: "⊦"
+  - triggers:
+      - "tack.r.double	"
+    replace: "⊨"
+  - triggers:
+      - "tack.r.double.not	"
+    replace: "⊭"
+  - triggers:
+      - "tack.l	"
+    replace: "⊣"
+  - triggers:
+      - "tack.l.long	"
+    replace: "⟞"
+  - triggers:
+      - "tack.l.short	"
+    replace: "⫞"
+  - triggers:
+      - "tack.l.double	"
+    replace: "⫤"
+  - triggers:
+      - "tack.t	"
+    replace: "⊥"
+  - triggers:
+      - "tack.t.big	"
+    replace: "⟘"
+  - triggers:
+      - "tack.t.double	"
+    replace: "⫫"
+  - triggers:
+      - "tack.t.short	"
+    replace: "⫠"
+  - triggers:
+      - "tack.b	"
+    replace: "⊤"
+  - triggers:
+      - "tack.b.big	"
+    replace: "⟙"
+  - triggers:
+      - "tack.b.double	"
+    replace: "⫪"
+  - triggers:
+      - "tack.b.short	"
+    replace: "⫟"
+  - triggers:
+      - "tack.l.r	"
+    replace: "⟛"
+  - triggers:
+      - "tau	"
+    replace: "τ"
+  - triggers:
+      - "therefore	"
+    replace: "∴"
+  - triggers:
+      - "theta	"
+    replace: "θ"
+  - triggers:
+      - "theta.alt	"
+    replace: "ϑ"
+  - triggers:
+      - "tilde.op	"
+    replace: "∼"
+  - triggers:
+      - "tilde.dot	"
+    replace: "⩪"
+  - triggers:
+      - "tilde.eq	"
+    replace: "≃"
+  - triggers:
+      - "tilde.eq.not	"
+    replace: "≄"
+  - triggers:
+      - "tilde.eq.rev	"
+    replace: "⋍"
+  - triggers:
+      - "tilde.equiv	"
+    replace: "≅"
+  - triggers:
+      - "tilde.equiv.not	"
+    replace: "≇"
+  - triggers:
+      - "tilde.nequiv	"
+    replace: "≆"
+  - triggers:
+      - "tilde.not	"
+    replace: "≁"
+  - triggers:
+      - "tilde.rev	"
+    replace: "∽"
+  - triggers:
+      - "tilde.rev.equiv	"
+    replace: "≌"
+  - triggers:
+      - "tilde.triple	"
+    replace: "≋"
+  - triggers:
+      - "times	"
+    replace: "×"
+  - triggers:
+      - "times.big	"
+    replace: "⨉"
+  - triggers:
+      - "times.circle	"
+    replace: "⊗"
+  - triggers:
+      - "times.circle.big	"
+    replace: "⨂"
+  - triggers:
+      - "times.div	"
+    replace: "⋇"
+  - triggers:
+      - "times.three.l	"
+    replace: "⋋"
+  - triggers:
+      - "times.three.r	"
+    replace: "⋌"
+  - triggers:
+      - "times.l	"
+    replace: "⋉"
+  - triggers:
+      - "times.r	"
+    replace: "⋊"
+  - triggers:
+      - "times.square	"
+    replace: "⊠"
+  - triggers:
+      - "times.triangle	"
+    replace: "⨻"
+  - triggers:
+      - "tiny	"
+    replace: "⧾"
+  - triggers:
+      - "top	"
+    replace: "⊤"
+  - triggers:
+      - "trademark	"
+    replace: "™"
+  - triggers:
+      - "trademark.registered	"
+    replace: "®"
+  - triggers:
+      - "trademark.service	"
+    replace: "℠"
+  - triggers:
+      - "triangle.stroked.t	"
+    replace: "△"
+  - triggers:
+      - "triangle.stroked.b	"
+    replace: "▽"
+  - triggers:
+      - "triangle.stroked.r	"
+    replace: "▷"
+  - triggers:
+      - "triangle.stroked.l	"
+    replace: "◁"
+  - triggers:
+      - "triangle.stroked.bl	"
+    replace: "◺"
+  - triggers:
+      - "triangle.stroked.br	"
+    replace: "◿"
+  - triggers:
+      - "triangle.stroked.tl	"
+    replace: "◸"
+  - triggers:
+      - "triangle.stroked.tr	"
+    replace: "◹"
+  - triggers:
+      - "triangle.stroked.small.t	"
+    replace: "▵"
+  - triggers:
+      - "triangle.stroked.small.b	"
+    replace: "▿"
+  - triggers:
+      - "triangle.stroked.small.r	"
+    replace: "▹"
+  - triggers:
+      - "triangle.stroked.small.l	"
+    replace: "◃"
+  - triggers:
+      - "triangle.stroked.rounded	"
+    replace: "🛆"
+  - triggers:
+      - "triangle.stroked.nested	"
+    replace: "⟁"
+  - triggers:
+      - "triangle.stroked.dot	"
+    replace: "◬"
+  - triggers:
+      - "triangle.filled.t	"
+    replace: "▲"
+  - triggers:
+      - "triangle.filled.b	"
+    replace: "▼"
+  - triggers:
+      - "triangle.filled.r	"
+    replace: "▶"
+  - triggers:
+      - "triangle.filled.l	"
+    replace: "◀"
+  - triggers:
+      - "triangle.filled.bl	"
+    replace: "◣"
+  - triggers:
+      - "triangle.filled.br	"
+    replace: "◢"
+  - triggers:
+      - "triangle.filled.tl	"
+    replace: "◤"
+  - triggers:
+      - "triangle.filled.tr	"
+    replace: "◥"
+  - triggers:
+      - "triangle.filled.small.t	"
+    replace: "▴"
+  - triggers:
+      - "triangle.filled.small.b	"
+    replace: "▾"
+  - triggers:
+      - "triangle.filled.small.r	"
+    replace: "▸"
+  - triggers:
+      - "triangle.filled.small.l	"
+    replace: "◂"
+  - triggers:
+      - "union	"
+    replace: "∪"
+  - triggers:
+      - "union.arrow	"
+    replace: "⊌"
+  - triggers:
+      - "union.big	"
+    replace: "⋃"
+  - triggers:
+      - "union.dot	"
+    replace: "⊍"
+  - triggers:
+      - "union.dot.big	"
+    replace: "⨃"
+  - triggers:
+      - "union.double	"
+    replace: "⋓"
+  - triggers:
+      - "union.minus	"
+    replace: "⩁"
+  - triggers:
+      - "union.or	"
+    replace: "⩅"
+  - triggers:
+      - "union.plus	"
+    replace: "⊎"
+  - triggers:
+      - "union.plus.big	"
+    replace: "⨄"
+  - triggers:
+      - "union.sq	"
+    replace: "⊔"
+  - triggers:
+      - "union.sq.big	"
+    replace: "⨆"
+  - triggers:
+      - "union.sq.double	"
+    replace: "⩏"
+  - triggers:
+      - "upsilon	"
+    replace: "υ"
+  - triggers:
+      - "without	"
+    replace: "∖"
+  - triggers:
+      - "wj	"
+    replace: "⁠"
+  - triggers:
+      - "won	"
+    replace: "₩"
+  - triggers:
+      - "wreath	"
+    replace: "≀"
+  - triggers:
+      - "xi	"
+    replace: "ξ"
+  - triggers:
+      - "xor	"
+    replace: "⊕"
+  - triggers:
+      - "xor.big	"
+    replace: "⨁"
+  - triggers:
+      - "yen	"
+    replace: "¥"
+  - triggers:
+      - "zeta	"
+    replace: "ζ"
+  - triggers:
+      - "zwj	"
+    replace: "‍"
+  - triggers:
+      - "zwnj	"
+    replace: "‌"
+  - triggers:
+      - "zws	"
+    replace: "​"

@@ -1,0 +1,7 @@
+name: "typst-math-symbols"
+title: "Typst Math Symbols"
+description: All Typst math symbols to Unicode
+homepage: "https://typst.app/docs/reference/symbols/sym/"
+version: 0.1.0
+author: kiri
+tags: ["math, symbols, typst"]
