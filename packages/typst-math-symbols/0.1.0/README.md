@@ -7,18 +7,17 @@ Map Typst symbol names to Unicode.
 - Additional symbols index: typst.app/docs/reference/symbols/
 
 ## Usage
-Type the trigger, then press **Tab** to expand.
+Type the trigger, then press `\` to expand.
 
 Examples:
 
 ```
-pi<Tab> → π
-PP<Tab> → ℙ
-oo<Tab> → ∞
-times<Tab> → ×
-in<Tab> → ∈
-in.not<Tab> → ∉
-exists<Tab> → ∃
-triangle.stroked.r → ▷
+pi\→ π
+PP\ → ℙ
+oo\ → ∞
+times\ → ×
+in\ → ∈
+in.not\ → ∉
+exists\ → ∃
+triangle.stroked.r\ → ▷
 ```
-
