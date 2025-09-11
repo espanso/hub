@@ -1,0 +1,83 @@
+global_vars:
+  - name: repeat_python
+    type: echo
+    params:
+      echo: "python" # Replace this with the path to your Python instance if automatic detection is failing
+
+matches:
+  - trigger: ";rep"
+    replace: "{{stdout}}"
+    vars:
+      - name: "f"
+        type: form
+        params:
+          layout: "Repeat text\n\nTimes:\n[[times]]\nText:\n[[text]]\nSeparator Between Repeats (JSON):\n[[separator]]"
+          fields:
+            text:
+              multiline: true
+      - name: stdout
+        type: script
+        params:
+          trim: false
+          args:
+            - "{{repeat_python}}"
+            - "%CONFIG%/match/packages/repeat/repeat.py"
+            - "{{f.times}}"
+            - "{{f.separator}}"
+            - "{{f.text}}"
+  - trigger: ":rep"
+    replace: "{{stdout}}"
+    vars:
+      - name: "f"
+        type: form
+        params:
+          layout: "Repeat text template\n\nTemplate Text:\n[[template]]\nItems (one per row):\n[[items]]\nSeparator Between Repeats (JSON):\n[[separator]]\nTemplate Placeholder:\n[[placeholder]]"
+          fields:
+            template:
+              multiline: true
+            items:
+              multiline: true
+            placeholder:
+              default: "[]"
+      - name: stdout
+        type: script
+        params:
+          trim: false
+          args:
+            - "{{repeat_python}}"
+            - "%CONFIG%/match/packages/repeat/foreach.py"
+            - "{{f.template}}"
+            - "{{f.separator}}"
+            - "{{f.placeholder}}"
+            - "{{f.items}}"
+  - trigger: "^rep"
+    replace: "{{stdout}}"
+    vars:
+      - name: "f"
+        type: form
+        params:
+          layout: "Repeat text template (extended)\n\nTemplate Text: [[template]]\nItems: [[items]]\nSeparator Between Repeats (JSON) [[repsep]]\nItem Separator (JSON) [[rowsep]]\nColumn Separator (JSON) [[colsep]]\nTemplate Placeholder [[placeholder]]"
+          fields:
+            template:
+              multiline: true
+            items:
+              multiline: true
+            rowsep:
+              default: "\\n"
+            colsep:
+              default: "|"
+            placeholder:
+              default: "[N]"
+      - name: stdout
+        type: script
+        params:
+          trim: false
+          args:
+            - "{{repeat_python}}"
+            - "%CONFIG%/match/packages/repeat/foreach_ext.py"
+            - "{{f.template}}"
+            - "{{f.placeholder}}"
+            - "{{f.rowsep}}"
+            - "{{f.colsep}}"
+            - "{{f.items}}"
+            - "{{f.repsep}}"
