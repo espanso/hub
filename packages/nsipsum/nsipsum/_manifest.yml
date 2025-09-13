@@ -1,0 +1,7 @@
+name: "nsipsum"
+title: "Network Security Lorem Ipsum"
+description: Provides randomized lorem-ipsum style filler text with a networking and security theme. It is meant for demos, labs, and documentation mockups.
+homepage: "https://github.com/StevenKearney/espanso-nsipsum"
+version: 0.1.0
+author: Steven Kearney
+tags: ["lorem ipsum", "filler text", "networking", "security"]
