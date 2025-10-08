@@ -1,7 +1,7 @@
 name: "cnsnnt"
 title: "Consonant Autocomplete"
-description:  'Just input the consonants, press ";", and autocomplete will do the rest.' 
-homepage: "https://espanso.org/docs/packages/creating-a-package/#publish-on-the-hub-public"
+description: '"Why waste time type lot letter when few letter do trick."'
+homepage: "https://github.com/chriskevini/cnsnnt"
 version: 0.1.0
 author: Chris Irineo
-tags: ["example"]
+tags: ["autocomplete", "english", "writing", "alias", "abbreviation"]
