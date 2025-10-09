@@ -2087,10 +2087,6 @@ matches:
     replace: "owned"
     word: true
     propagate_case: true
-  - triggers: ["pls"]
-    replace: "plays"
-    word: true
-    propagate_case: true
   - triggers: ["cmnd", "cmmnd"]
     replace: "command"
     word: true
@@ -7461,10 +7457,6 @@ matches:
     propagate_case: true
   - triggers: ["asstnc", "ssstnc", "sstnc", "assstnc"]
     replace: "assistance"
-    word: true
-    propagate_case: true
-  - triggers: ["esl"]
-    replace: "easily"
     word: true
     propagate_case: true
   - triggers: ["crdt"]
@@ -14191,7 +14183,7 @@ matches:
     replace: "batting"
     word: true
     propagate_case: true
-  - triggers: ["apls", "ppls", "pls", "appls"]
+  - triggers: ["apls", "ppls", "appls"]
     replace: "appeals"
     word: true
     propagate_case: true
@@ -20191,10 +20183,6 @@ matches:
     replace: "fights"
     word: true
     propagate_case: true
-  - triggers: ["pls"]
-    replace: "poles"
-    word: true
-    propagate_case: true
   - triggers: ["wht"]
     replace: "wheat"
     word: true
@@ -24051,7 +24039,7 @@ matches:
     replace: "georges"
     word: true
     propagate_case: true
-  - triggers: ["apls", "ppls", "pls", "appls"]
+  - triggers: ["apls", "ppls", "appls"]
     replace: "applies"
     word: true
     propagate_case: true
@@ -24491,7 +24479,7 @@ matches:
     replace: "sacked"
     word: true
     propagate_case: true
-  - triggers: ["pls", "plls"]
+  - triggers: ["plls"]
     replace: "polls"
     word: true
     propagate_case: true
@@ -27239,10 +27227,6 @@ matches:
     replace: "loading"
     word: true
     propagate_case: true
-  - triggers: ["pls"]
-    replace: "pools"
-    word: true
-    propagate_case: true
   - triggers: ["spchs"]
     replace: "speeches"
     word: true
@@ -28293,10 +28277,6 @@ matches:
     propagate_case: true
   - triggers: ["sprl"]
     replace: "spiral"
-    word: true
-    propagate_case: true
-  - triggers: ["pls"]
-    replace: "please"
     word: true
     propagate_case: true
   - triggers: ["ptrng"]
@@ -30641,10 +30621,6 @@ matches:
     propagate_case: true
   - triggers: ["adpt", "dpt"]
     replace: "adapt"
-    word: true
-    propagate_case: true
-  - triggers: ["pls"]
-    replace: "pulse"
     word: true
     propagate_case: true
   - triggers: ["wltn"]
@@ -38443,10 +38419,6 @@ matches:
     replace: "alleging"
     word: true
     propagate_case: true
-  - triggers: ["omg"]
-    replace: "omega"
-    word: true
-    propagate_case: true
   - triggers: ["andrs", "ndrs"]
     replace: "anders"
     word: true
@@ -44859,7 +44831,7 @@ matches:
     replace: "barlow"
     word: true
     propagate_case: true
-  - triggers: ["pls", "plls"]
+  - triggers: ["plls"]
     replace: "pulls"
     word: true
     propagate_case: true
@@ -49199,7 +49171,7 @@ matches:
     replace: "johor"
     word: true
     propagate_case: true
-  - triggers: ["apls", "ppls", "pls", "appls"]
+  - triggers: ["apls", "ppls", "appls"]
     replace: "apples"
     word: true
     propagate_case: true
@@ -51655,10 +51627,6 @@ matches:
     replace: "forefront"
     word: true
     propagate_case: true
-  - triggers: ["pls"]
-    replace: "pleas"
-    word: true
-    propagate_case: true
   - triggers: ["wtrfls", "wtrflls"]
     replace: "waterfalls"
     word: true
@@ -52529,10 +52497,6 @@ matches:
     propagate_case: true
   - triggers: ["cmfrtbl"]
     replace: "comfortably"
-    word: true
-    propagate_case: true
-  - triggers: ["pls"]
-    replace: "palais"
     word: true
     propagate_case: true
   - triggers: ["clndstn"]
@@ -55683,7 +55647,7 @@ matches:
     replace: "exponential"
     word: true
     propagate_case: true
-  - triggers: ["pls", "plls"]
+  - triggers: ["plls"]
     replace: "pills"
     word: true
     propagate_case: true
@@ -61795,10 +61759,6 @@ matches:
     replace: "recreate"
     word: true
     propagate_case: true
-  - triggers: ["pls"]
-    replace: "piles"
-    word: true
-    propagate_case: true
   - triggers: ["prmrs"]
     replace: "premieres"
     word: true
@@ -62749,10 +62709,6 @@ matches:
     propagate_case: true
   - triggers: ["mnslghtr", "mnsltr"]
     replace: "manslaughter"
-    word: true
-    propagate_case: true
-  - triggers: ["brb"]
-    replace: "bribe"
     word: true
     propagate_case: true
   - triggers: ["spntnsl"]
@@ -63757,10 +63713,6 @@ matches:
     propagate_case: true
   - triggers: ["bts"]
     replace: "bytes"
-    word: true
-    propagate_case: true
-  - triggers: ["awk"]
-    replace: "awake"
     word: true
     propagate_case: true
   - triggers: ["vldtd"]
