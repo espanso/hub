@@ -10,7 +10,7 @@ While typing, try inputting long words with just consonants. Espanso should expa
 
 ## Other Features
 
-Besides first vowel disambiguation, other features include skipping repeated letters (acs -> access) and skipping silent letters (bkbn -> backbone). 
+Besides first vowel disambiguation, other features include skipping repeated letters (acs -> access), skipping silent letters (bkbn -> backbone) and phonetic substitution (tlfn -> telephone, bjt -> budget) 
 
 ## Examples
 
@@ -26,6 +26,9 @@ gnrl -> general
 gnrll -> generally
 rqr -> require
 rqrd -> required
+brj -> bridge
+flsf -> philosophy
+flpns -> philippines 
 imgn the psblts -> imagine the possibilities
 sftwr ngnr -> software engineer
 xtrml qkl -> extremely quickly
