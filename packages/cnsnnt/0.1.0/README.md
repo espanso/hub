@@ -63,7 +63,7 @@ The first letter can be inputted to distinguish between words with similar conso
 Make sure you have already installed **[Espanso](https://espanso.org/install/)** first.
 
 ```sh
-espanso install cnsnnt-highlander
+espanso install cnsnnt
 espanso restart
 ```
 
