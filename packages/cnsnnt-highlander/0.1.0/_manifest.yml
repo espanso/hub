@@ -1,0 +1,7 @@
+name: "cnsnnt-highlander"
+title: "Consonant Autocomplete Highlander Edition"
+description: "Type words using just consonants. (Now with even fewer strokes!)" 
+homepage: "https://github.com/chriskevini/cnsnnt"
+version: 0.1.0
+author: Chris Irineo
+tags: ["autocomplete", "english", "writing", "alias", "abbreviation"]
