@@ -64,7 +64,6 @@ Make sure you have already installed **[Espanso](https://espanso.org/install/)**
 
 ```sh
 espanso install cnsnnt
-espanso restart
 ```
 
 ## 🤝 Contributing
