@@ -1,6 +1,6 @@
 [![lukeburns - espanso-julia-completions](https://img.shields.io/static/v1?label=lukeburns&message=espanso-julia-completions&color=blue&logo=github)](https://github.com/lukeburns/espanso-julia-completions)
 
-Julia 1.7.0 REPL completions for espanso.
+Julia 1.12.0 REPL completions for espanso.
 
 All Latex and emoji symbols available in the Julia REPL are made available with this package. The package version indicates the version of Julia used to generate the substitutions.
 
