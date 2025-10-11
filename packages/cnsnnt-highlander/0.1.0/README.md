@@ -66,7 +66,6 @@ Make sure you have already installed **[Espanso](https://espanso.org/install/)**
 
 ```sh
 espanso install cnsnnt-highlander
-espanso restart
 ```
 
 ## 🤝 Contributing
