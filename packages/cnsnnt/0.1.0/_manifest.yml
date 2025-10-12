@@ -1,0 +1,7 @@
+name: "cnsnnt"
+title: "Consonant Autocomplete"
+description: '"Why waste time type lot letter when few letter do trick."'
+homepage: "https://github.com/chriskevini/cnsnnt"
+version: 0.1.0
+author: Chris Irineo
+tags: ["autocomplete", "english", "writing", "alias", "abbreviation"]
