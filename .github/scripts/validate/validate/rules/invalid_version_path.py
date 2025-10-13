@@ -9,7 +9,7 @@ class InvalidVersionPath(ValidationRule):
         return "invalid_version_path"
 
     def validate(self, path: str):
-        version_entries = glob.glob(os.path.join(path, "[0-9].[0-9].[0-9]"))
+        version_entries = glob.glob(os.path.join(path, r"\d+.\d+.\d+"))
         all_entries = glob.glob(os.path.join(path, "*"))
 
         difference = list(set(all_entries) - set(version_entries))
@@ -19,5 +19,5 @@ class InvalidVersionPath(ValidationRule):
 
         for diff in difference:
             raise Exception(
-                f"unexpected file '{diff}', in that directory there should only be version number directories (like 0.1.0)"
+                f"unexpected file '{diff}', in that directory there should only be version number directories (like 2.1.15)"
             )
