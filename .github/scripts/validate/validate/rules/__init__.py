@@ -20,7 +20,7 @@ class ValidationRule(ABC):
         return os.path.basename(path)
 
     def get_version_paths(self, path: str) -> List[str]:
-        entries = glob.glob(os.path.join(path, "[0-9].[0-9].[0-9]"))
+        entries = glob.glob(os.path.join(path, "*.*.*"))
         return filter(lambda entry: os.path.isdir(entry), entries)
 
     def read_manifest(self, version_path: str):

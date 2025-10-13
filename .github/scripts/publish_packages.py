@@ -34,7 +34,7 @@ def get_released_packages() -> List[UploadedPackage]:
     packages = []
     for package in assets:
         file_name = package["name"]
-        match = re.search(r"(?P<name>.*?)-(?P<version>\d+.\d+.\d+).zip", file_name)
+        match = re.search(r"(?P<name>.*?)-(?P<version>\d+\.\d+\.\d+)\.zip", file_name)
         if match is not None:
             name = match.group("name")
             version = match.group("version")
