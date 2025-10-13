@@ -3,5 +3,5 @@ description: Julia latex and emoji completions for espanso
 homepage: https://github.com/lukeburns/espanso-julia-completions
 name: julia-completions
 title: Julia Completions
-version: 1.7.0
+version: 1.12.0
 tags: ["latex", "emoji"]
