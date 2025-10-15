@@ -13,10 +13,10 @@ This package is a set of **zero-collision** shorthand triggers, allowing you to 
 
 The system is engineered for speed by employing a few simple substitution rules:
 
-* **Vowel Skipping:** Most vowels are omitted (`btwn` $\rightarrow$ `between`).
-* **Repeated Letter Compression:** Skip redundant letters (`acs` $\rightarrow$ `access`).
-* **Silent Letter Removal:** Letters that don't affect pronunciation are dropped (`bkbn` $\rightarrow$ `backbone`).
-* **Phonetic Substitution:** Type it how it sounds like (`tlfn` $\rightarrow$ `telephone`, `bjt` $\rightarrow$ `budget`).
+* **Vowel Skipping:** Most vowels are omitted (`btwn` &rarr; `between`).
+* **Repeated Letter Compression:** Skip redundant letters (`acs` &rarr; `access`).
+* **Silent Letter Removal:** Letters that don't affect pronunciation are dropped (`bkbn` &rarr; `backbone`).
+* **Phonetic Substitution:** Type it how it sounds like (`tlfn` &rarr; `telephone`, `bjt` &rarr; `budget`).
 
 
 ## 💡 Usage
@@ -55,9 +55,9 @@ The first letter can be inputted to distinguish between words with similar conso
 | `brj` | `bridge` |
 | `flsf` | `philosophy` |
 | `flpns` | `philippines` |
-| `sftwr` `ngnr` | `software engineer` |
-| `xtrml` `qkl` | `extremely quickly` |
-| `imgn` `the` `psblts` | `imagine the possibilities` |
+| `sftwr ngnr` | `software engineer` |
+| `xtrml qkl` | `extremely quickly` |
+| `imgn the psblts` | `imagine the possibilities` |
 
 
 ## 🚀 Installation
