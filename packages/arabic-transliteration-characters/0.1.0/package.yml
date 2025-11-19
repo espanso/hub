@@ -1,0 +1,58 @@
+# ARABIC TRANSLITERATION CHARACTERS:
+
+matches:
+  # Letter ح
+  - trigger: ":h."
+    replace: "ḥ"
+  - trigger: ":H."
+    replace: "Ḥ"
+
+  # Letter ص
+  - trigger: ":s."
+    replace: "ṣ"
+  - trigger: ":S."
+    replace: "Ṣ"
+
+  # Letter ض
+  - trigger: ":d."
+    replace: "ḍ"
+  - trigger: ":D."
+    replace: "Ḍ"
+
+  # Letter ط
+  - trigger: ":t."
+    replace: "ṭ"
+  - trigger: ":T."
+    replace: "Ṭ"
+
+  # Letter ظ
+  - trigger: ":z."
+    replace: "ẓ"
+  - trigger: ":Z."
+    replace: "Ẓ"
+
+  # Letter ع
+  - trigger: ":["
+    replace: "ʿ"
+
+  # Letter ء
+  - trigger: ":]"
+    replace: "ʾ"
+
+  # Long Vowel ا
+  - trigger: ":a-"
+    replace: "ā"
+  - trigger: ":A-"
+    replace: "Ā"
+
+  # Long Vowel و
+  - trigger: ":u-"
+    replace: "ū"
+  - trigger: ":U-"
+    replace: "Ū"
+
+  # Long Vowel ي
+  - trigger: ":i-"
+    replace: "ī"
+  - trigger: ":I-"
+    replace: "Ī"
