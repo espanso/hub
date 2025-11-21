@@ -1,0 +1,7 @@
+name: "arabic-transliteration-characters"
+title: "Arabic Transliteration Characters"
+description: This package contains shortcuts for all of the romanized Arabic letters that typical keyboards do not include.
+version: 0.1.0
+author: Noah C.
+tags: ["language", "symbols", "characters", "accents", "letters", "arabic"]
+homepage: "https://github.com/noahcil"
