@@ -57,17 +57,3 @@ This means that _every_ time you type a colon after a space the picker will appe
 
 1. Open the `package.yml` file in the editor of your choice. Notepad works just fine.
 2. Add, delete, or edit any of the label/id pairs you see. The `label` is what shows when you are using the picker, and the `id` is the emoji that gets inserted by the `label` on the preceding line.
-
-## Known Issues:
-
-### Why do the emojis look weird on Windows?
-On Windows 10/11 devices, the emojis render in the dropdown like this:
-![Emoji Picker Screenshot running Windows 10](/images/screenshot_windows_10.png)
-
-Obviously this is not ideal. This is a Windows-specific issue that likely can be fixed in the Espanso program itself. See this open issue for more details: [emoji representation in search bar · Issue #1972 · espanso/espanso](https://github.com/espanso/espanso/issues/1972)
-
-### If I type an exact match for an emoji, why do I have to dig for it?
-For example, if you type `car` in the search bar you'll get hundreds of matching emojis. You'd think that 🚗 would be close to the top, right?  
-This is apparently a quirk of how Espanso renders options when showing search results. This is likely something that could be fixed within Espanso itself.
-
-As a workaround, you can type `:car` or `:car:` into the search dropdown to get exact matches.
