@@ -1,0 +1,6 @@
+name: "conventional-comments"
+title: "conventional comments"
+description: A simple package to show how to create your own one!
+version: 0.1.0
+author: Lucas Bonanni
+tags: ["conventional comments", "github"]
