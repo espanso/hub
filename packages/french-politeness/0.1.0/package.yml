@@ -1,0 +1,100 @@
+# espanso configuration file
+
+# This is the default configuration file, change it as you like it
+# You can refer to the official documentation:
+# https://espanso.org/docs/
+
+# Matches are the substitution rules, when you type the "trigger" string
+# it gets replaced by the "replace" string.
+name: french-politeness
+parent: default
+
+matches:
+  ### ----------------
+  ### Opening expressions
+  ### ----------------
+
+  - trigger: ["bjr", "Bjr"]
+    replace: "Bonjour"
+  - trigger: ["bapm", "Bapm"]
+    replace: "Bonne après-midi"
+  - trigger: ["bsr", "Bsr"]
+    replace: "Bonsoir"
+  - trigger: ["Mr", "M.", "mr"]
+    replace: "Monsieur,"
+  - trigger: ["Mme", "Mme.", "mme"]
+    replace: "Madame,"
+  - trigger: ["Mlle", "mlle"]
+    replace: "Mademoiselle,"
+  - trigger: ["MrMme", "Mr. Mme.", "mrmme"]
+    replace: "Monsieur, Madame,"
+  - trigger: ["MmesMrs", "Mmes Mrs", "mmesmrs"]
+    replace: "Mesdames, Messieurs,"
+  - trigger: ":cher"
+    form: |
+      [[dear]] [[name]],
+    form_fields:
+      dear:
+        type: choice
+        values:
+          - Cher
+          - Chère
+      name:
+        type: text
+        multiline: false
+  - trigger: "alattde"
+    form: |
+      À l’attention de [[name]],
+    form_fields:
+      name:
+        type: text
+        multiline: false
+  - trigger: ["slt", "Slt"]
+    replace: "Salut,"
+  - trigger: ["cc", "Cc"]
+    replace: "Coucou,"
+  - trigger: "jqtb"
+    replace: "J'espère que tu vas bien"
+  - trigger: "jqvb"
+    replace: "J'espère que vous allez bien"
+
+  ### ----------------
+  ### Closure expressions
+  ### ----------------
+
+  - trigger: "bat"
+    replace: "Bien à toi,"
+  - trigger: "bav"
+    replace: "Bien à vous,"
+  - trigger: "cdt"
+    replace: "Cordialement,"
+  - trigger: "sltd"
+    replace: "Salutations distinguées,"
+  - trigger: "eslt"
+    replace: "En vous envoyant mes salutations distinguées,"
+  - trigger: "aslt"
+    replace: "Avec l'expression de mes salutations distinguées,"
+  - trigger: "rsp"
+    replace: "Respectueusement,"
+  - trigger: "scr"
+    replace: "Sincèrement,"
+  - trigger: "sslt"
+    replace: "Sincères salutations,"
+  - trigger: "amslt"
+    replace: "Avec mes meilleures salutations,"
+  - trigger: "mpat"
+    replace: "Merci pour votre attention,"
+  - trigger: "attret"
+    replace: "Dans l'attente de votre retour,"
+
+  ### ----------------
+  ### Utils
+  ### ----------------
+
+  - trigger: ":hm"
+    replace: "{{mytime}}"
+    vars:
+      - name: mytime
+        type: date
+        params:
+          format: "%H:%M"
