@@ -14,22 +14,32 @@ matches:
   ### Opening expressions
   ### ----------------
 
-  - trigger: ["bjr", "Bjr"]
+  - triggers:
+      - "bjr"
+      - "Bjr"
     replace: "Bonjour"
-  - trigger: ["bapm", "Bapm"]
+  - triggers:
+      - "bapm"
+      - "Bapm"
     replace: "Bonne après-midi"
-  - trigger: ["bsr", "Bsr"]
+  - triggers:
+      - "bsr"
+      - "Bsr"
     replace: "Bonsoir"
-  - trigger: ["Mr", "M.", "mr"]
+  - triggers:
+      - "Mr"
+      - "M."
+      - "mr"
     replace: "Monsieur,"
-  - trigger: ["Mme", "Mme.", "mme"]
+  - triggers:
+      - "Mme"
+      - "Mme."
+      - "mme"
     replace: "Madame,"
-  - trigger: ["Mlle", "mlle"]
+  - triggers:
+      - "Mlle"
+      - "mlle"
     replace: "Mademoiselle,"
-  - trigger: ["MrMme", "Mr. Mme.", "mrmme"]
-    replace: "Monsieur, Madame,"
-  - trigger: ["MmesMrs", "Mmes Mrs", "mmesmrs"]
-    replace: "Mesdames, Messieurs,"
   - trigger: ":cher"
     form: |
       [[dear]] [[name]],
@@ -49,9 +59,13 @@ matches:
       name:
         type: text
         multiline: false
-  - trigger: ["slt", "Slt"]
+  - triggers:
+      - "slt"
+      - "Slt"
     replace: "Salut,"
-  - trigger: ["cc", "Cc"]
+  - triggers:
+      - "cc"
+      - "Cc"
     replace: "Coucou,"
   - trigger: "jqtb"
     replace: "J'espère que tu vas bien"
