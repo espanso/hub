@@ -14,32 +14,34 @@ matches:
   ### Opening expressions
   ### ----------------
 
+  - trigger: "bjr"
+    replace: "bonjour"
+    propagate_case: true
+    word: true
+  - trigger: "bapm"
+    replace: "bonne après-midi"
+    propagate_case: true
+    word: true
+  - trigger: "bsr"
+    replace: "bonsoir"
+    propagate_case: true
+    word: true
   - triggers:
-      - "bjr"
-      - "Bjr"
-    replace: "Bonjour"
-  - triggers:
-      - "bapm"
-      - "Bapm"
-    replace: "Bonne après-midi"
-  - triggers:
-      - "bsr"
-      - "Bsr"
-    replace: "Bonsoir"
-  - triggers:
-      - "Mr"
-      - "M."
       - "mr"
-    replace: "Monsieur,"
+      - "m."
+    replace: "monsieur,"
+    propagate_case: true
+    word: true
   - triggers:
-      - "Mme"
-      - "Mme."
       - "mme"
-    replace: "Madame,"
-  - triggers:
-      - "Mlle"
-      - "mlle"
-    replace: "Mademoiselle,"
+      - "mme."
+    replace: "madame,"
+    propagate_case: true
+    word: true
+  - trigger: "mlle"
+    replace: "mademoiselle,"
+    propagate_case: true
+    word: true
   - trigger: ":cher"
     form: |
       [[dear]] [[name]],
@@ -52,25 +54,27 @@ matches:
       name:
         type: text
         multiline: false
-  - trigger: "alattde"
+  - trigger: ":alattde"
     form: |
       À l’attention de [[name]],
     form_fields:
       name:
         type: text
         multiline: false
-  - triggers:
-      - "slt"
-      - "Slt"
-    replace: "Salut,"
-  - triggers:
-      - "cc"
-      - "Cc"
-    replace: "Coucou,"
+  - trigger: "slt"
+    replace: "salut,"
+    propagate_case: true
+    word: true
+  - trigger: "cc"
+    replace: "coucou,"
+    propagate_case: true
+    word: true
   - trigger: "jqtb"
     replace: "J'espère que tu vas bien"
+    word: true
   - trigger: "jqvb"
     replace: "J'espère que vous allez bien"
+    word: true
 
   ### ----------------
   ### Closure expressions
@@ -78,37 +82,37 @@ matches:
 
   - trigger: "bat"
     replace: "Bien à toi,"
+    word: true
   - trigger: "bav"
     replace: "Bien à vous,"
+    word: true
   - trigger: "cdt"
     replace: "Cordialement,"
+    word: true
   - trigger: "sltd"
     replace: "Salutations distinguées,"
+    word: true
   - trigger: "eslt"
     replace: "En vous envoyant mes salutations distinguées,"
+    word: true
   - trigger: "aslt"
     replace: "Avec l'expression de mes salutations distinguées,"
+    word: true
   - trigger: "rsp"
     replace: "Respectueusement,"
+    word: true
   - trigger: "scr"
     replace: "Sincèrement,"
+    word: true
   - trigger: "sslt"
     replace: "Sincères salutations,"
+    word: true
   - trigger: "amslt"
     replace: "Avec mes meilleures salutations,"
+    word: true
   - trigger: "mpat"
     replace: "Merci pour votre attention,"
+    word: true
   - trigger: "attret"
     replace: "Dans l'attente de votre retour,"
-
-  ### ----------------
-  ### Utils
-  ### ----------------
-
-  - trigger: ":hm"
-    replace: "{{mytime}}"
-    vars:
-      - name: mytime
-        type: date
-        params:
-          format: "%H:%M"
+    word: true
