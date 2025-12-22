@@ -26,7 +26,7 @@ The other Espanso emoji packages just dump 1,000+ emojis in your Espanso folder,
 
 ## Customization:
 
-Being a simple text file on your PC, you are able to tweak the suggestions however you choose. Just know that any of the following suggestions may be overwritten if you update the extension! So maybe make a copy of the `package.yml` file and make your changes there instead.
+Being a simple text file on your PC, you are able to tweak the suggestions however you choose. Just know that any of the following suggestions may be overwritten if you update the package! So maybe make a copy of the `package.yml` file and make your changes there instead.
 
 To make changes to the default settings,
 
@@ -57,3 +57,7 @@ This means that _every_ time you type a colon after a space the picker will appe
 
 1. Open the `package.yml` file in the editor of your choice. Notepad works just fine.
 2. Add, delete, or edit any of the label/id pairs you see. The `label` is what shows when you are using the picker, and the `id` is the emoji that gets inserted by the `label` on the preceding line.
+
+---
+
+**Versioning Note:** This package version (16.0.0) follows the [Unicode Emoji version 16.0](https://unicode.org/emoji/charts-16.0/emoji-released.html) that it supports. Future updates will track new Unicode Emoji releases.
