@@ -1,0 +1,549 @@
+matches:
+# Monograms (兩儀 - The Two Poles)
+  - trigger: :icm1
+    replace: ⚊
+  - trigger: :icm0
+    replace: ⚋
+
+# Bigrams (四象 - The Four Imagery)
+  - trigger: :icb11
+    replace: ⚌
+  - trigger: :icb01
+    replace: ⚍
+  - trigger: :icb10
+    replace: ⚎
+  - trigger: :icb00
+    replace: ⚏
+
+# Trigrams (八卦 - The Eight Trigrams)
+  - trigger: :ict111
+    replace: ☰
+  - trigger: :ict011
+    replace: ☱
+  - trigger: :ict101
+    replace: ☲
+  - trigger: :ict001
+    replace: ☳
+  - trigger: :ict110
+    replace: ☴
+  - trigger: :ict010
+    replace: ☵
+  - trigger: :ict100
+    replace: ☶
+  - trigger: :ict000
+    replace: ☷
+
+# Hexagrams (六十四卦 - The Sixty-Four Hexagrams)
+
+  - trigger: :ic111111
+    replace: ䷀
+  - trigger: :icc111111
+    replace: "乾卦 ䷀"
+  - trigger: :ice111111
+    replace: "THE CREATIVE HEAVEN ䷀"
+  - trigger: :icl111111
+    replace: "https://ctext.org/book-of-changes/qian"
+  - trigger: :ic000000
+    replace: ䷁
+  - trigger: :icc000000
+    replace: "坤卦 ䷁"
+  - trigger: :ice000000
+    replace: "THE RECEPTIVE EARTH ䷁"
+  - trigger: :icl000000
+    replace: "https://ctext.org/book-of-changes/kun"
+  - trigger: :ic010001
+    replace: ䷂
+  - trigger: :icc010001
+    replace: "屯卦 ䷂"
+  - trigger: :ice010001
+    replace: "DIFFICULTY AT THE BEGINNING ䷂"
+  - trigger: :icl010001
+    replace: "https://ctext.org/book-of-changes/zhun"
+  - trigger: :ic100010
+    replace: ䷃
+  - trigger: :icc100010
+    replace: "蒙卦 ䷃"
+  - trigger: :ice100010
+    replace: "YOUTHFUL FOLLY ䷃"
+  - trigger: :icl100010
+    replace: "https://ctext.org/book-of-changes/meng"
+  - trigger: :ic010111
+    replace: ䷄
+  - trigger: :icc010111
+    replace: "需卦 ䷄"
+  - trigger: :ice010111
+    replace: "WAITING ䷄"
+  - trigger: :icl010111
+    replace: "https://ctext.org/book-of-changes/xu"
+  - trigger: :ic111010
+    replace: ䷅
+  - trigger: :icc111010
+    replace: "訟卦 ䷅"
+  - trigger: :ice111010
+    replace: "CONFLICT ䷅"
+  - trigger: :icl111010
+    replace: "https://ctext.org/book-of-changes/song"
+  - trigger: :ic000010
+    replace: ䷆
+  - trigger: :icc000010
+    replace: "師卦 ䷆"
+  - trigger: :ice000010
+    replace: "THE ARMY ䷆"
+  - trigger: :icl000010
+    replace: "https://ctext.org/book-of-changes/shi"
+  - trigger: :ic010000
+    replace: ䷇
+  - trigger: :icc010000
+    replace: "比卦 ䷇"
+  - trigger: :ice010000
+    replace: "HOLDING TOGETHER ䷇"
+  - trigger: :icl010000
+    replace: "https://ctext.org/book-of-changes/bi"
+  - trigger: :ic110111
+    replace: ䷈
+  - trigger: :icc110111
+    replace: "小畜卦 ䷈"
+  - trigger: :ice110111
+    replace: "SMALL TAMING ䷈"
+  - trigger: :icl110111
+    replace: "https://ctext.org/book-of-changes/xiao-xu"
+  - trigger: :ic111011
+    replace: ䷉
+  - trigger: :icc111011
+    replace: "履卦 ䷉"
+  - trigger: :ice111011
+    replace: "TREADING ䷉"
+  - trigger: :icl111011
+    replace: "https://ctext.org/book-of-changes/lu"
+  - trigger: :ic000111
+    replace: ䷊
+  - trigger: :icc000111
+    replace: "泰卦 ䷊"
+  - trigger: :ice000111
+    replace: "PEACE ䷊"
+  - trigger: :icl000111
+    replace: "https://ctext.org/book-of-changes/tai"
+  - trigger: :ic111000
+    replace: ䷋
+  - trigger: :icc111000
+    replace: "否卦 ䷋"
+  - trigger: :ice111000
+    replace: "STANDSTILL ䷋"
+  - trigger: :icl111000
+    replace: "https://ctext.org/book-of-changes/pi"
+  - trigger: :ic111101
+    replace: ䷌
+  - trigger: :icc111101
+    replace: "同人卦 ䷌"
+  - trigger: :ice111101
+    replace: "FELLOWSHIP ䷌"
+  - trigger: :icl111101
+    replace: "https://ctext.org/book-of-changes/tong-ren"
+  - trigger: :ic101111
+    replace: ䷍
+  - trigger: :icc101111
+    replace: "大有卦 ䷍"
+  - trigger: :ice101111
+    replace: "GREAT POSSESSION ䷍"
+  - trigger: :icl101111
+    replace: "https://ctext.org/book-of-changes/da-you"
+  - trigger: :ic000100
+    replace: ䷎
+  - trigger: :icc000100
+    replace: "謙卦 ䷎"
+  - trigger: :ice000100
+    replace: "MODESTY ䷎"
+  - trigger: :icl000100
+    replace: "https://ctext.org/book-of-changes/qian"
+  - trigger: :ic001000
+    replace: ䷏
+  - trigger: :icc001000
+    replace: "豫卦 ䷏"
+  - trigger: :ice001000
+    replace: "ENTHUSIASM ䷏"
+  - trigger: :icl001000
+    replace: "https://ctext.org/book-of-changes/yu"
+  - trigger: :ic011001
+    replace: ䷐
+  - trigger: :icc011001
+    replace: "隨卦 ䷐"
+  - trigger: :ice011001
+    replace: "FOLLOWING ䷐"
+  - trigger: :icl011001
+    replace: "https://ctext.org/book-of-changes/sui"
+  - trigger: :ic100110
+    replace: ䷑
+  - trigger: :icc100110
+    replace: "蠱卦 ䷑"
+  - trigger: :ice100110
+    replace: "WORK ON THE DECAYED ䷑"
+  - trigger: :icl100110
+    replace: "https://ctext.org/book-of-changes/gu"
+  - trigger: :ic000011
+    replace: ䷒
+  - trigger: :icc000011
+    replace: "臨卦 ䷒"
+  - trigger: :ice000011
+    replace: "APPROACH ䷒"
+  - trigger: :icl000011
+    replace: "https://ctext.org/book-of-changes/lin"
+  - trigger: :ic110000
+    replace: ䷓
+  - trigger: :icc110000
+    replace: "觀卦 ䷓"
+  - trigger: :ice110000
+    replace: "CONTEMPLATION ䷓"
+  - trigger: :icl110000
+    replace: "https://ctext.org/book-of-changes/guan"
+  - trigger: :ic101001
+    replace: ䷔
+  - trigger: :icc101001
+    replace: "噬嗑卦 ䷔"
+  - trigger: :ice101001
+    replace: "BITING THROUGH ䷔"
+  - trigger: :icl101001
+    replace: "https://ctext.org/book-of-changes/shi-he"
+  - trigger: :ic100101
+    replace: ䷕
+  - trigger: :icc100101
+    replace: "賁卦 ䷕"
+  - trigger: :ice100101
+    replace: "GRACE ䷕"
+  - trigger: :icl100101
+    replace: "https://ctext.org/book-of-changes/bi"
+  - trigger: :ic100000
+    replace: ䷖
+  - trigger: :icc100000
+    replace: "剝卦 ䷖"
+  - trigger: :ice100000
+    replace: "SPLITTING APART ䷖"
+  - trigger: :icl100000
+    replace: "https://ctext.org/book-of-changes/bo"
+  - trigger: :ic000001
+    replace: ䷗
+  - trigger: :icc000001
+    replace: "復卦 ䷗"
+  - trigger: :ice000001
+    replace: "RETURN ䷗"
+  - trigger: :icl000001
+    replace: "https://ctext.org/book-of-changes/fu"
+  - trigger: :ic111001
+    replace: ䷘
+  - trigger: :icc111001
+    replace: "無妄卦 ䷘"
+  - trigger: :ice111001
+    replace: "INNOCENCE ䷘"
+  - trigger: :icl111001
+    replace: "https://ctext.org/book-of-changes/wu-wang"
+  - trigger: :ic100111
+    replace: ䷙
+  - trigger: :icc100111
+    replace: "大畜卦 ䷙"
+  - trigger: :ice100111
+    replace: "GREAT TAMING ䷙"
+  - trigger: :icl100111
+    replace: "https://ctext.org/book-of-changes/da-xu"
+  - trigger: :ic100001
+    replace: ䷚
+  - trigger: :icc100001
+    replace: "頤卦 ䷚"
+  - trigger: :ice100001
+    replace: "MOUTH CORNERS ䷚"
+  - trigger: :icl100001
+    replace: "https://ctext.org/book-of-changes/yi"
+  - trigger: :ic011110
+    replace: ䷛
+  - trigger: :icc011110
+    replace: "大過卦 ䷛"
+  - trigger: :ice011110
+    replace: "GREAT PREPONDERANCE ䷛"
+  - trigger: :icl011110
+    replace: "https://ctext.org/book-of-changes/da-guo"
+  - trigger: :ic010010
+    replace: ䷜
+  - trigger: :icc010010
+    replace: "坎卦 ䷜"
+  - trigger: :ice010010
+    replace: "THE ABYSMAL WATER ䷜"
+  - trigger: :icl010010
+    replace: "https://ctext.org/book-of-changes/kan"
+  - trigger: :ic101101
+    replace: ䷝
+  - trigger: :icc101101
+    replace: "離卦 ䷝"
+  - trigger: :ice101101
+    replace: "THE CLINGING FIRE ䷝"
+  - trigger: :icl101101
+    replace: "https://ctext.org/book-of-changes/li"
+  - trigger: :icc011100
+    replace: ䷞
+  - trigger: :icc011100
+    replace: "咸卦 ䷞"
+  - trigger: :ice011100
+    replace: "INFLUENCE ䷞"
+  - trigger: :icl011100
+    replace: "https://ctext.org/book-of-changes/xian"
+  - trigger: :ic001110
+    replace: ䷟
+  - trigger: :icc001110
+    replace: "恒卦 ䷟"
+  - trigger: :ice001110
+    replace: "DURATION ䷟"
+  - trigger: :icl001110
+    replace: "https://ctext.org/book-of-changes/heng"
+  - trigger: :ic111100
+    replace: ䷠
+  - trigger: :icc111100
+    replace: "遯卦 ䷠"
+  - trigger: :ice111100
+    replace: "RETREAT ䷠"
+  - trigger: :icl111100
+    replace: "https://ctext.org/book-of-changes/dun"
+  - trigger: :ic001111
+    replace: ䷡
+  - trigger: :icc001111
+    replace: "大壯卦 ䷡"
+  - trigger: :ice001111
+    replace: "GREAT POWER ䷡"
+  - trigger: :icl001111
+    replace: "https://ctext.org/book-of-changes/da-zhuang"
+  - trigger: :ic101000
+    replace: ䷢
+  - trigger: :icc101000
+    replace: "晉卦 ䷢"
+  - trigger: :ice101000
+    replace: "PROGRESS ䷢"
+  - trigger: :icl101000
+    replace: "https://ctext.org/book-of-changes/jin"
+  - trigger: :ic000101
+    replace: ䷣
+  - trigger: :icc000101
+    replace: "明夷卦 ䷣"
+  - trigger: :ice000101
+    replace: "DARKENING OF THE LIGHT ䷣"
+  - trigger: :icl000101
+    replace: "https://ctext.org/book-of-changes/ming-yi"
+  - trigger: :ic110101
+    replace: ䷤
+  - trigger: :icc110101
+    replace: "家人卦 ䷤"
+  - trigger: :ice110101
+    replace: "THE FAMILY ䷤"
+  - trigger: :icl110101
+    replace: "https://ctext.org/book-of-changes/jia-ren"
+  - trigger: :ic101011
+    replace: ䷥
+  - trigger: :icc101011
+    replace: "睽卦 ䷥"
+  - trigger: :ice101011
+    replace: "OPPOSITION ䷥"
+  - trigger: :icl101011
+    replace: "https://ctext.org/book-of-changes/kui"
+  - trigger: :ic010100
+    replace: ䷦
+  - trigger: :icc010100
+    replace: "蹇卦 ䷦"
+  - trigger: :ice010100
+    replace: "OBSTRUCTION ䷦"
+  - trigger: :icl010100
+    replace: "https://ctext.org/book-of-changes/jian4"
+  - trigger: :ic001010
+    replace: ䷧
+  - trigger: :icc001010
+    replace: "解卦 ䷧"
+  - trigger: :ice001010
+    replace: "DELIVERANCE ䷧"
+  - trigger: :icl001010
+    replace: "https://ctext.org/book-of-changes/jie"
+  - trigger: :ic100011
+    replace: ䷨
+  - trigger: :icc100011
+    replace: "損卦 ䷨"
+  - trigger: :ice100011
+    replace: "DECREASE ䷨"
+  - trigger: :icl100011
+    replace: "https://ctext.org/book-of-changes/sun"
+  - trigger: :ic110001
+    replace: ䷩
+  - trigger: :icc110001
+    replace: "益卦 ䷩"
+  - trigger: :ice110001
+    replace: "INCREASE ䷩"
+  - trigger: :icl110001
+    replace: "https://ctext.org/book-of-changes/yi"
+  - trigger: :ic011111
+    replace: ䷪
+  - trigger: :icc011111
+    replace: "夬卦 ䷪"
+  - trigger: :ice011111
+    replace: "BREAKTHROUGH ䷪"
+  - trigger: :icl011111
+    replace: "https://ctext.org/book-of-changes/guai"
+  - trigger: :ic111110
+    replace: ䷫
+  - trigger: :icc111110
+    replace: "姤卦 ䷫"
+  - trigger: :ice111110
+    replace: "COMING TO MEET ䷫"
+  - trigger: :icl111110
+    replace: "https://ctext.org/book-of-changes/gou"
+  - trigger: :ic011000
+    replace: ䷬
+  - trigger: :icc011000
+    replace: "萃卦 ䷬"
+  - trigger: :ice011000
+    replace: "GATHERING TOGETHER ䷬"
+  - trigger: :icl011000
+    replace: "https://ctext.org/book-of-changes/cui"
+  - trigger: :ic000110
+    replace: ䷭
+  - trigger: :icc000110
+    replace: "升卦 ䷭"
+  - trigger: :ice000110
+    replace: "PUSHING UPWARD ䷭"
+  - trigger: :icl000110
+    replace: "https://ctext.org/book-of-changes/sheng"
+  - trigger: :ic010110
+    replace: ䷮
+  - trigger: :icc010110
+    replace: "困卦 ䷮"
+  - trigger: :ice010110
+    replace: "OPPRESSION ䷮"
+  - trigger: :icl010110
+    replace: "https://ctext.org/book-of-changes/kun"
+  - trigger: :ic011010
+    replace: ䷯
+  - trigger: :icc011010
+    replace: "井卦 ䷯"
+  - trigger: :ice011010
+    replace: "THE WELL ䷯"
+  - trigger: :icl011010
+    replace: "https://ctext.org/book-of-changes/jing"
+  - trigger: :ic011101
+    replace: ䷰
+  - trigger: :icc011101
+    replace: "革卦 ䷰"
+  - trigger: :ice011101
+    replace: "REVOLUTION ䷰"
+  - trigger: :icl011101
+    replace: "https://ctext.org/book-of-changes/ge"
+  - trigger: :ic101110
+    replace: ䷱
+  - trigger: :icc101110
+    replace: "鼎卦 THE CAULDRON ䷱"
+  - trigger: :ice101110
+    replace: "THE CAULDRON ䷱"
+  - trigger: :icl101110
+    replace: "https://ctext.org/book-of-changes/ding"
+  - trigger: :ic001001
+    replace: ䷲
+  - trigger: :icc001001
+    replace: "震卦 ䷲"
+  - trigger: :ice001001
+    replace: "THE AROUSING THUNDER ䷲"
+  - trigger: :icl001001
+    replace: "https://ctext.org/book-of-changes/zhen"
+  - trigger: :ic100100
+    replace: ䷳
+  - trigger: :icc100100
+    replace: "艮卦 ䷳"
+  - trigger: :ice100100
+    replace: "THE KEEPING STILL MOUNTAIN ䷳"
+  - trigger: :icl100100
+    replace: "https://ctext.org/book-of-changes/gen"
+  - trigger: :ic110100
+    replace: ䷴
+  - trigger: :icc110100
+    replace: "漸卦 ䷴"
+  - trigger: :ice110100
+    replace: "DEVELOPMENT ䷴"
+  - trigger: :icl110100
+    replace: "https://ctext.org/book-of-changes/jian"
+  - trigger: :ic001011
+    replace: ䷵
+  - trigger: :icc001011
+    replace: "歸妹卦 ䷵"
+  - trigger: :ice001011
+    replace: "THE MARRYING MAIDEN ䷵"
+  - trigger: :icl001011
+    replace: "https://ctext.org/book-of-changes/gui-mei"
+  - trigger: :ic001101
+    replace: ䷶
+  - trigger: :icc001101
+    replace: "豐卦 ䷶"
+  - trigger: :ice001101
+    replace: "ABUNDANCE ䷶"
+  - trigger: :icl001101
+    replace: "https://ctext.org/book-of-changes/feng"
+  - trigger: :ic101100
+    replace: ䷷
+  - trigger: :icc101100
+    replace: "旅卦 ䷷"
+  - trigger: :ice101100
+    replace: "THE WANDERER ䷷"
+  - trigger: :icl101100
+    replace: "https://ctext.org/book-of-changes/lu"
+  - trigger: :ic110110
+    replace: ䷸
+  - trigger: :icc110110
+    replace: "巽卦 ䷸"
+  - trigger: :ice110110
+    replace: "THE GENTLE WIND ䷸"
+  - trigger: :icl110110
+    replace: "https://ctext.org/book-of-changes/xun"
+  - trigger: :ic011011
+    replace: ䷹
+  - trigger: :icc011011
+    replace: "兌卦 ䷹"
+  - trigger: :ice011011
+    replace: "THE JOYOUS LAKE ䷹"
+  - trigger: :icl011011
+    replace: "https://ctext.org/book-of-changes/dui"
+  - trigger: :ic110010
+    replace: ䷺
+  - trigger: :icc110010
+    replace: "渙卦 ䷺"
+  - trigger: :ice110010
+    replace: "DISPERSION ䷺"
+  - trigger: :icl110010
+    replace: "https://ctext.org/book-of-changes/huan"
+  - trigger: :ic010011
+    replace: ䷻
+  - trigger: :icc010011
+    replace: "節卦 ䷻"
+  - trigger: :ice010011
+    replace: "LIMITATION ䷻"
+  - trigger: :icl010011
+    replace: "https://ctext.org/book-of-changes/jie"
+  - trigger: :ic110011
+    replace: ䷼
+  - trigger: :icc110011
+    replace: "中孚卦 ䷼"
+  - trigger: :ice110011
+    replace: "INNER TRUTH ䷼"
+  - trigger: :icl110011
+    replace: "https://ctext.org/book-of-changes/zhong-fu"
+  - trigger: :ic001100
+    replace: ䷽
+  - trigger: :icc001100
+    replace: "小過卦 ䷽"
+  - trigger: :ice001100
+    replace: "SMALL PREPONDERANCE ䷽"
+  - trigger: :icl001100
+    replace: "https://ctext.org/book-of-changes/xiao-guo"
+  - trigger: :ic010101
+    replace: ䷾
+  - trigger: :icc010101
+    replace: "既濟卦 ䷾"
+  - trigger: :ice010101
+    replace: "AFTER COMPLETION ䷾"
+  - trigger: :icl010101
+    replace: "https://ctext.org/book-of-changes/ji-ji"
+  - trigger: :ic101010
+    replace: ䷿
+  - trigger: :icc101010
+    replace: "未濟卦 ䷿"
+  - trigger: :ice101010
+    replace: "BEFORE COMPLETION ䷿"
+  - trigger: :icl101010
+    replace: "https://ctext.org/book-of-changes/wei-ji"
