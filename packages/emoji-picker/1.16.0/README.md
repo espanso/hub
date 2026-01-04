@@ -60,4 +60,4 @@ This means that _every_ time you type a colon after a space the picker will appe
 
 ---
 
-**Versioning Note:** This package version (16.0.0) follows the [Unicode Emoji version 16.0](https://unicode.org/emoji/charts-16.0/emoji-released.html) that it supports. Future updates will track new Unicode Emoji releases.
+**Versioning Note:** This package version (1.16.0) follows the [Unicode Emoji version 16.0](https://unicode.org/emoji/charts-16.0/emoji-released.html) that it supports. Future updates will track new Unicode Emoji releases.
