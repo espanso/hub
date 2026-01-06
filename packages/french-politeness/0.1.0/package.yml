@@ -93,7 +93,7 @@ matches:
     replace: "Salutations distinguées,"
     word: true
   - trigger: "eslt"
-    replace: "En vous envoyant mes salutations distinguées,"
+    replace: "En vous adressant mes salutations distinguées,"
     word: true
   - trigger: "aslt"
     replace: "Avec l'expression de mes salutations distinguées,"
