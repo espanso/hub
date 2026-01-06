@@ -12,8 +12,6 @@ This package can be installed using the Espanso package manager:
 espanso install french-politeness
 ```
 
-Or manually by cloning this repository into your Espanso configuration folder.
-
 ## Usage
 
 Type any trigger and it will be automatically replaced with the corresponding French expression. Most triggers support case propagation, meaning that if you type the trigger in uppercase, the replacement will also be in uppercase.
@@ -25,7 +23,7 @@ Type any trigger and it will be automatically replaced with the corresponding Fr
 | Trigger | Replacement | Notes |
 | ------- | ----------- | ----- |
 | bjr | bonjour | Case-sensitive (Bjr → Bonjour) |
-| bapm | bonne après-midi | Case-sensitive (Bapm → Bonne Après-Midi) |
+| bapm | bonne après-midi | Case-sensitive (Bapm → Bonne après-midi) |
 | bsr | bonsoir | Case-sensitive (Bsr → Bonsoir) |
 | mr, m. | monsieur, | Case-sensitive (Mr → Monsieur,) |
 | mme, mme. | madame, | Case-sensitive (Mme → Madame,) |
@@ -45,7 +43,7 @@ Type any trigger and it will be automatically replaced with the corresponding Fr
 | bav | Bien à vous, |
 | cdt | Cordialement, |
 | sltd | Salutations distinguées, |
-| eslt | En vous envoyant mes salutations distinguées, |
+| eslt | En vous adressant mes salutations distinguées, |
 | aslt | Avec l'expression de mes salutations distinguées, |
 | rsp | Respectueusement, |
 | scr | Sincèrement, |
@@ -59,9 +57,4 @@ Type any trigger and it will be automatically replaced with the corresponding Fr
 - **Case Propagation**: Most triggers support automatic case propagation. Type "Bjr" to get "Bonjour" or "bjr" to get "bonjour".
 - **Word Boundary Detection**: Triggers only activate when typed as complete words, preventing unwanted replacements.
 - **Interactive Forms**: Some triggers like `:cher` and `:alattde` open interactive forms to customize the output.
-
-## License
-
-This package is licensed under the Apache License 2.0. See the LICENSE file for details.
-
 ---
