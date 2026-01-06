@@ -27,7 +27,7 @@ matches:
     propagate_case: true
     word: true
   - triggers:
-      - "mr"
+      - "msr"
       - "m."
     replace: "monsieur,"
     propagate_case: true
