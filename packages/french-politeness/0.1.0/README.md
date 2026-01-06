@@ -25,7 +25,7 @@ Type any trigger and it will be automatically replaced with the corresponding Fr
 | bjr | bonjour | Case-sensitive (Bjr → Bonjour) |
 | bapm | bonne après-midi | Case-sensitive (Bapm → Bonne après-midi) |
 | bsr | bonsoir | Case-sensitive (Bsr → Bonsoir) |
-| mr, m. | monsieur, | Case-sensitive (Mr → Monsieur,) |
+| msr, m. | monsieur, | Case-sensitive (Mr → Monsieur,) |
 | mme, mme. | madame, | Case-sensitive (Mme → Madame,) |
 | mlle | mademoiselle, | Case-sensitive (Mlle → Mademoiselle,) |
 | :cher | [[dear]] [[name]], | Interactive form (dear: Cher/Chère) |
