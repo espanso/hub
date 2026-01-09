@@ -1,6 +1,7 @@
 matches:
   - trigger: ":uuid"
     replace: "{{command}}"
+    propagate_case: true
     vars:
       - name: command
         type: shell
@@ -9,6 +10,7 @@ matches:
           shell: wsl
   - trigger: ":nuuid"
     replace: "{{command}}"
+    propagate_case: true
     vars:
       - name: command
         type: shell
