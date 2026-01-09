@@ -12,4 +12,4 @@ matches:
       - name: command
         type: shell
         params:
-          cmd: "uuidgen | sed 's/[-,]//g'"
+          cmd: "uuidgen | sed 's/-//g'"
