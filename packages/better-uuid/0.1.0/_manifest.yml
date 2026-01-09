@@ -1,7 +1,7 @@
-name: "better-uuid"
-title: "Better UUIDs"
+name: "uuid-nix"
+title: "UUID generation for *nix systems"
 description: A stand-in replacement for the uuid package.
-homepage: "https://github.com/PPPDUD/hub/tree/better-uuids"
+homepage: "https://github.com/PPPDUD/hub/tree/uuid-nix"
 version: 0.1.0
 author: PPPDUD
 tags: ["guid", "uuid"]
