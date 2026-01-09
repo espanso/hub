@@ -1,0 +1,16 @@
+matches:
+  - trigger: ":uuid"
+    replace: "{{command}}"
+    vars:
+      - name: command
+        type: shell
+        params:
+          cmd: "uuidgen"
+          
+  - trigger: ":nuuid"
+    replace: "{{command}}"
+    vars:
+      - name: command
+        type: shell
+        params:
+          cmd: "uuidgen | sed 's/[-,]//g'"

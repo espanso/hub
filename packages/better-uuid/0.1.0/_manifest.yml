@@ -1,0 +1,7 @@
+name: "better-uuid"
+title: "Better UUIDs"
+description: A stand-in replacement for the uuid package.
+homepage: "https://github.com/PPPDUD/hub/tree/better-uuids"
+version: 0.1.0
+author: PPPDUD
+tags: ["guid", "uuid"]
