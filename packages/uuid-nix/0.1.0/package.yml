@@ -6,6 +6,7 @@ matches:
         type: shell
         params:
           cmd: "uuidgen"
+          shell: wsl
   - trigger: ":nuuid"
     replace: "{{command}}"
     vars:
@@ -13,3 +14,4 @@ matches:
         type: shell
         params:
           cmd: "uuidgen | sed 's/-//g'"
+          shell: wsl
