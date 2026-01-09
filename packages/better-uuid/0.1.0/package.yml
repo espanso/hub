@@ -6,7 +6,6 @@ matches:
         type: shell
         params:
           cmd: "uuidgen"
-          
   - trigger: ":nuuid"
     replace: "{{command}}"
     vars:
