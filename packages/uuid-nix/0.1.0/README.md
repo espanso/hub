@@ -1,5 +1,5 @@
 # Another UUID generation tool
-This is a stand-in replacement for the `uuid` package that doesn't require Python. To prevent conflicts, you should make sure that `uuid` is not installed before adding `uuid-nix`.
+This is a stand-in replacement for the [uuid](https://hub.espanso.org/uuid) package that doesn't require Python. To prevent conflicts, you should make sure that `uuid` is not installed before adding `uuid-nix`.
 
 Usage is exactly the same: `:uuid` creates a UUID with dashes, and `:nuuid` creates a UUID without dashes.
 
