@@ -11,4 +11,4 @@ Casing is preserved, so typing `:UUID` will generate a fully uppercase UUID.
 * `:nuuid` - Standard UUIDv4, lowercase, without dashes
   * Ex: c03aeca4b8034f21a61add7fca8b1dc7
 
-If you don't want to use Python for UUID generation, consider installing the `uuid-nix` package instead; it's an unofficial stand-in replacement for `uuid`.
+If you don't want to use Python for UUID generation, consider installing the `uuid-nix` package instead; it's a Bash-based replacement for `uuid`.
