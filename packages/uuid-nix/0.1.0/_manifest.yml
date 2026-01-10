@@ -1,0 +1,16 @@
+name: "uuid-nix"
+title: "UUID generation for *nix systems"
+description: A stand-in replacement for the uuid package.
+homepage: "https://github.com/PPPDUD/hub/tree/uuid-nix"
+version: 0.1.0
+author: PPPDUD
+tags: [
+  "code",
+  "developer",
+  "generator",
+  "guid",
+  "id",
+  "tools",
+  "utility",
+  "uuid",
+]
