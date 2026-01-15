@@ -8,7 +8,11 @@ espanso install fonts
 ```
 
 ## Usage
-This package replaces text found with colons with the same text, but fancified using the specified font.
+This package replaces text found, up to a final colon, with the same text, but fancified using the specified font.
+
+In order for this font to work, you may need to install Python 3 in order to allow the script to run. You can view a tutorial to do that [here](https://www.reddit.com/r/learnpython/comments/8lkmjf/python_3_installation_guide/).
+
+This package also may not be as useful given the Espanso regex limit, which is set to 30 by default. To change this (**highlight recommended**), navigate to the Espanso config file and adjust `max_regex_buffer_size:` to a higher value, I recommend 2000 (*note that this will increase Espanso's memory usage*).
 
 | Shortcut     | Name | Example |
 |--------------| - | - |
