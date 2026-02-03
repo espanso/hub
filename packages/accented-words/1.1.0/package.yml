@@ -1077,8 +1077,8 @@ matches:
     propagate_case: true
     word: true
 
-  - trigger: "resume"
-    replace: "resumé"
+  - trigger: "resume'"
+    replace: "résumé"
     propagate_case: true
     word: true
 
