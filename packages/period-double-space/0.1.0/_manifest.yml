@@ -1,0 +1,7 @@
+name: "period-double-space"
+title: "Period Double Space"
+description: Add period with double-space, like macOS or smartphones.
+homepage: "https://github.com/yellowwinner/period-double-space"
+version: 0.1.0
+author: yellowwinner
+tags: ["utility", "english", "symbols"]
