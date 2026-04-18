@@ -1,20 +1,20 @@
----
-package_name: "common-web-chars"
-package_title: "Common Web Content Characters"
-package_desc: "Commonly used unicode characters for copywriting using similar named entity syntax."
-package_version: "0.1.0"
-package_author: "Travis Hardiman"
-package_repo: "https://github.com/dieseltravis/hub"
----
+# common-web-chars
+
 Commonly used unicode characters for copywriting using similar named entity syntax.
 
 For more information about espanso packages, read the [documentation](https://espanso.org/docs/).
 
+## Installation
+
+```
+espanso install common-web-chars
+```
+
 ## Usage
 
 ### Basic Characters
-| Keyword | Replaced |
-|---------|----------|
+| Shortcut | Char |
+|----------|------|
 | `;(r);` | ® |
 | `;(c);` | © |
 | `;(p);` | ℗ |
@@ -26,8 +26,8 @@ For more information about espanso packages, read the [documentation](https://es
 | `;rdq;` | ” |
 
 ### Named Characters
-| Keyword | Replaced |
-|---------|----------|
+| Entity | Char |
+|--------|------|
 | `;reg;` | ® |
 | `;copy;` | © |
 | `;trade;` | ™ |
