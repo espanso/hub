@@ -3,5 +3,5 @@ title: "Common Web Content Characters"
 description: Commonly used unicode characters for copywriting using similar named entity syntax.
 version: 0.1.0
 author: Travis Hardiman
-tags: ["html", "web", "entities", "unicode", "utf8"]
+tags: ["html", "web", "entities", "unicode", "utf8", "symbols", "characters", "typography", "punctuation"]
 homepage: "https://github.com/dieseltravis/hub/tree/common-web-chars/packages/common-web-chars"
