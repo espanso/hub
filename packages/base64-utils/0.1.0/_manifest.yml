@@ -1,0 +1,10 @@
+name: base64-utils
+title: Base64 Utilities
+description: Quickly encode and decode Base64 strings using clipboard content.
+version: 0.1.0
+author: kaniamutan
+tags:
+  - utility
+  - base64
+  - developer
+  - cross-platform

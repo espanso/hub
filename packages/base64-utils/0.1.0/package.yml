@@ -1,0 +1,39 @@
+matches:
+  # Base64 Encode
+  # This trigger encodes the current clipboard content into a Base64 string.
+  - trigger: ":b64e"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          # Unix (macOS/Linux): Use printf to avoid trailing newlines, base64 for encoding, 
+          # and tr -d to ensure the output is a single line.
+          cmd: 'printf "%s" "$ESPANSO_CLIP" | base64 | tr -d "\n"'
+          shell: sh
+        overrides:
+          - platform: windows
+            params:
+              # Windows: Use PowerShell's native [Convert] class. 
+              # Checks if clipboard ($env:ESPANSO_CLIP) is not empty before processing.
+              cmd: '$c = $env:ESPANSO_CLIP; if ($c) { [Convert]::ToBase64String([System.Text.Encoding]::UTF8.GetBytes($c)) }'
+              shell: powershell
+
+  # Base64 Decode
+  # This trigger decodes a Base64 string from the clipboard back into UTF-8 text.
+  - trigger: ":b64d"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          # Unix (macOS/Linux): Use openssl for robust Base64 decoding.
+          cmd: 'printf "%s" "$ESPANSO_CLIP" | openssl base64 -d'
+          shell: sh
+        overrides:
+          - platform: windows
+            params:
+              # Windows: Use PowerShell's FromBase64String.
+              # Wrapped in a try/catch to silently handle invalid Base64 input.
+              cmd: '$c = $env:ESPANSO_CLIP; if ($c) { try { [System.Text.Encoding]::UTF8.GetString([Convert]::FromBase64String($c)) } catch {} }'
+              shell: powershell
