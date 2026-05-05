@@ -1,0 +1,9 @@
+name: base64-win
+title: Base64 Utilities (Windows)
+description: Quickly encode and decode Base64 strings using clipboard content. Native Windows PowerShell, zero dependencies.
+version: 0.1.0
+author: kaniamutan14
+tags:
+  - utility
+  - base64
+  - windows
