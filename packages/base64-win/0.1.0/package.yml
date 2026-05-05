@@ -2,23 +2,27 @@ matches:
   # Base64 Encode
   - trigger: ":b64e"
     replace: "{{output}}"
+    force_clipboard: true
     vars:
       - name: clipboard
         type: clipboard
       - name: output
         type: shell
         params:
-          cmd: '$c = $env:ESPANSO_CLIPBOARD; if ($c) { [Convert]::ToBase64String([System.Text.Encoding]::UTF8.GetBytes($c.TrimEnd())) }'
+          cmd: "$c = $env:ESPANSO_CLIPBOARD; if ($c) { [Convert]::ToBase64String([System.Text.Encoding]::UTF8.GetBytes($c.TrimEnd())) }"
           shell: powershell
+          trim: true
 
   # Base64 Decode
   - trigger: ":b64d"
     replace: "{{output}}"
+    force_clipboard: true
     vars:
       - name: clipboard
         type: clipboard
       - name: output
         type: shell
         params:
-          cmd: '$c = $env:ESPANSO_CLIPBOARD; if ($c) { try { [System.Text.Encoding]::UTF8.GetString([Convert]::FromBase64String($c.TrimEnd())) } catch {} }'
+          cmd: '$c = $env:ESPANSO_CLIPBOARD; if ($c) { try { [System.Text.Encoding]::UTF8.GetString([Convert]::FromBase64String($c.TrimEnd())) } catch { Write-Output "[Error: Clipboard does not contain valid Base64]" } }'
           shell: powershell
+          trim: true
