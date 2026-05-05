@@ -9,7 +9,7 @@ matches:
         type: shell
         params:
           cmd: "$c = $env:ESPANSO_CLIPBOARD; if ($c) { [Convert]::ToBase64String([System.Text.Encoding]::UTF8.GetBytes($c.TrimEnd())) }"
-          shell: pwsh
+          shell: powershell
 
   # Base64 Decode
   - trigger: ":b64d"
@@ -21,4 +21,4 @@ matches:
         type: shell
         params:
           cmd: '$c = $env:ESPANSO_CLIPBOARD; if ($c) { try { [System.Text.Encoding]::UTF8.GetString([Convert]::FromBase64String($c.TrimEnd())) } catch { Write-Output "[Error: Clipboard does not contain valid Base64]" } }'
-          shell: pwsh
+          shell: powershell

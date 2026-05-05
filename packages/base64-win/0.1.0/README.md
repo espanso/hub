@@ -21,4 +21,3 @@ espanso package install base64-win
 ## Requirements
 
 - **Windows:** PowerShell (Built-in, no external dependencies required).
-- **macOS / Linux:** PowerShell (`pwsh`) must be installed separately. The package will work, but note that PowerShell on Linux is significantly slower than native shell or python workarounds.
