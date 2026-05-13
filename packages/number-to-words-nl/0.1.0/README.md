@@ -1,11 +1,11 @@
 # Number to words NL
 
-**Number to words NL** is an [Espanso](https://espanso.org/) package that enables you to convert numbers directly to full written currencies from your Espanso extension.
+**Number to words NL** is an [Espanso](https://espanso.org/) package that enables you to convert numbers to fully written-out currency amounts from your Espanso extension.
 
-This is the same functionality as https://www.zegge.nu/ and also based on that code 
+This provides the same functionality as https://www.zegge.nu/ and is also based on that code.
 ## Features
 
-- Easily convert numbers to full written out currencies, e.g.
+- Easily convert numbers to fully written-out currency amounts, e.g.
 - 150 becomes honderdvijftig euro
 - 1 009 123,50 becomes een miljoen negenduizend honderddrieëntwintig euro en vijftig eurocent
 
