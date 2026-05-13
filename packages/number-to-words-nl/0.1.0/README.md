@@ -13,14 +13,6 @@ This provides the same functionality as https://www.zegge.nu/ and is also based 
 
 - **Python** must be installed on your system.
 
-## Installation
-
-To install from espanso hub: 
-
-```
-espanso install number-to-words
-```
-
 ## Usage
 
 Type `:nr` and see what's happening.
