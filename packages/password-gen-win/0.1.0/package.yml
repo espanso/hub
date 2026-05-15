@@ -1,0 +1,59 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/espanso/espanso/dev/schemas/match.schema.json
+
+matches:
+  # Standard: Letters + Numbers
+  - regex: ':pw(?P<len>\d{2})'
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: |
+            $len = [int]('{{len}}');
+            $chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+            $rng = [System.Security.Cryptography.RandomNumberGenerator]::Create();
+            $bytes = New-Object byte[] $len;
+            $rng.GetBytes($bytes);
+            $pw = -join ($bytes | ForEach-Object { $chars[$_ % $chars.Length] });
+            $rng.Dispose();
+            Set-Clipboard -Value $pw;
+            Write-Output $pw
+          shell: powershell
+
+  # Secure: Letters + Numbers + Symbols
+  - regex: ':pws(?P<len>\d{2})'
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: |
+            $len = [int]('{{len}}');
+            $chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()-_=+[]{}|;:,.<>?';
+            $rng = [System.Security.Cryptography.RandomNumberGenerator]::Create();
+            $bytes = New-Object byte[] $len;
+            $rng.GetBytes($bytes);
+            $pw = -join ($bytes | ForEach-Object { $chars[$_ % $chars.Length] });
+            $rng.Dispose();
+            Set-Clipboard -Value $pw;
+            Write-Output $pw
+          shell: powershell
+
+  # Numeric: Numbers only
+  - regex: ':pwn(?P<len>\d{2})'
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: |
+            $len = [int]('{{len}}');
+            $chars = '0123456789';
+            $rng = [System.Security.Cryptography.RandomNumberGenerator]::Create();
+            $bytes = New-Object byte[] $len;
+            $rng.GetBytes($bytes);
+            $pw = -join ($bytes | ForEach-Object { $chars[$_ % $chars.Length] });
+            $rng.Dispose();
+            Set-Clipboard -Value $pw;
+            Write-Output $pw
+          shell: powershell
