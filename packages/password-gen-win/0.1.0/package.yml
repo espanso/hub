@@ -1,0 +1,30 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/espanso/espanso/dev/schemas/match.schema.json
+
+matches:
+  - regex: ':pw(?P<mode>s|n|)(?P<len>\d{2})'
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: |
+            $mode = '{{mode}}'
+            $chars = switch ($mode) {
+              's' { 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()-_=+[]{}|;:,.<>?' }
+              'n' { '0123456789' }
+              default { 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789' }
+            }
+            $len = [int]('{{len}}')
+            $rng = [System.Security.Cryptography.RandomNumberGenerator]::Create()
+            $limit = 256 - (256 % $chars.Length)
+            $result = New-Object System.Text.StringBuilder
+            $buf = New-Object byte[] 1
+            while ($result.Length -lt $len) {
+              $rng.GetBytes($buf)
+              if ($buf[0] -lt $limit) { [void]$result.Append($chars[$buf[0] % $chars.Length]) }
+            }
+            $pw = $result.ToString()
+            $rng.Dispose()
+            Set-Clipboard -Value $pw
+            Write-Output $pw
+          shell: powershell

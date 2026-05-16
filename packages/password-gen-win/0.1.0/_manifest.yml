@@ -1,0 +1,10 @@
+name: password-gen-win
+title: Password Generator (Windows)
+description: Generate random passwords of any length (up to 99) and automatically copy to clipboard. Optimized for Windows with native PowerShell.
+version: 0.1.0
+author: kaniamutan14
+homepage: https://github.com/kaniamutan14/
+tags:
+  - utility
+  - security
+  - windows
