@@ -46,4 +46,12 @@ espanso package install password-gen-win
 ## Requirements
 
 - **Operating System**: Windows
-- **Engine**: PowerShell (Built-in)
+- **Engine**: PowerShell Version 5.1 (Built-in)
+
+## Platform Compatibility
+
+While designed for Windows, this package also works on **macOS and Linux** with [PowerShell 7](https://github.com/PowerShell/PowerShell) (`pwsh`) installed. To enable this, either:
+
+- Change `shell: powershell` to `shell: pwsh` in `package.yml`, or
+- Symlink `powershell` to `pwsh` on your system.
+  > **Note for Linux users:** `Set-Clipboard` functionality to copy the password to clipboard may or may not work.
