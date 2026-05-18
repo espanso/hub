@@ -1,0 +1,28 @@
+matches:
+  - trigger: ":calc"
+    replace: "{{result}}"
+    vars:
+      - name: "input"
+        type: "form"
+        params:
+          layout: |
+            [[val]]
+      - name: result
+        type: shell
+        params:
+          shell: powershell
+          cmd: "python -c \"from math import *; x = '{{input.val}}'.replace('^', '**'); r = eval(x); print(int(r) if r == int(r) else round(r, 10))\""
+
+  - trigger: ":xcalc"
+    replace: "{{input.val}} = {{result}}"
+    vars:
+      - name: "input"
+        type: "form"
+        params:
+          layout: |
+            [[val]]
+      - name: result
+        type: shell
+        params:
+          shell: powershell
+          cmd: "python -c \"from math import *; x = '{{input.val}}'.replace('^', '**'); r = eval(x); print(int(r) if r == int(r) else round(r, 10))\""
