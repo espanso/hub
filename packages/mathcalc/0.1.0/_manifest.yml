@@ -1,0 +1,7 @@
+name: "mathcalc"
+title: "Math Calculator"
+description: Inline math calculator with full Python math support. Evaluate expressions with +, -, *, /, ^, sqrt, sin, cos, tan, log, factorial and more.
+version: 0.1.0
+author: Matt
+tags: ["math", "calculator", "python", "utility"]
+homepage: "https://github.com/Vampir0"
