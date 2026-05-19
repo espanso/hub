@@ -6,12 +6,18 @@ matches:
         type: "form"
         params:
           layout: |
-            [[val]]
+            Enter expression (e.g. (19+1)^2): [[val]]
       - name: result
-        type: shell
+        type: script
         params:
-          shell: powershell
-          cmd: "python -c \"from math import *; x = '{{input.val}}'.replace('^', '**'); r = eval(x); print(int(r) if r == int(r) else round(r, 10))\""
+          args:
+            - python
+            - -c
+            - |
+              from math import *
+              x = '{{input.val}}'.replace('^', '**')
+              r = eval(x)
+              print(int(r) if r == int(r) else round(r, 10))
 
   - trigger: ":xcalc"
     replace: "{{input.val}} = {{result}}"
@@ -20,9 +26,15 @@ matches:
         type: "form"
         params:
           layout: |
-            [[val]]
+            Enter expression (e.g. (19+1)^2): [[val]]
       - name: result
-        type: shell
+        type: script
         params:
-          shell: powershell
-          cmd: "python -c \"from math import *; x = '{{input.val}}'.replace('^', '**'); r = eval(x); print(int(r) if r == int(r) else round(r, 10))\""
+          args:
+            - python
+            - -c
+            - |
+              from math import *
+              x = '{{input.val}}'.replace('^', '**')
+              r = eval(x)
+              print(int(r) if r == int(r) else round(r, 10))
