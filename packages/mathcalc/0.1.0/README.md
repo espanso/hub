@@ -30,3 +30,7 @@ Evaluate math expressions inline using Python's math engine.
 - `log10(1000)` → `3`
 - `factorial(6)` → `720`
 - `(sqrt(2)+1)^2` → `5.828427124`
+
+## Reference
+
+Full list of available functions: https://docs.python.org/3/library/math.html
