@@ -20,8 +20,6 @@ Compare with the [gitmojis support](https://hub.espanso.org/gitmojis) package, w
 espanso install gitmoji-chooser
 ```
 
-Or manually place the `package.yml` file in your espanso match directory.
-
 ## Source
 
 All emoji and descriptions come from https://gitmoji.dev/.
