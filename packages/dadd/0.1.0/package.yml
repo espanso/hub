@@ -1,0 +1,29 @@
+matches:
+  - trigger: ":dadd"
+    replace: "{{result_dateadd}}"
+    vars:
+      - name: "input_dateadd"
+        type: "form"
+        params:
+          layout: |
+            Day num: [[dayTimeDelta]]
+            Date base (YYYY-MM-DD format): [[dateBase]]
+          fields:
+            dayTimeDelta:
+              default: "1"
+            dateBase:
+              default: "today"
+      - name: result_dateadd
+        type: script
+        params:
+          args:
+            - python
+            - -c
+            - |
+              from datetime import datetime, timedelta             
+              clean_input = '{{input_dateadd.dateBase}}'.strip("' \"").replace('.', '-')
+              if clean_input in ['now', 'today']:
+                dt = datetime.today().date()
+              else:
+                dt = datetime.strptime(clean_input, '%Y-%m-%d')
+              print(f"{dt + timedelta(days=int('{{input_dateadd.dayTimeDelta}}'))}")
