@@ -1,0 +1,19 @@
+matches:
+  - trigger: ":dgt"
+
+    vars:
+      - name: form1
+        type: form
+        params:
+          layout: "Enter Date Time [[dt]]"
+
+      - name: output
+        type: shell
+        params:
+          shell: powershell
+          cmd: |
+            $x = "{{form1.dt}}"
+            $dt = [datetime]::ParseExact($x, "MMMM d, yyyy h:mm tt", $null)
+            $dt.ToString("ddHHmmMMMyy").ToUpper()
+
+    replace: "{{output}}"
