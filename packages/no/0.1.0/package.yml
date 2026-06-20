@@ -1,0 +1,8 @@
+matches:
+  - trigger: ":no"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: curl -s https://naas.isalman.dev/no | sed 's/{"reason":"\(.*\)"}/\1/'

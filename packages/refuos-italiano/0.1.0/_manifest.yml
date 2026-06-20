@@ -1,0 +1,7 @@
+name: "refuos-italiano"
+title: "Refuos Italiano"
+description: "Real-time autocorrection for everyday Italian words. Fixes typos like acnhe→anche, comunqeu→comunque."
+version: "0.1.0"
+author: "Andrea Cognini"
+tags: ["italian", "autocorrect", "typo", "italiano", "languages", "spell-correction", "typofixer"]
+homepage: "https://github.com/heavybeard/refuos"

@@ -1,0 +1,7 @@
+name: "refuos-accenti"
+title: "Refuos Accenti"
+description: "Autocorrection for Italian accents, future-tense verbs and -ità nouns. Fixes perche→perché, aggiungero→aggiungerò."
+version: "0.1.0"
+author: "Andrea Cognini"
+tags: ["italian", "autocorrect", "accents", "accenti", "italiano", "languages", "spell-correction", "typofixer"]
+homepage: "https://github.com/heavybeard/refuos"

@@ -1,0 +1,7 @@
+name: "refuos-dev"
+title: "Refuos Dev"
+description: "Autocorrection for tech and code terms: HTML, CSS, patterns, paradigms, Git, DevOps, Python and more. Fixes cosnt→const, reutrn→return."
+version: "0.1.0"
+author: "Andrea Cognini"
+tags: ["dev", "autocorrect", "code", "html", "css", "git", "devops", "python", "patterns", "architecture", "spell-correction", "typofixer"]
+homepage: "https://github.com/heavybeard/refuos"

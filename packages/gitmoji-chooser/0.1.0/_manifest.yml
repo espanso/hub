@@ -1,0 +1,7 @@
+name: "gitmoji-chooser"
+title: "Gitmoji Chooser"
+description: "A choice picker for all gitmoji emoji, triggered by :gitmoji"
+version: 0.1.0
+author: "Dan Drake and Claude"
+tags: ["gitmoji", "emoji", "git", "commit", "chat"]
+homepage: "https://github.com/dandrake/espanso_hub_gitmoji_chooser"

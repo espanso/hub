@@ -1,0 +1,99 @@
+matches:
+  - trigger: ":nr"
+    replace: "{{output}}"
+    vars:
+      - name: "form1"
+        type: form
+        params:
+          layout: "Bedrag: [[getal]]"
+      
+      - name: output
+        type: script
+        params:
+          args:
+            - python
+            - -c
+            - |
+              # -*- coding: utf-8 -*-
+              import sys
+              import io
+              sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+              
+              getal = '{{form1.getal}}'
+              
+              eenheden = ['', 'een', 'twee', 'drie', 'vier', 'vijf', 'zes', 'zeven', 'acht', 'negen']
+              tien_tot_twintig = ['tien', 'elf', 'twaalf', 'dertien', 'veertien', 'vijftien', 'zestien', 'zeventien', 'achttien', 'negentien']
+              tientallen = ['', '', 'twintig', 'dertig', 'veertig', 'vijftig', 'zestig', 'zeventig', 'tachtig', 'negentig']
+              grootheden = ['', 'duizend', 'miljoen', 'miljard', 'biljoen', 'biljard', 'triljoen']
+              
+              def tot_honderd(n):
+                  if n == 0: return ''
+                  elif n < 10: return eenheden[n]
+                  elif n < 20: return tien_tot_twintig[n - 10]
+                  else:
+                      tien, een = n // 10, n % 10
+                      if een == 0: return tientallen[tien]
+                      result = f'{eenheden[een]}en{tientallen[tien]}'
+                      return result.replace('eeen', 'eeën').replace('ieen', 'ieën')
+              
+              def tot_duizend(n):
+                  if n == 0: return ''
+                  honderd, rest = n // 100, n % 100
+                  result = ''
+                  if honderd > 0:
+                      if honderd == 1:
+                          result = 'honderd'
+                      else:
+                          result = f'{eenheden[honderd]}honderd'
+                  rest_text = tot_honderd(rest) if rest > 0 else ''
+                  return result + rest_text
+              
+              def converteer(num_str):
+                  if not num_str or num_str == '0': return 'nul'
+                  num = int(num_str.replace(' ', '').replace('.', ''))
+                  if num == 0: return 'nul'
+                  result, groep_index = '', 0
+                  while num > 0:
+                      groep = num % 1000
+                      if groep > 0:
+                          groep_tekst = tot_duizend(groep)
+                          if groep_index > 0:
+                              if groep_index == 1:
+                                  groep_tekst = f'{groep_tekst}{grootheden[groep_index]}'
+                              else:
+                                  groep_tekst = f'{groep_tekst} {grootheden[groep_index]}'
+                          result = f'{groep_tekst} {result}' if result else groep_tekst
+                      num //= 1000
+                      groep_index += 1
+                  result = result.strip()
+                  if result.startswith('eenduizend'): result = 'duizend' + result[10:]
+                  return result
+              
+              getal_str = getal.replace(' ', '')
+              
+              # Zoek het laatste scheidingsteken (. of ,)
+              laatste_punt = getal_str.rfind('.')
+              laatste_komma = getal_str.rfind(',')
+              laatste_scheiding = max(laatste_punt, laatste_komma)
+              
+              if laatste_scheiding > 0:
+                  # Controleer of er 1 of 2 cijfers na het laatste scheidingsteken staan
+                  na_scheiding = getal_str[laatste_scheiding + 1:]
+                  if len(na_scheiding) <= 2 and na_scheiding.isdigit():
+                      # Dit is het decimaalteken
+                      hoofdgetal = getal_str[:laatste_scheiding].replace('.', '').replace(',', '')
+                      decimalen = (na_scheiding + '00')[:2]
+                  else:
+                      # Geen decimalen, alles is hoofdgetal
+                      hoofdgetal = getal_str.replace('.', '').replace(',', '')
+                      decimalen = ''
+              else:
+                  hoofdgetal = getal_str
+                  decimalen = ''
+              
+              uitvoer = converteer(hoofdgetal) + ' euro'
+              if decimalen and decimalen != '00':
+                  cent_tekst = converteer(decimalen)
+                  uitvoer += f' en {cent_tekst} eurocent'
+              
+              print(uitvoer)

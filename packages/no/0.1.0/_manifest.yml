@@ -1,0 +1,7 @@
+name: "no"
+title: "No"
+description: Returns a random rejection reason. Use it when you need a realistic excuse, a fun “no,” or want to simulate being turned down in style.
+homepage: "https://github.com/nihalxkumar/hub/tree/no/packages/no"
+version: 0.1.0
+author: Nihal
+tags: ["fun", "shell"]

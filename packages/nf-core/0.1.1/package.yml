@@ -1,0 +1,156 @@
+matches:
+  # Code quality
+  - trigger: ":nfc-lint"
+    replace: |-
+      You can run
+      ```bash
+      nextflow lint -format -sort-declarations -spaces 4 -harshil-alignment
+      ```
+      on this file to clean this up nicely.
+
+  # Module development
+  - trigger: ":nfc-modcore"
+    replace: "{{nfc_mod_core_msg}}"
+    vars:
+      - name: nfc_mod_core_msg
+        type: choice
+        params:
+          values:
+            - label: "module naming"
+              id: "According to the [module specifications](https://nf-co.re/docs/specifications/components/modules/naming-conventions) we want the module name to be reflected in the process name. In this case"
+            - label: "output prefix"
+              id: "We want to let the module user decide about the output file naming in their pipeline via `ext-prefix`. So ideally the output filenames are just `${prefix}`."
+            - label: "add ontologies"
+              id: "Can you please add ontologies to the meta map?"
+            - label: "tuple inputs"
+              id: "Can we put all these inputs into one tuple? That will help ensure everything comes together in the right combination."
+            - label: "disambiguate with prefix"
+              id: |-
+                If input and output names can overlap, use `task.ext.prefix` to disambiguate. For example:
+                ```
+                if ("${tsv}" == "${prefix}.tsv") error "Input and output names are the same, use \"task.ext.prefix\" to disambiguate!"
+                ```
+
+  # Module versions and topics
+  - trigger: ":nfc-versions"
+    replace: "{{nfc_mod_versions_msg}}"
+    vars:
+      - name: nfc_mod_versions_msg
+        type: choice
+        params:
+          values:
+            - label: "versions expression"
+              id: |-
+                If you want to collect the versions with the new topic output you can use the following expression:
+                ```
+                process.out.findAll { key, val -> key.startsWith('versions') }
+                ```
+            - label: "switch to topics"
+              id: "Can you update the versions output to utilize topics? More information about that can be found in the [docs](https://nf-co.re/docs/developing/migration-guides/update-pipelines)."
+
+  # Testing and snapshots
+  - triggers: [":nfc-snap", ":nfc-test"]
+    replace: "{{nfc_test_msg}}"
+    vars:
+      - name: nfc_test_msg
+        type: choice
+        params:
+          values:
+            - label: "sanitize snapshot"
+              id: |-
+                You can use
+                ```
+                { assert snapshot(sanitizeOutput(process.out)).match() }
+                ```
+                to clean up the snapshot using [nft-utils](https://github.com/nf-core/nft-utils). It is used to clean process and workflow outputs by removing the numbered keys. This will create snapshots that are easier to read by humans.
+            - label: "snapshot more files"
+              id: "Can you add other files to this snapshot as well? Ideally we want all outputs to be at least present by name in the snapshot."
+            - label: "stub assertion"
+              id: |-
+                You can use
+                ```
+                { assert snapshot(sanitizeOutput(process.out)).match() }
+                ```
+                for the stub assertion. It should not be necessary to do any other assertions in the stub test.
+            - label: "nft-bam checks"
+              id: "You can use [`nft-bam`](https://nvnieuwk.github.io/nft-bam/latest/usage/) to assert the content of the BAM file. The function `.getReadsMD5()` is useful if your md5sum of the whole file is unstable because of changes in the header."
+            - label: "nft-vcf checks"
+              id: "You can use [`nft-vcf`](https://github.com/seppinho/nft-vcf) to assert the content of the VCF file. The function `path(process.out.<vcf-out-name>[0][1]).vcf.variantsMD5` is useful to get the md5sum of the variants in the VCF file without being affected by changes in the header or the order of the variants."
+            - label: "clean suggestion block"
+              id: |-
+                ```suggestion
+                                { assert snapshot(sanitizeOutput(process.out)).match() }
+                ```
+            - label: "ext.args in tests"
+              id: "We want the ext.args to be present in the main.nf.test file. That makes everything more readable in one go. See the [module specifications](https://nf-co.re/docs/specifications/components/modules/testing#configuration-of-extargs-in-tests) for more info."
+
+  # Infrastructure
+  - trigger: ":nfc-docker"
+    replace: "{{nfc_docker_bioconda}}"
+    vars:
+      - name: nfc_docker_bioconda
+        type: choice
+        params:
+          values:
+            - label: "bioconda"
+              id: "We encourage bringing tools to bioconda. Can you look into that? Then containers for docker and singularity can be automatically built for your tool. See the [docs](https://nf-co.re/docs/specifications/components/modules/software-requirements) for more info."
+            - label: "quay.io"
+              id: "We have a quay.io repository for custom docker containers. It is a recommendation to upload them there so that we stay independent of third parties that might delete the images. See the [docs](https://nf-co.re/docs/specifications/pipelines/recommendations/custom_containers) for more info. You can request the upload via #request-core in the nf-core slack."
+
+  # Contribution guidance
+  - trigger: ":nfc-contrib"
+    replace: "{{nfc_contrib_msg}}"
+    vars:
+      - name: nfc_contrib_msg
+        type: choice
+        params:
+          values:
+            - label: "join nf-core org"
+              id: "Please join the nf-core organization on GitHub to enable the CI-tests to run on your PR. You can request to join the organization via #github-invitations in the nf-core slack. You can join the nf-core slack via https://nf-co.re/join."
+            - label: "one module per PR"
+              id: "We usually recommend to have one module per PR. That makes the review process easier and it is more likely that someone will review your PR. You can keep that in mind for the next PRs."
+            - label: "split this PR"
+              id: "Thank you for your contribution! Can you please split up your PR into one PR per module / subworkflow. These are too many files to be reviewed at once."
+
+  # Thank-you messages
+  - trigger: ":nfc-thanks"
+    replace: "{{nfc_thanks_msg}}"
+    vars:
+      - name: nfc_thanks_msg
+        type: choice
+        params:
+          values:
+            - label: "thanks message"
+              id: "Thank you for your contribution to nf-core! We really appreciate it. I added a few comments to your PR."
+            - label: "thanks with guidance"
+              id: "Thank you for your contribution to nf-core! I started with giving some hints that hopefully help with the development of this module :) I think the looking at the [module specifications](https://nf-co.re/docs/guidelines/components/modules) or other modules in this repository can be a good starting point for the next steps."
+
+  # Pipeline related
+  - triggers: [":nfc-pipeline", ":nfc-info"]
+    replace: "{{nfc_pipeline_msg}}"
+    vars:
+      - name: nfc_pipeline_msg
+        type: choice
+        params:
+          values:
+            - label: "request logs and command"
+              id: "Can you please provide more information? We need the `nextflow.log` file, ideally your `samplesheet.csv` and the command you used to run the pipeline to properly investigate."
+            - label: "custom config"
+              id: "You can change and adjust parameters with a custom configuration file. See the [docs](https://nf-co.re/docs/running/configuration/configuration-options#custom-configuration-files) for more info."
+
+  # GitHub filters
+  - trigger: ":prtodo"
+    replace: "-commenter:@me -review:changes-requested"
+
+  # GitHub workflow messages
+  - triggers: [":nfc-github", ":nfc-gh"]
+    replace: "{{nfc_gh_msg}}"
+    vars:
+      - name: nfc_gh_msg
+        type: choice
+        params:
+          values:
+            - label: "advise new template PR"
+              id: "The module template has changed a lot since this PR was opened. I would advise to start with a new PR using the latest module template by running `nf-core m create`. That will make sure that you are up to date with the latest changes and it will be easier to review and merge your PR."
+            - label: "close due to inactivity"
+              id: "I am closing this Pull Request due to inactivity. If you want to continue working on this, either reopen the PR or open a new PR and reference this one."

@@ -1,7 +1,0 @@
-author: ad08fee3
-description: Provides a picker to select an emoji based on your input.
-name: emoji-picker
-title: Emoji Picker
-version: 16.0.0
-homepage: "https://github.com/ad08fee3/espanso-emoji-picker"
-tags: ["emoji", "chat"]

@@ -1,0 +1,118 @@
+# espanso configuration file
+
+# This is the default configuration file, change it as you like it
+# You can refer to the official documentation:
+# https://espanso.org/docs/
+
+# Matches are the substitution rules, when you type the "trigger" string
+# it gets replaced by the "replace" string.
+name: french-politeness
+parent: default
+
+matches:
+  ### ----------------
+  ### Opening expressions
+  ### ----------------
+
+  - trigger: "bjr"
+    replace: "bonjour"
+    propagate_case: true
+    word: true
+  - trigger: "bapm"
+    replace: "bonne après-midi"
+    propagate_case: true
+    word: true
+  - trigger: "bsr"
+    replace: "bonsoir"
+    propagate_case: true
+    word: true
+  - triggers:
+      - "msr"
+      - "m."
+    replace: "monsieur,"
+    propagate_case: true
+    word: true
+  - triggers:
+      - "mme"
+      - "mme."
+    replace: "madame,"
+    propagate_case: true
+    word: true
+  - trigger: "mlle"
+    replace: "mademoiselle,"
+    propagate_case: true
+    word: true
+  - trigger: ":cher"
+    form: |
+      [[dear]] [[name]],
+    form_fields:
+      dear:
+        type: choice
+        values:
+          - Cher
+          - Chère
+      name:
+        type: text
+        multiline: false
+  - trigger: ":alattde"
+    form: |
+      À l’attention de [[name]],
+    form_fields:
+      name:
+        type: text
+        multiline: false
+  - trigger: "slt"
+    replace: "salut,"
+    propagate_case: true
+    word: true
+  - trigger: "cc"
+    replace: "coucou,"
+    propagate_case: true
+    word: true
+  - trigger: "jqtb"
+    replace: "J'espère que tu vas bien"
+    word: true
+  - trigger: "jqvb"
+    replace: "J'espère que vous allez bien"
+    word: true
+
+  ### ----------------
+  ### Closure expressions
+  ### ----------------
+
+  - trigger: "bat"
+    replace: "Bien à toi,"
+    word: true
+  - trigger: "bav"
+    replace: "Bien à vous,"
+    word: true
+  - trigger: "cdt"
+    replace: "Cordialement,"
+    word: true
+  - trigger: "sltd"
+    replace: "Salutations distinguées,"
+    word: true
+  - trigger: "eslt"
+    replace: "En vous adressant mes salutations distinguées,"
+    word: true
+  - trigger: "aslt"
+    replace: "Avec l'expression de mes salutations distinguées,"
+    word: true
+  - trigger: "rsp"
+    replace: "Respectueusement,"
+    word: true
+  - trigger: "scr"
+    replace: "Sincèrement,"
+    word: true
+  - trigger: "sslt"
+    replace: "Sincères salutations,"
+    word: true
+  - trigger: "amslt"
+    replace: "Avec mes meilleures salutations,"
+    word: true
+  - trigger: "mpat"
+    replace: "Merci pour votre attention,"
+    word: true
+  - trigger: "attret"
+    replace: "Dans l'attente de votre retour,"
+    word: true

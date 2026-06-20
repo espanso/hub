@@ -1,0 +1,7 @@
+name: "nf-core"
+title: "nf-core related commands for espanso"
+description: nf-core is a community effort to collect a curated set of analysis pipelines built using Nextflow. This package provides commands to interact with pull requests on nf-core repositories and in the Slack channel. If you have something to add to this package, please open a pull request on the GitHub repository.
+homepage: "https://nf-co.re/"
+version: 0.1.1
+author: Famke Bäuerle
+tags: ["nf-core", "nextflow", "bioinformatics", "pipelines", "slack", "github"]
