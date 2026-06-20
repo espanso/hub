@@ -1,30 +1,35 @@
 # I Ching (Book of Changes) Unicode Symbols
 
-A text expander package providing quick access to I Ching hexagrams, trigrams, bigrams, and monograms with multiple information formats.
+A package that provides access to I Ching symbols including hexagrams (䷀), trigrams(☷), bigrams(⚍), and monograms (⚋); Chinese and English names; and links to original text and translation from ctext.org.
 
-## About I Ching
-
-The I Ching, or Book of Changes, is an ancient Chinese divination text consisting of 64 hexagrams (六十四卦) that represent different life situations and transformations.
-
-## Installation
+## To Install
 
 espanso install i-ching
 
-## Usage Rules
+## To find hexagram symbols
 
-**Hexagrams:** Use `:ic` followed by a 6-digit binary code (1s and 0s). Examples:
+Type `:ic` follow by a 6-digit binary (1/0s) starting from the top line. For example,
 
-- `:ic111111` → ䷀ (The Creative)
-- `:ic000000` → ䷁ (The Receptive)
+- `:ic111111` → ䷀ (1 of the 64 Hexagrams that represents THE CREATIVE HEAVEN)
+- `:ic000000` → ䷁ (THE RECEPTIVE EARTH)
+- and so on.
 
-**Information Formats:**
+## To learn more
 
-- `:icc` = Chinese name with symbol
-- `:ice` = English name with symbol
-- `:icl` = Link to ctext.org reference
+- **C**hinese:   `:icc111111` → 乾卦 ䷀ (Chinese name + Hexagram)
+- **E**nglish:  `:ice000000` → THE RECEPTIVE EARTH ䷁ (English name + Hexagram)
+- **L**ink:     `:icl111111` [https://ctext.org/book-of-changes/qian](https://ctext.org/book-of-changes/qian) (**L**ink to original text)
 
-**Trigrams:** Use `:ict` followed by 3-digit binary code (`:ict111` → ☰)
+- **M**onograms:      `:icm0` → ⚋ (兩儀, 1 of 2 that represents Ying 陰)
+- **B**igrams:       `:icb11` → ⚌ (四象, 1 of 4 that represents Greater Yang 太陽)
+- **T**rigrams:      `:ict011` → ☱ (八卦, 1 of 8 that represents Lake 澤)
 
-**Bigrams:** Use `:icb` followed by 2-digit binary code (`:icb11` → ⚌)
+## To search by order
 
-**Monograms:** Use `:icm` followed by single digit (`:icm1` → ⚊)
+- **N**umber: `:icn30` → 離卦 ䷝ (…大過坎離三十備…)
+
+## Organized by Longman
+
+- [GitHub](https://github.com/luklongman)
+- [Instagram](https://www.instagram.com/l.ongman/)
+- Last edited: Jun 20, 2026 (Sat)
