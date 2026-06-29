@@ -1,0 +1,7 @@
+name: "dadd"
+title: "Date add package"
+description: An utility for quick date calculations
+homepage: "https://github.com/undergrinder/espanso-hub/tree/main/packages/dadd/0.1.0"
+version: 0.1.0
+author: undergrinder
+tags: ["math", "utility"]
