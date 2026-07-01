@@ -1,5 +1,5 @@
 matches:
-  - regex: "\\b(?P<word>\\w*)çao\\b"
+  - regex: "\\b(?P<word>\\w+)çao\\b"
     replace: "{{word}}ção"
-  - regex: "\\b(?P<word>\\w*)çoes\\b"
+  - regex: "\\b(?P<word>\\w+)çoes\\b"
     replace: "{{word}}ções"
