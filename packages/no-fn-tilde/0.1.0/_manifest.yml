@@ -1,0 +1,7 @@
+name: "no-fn-tilde"
+title: "No FN Tilde"
+description: A simple package to help type words with tildes on ANSI keyboards without a dedicated tilde key
+homepage: "https://github.com/ArturNTx/espanso-package-hub"
+version: 0.1.0
+author: Artur V. Neto
+tags: ["pt-br", "portuguese", "ansi", "tilde", "languages"]
