@@ -1,0 +1,133 @@
+global_vars:
+  - name: escape_python
+    type: echo
+    params:
+      echo: "python" # Replace this with the path to your Python instance if automatic detection is failing
+
+matches:
+  - triggers: [">>json", ">>\\"]
+    replace: "{{stdout}}"
+    vars:
+      - name: "f"
+        type: form
+        params:
+          layout: "JSON/backslash escape\n\nText:\n[[text]]"
+          fields:
+            text:
+              multiline: true
+      - name: stdout
+        type: script
+        params:
+          trim: false
+          args:
+            - "{{escape_python}}"
+            - "%CONFIG%/match/packages/escape/jsonescape.py"
+            - "{{f.text}}"
+  - triggers: ["<<json", "<<\\"]
+    replace: "{{stdout}}"
+    vars:
+      - name: "f"
+        type: form
+        params:
+          layout: "JSON/backslash un-escape\n\nText:\n[[text]]"
+          fields:
+            text:
+              multiline: true
+      - name: stdout
+        type: script
+        params:
+          trim: false
+          args:
+            - "{{escape_python}}"
+            - "%CONFIG%/match/packages/escape/jsonunescape.py"
+            - "{{f.text}}"
+  - trigger: ">>xml"
+    replace: "{{stdout}}"
+    vars:
+      - name: "f"
+        type: form
+        params:
+          layout: "XML escape\n\nText:\n[[text]]"
+          fields:
+            text:
+              multiline: true
+      - name: stdout
+        type: script
+        params:
+          trim: false
+          args:
+            - "{{escape_python}}"
+            - "%CONFIG%/match/packages/escape/xmlescape.py"
+            - "{{f.text}}"
+  - trigger: "<<xml"
+    replace: "{{stdout}}"
+    vars:
+      - name: "f"
+        type: form
+        params:
+          layout: "XML un-escape\n\nText:\n[[text]]"
+          fields:
+            text:
+              multiline: true
+      - name: stdout
+        type: script
+        params:
+          trim: false
+          args:
+            - "{{escape_python}}"
+            - "%CONFIG%/match/packages/escape/xmlunescape.py"
+            - "{{f.text}}"
+  - trigger: ">>url"
+    replace: "{{stdout}}"
+    vars:
+      - name: "f"
+        type: form
+        params:
+          layout: "URL encode\n\nText:\n[[text]]"
+          fields:
+            text:
+              multiline: true
+      - name: stdout
+        type: script
+        params:
+          trim: false
+          args:
+            - "{{escape_python}}"
+            - "%CONFIG%/match/packages/escape/urlescape.py"
+            - "{{f.text}}"
+  - trigger: "<<url"
+    replace: "{{stdout}}"
+    vars:
+      - name: "f"
+        type: form
+        params:
+          layout: "URL decode\n\nText:\n[[text]]"
+          fields:
+            text:
+              multiline: true
+      - name: stdout
+        type: script
+        params:
+          trim: false
+          args:
+            - "{{escape_python}}"
+            - "%CONFIG%/match/packages/escape/urlunescape.py"
+            - "{{f.text}}"
+  - trigger: ">>regex"
+    replace: "{{stdout}}"
+    vars:
+      - name: "f"
+        type: form
+        params:
+          layout: "Regex escape\n\nText:\n[[text]]"
+          fields:
+            text:
+              multiline: true
+      - name: stdout
+        type: script
+        params:
+          trim: false
+          args:
+            - "{{escape_python}}"
+            - "%CONFIG%/match/packages/escape/regexescape.py"
+            - "{{f.text}}"
