@@ -1,10 +1,10 @@
 matches:
-- triggers: [":em"]
-  replace: "{{output}}"
-  vars:
-  - name: output
-    type: choice
-    params:
+ - triggers: [":em"]
+   replace: "{{output}}"
+   vars:
+   - name: output
+     type: choice
+     params:
       values:
         - label: "😀 :grinning_face:"
           id: "😀"
