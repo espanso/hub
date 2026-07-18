@@ -20,10 +20,11 @@ matches:
             - python
             - -c
             - |
-              from datetime import datetime, timedelta             
-              clean_input = '{{input_dateadd.dateBase}}'.strip("' \"").replace('.', '-')
+              from datetime import datetime, timedelta
+              clean_input = '{{input_dateadd.dateBase}}'.strip("' \"").replace('.', '-').lower()
               if clean_input in ['now', 'today']:
                 dt = datetime.today().date()
               else:
-                dt = datetime.strptime(clean_input, '%Y-%m-%d')
-              print(f"{dt + timedelta(days=int('{{input_dateadd.dayTimeDelta}}'))}")
+                dt = datetime.strptime(clean_input, '%Y-%m-%d').date()
+              result = dt + timedelta(days=int('{{input_dateadd.dayTimeDelta}}'))
+              print(result.strftime('%Y-%m-%d'))
