@@ -1,0 +1,7 @@
+name: "person-names"
+title: "Person Names"
+description: Generate random person names. Type >c1 for a full name (first + last) or >c2 for the first name only. Ships 1000 distinct first names and 450 last names from an international mix.
+version: 0.1.0
+author: Eduar Bastidas
+homepage: "https://github.com/mreduar/person-names"
+tags: ["names", "random", "person", "placeholder", "test-data"]
