@@ -5,7 +5,7 @@ Generate random but realistic-looking fake email addresses with
 
 | Trigger  | Expands to | Examples |
 | -------- | ---------- | -------- |
-| `>email` | A random fake address | `eduar@gmail.com` · `j.smith@cocacola.com` · `mgarcia87@mycompany.com` |
+| `>email` | A random fake address | `abigail.moody3@gmail.com` · `adam@cocacola.com` · `alex.rowe72@mycompany.com` |
 
 Every time you type `>email`, espanso picks a fresh random address, so you get a
 different one each time.

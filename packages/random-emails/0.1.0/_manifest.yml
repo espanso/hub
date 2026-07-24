@@ -1,6 +1,6 @@
 name: "random-emails"
 title: "Random Emails"
-description: Generate random but realistic-looking fake email addresses. Type >email to get an address like eduar@gmail.com, j.smith@cocacola.com or mgarcia87@mycompany.com.
+description: Generate random but realistic-looking fake email addresses. Type >email to get an address like abigail.moody3@gmail.com, adam@cocacola.com or alex.rowe72@mycompany.com.
 version: 0.1.0
 author: Eduar Bastidas
 homepage: "https://github.com/mreduar/random-emails"

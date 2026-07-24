@@ -1,5 +1,5 @@
 # Espanso package: generates random but realistic-looking fake emails.
-#   >email  ->  a random address, e.g. "eduar@gmail.com" or "j.smith@cocacola.com"
+#   >email  ->  a random address, e.g. "abigail.moody3@gmail.com" or "adam@cocacola.com"
 #
 # The address is fake, but every part looks real: the local part combines
 # 895 real-style usernames with 173 real email providers,
