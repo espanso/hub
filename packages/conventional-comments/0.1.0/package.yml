@@ -1,0 +1,30 @@
+# Conventional Comments Match Configuration
+# Inspired by https://conventionalcomments.org/
+variables:
+  decorations: &decorations
+    - "non-blocking"
+    - "blocking"
+    - "if-minor"
+
+  labels: &labels
+    - "praises"
+    - "nitpick"
+    - "suggestion"
+    - "issue"
+    - "todo"
+    - "question"
+    - "thought"
+    - "chore"
+    - "note"
+
+matches:
+  - trigger: ":ccc"
+    form: '[[label]] ([[decorations]]): '
+    form_fields:
+      label:
+        type: choice
+        values: *labels
+      decorations:
+        type: choice
+        values: *decorations
+    description: "Single line comment format // Comment"
