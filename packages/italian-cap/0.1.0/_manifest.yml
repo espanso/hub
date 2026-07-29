@@ -1,0 +1,7 @@
+name: "italian-cap"
+title: "Italian ZIP Codes to City Names"
+description: Expands an Italian postal code (CAP) into the code followed by its comune. Type a colon plus the five-digit CAP, e.g. ":00184" becomes "00184 Roma". Ships 4657 triggers, one per distinct CAP.
+version: 0.1.0
+author: blackne0n
+tags: ["zip", "italian", "postal-codes"]
+homepage: "https://github.com/blackne0n/hub/tree/add-italian-cap"
