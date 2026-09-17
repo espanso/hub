@@ -1,0 +1,48 @@
+# UniRate Currency Converter
+#
+# Requires the `unirate` CLI on your PATH and a free UNIRATE_API_KEY in your
+# environment. See the README for setup. Both commands are read-only HTTPS GETs
+# against the UniRate API — they never write to or modify the system.
+
+matches:
+  # Convert an amount between two currencies.
+  #   :fx  ->  form (amount / from / to)  ->  e.g. "100 USD = 92.5 EUR"
+  - trigger: ":fx"
+    replace: "{{result}}"
+    vars:
+      - name: form
+        type: form
+        params:
+          layout: "Convert [[amount]] [[from]] into [[to]]"
+          fields:
+            amount:
+              default: "100"
+            from:
+              default: "USD"
+            to:
+              default: "EUR"
+      - name: result
+        type: shell
+        params:
+          cmd: "unirate convert {{form.amount}} {{form.from}} {{form.to}}"
+          trim: true
+
+  # Look up the live rate for a single currency pair.
+  #   :rate  ->  form (from / to)  ->  e.g. "1 USD = 150 JPY"
+  - trigger: ":rate"
+    replace: "{{result}}"
+    vars:
+      - name: form
+        type: form
+        params:
+          layout: "Exchange rate: 1 [[from]] in [[to]]"
+          fields:
+            from:
+              default: "USD"
+            to:
+              default: "EUR"
+      - name: result
+        type: shell
+        params:
+          cmd: "unirate rate {{form.from}} {{form.to}}"
+          trim: true
