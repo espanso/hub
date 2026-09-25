@@ -1,0 +1,12 @@
+name: misspell-ar
+title: Arabic Typo Auto-Corrector
+description: Automatically fixes common Arabic spelling mistakes, including Hamza, Taa Marbouta, and Tanween errors. 4950+ rule-generated and curated corrections.
+version: 0.1.0
+author: Hossam Gamal
+homepage: "https://github.com/hosam00/misspell-ar"
+tags:
+  - arabic
+  - spelling
+  - autocorrect
+  - spell-correction
+  - typofixer
