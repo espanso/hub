@@ -1,0 +1,10 @@
+name: accent-letters
+title: Accent Letters
+description: >-
+  Type any accented letter by its shape: ;e' gives é, ;n~ gives ñ, ;c, gives ç, ;o/ gives ø.
+  257 triggers covering the accented letters of 55 languages, generated from Unicode
+  16.0.0 and CLDR 48.2.0.
+version: 0.1.0
+author: Accent Letters
+homepage: "https://accentletters.wiki/"
+tags: ["accents", "letters", "characters", "languages", "unicode", "diacritics"]
