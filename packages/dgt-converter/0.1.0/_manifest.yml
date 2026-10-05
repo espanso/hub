@@ -1,0 +1,17 @@
+name: dgt-converter
+title: DGT Time Converter
+description: Convert standard date and time into DTG/DGT format like 300940APR26.
+version: 0.1.0
+author: Khaleeq Ur Rahman
+homepage: https://github.com/khaleeek/hub
+tags:
+  [
+    "datetime",
+    "time",
+    "converter",
+    "dtg",
+    "dgt",
+    "aviation",
+    "military",
+    "timestamp",
+  ]
