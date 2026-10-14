@@ -1,0 +1,7 @@
+name: "random-discord-text-formatter"
+title: "Random Discord Text Formatter"
+description: "Random Discord markdown formatting and case flipping via a minimal Python/Espanso prompt. Perfect for chaotic but valid Discord messages. Use :randytext to trigger it."
+homepage: "https://github.com/kreezxil/hub/"
+version: 1.0.0
+author: Kreezxil
+tags: [ "discord", "markdown", "formatting", "python", "fun", "text" ]
