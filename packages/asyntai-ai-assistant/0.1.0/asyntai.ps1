@@ -74,6 +74,9 @@ function Invoke-Asyntai([string]$Method, [string]$Path, [string]$Key, $Body) {
     [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12
     $request = [Net.HttpWebRequest]::Create((Get-BaseUrl) + $Path)
     $request.Method = $Method
+    # Never follow a redirect: it could send the question or the API key to
+    # another host. A 3xx answer becomes an error instead.
+    $request.AllowAutoRedirect = $false
     $request.Timeout = $TimeoutMs
     $request.ReadWriteTimeout = $TimeoutMs
     $request.UserAgent = $UserAgent
@@ -124,7 +127,7 @@ function Invoke-Asyntai([string]$Method, [string]$Path, [string]$Key, $Body) {
         if (-not $message) { $message = 'your chatbot reached its message limit.' }
         throw (New-AsyntaiError ('Asyntai: ' + $message) $status)
     }
-    if ($status -ge 400 -or $null -eq $root -or $root.success -eq $false) {
+    if ($status -lt 200 -or $status -ge 300 -or $null -eq $root -or $root.success -eq $false) {
         if (-not $message) { $message = "the server answered with status $status." }
         throw (New-AsyntaiError ('Asyntai: ' + $message) $status)
     }

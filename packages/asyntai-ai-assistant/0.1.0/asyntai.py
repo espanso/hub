@@ -79,6 +79,16 @@ def base_url():
     return LIVE_BASE
 
 
+class _NoRedirect(urllib.request.HTTPRedirectHandler):
+    # Never follow a redirect: it could send the question or the API key to
+    # another host. A 3xx answer becomes an error instead.
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        return None
+
+
+_opener = urllib.request.build_opener(_NoRedirect)
+
+
 def call(method, path, key, body=None):
     headers = {
         "Authorization": "Bearer " + key,
@@ -91,7 +101,7 @@ def call(method, path, key, body=None):
         headers["Content-Type"] = "application/json"
     request = urllib.request.Request(base_url() + path, data=data, headers=headers, method=method)
     try:
-        with urllib.request.urlopen(request, timeout=TIMEOUT) as response:
+        with _opener.open(request, timeout=TIMEOUT) as response:
             status, raw = response.status, response.read()
     except urllib.error.HTTPError as e:
         status, raw = e.code, (e.read() if e.fp else b"")
@@ -110,7 +120,7 @@ def call(method, path, key, body=None):
         raise AsyntaiError("Asyntai: " + (error or "the Asyntai API needs the Starter plan or higher."))
     if status == 429:
         raise AsyntaiError("Asyntai: " + (error or "your chatbot reached its message limit."))
-    if status >= 400 or not isinstance(root, dict) or root.get("success") is False:
+    if not 200 <= status < 300 or not isinstance(root, dict) or root.get("success") is False:
         raise AsyntaiError("Asyntai: " + (error or "the server answered with status %d." % status))
     return root
 
