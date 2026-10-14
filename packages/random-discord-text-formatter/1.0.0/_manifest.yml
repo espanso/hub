@@ -1,0 +1,7 @@
+name: "randytext"
+title: "Randy Text"
+description: "Random Discord markdown formatting and case flipping via a minimal Python/Tkinter prompt. Perfect for chaotic but valid Discord messages. Use :randytext to trigger it. Created on Linux."
+homepage: "https://github.com/kreezxil/espanso-packages"
+version: 1.0.0
+author: Kreezxil
+tags: [ "discord", "markdown", "formatting", "python", "fun", "text" ]
