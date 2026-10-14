@@ -1,0 +1,9 @@
+matches:
+  - trigger: ":randytext"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "nohup python3 $CONFIG/scripts/random_discord_formatter.py 2>&1 &"
+
