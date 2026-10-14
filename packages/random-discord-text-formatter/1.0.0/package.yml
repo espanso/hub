@@ -3,7 +3,9 @@ matches:
     replace: "{{output}}"
     vars:
       - name: output
-        type: shell
+        type: script
         params:
-          cmd: "nohup python3 $CONFIG/scripts/random_discord_formatter.py 2>&1 &"
+          args:
+            - python
+            - "%CONFIG%/match/packages/random-discord-text-formatter/random_discord_formatter.py"
 
