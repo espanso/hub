@@ -1,0 +1,7 @@
+name: "asyntai-ai-assistant"
+title: "Asyntai AI Assistant"
+description: "Type :ask anywhere and get the answer your Asyntai AI chatbot gives from your own website, docs and FAQ. Great for support replies."
+version: "0.1.0"
+author: "Asyntai"
+homepage: "https://asyntai.com/documentation/integrations/espanso/"
+tags: ["AI", "chatbot", "assistant", "customer support", "support", "LLM", "knowledge base", "Asyntai"]
