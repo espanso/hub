@@ -1,0 +1,7 @@
+name: "unirate-currency-converter"
+title: "UniRate Currency Converter"
+description: "Convert amounts and look up live exchange rates inline, powered by the UniRate API command-line client."
+version: 0.1.0
+author: UniRate API
+homepage: "https://github.com/UniRate-API/unirate-cli"
+tags: ["currency", "exchange-rate", "forex", "money", "converter", "finance", "unirate"]
