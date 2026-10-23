@@ -1,0 +1,7 @@
+name: "qa-toolkit-br"
+title: "QA Toolkit BR"
+description: "Test data for QA: valid CPF/CNPJ, names, phones, UUID, tokens, JWT, Lorem ipsum, edge-case inputs and bug report templates."
+version: "0.1.0"
+author: "ChristoferRSouza"
+tags: ["qa", "testing", "test-data", "fake", "brazil", "cpf", "cnpj", "uuid", "jwt", "lorem"]
+homepage: "https://github.com/ChristoferRSouza"
