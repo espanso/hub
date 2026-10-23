@@ -15,7 +15,10 @@ matches:
             - -c
             - |
               import random
-              n = [random.randint(0, 9) for _ in range(9)]
+              while True:
+                n = [random.randint(0, 9) for _ in range(9)]
+                if len(set(n)) > 1:
+                    break
               for w in (10, 11):
                   r = sum(d * (w - i) for i, d in enumerate(n)) % 11
                   n.append(0 if r < 2 else 11 - r)
@@ -34,7 +37,10 @@ matches:
             - -c
             - |
               import random
-              n = [random.randint(0, 9) for _ in range(9)]
+              while True:
+                n = [random.randint(0, 9) for _ in range(9)]
+                if len(set(n)) > 1:
+                    break
               for w in (10, 11):
                   r = sum(d * (w - i) for i, d in enumerate(n)) % 11
                   n.append(0 if r < 2 else 11 - r)
@@ -109,8 +115,8 @@ matches:
             - python3
             - -c
             - |
-              import random, time
-              print(f"qa.{int(time.time())}{random.randint(100, 999)}@example.com", end="")
+              import uuid
+              print(f"qa.{uuid.uuid4().hex[:12]}@example.com", end="")
 
   - trigger: ":fakecel"
     replace: "{{v}}"
