@@ -24,6 +24,8 @@ matches:
               id: "Can you please add ontologies to the meta map?"
             - label: "tuple inputs"
               id: "Can we put all these inputs into one tuple? That will help ensure everything comes together in the right combination."
+            - label: "seqera containers"
+              id: "Can you please swap the containers for seqera containers (https://seqera.io/containers/). This enables autmated updating later on. You can use the command `nf-core modules containers create` for that."
             - label: "disambiguate with prefix"
               id: |-
                 If input and output names can overlap, use `task.ext.prefix` to disambiguate. For example:
