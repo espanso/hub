@@ -1,0 +1,7 @@
+author: Kavel
+description: "Kavel is a free AI video generator and AI image generator — 4K clips with sound, and images you can run without an account or a card. This package expands short triggers into tested photo-edit prompts (figurine, pet portrait, 90s yearbook, HD restore and more) plus the link to run them."
+name: kavel-ai-prompts
+title: Kavel AI Photo Prompts
+version: 0.1.0
+homepage: "https://www.kavel.ai/?utm_source=espanso&utm_medium=package"
+tags: ["ai", "prompts", "image", "photo", "productivity"]
