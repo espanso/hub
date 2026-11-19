@@ -2,7 +2,7 @@ author: Pavan Mohan Neelamraju
 description: PowerPoint-style Math AutoCorrect shortcuts for LibreOffice Impress and Writer.
 name: libreoffice-ppt-math
 title: LibreOffice PPT-Style Math
-version: 0.1.0
+version: 0.2.0
 homepage: https://github.com/PavanMohanN/libreoffice-ppt-math
 tags:
   - math
