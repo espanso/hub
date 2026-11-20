@@ -24,7 +24,7 @@ Links in an answer are typed as `text (https://...)`, so they work in plain text
 3. Open an empty text field, for example a new note, and type `:asyntaikey`. Paste the key and press Enter. Asyntai checks the key, and the package saves it in your user folder (`%APPDATA%\asyntai` on Windows, `~/.config/asyntai` on macOS and Linux).
 4. Type `:ask` anywhere and ask your first question.
 
-The package is free. It uses the Asyntai API, which needs an Asyntai account on the Starter plan or higher.
+The package is free. It uses the Asyntai API, which needs a paid Asyntai account on the Starter plan or higher.
 
 ## Requirements
 

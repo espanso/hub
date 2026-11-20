@@ -140,7 +140,11 @@ function ConvertTo-Plain([string]$Text) {
         param($m)
         $label = $m.Groups[1].Value.Trim()
         $url = $m.Groups[2].Value.Trim()
-        if (-not $label -or $label -eq $url -or $url.StartsWith('mailto:') -or $url.StartsWith('tel:')) {
+        # mailto: and tel: links keep the bare address or number.
+        if ($url.StartsWith('mailto:') -or $url.StartsWith('tel:')) {
+            $url = $url.Substring($url.IndexOf(':') + 1).Split('?')[0]
+        }
+        if (-not $label -or $label -eq $url) {
             if ($label) { return $label } else { return $url }
         }
         return "$label ($url)"

@@ -129,7 +129,10 @@ def plain(text):
     """Make a chat answer fit a plain text field: links as "text (url)", no bold."""
     def link(m):
         label, url = m.group(1).strip(), m.group(2).strip()
-        if not label or label == url or url.startswith("mailto:") or url.startswith("tel:"):
+        # mailto: and tel: links keep the bare address or number.
+        if url.startswith(("mailto:", "tel:")):
+            url = url.split(":", 1)[1].split("?", 1)[0]
+        if not label or label == url:
             return label or url
         return "%s (%s)" % (label, url)
 
