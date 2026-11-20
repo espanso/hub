@@ -20,6 +20,7 @@ Type an expression **without spaces**, then press **space**. The whole expressio
 | `\alpha`, `\Delta`, `\infty` | α, Δ, ∞ |
 | `x^2`, `x^{n+1}`, `x^(n+1)`, `a_{ij}` | x², xⁿ⁺¹, xⁿ⁺¹, aᵢⱼ |
 | `\alpha^2`, `\theta_0`, `e^{-x^2}` | α², θ₀, e⁻ˣ² |
+| `{a+b}^2`, `\frac{a}{b}^2` | (a+b)², (a/b)² |
 | `\int_0^1`, `\int_{0}^{\infty}` | ∫₀¹, ∫₀^∞ |
 | `\sum_{i=1}^{n}x_i`, `\prod_{k=1}^n` | ∑ᵢ₌₁ⁿ xᵢ, ∏ₖ₌₁ⁿ |
 | `\lim_{x\to0}` | lim_(x→0) |
@@ -37,6 +38,7 @@ Around 900 commands are supported: Greek, operators, relations, arrows, sets, lo
 **Tips**
 * Put spaces *around* an expression, not inside it. `A \cup B` gives `A ∪ B`; `\frac{a b}{c}` won't work.
 * Need a space inside an expression? Use `~` or `\,`.
+* Expressions up to 25 characters convert (Espanso's default buffer); see *Advanced* to raise this.
 * Pressing **Backspace** straight after a conversion undoes it (Espanso's built-in undo).
 * Text without math syntax (`snake_case`, `don't`, URLs, `24/7`) is never touched.
 
@@ -45,40 +47,46 @@ Around 900 commands are supported: Greek, operators, relations, arrows, sets, lo
 ## Step 1: Prerequisites
 
 1. **Espanso**: follow the [Espanso installation guide](https://espanso.org/docs/install/), then check it runs with `espanso status`.
-2. **Python 3**: the conversion runs a small local Python script (standard library only, no network or file access).
+2. **Python 3**: the conversion runs a small Python script embedded in `package.yml` (standard library only, no network or file access).
    Usually pre-installed on Linux and macOS; check with `python3 --version`.
-   On **Windows** the package calls `python3`; if that command doesn't exist, use Option C below instead.
+   On **Windows** the package calls `python3`; if that command doesn't exist, use the *Advanced* install below.
 
 ## Step 2: Install
 
-### Option A: from Espanso Hub
+### From Espanso Hub
 ```bash
 espanso install libreoffice-ppt-math
 ```
 
-### Option B: straight from GitHub
+### Or straight from GitHub
 ```bash
 espanso install libreoffice-ppt-math --git https://github.com/PavanMohanN/libreoffice-ppt-math --external
 ```
 
 Espanso reloads by itself after installing; no restart is needed.
-Options A and B make the rules work in every application.
 
-### Option C: LibreOffice only, longer expressions, or Windows
-Download this repository ([ZIP](https://github.com/PavanMohanN/libreoffice-ppt-math/archive/refs/heads/main.zip)), unzip it, and run from that folder:
+## Step 3 (recommended): use it only in LibreOffice
 
-```bash
-python3 scripts/generate_rules.py --install --libreoffice-only --buffer-size 64
-```
+By default the rules work in every application. Each keystroke costs well under a microsecond, but every time you press space after a math expression a Python process starts (~20 ms), and arrows such as `->` would also convert in code editors and terminals.
+To limit the package to LibreOffice, use an [app-specific configuration](https://espanso.org/docs/configuration/app-specific-configurations/):
 
-* `--libreoffice-only` activates the rules only while LibreOffice is focused (X11, Windows and macOS; not Wayland).
-* `--buffer-size 64` raises Espanso's `max_regex_buffer_size`, so expressions up to 59 characters convert (default: 25).
-* It records the full path of the Python you run it with, so it also works on Windows.
-* Leave out either flag if you don't want it. If you used Option A or B before, remove that first: `espanso uninstall libreoffice-ppt-math`.
+1. In your Espanso `config/default.yml` (run `espanso path config` to find the folder), add:
+   ```yaml
+   extra_excludes:
+     - "../match/packages/libreoffice-ppt-math/*"
+   ```
+2. Create `config/libreoffice.yml` next to it:
+   ```yaml
+   filter_exec: "(?i)soffice"
+   extra_excludes: []
+   extra_includes:
+     - "../match/packages/libreoffice-ppt-math/package.yml"
+   ```
 
-On Linux/macOS, `bash install.sh` does the same as Option C (add `--libreoffice-only` if wanted).
+App-specific configurations work on X11, Windows and macOS, but not on Wayland.
+(If `default.yml` already had other `extra_excludes`, repeat them in `libreoffice.yml` instead of `[]`.)
 
-## Step 3: Stop LibreOffice's own AutoCorrect from interfering (important)
+## Step 4: Stop LibreOffice's own AutoCorrect from interfering (important)
 
 LibreOffice's AutoCorrect list rewrites some of the same sequences first, which corrupts the result (for example `a<->b` becomes `←>`).
 In LibreOffice, open **Tools ▸ AutoCorrect Options…**:
@@ -91,15 +99,6 @@ Or untick **Use replacement table** to switch LibreOffice's list off entirely.
 
 ---
 
-## Checking and troubleshooting
-
-```bash
-python3 scripts/generate_rules.py --check          # finds duplicate copies, clashing triggers, LibreOffice conflicts
-python3 scripts/generate_rules.py --self-test      # runs 358 built-in conversion tests
-python3 scripts/generate_rules.py --try "\int_0^1" # previews a conversion
-python3 scripts/generate_rules.py --list arrow     # lists every command matching "arrow"
-```
-
 ## Limitations
 
 * Unicode has no subscript form for b, c, d, f, g, q, w, y, z, capital letters, → or ∞, so those fall back to readable linear format: `v_y`, `lim_(x→0)`, `∫_(−∞)^∞`.
@@ -107,18 +106,29 @@ python3 scripts/generate_rules.py --list arrow     # lists every command matchin
 * Some fonts lack these symbols or place accents badly. DejaVu Sans, STIX Two Math or Cambria Math give the best results.
 * `\epsilon` and `\phi` follow LaTeX (ϵ, ϕ). Use `\varepsilon` and `\varphi` for ε and φ.
 
-## Adding your own symbols
+## Advanced: the generator (from the homepage)
 
-Edit the `USER_SYMBOLS` block at the top of [`scripts/generate_rules.py`](scripts/generate_rules.py), for example `"\\eps": "ε"`, then run the install command again.
-`package.yml` is generated from that script; don't edit it by hand.
+`package.yml` is built by `generate_rules.py`, which is **not** part of the Hub package.
+It lives in the [project homepage](https://github.com/PavanMohanN/libreoffice-ppt-math) under `scripts/`. Download the repository ([ZIP](https://github.com/PavanMohanN/libreoffice-ppt-math/archive/refs/heads/main.zip)), unzip it, and run from that folder. It can:
+
+* **Install for LibreOffice only, with longer expressions, or on Windows** (it records the full path of your Python):
+  ```bash
+  python3 scripts/generate_rules.py --install --libreoffice-only --buffer-size 64
+  ```
+  Remove the Hub/GitHub package first (`espanso uninstall libreoffice-ppt-math`) so the rules aren't loaded twice.
+* **Add your own symbols**: edit the `USER_SYMBOLS` block at the top of the script (for example `"\\eps": "ε"`), then rerun the install command.
+* **Check and preview**: `--check` (finds duplicate copies, clashing triggers and LibreOffice conflicts), `--self-test`, `--try "\int_0^1"`, `--list arrow`.
+
+On Linux/macOS, `bash install.sh` and `bash uninstall.sh` in the repository wrap the same commands.
 
 ## Uninstall
 
 ```bash
-espanso uninstall libreoffice-ppt-math              # Options A and B
-python3 scripts/generate_rules.py --uninstall      # Option C (or: bash uninstall.sh)
+espanso uninstall libreoffice-ppt-math
 ```
+Also remove the Step 3 lines from `default.yml` and delete `config/libreoffice.yml` if you added them.
+If you installed with the generator, run `python3 scripts/generate_rules.py --uninstall` instead.
 
 ## License
 
-[MIT](LICENSE)
+[MIT](https://github.com/PavanMohanN/libreoffice-ppt-math/blob/main/LICENSE)
