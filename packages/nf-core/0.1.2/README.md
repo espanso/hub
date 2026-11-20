@@ -40,6 +40,7 @@ Most groups have one descriptive trigger, with aliases only where helpful.
 		- Let the module user decide output naming via `ext-prefix` and use `${prefix}`.
 		- Can you please add ontologies to the meta map?
 		- Can we put all these inputs into one tuple?
+        - Can you please swap the containers for seqera containers (https://seqera.io/containers/). This enables autmated updating later on.
 		- If input and output names can overlap, use `task.ext.prefix` to disambiguate (example guard: `if ("${tsv}" == "${prefix}.tsv") ...`).
 - `:nfc-versions`
 	- Possible replacements:
