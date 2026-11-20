@@ -1,7 +1,12 @@
 # libreoffice-ppt-math
 
-Type math in **LibreOffice Impress & Writer** the way PowerPoint's Math AutoCorrect works, powered by [Espanso](https://espanso.org).
-Write LaTeX-style linear math, press **space**, and the whole expression turns into Unicode.
+**PowerPoint-style Math AutoCorrect for LibreOffice.** Type `\int_0^1`, press Space, get `∫₀¹`.
+Write maths the way you'd write LaTeX or PowerPoint's linear format, and it turns into clean Unicode as you type, in Impress, Writer or any other app. Powered by [Espanso](https://espanso.org).
+
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/PavanMohanN/libreoffice-ppt-math/blob/main/LICENSE)
+![Platforms](https://img.shields.io/badge/platforms-Linux%20%7C%20macOS%20%7C%20Windows-lightgrey)
+![Commands](https://img.shields.io/badge/commands-900%2B-brightgreen)
+[![Cheat sheet](https://img.shields.io/badge/docs-cheat%20sheet-orange)](https://github.com/PavanMohanN/libreoffice-ppt-math/blob/main/CHEATSHEET.md)
 
 ## Demo
 
@@ -9,11 +14,24 @@ https://github.com/user-attachments/assets/04532d7d-3800-45fc-a8ed-c40ffbd63c70
 
 *Typing `\alpha^2 + \beta^2 -> \infty` in LibreOffice Impress (AI-generated).*
 
----
+## Why you'll like it
 
-## How it works
+* **One rule to learn:** type the formula without spaces, press Space. Nothing converts while you're still typing, so nothing jumps ahead of you.
+* **Whole formulas, not just symbols:** limits, sums, integrals, roots over whole terms, fractions, nested powers, vectors, set notation, geometry marks.
+* **900+ commands:** every Greek letter, operator, relation, arrow and set symbol you know from LaTeX or Word/PowerPoint, plus `\mathbb`, `\mathcal`, `\mathfrak` and bold fonts.
+* **Leaves your normal writing alone:** `snake_case`, `don't`, URLs, `24/7` and file paths are never changed.
+* **Undo in one key:** Backspace straight after a conversion gives back exactly what you typed.
+* **Works offline, everywhere:** plain Unicode text, so it copies into email, chat, slides and PDFs.
 
-Type an expression **without spaces**, then press **space**. The whole expression is converted in one go.
+## Quick start (about 60 seconds)
+
+1. Install [Espanso](https://espanso.org/docs/install/) and make sure Python 3 is available (`python3 --version`).
+2. Run `espanso install libreoffice-ppt-math`.
+3. Open LibreOffice, type `x^2`, press Space, and you get `x²`.
+
+Then open the **[cheat sheet](https://github.com/PavanMohanN/libreoffice-ppt-math/blob/main/CHEATSHEET.md)**: every command, with ready-to-type recipes for algebra, calculus, statistics, physics, geometry and more. Do Step 4 below as well, so LibreOffice's own AutoCorrect doesn't interfere.
+
+## What you can type
 
 | You type | You get |
 |---|---|
@@ -23,7 +41,7 @@ Type an expression **without spaces**, then press **space**. The whole expressio
 | `{a+b}^2`, `\frac{a}{b}^2` | (a+b)², (a/b)² |
 | `\int_0^1`, `\int_{0}^{\infty}` | ∫₀¹, ∫₀^∞ |
 | `\sum_{i=1}^{n}x_i`, `\prod_{k=1}^n` | ∑ᵢ₌₁ⁿ xᵢ, ∏ₖ₌₁ⁿ |
-| `\lim_{x\to0}` | lim_(x→0) |
+| `\lim_{x\to0}` | lim\_(x→0) |
 | `\sqrt{x^2+1}`, `\sqrt[3]{x}` | √x̅²̅+̅1̅, ∛x |
 | `\frac{1}{3}`, `\frac{a+b}{c}`, `1/2` | ⅓, (a+b)/c, ½ |
 | `A\cup{B}`, `A\cap{B}`, `x\notin{A}`, `A\subseteq{B}` | A∪B, A∩B, x∉A, A⊆B |
@@ -33,7 +51,7 @@ Type an expression **without spaces**, then press **space**. The whole expressio
 | `a<=b`, `a!=b`, `a->b`, `p<=>q`, `a<->b` | a≤b, a≠b, a→b, p⇔q, a↔b |
 | `\forall{x}\exists{y}`, `p\land{q}`, `\neg{p}` | ∀x∃y, p∧q, ¬p |
 
-Around 900 commands are supported: Greek, operators, relations, arrows, sets, logic, big operators, geometry, delimiters, accents and font styles (`\mathbb`, `\mathcal`, `\mathfrak`, `\mathbf`, …).
+**The full list, with a beginner's guide and troubleshooting, is in the [cheat sheet](https://github.com/PavanMohanN/libreoffice-ppt-math/blob/main/CHEATSHEET.md).**
 
 **Tips**
 * Put spaces *around* an expression, not inside it. `A \cup B` gives `A ∪ B`; `\frac{a b}{c}` won't work.
@@ -43,7 +61,6 @@ Around 900 commands are supported: Greek, operators, relations, arrows, sets, lo
   max_regex_buffer_size: 64
   ```
 * Pressing **Backspace** straight after a conversion undoes it (Espanso's built-in undo).
-* Text without math syntax (`snake_case`, `don't`, URLs, `24/7`) is never touched.
 
 ---
 
@@ -138,6 +155,12 @@ It lives in the [project homepage](https://github.com/PavanMohanN/libreoffice-pp
 * **Check and preview**: `--check` (finds duplicate copies, clashing triggers and LibreOffice conflicts), `--self-test`, `--try "\int_0^1"`, `--list arrow`.
 
 On Linux/macOS, `bash install.sh` and `bash uninstall.sh` in the repository wrap the same commands.
+
+## Contributing and feedback
+
+Found a formula that converts wrongly, or a symbol you miss? Please [open an issue](https://github.com/PavanMohanN/libreoffice-ppt-math/issues) with what you typed and what you expected.
+Pull requests are welcome. Edit the tables in `scripts/generate_rules.py`, then run `--self-test` (it checks over 1,200 conversions, including every example in the cheat sheet) and `--cheatsheet` to refresh `CHEATSHEET.md`.
+If this saves you time, a ⭐ on [GitHub](https://github.com/PavanMohanN/libreoffice-ppt-math) helps other people find it.
 
 ## Uninstall
 

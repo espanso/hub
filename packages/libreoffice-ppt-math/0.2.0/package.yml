@@ -646,6 +646,8 @@ matches:
                low = tok.lower()
                if '://' in tok or low.startswith('www.') or '@' in tok:
                 return tok
+               if (tok[0] == '/' and isin(tok[1:2], LET + DIG + '._')) or tok[:2] in ('~/', './') or tok[:3] == '../':
+                return tok
                if len(tok) > 2 and tok[0] in LET and tok[1] == ':' and tok[2] in '\\/':
                 j = 3
                 while j < len(tok) and tok[j] in LET:
