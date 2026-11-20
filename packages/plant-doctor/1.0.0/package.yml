@@ -1,0 +1,109 @@
+# Local text only: no scripts, uploads, remote calls, or automatic web actions.
+matches:
+  - trigger: ":pdbrief"
+    label: "Plant Doctor: prepare a symptom brief"
+    word: true
+    form: |-
+      Plant health brief (observations, not a diagnosis)
+      Plant / species if known: [[plant]]
+      Visible symptoms: [[symptoms]]
+      Since / speed of change: [[since]]
+      Soil moisture: [[moisture]]
+      Last watering / amount: [[watering]]
+      Location / light: [[light]]
+      Drainage: [[drainage]]
+      Recent care or environment changes: [[changes]]
+    form_fields:
+      plant:
+        default: "Not identified"
+      symptoms:
+        multiline: true
+        default: "Not recorded"
+      since:
+        default: "Not recorded"
+      moisture:
+        type: choice
+        default: "Not checked"
+        values:
+          - "Not checked"
+          - "Dry below the surface"
+          - "Moist below the surface"
+          - "Wet below the surface"
+          - "Unable to check safely"
+      watering:
+        default: "Not recorded"
+      light:
+        default: "Not recorded"
+      drainage:
+        type: choice
+        default: "Not checked"
+        values:
+          - "Not checked"
+          - "Drainage holes, no standing water seen"
+          - "Standing water in saucer or outer pot"
+          - "No drainage holes"
+      changes:
+        multiline: true
+        default: "Not recorded"
+
+  - trigger: ":pdphotos"
+    label: "Plant Doctor: symptom photo checklist"
+    word: true
+    replace: |-
+      Plant symptom photo checklist
+      - Take a whole plant photo showing its shape and location.
+      - Add close-ups of affected leaves and stems, including leaf undersides.
+      - Include the soil surface, pot, drainage holes, and any visible pests.
+      - Use clear, natural light; keep colors unchanged and avoid filters.
+      - Include a healthy leaf for comparison when possible.
+      - Keep people, address labels, and other private details out of frame.
+      - Record watering, light, drainage, and when symptoms began alongside the photos.
+      Photos and visible symptoms alone may not establish a diagnosis.
+
+  - trigger: ":pdwatercheck"
+    label: "Plant Doctor: watering observation checklist"
+    word: true
+    replace: |-
+      Watering observations (not a diagnosis)
+      - Check moisture below the soil surface if safe for this plant and pot.
+      - Record the last watering, approximate amount, and any standing water.
+      - Check whether drainage holes are open and the pot sits in water.
+      - Note light, temperature changes, and recent repotting.
+      - Wilting or yellow leaves can have several causes; do not infer thirst from leaf appearance alone.
+      - Check species needs before watering; avoid a fixed watering schedule.
+      - Compare photos over time and seek qualified help for rapid decline.
+
+  - trigger: ":pdpestcheck"
+    label: "Plant Doctor: visible pest observation checklist"
+    word: true
+    replace: |-
+      Pest observations (not a diagnosis)
+      - Inspect leaf undersides, stems, leaf joints, and new growth in good light.
+      - Record visible insects, webbing, sticky residue, spots, or damaged areas.
+      - Take close-up photos and a whole plant photo; note whether nearby plants show similar signs.
+      - Keep a suspect plant separate from others while checking, where practical.
+      - Do not identify a pest from one clue or apply a treatment before checking the cause and species suitability.
+      - Seek qualified advice if damage spreads quickly or the plant is valuable.
+
+  - trigger: ":pdfollowup"
+    label: "Plant Doctor: compare plant health changes"
+    word: true
+    form: |-
+      Plant health follow-up (observations, not a diagnosis)
+      Plant: [[plant]]
+      Previous observation date: [[previous]]
+      Changes since the previous photo: [[changes]]
+      Care actions taken: [[actions]]
+      Next comparison: photograph the same leaves and whole plant in similar light.
+      Rapid decline or uncertain treatment risk: seek qualified advice.
+    form_fields:
+      plant:
+        default: "Not identified"
+      previous:
+        default: "Not recorded"
+      changes:
+        multiline: true
+        default: "Not recorded"
+      actions:
+        multiline: true
+        default: "Not recorded"
