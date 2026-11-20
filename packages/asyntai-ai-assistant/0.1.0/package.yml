@@ -1,0 +1,58 @@
+# Asyntai AI Assistant: answers from your own website, typed where you write.
+#
+# Every match runs ONE command through the shell extension, written so that
+# both of Espanso's default shells read it:
+#   - macOS and Linux (sh, bash, zsh): line 1 runs asyntai.py with python3 and
+#     exits, so the shell never reaches line 2.
+#   - Windows (PowerShell): "`#" on line 1 is an escaped "#", then "<#" opens
+#     a block comment that "#>" on line 2 closes. PowerShell skips the sh part
+#     and runs asyntai.ps1 on line 3.
+# The question, the clipboard text and the key reach the scripts as Espanso's
+# ESPANSO_* environment variables, never inside the command text.
+
+matches:
+  # Ask your chatbot a question and type its answer.
+  - trigger: ":ask"
+    replace: "{{answer}}"
+    vars:
+      - name: form1
+        type: form
+        params:
+          layout: "Ask your Asyntai chatbot\n[[question]]"
+      - name: answer
+        type: shell
+        params:
+          cmd: |
+            set `# <#` --; p="$CONFIG/match/packages/asyntai-ai-assistant/asyntai.py"; if command -v python3 >/dev/null 2>&1; then python3 "$p" ask; else echo "Asyntai: install Python 3 to use this package on macOS and Linux."; fi; exit 0
+            #>
+            & ([scriptblock]::Create([IO.File]::ReadAllText("$env:CONFIG\match\packages\asyntai-ai-assistant\asyntai.ps1"))) ask
+
+  # Answer the question that is on the clipboard, for example a customer email.
+  - trigger: ":clipask"
+    replace: "{{answer}}"
+    vars:
+      - name: clip
+        type: clipboard
+      - name: answer
+        type: shell
+        params:
+          cmd: |
+            set `# <#` --; p="$CONFIG/match/packages/asyntai-ai-assistant/asyntai.py"; if command -v python3 >/dev/null 2>&1; then python3 "$p" clip; else echo "Asyntai: install Python 3 to use this package on macOS and Linux."; fi; exit 0
+            #>
+            & ([scriptblock]::Create([IO.File]::ReadAllText("$env:CONFIG\match\packages\asyntai-ai-assistant\asyntai.ps1"))) clip
+
+  # Save your Asyntai API key. Asyntai checks the key before it is saved.
+  - trigger: ":asyntaikey"
+    replace: "{{result}}"
+    vars:
+      - name: form1
+        type: form
+        params:
+          layout: "Paste your Asyntai API key (Settings > API in Asyntai)\n[[key]]"
+      - name: result
+        type: shell
+        params:
+          cmd: |
+            set `# <#` --; p="$CONFIG/match/packages/asyntai-ai-assistant/asyntai.py"; if command -v python3 >/dev/null 2>&1; then python3 "$p" key; else echo "Asyntai: install Python 3 to use this package on macOS and Linux."; fi; exit 0
+            #>
+            & ([scriptblock]::Create([IO.File]::ReadAllText("$env:CONFIG\match\packages\asyntai-ai-assistant\asyntai.ps1"))) key
