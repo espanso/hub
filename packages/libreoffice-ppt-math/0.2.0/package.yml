@@ -6,13 +6,14 @@
 #
 # How it works: one regex fires on SPACE after a whitespace-free token that
 # contains math syntax. The embedded Python script (standard library only,
-# no network, no file access) reads the token from ESPANSO_TOK and prints
-# the Unicode result. Symbol tables are stored as 'name:hex-codepoint' pairs,
+# no network) reads the token from ESPANSO_TOK and prints the Unicode result.
+# Its only file access is reading max_regex_buffer_size from Espanso's own
+# config/default.yml. Symbol tables are stored as 'name:hex-codepoint' pairs,
 # e.g. alpha:3b1 = U+03B1 (alpha).
 
 matches:
   - label: "Math AutoCorrect (LaTeX / PowerPoint linear format)"
-    regex: "(?P<tok>[^\\x00-\\x20\\x7f-\\xa0\u1680\u2000-\u200b\u2028\u2029\u202f\u205f\u3000\ufeff]*(?:\\\\(?:leftrightsquigarrow|underleftrightarrow|Longleftrightarrow|longleftrightarrow|overleftrightarrow|blacktriangledown|leftrightharpoons|rightleftharpoons|scriptscriptstyle|twoheadrightarrow|circlearrowright|downharpoonright|ointctrclockwise|overrightharpoon|rightharpoondown|rightrightarrows|twoheadleftarrow|varointclockwise|bigtriangledown|circlearrowleft|curvearrowright|downharpoonleft|leftharpoondown|leftrightarrows|nLeftrightarrow|nleftrightarrow|overleftharpoon|rightleftarrows|rightsquigarrow|underrightarrow|xLeftrightarrow|xleftrightarrow|Leftrightarrow|Longrightarrow|curvearrowleft|dashrightarrow|doublebarwedge|downdownarrows|hookrightarrow|invisibletimes|leftleftarrows|leftrightarrow|longrightarrow|looparrowright|overrightarrow|rightarrowtail|rightharpoonup|sphericalangle|underleftarrow|upharpoonright|Longleftarrow|bigtriangleup|blacktriangle|dashleftarrow|divideontimes|fallingdotseq|hookleftarrow|leftarrowtail|leftharpoonup|longleftarrow|looparrowleft|measuredangle|overleftarrow|parallelogram|smallsetminus|triangleright|upharpoonleft|blacklozenge|displaystyle|intclockwise|intersection|longmapsfrom|operatorname|risingdotseq|sqsuperseteq|triangledown|triangleleft|underbracket|Rrightarrow|Updownarrow|blacksquare|circledcirc|circleddash|diamondsuit|nRightarrow|nrightarrow|overbracket|preccurlyeq|scriptstyle|succcurlyeq|updownarrow|vartriangle|xRightarrow|xrightarrow|Lleftarrow|Rightarrow|boldsymbol|circledast|complement|curlywedge|fahrenheit|lmoustache|longmapsto|mathnormal|nLeftarrow|nleftarrow|notcontain|notelement|rightangle|rightarrow|rmoustache|sqsubseteq|sqsupseteq|superseteq|textnormal|thickspace|underbrace|underparen|undershell|upuparrows|varepsilon|varnothing|xLeftarrow|xleftarrow|Downarrow|Leftarrow|backprime|backslash|bigotimes|centerdot|checkmark|complexes|copyright|downarrow|funcapply|heartsuit|impliedby|increment|leftarrow|llbracket|mathclose|mathinner|mathpunct|nparallel|nsubseteq|nsupseteq|overbrace|overparen|overshell|pitchfork|rationals|rectangle|rrbracket|spadesuit|subseteqq|subsetneq|supseteqq|supsetneq|textstyle|therefore|thinspace|triangleq|underline|varpropto|widecheck|wideparen|widetilde|angstrom|approxeq|barwedge|bigoplus|bigsqcap|bigsqcup|biguplus|bigwedge|boxminus|boxtimes|clubsuit|coloneqq|curlyvee|dblcolon|diameter|doteqdot|emptyset|eqqcolon|frakturA|frakturB|frakturC|frakturD|frakturE|frakturF|frakturG|frakturH|frakturI|frakturJ|frakturK|frakturL|frakturM|frakturN|frakturO|frakturP|frakturQ|frakturR|frakturS|frakturT|frakturU|frakturV|frakturW|frakturX|frakturY|frakturZ|fraktura|frakturb|frakturc|frakturd|frakture|frakturf|frakturg|frakturh|frakturi|frakturj|frakturk|frakturl|frakturm|frakturn|frakturo|frakturp|frakturq|frakturr|frakturs|frakturt|frakturu|frakturv|frakturw|frakturx|fraktury|frakturz|geqslant|infinity|integers|intercal|leqslant|llcorner|lrcorner|mapsfrom|mathbfit|mathbfsf|mathfrak|mathopen|mathring|mathsfbf|medspace|multimap|naturals|nolimits|nonumber|overline|parallel|pentagon|powerset|pppprime|setminus|sqsubset|sqsupset|stackrel|subseteq|superset|supseteq|triangle|ulcorner|underbar|underset|urcorner|varTheta|varkappa|varsigma|vartheta|Deltaeq|Diamond|Digamma|Epsilon|Omicron|Uparrow|Upsilon|arccosh|arcsinh|arctanh|backsim|because|between|bigcirc|bigodot|bigstar|boxplus|celsius|coloneq|ddagger|diamond|digamma|divides|dotplus|doubleA|doubleB|doubleC|doubleD|doubleE|doubleF|doubleG|doubleH|doubleI|doubleJ|doubleK|doubleL|doubleM|doubleN|doubleO|doubleP|doubleQ|doubleR|doubleS|doubleT|doubleU|doubleV|doubleW|doubleX|doubleY|doubleZ|doublea|doubleb|doublec|doubled|doublee|doublef|doubleg|doubleh|doublei|doublej|doublek|doublel|doublem|doublen|doubleo|doublep|doubleq|doubler|doubles|doublet|doubleu|doublev|doublew|doublex|doubley|doublez|enspace|epsilon|eqcolon|gtrless|hexagon|implies|lbbrack|leadsto|lessdot|lessgtr|lesssim|lozenge|maltese|mathbin|mathcal|mathord|mathrel|mathscr|napprox|natural|nearrow|nexists|nsubset|nsupset|nwarrow|omicron|overarc|overbar|overset|partial|pertenk|ppprime|precsim|questeq|scriptA|scriptB|scriptC|scriptD|scriptE|scriptF|scriptG|scriptH|scriptI|scriptJ|scriptK|scriptL|scriptM|scriptN|scriptO|scriptP|scriptQ|scriptR|scriptS|scriptT|scriptU|scriptV|scriptW|scriptX|scriptY|scriptZ|scripta|scriptb|scriptc|scriptd|scripte|scriptf|scriptg|scripth|scripti|scriptj|scriptk|scriptl|scriptm|scriptn|scripto|scriptp|scriptq|scriptr|scripts|scriptt|scriptu|scriptv|scriptw|scriptx|scripty|scriptz|searrow|succsim|swarrow|symdiff|thicksp|trprime|uparrow|upsilon|widehat|xmapsto|Bumpeq|Lambda|Rangle|Rbrack|Subset|Supset|Vvdash|approx|arccos|arccot|arccsc|arcosh|arcsec|arcsin|arctan|argmax|argmin|arsinh|artanh|bigcap|bigcup|bigvee|bowtie|boxdot|braket|bullet|bumpeq|cancel|circeq|circle|coprod|dagger|daleth|dbinom|ddddot|degree|dprime|eqcirc|exists|forall|gtrdot|gtrsim|hairsp|hslash|iddots|iiiint|itimes|lAngle|lambda|langle|lbrace|lbrack|lfloor|lgroup|liminf|limits|limsup|lmoust|lparen|ltimes|mapsto|mathbb|mathbf|mathit|mathop|mathrm|mathsf|mathtt|measeq|middle|models|nVDash|nVdash|nequiv|nsimeq|nvDash|nvdash|oiiint|ominus|oslash|otimes|permil|pounds|pprime|preceq|propto|qprime|rAngle|rangle|rbrace|rbrack|rddots|rfloor|rgroup|rmoust|rparen|rtimes|square|stareq|strike|subset|succeq|supset|tbinom|textbf|textit|textrm|textsf|texttt|textup|thinsp|utilde|varphi|varrho|veebar|wedgeq|Alpha|Biggl|Biggm|Biggr|Colon|Delta|Doteq|Gamma|Kappa|Omega|Sigma|Theta|VDash|Vdash|acute|adots|aleph|alpha|amalg|angle|aoint|asymp|biggl|biggm|biggr|binom|breve|cdotp|cdots|cfrac|check|coint|colon|dalet|dashv|dddot|ddots|defeq|delta|dfrac|doteq|dotsb|dotsc|dotsi|dotsm|dotso|eqsim|equiv|floor|frown|gamma|gimel|gneqq|grave|iiint|imath|indep|infty|jmath|kappa|lVert|lceil|ldots|lhvec|lneqq|lrhar|lvert|medsp|micro|minus|nabla|ncong|nless|notag|notin|notni|nprec|nsucc|oiint|omega|oplus|prime|qquad|rVert|ratio|rceil|reals|rhvec|right|rlhar|rvert|sharp|sigma|simeq|smile|sqcap|sqcup|tfrac|theta|tilde|times|trace|union|unlhd|unrhd|uplus|vDash|varpi|vdash|vdots|veeeq|wedge|Bbbk|Beta|Bigg|Bigl|Bigm|Bigr|Finv|Game|Iota|Join|Ubar|Vert|Zeta|beta|beth|bigg|bigl|bigm|bigr|bmod|cbrt|cdot|ceil|circ|cong|cosh|coth|csch|ddag|ddot|degc|degf|diag|dots|emsp|ensp|erfc|euro|fint|flat|frac|geqq|gets|gneq|hbar|hbox|hvec|iint|iota|land|ldiv|left|leqq|line|lneq|lnot|lvec|mbox|nand|nbsp|ngeq|ngtr|nleq|nmid|norm|nsim|odot|oint|owns|perp|pmod|prec|prod|qdrt|quad|rank|rect|ring|sdiv|sech|sinh|sout|span|sqrt|star|succ|surd|tanh|text|tvec|ubar|vbar|vert|zeta|zwnj|zwsp|Bar|Bbb|Big|Box|Cap|Chi|Cov|Cup|Eta|Lsh|Phi|Psi|Rho|Rsh|Tau|Var|abs|arc|arg|ast|bar|bet|big|bot|box|bra|cap|chi|cos|cot|csc|cup|dag|deg|det|dim|div|dot|ell|erf|eta|eth|exp|gcd|geq|ggg|hat|hom|iff|inc|inf|int|ker|ket|lcm|leq|lhd|lim|lll|log|lor|max|mho|mid|min|mod|neg|neq|nni|nor|not|phi|psi|qed|ray|rhd|rho|sec|seg|set|sgn|sim|sin|sum|sup|tan|tau|top|vec|vee|xor|Dd|Im|Mu|Nu|Pi|Pr|Re|Tr|Xi|bm|dd|ee|ge|gg|ii|in|jj|le|lg|ll|ln|mp|mu|ne|ni|nu|pi|pm|to|tr|wp|wr|xi|C|N|P|Q|R|S|Z)[A-Za-z]?(?:[^A-Za-z\\x00-\\x20\\x7f-\\xa0\u1680\u2000-\u200b\u2028\u2029\u202f\u205f\u3000\ufeff][^\\x00-\\x20\\x7f-\\xa0\u1680\u2000-\u200b\u2028\u2029\u202f\u205f\u3000\ufeff]*)?|\\\\[,:;!>|{}_^%#$/\\-\\&][^\\x00-\\x20\\x7f-\\xa0\u1680\u2000-\u200b\u2028\u2029\u202f\u205f\u3000\ufeff]*|[\\^_][+\\-]?[A-Za-z](?:[^A-Za-z\\x00-\\x20\\x7f-\\xa0\u1680\u2000-\u200b\u2028\u2029\u202f\u205f\u3000\ufeff][^\\x00-\\x20\\x7f-\\xa0\u1680\u2000-\u200b\u2028\u2029\u202f\u205f\u3000\ufeff]*)?|[\\^_](?:[{(\\\\0-9+\\-=*']|[^\\x00-\\x7f\\x00-\\x20\\x7f-\\xa0\u1680\u2000-\u200b\u2028\u2029\u202f\u205f\u3000\ufeff])[^\\x00-\\x20\\x7f-\\xa0\u1680\u2000-\u200b\u2028\u2029\u202f\u205f\u3000\ufeff]*|(?:<\\-\\->|<==>|\\-\\->|\\.\\.\\.|<\\-\\-|<\\->|<==|<=>|===|==>|\\|\\->|!=|\\+\\-|\\-\\+|\\->|/<|/=|/>|:=|<\\-|<<|<=|=:|=>|>=|>>|\\~=|\\~\\~)[^\\x00-\\x20\\x7f-\\xa0\u1680\u2000-\u200b\u2028\u2029\u202f\u205f\u3000\ufeff]*|(?:0/3|1/10|1/2|1/3|1/4|1/5|1/6|1/7|1/8|1/9|2/3|2/5|3/4|3/5|3/8|4/5|5/6|5/8|7/8)[^\\x00-\\x20\\x7f-\\xa0\u1680\u2000-\u200b\u2028\u2029\u202f\u205f\u3000\ufeff]*))\\x20$"
+    regex: "(?P<tok>[^\\x00-\\x20\\x7f-\\xa0\u1680\u2000-\u200b\u2028\u2029\u202f\u205f\u3000\ufeff]*(?:\\\\(?:leftrightsquigarrow|underleftrightarrow|Longleftrightarrow|longleftrightarrow|overleftrightarrow|blacktriangledown|leftrightharpoons|rightleftharpoons|scriptscriptstyle|twoheadrightarrow|circlearrowright|downharpoonright|ointctrclockwise|overrightharpoon|rightharpoondown|rightrightarrows|twoheadleftarrow|varointclockwise|bigtriangledown|circlearrowleft|curvearrowright|downharpoonleft|leftharpoondown|leftrightarrows|nLeftrightarrow|nleftrightarrow|overleftharpoon|rightleftarrows|rightsquigarrow|underrightarrow|xLeftrightarrow|xleftrightarrow|Leftrightarrow|Longrightarrow|curvearrowleft|dashrightarrow|doublebarwedge|downdownarrows|hookrightarrow|invisibletimes|leftleftarrows|leftrightarrow|longrightarrow|looparrowright|overrightarrow|rightarrowtail|rightharpoonup|sphericalangle|underleftarrow|upharpoonright|Longleftarrow|bigtriangleup|blacktriangle|dashleftarrow|divideontimes|fallingdotseq|hookleftarrow|leftarrowtail|leftharpoonup|longleftarrow|looparrowleft|measuredangle|overleftarrow|parallelogram|smallsetminus|triangleright|upharpoonleft|blacklozenge|displaystyle|intclockwise|intersection|longmapsfrom|risingdotseq|sqsuperseteq|triangledown|triangleleft|underbracket|Rrightarrow|Updownarrow|blacksquare|circledcirc|circleddash|diamondsuit|nRightarrow|nrightarrow|overbracket|preccurlyeq|scriptstyle|succcurlyeq|updownarrow|vartriangle|xRightarrow|xrightarrow|Lleftarrow|Rightarrow|circledast|complement|curlywedge|fahrenheit|lmoustache|longmapsto|nLeftarrow|nleftarrow|notcontain|notelement|rightangle|rightarrow|rmoustache|sqsubseteq|sqsupseteq|superseteq|thickspace|underbrace|underparen|undershell|upuparrows|varepsilon|varnothing|xLeftarrow|xleftarrow|Downarrow|Leftarrow|backprime|backslash|bigotimes|centerdot|checkmark|complexes|copyright|downarrow|funcapply|heartsuit|impliedby|increment|leftarrow|llbracket|mathclose|mathinner|mathpunct|nparallel|nsubseteq|nsupseteq|overbrace|overparen|overshell|pitchfork|rationals|rectangle|rrbracket|spadesuit|subseteqq|subsetneq|supseteqq|supsetneq|textstyle|therefore|thinspace|triangleq|underline|varpropto|widecheck|wideparen|widetilde|angstrom|approxeq|barwedge|bigoplus|bigsqcap|bigsqcup|biguplus|bigwedge|boxminus|boxtimes|clubsuit|coloneqq|curlyvee|dblcolon|diameter|doteqdot|emptyset|eqqcolon|frakturA|frakturB|frakturC|frakturD|frakturE|frakturF|frakturG|frakturH|frakturI|frakturJ|frakturK|frakturL|frakturM|frakturN|frakturO|frakturP|frakturQ|frakturR|frakturS|frakturT|frakturU|frakturV|frakturW|frakturX|frakturY|frakturZ|fraktura|frakturb|frakturc|frakturd|frakture|frakturf|frakturg|frakturh|frakturi|frakturj|frakturk|frakturl|frakturm|frakturn|frakturo|frakturp|frakturq|frakturr|frakturs|frakturt|frakturu|frakturv|frakturw|frakturx|fraktury|frakturz|geqslant|infinity|integers|intercal|leqslant|llcorner|lrcorner|mapsfrom|mathopen|mathring|medspace|multimap|naturals|nolimits|nonumber|overline|parallel|pentagon|powerset|pppprime|setminus|sqsubset|sqsupset|subseteq|superset|supseteq|triangle|ulcorner|underbar|urcorner|varTheta|varkappa|varsigma|vartheta|Deltaeq|Diamond|Digamma|Epsilon|Omicron|Uparrow|Upsilon|arccosh|arcsinh|arctanh|backsim|because|between|bigcirc|bigodot|bigstar|boxplus|celsius|coloneq|ddagger|diamond|digamma|divides|dotplus|doubleA|doubleB|doubleC|doubleD|doubleE|doubleF|doubleG|doubleH|doubleI|doubleJ|doubleK|doubleL|doubleM|doubleN|doubleO|doubleP|doubleQ|doubleR|doubleS|doubleT|doubleU|doubleV|doubleW|doubleX|doubleY|doubleZ|doublea|doubleb|doublec|doubled|doublee|doublef|doubleg|doubleh|doublei|doublej|doublek|doublel|doublem|doublen|doubleo|doublep|doubleq|doubler|doubles|doublet|doubleu|doublev|doublew|doublex|doubley|doublez|enspace|epsilon|eqcolon|gtrless|hexagon|implies|lbbrack|leadsto|lessdot|lessgtr|lesssim|lozenge|maltese|mathbin|mathord|mathrel|napprox|natural|nearrow|nexists|nsubset|nsupset|nwarrow|omicron|overarc|overbar|partial|pertenk|ppprime|precsim|questeq|scriptA|scriptB|scriptC|scriptD|scriptE|scriptF|scriptG|scriptH|scriptI|scriptJ|scriptK|scriptL|scriptM|scriptN|scriptO|scriptP|scriptQ|scriptR|scriptS|scriptT|scriptU|scriptV|scriptW|scriptX|scriptY|scriptZ|scripta|scriptb|scriptc|scriptd|scripte|scriptf|scriptg|scripth|scripti|scriptj|scriptk|scriptl|scriptm|scriptn|scripto|scriptp|scriptq|scriptr|scripts|scriptt|scriptu|scriptv|scriptw|scriptx|scripty|scriptz|searrow|succsim|swarrow|symdiff|thicksp|trprime|uparrow|upsilon|widehat|xmapsto|Bumpeq|Lambda|Rangle|Rbrack|Subset|Supset|Vvdash|approx|arccos|arccot|arccsc|arcosh|arcsec|arcsin|arctan|argmax|argmin|arsinh|artanh|bigcap|bigcup|bigvee|bowtie|boxdot|bullet|bumpeq|cancel|circeq|circle|coprod|dagger|daleth|ddddot|degree|dprime|eqcirc|exists|forall|gtrdot|gtrsim|hairsp|hslash|iddots|iiiint|itimes|lAngle|lambda|langle|lbrace|lbrack|lfloor|lgroup|liminf|limits|limsup|lmoust|lparen|ltimes|mapsto|mathop|measeq|middle|models|nVDash|nVdash|nequiv|nsimeq|nvDash|nvdash|oiiint|ominus|oslash|otimes|permil|pounds|pprime|preceq|propto|qprime|rAngle|rangle|rbrace|rbrack|rddots|rfloor|rgroup|rmoust|rparen|rtimes|square|stareq|strike|subset|succeq|supset|thinsp|utilde|varphi|varrho|veebar|wedgeq|Alpha|Biggl|Biggm|Biggr|Colon|Delta|Doteq|Gamma|Kappa|Omega|Sigma|Theta|VDash|Vdash|acute|adots|aleph|alpha|amalg|angle|aoint|asymp|biggl|biggm|biggr|breve|cdotp|cdots|check|coint|colon|dalet|dashv|dddot|ddots|defeq|delta|doteq|dotsb|dotsc|dotsi|dotsm|dotso|eqsim|equiv|frown|gamma|gimel|gneqq|grave|iiint|imath|indep|infty|jmath|kappa|lVert|lceil|ldots|lhvec|lneqq|lrhar|lvert|medsp|micro|minus|nabla|ncong|nless|notag|notin|notni|nprec|nsucc|oiint|omega|oplus|prime|qquad|rVert|ratio|rceil|reals|rhvec|right|rlhar|rvert|sharp|sigma|simeq|smile|sqcap|sqcup|theta|tilde|times|trace|union|unlhd|unrhd|uplus|vDash|varpi|vdash|vdots|veeeq|wedge|Bbbk|Beta|Bigg|Bigl|Bigm|Bigr|Finv|Game|Iota|Join|Ubar|Vert|Zeta|beta|beth|bigg|bigl|bigm|bigr|bmod|cbrt|cdot|circ|cong|cosh|coth|csch|ddag|ddot|degc|degf|diag|dots|emsp|ensp|erfc|euro|fint|flat|geqq|gets|gneq|hbar|hvec|iint|iota|land|ldiv|left|leqq|line|lneq|lnot|lvec|nand|nbsp|ngeq|ngtr|nleq|nmid|norm|nsim|odot|oint|owns|perp|prec|prod|qdrt|quad|rank|rect|ring|sdiv|sech|sinh|sout|span|sqrt|star|succ|surd|tanh|tvec|ubar|vbar|vert|zeta|zwnj|zwsp|Bar|Big|Box|Cap|Chi|Cov|Cup|Eta|Lsh|Phi|Psi|Rho|Rsh|Tau|Var|arc|arg|ast|bar|bet|big|bot|box|bra|cap|chi|cos|cot|csc|cup|dag|deg|det|dim|div|dot|ell|erf|eta|eth|exp|gcd|geq|ggg|hat|hom|iff|inc|inf|int|ker|ket|lcm|leq|lhd|lim|lll|log|lor|max|mho|mid|min|mod|neg|neq|nni|nor|not|phi|psi|qed|ray|rhd|rho|sec|seg|sgn|sim|sin|sum|sup|tan|tau|top|vec|vee|xor|Dd|Im|Mu|Nu|Pi|Pr|Re|Tr|Xi|dd|ee|ge|gg|ii|in|jj|le|lg|ll|ln|mp|mu|ne|ni|nu|pi|pm|to|tr|wp|wr|xi|C|N|P|Q|R|S|Z)[A-Za-z]?(?:[^A-Za-z\\x00-\\x20\\x7f-\\xa0\u1680\u2000-\u200b\u2028\u2029\u202f\u205f\u3000\ufeff][^\\x00-\\x20\\x7f-\\xa0\u1680\u2000-\u200b\u2028\u2029\u202f\u205f\u3000\ufeff]*)?|\\\\(?:operatorname|mathnormal|textnormal|mathrm|textbf|textit|textrm|textsf|texttt|textup|hbox|mbox|text)\\{[^\\x00-\\x20\\x7f-\\xa0\u1680\u2000-\u200b\u2028\u2029\u202f\u205f\u3000\ufeff]*|\\\\(?:boldsymbol|mathbfit|mathbfsf|mathfrak|mathsfbf|stackrel|underset|mathcal|mathscr|overset|dbinom|mathbb|mathbf|mathit|mathsf|mathtt|tbinom|binom|cfrac|dfrac|tfrac|frac|Bbb|bm)[{\\\\0-9][^\\x00-\\x20\\x7f-\\xa0\u1680\u2000-\u200b\u2028\u2029\u202f\u205f\u3000\ufeff]*|\\\\(?:braket|floor|ceil|pmod|abs|set)[{\\\\][^\\x00-\\x20\\x7f-\\xa0\u1680\u2000-\u200b\u2028\u2029\u202f\u205f\u3000\ufeff]*|\\\\[,:;!>|{}_^%#$/\\-\\&][^\\x00-\\x20\\x7f-\\xa0\u1680\u2000-\u200b\u2028\u2029\u202f\u205f\u3000\ufeff]*|\\^[+\\-]?[ABDEGHIJKLMNOPRTUVWabcdefghijklmnoprstuvwxyz](?:[^A-Za-z\\x00-\\x20\\x7f-\\xa0\u1680\u2000-\u200b\u2028\u2029\u202f\u205f\u3000\ufeff][^\\x00-\\x20\\x7f-\\xa0\u1680\u2000-\u200b\u2028\u2029\u202f\u205f\u3000\ufeff]*)?|_[+\\-]?[aehijklmnoprstuvx](?:[^A-Za-z\\x00-\\x20\\x7f-\\xa0\u1680\u2000-\u200b\u2028\u2029\u202f\u205f\u3000\ufeff][^\\x00-\\x20\\x7f-\\xa0\u1680\u2000-\u200b\u2028\u2029\u202f\u205f\u3000\ufeff]*)?|\\^(?:[{(\\\\0-9+\\-=*']|[\u00b0\u00b2\u00b3\u00b9\u02b0\u02b2\u02b3\u02b7\u02b8\u02e1\u02e2\u02e3\u03b1\u03b2\u03b3\u03b4\u03b5\u03b8\u03b9\u03c6\u03c7\u03d5\u03f5\u1d2c\u1d2e\u1d30\u1d31\u1d33\u1d34\u1d35\u1d36\u1d37\u1d38\u1d39\u1d3a\u1d3c\u1d3e\u1d3f\u1d40\u1d41\u1d42\u1d43\u1d45\u1d47\u1d48\u1d49\u1d4b\u1d4d\u1d4f\u1d50\u1d52\u1d56\u1d57\u1d58\u1d5b\u1d5d\u1d5e\u1d5f\u1d60\u1d61\u1d9c\u1da0\u1da5\u1dbb\u1dbf\u2020\u2021\u2032\u2033\u2034\u2057\u2070\u2071\u2074\u2075\u2076\u2077\u2078\u2079\u207a\u207b\u207c\u207d\u207e\u207f\u2212\u2217\u2218\u22a4\u22ba\u2c7d])[^\\x00-\\x20\\x7f-\\xa0\u1680\u2000-\u200b\u2028\u2029\u202f\u205f\u3000\ufeff]*|_(?:[{(\\\\0-9+\\-=]|[\u0259\u03b2\u03b3\u03c1\u03c6\u03c7\u03d5\u1d62\u1d63\u1d64\u1d65\u1d66\u1d67\u1d68\u1d69\u1d6a\u2080\u2081\u2082\u2083\u2084\u2085\u2086\u2087\u2088\u2089\u208a\u208b\u208c\u208d\u208e\u2090\u2091\u2092\u2093\u2094\u2095\u2096\u2097\u2098\u2099\u209a\u209b\u209c\u2212\u2c7c])[^\\x00-\\x20\\x7f-\\xa0\u1680\u2000-\u200b\u2028\u2029\u202f\u205f\u3000\ufeff]*|(?:<\\-\\->|<==>|\\-\\->|\\.\\.\\.|<\\-\\-|<\\->|<==|<=>|===|==>|\\|\\->|!=|\\+\\-|\\-\\+|\\->|/<|/=|/>|:=|<\\-|<<|<=|=:|=>|>=|>>|\\~=|\\~\\~)[^\\x00-\\x20\\x7f-\\xa0\u1680\u2000-\u200b\u2028\u2029\u202f\u205f\u3000\ufeff]*|(?:0/3|1/10|1/2|1/3|1/4|1/5|1/6|1/7|1/8|1/9|2/3|2/5|3/4|3/5|3/8|4/5|5/6|5/8|7/8)[^\\x00-\\x20\\x7f-\\xa0\u1680\u2000-\u200b\u2028\u2029\u202f\u205f\u3000\ufeff]*))\\x20$"
     replace: "{{out}} "
     vars:
       - name: out
@@ -31,7 +32,27 @@ matches:
                sys.stderr = open(os.devnull, 'w')
               except Exception:
                pass
-              LIMIT = 25
+              BUFFER = 30
+              MARGIN = 5
+              def buffer_size():
+               # Espanso passes its config folder in $CONFIG. Read only max_regex_buffer_size
+               # from config/default.yml so the safe length follows the user's setting.
+               base = os.environ.get('CONFIG', '')
+               for name in ('default.yml', 'default.yaml'):
+                if not base:
+                 break
+                try:
+                 with open(os.path.join(base, 'config', name), 'rb') as f:
+                  text = f.read(262144).decode('utf-8', 'replace')
+                except Exception:
+                 continue
+                for line in text.splitlines():
+                 if line.startswith('max_regex_buffer_size'):
+                  v = line.split(':', 1)[-1].split('#', 1)[0].strip().strip('\'"')
+                  if v.isdigit():
+                   return min(max(int(v), 16), 4096)
+                return 30
+               return BUFFER
               SQRT_STYLE = 'vinculum'
               MINUS = True
               THIN = True
@@ -146,6 +167,14 @@ matches:
                return out
               def nbase(s):
                return len([c for c in s if not unicodedata.combining(c)])
+              def atoms(s):
+               # terms in a product: scripts, primes, ! and accents don't start a new term (eps_0, n!, x^2)
+               n = 0
+               for c in s:
+                if unicodedata.combining(c) or c in SUPOK or c in SUBOK or c in '!\u2032\u2033\u2034\u2057':
+                 continue
+                n += 1
+               return n
               def balanced(s):
                d = 0
                for c in s:
@@ -162,12 +191,13 @@ matches:
                if nbase(s) <= 1 or wrapped(s):
                 return s
                return '(' + s + ')'
+              WRAPPABLE = ('group', 'frac', 'root', 'accent', 'font', 'binom')
               def group_base(item):
                # {a+b}^2 -> (a+b)^2 and \frac{a}{b}^2 -> (a/b)^2: a script must cover the whole operand.
                t, kind = item
-               if kind in ('group', 'frac', 'root') and nbase(t) > 1 and not wrapped(t):
+               if kind in WRAPPABLE and nbase(t) > 1 and not wrapped(t):
                 return ['(' + t + ')', 'grouped']
-               if kind in ('group', 'frac', 'root'):
+               if kind in WRAPPABLE:
                 return [t, 'grouped']
                return item
               def fwrap(s):
@@ -235,17 +265,21 @@ matches:
                  return VUL[k]
                 return sup(a) + '\u2044' + sub(b)
                den = fwrap(b)
-               if den == b and nbase(b) > 1 and not all([c in DIG for c in b]) and b[0] not in DIFF:
+               if den == b and atoms(b) > 1 and not all([c in DIG for c in b]) and b[0] not in DIFF:
                 den = '(' + b + ')'
                return fwrap(a) + '/' + den
               def render(items):
                out = []
                for k in range(len(items)):
                 t, kind = items[k]
+                if THIN and kind == 'func' and k > 0 and t:
+                 pv = items[k - 1][0]
+                 if pv and unicodedata.category(pv[-1])[0] in 'LN' and items[k - 1][1] != 'func':
+                  out.append('\u2009')
                 out.append(t)
                 if THIN and kind in ('func', 'big') and k + 1 < len(items):
                  nx = items[k + 1][0]
-                 if nx and unicodedata.category(nx[0])[0] in 'LN':
+                 if nx and (unicodedata.category(nx[0])[0] in 'LN' or (t.endswith(')') and nx[0] == '(')):
                   out.append('\u2009')
                return ''.join(out)
               class Cv(object):
@@ -393,8 +427,8 @@ matches:
                  return [s, 'func' if name == 'operatorname' else 'text']
                 if g == 'font':
                  c = self.pk()
-                 if c == '{':
-                  a = self.garg()
+                 if c == '{' or c == '\\':
+                  a = self.arg1()
                  elif c and (c in LET or c in DIG):
                   a = c
                   self.i += 1
@@ -402,7 +436,7 @@ matches:
                   a = None
                  if a is None:
                   return False
-                 return [font(FONTCMD[name], a), 'sym']
+                 return [font(FONTCMD[name], a), 'font']
                 if g == 'frac':
                  a = self.arg1()
                  b = self.arg1() if a is not None else None
@@ -417,7 +451,7 @@ matches:
                  p = sup(a)
                  q = sub(b)
                  if p is not None and q is not None:
-                  return [p + 'C' + q, 'sym']
+                  return [p + 'C' + q, 'binom']
                  return ['C(' + a + ',' + b + ')', 'sym']
                 if g == 'root':
                  idx = None
@@ -502,10 +536,10 @@ matches:
                  if a is None:
                   return [m, 'post']
                  if name in SPANLR:
-                  return [span_lr(a), 'sym']
+                  return [span_lr(a), 'accent']
                  if name in ARC:
-                  return [arc(a), 'sym']
-                 return [mark_each(a, m), 'sym']
+                  return [arc(a), 'accent']
+                 return [mark_each(a, m), 'accent']
                 for p in OFFICE:
                  if name.startswith(p) and len(name) == len(p) + 1 and name[-1] in LET:
                   return [font(OFFICE[p], name[-1]), 'sym']
@@ -624,7 +658,7 @@ matches:
                tok = os.environ.get('ESPANSO_TOK', '')
                out = tok
                try:
-                if len(tok.encode('utf-8')) <= LIMIT:
+                if len(tok.encode('utf-8')) <= max(8, buffer_size() - MARGIN):
                  out = convert(tok)
                except Exception:
                 out = tok

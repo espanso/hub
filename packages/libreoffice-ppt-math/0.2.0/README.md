@@ -38,7 +38,10 @@ Around 900 commands are supported: Greek, operators, relations, arrows, sets, lo
 **Tips**
 * Put spaces *around* an expression, not inside it. `A \cup B` gives `A ∪ B`; `\frac{a b}{c}` won't work.
 * Need a space inside an expression? Use `~` or `\,`.
-* Expressions up to 25 characters convert (Espanso's default buffer); see *Advanced* to raise this.
+* Expressions up to 25 characters convert with Espanso's default settings. For longer ones (like `\frac{\partial{B}}{\partial{c}}`), add this line to your Espanso `config/default.yml` (run `espanso path config` to find the folder); expressions up to 59 characters then convert:
+  ```yaml
+  max_regex_buffer_size: 64
+  ```
 * Pressing **Backspace** straight after a conversion undoes it (Espanso's built-in undo).
 * Text without math syntax (`snake_case`, `don't`, URLs, `24/7`) is never touched.
 
@@ -47,7 +50,7 @@ Around 900 commands are supported: Greek, operators, relations, arrows, sets, lo
 ## Step 1: Prerequisites
 
 1. **Espanso**: follow the [Espanso installation guide](https://espanso.org/docs/install/), then check it runs with `espanso status`.
-2. **Python 3**: the conversion runs a small Python script embedded in `package.yml` (standard library only, no network or file access).
+2. **Python 3**: the conversion runs a small Python script embedded in `package.yml` (standard library only, no network; it only reads `max_regex_buffer_size` from Espanso's `default.yml`).
    Usually pre-installed on Linux and macOS; check with `python3 --version`.
    On **Windows** the package calls `python3`; if that command doesn't exist, use the *Advanced* install below.
 
@@ -86,6 +89,11 @@ To limit the package to LibreOffice, use an [app-specific configuration](https:/
 App-specific configurations work on X11, Windows and macOS, but not on Wayland.
 (If `default.yml` already had other `extra_excludes`, repeat them in `libreoffice.yml` instead of `[]`.)
 
+**On Linux (X11), if long expressions flicker or leave text behind**, LibreOffice is dropping Espanso's fast synthetic keystrokes. Add this line to `config/libreoffice.yml` (or to `default.yml`):
+```yaml
+disable_x11_fast_inject: true
+```
+
 ## Step 4: Stop LibreOffice's own AutoCorrect from interfering (important)
 
 LibreOffice's AutoCorrect list rewrites some of the same sequences first, which corrupts the result (for example `a<->b` becomes `←>`).
@@ -103,19 +111,29 @@ Or untick **Use replacement table** to switch LibreOffice's list off entirely.
 
 * Unicode has no subscript form for b, c, d, f, g, q, w, y, z, capital letters, → or ∞, so those fall back to readable linear format: `v_y`, `lim_(x→0)`, `∫_(−∞)^∞`.
 * Stacked layouts (big fractions, matrices, limits written under the symbol) are impossible in plain text. Use LibreOffice's formula editor (**Insert ▸ Object ▸ Formula**) for those.
-* Some fonts lack these symbols or place accents badly. DejaVu Sans, STIX Two Math or Cambria Math give the best results.
+* Fonts: see *Fonts* below.
 * `\epsilon` and `\phi` follow LaTeX (ϵ, ϕ). Use `\varepsilon` and `\varphi` for ε and φ.
+
+## Fonts (getting sans-serif math automatically)
+
+Espanso types plain text, so the font always comes from LibreOffice. LibreOffice's default fonts (Carlito in Impress, Liberation Sans/Serif in Writer) lack most super/subscripts, accents and many symbols, so LibreOffice borrows each missing character from another font, often a serif one. That gives the mixed look. Two one-time fixes:
+
+* **Everything in one sans font.** Use **DejaVu Sans** for text that contains math; it has 594 of the 619 characters this package produces.
+  Writer: *Tools ▸ Options ▸ LibreOffice Writer ▸ Basic Fonts (Western)*, set *Default* to DejaVu Sans (applies to new documents).
+  Impress: *View ▸ Master Slide*, select the text placeholders, set the font to DejaVu Sans, then save as your default template.
+* **Keep your font, take only the missing characters from DejaVu Sans** (Linux): run the generator (see below) with `--sans-fallback`, then restart LibreOffice. It adds a small fontconfig rule (`~/.config/fontconfig/conf.d/99-libreoffice-ppt-math.conf`) for Carlito, Calibri, Liberation Sans, Arial, Noto Sans, Open Sans, Ubuntu, Cantarell and Helvetica. Delete that file to undo.
 
 ## Advanced: the generator (from the homepage)
 
 `package.yml` is built by `generate_rules.py`, which is **not** part of the Hub package.
 It lives in the [project homepage](https://github.com/PavanMohanN/libreoffice-ppt-math) under `scripts/`. Download the repository ([ZIP](https://github.com/PavanMohanN/libreoffice-ppt-math/archive/refs/heads/main.zip)), unzip it, and run from that folder. It can:
 
-* **Install for LibreOffice only, with longer expressions, or on Windows** (it records the full path of your Python):
+* **Install for LibreOffice only, set the buffer size, or install on Windows** (it records the full path of your Python):
   ```bash
   python3 scripts/generate_rules.py --install --libreoffice-only --buffer-size 64
   ```
   Remove the Hub/GitHub package first (`espanso uninstall libreoffice-ppt-math`) so the rules aren't loaded twice.
+* **Sans-serif fallback for math characters** (Linux): `python3 scripts/generate_rules.py --sans-fallback`
 * **Add your own symbols**: edit the `USER_SYMBOLS` block at the top of the script (for example `"\\eps": "ε"`), then rerun the install command.
 * **Check and preview**: `--check` (finds duplicate copies, clashing triggers and LibreOffice conflicts), `--self-test`, `--try "\int_0^1"`, `--list arrow`.
 
