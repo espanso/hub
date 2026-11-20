@@ -88,25 +88,9 @@ Espanso reloads by itself after installing; no restart is needed.
 ## Step 3 (recommended): use it only in LibreOffice
 
 By default the rules work in every application. Each keystroke costs well under a microsecond, but every time you press space after a math expression a Python process starts (~20 ms), and arrows such as `->` would also convert in code editors and terminals.
-To limit the package to LibreOffice, use an [app-specific configuration](https://espanso.org/docs/configuration/app-specific-configurations/):
+To limit the package to LibreOffice, use an [app-specific configuration](https://espanso.org/docs/configuration/app-specific-configurations/).
 
-1. In your Espanso `config/default.yml` (run `espanso path config` to find the folder), add:
-   ```yaml
-   extra_excludes:
-     - "../match/packages/libreoffice-ppt-math/*"
-   ```
-2. Create `config/libreoffice.yml` next to it:
-   ```yaml
-   filter_exec: "(?i)soffice"
-   extra_excludes: []
-   extra_includes:
-     - "../match/packages/libreoffice-ppt-math/package.yml"
-   ```
-
-App-specific configurations work on X11, Windows and macOS, but not on Wayland.
-(If `default.yml` already had other `extra_excludes`, repeat them in `libreoffice.yml` instead of `[]`.)
-
-**On Linux (X11), if long expressions flicker or leave text behind**, LibreOffice is dropping Espanso's fast synthetic keystrokes. Add this line to `config/libreoffice.yml` (or to `default.yml`):
+**On Linux (X11), if long expressions flicker or leave text behind**, LibreOffice is dropping Espanso's fast synthetic keystrokes. Add this line to Espanso's `config/default.yml`:
 ```yaml
 disable_x11_fast_inject: true
 ```
@@ -167,7 +151,6 @@ If this saves you time, a ⭐ on [GitHub](https://github.com/PavanMohanN/libreof
 ```bash
 espanso uninstall libreoffice-ppt-math
 ```
-Also remove the Step 3 lines from `default.yml` and delete `config/libreoffice.yml` if you added them.
 If you installed with the generator, run `python3 scripts/generate_rules.py --uninstall` instead.
 
 ## License
