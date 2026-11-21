@@ -1,0 +1,27 @@
+# Free Image to Video Prompts
+# Type a trigger anywhere to expand a structured image-to-video prompt with camera motion and sound cues.
+
+matches:
+  - trigger: ":fvportrait"
+    replace: "Gentle slow push-in on the uploaded portrait, natural eye blink, subtle warm smile, soft wind brushing hair while keeping facial structure and lighting consistent. Sound: quiet room ambience and soft outdoor breeze."
+
+  - trigger: ":fvproduct"
+    replace: "Smooth 180-degree studio orbital pan around the product on a clean tabletop, soft key light gliding across glass and brushed metal reflections, locked focus. Sound: subtle studio hum and soft crystalline shimmer."
+
+  - trigger: ":fvpet"
+    replace: "Hand-held eye-level shot of the pet from the reference photo tilting its head curiously toward the lens, gentle ear twitch and breathing motion, natural daylight. Sound: soft paws and light backyard ambience."
+
+  - trigger: ":fvart"
+    replace: "Animate background layers of the illustration with slowly drifting clouds, flickering warm lantern glow, and gentle water ripples while keeping foreground linework crisp. Sound: distant evening wind chimes and gentle water."
+
+  - trigger: ":fvdolly"
+    replace: "Slow cinematic dolly-in on a 35mm lens, shallow depth of field, subtle atmospheric dust motes catching sunlight across the scene. Sound: soft footsteps and distant city murmur."
+
+  - trigger: ":fvdance"
+    replace: "Upbeat rhythmic sway and energetic shoulder movement matching an even tempo, steady mid-shot framing, crisp lighting and stable clothing details. Sound: lively rhythmic beat with clean room acoustics."
+
+  - trigger: ":fvrain"
+    replace: "Steady medium shot through a rain-streaked window at dusk, neon reflections shimmering on wet pavement outside, subtle camera breathing. Sound: steady rain tapping on glass and distant passing cars."
+
+  - trigger: ":fvsunrise"
+    replace: "Slow horizontal pan across a golden-hour landscape as warm sunlight rises over the horizon and light mist drifts through the valley. Sound: gentle morning breeze and distant birdsong."
