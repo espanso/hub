@@ -1,0 +1,50 @@
+# Kavel AI Photo Prompts
+# Type a trigger anywhere to paste a ready-to-use image-to-image prompt.
+# Every prompt keeps the same face / subject from the uploaded photo.
+
+matches:
+  - trigger: ":kfigurine"
+    replace: "Turn the person into a cute collectible vinyl designer figurine on a small round display base, glossy finish, keeping the same face and pose. Studio product-shot lighting, photorealistic render."
+
+  - trigger: ":kpet"
+    replace: "Turn the animal into a majestic Renaissance royal oil painting, ornate red velvet coat with gold embroidery and a lace collar, dramatic lighting, gilded frame. Keep the same breed, face, and pose."
+
+  - trigger: ":k90s"
+    replace: "Cheesy 1990s high-school yearbook portrait, mottled blue laser backdrop, soft-focus glow, feathered nineties hair, faded scanned-print colour. Keep the same face."
+
+  - trigger: ":khd"
+    replace: "Restore and upscale into a crisp HD picture. Remove blur, noise, and compression artefacts, recover sharp texture and clean edges, correct washed-out colour. Keep the exact same person, pose, and background."
+
+  - trigger: ":kpolaroid"
+    replace: "Turn the photo into a retro instant Polaroid print with a white frame, slightly faded warm colours, soft flash and light film grain. Keep the same face and pose, photorealistic."
+
+  - trigger: ":ksticker"
+    replace: "Turn the subject into a die-cut vinyl sticker with a thick white outline, bold clean colours and a subtle drop shadow on a plain background. Keep the same face and expression."
+
+  - trigger: ":khair"
+    replace: "Give the person a new hairstyle: {{style}}. Keep the same face, skin tone, lighting and background, photorealistic."
+    vars:
+      - name: style
+        type: form
+        params:
+          layout: "Hairstyle: [[value]]"
+
+  - trigger: ":koutfit"
+    replace: "Dress the person in {{outfit}}. Keep the same face, body pose, lighting and background, photorealistic."
+    vars:
+      - name: outfit
+        type: form
+        params:
+          layout: "Outfit: [[value]]"
+
+  # Links to the matching generators
+  - trigger: ":kavel"
+    replace: "https://www.kavel.ai"
+  - trigger: ":kfig-link"
+    replace: "https://www.kavel.ai/image/ai-figurine-generator"
+  - trigger: ":kpet-link"
+    replace: "https://www.kavel.ai/image/ai-pet-portrait-generator"
+  - trigger: ":khd-link"
+    replace: "https://www.kavel.ai/image/hd-photo-converter"
+  - trigger: ":kdance-link"
+    replace: "https://www.kavel.ai/video/ai-dance-video-generator"
