@@ -1,0 +1,36 @@
+# Movoa AI Video Prompts
+# Type a trigger anywhere to paste a structured AI video prompt with camera motion and synchronized audio cues.
+
+matches:
+  - trigger: ":mvshot"
+    replace: "Medium tracking shot following the subject walking down a rain-lit city street at dusk, shallow depth of field, steady 35mm cinema lens. Sound: steady rainfall on pavement, distant traffic hum, soft footsteps on wet asphalt."
+
+  - trigger: ":mvphoto"
+    replace: "Gentle slow push-in from the uploaded photo, subtle wind moving hair and clothing, soft natural blinking and slight head turn toward camera, preserving the exact face and lighting. Sound: soft outdoor breeze and quiet room tone."
+
+  - trigger: ":mvcartoon"
+    replace: "Expressive 2D hand-drawn cartoon animation with clean ink outlines, warm cel shading, lively character gesture and lip-synced line delivery, consistent character design across frames. Sound: crisp cartoon dialogue, playful foley, light background score."
+
+  - trigger: ":mvdialogue"
+    replace: "Close-up over-the-shoulder shot of two characters talking across a cafe table, natural eye contact and measured facial reactions, warm tungsten key light. Sound: clear close-mic dialogue, subtle ceramic cup clink, low cafe chatter."
+
+  - trigger: ":mvproduct"
+    replace: "Smooth 180-degree turntable orbit around the product on a matte stone pedestal, crisp rim lighting highlighting surface texture and reflections, 4K commercial framing. Sound: subtle tactile click, clean modern ambient synth swell."
+
+  - trigger: ":mvestablishing"
+    replace: "Slow aerial crane shot descending toward a coastal mountain town at golden hour, drifting low clouds and warm sunlight across rooftops. Sound: distant ocean surf, light coastal wind, faint harbor gulls."
+
+  - trigger: ":mvaction"
+    replace: "Dynamic handheld follow shot with smooth stabilization, crisp motion blur on fast movement, dramatic side lighting and drifting dust particles. Sound: punchy impact foley, rushing air, tense low-frequency rumble."
+
+  - trigger: ":mvfood"
+    replace: "Macro tabletop shot pouring steaming dark coffee into a glass mug in slow motion, rich swirling crema and rising vapor backlit by morning sun. Sound: rich liquid pour, gentle fizz, quiet morning kitchen ambience."
+
+  - trigger: ":movoa"
+    replace: "https://movoa.ai/?utm_source=espanso&utm_medium=package"
+
+  - trigger: ":mvpricing"
+    replace: "https://movoa.ai/pricing?utm_source=espanso&utm_medium=package"
+
+  - trigger: ":mvdocs"
+    replace: "https://movoa.readthedocs.io/en/latest/"
