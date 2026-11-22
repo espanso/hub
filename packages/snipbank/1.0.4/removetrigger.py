@@ -8,7 +8,7 @@ def removeTrigger(rootFile, trigger):
     '''
     data = getDefaultData()
     with open(rootFile, 'r') as rootFh:
-        data = yaml.load(rootFh, Loader=yaml.BaseLoader)
+        data = yaml.load(rootFh, Loader=yaml.SafeLoader)
     data['matches'] = [match for match in data['matches'] if match['trigger'] != trigger]
     with open(rootFile, 'w') as rootFh:
         yaml.dump(data, rootFh)
