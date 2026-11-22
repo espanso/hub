@@ -1,0 +1,34 @@
+# AI GIF Maker Prompts
+matches:
+  - trigger: ":gifloop"
+    replace: "Minimalist animated illustration centered on a clean studio backdrop, smooth seamless 2-second loop motion, crisp silhouette and high contrast edges tailored for 256-color GIF playback"
+
+  - trigger: ":gifbday"
+    replace: "Festive animated birthday greeting card with flickering candle flames, floating confetti, warm golden glow, clean readable space for a custom name banner"
+
+  - trigger: ":gifemoji"
+    replace: "Cute compact mascot character bouncing with sparkle stars on a clean solid background, bold outlines, legible at 128x128 Discord emoji size, seamless idle loop"
+
+  - trigger: ":gifmeme"
+    replace: "Expressive stylized character doing a dramatic double-take reaction with animated speed lines, clear silhouette and bright facial contrast, crisp 2-second loop"
+
+  - trigger: ":gifcyber"
+    replace: "Looping neon cyan and magenta pixel reflection over wet rooftop tiles, gentle hologram flicker, static camera framing for clean loop boundaries"
+
+  - trigger: ":gifpixel"
+    replace: "16-bit retro pixel art cat sipping from a steaming mug at a desk lamp, subtle ear twitch and rising steam cycle on a tight 9-frame loop"
+
+  - trigger: ":gifholiday"
+    replace: "Warm cozy animated holiday wreath with twinkling fairy lights and drifting snow flurries, soft pastel framing for personalized seasonal greetings"
+
+  - trigger: ":giftoast"
+    replace: "Crisp flat-vector green checkmark badge bursting with geometric sparkles and celebration confetti, clean white backdrop for product changelogs"
+
+  - trigger: ":aigif"
+    replace: "https://aigifmaker.ai/?utm_source=espanso&utm_medium=package"
+
+  - trigger: ":gifdocs"
+    replace: "https://aigifmaker.readthedocs.io/en/latest/"
+
+  - trigger: ":gifpricing"
+    replace: "https://aigifmaker.ai/pricing?utm_source=espanso&utm_medium=package"
