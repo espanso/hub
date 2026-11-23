@@ -1,0 +1,9 @@
+name: veida-image-prompts
+title: Veida AI Image Prompts
+description: >-
+  Structured text-to-image and photo-editing prompt triggers for Espanso, covering editorial
+  portraits, product studio shots, photo restyling, lighting direction, poster layouts, and icons.
+version: 0.1.0
+author: Veida AI
+homepage: "https://veida.ai/"
+tags: ["ai", "image", "prompts", "photography", "design", "writing"]

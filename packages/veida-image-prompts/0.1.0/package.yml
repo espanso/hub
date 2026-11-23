@@ -1,0 +1,20 @@
+# Veida AI Image Prompts — https://veida.ai/
+# Structured text-to-image and photo-editing prompt snippets for Espanso.
+
+matches:
+  - trigger: ":vportrait"
+    replace: "Editorial portrait of $|$, natural window light, 85mm shallow depth of field, true skin texture, soft neutral backdrop, crisp focus on eyes"
+  - trigger: ":vproduct"
+    replace: "Studio product photography of $|$, clean matte cyclorama background, soft overhead diffused key light, subtle contact shadow, commercial catalog framing"
+  - trigger: ":vedit"
+    replace: "Edit the uploaded photo: $|$. Preserve the subject's identity, facial structure, and natural proportions while matching ambient lighting and color grade"
+  - trigger: ":vstyle"
+    replace: "Restyle the uploaded image into $|$ aesthetic while keeping the original composition, silhouette, and focal subject intact"
+  - trigger: ":vlight"
+    replace: "$|$, golden hour rim lighting, volumetric haze, balanced shadow detail, natural dynamic range, cinematic color grading"
+  - trigger: ":vposter"
+    replace: "Minimalist graphic poster featuring $|$, bold typographic hierarchy, clean negative space, Swiss editorial grid, high-contrast print texture"
+  - trigger: ":vicon"
+    replace: "Clean square app icon of $|$, centered geometric silhouette, smooth subtle gradient, crisp edges, readable at 32px, no text"
+  - trigger: ":vscene"
+    replace: "Wide architectural scene of $|$, balanced foreground and midground depth, crisp atmospheric perspective, realistic materials, natural daylight"
