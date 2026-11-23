@@ -1,0 +1,113 @@
+global_vars:
+  - name: snipbank_python
+    type: echo
+    params:
+      echo: "python" # Replace this with the path to your Python instance if automatic detection is failing
+
+matches:
+  - trigger: ",,.."
+    replace: "{{stdout}}"
+    vars:
+      - name: "last_choice"
+        type: script
+        params:
+          args:
+            - "{{snipbank_python}}"
+            - "%CONFIG%/match/packages/snipbank/lastused.py"
+            - get
+            - mode
+            - paste
+      - name: "f"
+        type: form
+        params:
+          layout: "SnipBank: Add Trigger\n\nTrigger:[[trigger]]\nSnippet:[[snippet]]\nType:[[replacetype]]\nMode:[[mode]]\nForm:[[form]]"
+          fields:
+            snippet:
+              multiline: true
+            form:
+              multiline: true
+            mode:
+              type: choice
+              default: "{{last_choice}}"
+              values:
+                - paste
+                - silent
+            replacetype:
+              type: choice
+              default: replace
+              values:
+                - replace
+                - markdown
+                - html
+      - name: stdout
+        type: script
+        params:
+          trim: false
+          args:
+            - "{{snipbank_python}}"
+            - "%CONFIG%/match/packages/snipbank/addtrigger.py"
+            - "{{f.trigger}}"
+            - "{{f.snippet}}"
+            - "{{f.form}}"
+            - "{{f.replacetype}}"
+            - "{{f.mode}}"
+      - name: set_last_choice
+        type: script
+        params:
+          args:
+            - "{{snipbank_python}}"
+            - "%CONFIG%/match/packages/snipbank/lastused.py"
+            - set
+            - mode
+            - "{{f.mode}}"
+  - trigger: "..,,"
+    replace: "{{stdout}}"
+    vars:
+      - name: list_triggers
+        type: script
+        params:
+          trim: true
+          args:
+            - "{{snipbank_python}}"
+            - "%CONFIG%/match/packages/snipbank/listtriggers.py"
+      - name: "last_choice"
+        type: script
+        params:
+          args:
+            - "{{snipbank_python}}"
+            - "%CONFIG%/match/packages/snipbank/lastused.py"
+            - get
+            - mode
+            - paste
+      - name: "f"
+        type: form
+        params:
+          layout: "SnipBank: Remove Trigger\n\nTrigger:\n[[trigger]]\nMode:\n[[mode]]"
+          fields:
+            trigger:
+              type: list
+              values: "{{list_triggers}}"
+            mode:
+              type: choice
+              default: "{{last_choice}}"
+              values:
+                - paste
+                - silent
+      - name: stdout
+        type: script
+        params:
+          trim: false
+          args:
+            - "{{snipbank_python}}"
+            - "%CONFIG%/match/packages/snipbank/removetrigger.py"
+            - "{{f.trigger}}"
+            - "{{f.mode}}"
+      - name: set_last_choice
+        type: script
+        params:
+          args:
+            - "{{snipbank_python}}"
+            - "%CONFIG%/match/packages/snipbank/lastused.py"
+            - set
+            - mode
+            - "{{f.mode}}"
