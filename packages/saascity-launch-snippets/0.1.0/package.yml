@@ -4,15 +4,15 @@
 matches:
   - trigger: ":sl-ph"
     replace: |
-      Hey everyone! I built {{product}} to solve {{problem}}.
+      Hey everyone! I built {{form.product}} to solve {{form.problem}}.
 
       What it does:
-      - {{feature_1}}
-      - {{feature_2}}
-      - {{feature_3}}
+      - {{form.feature_1}}
+      - {{form.feature_2}}
+      - {{form.feature_3}}
 
       How it works:
-      {{how_it_works}}
+      {{form.how_it_works}}
 
       I would love your feedback on the onboarding flow and pricing. Happy to answer any questions in the thread!
     vars:
@@ -26,30 +26,6 @@ matches:
             Feature 2: [[feature_2]]
             Feature 3: [[feature_3]]
             How it works: [[how_it_works]]
-      - name: product
-        type: echo
-        params:
-          echo: "{{form.product}}"
-      - name: problem
-        type: echo
-        params:
-          echo: "{{form.problem}}"
-      - name: feature_1
-        type: echo
-        params:
-          echo: "{{form.feature_1}}"
-      - name: feature_2
-        type: echo
-        params:
-          echo: "{{form.feature_2}}"
-      - name: feature_3
-        type: echo
-        params:
-          echo: "{{form.feature_3}}"
-      - name: how_it_works
-        type: echo
-        params:
-          echo: "{{form.how_it_works}}"
 
   - trigger: ":sl-dir"
     replace: |
@@ -99,7 +75,7 @@ matches:
         type: form
         params:
           layout: |
-            Landing URL: [[url]]
+            Base URL (no query/? or #): [[url]]
             utm_source: [[source]]
             utm_medium: [[medium]]
             utm_campaign: [[campaign]]
