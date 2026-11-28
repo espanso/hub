@@ -22,9 +22,6 @@ espanso install saascity-launch-snippets
 | `:sl-launch-x` | 4-post launch announcement thread outline |
 | `:sl-checklist` | Pre-launch technical SEO and QA checklist in Markdown |
 
-## Related Tools
-
-Free zero-signup launch utilities (including an interactive `robots.txt` generator and Domain Rating checker) are available at [saascity.io/free-tools](https://saascity.io/free-tools).
 
 ## License
 
