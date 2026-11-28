@@ -1,0 +1,7 @@
+name: "saascity-launch-snippets"
+title: "SaaS Launch & SEO Snippets"
+description: "Pure-YAML founder launch-day text snippets: directory pitches, Product Hunt maker comment, AI-crawler robots.txt, Open Graph tags, JSON-LD SoftwareApplication schema, UTM links, and release changelog templates."
+version: "0.1.0"
+author: "SaaSCity"
+homepage: "https://saascity.io/free-tools"
+tags: ["saas", "launch", "seo", "marketing", "founders", "html", "robots-txt", "utm"]
